@@ -15,6 +15,13 @@
 
 ---
 
+## Phase -1: Bedrock Foundations (The Ground Floor)
+- [ ] **[[Phase -1 - Bedrock Foundations/B0 - The Deep Learner's Toolkit\|B0]]:** The Deep Learner's Toolkit — *Mastery of Feynman Technique, Elaborative Interrogation, Franklin Copywork, Subgoal Labeling, and Blank-Sheet Retrieval.*
+- [ ] **[[Phase -1 - Bedrock Foundations/BM - Bedrock Mathematics\|BM]]:** Bedrock Mathematics (✓ *Lockhart, Arithmetic*, Khan Academy Pre-Alg → Alg I) — *Complete conceptual understanding of counting, base-10, fractions, negative multiplication, and algebraic balance scales.*
+- [ ] **[[Phase -1 - Bedrock Foundations/BW - Bedrock English and Grammar\|BW]]:** Bedrock English & Grammar (Huddleston & Pullum, Williams *Style*) — *Sentence diagramming, de-nominalization fluency, and 14 consecutive days of Franklin Copywork completed.*
+
+---
+
 ## Phase 0: Prerequisites (0–5 months)
 - [ ] **[[P1 - Learning How to Learn\|P1]]:** Learning how to learn (✓ *Mind for Numbers*, *Learning How to Learn*, *Make It Stick*, Dunlosky) — *Study system written in [[how-i-study.md]], weekly template created, 20 Anki cards created.*
 - [ ] **[[P2 - Reading, Thinking, and Writing\|P2]]:** Reading, thinking, writing (Adler, Keshav, Pólya, Hermans, McEnerney, Winston) — *Four builds exist in [[04 - Writing/]] & [[03 - Papers/]].*

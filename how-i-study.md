@@ -1,4 +1,4 @@
-# How I Will Study
+# How I Will Study: The Deep Learner's Manifesto
 *Last revised: 2026-09-25 (Next scheduled revision: 2027-03-25)*
 
 > [!QUOTE]
@@ -6,34 +6,34 @@
 
 ---
 
-## 1. Core Learning Principles
+## 1. Core Cognitive Learning Principles
 
 ### A. Retrieval Practice (Testing Effect)
 - Reading and highlighting create an **illusion of competence**. They feel fluent because the material is in front of the eyes, not because it is stored in long-term memory.
 - The only reliable way to cement understanding is active retrieval: close the book, shut the notes, and recall or explain the concept from scratch.
-- If a concept is important, convert it into an atomic Anki card (for pure recall) or solve an unassisted problem (for procedural skill).
+- Use the **Spaced Blank-Sheet Retrieval Protocol** after every study block: 15 minutes of zero-hint memory dump (`[[08 - Templates/Blank-Sheet Retrieval Template.md]]`).
 
-### B. Spacing (Distributed Practice)
-- Cramming creates temporary retrieval strength but zero storage strength.
-- Space repetitions across days, weeks, and months.
-- Let forgetting happen slightly between sessions; the cognitive effort of retrieving forgotten material triggers durable neural encoding.
+### B. The Feynman Technique (Radical Simplicity)
+- Strip all jargon. If an idea cannot be explained in simple words and physical analogies to a 12-year-old, the underlying concept is not understood.
+- Isolate friction points where you hesitate; those are your true knowledge gaps (`[[08 - Templates/Feynman Technique Note Template.md]]`).
 
-### C. Interleaving
-- Never block-practice identical problem types until boredom sets in.
-- Interleave related topics (e.g., alternating between proof strategies, algorithm categories, or math problems) so the brain learns to identify *which tool to use*, not just how to mechanically execute it.
+### C. Elaborative Interrogation (The "Why?" Reflex)
+- Never accept a formula, algebraic step, or grammatical rule passively.
+- Constantly interrogate: *"Why does this step follow from the previous one?", "What breaks if this assumption is dropped?"*
 
-### D. Focused vs. Diffuse Mode
-- **Focused mode:** High-intensity, distraction-free concentration on problem formulation and analytical depth.
-- **Diffuse mode:** Unconscious background processing during rest, walks, sleep, or low-cognitive activities.
-- When genuinely stuck on a hard problem or proof after deep focused effort, step away. Let diffuse mode process the connections before returning.
+### D. Subgoal Labeling & Worked Examples
+- Label the conceptual milestones inside worked math derivations and code architectures before attempting unassisted problem sets.
 
-### E. Reading Strategy
-- No speed reading. Speed reading trades comprehension for word velocity.
-- Use the **Three-Pass Method** for research papers:
-  1. Pass 1: Bird's eye view (title, abstract, intro, section headings, conclusions, references).
-  2. Pass 2: Main ideas, figures, equations, grasp the content.
-  3. Pass 3: Virtually re-implement the paper mentally from the author's assumptions.
-- For textbooks: read a section, close the book, summarize what was retained, then verify.
+### E. Spacing & Interleaving (Desirable Difficulties)
+- Cramming produces zero durable storage strength. Space repetitions over days, weeks, and months.
+- Interleave problem types (never drill 50 identical problems in a row); force the brain to practice *selecting the correct tool*.
+
+### F. Benjamin Franklin Copywork (For Writing & Grammar)
+- Master English prose by analyzing master passages, outlining them, putting them aside for 3 days, and reconstructing the prose from memory (`[[08 - Templates/Franklin Copywork Template.md]]`).
+
+### G. Focused vs. Diffuse Mode
+- **Focused mode:** High-intensity, distraction-free concentration on problem formulation.
+- **Diffuse mode:** Unconscious background processing during rest, walks, sleep, or low-cognitive activities. When genuinely stuck on a hard proof after deep focused effort, step away to let diffuse connections form.
 
 ---
 
@@ -41,8 +41,8 @@
 
 | Time Block | Focus | Purpose |
 | :--- | :--- | :--- |
-| **Weekday mornings (90 min before work)** | Hardest material | Protected time for proofs, theory, algorithmic problem sets. Uninterrupted focus. |
-| **Weekday evenings (60 min)** | Lectures, reading, Anki | Lower cognitive overhead: video lectures, reading companion texts, Anki card review. |
+| **Weekday mornings (90 min before work)** | Hardest material | Protected time for proofs, arithmetic first principles, theory, algorithms. Uninterrupted focus. |
+| **Weekday evenings (60 min)** | Lectures, reading, Anki, writing | Lower cognitive overhead: grammar drills, reading companion texts, Anki card review, daily 500 words. |
 | **Saturday (4–6 hrs)** | Build block | Deep continuous flow for systems programming, labs, compilers, CPU verilog, kernels. |
 | **Sunday (2 hrs)** | Review & planning | Problem set wrap-up, weekly review in [[log.md]], writing, planning next week's schedule. |
 
@@ -62,4 +62,4 @@
 
 | Date | Phase / Block Reached | Major Adjustments Made |
 | :--- | :--- | :--- |
-| 2026-09-25 | Phase 0 (Setup) | Initial system established from program guide. |
+| 2026-09-25 | Phase -1 (Bedrock Setup) | Added the 8 core cognitive study systems (Feynman, Franklin, Blank-Sheet, Elaborative Interrogation) and Bedrock Math/English. |

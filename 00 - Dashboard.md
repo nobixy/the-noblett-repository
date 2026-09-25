@@ -4,14 +4,14 @@
 ---
 
 > [!NOTE] Current Status
-> - **Active Phase / Block:** [[P1 - Learning How to Learn]]
-> - **Schedule Track:** Part-time (~20 hrs/wk) / Full-time (~45 hrs/wk)
+> - **Active Phase / Block:** **[[Phase -1 - Bedrock Foundations/BM - Bedrock Mathematics|Phase -1: Bedrock Math]]** & **[[Phase -1 - Bedrock Foundations/BW - Bedrock English and Grammar|Bedrock English]]**
+> - **Cognitive Arsenal:** [[Phase -1 - Bedrock Foundations/B0 - The Deep Learner's Toolkit|The Deep Learner's Toolkit (Feynman, Franklin, Blank-Sheet)]]
 > - **Daily Study Log:** [[log.md]]
-> - **Study System:** [[how-i-study.md]]
+> - **Living Study Manifesto:** [[how-i-study.md]]
 
 ---
 
-## ⚡ The Five Rules
+## ⚡ The Five Unbroken Rules
 > [!IMPORTANT]
 > 1. **No lecture without its problem set the same week.**
 > 2. **A block is done when the *Done when* line is true. Not before.**
@@ -21,9 +21,17 @@
 
 ---
 
+## 🧠 Cognitive Study Systems (Daily Arsenal)
+- **Feynman Technique:** Jargon-free child-level explanation (`[[08 - Templates/Feynman Technique Note Template.md]]`)
+- **Benjamin Franklin Copywork:** Reverse-engineering master prose (`[[08 - Templates/Franklin Copywork Template.md]]`)
+- **Spaced Blank-Sheet Retrieval:** 15-minute zero-hint recall dumps (`[[08 - Templates/Blank-Sheet Retrieval Template.md]]`)
+- **Elaborative Interrogation:** Continuous *"Why is this true?"* questioning
+
+---
+
 ## 📊 Always-on Habits Tracker
 - **Habit 1 — 500 words a day:** 5 days/wk in `[[04 - Writing/]]` (streak: 0 days)
-- **Habit 2 — Anki daily:** Pure recall cards (complexity classes, syscall semantics, cache coherence, distributions, TCP, LaTeX)
+- **Habit 2 — Anki daily:** Pure recall cards (complexity classes, syscall semantics, cache coherence, grammar rules, LaTeX)
 - **Habit 3 — One breadth subject per term:** ~4 hrs/wk + foreign language to B1 (30 min/day) in `[[06 - Breadth/]]`
 - **Habit 4 — Daily log:** 2 minutes every day in [[log.md]]
 - **Habit 5 — Pleasure reading:** 20–30 min nightly before bed
@@ -37,7 +45,8 @@
 
 | Term | CS / CE Blocks | Math | Science / Breadth | Reading / Deliverables | Milestone |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Phase 0** | [[P1 - Learning How to Learn\|P1]] · [[P2 - Reading, Thinking, and Writing\|P2]] · [[P4 - Programming On-Ramp\|P4]] · [[P5 - Tooling\|P5]] | [[P3 - Math Prerequisites\|P3 prereqs]] | — | Mind for Numbers, Make It Stick, Adler, Pólya, How to Prove It 1–3, Arithmetic, How Linux Works 1–7 | Phase 0 exit tests passed |
+| **Phase -1 (Bedrock)** | [[Phase -1 - Bedrock Foundations/B0 - The Deep Learner's Toolkit\|B0 Deep Learner]] · [[Phase -1 - Bedrock Foundations/BW - Bedrock English and Grammar\|BW English & Grammar]] | [[Phase -1 - Bedrock Foundations/BM - Bedrock Mathematics\|BM Bedrock Arithmetic]] | — | ✓ Lockhart *Arithmetic*, Huddleston & Pullum, Williams *Style* | First-principles arithmetic mastery; 14-day Franklin copywork |
+| **Phase 0** | [[P1 - Learning How to Learn\|P1]] · [[P2 - Reading, Thinking, and Writing\|P2]] · [[P4 - Programming On-Ramp\|P4]] · [[P5 - Tooling\|P5]] | [[P3 - Math Prerequisites\|P3 prereqs]] | — | Mind for Numbers, Make It Stick, Adler, Pólya, How to Prove It 1–3, How Linux Works 1–7 | Phase 0 exit tests passed |
 | **Y1 Fall** | [[01 - CS61A\|Block 1 · CS61A]] | [[02 - Calculus I\|Block 2 · Calc I]] | [[03 - Physics I\|Block 3 · Physics I]] | Williams *Style*, *What Is Math?* 1–2, *How Computers Really Work* | CS61A final passed |
 | **Y1 Jan** | [[04 - Nand2Tetris\|Block 4 · Nand2Tetris]] | — | — | — | Computer built from NAND |
 | **Y1 Spring** | [[05 - SICP\|Block 5 · SICP]] · [[06 - C Fluency\|Block 6 · C Fluency]] | [[07 - Multivariable Calculus\|Block 7 · Multivariable]] | [[08 - Physics II\|Block 8 · Physics II]] | Pinker *Sense of Style*, *What Is Math?* 6–8, *Joy of X*, *Shape* | Metacircular evaluator; 12 posts + 2k essay |
@@ -58,7 +67,7 @@
 - 📑 **Curriculum**: [[01 - Curriculum/]]
 - 💡 **Topic Notes**: [[02 - Notes/Math/|Math]] · [[02 - Notes/Systems/|Systems]] · [[02 - Notes/Theory/|Theory]] · [[02 - Notes/Hardware/|Hardware]] · [[02 - Notes/Languages/|Languages]]
 - 📄 **Paper Summaries**: [[03 - Papers/]] (Three-pass method)
-- ✍️ **Writing Repository**: [[04 - Writing/]] (Daily 500 words & technical essays)
+- ✍️ **Writing Repository**: [[04 - Writing/]] (Daily 500 words, Franklin copywork & technical essays)
 - 🛠️ **Project Specs & Lab Builds**: [[05 - Projects/]]
 - 🌍 **Breadth & Languages**: [[06 - Breadth/]]
 - 📖 **Owned Books & Shelf**: [[Your Shelf]]

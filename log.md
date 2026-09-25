@@ -4,16 +4,19 @@
 ---
 
 ## 2026-09-25 (Day 1)
-- **Active Block:** [[P1 - Learning How to Learn]]
+- **Active Focus:** [[Phase -1 - Bedrock Foundations/BM - Bedrock Mathematics|Bedrock Math (Arithmetic)]] & [[Phase -1 - Bedrock Foundations/BW - Bedrock English and Grammar|Bedrock English (Sentence Architecture)]]
+- **Cognitive Tools Primed:** [[Phase -1 - Bedrock Foundations/B0 - The Deep Learner's Toolkit|The Deep Learner's Toolkit]]
 - **What I did:**
-  - Initialized The Noblett Repository Obsidian vault for The Independent EECS Program.
-  - Setup core folder taxonomy, templates, curriculum maps, shelf inventory, and study system manifesto.
-  - Prepared Day 1 reading: *A Mind for Numbers* ch. 1–4 and *Learning How to Learn* Week 1.
+  - Made the conscious decision to rebuild from bedrock: zero illusions of competence, solidifying arithmetic from first principles and mastering English grammar as a logical engine.
+  - Initialized The Noblett Repository Obsidian vault with full MIT 6-3 + MEng curriculum, habit dashboards, and templates.
+  - Added Phase -1 Bedrock Foundations, including Feynman technique, Franklin copywork, and Blank-Sheet retrieval templates.
+  - Began Lockhart's *Arithmetic* Chapter 1 (counting and positional systems).
 - **What I got stuck on / Friction:**
-  - Establishing the initial routine and calendar blocking.
+  - Resisting the urge to rush forward to advanced topics; embracing the patience required to reconstruct first principles.
 - **What I will do tomorrow:**
-  - Read *A Mind for Numbers* ch. 5–8 and watch *Learning How to Learn* Week 2.
-  - Install and configure Anki; create the first 10 cards.
-  - Complete 500-word daily writing block.
+  - Read Lockhart's *Arithmetic* Chapters 1–2 (the nature of the four operations and geometric multiplication).
+  - Perform the first 15-minute Blank-Sheet recall drill on positional notation.
+  - Review core clause anatomy in Bedrock English: Subject, Verb, Object, and the elimination of nominalizations.
+  - Write daily 500 words on the meaning of numbers.
 
 ---
