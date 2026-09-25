@@ -1,0 +1,11 @@
+## {{date}}
+- **Active Block:** [[{{block_id}}]]
+- **Study / Build Time:** {{hours}} hrs
+- **Anki Reviewed:** [ ] Yes
+- **500 Words Completed:** [ ] Yes
+- **What I did:**
+  - 
+- **What I got stuck on / Friction:**
+  - 
+- **What I will do tomorrow:**
+  - 
