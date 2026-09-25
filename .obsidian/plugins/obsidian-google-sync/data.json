@@ -1,0 +1,27 @@
+{
+  "settings": {
+    "clientId": "101770639367-m68i9062hqmdgeavglolr3op2t44ukcu.apps.googleusercontent.com",
+    "clientSecret": "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",
+    "redirectUri": "",
+    "eventsFolder": "00 - Dashboard/Events",
+    "tasksFolder": "00 - Dashboard/Tasks",
+    "defaultCalendarId": "primary",
+    "taskListId": "@default",
+    "defaultTimezone": "UTC",
+    "syncOnModify": true,
+    "maxPatchesPerRun": 10,
+    "importOnStartup": true,
+    "importOnlyDefaultCalendar": true,
+    "importOnlyDefaultTaskList": true,
+    "importPastDays": 7,
+    "importFutureDays": 90,
+    "recurringEventFilterMode": "allow",
+    "recurringEventFilters": [],
+    "autoArchiveEnabled": true,
+    "autoArchiveDaysPast": 1,
+    "autoCloseTasksOnArchive": true
+  },
+  "tokens": null,
+  "lastLifecycleRun": 1790321027014,
+  "baselines": {}
+}
