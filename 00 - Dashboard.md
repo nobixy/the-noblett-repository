@@ -11,14 +11,15 @@
 
 ```dataview
 TABLE 
-  filter(rows, (r) => r.Event = "Wake Up")[0].Time AS "Wake Up Time",
-  filter(rows, (r) => r.Event = "Left Work")[0].Time AS "Left Work At",
-  filter(rows, (r) => r.Event = "Arrived Home")[0].Time AS "Arrived Home At"
+  filter(rows, (r) => contains(r.Event, "Wake Up"))[0].Time AS "Wake Up Time",
+  filter(rows, (r) => contains(r.Event, "Left Work"))[0].Time AS "Left Work At",
+  filter(rows, (r) => contains(r.Event, "Arrived Home"))[0].Time AS "Arrived Home At"
 FROM "Telemetry Log"
-WHERE type = "telemetry"
 FLATTEN file.lists AS item
 WHERE contains(item.text, "TELEMETRY:")
-GROUP BY regexreplace(item.text, ".*TELEMETRY: ([0-9]{4}-[0-9]{2}-[0-9]{2}).*", "$1") AS Date
+FLATTEN trim(split(item.text, "\|")[1]) AS Time
+FLATTEN trim(split(item.text, "\|")[2]) AS Event
+GROUP BY trim(replace(split(item.text, "\|")[0], "TELEMETRY:", "")) AS Date
 SORT Date DESC
 LIMIT 7
 ```

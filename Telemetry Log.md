@@ -6,3 +6,5 @@ type: telemetry
 
 | Date | Time | Event | Data |
 | ---- | ---- | ----- | ---- |
+- TELEMETRY: 2026-09-25 | 06:15 AM | Wake Up
+- TELEMETRY: 2026-09-25 | 05:03 PM | Left Work
