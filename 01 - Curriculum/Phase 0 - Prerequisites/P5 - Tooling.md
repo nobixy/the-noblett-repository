@@ -49,10 +49,10 @@ Tools shape thought. Trying to learn operating systems or algorithms while fumbl
 - Git + GitHub remote configured.
 - Modal editor fluency (Vim/Neovim).
 - LaTeX setup (via Overleaf or local TeX Live).
-- This `/notes` Obsidian git repo actively tracked with [[log.md]].
+- This `/notes` Obsidian git repo actively tracked with [[log]].
 
 ---
 
 ## 🏁 Done When
 > [!IMPORTANT]
-> [[log.md]] has 14 consecutive daily entries and you can navigate, edit, wrangle data, and compile software on a Linux box without touching a GUI mouse.
+> [[log]] has 14 consecutive daily entries and you can navigate, edit, wrangle data, and compile software on a Linux box without touching a GUI mouse.

@@ -28,7 +28,7 @@ First depth course in your secondary specialization track.
 ---
 
 ## 📖 Primary Syllabus & Core Content
-- [ ] Refer to the chosen Track B note in [[01 - Curriculum/Specializations/]]
+- [ ] Refer to the chosen Track B note in 01 - Curriculum/Specializations/
 
 ---
 

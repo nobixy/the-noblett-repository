@@ -42,8 +42,8 @@ Everything downstream assumes you know how memory, practice, and attention actua
 
 ## 🛠️ Build Requirement
 1. **Anki Setup:** Install Anki and write your first 20 cards from *A Mind for Numbers* and *Make It Stick*.
-2. **Weekly Template:** Finalize your personal weekly schedule (based on Appendix B.2) in [[how-i-study.md]].
-3. **Study System Document:** Write the one-page "how I will study" document in `[[how-i-study.md]]` — this becomes the living doc revised every 6 months.
+2. **Weekly Template:** Finalize your personal weekly schedule (based on Appendix B.2) in [[how-i-study]].
+3. **Study System Document:** Write the one-page "how I will study" document in `[[how-i-study]]` — this becomes the living doc revised every 6 months.
 
 ---
 
@@ -56,7 +56,7 @@ Everything downstream assumes you know how memory, practice, and attention actua
 >   - Focused vs. diffuse mode
 >   - The illusion of competence
 > - [ ] Your weekly template exists and is active.
-> - [ ] Your study system document exists in [[how-i-study.md]].
+> - [ ] Your study system document exists in [[how-i-study]].
 
 ---
 

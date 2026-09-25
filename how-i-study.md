@@ -11,11 +11,11 @@
 ### A. Retrieval Practice (Testing Effect)
 - Reading and highlighting create an **illusion of competence**. They feel fluent because the material is in front of the eyes, not because it is stored in long-term memory.
 - The only reliable way to cement understanding is active retrieval: close the book, shut the notes, and recall or explain the concept from scratch.
-- Use the **Spaced Blank-Sheet Retrieval Protocol** after every study block: 15 minutes of zero-hint memory dump (`[[08 - Templates/Blank-Sheet Retrieval Template.md]]`).
+- Use the **Spaced Blank-Sheet Retrieval Protocol** after every study block: 15 minutes of zero-hint memory dump (`[[08 - Templates/Blank-Sheet Retrieval Template]]`).
 
 ### B. The Feynman Technique (Radical Simplicity)
 - Strip all jargon. If an idea cannot be explained in simple words and physical analogies to a 12-year-old, the underlying concept is not understood.
-- Isolate friction points where you hesitate; those are your true knowledge gaps (`[[08 - Templates/Feynman Technique Note Template.md]]`).
+- Isolate friction points where you hesitate; those are your true knowledge gaps (`[[08 - Templates/Feynman Technique Note Template]]`).
 
 ### C. Elaborative Interrogation (The "Why?" Reflex)
 - Never accept a formula, algebraic step, or grammatical rule passively.
@@ -29,7 +29,7 @@
 - Interleave problem types (never drill 50 identical problems in a row); force the brain to practice *selecting the correct tool*.
 
 ### F. Benjamin Franklin Copywork (For Writing & Grammar)
-- Master English prose by analyzing master passages, outlining them, putting them aside for 3 days, and reconstructing the prose from memory (`[[08 - Templates/Franklin Copywork Template.md]]`).
+- Master English prose by analyzing master passages, outlining them, putting them aside for 3 days, and reconstructing the prose from memory (`[[08 - Templates/Franklin Copywork Template]]`).
 
 ### G. Focused vs. Diffuse Mode
 - **Focused mode:** High-intensity, distraction-free concentration on problem formulation.
@@ -44,7 +44,7 @@
 | **Weekday mornings (90 min before work)** | Hardest material | Protected time for proofs, arithmetic first principles, theory, algorithms. Uninterrupted focus. |
 | **Weekday evenings (60 min)** | Lectures, reading, Anki, writing | Lower cognitive overhead: grammar drills, reading companion texts, Anki card review, daily 500 words. |
 | **Saturday (4–6 hrs)** | Build block | Deep continuous flow for systems programming, labs, compilers, CPU verilog, kernels. |
-| **Sunday (2 hrs)** | Review & planning | Problem set wrap-up, weekly review in [[log.md]], writing, planning next week's schedule. |
+| **Sunday (2 hrs)** | Review & planning | Problem set wrap-up, weekly review in [[log]], writing, planning next week's schedule. |
 
 ---
 

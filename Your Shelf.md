@@ -29,12 +29,12 @@
 ## 🛒 Books to Acquire Next (In Order of Need)
 
 ### Phase -1 & Phase 0 Priority (Buy used or borrow from library)
-- [ ] **Huddleston & Pullum**, *A Student's Introduction to English Grammar* — Needed for [[Phase -1 - Bedrock Foundations/BW - Bedrock English and Grammar\|BW Bedrock English]]
-- [ ] **Williams & Bizup**, *Style: Lessons in Clarity and Grace* (or *Toward Clarity and Grace*) — Needed for [[Phase -1 - Bedrock Foundations/BW - Bedrock English and Grammar\|BW Bedrock English]]
-- [ ] **Brown, Roediger & McDaniel**, *Make It Stick* — Needed in [[P1 - Learning How to Learn\|P1]]
-- [ ] **Adler & Van Doren**, *How to Read a Book* — Needed in [[P2 - Reading, Thinking, and Writing\|P2]]
-- [ ] **Pólya**, *How to Solve It* — Needed in [[P2 - Reading, Thinking, and Writing\|P2]]
-- [ ] **Hermans**, *The Programmer's Brain* — Needed in [[P2 - Reading, Thinking, and Writing\|P2]]
+- [ ] **Huddleston & Pullum**, *A Student's Introduction to English Grammar* — Needed for [[Phase -1 - Bedrock Foundations/BW - Bedrock English and Grammar|BW Bedrock English]]
+- [ ] **Williams & Bizup**, *Style: Lessons in Clarity and Grace* (or *Toward Clarity and Grace*) — Needed for [[Phase -1 - Bedrock Foundations/BW - Bedrock English and Grammar|BW Bedrock English]]
+- [ ] **Brown, Roediger & McDaniel**, *Make It Stick* — Needed in [[P1 - Learning How to Learn|P1]]
+- [ ] **Adler & Van Doren**, *How to Read a Book* — Needed in [[P2 - Reading, Thinking, and Writing|P2]]
+- [ ] **Pólya**, *How to Solve It* — Needed in [[P2 - Reading, Thinking, and Writing|P2]]
+- [ ] **Hermans**, *The Programmer's Brain* — Needed in [[P2 - Reading, Thinking, and Writing|P2]]
 
 ### Year 1 Priority
 - [ ] **Nisan & Schocken**, *The Elements of Computing Systems, 2e* — Y1 Jan (site is free; physical book worth having)

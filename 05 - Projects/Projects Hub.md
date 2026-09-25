@@ -4,7 +4,7 @@
 ---
 
 > [!TIP]
-> Use `[[08 - Templates/Project Build Spec Template.md]]` to specify architectures, representation invariants, and test plans for every major build.
+> Use `[[08 - Templates/Project Build Spec Template]]` to specify architectures, representation invariants, and test plans for every major build.
 
 ## Major Curriculum Builds
 - [ ] **Phase 0:** Valgrind-clean 300-line C program, Hash Table & BST from scratch

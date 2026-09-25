@@ -4,7 +4,7 @@
 ---
 
 > [!TIP]
-> Use the template `[[08 - Templates/Paper Summary (3-Pass) Template.md]]` whenever starting a new paper note!
+> Use the template `[[08 - Templates/Paper Summary (3-Pass) Template]]` whenever starting a new paper note!
 
 ## Key Classic Papers to Read in the Curriculum
 - [ ] Lamport (1978), *"Time, Clocks, and the Ordering of Events in a Distributed System"*

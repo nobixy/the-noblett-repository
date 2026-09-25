@@ -78,7 +78,7 @@ Here, you start from absolute zero—not as a child memorizing flashcards, but a
 
 ## 🛠️ Build Requirement
 1. Work through all chapters and exercises of Lockhart's *Arithmetic*.
-2. Write a 1-page Feynman Explanation in `[[02 - Notes/Math/]]` answering:
+2. Write a 1-page Feynman Explanation in `02 - Notes/Math/` answering:
    - *"Why does invert-and-multiply work when dividing fractions?"*
    - *"Why is a negative multiplied by a negative always positive?"*
 3. Complete Khan Academy Pre-Algebra unit challenge tests with 100% mastery.

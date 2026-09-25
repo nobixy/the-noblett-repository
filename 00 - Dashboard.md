@@ -6,8 +6,8 @@
 > [!NOTE] Current Status
 > - **Active Phase / Block:** **[[Phase -1 - Bedrock Foundations/BM - Bedrock Mathematics|Phase -1: Bedrock Math]]** & **[[Phase -1 - Bedrock Foundations/BW - Bedrock English and Grammar|Bedrock English]]**
 > - **Cognitive Arsenal:** [[Phase -1 - Bedrock Foundations/B0 - The Deep Learner's Toolkit|The Deep Learner's Toolkit (Feynman, Franklin, Blank-Sheet)]]
-> - **Daily Study Log:** [[log.md]]
-> - **Living Study Manifesto:** [[how-i-study.md]]
+> - **Daily Study Log:** [[log]]
+> - **Living Study Manifesto:** [[how-i-study]]
 
 ---
 
@@ -22,18 +22,18 @@
 ---
 
 ## 🧠 Cognitive Study Systems (Daily Arsenal)
-- **Feynman Technique:** Jargon-free child-level explanation (`[[08 - Templates/Feynman Technique Note Template.md]]`)
-- **Benjamin Franklin Copywork:** Reverse-engineering master prose (`[[08 - Templates/Franklin Copywork Template.md]]`)
-- **Spaced Blank-Sheet Retrieval:** 15-minute zero-hint recall dumps (`[[08 - Templates/Blank-Sheet Retrieval Template.md]]`)
+- **Feynman Technique:** Jargon-free child-level explanation (`[[08 - Templates/Feynman Technique Note Template]]`)
+- **Benjamin Franklin Copywork:** Reverse-engineering master prose (`[[08 - Templates/Franklin Copywork Template]]`)
+- **Spaced Blank-Sheet Retrieval:** 15-minute zero-hint recall dumps (`[[08 - Templates/Blank-Sheet Retrieval Template]]`)
 - **Elaborative Interrogation:** Continuous *"Why is this true?"* questioning
 
 ---
 
 ## 📊 Always-on Habits Tracker
-- **Habit 1 — 500 words a day:** 5 days/wk in `[[04 - Writing/]]` (streak: 0 days)
+- **Habit 1 — 500 words a day:** 5 days/wk in `[[04 - Writing/Writing Hub|Writing Hub]]` (streak: 0 days)
 - **Habit 2 — Anki daily:** Pure recall cards (complexity classes, syscall semantics, cache coherence, grammar rules, LaTeX)
-- **Habit 3 — One breadth subject per term:** ~4 hrs/wk + foreign language to B1 (30 min/day) in `[[06 - Breadth/]]`
-- **Habit 4 — Daily log:** 2 minutes every day in [[log.md]]
+- **Habit 3 — One breadth subject per term:** ~4 hrs/wk + foreign language to B1 (30 min/day) in `[[06 - Breadth/Breadth and Humanities Hub|Breadth Hub]]`
+- **Habit 4 — Daily log:** 2 minutes every day in [[log]]
 - **Habit 5 — Pleasure reading:** 20–30 min nightly before bed
 - **From Year 2:** 1 Codeforces contest/month & 2 talks/year
 
@@ -64,12 +64,12 @@
 ---
 
 ## 📚 Vault Directories & Shortcuts
-- 📑 **Curriculum**: [[01 - Curriculum/]]
-- 💡 **Topic Notes**: [[02 - Notes/Math/|Math]] · [[02 - Notes/Systems/|Systems]] · [[02 - Notes/Theory/|Theory]] · [[02 - Notes/Hardware/|Hardware]] · [[02 - Notes/Languages/|Languages]]
-- 📄 **Paper Summaries**: [[03 - Papers/]] (Three-pass method)
-- ✍️ **Writing Repository**: [[04 - Writing/]] (Daily 500 words, Franklin copywork & technical essays)
-- 🛠️ **Project Specs & Lab Builds**: [[05 - Projects/]]
-- 🌍 **Breadth & Languages**: [[06 - Breadth/]]
+- 📑 **Curriculum**: 01 - Curriculum/
+- 💡 **Topic Notes**: 02 - Notes/Math/ · 02 - Notes/Systems/ · 02 - Notes/Theory/ · 02 - Notes/Hardware/ · 02 - Notes/Languages/
+- 📄 **Paper Summaries**: [[03 - Papers/Paper Reading Hub|Paper Reading Hub]] (Three-pass method)
+- ✍️ **Writing Repository**: [[04 - Writing/Writing Hub|Writing Hub]] (Daily 500 words, Franklin copywork & technical essays)
+- 🛠️ **Project Specs & Lab Builds**: [[05 - Projects/Projects Hub|Projects Hub]]
+- 🌍 **Breadth & Languages**: [[06 - Breadth/Breadth and Humanities Hub|Breadth Hub]]
 - 📖 **Owned Books & Shelf**: [[Your Shelf]]
 - 🔍 **Reference Material**:
   - [[07 - Reference/The Independent EECS Program.pdf|Original PDF Curriculum]]

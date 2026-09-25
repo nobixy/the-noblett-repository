@@ -28,7 +28,7 @@ Second depth course in primary specialization; complete the major Track A build.
 ---
 
 ## 📖 Primary Syllabus & Core Content
-- [ ] Refer to the chosen Track note in [[01 - Curriculum/Specializations/]]
+- [ ] Refer to the chosen Track note in 01 - Curriculum/Specializations/
 
 ---
 

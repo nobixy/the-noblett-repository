@@ -46,10 +46,10 @@ You're about to read thousands of pages of textbooks and hundreds of papers. Rea
 ---
 
 ## 🛠️ Build Requirement (All Four Must Exist in Vault)
-1. **Adler-style analytical reading** of one non-fiction book you've already read (write a 1-page synopsis with structure, claims, disagreements in `[[04 - Writing/]]`).
-2. **Three-pass read of one paper** (e.g., Lamport's *"Time, Clocks"* or Ritchie & Thompson's *"The UNIX Time-Sharing System"*) saved in `[[03 - Papers/]]`.
+1. **Adler-style analytical reading** of one non-fiction book you've already read (write a 1-page synopsis with structure, claims, disagreements in `[[04 - Writing/Writing Hub|Writing Hub]]`).
+2. **Three-pass read of one paper** (e.g., Lamport's *"Time, Clocks"* or Ritchie & Thompson's *"The UNIX Time-Sharing System"*) saved in `[[03 - Papers/Paper Reading Hub|Paper Reading Hub]]`.
 3. **Five hard math or puzzle problems** solved with Pólya's four steps explicitly written out.
-4. **14 straight days of 500 words** written and logged in `[[04 - Writing/]]`.
+4. **14 straight days of 500 words** written and logged in `[[04 - Writing/Writing Hub|Writing Hub]]`.
 
 ---
 

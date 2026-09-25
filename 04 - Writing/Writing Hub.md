@@ -4,7 +4,7 @@
 ---
 
 > [!INFO] Writing Rules
-> - Use `[[08 - Templates/500-Word Essay Template.md]]` for daily notes and essays.
+> - Use `[[08 - Templates/500-Word Essay Template]]` for daily notes and essays.
 > - Publish technical blog posts to an external site/blog.
 
 ## Milestone Deliverables
