@@ -58,7 +58,35 @@
 
 ---
 
-## 4. Revision History
+## 4. Time, Honestly
+- MIT counts one "unit" as roughly 1 hr/wk for a 14-week term; a 12-unit subject is ~170 hours.
+- The whole program is roughly **6,500–8,000 hours**.
+- Below 15 hrs/wk, cut scope rather than extending the timeline beyond 8 years.
+
+---
+
+## 5. Community — Do Not Skip
+- **Recurse Center (`recurse.com`):** Free, self-directed 6- or 12-week retreat (remote or NYC). Highest-value single thing available to a self-taught programmer. Apply after Block 12.
+- **Study Partner:** One person on the same path, weekly video call, screen-share psets. Roughly doubles completion rates.
+- **Communities:** Papers We Love, OSSU Discord, language Discords (Rust, Zig, Haskell), auditing local university lectures.
+
+---
+
+## 6. Notes System Taxonomy
+```text
+/notes
+  how-i-study.md               # written in P1, revised every 6 months
+  log.md                       # daily
+  /math /systems /theory ...   # one file per topic
+  /papers                      # one file per paper, three-pass format
+  /writing                     # every essay, dated
+  /projects                    # one repo per build
+```
+*(This vault implements this exact hierarchy!)*
+
+---
+
+## 7. Revision History
 
 | Date | Phase / Block Reached | Major Adjustments Made |
 | :--- | :--- | :--- |

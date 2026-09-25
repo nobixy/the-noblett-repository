@@ -13,3 +13,23 @@
 - **Year 3:** 8,000-word survey of one subfield (30+ cited sources) + 2 public recorded talks.
 - **Year 4:** Capstone proposal (3,000 words: problem, related work, plan, evaluation criteria).
 - **Year 5:** 15,000–25,000-word Capstone Thesis + 30-minute recorded talk.
+
+---
+
+## Writing Books (Assigned Chronologically)
+1. **Williams & Bizup**, *Style: Lessons in Clarity and Grace* — The single most useful book on English prose. Do the exercises. Reread every two years.
+2. **Pinker**, *The Sense of Style* — Read chapter 3 ("The Curse of Knowledge") twice.
+3. **Stanford Online / Kristin Sainani**, *Writing in the Sciences* (Free, 8 weeks) — Clutter, verbs, paragraphs, manuscript structure, peer review.
+4. **Zobel**, *Writing for Computer Science, 3rd ed.* — Algorithms, experiments, honest graphs.
+5. **Booth, Colomb & Williams**, *The Craft of Research, 5th ed.* — Closest thing to a research-methods course in book form.
+6. **Schimel**, *Writing Science* — Story structure for technical papers. Pair with Knuth, Larrabee & Roberts, *Mathematical Writing* (free PDF).
+7. **Zinsser**, *On Writing Well* — Voice and ruthlessness about clutter.
+8. **Graff & Birkenstein**, *They Say / I Say* — Templates for entering an academic conversation.
+9. **McPhee**, *Draft No. 4* — The craft of narrative structure and non-fiction.
+
+### Additional Writing References
+- Thomas & Turner, *Clear and Simple as the Truth*
+- Dupré, *BUGS in Writing* (CS-specific errors)
+- Heinrichs, *Thank You for Arguing*
+- Prose, *Reading Like a Writer*
+- Google Developer Documentation Style Guide (free)
