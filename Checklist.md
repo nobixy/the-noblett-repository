@@ -68,7 +68,7 @@
 - [ ] **[[21 - Databases|Block 21]]:** Databases (CMU 15-445, BusTub, DDIA) — *All four BusTub projects pass Gradescope; DDIA read cover to cover.*
 - [ ] **[[22 - Statistics|Block 22]]:** Statistics (Wasserman *All of Statistics*, McElreath *Statistical Rethinking*) — *Real dataset MLE, CI, hypothesis tests, MCMC Bayesian inference.*
 - [ ] **Year 3 Breadth (HASS):** MIT 14.01 Microecon / MIT 5.111 / 7.01SC Science.
-- [ ] **Year 3 Writing Deliverable:** 8,000-word survey of one subfield (30+ cited sources) + 2 public recorded talks.
+- [ ] **Year 3 Writing Deliverable:** 8,000-word survey of one subfield (30+ cited sources, adhering to PRISMA guidelines) + reproducible environments (e.g., Docker) for all code + 2 public recorded talks.
 
 ---
 

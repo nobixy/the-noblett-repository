@@ -86,8 +86,24 @@
 
 ---
 
-## 7. Revision History
+## 7. Mindset, Habits, and Research Practices
+
+### A. Growth Mindset & Grit
+- **Grit (Angela Duckworth):** The combination of passion and perseverance for long-term goals is the ultimate predictor of success.
+- **Growth Mindset:** Treat failures as data. Intelligence is developed through struggle.
+
+### B. Deep Work
+- **Deep Work (Cal Newport):** Protect long blocks of time for distraction-free concentration to push cognitive limits. Eliminate shallow work.
+
+### C. CS Research Practices
+- **Version Control:** Commit early and cleanly using Git.
+- **Reproducibility:** Code must be reproducible. Use Docker to build reliable, reproducible execution environments.
+
+---
+
+## 8. Revision History
 
 | Date | Phase / Block Reached | Major Adjustments Made |
 | :--- | :--- | :--- |
 | 2026-09-25 | Phase -1 (Bedrock Setup) | Added the 8 core cognitive study systems (Feynman, Franklin, Blank-Sheet, Elaborative Interrogation) and Bedrock Math/English. |
+| 2026-09-25 | Phase -1 (Mindset Update) | Added Mindset, Deep Work, and CS Research Practices sections. |

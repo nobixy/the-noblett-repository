@@ -41,6 +41,7 @@ LIMIT 7
 ---
 
 ## 📈 The Vault
+- 🧠 **Mindset & Habits**: [[09 - Mindset & Habits/Mindset Hub|Mindset Hub]]
 - 📑 **Curriculum**: 01 - Curriculum/ ([[01 - Curriculum/Specializations/Specializations Hub|Specializations Hub]])
 - 📄 **Paper Summaries**: [[03 - Papers/Paper Reading Hub|Paper Reading Hub]] (Three-pass method)
 - ✍️ **Writing Repository**: [[04 - Writing/Writing Hub|Writing Hub]] (Daily 500 words, Franklin copywork & technical essays)
