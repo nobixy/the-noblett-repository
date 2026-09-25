@@ -1,5 +1,9 @@
 [
   "opencode",
   "obsidian-excalidraw-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "dataview",
+  "templater-obsidian",
+  "obsidian-advanced-uri",
+  "quickadd"
 ]
