@@ -41,9 +41,9 @@ Everything downstream assumes you know how memory, practice, and attention actua
 ---
 
 ## 🛠️ Build Requirement
-1. **Anki Setup:** Install Anki and write your first 20 cards from *A Mind for Numbers* and *Make It Stick*.
-2. **Weekly Template:** Finalize your personal weekly schedule (based on Appendix B.2) in [[how-i-study]].
-3. **Study System Document:** Write the one-page "how I will study" document in `[[how-i-study]]` — this becomes the living doc revised every 6 months.
+1. **Anki Setup:** Install Anki and write your first 20 cards from *A Mind for Numbers* and *Make It Stick*, automated via `python` scripts or manual card decks tracked in `git`.
+2. **Weekly Template:** Finalize your personal weekly schedule (based on Appendix B.2) in [[how-i-study]] using `bash` and markdown text templates.
+3. **Study System Document:** Write the one-page "how I will study" document in [[how-i-study]] — this becomes the living doc revised every 6 months.
 
 ---
 
@@ -60,12 +60,16 @@ Everything downstream assumes you know how memory, practice, and attention actua
 
 ---
 
-## 📝 Study Notes & Reflections
-*(Track atomic thoughts, lecture takeaways, and questions here)*
+## 📝 Study Notes, Psets & Proofs
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[P1 - Learning How to Learn — Worked Proofs]]
 
 ---
 
-## 🔄 Appendix A Alternatives
+## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working:*
 - Cal Newport, *Deep Work* (focus)
 - Ericsson & Pool, *Peak* (deliberate practice)

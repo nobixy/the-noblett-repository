@@ -1,3 +1,11 @@
+---
+title: "Breadth & Humanities Hub"
+type: hub
+tags:
+  - hub
+  - navigation
+---
+
 # Breadth & Humanities Hub
 *Habit 3: One breadth subject per term (~4 hrs/wk) + One foreign language to B1 (30 min/day).*
 

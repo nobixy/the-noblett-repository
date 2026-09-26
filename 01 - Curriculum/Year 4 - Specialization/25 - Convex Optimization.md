@@ -13,6 +13,8 @@ date_completed: ""
 
 # Block 25 — Convex Optimization (Stanford EE364A & Boyd)
 
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Math/Math Index|Math Index]]
+
 > [!INFO] Block Overview
 > - **Term / Position:** Year 4 Fall
 > - **Estimated Hours:** ~150 hrs
@@ -39,21 +41,35 @@ Optimization is the unified mathematical engine underlying machine learning, con
 ---
 
 ## 🛠️ Build Requirement
-Formulate and solve a real-world optimization problem using CVXPY (portfolio optimization, model predictive control, or SVM formulation) and derive its KKT optimality conditions by hand.
+Formulate and solve large-scale convex optimization problems in `python` using `numpy`, `scipy`, `cvxpy`, and `pytest`, verified against formal derivations written in `latex`:
+1. **Primal-Dual Interior-Point Solver**: Implement a custom barrier method and infeasible primal-dual interior-point algorithm from scratch in Python/NumPy for Quadratic Programs (QP) and Second-Order Cone Programs (SOCP).
+2. **First-Order Accelerated Methods**: Code Nesterov's accelerated gradient descent and FISTA (Fast Iterative Shrinkage-Thresholding Algorithm) for $\ell_1$-regularized Lasso; empirically confirm the $\mathcal{O}(1/k^2)$ convergence rate versus standard gradient descent $\mathcal{O}(1/k)$.
+3. **KKT Sensitivity & Duality**: Solve a high-dimensional portfolio allocation or Model Predictive Control (MPC) problem using `cvxpy`; analytically derive the Karush-Kuhn-Tucker (KKT) conditions and verify Lagrange multiplier shadow prices against CVXPY dual variables.
+4. **Toolchain & Verification**: Automated regression unit tests orchestrated with `pytest`, build pipelines configured in `bash`, and version-controlled with `git`.
 
 ---
 
 ## 🏁 Done When
 > [!IMPORTANT]
-> Stanford EE364A homework sets 1 through 8 completed.
+> Stanford EE364A homework sets 1 through 8 completed. Custom interior-point solver matches CVXPY optimal objective value to within $10^{-7}$ relative tolerance. Proofs below are derived and verified.
 
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[25 - Convex Optimization — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - Stanford EE364B (sequel); Nocedal & Wright, Numerical Optimization.
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Math/Math Index|Math Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 4 - Specialization/24 - Theory of Computation|← 24 - Theory of Computation]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 4 - Specialization/26 - Specialization A1|26 - Specialization A1 →]]

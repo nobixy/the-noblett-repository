@@ -74,8 +74,8 @@ The two master rules that instantly transform weak, muddy sentences into surgica
 
 ## 🛠️ Build Requirement
 1. **Sentence Parsing:** Take 10 complex sentences from technical or literary texts and diagram their Subjects, Verbs, Objects, and Dependent Clauses.
-2. **De-Nominalization Drills:** Rewrite 10 bloated academic sentences into punchy, active prose in `[[04 - Writing/Writing Hub|Writing Hub]]`.
-3. **Benjamin Franklin Copywork:** Complete 14 consecutive days of Franklin Copywork exercises using the `[[08 - Templates/Franklin Copywork Template]]`.
+2. **De-Nominalization Drills:** Rewrite 10 bloated academic sentences into punchy, active prose in [[04 - Writing/Writing Hub|Writing Hub]].
+3. **Benjamin Franklin Copywork:** Complete 14 consecutive days of Franklin Copywork exercises using the [[08 - Templates/Franklin Copywork Template]].
 
 ---
 
@@ -83,4 +83,4 @@ The two master rules that instantly transform weak, muddy sentences into surgica
 > [!IMPORTANT]
 > - [ ] You can parse and diagram any compound-complex English sentence without hesitation.
 > - [ ] You spot and eliminate nominalizations by reflex.
-> - [ ] You have completed 14 consecutive days of Benjamin Franklin copywork logged in `[[04 - Writing/Writing Hub|Writing Hub]]`.
+> - [ ] You have completed 14 consecutive days of Benjamin Franklin copywork logged in [[04 - Writing/Writing Hub|Writing Hub]].

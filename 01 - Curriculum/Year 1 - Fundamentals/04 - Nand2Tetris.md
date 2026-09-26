@@ -13,6 +13,8 @@ date_completed: ""
 
 # Block 4 — From NAND to Tetris (Hardware & Software Hierarchy)
 
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Hardware/Hardware Index|Hardware Index]]
+
 > [!INFO] Block Overview
 > - **Term / Position:** Year 1 January Intensive
 > - **Estimated Hours:** ~150 hrs
@@ -42,7 +44,11 @@ Build a whole computer, from elementary logic gates to a running high-level game
 ---
 
 ## 🛠️ Build Requirement
-All twelve Nand2Tetris projects: Logic gates → ALU → CPU → Assembler → VM Translator → Compiler → OS.
+Complete all twelve Nand2Tetris projects using the Hardware Simulator, `python` (or `c` / `rust`) for the software suite, and Hack `assembly` in `jack`:
+1. **Hardware Suite (Projects 1–5)**: Design chips in HDL: logic gates → 16-bit ALU → registers & RAM → Hack CPU → complete computer architecture, verified with hardware test scripts.
+2. **Software Suite (Projects 6–8)**: Implement Hack assembler, two-tier virtual machine translator, and runtime stack in `python` or `c`.
+3. **Compiler & OS (Projects 9–12)**: Implement full syntax analyzer and code generator for the `jack` language, and write the complete Hack standard library OS.
+4. **Toolchain & Verification**: Automated regression testing in `bash`, version-controlled with `git`.
 
 ---
 
@@ -53,10 +59,20 @@ All twelve Nand2Tetris projects: Logic gates → ALU → CPU → Assembler → V
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[04 - Nand2Tetris — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - No real substitute. Do it.
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Hardware/Hardware Index|Hardware Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 1 - Fundamentals/03 - Physics I|← 03 - Physics I]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 1 - Fundamentals/04a - Differential Equations Bridge|04a - Differential Equations Bridge →]]

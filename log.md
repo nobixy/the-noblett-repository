@@ -1,11 +1,13 @@
 # Master Daily Study Log
 *Habit 4: What you did, what you got stuck on, what you'll do tomorrow. Two minutes. Fifteen years from now this is the most valuable file you own.*
 
+> **Templates:** Daily entries use [[08 - Templates/Daily Log Entry Template|Daily Log Template]] · End-of-week synthesis uses [[08 - Templates/Weekly Review Template|Weekly Review Template]].
+
 ---
 
 ## 2026-09-25 (Day 1)
-- **Active Focus:** [[Phase -1 - Bedrock Foundations/BM - Bedrock Mathematics|Bedrock Math (Arithmetic)]] & [[Phase -1 - Bedrock Foundations/BW - Bedrock English and Grammar|Bedrock English (Sentence Architecture)]]
-- **Cognitive Tools Primed:** [[Phase -1 - Bedrock Foundations/B0 - The Deep Learner's Toolkit|The Deep Learner's Toolkit]]
+- **Active Focus:** [[BM - Bedrock Mathematics|Bedrock Math (Arithmetic)]] & [[BW - Bedrock English and Grammar|Bedrock English (Sentence Architecture)]]
+- **Cognitive Tools Primed:** [[B0 - The Deep Learner's Toolkit|The Deep Learner's Toolkit]]
 - **What I did:**
   - Made the conscious decision to rebuild from bedrock: zero illusions of competence, solidifying arithmetic from first principles and mastering English grammar as a logical engine.
   - Initialized The Noblett Repository Obsidian vault with full MIT 6-3 + MEng curriculum, habit dashboards, and templates.

@@ -1,3 +1,11 @@
+---
+title: "Theory & Algorithms Topic Notes"
+type: index
+tags:
+  - index
+  - navigation
+---
+
 # Theory & Algorithms Topic Notes
 *Per Appendix B.5: One atomic note per algorithmic paradigm or theoretical reduction.*
 

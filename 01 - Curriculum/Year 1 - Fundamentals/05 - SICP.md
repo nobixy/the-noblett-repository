@@ -13,6 +13,8 @@ date_completed: ""
 
 # Block 5 — Structure and Interpretation of Computer Programs (SICP)
 
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Languages/Languages Index|Languages Index]]
+
 > [!INFO] Block Overview
 > - **Term / Position:** Year 1 Spring
 > - **Estimated Hours:** ~120 hrs
@@ -37,7 +39,10 @@ MIT's legendary 6.001 for thirty years. Explores CS61A's deepest ideas at full d
 ---
 
 ## 🛠️ Build Requirement
-Implement the Metacircular Evaluator (§4.1) and the Lazy Evaluator (§4.2) from scratch.
+Implement the Metacircular Evaluator (§4.1) and the Lazy Evaluator (§4.2) from scratch in `scheme` (MIT/GNU Scheme or Racket) or `python`:
+1. **Core Evaluator**: Parse and evaluate environments, procedures, closures, dynamic scoping, and macro expansions in `scheme`.
+2. **Lazy Evaluator & Streams**: Construct delayed thunks with memoization, infinite stream pipelines, and non-deterministic amb-evaluator.
+3. **Toolchain & Verification**: Automated evaluation test suite orchestrated with `bash` and version-controlled with `git`.
 
 ---
 
@@ -48,10 +53,20 @@ Implement the Metacircular Evaluator (§4.1) and the Lazy Evaluator (§4.2) from
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[05 - SICP — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - SICP: JavaScript Edition; Brian Harvey's CS61A Scheme lectures (YouTube).
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Languages/Languages Index|Languages Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 1 - Fundamentals/04a - Differential Equations Bridge|← 04a - Differential Equations Bridge]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 1 - Fundamentals/06 - C Fluency|06 - C Fluency →]]

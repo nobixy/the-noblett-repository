@@ -13,6 +13,8 @@ date_completed: ""
 
 # Block 9 — Computer Systems: A Programmer's Perspective (CS:APP)
 
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Systems/Systems Index|Systems Index]]
+
 > [!INFO] Block Overview
 > - **Term / Position:** Year 2 Fall
 > - **Estimated Hours:** ~200 hrs
@@ -44,7 +46,12 @@ The single highest-payoff course in CS. Explains everything between your high-le
 ---
 
 ## 🛠️ Build Requirement
-All seven CMU 15-213 labs from csapp.cs.cmu.edu/3e/labs.html: Data Lab, Bomb Lab, Attack Lab, Cache Lab, Shell Lab, Malloc Lab, Proxy Lab.
+Complete all seven canonical CMU 15-213 (CS:APP) systems labs in `c` on `linux` using `gcc`, `gdb`, `make`, `valgrind`, and `x86` `assembly`:
+1. **Data Lab & Bomb Lab**: Bitwise manipulation in `c`, reverse engineering binary bombs in `gdb` via disassembled `x86` `assembly`.
+2. **Attack Lab**: Stack smashing buffer overflows and Return-Oriented Programming (ROP) gadget chains.
+3. **Cache Lab**: Matrix transpose cache simulator and cache-miss minimization in `c`.
+4. **Shell Lab & Malloc Lab**: Unix shell with job control and signals, dynamic memory allocator with segregated free lists passing `valgrind` tests with $\ge 90$ throughput/utilization score.
+5. **Proxy Lab**: Multi-threaded concurrent caching HTTP web proxy with POSIX threads and robust socket I/O.
 
 ---
 
@@ -55,10 +62,20 @@ All seven CMU 15-213 labs from csapp.cs.cmu.edu/3e/labs.html: Data Lab, Bomb Lab
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[09 - Computer Systems — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - Berkeley CS61C (cs61c.org); Dive Into Systems (free online).
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Systems/Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 1 - Fundamentals/08a - Circuits and Electronics Bridge|← 08a - Circuits and Electronics Bridge]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 2 - Systems/10 - Math for CS|10 - Math for CS →]]

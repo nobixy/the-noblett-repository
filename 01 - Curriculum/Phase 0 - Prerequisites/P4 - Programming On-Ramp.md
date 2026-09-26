@@ -3,7 +3,7 @@ block_id: P4
 title: "Programming On-Ramp"
 term: "Phase 0 (0–5 mo)"
 status: not-started
-hours_estimate: 125 # 100–150
+hours_estimate: 125
 hours_actual: 0
 primary_resource: "Harvard CS50x"
 milestone: "Valgrind-clean 300-line C program, Hash Table & BST from scratch"
@@ -51,6 +51,27 @@ Before diving into Berkeley CS61A, you need fundamental operational competence w
 
 ---
 
+## 🛠️ Build Requirement
+Implement a 300-line modular data structure library in `c` (hash table with separate chaining and a self-balancing binary search tree), compiled with `gcc` / `clang` using `-Wall -Wextra -Werror`, debugged with `gdb`, and rigorously verified with 0 memory leaks and 0 errors under `valgrind`.
+
+---
+
 ## 🏁 Done When
 > [!IMPORTANT]
 > The cold exit test passes cleanly under `valgrind`.
+
+---
+
+## 📝 Study Notes, Psets & Proofs
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[P4 - Programming On-Ramp — Worked Proofs]]
+
+---
+
+## 🔄 Appendix A Alternatives (Failover)
+*Only consult if primary genuinely isn't working after two honest weeks:*
+- King, *C Programming: A Modern Approach, 2nd ed.*
+- University of Helsinki, *Python Programming MOOC*

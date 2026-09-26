@@ -1,3 +1,11 @@
+---
+title: "Systems Topic Notes"
+type: index
+tags:
+  - index
+  - navigation
+---
+
 # Systems Topic Notes
 *Per Appendix B.5: One atomic note per systems mechanism or architectural principle.*
 
@@ -13,5 +21,7 @@
 ## Reference Courses
 - [[09 - Computer Systems]] (CS:APP)
 - [[16 - Operating Systems]] (MIT 6.1810)
+- [[19 - Networking]] (Stanford CS144)
 - [[21 - Databases]] (CMU 15-445)
 - [[23 - Distributed Systems]] (MIT 6.5840)
+- [[27 - Intensive Cryptopals or TLA+]] (Cryptopals / TLA+)

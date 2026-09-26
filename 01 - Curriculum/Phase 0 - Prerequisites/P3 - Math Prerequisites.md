@@ -3,7 +3,7 @@ block_id: P3
 title: "Math Prerequisites"
 term: "Phase 0 (0–5 mo)"
 status: not-started
-hours_estimate: 90 # 60–120
+hours_estimate: 90
 hours_actual: 0
 primary_resource: "Khan Academy -> Velleman, How to Prove It (ch 1-3) -> Lockhart, Arithmetic"
 milestone: "Cold exit test passed; induction & contradiction proofs written"
@@ -50,12 +50,27 @@ Mathematics in EECS is not calculation; it is proof and structure. Before starti
 
 ---
 
+## 🛠️ Build Requirement
+Write rigorous, complete formal solutions to all Velleman Chapters 1–3 exercises and the Cold Exit Test in `latex`, verifying analytical expressions and combinatorial identities using `python` and SymPy.
+
+---
+
 ## 🏁 Done When
 > [!IMPORTANT]
 > The cold exit test passes and you can write a clean induction proof and a clean contradiction proof from scratch on paper without notes.
 
 ---
 
-## 🔄 Appendix A Alternatives
+## 📝 Study Notes, Psets & Proofs
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[P3 - Math Prerequisites — Worked Proofs]]
+
+---
+
+## 🔄 Appendix A Alternatives (Failover)
+*Only consult if primary genuinely isn't working after two honest weeks:*
 - Richard Hammack, *Book of Proof* (free PDF)
 - Paul Lockhart, *A Mathematician's Lament* (free essay)

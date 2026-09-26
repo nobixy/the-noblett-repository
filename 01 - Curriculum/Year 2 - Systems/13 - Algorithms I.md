@@ -13,6 +13,8 @@ date_completed: ""
 
 # Block 13 — Introduction to Algorithms (MIT 6.006)
 
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Theory/Theory Index|Theory Index]]
+
 > [!INFO] Block Overview
 > - **Term / Position:** Year 2 Spring
 > - **Estimated Hours:** ~180 hrs
@@ -37,7 +39,7 @@ Algorithmic thinking is the core engine of computer science: design patterns, as
 ---
 
 ## 🛠️ Build Requirement
-Implement every major data structure and algorithm from scratch in C or Python. Write clean proofs of runtime and invariant correctness.
+Implement every major data structure and algorithm from scratch in `c` and `python`. Verify all implementations with exhaustive unit tests and fuzzing under `pytest`, check memory safety with `valgrind`, benchmark against large random graph inputs, and typeset formal runtime and correctness proofs in `latex`.
 
 ---
 
@@ -48,10 +50,20 @@ Implement every major data structure and algorithm from scratch in C or Python. 
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[13 - Algorithms I — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - Jeff Erickson, Algorithms; Skiena, The Algorithm Design Manual 3e; Tim Roughgarden, Algorithms Illuminated.
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Theory/Theory Index|Theory Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 2 - Systems/12 - Interpreters|← 12 - Interpreters]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 2 - Systems/14 - Computer Architecture|14 - Computer Architecture →]]

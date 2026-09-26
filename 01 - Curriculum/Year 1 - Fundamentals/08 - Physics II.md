@@ -13,6 +13,8 @@ date_completed: ""
 
 # Block 8 — Electricity and Magnetism (MIT 8.02SC)
 
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Hardware/Hardware Index|Hardware Index]]
+
 > [!INFO] Block Overview
 > - **Term / Position:** Year 1 Spring
 > - **Estimated Hours:** ~100 hrs
@@ -49,10 +51,20 @@ Work all assigned problem sets and review recitation derivations.
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[08 - Physics II — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - Purcell & Morin, Electricity and Magnetism; The Feynman Lectures on Physics Vol. II.
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Hardware/Hardware Index|Hardware Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 1 - Fundamentals/07 - Multivariable Calculus|← 07 - Multivariable Calculus]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 1 - Fundamentals/08a - Circuits and Electronics Bridge|08a - Circuits and Electronics Bridge →]]

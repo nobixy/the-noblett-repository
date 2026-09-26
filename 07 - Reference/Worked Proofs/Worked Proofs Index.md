@@ -1,0 +1,52 @@
+---
+title: "Worked Proofs Index"
+type: index
+tags:
+  - index
+  - navigation
+---
+
+# Worked Proofs Index
+
+Reference derivations moved out of the curriculum blocks' *Study Notes, Psets & Proofs* sections, so those sections stay yours.
+
+> [!IMPORTANT] Rule
+> Never open one of these before you have written your own attempt. The blank-sheet attempt is the learning; this is only the check.
+
+- [[P1 - Learning How to Learn — Worked Proofs|P1 - Learning How to Learn]]
+- [[P2 - Reading, Thinking, and Writing — Worked Proofs|P2 - Reading, Thinking, and Writing]]
+- [[P3 - Math Prerequisites — Worked Proofs|P3 - Math Prerequisites]]
+- [[P4 - Programming On-Ramp — Worked Proofs|P4 - Programming On-Ramp]]
+- [[P5 - Tooling — Worked Proofs|P5 - Tooling]]
+- [[Track 1 - AI and Machine Learning — Worked Proofs|Track 1 - AI and Machine Learning]]
+- [[01 - CS61A — Worked Proofs|01 - CS61A]]
+- [[02 - Calculus I — Worked Proofs|02 - Calculus I]]
+- [[03 - Physics I — Worked Proofs|03 - Physics I]]
+- [[04 - Nand2Tetris — Worked Proofs|04 - Nand2Tetris]]
+- [[04a - Differential Equations Bridge — Worked Proofs|04a - Differential Equations Bridge]]
+- [[05 - SICP — Worked Proofs|05 - SICP]]
+- [[06 - C Fluency — Worked Proofs|06 - C Fluency]]
+- [[07 - Multivariable Calculus — Worked Proofs|07 - Multivariable Calculus]]
+- [[08 - Physics II — Worked Proofs|08 - Physics II]]
+- [[08a - Circuits and Electronics Bridge — Worked Proofs|08a - Circuits and Electronics Bridge]]
+- [[09 - Computer Systems — Worked Proofs|09 - Computer Systems]]
+- [[10 - Math for CS — Worked Proofs|10 - Math for CS]]
+- [[11 - Linear Algebra — Worked Proofs|11 - Linear Algebra]]
+- [[12 - Interpreters — Worked Proofs|12 - Interpreters]]
+- [[13 - Algorithms I — Worked Proofs|13 - Algorithms I]]
+- [[14 - Computer Architecture — Worked Proofs|14 - Computer Architecture]]
+- [[15 - Probability — Worked Proofs|15 - Probability]]
+- [[15a - Signals and Systems Bridge — Worked Proofs|15a - Signals and Systems Bridge]]
+- [[16 - Operating Systems — Worked Proofs|16 - Operating Systems]]
+- [[17 - Software Construction — Worked Proofs|17 - Software Construction]]
+- [[18 - Real Analysis — Worked Proofs|18 - Real Analysis]]
+- [[19 - Networking — Worked Proofs|19 - Networking]]
+- [[20 - Algorithms II — Worked Proofs|20 - Algorithms II]]
+- [[21 - Databases — Worked Proofs|21 - Databases]]
+- [[22 - Statistics — Worked Proofs|22 - Statistics]]
+- [[23 - Distributed Systems — Worked Proofs|23 - Distributed Systems]]
+- [[24 - Theory of Computation — Worked Proofs|24 - Theory of Computation]]
+- [[25 - Convex Optimization — Worked Proofs|25 - Convex Optimization]]
+- [[27 - Intensive Cryptopals or TLA+ — Worked Proofs|27 - Intensive Cryptopals or TLA+]]
+- [[30 - Capstone — Worked Proofs|30 - Capstone]]
+- [[32 - Information Theory — Worked Proofs|32 - Information Theory]]

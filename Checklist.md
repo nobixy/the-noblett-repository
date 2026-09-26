@@ -1,5 +1,5 @@
 # The Independent EECS Checklist
-*Print it or check boxes digitally only when the "Done when" line is true.*
+*Print it or check boxes digitally only when the "Done when" line is true. Course notes follow the [[08 - Templates/Block Note Template|Block Note Template]].*
 
 ---
 
@@ -11,14 +11,14 @@
 - [ ] Talks given: `0` / 8 (from Year 2)
 - [ ] Foreign language level: `____` (Target: B1)
 - [ ] Books read for pleasure this year: `0`
-- [ ] `[[how-i-study]]` last revised: `2026-09-25`
+- [ ] [[how-i-study]] last revised: `2026-09-25`
 
 ---
 
 ## Phase -1: Bedrock Foundations (The Ground Floor)
-- [ ] **[[Phase -1 - Bedrock Foundations/B0 - The Deep Learner's Toolkit|B0]]:** The Deep Learner's Toolkit — *Mastery of Feynman Technique, Elaborative Interrogation, Franklin Copywork, Subgoal Labeling, and Blank-Sheet Retrieval.*
-- [ ] **[[Phase -1 - Bedrock Foundations/BM - Bedrock Mathematics|BM]]:** Bedrock Mathematics (✓ *Lockhart, Arithmetic*, Khan Academy Pre-Alg → Alg I) — *Complete conceptual understanding of counting, base-10, fractions, negative multiplication, and algebraic balance scales.*
-- [ ] **[[Phase -1 - Bedrock Foundations/BW - Bedrock English and Grammar|BW]]:** Bedrock English & Grammar (Huddleston & Pullum, Williams *Style*) — *Sentence diagramming, de-nominalization fluency, and 14 consecutive days of Franklin Copywork completed.*
+- [ ] **[[B0 - The Deep Learner's Toolkit|B0]]:** The Deep Learner's Toolkit — *Mastery of Feynman Technique, Elaborative Interrogation, Franklin Copywork, Subgoal Labeling, and Blank-Sheet Retrieval.*
+- [ ] **[[BM - Bedrock Mathematics|BM]]:** Bedrock Mathematics (✓ *Lockhart, Arithmetic*, Khan Academy Pre-Alg → Alg I) — *Complete conceptual understanding of counting, base-10, fractions, negative multiplication, and algebraic balance scales.*
+- [ ] **[[BW - Bedrock English and Grammar|BW]]:** Bedrock English & Grammar (Huddleston & Pullum, Williams *Style*) — *Sentence diagramming, de-nominalization fluency, and 14 consecutive days of Franklin Copywork completed.*
 
 ---
 
@@ -37,10 +37,12 @@
 - [ ] **[[03 - Physics I|Block 3]]:** Physics I (MIT 8.01SC, ✓ *Six Easy Pieces*) — *8.01 final passed.*
 - [ ] **December Prep:** ✓ *How Computers Really Work* — hardware half.
 - [ ] **[[04 - Nand2Tetris|Block 4]]:** Nand2Tetris (Hardware & software) — *A Jack program you wrote runs on the CPU you built.*
+- [ ] **[[04a - Differential Equations Bridge|Block 4a]]:** Differential Equations Bridge (MIT 18.03SC, Strogatz) — *Construct adaptive RK4/RKF45 chaos simulator; 18.03 final passed.*
 - [ ] **[[05 - SICP|Block 5]]:** SICP (MIT 6.001) — *Write metacircular evaluator from memory in under 1 hr.*
 - [ ] **[[06 - C Fluency|Block 6]]:** C Fluency (✓ *K&R*, ✓ *Zingaro* 1–5, ✓ *How Linux Works* 8–17) — *Valgrind-clean builds; whiteboard explanation of pointer arithmetic, struct padding, stack frame.*
 - [ ] **[[07 - Multivariable Calculus|Block 7]]:** Multivariable Calculus (MIT 18.02SC) — *18.02 final passed.*
 - [ ] **[[08 - Physics II|Block 8]]:** Physics II (MIT 8.02SC) — *8.02 final passed.*
+- [ ] **[[08a - Circuits and Electronics Bridge|Block 8a]]:** Circuits & Electronics Bridge (MIT 6.002 / 6.2000, Agarwal & Lang) — *Design & test 4th-order Sallen-Key Butterworth filter in SPICE & breadboard.*
 - [ ] **Year 1 Companion Reading:** ✓ *What Is Mathematics?* ch. 1–2, 6–8.
 - [ ] **Year 1 Writing Deliverable:** 12 published technical blog posts + one 2,000-word essay with visible revision history.
 
@@ -54,6 +56,7 @@
 - [ ] **[[13 - Algorithms I|Block 13]]:** Algorithms I (MIT 6.006, CLRS, ✓ *Zingaro* 6–10, ✓ *Algorithms to Live By*) — *6.006 final passed; Codeforces rating ≥1200.*
 - [ ] **[[14 - Computer Architecture|Block 14]]:** Computer Architecture (ETH Zürich DDCA Mutlu, Harris & Harris RISC-V) — *Pipelined RISC-V core runs compiled C program.*
 - [ ] **[[15 - Probability|Block 15]]:** Probability (MIT 6.041 / 6.3700) — *Final passed; derive standard distributions/moments & solve Markov chains.*
+- [ ] **[[15a - Signals and Systems Bridge|Block 15a]]:** Signals & Systems Bridge (MIT 6.007 / 6.3000, Oppenheim & Willsky) — *Implement real-time audio FFT DSP filterbank in C/Python.*
 - [ ] **Year 2 Breadth (HASS):** Petzold, *Code, 2nd ed.* / Sandel, *Justice*.
 - [ ] **Year 2 Writing Deliverable:** 12 posts + 5,000-word technical design doc (CPU or interpreter) + monthly paper summaries (3-pass).
 
@@ -92,5 +95,5 @@
 - [ ] **Capstone Talk:** 30-minute recorded presentation.
 - [ ] **Capstone Outside Review:** Written critique from external reviewer.
 - [ ] **[[31 - Specialization B2|Specialization B — Course 2]].**
-- [ ] **Information Theory:** MacKay *Information Theory, Inference, and Learning Algorithms*.
+- [ ] **[[32 - Information Theory|Block 32]]:** Information Theory (David MacKay, Cover & Thomas) — *Derive Shannon entropy, channel capacity, Huffman/Arithmetic encoders, and LDPC codes.*
 - [ ] **Year 5 Breadth (HASS):** Yale Open Course (History) + Great-books sequence / Prose *Reading Like a Writer*.

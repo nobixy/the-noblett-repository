@@ -13,6 +13,8 @@ date_completed: ""
 
 # Block 3 — Classical Mechanics (MIT 8.01SC)
 
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Math/Math Index|Math Index]]
+
 > [!INFO] Block Overview
 > - **Term / Position:** Year 1 Fall
 > - **Estimated Hours:** ~100 hrs
@@ -49,10 +51,20 @@ Complete all 8.01SC homework sets and problem-solving workshops.
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[03 - Physics I — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - Kleppner & Kolenkow, An Introduction to Mechanics (for rigorous proof-oriented physics); The Feynman Lectures on Physics.
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Math/Math Index|Math Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 1 - Fundamentals/02 - Calculus I|← 02 - Calculus I]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 1 - Fundamentals/04 - Nand2Tetris|04 - Nand2Tetris →]]

@@ -13,6 +13,8 @@ date_completed: ""
 
 # Block 15 — Introduction to Probability (MIT 6.041 / 6.3700)
 
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Math/Math Index|Math Index]]
+
 > [!INFO] Block Overview
 > - **Term / Position:** Year 2 Spring
 > - **Estimated Hours:** ~150 hrs
@@ -39,7 +41,7 @@ Probabilistic reasoning is mandatory for randomized algorithms, machine learning
 ---
 
 ## 🛠️ Build Requirement
-Work all MIT 6.041 problem sets and derivation proofs.
+Work all MIT 6.041 problem sets and formal mathematical derivations in `latex`. Implement Monte Carlo simulation suites, discrete Markov chain steady-state solvers, and random walk martingale path estimators in `python` using `numpy` and `scipy`.
 
 ---
 
@@ -50,10 +52,20 @@ Work all MIT 6.041 problem sets and derivation proofs.
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[15 - Probability — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - Harvard Stat 110 (Joe Blitzstein — free lectures, free book, free psets with solutions).
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Math/Math Index|Math Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 2 - Systems/14 - Computer Architecture|← 14 - Computer Architecture]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 2 - Systems/15a - Signals and Systems Bridge|15a - Signals and Systems Bridge →]]

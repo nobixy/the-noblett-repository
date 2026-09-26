@@ -13,6 +13,8 @@ date_completed: ""
 
 # Block 18 — Real Analysis (Abbott & MIT 18.100A)
 
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Math/Math Index|Math Index]]
+
 > [!INFO] Block Overview
 > - **Term / Position:** Year 3 Fall
 > - **Estimated Hours:** ~180 hrs
@@ -39,7 +41,7 @@ Where you learn what a proof actually is. The hardest block for most people and 
 ---
 
 ## 🛠️ Build Requirement
-Work through Abbott cover-to-cover and write out every single proof without consulting solution guides.
+Work through Abbott cover-to-cover and write out every single proof in `latex`. Mechanize fundamental analysis theorems (Cauchy completeness, Bolzano-Weierstrass, Intermediate Value Theorem) in `lean`, and visualize functional limits and continuous nowhere-differentiable Weierstrass functions in `python`.
 
 ---
 
@@ -50,10 +52,20 @@ Work through Abbott cover-to-cover and write out every single proof without cons
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[18 - Real Analysis — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - Rudin, Principles of Mathematical Analysis (terse standard); Terence Tao, Analysis I & II; Alcock, How to Think About Analysis.
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Math/Math Index|Math Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 3 - Depth/17 - Software Construction|← 17 - Software Construction]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 3 - Depth/19 - Networking|19 - Networking →]]

@@ -13,6 +13,8 @@ date_completed: ""
 
 # Block 24 — Theory of Computation (MIT 6.045 & Hopcroft)
 
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Theory/Theory Index|Theory Index]]
+
 > [!INFO] Block Overview
 > - **Term / Position:** Year 4 Fall
 > - **Estimated Hours:** ~170 hrs
@@ -36,7 +38,7 @@ What can and cannot be computed by any physical machine? The theoretical boundar
 ---
 
 ## 🛠️ Build Requirement
-Write out formal reductions proving undecidability and NP-completeness for complex problems.
+Write out formal reductions proving undecidability and NP-completeness for complex problems in `latex`. Implement deterministic and non-deterministic Turing machine simulators, generalized DFA minimization engines, and Boolean 3-SAT reduction verifiers in `python`, and formalize core computability lemmas in `lean`.
 
 ---
 
@@ -47,10 +49,20 @@ Write out formal reductions proving undecidability and NP-completeness for compl
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[24 - Theory of Computation — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - Michael Sipser, Introduction to the Theory of Computation, 3e (gentler standard fallback); Boaz Barak, Intro to TCS.
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Theory/Theory Index|Theory Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 4 - Specialization/23 - Distributed Systems|← 23 - Distributed Systems]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 4 - Specialization/25 - Convex Optimization|25 - Convex Optimization →]]

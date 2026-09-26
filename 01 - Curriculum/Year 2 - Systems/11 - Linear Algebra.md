@@ -13,6 +13,8 @@ date_completed: ""
 
 # Block 11 — Linear Algebra (MIT 18.06 & Axler LADR)
 
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Math/Math Index|Math Index]]
+
 > [!INFO] Block Overview
 > - **Term / Position:** Year 2 Fall
 > - **Estimated Hours:** ~200 hrs
@@ -34,7 +36,7 @@ The most important mathematics for CS, taken twice on purpose: once computationa
 ---
 
 ## 🛠️ Build Requirement
-Build from scratch in NumPy: LU factorization with partial pivoting, Modified Gram-Schmidt, QR decomposition via Householder reflections, and the Power Method for eigenvalues. Benchmark against LAPACK/scipy.linalg and explain numerical differences.
+Build from scratch in `python` using `numpy`: LU factorization with partial pivoting, Modified Gram-Schmidt, QR decomposition via Householder reflections, and the Power Method / Lanczos iteration for eigenvalues. Benchmark against LAPACK/`scipy.linalg` and write a formal analysis of conditioning, backward stability, and floating-point errors in `latex`.
 
 ---
 
@@ -45,10 +47,20 @@ Build from scratch in NumPy: LU factorization with partial pivoting, Modified Gr
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[11 - Linear Algebra — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - 3Blue1Brown Essence of Linear Algebra (intuition); Trefethen & Bau, Numerical Linear Algebra.
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Math/Math Index|Math Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 2 - Systems/10 - Math for CS|← 10 - Math for CS]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 2 - Systems/12 - Interpreters|12 - Interpreters →]]

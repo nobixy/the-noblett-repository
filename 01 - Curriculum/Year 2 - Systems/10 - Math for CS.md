@@ -13,6 +13,8 @@ date_completed: ""
 
 # Block 10 — Mathematics for Computer Science (MIT 6.042J)
 
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Math/Math Index|Math Index]]
+
 > [!INFO] Block Overview
 > - **Term / Position:** Year 2 Fall
 > - **Estimated Hours:** ~170 hrs
@@ -37,7 +39,7 @@ Proofs, induction, counting, graphs, number theory, recurrences. The load-bearin
 ---
 
 ## 🛠️ Build Requirement
-Work through every assigned problem set in MIT 6.042J.
+Work through every assigned problem set in MIT 6.042J, typesetting complete formal solutions in `latex`, writing computational scripts in `python` to verify number-theoretic and combinatorial algorithms (RSA, Miller-Rabin, modular exponentiation), and formalizing core inductive proofs in `lean`.
 
 ---
 
@@ -48,10 +50,20 @@ Work through every assigned problem set in MIT 6.042J.
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[10 - Math for CS — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - Rosen, Discrete Mathematics and Its Applications; Graham, Knuth & Patashnik, Concrete Mathematics.
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Math/Math Index|Math Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 2 - Systems/09 - Computer Systems|← 09 - Computer Systems]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 2 - Systems/11 - Linear Algebra|11 - Linear Algebra →]]

@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-09-25T10:28:40Z",
+  "overall_pass": false,
+  "verdict": "REQUEST_CHANGES",
+  "wikilinks": {
+    "pass": false,
+    "total_links": 565,
+    "valid_links": 557,
+    "template_placeholders": 4,
+    "broken_links": [
+      {
+        "file": "TEST_INFRA.md",
+        "line": 83,
+        "raw": "Target",
+        "reason": "Target file not found in vault"
+      },
+      {
+        "file": "TEST_INFRA.md",
+        "line": 84,
+        "raw": "Target\\|Alias",
+        "reason": "Target file not found in vault"
+      },
+      {
+        "file": "TEST_INFRA.md",
+        "line": 86,
+        "raw": "...",
+        "reason": "Target file not found in vault"
+      },
+      {
+        "file": "TEST_READY.md",
+        "line": 18,
+        "raw": "Target|Alias",
+        "reason": "Target file not found in vault"
+      }
+    ],
+    "broken_anchors": []
+  },
+  "dag": {
+    "pass": true,
+    "node_count": 56,
+    "edge_count": 104,
+    "cyclic_sccs": [],
+    "cycles": [],
+    "is_dag": true,
+    "topological_sample": [
+      "P5 - Tooling",
+      "P4 - Programming On-Ramp",
+      "Baseline Gap Analysis and Audit Report",
+      "29 - Specialization B1",
+      "P2 - Reading, Thinking, and Writing",
+      "Specializations Hub",
+      "04 - Nand2Tetris",
+      "BW - Bedrock English and Grammar",
+      "26 - Specialization A1",
+      "B0 - The Deep Learner's Toolkit"
+    ],
+    "temporal_violations": []
+  },
+  "negative_controls": {
+    "pass": true,
+    "injected_cycle_detected": true,
+    "broken_link_rejected": true
+  },
+  "benchmarks_ms": {
+    "indexing": 13.621224999951664,
+    "wikilinks": 16.51763699919684,
+    "dag": 21.876972999962163,
+    "negative_controls": 18.49922300061735
+  }
+}

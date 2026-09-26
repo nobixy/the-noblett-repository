@@ -27,7 +27,7 @@ date_completed: ""
 
 ---
 
-## 📖 Primary Curriculum & Syllabus
+## 📖 Primary Syllabus & Core Content
 - [ ] Topic 1 / Chapter 1
 - [ ] Topic 2 / Chapter 2
 - [ ] Topic 3 / Chapter 3
@@ -46,7 +46,7 @@ date_completed: ""
 
 ---
 
-## 📝 Study Notes & Problem Sets
+## 📝 Study Notes, Psets & Proofs
 *Atomic notes, problem set proofs, and reflections.*
 
 ---

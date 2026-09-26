@@ -45,10 +45,10 @@ Tools shape thought. Trying to learn operating systems or algorithms while fumbl
 ---
 
 ## 🛠️ Build Requirement
-- Native Linux environment (or WSL2) configured.
-- Git + GitHub remote configured.
-- Modal editor fluency (Vim/Neovim).
-- LaTeX setup (via Overleaf or local TeX Live).
+- Native `linux` environment (or WSL2) configured with `bash` shell scripts.
+- `git` + GitHub remote configured.
+- Modal editor fluency (`vim` / Neovim).
+- `latex` setup (via Overleaf or local TeX Live).
 - This `/notes` Obsidian git repo actively tracked with [[log]].
 
 ---
@@ -56,3 +56,19 @@ Tools shape thought. Trying to learn operating systems or algorithms while fumbl
 ## 🏁 Done When
 > [!IMPORTANT]
 > [[log]] has 14 consecutive daily entries and you can navigate, edit, wrangle data, and compile software on a Linux box without touching a GUI mouse.
+
+---
+
+## 📝 Study Notes, Psets & Proofs
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[P5 - Tooling — Worked Proofs]]
+
+---
+
+## 🔄 Appendix A Alternatives (Failover)
+*Only consult if primary genuinely isn't working after two honest weeks:*
+- Shotts, *The Linux Command Line: A Complete Introduction*
+- Barrett, *Linux Pocket Guide*

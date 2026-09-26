@@ -1,5 +1,5 @@
 ---
-block_id: "Information Theory"
+block_id: "Block 32"
 title: "Information Theory, Inference, and Learning Algorithms"
 term: "Year 5"
 status: not-started
@@ -11,7 +11,9 @@ date_started: ""
 date_completed: ""
 ---
 
-# Information Theory — Information Theory, Inference, and Learning Algorithms
+# Block 32 — Information Theory, Inference, and Learning Algorithms
+
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Math/Math Index|Math Index]]
 
 > [!INFO] Block Overview
 > - **Term / Position:** Year 5
@@ -37,21 +39,35 @@ Unifies information theory, statistics, coding theory, and machine learning into
 ---
 
 ## 🛠️ Build Requirement
-Implement entropy encoders/decoders and LDPC error-correcting code simulators.
+Implement an information theory and coding suite in `python` and `c++` using `numpy`, `scipy`, `pytest`, and `latex`:
+1. **Entropy Encoders**: Construct optimal Huffman and high-precision Arithmetic Encoders/Decoders in Python and C++; evaluate compression bitrates against empirical Shannon entropy across binary, text, and synthetic Markov sources.
+2. **Channel Capacity & Blahut-Arimoto**: Code the Blahut-Arimoto alternating optimization algorithm to compute channel capacity $C = \max_{p(x)} I(X; Y)$ for arbitrary discrete memoryless channels (BSC, BEC, and asymmetric Z-channels).
+3. **Low-Density Parity-Check (LDPC) Codes**: Build a belief propagation (sum-product algorithm) decoder on Tanner graphs; simulate bit error rate (BER) curves across varying SNR on an AWGN channel, demonstrating near-Shannon-limit performance within 0.5 dB.
+4. **Toolchain & Verification**: Automated unit test suites run via `pytest`, build pipelines managed with `cmake` and `make`, automated verification scripts executed in `bash`, and mathematical derivations compiled in `latex`.
 
 ---
 
 ## 🏁 Done When
 > [!IMPORTANT]
-> Read cover to cover (~4 hrs/wk reading) and solve key theoretical problems.
+> Read cover to cover (~4 hrs/wk reading) and solve key theoretical problems. Custom LDPC belief-propagation simulator passes test suites with zero block errors above channel threshold. Proofs below are derived and mastered.
 
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[32 - Information Theory — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - Cover & Thomas, Elements of Information Theory.
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Math/Math Index|Math Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 5 - MEng/31 - Specialization B2|← 31 - Specialization B2]] | [[00 - Dashboard|Dashboard]] | [[05 - Projects/Projects Hub|Projects Hub →]]

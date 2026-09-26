@@ -30,7 +30,7 @@ To become exceptionally educated from the ground up, you must abandon how school
   2. Explain it out loud and on paper as if teaching someone with zero background.
   3. The exact instant you catch yourself using technical jargon (e.g., "polynomial", "abstraction", "complement", "transitive"), **stop**. Strip the jargon and replace it with physical intuition or a plain story.
   4. Note the friction points where your explanation stalls—these are your exact knowledge gaps. Return to the source material to resolve only those gaps.
-- *Template available at `[[08 - Templates/Feynman Technique Note Template]]`.*
+- *Template available at [[08 - Templates/Feynman Technique Note Template]].*
 
 ### 2. Elaborative Interrogation (The "Why?" Reflex)
 - **The Mechanism:** When presented with a mathematical rule, definition, or grammatical norm, never accept it passively. Interrogate it:
@@ -47,7 +47,7 @@ To become exceptionally educated from the ground up, you must abandon how school
   3. Put the original text completely out of sight for 3 to 4 days until the exact wording is forgotten.
   4. Rewrite the essay using only your short notes, trying to make the prose as clear, rhythmic, and compelling as possible.
   5. Lay your version side-by-side with the master's original. Compare word choices, sentence lengths, transitions, and clarity. Correct your habits.
-- *Template available at `[[08 - Templates/Franklin Copywork Template]]`.*
+- *Template available at [[08 - Templates/Franklin Copywork Template]].*
 
 ### 4. Subgoal Labeling & The Worked Example Effect (Cognitive Load Theory)
 - When learning math or algorithms, jumping straight into hard unsolved problems induces high cognitive load and haphazard guessing.
@@ -81,7 +81,7 @@ To become exceptionally educated from the ground up, you must abandon how school
 
 ## 🛠️ Build Requirement
 - Set up your study workspace with physical paper and pen for the Blank-Sheet protocol.
-- Perform your first Feynman breakdown on a fundamental concept in `[[04 - Writing/Writing Hub|Writing Hub]]`.
+- Perform your first Feynman breakdown on a fundamental concept in [[04 - Writing/Writing Hub|Writing Hub]].
 - Perform your first Franklin Copywork exercise on a paragraph from Williams or Orwell.
 
 ---

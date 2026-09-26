@@ -1,3 +1,11 @@
+---
+title: "Programming Languages & Compilers Notes"
+type: index
+tags:
+  - index
+  - navigation
+---
+
 # Programming Languages & Compilers Notes
 
 ---

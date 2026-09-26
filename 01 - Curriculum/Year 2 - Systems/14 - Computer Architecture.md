@@ -13,6 +13,8 @@ date_completed: ""
 
 # Block 14 — Computer Architecture & Digital Design
 
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Hardware/Hardware Index|Hardware Index]]
+
 > [!INFO] Block Overview
 > - **Term / Position:** Year 2 Spring
 > - **Estimated Hours:** ~200 hrs
@@ -50,10 +52,20 @@ Build a 5-stage pipelined RISC-V processor core in Verilog with hazard detection
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[14 - Computer Architecture — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - MIT 6.1910 / 6.004 (OCW); Berkeley CS61C Project 3; Patterson & Hennessy, Computer Organization and Design RISC-V.
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Hardware/Hardware Index|Hardware Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 2 - Systems/13 - Algorithms I|← 13 - Algorithms I]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 2 - Systems/15 - Probability|15 - Probability →]]

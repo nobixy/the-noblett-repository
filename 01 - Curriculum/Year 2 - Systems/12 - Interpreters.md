@@ -13,6 +13,8 @@ date_completed: ""
 
 # Block 12 — Interpreters and Language Runtimes
 
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Languages/Languages Index|Languages Index]]
+
 > [!INFO] Block Overview
 > - **Term / Position:** Year 2 January Intensive
 > - **Estimated Hours:** ~130 hrs
@@ -45,10 +47,20 @@ Build two complete programming language implementations — one tree-walking int
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[12 - Interpreters — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - Crafting Interpreters Part II (jlox); Ball, Writing a Compiler in Go.
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Languages/Languages Index|Languages Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 2 - Systems/11 - Linear Algebra|← 11 - Linear Algebra]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 2 - Systems/13 - Algorithms I|13 - Algorithms I →]]

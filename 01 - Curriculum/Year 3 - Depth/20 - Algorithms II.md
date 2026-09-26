@@ -13,6 +13,8 @@ date_completed: ""
 
 # Block 20 — Design and Analysis of Algorithms (MIT 6.046J)
 
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Theory/Theory Index|Theory Index]]
+
 > [!INFO] Block Overview
 > - **Term / Position:** Year 3 Spring
 > - **Estimated Hours:** ~180 hrs
@@ -39,7 +41,7 @@ Advanced algorithmic design paradigms: Network Flow, Linear Programming, Randomi
 ---
 
 ## 🛠️ Build Requirement
-Solve unseen algorithmic challenges; complete all MIT 6.046 problem sets.
+Implement Edmonds-Karp network flow, Dinic's blocking flow algorithm, a Primal-Dual Simplex solver, and spectral graph partitioning algorithms from scratch in `c++` and `python`. Verify correctness and edge-case invariants with `pytest`, benchmark on DIMACS challenge graphs, and typeset rigorous mathematical proofs in `latex`.
 
 ---
 
@@ -50,10 +52,20 @@ Solve unseen algorithmic challenges; complete all MIT 6.046 problem sets.
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[20 - Algorithms II — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - Jeff Erickson, Algorithms; Tim Roughgarden, Algorithms Illuminated; MIT 6.854 Graduate Algorithms.
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Theory/Theory Index|Theory Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 3 - Depth/19 - Networking|← 19 - Networking]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 3 - Depth/21 - Databases|21 - Databases →]]

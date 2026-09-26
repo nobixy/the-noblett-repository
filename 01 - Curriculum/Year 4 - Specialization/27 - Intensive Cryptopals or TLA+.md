@@ -13,6 +13,8 @@ date_completed: ""
 
 # Block 27 — January Intensive: Cryptopals or TLA+
 
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Systems/Systems Index|Systems Index]]
+
 > [!INFO] Block Overview
 > - **Term / Position:** Year 4 January Intensive
 > - **Estimated Hours:** ~130 hrs
@@ -34,7 +36,10 @@ Hands-on mastery of cryptographic vulnerabilities OR formal mathematical specifi
 ---
 
 ## 🛠️ Build Requirement
-Option A: Complete all 8 Cryptopals challenge sets. Option B: Write a formal TLA+ specification of your Raft implementation from Block 23 and model-check it to uncover a real edge-case bug.
+Complete hands-on security and formal verification engineering in `python`, `rust`, or TLA+ using `pytest`, `cargo`, `bash`, and `git`:
+1. **Option A (Cryptopals Crypto Challenges)**: Solve challenge sets 1–8 from scratch without external crypto libraries; implement CBC padding oracle exploits, Bleichenbacher RSA signature forgery, DSA parameter tampering, and Diffie-Hellman MITM attacks in `python` or `rust` with automated test suites run via `pytest` or `cargo test`.
+2. **Option B (TLA+ Formal Verification)**: Write a comprehensive, executable TLA+ / PlusCal specification of your Raft implementation from Block 23; run TLC model checker across state space with $> 10^7$ distinct states to verify State Machine Safety and uncover edge-case concurrency deadlocks.
+3. **Verification & Delivery**: Shell test runner orchestrated in `bash`, mathematical security invariants documented in `latex`, and version-controlled with `git`.
 
 ---
 
@@ -45,10 +50,20 @@ Option A: Complete all 8 Cryptopals challenge sets. Option B: Write a formal TLA
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[27 - Intensive Cryptopals or TLA+ — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - pwn.college for security track; Formal Methods courses.
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Systems/Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 4 - Specialization/26 - Specialization A1|← 26 - Specialization A1]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 4 - Specialization/28 - Specialization A2|28 - Specialization A2 →]]

@@ -13,6 +13,8 @@ date_completed: ""
 
 # Block 2 — Calculus I (MIT 18.01SC)
 
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Math/Math Index|Math Index]]
+
 > [!INFO] Block Overview
 > - **Term / Position:** Year 1 Fall
 > - **Estimated Hours:** ~150 hrs
@@ -49,10 +51,20 @@ Solve all MIT 18.01 problem sets and write formal solutions for all recitation p
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[02 - Calculus I — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - Spivak, Calculus (proof-based — better long-term if you have time); Apostol; Professor Leonard (YouTube).
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Math/Math Index|Math Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 1 - Fundamentals/01 - CS61A|← 01 - CS61A]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 1 - Fundamentals/03 - Physics I|03 - Physics I →]]

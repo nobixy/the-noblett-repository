@@ -1,3 +1,11 @@
+---
+title: "Hardware & Computer Engineering Notes"
+type: index
+tags:
+  - index
+  - navigation
+---
+
 # Hardware & Computer Engineering Notes
 
 ---
@@ -10,5 +18,7 @@
 
 ## Reference Courses
 - [[04 - Nand2Tetris]]
+- [[08 - Physics II]] (MIT 8.02SC)
+- [[08a - Circuits and Electronics Bridge]] (MIT 6.2000)
 - [[14 - Computer Architecture]] (ETH Zürich Mutlu)
 - [[Track 6 - Computer Engineering]]

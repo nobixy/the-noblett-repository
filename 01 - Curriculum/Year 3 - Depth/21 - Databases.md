@@ -13,6 +13,8 @@ date_completed: ""
 
 # Block 21 — Database Systems (CMU 15-445/645 & DDIA)
 
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Systems/Systems Index|Systems Index]]
+
 > [!INFO] Block Overview
 > - **Term / Position:** Year 3 Spring
 > - **Estimated Hours:** ~200 hrs
@@ -40,7 +42,7 @@ Databases are the apex software engineering system: memory management, disk I/O,
 ---
 
 ## 🛠️ Build Requirement
-All four CMU BusTub projects in C++: (1) Buffer Pool Manager, (2) B+ Tree Index, (3) Query Execution Engines & Hash Joins, (4) Concurrency Control (Lock Manager & MVCC).
+Implement all four CMU BusTub projects in `c++` using `cmake`, debugged with `gdb`, tested with GoogleTest and `sql` validation suites: (1) Buffer Pool Manager with LRU-K eviction, (2) B+ Tree Index with concurrent lock crabbing, (3) Query Execution Engines & Hash Joins under the Volcano model, (4) Concurrency Control with Two-Phase Locking and Multi-Version Concurrency Control (MVCC).
 
 ---
 
@@ -51,10 +53,20 @@ All four CMU BusTub projects in C++: (1) Buffer Pool Manager, (2) B+ Tree Index,
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[21 - Databases — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - Berkeley CS186; Alex Petrov, Database Internals; the Red Book (redbook.io).
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Systems/Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 3 - Depth/20 - Algorithms II|← 20 - Algorithms II]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 3 - Depth/22 - Statistics|22 - Statistics →]]

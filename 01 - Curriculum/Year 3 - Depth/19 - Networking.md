@@ -13,6 +13,8 @@ date_completed: ""
 
 # Block 19 — Computer Networking (Stanford CS144)
 
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Systems/Systems Index|Systems Index]]
+
 > [!INFO] Block Overview
 > - **Term / Position:** Year 3 January Intensive
 > - **Estimated Hours:** ~150 hrs
@@ -48,10 +50,20 @@ All eight Stanford CS144 labs: implement a complete, working TCP stack in modern
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[19 - Networking — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - Berkeley CS168; Peterson & Davie, Computer Networks: A Systems Approach; Stevens, TCP/IP Illustrated Vol 1; Beej's Guide.
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Systems/Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 3 - Depth/18 - Real Analysis|← 18 - Real Analysis]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 3 - Depth/20 - Algorithms II|20 - Algorithms II →]]

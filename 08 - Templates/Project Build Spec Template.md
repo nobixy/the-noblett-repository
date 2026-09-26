@@ -12,7 +12,7 @@ date_completed: ""
 # Project Spec: {{project_name}}
 
 > [!INFO] Project Info
-> - **Associated Block:** [[{{associated_block}}]]
+> - **Associated Block:** `[[{{associated_block}}]]`
 > - **Git Repository:** `{{repo_link}}`
 > - **Status:** `{{status}}`
 

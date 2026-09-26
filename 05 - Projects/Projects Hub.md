@@ -1,26 +1,93 @@
+---
+title: "Projects & Builds Hub"
+type: hub
+tags:
+  - hub
+  - navigation
+  - projects
+---
+
 # Projects & Builds Hub
 *Per Rule 2: A block is done when the Done when line is true. Not before.*
+
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]]
 
 ---
 
 > [!TIP]
-> Use `[[08 - Templates/Project Build Spec Template]]` to specify architectures, representation invariants, and test plans for every major build.
+> Use [[08 - Templates/Project Build Spec Template|Project Build Spec Template]] to specify architectures, representation invariants, and test plans for every major build. All software artifacts must be version-controlled under Git and tested with rigorous developer toolchains.
 
-## Major Curriculum Builds
-- [ ] **Phase 0:** Valgrind-clean 300-line C program, Hash Table & BST from scratch
-- [ ] **Block 1:** Scheme Interpreter with custom extensions (tail calls / macros)
-- [ ] **Block 4:** Complete Nand2Tetris computer (gates to OS) running your Jack program
-- [ ] **Block 5:** SICP Metacircular Evaluator & Lazy Evaluator
-- [ ] **Block 6:** C Vector, Arena String Library, Hash Table, and custom `ls` clone
-- [ ] **Block 9:** CMU CS:APP 7 Labs (Data, Bomb, Attack, Cache, Shell, Malloc, Proxy)
-- [ ] **Block 11:** NumPy matrix factorization suite (LU, Gram-Schmidt, QR, Power Method)
-- [ ] **Block 12:** Monkey Interpreter (Go) & `clox` Bytecode VM with GC (C)
-- [ ] **Block 14:** 5-stage pipelined RISC-V CPU in Verilog on FPGA
-- [ ] **Block 16:** Complete MIT 6.1810 xv6 labs + minimal QEMU bootable kernel
-- [ ] **Block 17:** Rebuilt interpreter under formal specs and rep invariants
-- [ ] **Block 19:** Stanford CS144 full TCP stack in C++
-- [ ] **Block 21:** CMU 15-445 BusTub storage engine, B+ tree, query execution, MVCC
-- [ ] **Block 23:** MIT 6.5840 MapReduce, Raft consensus, and sharded KV store in Go
-- [ ] **Block 25:** CVXPY real-world optimization model + manual KKT derivation
-- [ ] **Block 27:** All 8 Cryptopals challenge sets OR TLA+ Raft bug finder
-- [ ] **Block 30:** MEng Capstone (10,000+ line system, research replication, or ASIC tapeout)
+---
+
+## 🏗️ Core Curriculum Course Builds
+
+The core degree requirements mandate completing tangible, production-grade software and hardware artifacts for each course block. Builds are developed using standard system toolchains including `gcc`, `clang`, `rust`, `cargo`, `gdb`, `valgrind`, `qemu`, `verilog`, `renode`, and `pytest`.
+
+- [ ] **Phase 0 On-Ramp:** [[01 - Curriculum/Phase 0 - Prerequisites/P4 - Programming On-Ramp|Phase 0 Programming]]: Valgrind-clean 300-line C program, Hash Table with open addressing, and Binary Search Tree from scratch. Verified with `gcc`, `valgrind`, and `gdb`.
+- [ ] **Block 01:** [[01 - Curriculum/Year 1 - Fundamentals/01 - CS61A|01 - CS61A]]: Scheme Interpreter with tail-call optimization, user-defined macros, and lexical scoping implemented in Python and verified via `pytest`.
+- [ ] **Block 02:** [[01 - Curriculum/Year 1 - Fundamentals/02 - Calculus I|02 - Calculus I]]: Numerical differentiation engine, adaptive Simpson's rule and Riemann sum integrator, and Taylor series polynomial approximator implemented in Python and C, verified with `pytest`.
+- [ ] **Block 03:** [[01 - Curriculum/Year 1 - Fundamentals/03 - Physics I|03 - Physics I]]: Classical kinematics, 2D/3D rigid-body collision simulator, and symplectic numerical integrator (Verlet/leapfrog) in C++ verified with unit tests.
+- [ ] **Block 04:** [[01 - Curriculum/Year 1 - Fundamentals/04 - Nand2Tetris|04 - Nand2Tetris]]: Complete hardware-to-software computing stack: 16-bit Hack CPU and ALU in Verilog/HDL, assembler, stack-based VM translator, Jack compiler, and minimal OS running an interactive graphics demo.
+- [ ] **Block 05:** [[01 - Curriculum/Year 1 - Fundamentals/05 - SICP|05 - SICP]]: Metacircular Evaluator, Amb non-deterministic evaluator, and Lazy Stream Evaluator in Scheme/Racket.
+- [ ] **Block 06:** [[01 - Curriculum/Year 1 - Fundamentals/06 - C Fluency|06 - C Fluency]]: Reusable systems data structures in ANSI C: dynamic array vector, arena string allocator, hash map, and a POSIX-compliant `ls -laR` utility. Verified leak-free with `valgrind` and `clang` AddressSanitizer.
+- [ ] **Block 07:** [[01 - Curriculum/Year 1 - Fundamentals/07 - Multivariable Calculus|07 - Multivariable Calculus]]: Vector calculus numerical gradient descent, Hessian matrix computation, and 3D contour surface visualizer in Python with `numpy` and `matplotlib`.
+- [ ] **Block 08:** [[01 - Curriculum/Year 1 - Fundamentals/08 - Physics II|08 - Physics II]]: Finite-difference time-domain (FDTD) electromagnetic field simulation and Maxwell's equations solver in Python and C++.
+- [ ] **Block 09:** [[01 - Curriculum/Year 2 - Systems/09 - Computer Systems|09 - Computer Systems]]: Complete CMU CS:APP laboratory suite (Data Lab, Defusing Binary Bomb with `gdb`, Attack Lab ROP exploits, Cache Lab simulator, UNIX Shell with job control, `malloc` segregated-free-list dynamic allocator, and concurrent multi-threaded HTTP proxy).
+- [ ] **Block 10:** [[01 - Curriculum/Year 2 - Systems/10 - Math for CS|10 - Math for CS]]: Automated DPLL Boolean SAT solver, graph coloring engine, and number-theoretic algorithms (RSA, Miller-Rabin) in Python, with formal inductive proofs formalized in Lean.
+- [ ] **Block 11:** [[01 - Curriculum/Year 2 - Systems/11 - Linear Algebra|11 - Linear Algebra]]: High-performance matrix numerical library from scratch: LU decomposition with partial pivoting, Gram-Schmidt orthogonalization, QR decomposition, and power method for eigenspaces. Verified with `pytest`.
+- [ ] **Block 12:** [[01 - Curriculum/Year 2 - Systems/12 - Interpreters|12 - Interpreters]]: Tree-walking interpreter for the Monkey programming language in Go, plus `clox` bytecode virtual machine with mark-sweep garbage collection in ANSI C.
+- [ ] **Block 13:** [[01 - Curriculum/Year 2 - Systems/13 - Algorithms I|13 - Algorithms I]]: Self-balancing AVL and Red-Black trees, binary heaps, and Dijkstra shortest-path finder implemented from scratch in C and Python, verified with `pytest` unit tests and `valgrind` memory checking.
+- [ ] **Block 14:** [[01 - Curriculum/Year 2 - Systems/14 - Computer Architecture|14 - Computer Architecture]]: 5-stage pipelined RV32I RISC-V processor in Verilog with hazard detection, forwarding unit, dynamic 2-bit branch predictor, and unified direct-mapped cache. Tested in Verilator and FPGA emulation.
+- [ ] **Block 15:** [[01 - Curriculum/Year 2 - Systems/15 - Probability|15 - Probability]]: Monte Carlo simulation suite, discrete/continuous Markov chain steady-state solver, and random walk martingale path estimator in Python with `numpy` and `scipy`.
+- [ ] **Block 16:** [[01 - Curriculum/Year 3 - Depth/16 - Operating Systems|16 - Operating Systems]]: Complete MIT 6.1810 xv6 RISC-V lab curriculum (system calls, copy-on-write page faults, user-level thread scheduler, lock-free memory buffer, crash-consistent logging file system) and minimal freestanding kernel booting in `qemu`.
+- [ ] **Block 17:** [[01 - Curriculum/Year 3 - Depth/17 - Software Construction|17 - Software Construction]]: Production compiler intermediate representation and optimizer with formal representation invariants, abstract data types (ADTs), and automated WCAG 2.1 AA developer inspection interface.
+- [ ] **Block 18:** [[01 - Curriculum/Year 3 - Depth/18 - Real Analysis|18 - Real Analysis]]: Arbitrary-precision epsilon-delta convergence verifier, metric space topology explorer, and continuous nowhere-differentiable function visualizer in Python and Rust, with theorems mechanized in Lean.
+- [ ] **Block 19:** [[01 - Curriculum/Year 3 - Depth/19 - Networking|19 - Networking]]: Stanford CS144 TCP/IP stack from scratch in modern C++: TCP receiver, TCP sender, connection state machine, sliding-window flow control, and IP router. Tested against real network packet captures with `clang` and `gdb`.
+- [ ] **Block 20:** [[01 - Curriculum/Year 3 - Depth/20 - Algorithms II|20 - Algorithms II]]: Edmonds-Karp and Dinic's blocking network flow algorithms, Primal-Dual Simplex solver, and spectral graph partitioner in C++ and Python, verified with `pytest` on DIMACS benchmarks.
+- [ ] **Block 21:** [[01 - Curriculum/Year 3 - Depth/21 - Databases|21 - Databases]]: CMU 15-445 BusTub relational DBMS engine in C++: buffer pool manager, extendible hash index, B+ tree index, Volcano execution engine, and multi-version concurrency control (MVCC).
+- [ ] **Block 22:** [[01 - Curriculum/Year 3 - Depth/22 - Statistics|22 - Statistics]]: High-dimensional MLE numerical optimizer, Likelihood Ratio and Wald hypothesis testing suite, and Hamiltonian Monte Carlo (HMC) / Metropolis-Hastings MCMC sampler in Python with `numpy`, `scipy`, and `pytest`.
+- [ ] **Block 23:** [[01 - Curriculum/Year 4 - Specialization/23 - Distributed Systems|23 - Distributed Systems]]: MIT 6.5840 distributed systems labs in Go: MapReduce execution framework, Raft replicated consensus protocol (leader election, log replication, snapshotting), and fault-tolerant sharded key-value service.
+- [ ] **Block 24:** [[01 - Curriculum/Year 4 - Specialization/24 - Theory of Computation|24 - Theory of Computation]]: Deterministic and non-deterministic Turing machine simulators, generalized DFA minimization engine, and Boolean 3-SAT verifier/reduction engine in Python, with computability lemmas formalized in Lean.
+- [ ] **Block 25:** [[01 - Curriculum/Year 4 - Specialization/25 - Convex Optimization|25 - Convex Optimization]]: Portfolio optimization and trajectory planner formulated in CVXPY / SciPy with manual derivation and implementation of KKT optimality conditions.
+- [ ] **Block 26:** [[01 - Curriculum/Year 4 - Specialization/26 - Specialization A1|26 - Specialization A1]]: Primary Specialization Foundational Systems Build in Rust, C++, or Python: core algorithmic substrate, runtime environment integration, and concurrency race detection verified with `pytest` or `cargo test`.
+- [ ] **Block 27:** [[01 - Curriculum/Year 4 - Specialization/27 - Intensive Cryptopals or TLA+|27 - Intensive Cryptopals or TLA+]]: Complete solution of all 8 Cryptopals crypto challenges (AES-CBC padding oracles, ECB byte-at-a-time, RSA signature forgery, Diffie-Hellman MITM) OR formal TLA+ specification and model-checking bug reproduction of Raft/Paxos.
+- [ ] **Block 28:** [[01 - Curriculum/Year 4 - Specialization/28 - Specialization A2|28 - Specialization A2]]: Primary Specialization Advanced Systems Engine in Rust, C++, or Python: standalone high-performance system artifact, quantitative throughput/latency benchmarking, and formal invariant test harness with `valgrind` or sanitizers.
+- [ ] **Block 29:** [[01 - Curriculum/Year 4 - Specialization/29 - Specialization B1|29 - Specialization B1]]: Secondary Specialization Applied Domain Pipeline in Rust, C++, or Python: domain component implementation, automated bit-exact verification with `pytest` or `cargo test`, and system resource profiling with `valgrind`.
+- [ ] **Block 30:** [[01 - Curriculum/Year 5 - MEng/30 - Capstone|30 - Capstone]]: Master's Engineering Capstone: 10,000+ line production systems codebase, seminal research paper replication, or physical ASIC tapeout meeting formal usability and empirical performance metrics.
+- [ ] **Block 31:** [[01 - Curriculum/Year 5 - MEng/31 - Specialization B2|31 - Specialization B2]]: Secondary Specialization Scaled Infrastructure Engine in Rust, C++, or Python: advanced domain module, automated regression harness in `pytest` or `cargo test`, and quantitative profiling integrated into Year 5 Capstone.
+- [ ] **Block 32:** [[01 - Curriculum/Year 5 - MEng/32 - Information Theory|32 - Information Theory]]: Shannon-Fano, Huffman, and Lempel-Ziv-Welch (LZW) universal compression and decompression utility with channel capacity simulation.
+
+---
+
+## 🌉 Core Bridge Course Builds
+
+The foundational engineering bridge courses connect continuous physical mathematics, circuit electronics, and signal processing to digital systems:
+
+- [ ] **Block 04a:** [[01 - Curriculum/Year 1 - Fundamentals/04a - Differential Equations Bridge|04a - Differential Equations Bridge]]: Numerical ODE Integration Engine: 4th-order Runge-Kutta (RK4) and adaptive Dormand-Prince stepper in C and Python, with phase portrait trajectory visualizer. Verified via `pytest`.
+- [ ] **Block 08a:** [[01 - Curriculum/Year 1 - Fundamentals/08a - Circuits and Electronics Bridge|08a - Circuits and Electronics Bridge]]: Active Analog Audio Equalizer & MOSFET Digital Inverter: Sallen-Key active filter breadboard circuit with operational amplifiers, SPICE simulation models, and virtualized sensor instrumentation in `renode`.
+- [ ] **Block 15a:** [[01 - Curriculum/Year 2 - Systems/15a - Signals and Systems Bridge|15a - Signals and Systems Bridge]]: Discrete-Time Signal Processing Suite: Radix-2 Cooley-Tukey Fast Fourier Transform (FFT) and Parks-McClellan FIR filter engine in C++ compiled with `gcc`/`clang` and profiled with `valgrind`.
+
+---
+
+## 🚀 Specialization Track Capstone Builds
+
+The 11 advanced graduate tracks culminate in substantial capstone engineering projects documented in the [[01 - Curriculum/Specializations/Specializations Hub|Specializations Hub]]:
+
+- [ ] **Track 1 (AI & Machine Learning):** [[01 - Curriculum/Specializations/Track 1 - AI and Machine Learning|Track 1 Capstone]]: Autograd Engine & Transformer Pipeline (`needle` / `micrograd`), CUDA FlashAttention kernels, and Ring AllReduce distributed training benchmarked with `pytest`.
+- [ ] **Track 2 (Systems & Performance):** [[01 - Curriculum/Specializations/Track 2 - Systems and Performance|Track 2 Capstone]]: High-Throughput Storage Engine (`nebula-lsm`) in C++20 with lock-free skip list MemTable, Linux `io_uring` direct I/O, and leveled SSTable compaction compiled with `clang` and debugged with `gdb`.
+- [ ] **Track 3 (Security & Cryptography):** [[01 - Curriculum/Specializations/Track 3 - Security and Cryptography|Track 3 Capstone]]: Post-Quantum Encrypted Messaging Engine (`ironclad`) in Rust implementing Signal Double Ratchet with NIST FIPS 203 ML-KEM-768, built with `cargo` and tested for constant-time properties.
+- [ ] **Track 4 (Graphics & Vision):** [[01 - Curriculum/Specializations/Track 4 - Graphics and Vision|Track 4 Capstone]]: Physically Based Spectral Path Tracer (`lumina-pt`) in C++ with Multiple Importance Sampling, BVH spatial acceleration, and Intel OIDN neural denoising.
+- [ ] **Track 5 (Programming Languages & Compilers):** [[01 - Curriculum/Specializations/Track 5 - Programming Languages and Compilers|Track 5 Capstone]]: Optimizing SSA Compiler (`velox-cc`) with dominance frontiers, Chaitin-Briggs graph coloring register allocation, RV32IM backend tested in `qemu`, and mechanized Lean 4 / Coq type soundness proofs.
+- [ ] **Track 6 (Computer Engineering):** [[01 - Curriculum/Specializations/Track 6 - Computer Engineering|Track 6 Capstone]]: Hardened 32-bit RISC-V SoC (`apex-soc`) with Wishbone interconnect, UART, and SPI peripherals written in Verilog, simulated with Verilator and Cocotb, and hardened to GDSII layout via OpenLane SkyWater 130nm PDK.
+- [ ] **Track 7 (TinyML & Edge AI):** [[01 - Curriculum/Specializations/Track 7 - TinyML and Edge AI|Track 7 Capstone]]: Edge Wake-Word Detection System (`edge-vision`) executing INT8 quantized inference on ARM Cortex-M microcontrollers via CMSIS-NN SIMD vectorization, tested in `qemu` and `renode`.
+- [ ] **Track 8 (Rust Systems & Formal Verification):** [[01 - Curriculum/Specializations/Track 8 - Rust for Systems Engineering and Formal Verification|Track 8 Capstone]]: Formally Verified Preemptive SMP Microkernel (`aegis-os`) in Rust with 4-level paging and verified VirtIO drivers built with `cargo` and verified using Kani model checking.
+- [ ] **Track 9 (Hardware-in-the-Loop & CPS):** [[01 - Curriculum/Specializations/Track 9 - Hardware-in-the-Loop Virtualization, Digital Twins and CPS|Track 9 Capstone]]: Real-Time Hardware-in-the-Loop Testbed (`aero-twin`) simulating 6-DOF flight dynamics and CAN-FD communication orchestrated in `renode` and QEMU.
+- [ ] **Track 10 (Quantum Information & Computing):** [[01 - Curriculum/Specializations/Track 10 - Quantum Information and Computing|Track 10 Capstone]]: Variational Quantum Eigensolver (VQE) & Circuit Compiler (`q-compile`) with A* SWAP routing on heavy-hex coupling graphs and ZNE error mitigation tested via `pytest`.
+- [ ] **Track 11 (Autonomous Robotics & CPS):** [[01 - Curriculum/Specializations/Track 11 - Autonomous Robotics and Cyber-Physical Systems|Track 11 Capstone]]: Autonomous Indoor Navigation Stack (`drone-nav`) in ROS 2 with 3D LiDAR odometry, Informed RRT*, and real-time Model Predictive Control (MPC).
+
+---
+
+## 🧭 Navigation
+- **Curriculum Overview:** [[00 - Dashboard|Dashboard]]
+- **Milestone Checklist:** [[Checklist|Checklist]]
+- **Specializations Catalog:** [[01 - Curriculum/Specializations/Specializations Hub|Specializations Hub]]

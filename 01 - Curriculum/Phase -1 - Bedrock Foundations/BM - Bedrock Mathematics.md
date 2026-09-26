@@ -25,12 +25,12 @@ Here, you start from absolute zero—not as a child memorizing flashcards, but a
 
 ## 📖 Primary Resources & Texts
 1. **Paul Lockhart, *Arithmetic*** (✅ Already on your shelf!):
-   - A brilliant, deep, beautifully written exploration of counting, positional systems, fractions, and multiplication.
+  - A brilliant, deep, beautifully written exploration of counting, positional systems, fractions, and multiplication.
 2. **Khan Academy** (Self-testing & drills):
-   - Pre-Algebra → Algebra I (Take unit challenge tests to expose any hidden mechanical gaps).
+  - Pre-Algebra → Algebra I (Take unit challenge tests to expose any hidden mechanical gaps).
 3. **Companion Reference (Optional depth):**
-   - Serge Lang, *Basic Mathematics* (Part I: Algebra and Numbers)
-   - I.M. Gelfand & A. Shen, *Algebra* (Clear, elegant, conceptual problems)
+  - Serge Lang, *Basic Mathematics* (Part I: Algebra and Numbers)
+  - I.M. Gelfand & A. Shen, *Algebra* (Clear, elegant, conceptual problems)
 
 ---
 
@@ -79,8 +79,8 @@ Here, you start from absolute zero—not as a child memorizing flashcards, but a
 ## 🛠️ Build Requirement
 1. Work through all chapters and exercises of Lockhart's *Arithmetic*.
 2. Write a 1-page Feynman Explanation in `02 - Notes/Math/` answering:
-   - *"Why does invert-and-multiply work when dividing fractions?"*
-   - *"Why is a negative multiplied by a negative always positive?"*
+  - *"Why does invert-and-multiply work when dividing fractions?"*
+  - *"Why is a negative multiplied by a negative always positive?"*
 3. Complete Khan Academy Pre-Algebra unit challenge tests with 100% mastery.
 
 ---

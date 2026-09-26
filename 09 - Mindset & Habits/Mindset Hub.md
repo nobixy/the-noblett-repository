@@ -1,3 +1,11 @@
+---
+title: "Mindset Hub"
+type: hub
+tags:
+  - hub
+  - navigation
+---
+
 # Mindset Hub
 
 Welcome to the Mindset Hub. This space synthesizes the behavioral protocols required to sustain a multi-year deep learning endeavor.

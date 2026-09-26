@@ -13,6 +13,8 @@ date_completed: ""
 
 # Block 22 — Statistical Inference & Modeling
 
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Math/Math Index|Math Index]]
+
 > [!INFO] Block Overview
 > - **Term / Position:** Year 3 Spring
 > - **Estimated Hours:** ~150 hrs
@@ -38,21 +40,35 @@ Provides the rigorous theoretical grounding for modern data analysis, machine le
 ---
 
 ## 🛠️ Build Requirement
-Perform complete statistical analysis on an empirical dataset: compute MLE, construct confidence intervals, run hypothesis tests, and fit a Bayesian hierarchical model using MCMC.
+Implement a complete statistical inference and modeling testbench in `python` using `numpy`, `scipy`, `pytest`, and `latex`.
+1. **MLE & Fisher Information**: Program numerical optimization routines for high-dimensional MLE; compute empirical and expected Fisher Information matrices, validating asymptotic normality $\sqrt{n}(\hat{\theta}_{MLE} - \theta_0) \xrightarrow{d} \mathcal{N}(0, I(\theta_0)^{-1})$.
+2. **Hypothesis Testing**: Implement Likelihood Ratio Tests, Wald tests, and score (Rao) tests; simulate empirical power curves to verify the Neyman-Pearson optimality bound.
+3. **MCMC & Causal DAGs**: Build a Hamiltonian Monte Carlo (HMC) or Metropolis-Hastings sampler from scratch; evaluate Gelman-Rubin convergence diagnostic $\hat{R} < 1.01$ and effective sample size (ESS) on Bayesian hierarchical regression models.
+4. **Toolchain & Verification**: Automated regression tests executed via `pytest`, reproducible shell workflows orchestrated in `bash`, version-controlled with `git`, and formal derivation writeups generated in `latex`.
 
 ---
 
 ## 🏁 Done When
 > [!IMPORTANT]
-> On a real dataset, you can execute MLE, confidence intervals, hypothesis tests, and Bayesian inference with MCMC, and explain when each is the wrong tool.
+> On a real dataset, you can execute MLE, confidence intervals, hypothesis tests, and Bayesian inference with MCMC, and explain when each is the wrong tool. All proofs below are independently derived and coded in `python`.
 
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[22 - Statistics — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - MIT 6.3800 Introduction to Inference; Gelman et al., Regression and Other Stories.
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Math/Math Index|Math Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 3 - Depth/21 - Databases|← 21 - Databases]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 4 - Specialization/23 - Distributed Systems|23 - Distributed Systems →]]

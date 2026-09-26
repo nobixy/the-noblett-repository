@@ -13,6 +13,8 @@ date_completed: ""
 
 # Block 6 — C Fluency & Low-Level Problem Solving
 
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Languages/Languages Index|Languages Index]]
+
 > [!INFO] Block Overview
 > - **Term / Position:** Year 1 Spring
 > - **Estimated Hours:** ~110 hrs
@@ -47,10 +49,20 @@ Build from scratch in C: a dynamic array (vector), an arena-based string library
 ---
 
 ## 📝 Study Notes, Psets & Proofs
-*(Atomic notes, problem set proofs, and project notes)*
+
+*Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
+
+> [!TIP]- Answer key (open only after a blank-sheet attempt)
+> [[06 - C Fluency — Worked Proofs]]
 
 ---
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - Modern C (Gustedt); CS50 C weeks; Effective C (Seacord); Programming from the Ground Up.
+
+---
+
+## 🧭 Navigation
+- **Topic Hub:** [[02 - Notes/Languages/Languages Index|Languages Index]] | [[Checklist|Master Checklist]]
+- **Sequential Flow:** [[01 - Curriculum/Year 1 - Fundamentals/05 - SICP|← 05 - SICP]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 1 - Fundamentals/07 - Multivariable Calculus|07 - Multivariable Calculus →]]
