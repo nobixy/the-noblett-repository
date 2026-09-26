@@ -1,24 +1,27 @@
 # Master Daily Study Log
 *Habit 4: What you did, what you got stuck on, what you'll do tomorrow. Two minutes. Fifteen years from now this is the most valuable file you own.*
 
-> **Templates:** Daily entries use [[08 - Templates/Daily Log Entry Template|Daily Log Template]] · End-of-week synthesis uses [[08 - Templates/Weekly Review Template|Weekly Review Template]].
+> [!TIP] How to log
+> Click the **Open today's daily note** calendar icon in the left ribbon (or run *Daily notes: Open today's daily note*). It creates `10 - Daily Log/YYYY-MM-DD.md` from the [[08 - Templates/Daily Log Entry Template|Daily Log Template]]. End-of-week synthesis uses the [[08 - Templates/Weekly Review Template|Weekly Review Template]].
 
 ---
 
-## 2026-09-25 (Day 1)
-- **Active Focus:** [[BM - Bedrock Mathematics|Bedrock Math (Arithmetic)]] & [[BW - Bedrock English and Grammar|Bedrock English (Sentence Architecture)]]
-- **Cognitive Tools Primed:** [[B0 - The Deep Learner's Toolkit|The Deep Learner's Toolkit]]
-- **What I did:**
-  - Made the conscious decision to rebuild from bedrock: zero illusions of competence, solidifying arithmetic from first principles and mastering English grammar as a logical engine.
-  - Initialized The Noblett Repository Obsidian vault with full MIT 6-3 + MEng curriculum, habit dashboards, and templates.
-  - Added Phase -1 Bedrock Foundations, including Feynman technique, Franklin copywork, and Blank-Sheet retrieval templates.
-  - Began Lockhart's *Arithmetic* Chapter 1 (counting and positional systems).
-- **What I got stuck on / Friction:**
-  - Resisting the urge to rush forward to advanced topics; embracing the patience required to reconstruct first principles.
-- **What I will do tomorrow:**
-  - Read Lockhart's *Arithmetic* Chapters 1–2 (the nature of the four operations and geometric multiplication).
-  - Perform the first 15-minute Blank-Sheet recall drill on positional notation.
-  - Review core clause anatomy in Bedrock English: Subject, Verb, Object, and the elimination of nominalizations.
-  - Write daily 500 words on the meaning of numbers.
+## Totals
 
----
+```dataview
+TABLE WITHOUT ID length(rows) AS "Days logged", sum(rows.study_hours) AS "Study hours", length(filter(rows.anki, (a) => a)) AS "Anki days", length(filter(rows.words_500, (w) => w)) AS "500-word days"
+FROM "10 - Daily Log"
+WHERE type = "daily-log"
+GROUP BY true
+```
+
+## Entries
+
+```dataview
+TABLE WITHOUT ID file.link AS Day, block AS Block, study_hours AS Hours
+FROM "10 - Daily Log"
+WHERE type = "daily-log"
+SORT file.name DESC
+```
+
+First entry: [[2026-09-25]]

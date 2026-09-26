@@ -29,11 +29,29 @@ tags:
 
 ---
 
-> - **Daily Study Log:** [[log.md]]
+> - **Daily Study Log:** [[log.md]] (entries in `10 - Daily Log/`)
 > - **Living Study Manifesto:** [[how-i-study.md]]
 > - **Telemetry Log:** [[Telemetry Log.md]]
 > - **Degree Progress Checklist:** [[Checklist]]
 > - **Book Acquisition Tracker:** [[Your Shelf]]
+
+---
+
+## 📊 Degree Progress
+*Driven by each block's `status` and `hours_actual` frontmatter: update those, and this updates itself.*
+
+```dataview
+TABLE WITHOUT ID status AS Status, length(rows) AS Blocks, sum(rows.hours_actual) AS "Hours logged", sum(rows.hours_estimate) AS "Hours planned"
+FROM "01 - Curriculum"
+WHERE block_id
+GROUP BY status
+```
+
+```dataview
+TABLE WITHOUT ID file.link AS "In progress", term AS Term, hours_actual + " / " + hours_estimate AS Hours, date_started AS Started
+FROM "01 - Curriculum"
+WHERE block_id AND status = "in-progress"
+```
 
 ---
 

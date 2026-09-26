@@ -1,3 +1,6 @@
 {
-  "format": "YYYY.MM.DD"
+  "format": "YYYY-MM-DD",
+  "folder": "10 - Daily Log",
+  "template": "08 - Templates/Daily Log Entry Template",
+  "autorun": false
 }

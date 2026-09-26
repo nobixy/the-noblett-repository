@@ -1,8 +1,16 @@
-## {{date}}
-- **Active Block:** `[[{{block_id}}]]`
-- **Study / Build Time:** {{hours}} hrs
-- **Anki Reviewed:** [ ] Yes
-- **500 Words Completed:** [ ] Yes
+---
+type: daily-log
+block: ""
+study_hours: 0
+anki: false
+words_500: false
+---
+
+# {{date}}
+
+Back to: [[log|Master Log]]
+
+- **Active Block:** [[]]
 - **What I did:**
   - 
 - **What I got stuck on / Friction:**
