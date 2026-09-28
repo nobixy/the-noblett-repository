@@ -58,8 +58,8 @@ Implement a complete statistical inference and modeling testbench in `python` us
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[22 - Statistics — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> McElreath posts weekly homework solutions in each *Statistical Rethinking* course repo (e.g. [rmcelreath/stat_rethinking_2024](https://github.com/rmcelreath/stat_rethinking_2024)). Wasserman has no official solutions.
 
 ---
 

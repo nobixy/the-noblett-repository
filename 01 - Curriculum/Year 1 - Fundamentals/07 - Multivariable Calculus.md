@@ -52,8 +52,8 @@ Complete all problem sets, recitation workshops, and practice exams.
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[07 - Multivariable Calculus — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> OCW [18.02SC](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/) posts problem-set and exam solutions.
 
 ---
 

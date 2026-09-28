@@ -50,8 +50,8 @@ Build from scratch in `python` using `numpy`: LU factorization with partial pivo
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[11 - Linear Algebra — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> OCW [18.06SC](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/) posts problem-set and exam solutions. Axler has no official solutions, so check each proof line by line against the definitions.
 
 ---
 

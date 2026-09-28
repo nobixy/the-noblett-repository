@@ -59,8 +59,8 @@ Complete the MIT 6.5840 / 6.824 distributed systems laboratory suite in `go` orc
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[23 - Distributed Systems — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> The labs' `go test` suites, run repeatedly with `-race` (*Done when*: 500 consecutive passes).
 
 ---
 

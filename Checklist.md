@@ -25,7 +25,7 @@
 ## Phase 0: Prerequisites (0–5 months)
 - [ ] **[[P1 - Learning How to Learn|P1]]:** Learning how to learn (✓ *Mind for Numbers*, *Learning How to Learn*, *Make It Stick*, Dunlosky) — *Study system written in [[how-i-study]], weekly template created, 20 Anki cards created.*
 - [ ] **[[P2 - Reading, Thinking, and Writing|P2]]:** Reading, thinking, writing (Adler, Keshav, Pólya, Hermans, McEnerney, Winston) — *Four builds exist in [[04 - Writing/Writing Hub|Writing Hub]] & [[03 - Papers/Paper Reading Hub|Paper Reading Hub]].*
-- [ ] **[[P3 - Math Prerequisites|P3]]:** Math prerequisites (✓ *Velleman* 1–3, ✓ *Arithmetic*) — *Cold test passed; clean induction & contradiction proofs.*
+- [ ] **[[P3 - Math Prerequisites|P3]]:** Math prerequisites (✓ *Velleman* 1–3; *Arithmetic* is read in BM) — *Cold test passed; clean induction & contradiction proofs.*
 - [ ] **[[P4 - Programming On-Ramp|P4]]:** Programming on-ramp (*CS50x*) — *300-line valgrind-clean C program; hash table & BST from scratch.*
 - [ ] **[[P5 - Tooling|P5]]:** Tooling + notes repo (*Missing Semester*, ✓ *How Linux Works* 1–7) — *[[log]] has 14 consecutive daily entries & headless Linux mastery.*
 
@@ -37,12 +37,12 @@
 - [ ] **[[03 - Physics I|Block 3]]:** Physics I (MIT 8.01SC, ✓ *Six Easy Pieces*) — *8.01 final passed.*
 - [ ] **December Prep:** ✓ *How Computers Really Work* — hardware half.
 - [ ] **[[04 - Nand2Tetris|Block 4]]:** Nand2Tetris (Hardware & software) — *A Jack program you wrote runs on the CPU you built.*
-- [ ] **[[04a - Differential Equations Bridge|Block 4a]]:** Differential Equations Bridge (MIT 18.03SC, Strogatz) — *Construct adaptive RK4/RKF45 chaos simulator; 18.03 final passed.*
+- [ ] **[[04a - Differential Equations Bridge|Block 4a]]** *(optional — computer-engineering path, outside the hour budget)*: Differential Equations Bridge (MIT 18.03SC, Strogatz) — *Construct adaptive RK4/RKF45 chaos simulator; 18.03 final passed.*
 - [ ] **[[05 - SICP|Block 5]]:** SICP (MIT 6.001) — *Write metacircular evaluator from memory in under 1 hr.*
 - [ ] **[[06 - C Fluency|Block 6]]:** C Fluency (✓ *K&R*, ✓ *Zingaro* 1–5, ✓ *How Linux Works* 8–17) — *Valgrind-clean builds; whiteboard explanation of pointer arithmetic, struct padding, stack frame.*
 - [ ] **[[07 - Multivariable Calculus|Block 7]]:** Multivariable Calculus (MIT 18.02SC) — *18.02 final passed.*
 - [ ] **[[08 - Physics II|Block 8]]:** Physics II (MIT 8.02SC) — *8.02 final passed.*
-- [ ] **[[08a - Circuits and Electronics Bridge|Block 8a]]:** Circuits & Electronics Bridge (MIT 6.002 / 6.2000, Agarwal & Lang) — *Design & test 4th-order Sallen-Key Butterworth filter in SPICE & breadboard.*
+- [ ] **[[08a - Circuits and Electronics Bridge|Block 8a]]** *(optional — computer-engineering path, outside the hour budget)*: Circuits & Electronics Bridge (MIT 6.002 / 6.2000, Agarwal & Lang) — *Design & test 4th-order Sallen-Key Butterworth filter in SPICE & breadboard.*
 - [ ] **Year 1 Companion Reading:** ✓ *What Is Mathematics?* ch. 1–2, 6–8.
 - [ ] **Year 1 Writing Deliverable:** 12 published technical blog posts + one 2,000-word essay with visible revision history.
 
@@ -56,7 +56,7 @@
 - [ ] **[[13 - Algorithms I|Block 13]]:** Algorithms I (MIT 6.006, CLRS, ✓ *Zingaro* 6–10, ✓ *Algorithms to Live By*) — *6.006 final passed; Codeforces rating ≥1200.*
 - [ ] **[[14 - Computer Architecture|Block 14]]:** Computer Architecture (ETH Zürich DDCA Mutlu, Harris & Harris RISC-V) — *Pipelined RISC-V core runs compiled C program.*
 - [ ] **[[15 - Probability|Block 15]]:** Probability (MIT 6.041 / 6.3700) — *Final passed; derive standard distributions/moments & solve Markov chains.*
-- [ ] **[[15a - Signals and Systems Bridge|Block 15a]]:** Signals & Systems Bridge (MIT 6.007 / 6.3000, Oppenheim & Willsky) — *Implement real-time audio FFT DSP filterbank in C/Python.*
+- [ ] **[[15a - Signals and Systems Bridge|Block 15a]]** *(optional — computer-engineering path, outside the hour budget)*: Signals & Systems Bridge (MIT 6.003 / 6.3000, Oppenheim & Willsky) — *Implement real-time audio FFT DSP filterbank in C or Rust.*
 - [ ] **Year 2 Breadth (HASS):** Petzold, *Code, 2nd ed.* / Sandel, *Justice*.
 - [ ] **Year 2 Writing Deliverable:** 12 posts + 5,000-word technical design doc (CPU or interpreter) + monthly paper summaries (3-pass).
 

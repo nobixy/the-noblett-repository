@@ -1,5 +1,8 @@
 # Baseline Gap Analysis and Comprehensive Curriculum Audit Report
 
+> [!WARNING] Archived 2026-09-28 — outdated benchmark
+> This report measured the vault against MIT Courses 6-1, 6-2 and 6-5. Course 6-1 was retired and 6-2 was renumbered 6-5 in Fall 2024. The goal here is **6-3**, and the [6-3 degree chart](https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/) requires none of the "voids" it lists (18.03, 6.2000, 6.3000, or a security subject). The three bridge blocks it created (04a, 08a, 15a) are now marked optional (computer-engineering path) and sit outside the hour budget.
+
 **Document Version:** 1.0.0  
 **Audit Author:** Curriculum Working Group & Audit Committee  
 **Audit Date:** 2026-09-25  

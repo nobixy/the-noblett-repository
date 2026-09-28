@@ -53,8 +53,8 @@ All eight Stanford CS144 labs: implement a complete, working TCP stack in modern
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[19 - Networking — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> The test suite that comes with each CS144 checkpoint.
 
 ---
 

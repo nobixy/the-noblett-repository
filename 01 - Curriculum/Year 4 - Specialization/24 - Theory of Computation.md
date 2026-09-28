@@ -52,8 +52,8 @@ Write out formal reductions proving undecidability and NP-completeness for compl
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[24 - Theory of Computation — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> Ullman's [book page](http://infolab.stanford.edu/~ullman/ialc.html) posts solutions to HMU's starred exercises. OCW's 6.045J posts no solutions.
 
 ---
 

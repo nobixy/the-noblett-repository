@@ -38,7 +38,7 @@ To become exceptionally educated from the ground up, you must abandon how school
   - *"Why does this step follow from the line above?"*
   - *"What breaks if this condition is removed?"*
   - *"Under what conditions does this statement become false?"*
-- Connecting a new fact to an explanatory *causal mechanism* increases retention by over 300% compared to memorization (Dunlosky et al., 2013).
+- Dunlosky et al. (2013) rate elaborative interrogation *moderate utility*. Only practice testing and distributed practice earned *high utility*, which is why blank-sheet retrieval and spacing carry the most weight here.
 
 ### 3. The Benjamin Franklin Copywork Method (Deliberate Practice for Writing)
 - **How Franklin Taught Himself to Write Like a Master:**
@@ -64,7 +64,7 @@ To become exceptionally educated from the ground up, you must abandon how school
 
 ### 6. Dual Coding (Paivio)
 - Human memory has two separate channels: verbal (words, equations, grammar) and non-verbal/visuospatial (diagrams, number lines, geometric shapes).
-- Information encoded in *both* channels simultaneously forms twice as many neural retrieval paths.
+- Encoding an idea in *both* channels gives memory two routes back to it (Paivio's dual-coding theory).
 - For every mathematical concept, draw its visual meaning (e.g., multiplication as a rectangle of grid dots, fractions as divided pizza slices or lengths on a ruler).
 
 ### 7. Interleaving & Desirable Difficulties (Bjork)

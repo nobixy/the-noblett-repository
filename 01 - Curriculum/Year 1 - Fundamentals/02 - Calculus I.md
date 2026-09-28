@@ -54,8 +54,8 @@ Solve all MIT 18.01 problem sets and write formal solutions for all recitation p
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[02 - Calculus I — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> OCW [18.01SC](https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/) posts problem-set and exam solutions.
 
 ---
 

@@ -62,8 +62,8 @@ Complete all twelve Nand2Tetris projects using the Hardware Simulator, `python` 
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[04 - Nand2Tetris — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> The `.tst`/`.cmp` test scripts that ship with each project. A chip or program is done when its script passes.
 
 ---
 

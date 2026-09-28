@@ -54,8 +54,8 @@ Work all assigned problem sets and review recitation derivations.
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[08 - Physics II — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> OCW's [8.02X (Spring 2005)](https://ocw.mit.edu/courses/8-02x-physics-ii-electricity-magnetism-with-an-experimental-focus-spring-2005/) posts problem-set and exam solutions.
 
 ---
 

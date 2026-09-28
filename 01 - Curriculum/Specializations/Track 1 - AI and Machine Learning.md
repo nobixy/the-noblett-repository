@@ -196,8 +196,8 @@ An end-to-end, high-performance deep learning pipeline implementing a decoder-on
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[Track 1 - AI and Machine Learning — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> Use each course's own autograders and posted solutions when you reach this track.
 
 ---
 

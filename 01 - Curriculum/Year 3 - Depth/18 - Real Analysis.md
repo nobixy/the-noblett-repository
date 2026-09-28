@@ -55,8 +55,8 @@ Work through Abbott cover-to-cover and write out every single proof in `latex`. 
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[18 - Real Analysis — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> OCW's 18.100A posts no solutions, and Abbott has no official solution set. Check each proof line by line against the definitions: a proof you can't defend step by step isn't done.
 
 ---
 

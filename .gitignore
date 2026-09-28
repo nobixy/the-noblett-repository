@@ -4,6 +4,9 @@
 .obsidian/cache/
 .trash/
 
+# Plugin settings that hold credentials (OAuth client secret) — never commit
+.obsidian/plugins/obsidian-google-sync/data.json
+
 # OS metadata
 .DS_Store
 Thumbs.db

@@ -63,8 +63,8 @@ Tools shape thought. Trying to learn operating systems or algorithms while fumbl
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[P5 - Tooling — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> No answer key. *Done when* is the check: 14 consecutive entries in [[log]] and real work on a Linux box with no GUI.
 
 ---
 

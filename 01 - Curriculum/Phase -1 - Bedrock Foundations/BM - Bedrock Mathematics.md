@@ -13,9 +13,8 @@ date_completed: ""
 
 # BM — Bedrock Mathematics: Arithmetic from First Principles
 
-> [!QUOTE]
-> "Arithmetic is not the art of calculation; it is the art of understanding what numbers are and what we can do with them."  
-> — **Paul Lockhart, *Arithmetic***
+> [!NOTE] The premise of Lockhart's *Arithmetic*
+> Arithmetic is a craft of arranging numbers so they are easy to compare and communicate, not a pile of rote recipes. (Paraphrase, not a quotation.)
 
 Most people believe they are "bad at math" because they were taught arithmetic as a collection of rote recipes and magic incantations (e.g. "borrow the one", "invert and multiply", "negative times negative is positive"). 
 

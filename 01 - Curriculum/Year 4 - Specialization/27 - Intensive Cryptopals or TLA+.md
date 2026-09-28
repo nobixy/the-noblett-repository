@@ -53,8 +53,8 @@ Complete hands-on security and formal verification engineering in `python`, `rus
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[27 - Intensive Cryptopals or TLA+ — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> Cryptopals checks itself: you recover the plaintext or you don't. For TLA+, the TLC model checker checks your spec.
 
 ---
 

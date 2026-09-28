@@ -56,8 +56,8 @@ Implement the Metacircular Evaluator (§4.1) and the Lazy Evaluator (§4.2) from
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[05 - SICP — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> SICP has no official solutions. Run every exercise in a Scheme REPL and test the edge cases; compare with community solutions only after your own attempt.
 
 ---
 

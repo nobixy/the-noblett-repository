@@ -3,6 +3,7 @@ block_id: "Block 4a"
 title: "Differential Equations and Dynamical Systems Bridge (MIT 18.03)"
 term: "Year 1 Spring"
 status: not-started
+optional: true # computer-engineering path; excluded from the hour budget
 hours_estimate: 150
 hours_actual: 0
 primary_resource: "William E. Boyce & Richard C. DiPrima, Elementary Differential Equations and Boundary Value Problems (11e) & Steven Strogatz, Nonlinear Dynamics and Chaos (2e) & MIT 18.03 OCW"
@@ -14,6 +15,9 @@ date_completed: ""
 # Block 4a — Differential Equations and Dynamical Systems Bridge (MIT 18.03)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Math/Math Index|Math Index]]
+
+> [!NOTE] Optional — computer-engineering path
+> Not required for MIT 6-3 (the [6-3 degree chart](https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/) doesn't require 18.03), and not part of the source program. Its main job is to prepare the optional [[08a - Circuits and Electronics Bridge|08a]] and [[15a - Signals and Systems Bridge|15a]] blocks. It sits outside the hour budget.
 
 > [!INFO] Block Overview
 > - **Term / Position:** Year 1 Spring (Co-requisite with [[07 - Multivariable Calculus]] and [[08 - Physics II]], preceding [[08a - Circuits and Electronics Bridge]], [[11 - Linear Algebra]], and [[15a - Signals and Systems Bridge]])
@@ -198,8 +202,8 @@ You must construct a high-performance numerical simulation suite and phase-space
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[04a - Differential Equations Bridge — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> OCW [18.03SC](https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/) posts problem-set and exam solutions.
 
 ---
 

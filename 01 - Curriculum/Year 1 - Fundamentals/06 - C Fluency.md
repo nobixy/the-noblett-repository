@@ -52,8 +52,8 @@ Build from scratch in C: a dynamic array (vector), an arena-based string library
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[06 - C Fluency — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> `valgrind` and your own tests. For K&R exercises, Tondo & Gimpel's *The C Answer Book* has worked solutions.
 
 ---
 

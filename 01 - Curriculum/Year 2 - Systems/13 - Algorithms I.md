@@ -53,8 +53,8 @@ Implement every major data structure and algorithm from scratch in `c` and `pyth
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[13 - Algorithms I — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> OCW [6.006 (Spring 2020)](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/) posts problem-set and exam solutions.
 
 ---
 

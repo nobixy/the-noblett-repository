@@ -11,7 +11,7 @@ tags:
 ## 🧭 North Star
 **Goal:** Earn, by self-study, the working knowledge of an MIT Course 6-3 SB + MEng — proven by passing the real final exams, shipping the builds, and writing the thesis — starting from rebuilt arithmetic and grammar.
 
-**Budget:** ~6,300 planned hours (sum of block estimates) + Phase −1/0. At ~20 hrs/wk that is roughly **7 years**. Below 15 hrs/wk, cut scope; do not stretch past 8 years.
+**Budget:** ~5,800 planned block hours, Phase −1 through Year 5 (the sum of block estimates; the optional computer-engineering bridges 04a/08a/15a would add ~470). The source program's part-time plan (~20 hrs/wk, habits included) takes about **7.5 years**, and Phase −1 adds about six weeks. Below 15 hrs/wk, cut scope; do not stretch past 8 years.
 
 **The five rules** (from [[07 - Reference/The Independent EECS Program.pdf|the source program]]):
 1. No lecture without its problem set the same week.
@@ -21,7 +21,7 @@ tags:
 5. Keep a daily log, in git.
 
 **Guardrails for this vault:**
-- The *Study Notes, Psets & Proofs* section of every block is written by me, from a blank page. Reference derivations live in [[Worked Proofs Index|Worked Proofs]] and are opened only after my own attempt.
+- The *Study Notes, Psets & Proofs* section of every block is written by me, from a blank page. Each block's **Check your work** callout names the course's own solutions, autograder, or test suite; I open it only after my own attempt.
 - Specializations: pick **two** of the 11 tracks, not more. Decide at the end of Year 3 ([[Specializations Hub]]).
 - The vault serves the study, not the other way round. No new structure until the current block needs it.
 
@@ -38,12 +38,12 @@ tags:
 ---
 
 ## 📊 Degree Progress
-*Driven by each block's `status` and `hours_actual` frontmatter: update those, and this updates itself.*
+*Driven by each block's `status` and `hours_actual` frontmatter: update those, and this updates itself. Blocks flagged `optional: true` (the 04a/08a/15a bridges) are left out.*
 
 ```dataview
 TABLE WITHOUT ID status AS Status, length(rows) AS Blocks, sum(rows.hours_actual) AS "Hours logged", sum(rows.hours_estimate) AS "Hours planned"
 FROM "01 - Curriculum"
-WHERE block_id
+WHERE block_id AND optional != true
 GROUP BY status
 ```
 
@@ -97,4 +97,4 @@ LIMIT 7
 - ✍️ **Writing Repository**: [[04 - Writing/Writing Hub|Writing Hub]] (Daily 500 words, Franklin copywork & technical essays)
 - 🛠️ **Project Specs & Lab Builds**: [[05 - Projects/Projects Hub|Projects Hub]]
 - 🌍 **Breadth & Languages**: [[06 - Breadth/Breadth and Humanities Hub|Breadth Hub]]
-- 📚 **Reference & Appendices**: [[07 - Reference/Appendix E - Failure Modes|Appendix E (Failure Modes)]] · [[07 - Reference/Appendix F - Curated URLs|Appendix F (Curated URLs)]] · [[07 - Reference/Baseline Gap Analysis and Audit Report|Curriculum Audit & Gap Report]] · [[Worked Proofs Index|Worked Proofs]]
+- 📚 **Reference & Appendices**: [[07 - Reference/Appendix E - Failure Modes|Appendix E (Failure Modes)]] · [[07 - Reference/Appendix F - Curated URLs|Appendix F (Curated URLs)]] · Archived AI material (unverified answer keys, 2026-09-25 gap report): `99 - Archive/`

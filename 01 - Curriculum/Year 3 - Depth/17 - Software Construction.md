@@ -102,8 +102,8 @@ The most under-appreciated course in the MIT degree. How to write complex code t
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[17 - Software Construction — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> The built-in exercises in each 6.102 reading, and the tests you write under the course's testing strategy.
 
 ---
 

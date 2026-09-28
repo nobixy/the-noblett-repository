@@ -3,6 +3,7 @@ block_id: "Block 15a"
 title: "Signals and Systems Bridge (MIT 6.3000)"
 term: "Year 2 Spring"
 status: not-started
+optional: true # computer-engineering path; excluded from the hour budget
 hours_estimate: 160
 hours_actual: 0
 primary_resource: "Alan Oppenheim & Alan Willsky, Signals and Systems (2e) & MIT 6.003 / 6.3000 OCW"
@@ -14,6 +15,9 @@ date_completed: ""
 # Block 15a — Signals and Systems Bridge (MIT 6.3000)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Math/Math Index|Math Index]]
+
+> [!NOTE] Optional — computer-engineering path
+> Not required for MIT 6-3 (the [6-3 degree chart](https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/) doesn't require 6.3000). The source program adds 6.003 signals only for the full computer-engineering degree, where it is also [[Track 6 - Computer Engineering|Track 6]]'s second course. It sits outside the hour budget.
 
 > [!INFO] Block Overview
 > - **Term / Position:** Year 2 Spring (Following [[11 - Linear Algebra]] and [[15 - Probability]], preceding [[16 - Operating Systems]] and Year 3 Depth)
@@ -197,8 +201,8 @@ You must implement a production-grade, zero-dependency digital signal processing
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[15a - Signals and Systems Bridge — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> OCW [6.003 (Fall 2011)](https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/) posts quiz solutions, including quizzes from earlier terms.
 
 ---
 

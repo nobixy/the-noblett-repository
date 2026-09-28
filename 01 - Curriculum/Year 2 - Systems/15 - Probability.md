@@ -55,8 +55,8 @@ Work all MIT 6.041 problem sets and formal mathematical derivations in `latex`. 
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[15 - Probability — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> OCW [6.041SC (Fall 2013)](https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/) posts problem-set and exam solutions.
 
 ---
 

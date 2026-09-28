@@ -57,8 +57,8 @@ Implement an information theory and coding suite in `python` and `c++` using `nu
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[32 - Information Theory — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> MacKay's book includes worked solutions to many of its exercises.
 
 ---
 

@@ -50,8 +50,8 @@ Build two complete programming language implementations — one tree-walking int
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[12 - Interpreters — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> Ball's tests for Monkey; the `test/` suite in the Crafting Interpreters repo for clox (*Done when*).
 
 ---
 

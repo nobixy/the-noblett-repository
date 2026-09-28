@@ -55,8 +55,8 @@ Implement Edmonds-Karp network flow, Dinic's blocking flow algorithm, a Primal-D
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[20 - Algorithms II — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> OCW [6.046J (Spring 2015)](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/) posts problem-set and exam solutions.
 
 ---
 

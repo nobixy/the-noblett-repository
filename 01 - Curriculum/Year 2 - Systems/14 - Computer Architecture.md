@@ -55,8 +55,8 @@ Build a 5-stage pipelined RISC-V processor core in Verilog with hazard detection
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[14 - Computer Architecture — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> Your own testbenches under Verilator, then the *Done when* test: a C program compiled with riscv64-gcc runs correctly on your core.
 
 ---
 

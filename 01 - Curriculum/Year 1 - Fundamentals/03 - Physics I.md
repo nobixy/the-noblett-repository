@@ -54,8 +54,8 @@ Complete all 8.01SC homework sets and problem-solving workshops.
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[03 - Physics I — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> OCW's 8.01SC posts almost no written solutions. Check units, signs and limiting cases on every answer; a past 8.01 final, timed, is the real test (*Done when*).
 
 ---
 

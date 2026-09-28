@@ -3,6 +3,7 @@ block_id: "Block 8a"
 title: "Circuits and Electronics Bridge (MIT 6.2000)"
 term: "Year 1 Spring"
 status: not-started
+optional: true # computer-engineering path; excluded from the hour budget
 hours_estimate: 160
 hours_actual: 0
 primary_resource: "Anant Agarwal & Jeffrey Lang, Foundations of Analog and Digital Electronic Circuits & MIT 6.002 / 6.2000 OCW"
@@ -14,6 +15,9 @@ date_completed: ""
 # Block 8a — Circuits and Electronics Bridge (MIT 6.2000)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Hardware/Hardware Index|Hardware Index]]
+
+> [!NOTE] Optional — computer-engineering path
+> Not required for MIT 6-3 (the [6-3 degree chart](https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/) doesn't require 6.2000). The source program adds 6.002 circuits only for the full computer-engineering degree (see [[Track 6 - Computer Engineering|Track 6]]). It sits outside the hour budget.
 
 > [!INFO] Block Overview
 > - **Term / Position:** Year 1 Spring (Co-requisite with [[08 - Physics II]], preceding [[09 - Computer Systems]] and [[14 - Computer Architecture]])
@@ -163,8 +167,8 @@ You must design, simulate in SPICE (LTspice or ngspice), and physically breadboa
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[08a - Circuits and Electronics Bridge — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> OCW's 6.002 (Spring 2007) posts no solutions. Your SPICE run and breadboard measurements are the check: they match your analysis or they don't.
 
 ---
 

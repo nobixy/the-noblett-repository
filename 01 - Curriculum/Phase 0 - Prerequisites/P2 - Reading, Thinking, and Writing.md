@@ -63,8 +63,8 @@ You're about to read thousands of pages of textbooks and hundreds of papers. Rea
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[P2 - Reading, Thinking, and Writing — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> No answer key; the four builds are the check. Compare your three-pass summary with the paper's own abstract and conclusion. For the Pólya problems, read a published solution only after writing yours.
 
 ---
 

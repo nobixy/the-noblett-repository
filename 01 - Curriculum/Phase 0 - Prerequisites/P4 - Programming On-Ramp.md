@@ -35,7 +35,7 @@ Before diving into Berkeley CS61A, you need fundamental operational competence w
 ---
 
 ## 📖 Primary Syllabus
-- [ ] Harvard CS50x:
+- [ ] Harvard CS50x (2026 edition):
   - [ ] Week 0: Scratch
   - [ ] Week 1: C
   - [ ] Week 2: Arrays
@@ -44,10 +44,11 @@ Before diving into Berkeley CS61A, you need fundamental operational competence w
   - [ ] Week 5: Data Structures (Linked lists, Tries, Hash tables)
   - [ ] Week 6: Python
   - [ ] Week 7: SQL
+  - [ ] Artificial Intelligence (lecture between Weeks 7 and 8)
   - [ ] Week 8: HTML, CSS, JavaScript
   - [ ] Week 9: Flask
-  - [ ] Week 10: Cybersecurity
-  - [ ] Every problem set, every lab, and the final project.
+  - [ ] Week 10: The End (final project)
+  - [ ] Every problem set and the final project. (The 2026 edition has no separate labs.)
 
 ---
 
@@ -66,8 +67,8 @@ Implement a 300-line modular data structure library in `c` (hash table with sepa
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[P4 - Programming On-Ramp — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> CS50's `check50` autograder on every problem set, then `valgrind` for the exit test.
 
 ---
 

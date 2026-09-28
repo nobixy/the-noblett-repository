@@ -5,7 +5,7 @@ term: "Phase 0 (0–5 mo)"
 status: not-started
 hours_estimate: 90
 hours_actual: 0
-primary_resource: "Khan Academy -> Velleman, How to Prove It (ch 1-3) -> Lockhart, Arithmetic"
+primary_resource: "Khan Academy -> Velleman, How to Prove It (ch 1-3)"
 milestone: "Cold exit test passed; induction & contradiction proofs written"
 date_started: ""
 date_completed: ""
@@ -19,7 +19,7 @@ date_completed: ""
 > - **Status:** `not-started`
 > - **Primary Practice:** Khan Academy (Algebra II → Precalculus → Trigonometry) as needed
 > - **Primary Proofs:** Velleman, *How to Prove It* (Chapters 1–3, every exercise)
-> - **Companion Reading:** Lockhart, *Arithmetic* (evenings)
+> - **Companion Reading:** Lockhart, *Arithmetic*, is read in [[BM - Bedrock Mathematics|BM]]. Revisit it before Nand2Tetris as a warm-up for binary.
 > - **Transition Guide:** Lara Alcock, *How to Study as a Mathematics Major* (Ch 1–4)
 
 ---
@@ -46,7 +46,6 @@ Mathematics in EECS is not calculation; it is proof and structure. Before starti
   - [ ] Chapter 2: Set Theory
   - [ ] Chapter 3: Proofs (Direct, Contrapositive, Contradiction)
   - [ ] Complete *every single exercise*.
-- [ ] **Lockhart, *Arithmetic***: Read in the evenings (essential intuition for binary representation in Nand2Tetris).
 
 ---
 
@@ -65,8 +64,8 @@ Write rigorous, complete formal solutions to all Velleman Chapters 1–3 exercis
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[P3 - Math Prerequisites — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> Velleman's starred exercises have solutions or hints in the back of the book (*Solutions to Selected Exercises*). For the rest, check each line against the definitions, or ask for a Socratic proof check.
 
 ---
 

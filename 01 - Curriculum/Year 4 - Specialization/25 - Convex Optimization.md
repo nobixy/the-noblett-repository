@@ -59,8 +59,8 @@ Formulate and solve large-scale convex optimization problems in `python` using `
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[25 - Convex Optimization — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> No public solution set. Check numerical answers by solving the same problem in CVXPY; derive the KKT conditions by hand and confirm they hold at the solver's optimum.
 
 ---
 

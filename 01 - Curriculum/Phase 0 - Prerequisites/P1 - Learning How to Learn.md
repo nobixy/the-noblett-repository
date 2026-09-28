@@ -64,8 +64,8 @@ Everything downstream assumes you know how memory, practice, and attention actua
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[P1 - Learning How to Learn — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> No answer key. Grade yourself against *Done when*: explain each idea aloud, closed-book, then compare with *Make It Stick* and the summary table in Dunlosky et al. (2013).
 
 ---
 

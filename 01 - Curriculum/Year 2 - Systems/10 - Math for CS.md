@@ -53,8 +53,8 @@ Work through every assigned problem set in MIT 6.042J, typesetting complete form
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[10 - Math for CS — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> OCW's [6.042J (Fall 2010)](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/) posts solutions, including the final exam's. The Spring 2015 offering doesn't.
 
 ---
 

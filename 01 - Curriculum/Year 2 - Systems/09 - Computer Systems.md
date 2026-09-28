@@ -65,8 +65,8 @@ Complete all seven canonical CMU 15-213 (CS:APP) systems labs in `c` on `linux` 
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
 
-> [!TIP]- Answer key (open only after a blank-sheet attempt)
-> [[09 - Computer Systems — Worked Proofs]]
+> [!TIP]- Check your work (only after your own blank-sheet attempt)
+> The grading drivers and traces that ship with each self-study lab ([csapp.cs.cmu.edu/3e/labs.html](https://csapp.cs.cmu.edu/3e/labs.html)).
 
 ---
 
