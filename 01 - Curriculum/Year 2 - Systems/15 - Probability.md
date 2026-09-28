@@ -68,4 +68,4 @@ Work all MIT 6.041 problem sets and formal mathematical derivations in `latex`. 
 
 ## 🧭 Navigation
 - **Topic Hub:** [[02 - Notes/Math/Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[01 - Curriculum/Year 2 - Systems/14 - Computer Architecture|← 14 - Computer Architecture]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 2 - Systems/15a - Signals and Systems Bridge|15a - Signals and Systems Bridge →]]
+- **Sequential Flow:** [[01 - Curriculum/Year 2 - Systems/14 - Computer Architecture|← 14 - Computer Architecture]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 2 - Systems/15a - Signals and Systems Bridge|15a - Signals and Systems Bridge (optional) →]]

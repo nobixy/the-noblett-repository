@@ -6,7 +6,7 @@
 | **MIT Course Renumbering (Old ↔ New)** | [eecsis.mit.edu/numbering.html](https://eecsis.mit.edu/numbering.html) |
 | **MIT 6-3 Degree Chart** | [catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3](https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/) |
 | **Learning How to Learn (Coursera)** | [coursera.org/learn/learning-how-to-learn](https://www.coursera.org/learn/learning-how-to-learn) |
-| **Missing Semester (MIT)** | [missing-semester.mit.edu](https://missing-semester.mit.edu) |
+| **Missing Semester (MIT)** | [missing.csail.mit.edu](https://missing.csail.mit.edu) · 2020 edition: [missing.csail.mit.edu/2020](https://missing.csail.mit.edu/2020/) |
 | **Harvard CS50x** | [cs50.harvard.edu/x](https://cs50.harvard.edu/x) |
 | **Berkeley CS61A** | [cs61a.org](https://cs61a.org) |
 | **Nand2Tetris** | [nand2tetris.org](https://www.nand2tetris.org) |
@@ -17,7 +17,7 @@
 | **ETH Zürich DDCA (Onur Mutlu)** | [safari.ethz.ch](https://safari.ethz.ch) · [YouTube](https://www.youtube.com/onurmutlulectures) |
 | **OSTEP (Free Book Chapters)** | [pages.cs.wisc.edu/~remzi/OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/) |
 | **MIT 6.1810 / 6.828 Operating Systems (xv6)** | [pdos.csail.mit.edu/6.1810](https://pdos.csail.mit.edu/6.1810) |
-| **MIT 6.1020 / 6.031 Software Construction** | [web.mit.edu/6.031/www](https://web.mit.edu/6.031/www/) |
+| **MIT 6.1020 / 6.031 Software Construction** | [web.mit.edu/6.102/www](https://web.mit.edu/6.102/www/) (the old 6.031 site now lands on its Spring 2022 archive) |
 | **Stanford CS144 Networking** | [cs144.github.io](https://cs144.github.io) |
 | **CMU 15-445/645 Databases (Andy Pavlo)** | [15445.courses.cs.cmu.edu](https://15445.courses.cs.cmu.edu) |
 | **MIT 6.5840 / 6.824 Distributed Systems** | [pdos.csail.mit.edu/6.824](https://pdos.csail.mit.edu/6.824) |

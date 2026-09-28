@@ -17,7 +17,7 @@ date_completed: ""
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Math/Math Index|Math Index]]
 
 > [!NOTE] Optional — computer-engineering path
-> Not required for MIT 6-3 (the [6-3 degree chart](https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/) doesn't require 6.3000). The source program adds 6.003 signals only for the full computer-engineering degree, where it is also [[Track 6 - Computer Engineering|Track 6]]'s second course. It sits outside the hour budget.
+> Not required for MIT 6-3 (the [6-3 degree chart](https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/) doesn't require 6.3000). The source program adds 6.003 signals only for the full computer-engineering degree, where it is also [[Track 6 - Computer Engineering|Track 6]]'s second course. It sits outside the hour budget. [[Track 7 - TinyML and Edge AI|Track 7]] and [[Track 11 - Autonomous Robotics and Cyber-Physical Systems|Track 11]] list it as a prerequisite.
 
 > [!INFO] Block Overview
 > - **Term / Position:** Year 2 Spring (Following [[11 - Linear Algebra]] and [[15 - Probability]], preceding [[16 - Operating Systems]] and Year 3 Depth)

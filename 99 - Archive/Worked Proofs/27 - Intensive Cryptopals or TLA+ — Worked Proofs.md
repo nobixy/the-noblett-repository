@@ -86,7 +86,7 @@ oracle queries, completely breaking semantic confidentiality in linear time $\ma
 
 The following foundational paper from the [[03 - Papers/Paper Reading Hub|Paper Reading Hub]] is assigned to Block 27. Analyze using the Keshav Three-Pass Methodology:
 
-1. **"On Lattices, Learning with Errors and Access Control"** (Oded Regev, 2005)
+1. **"On Lattices, Learning with Errors, Random Linear Codes, and Cryptography"** (Oded Regev, 2005)
     - *Venue:* STOC '05 (Paper 33 in [[03 - Papers/Paper Reading Hub|Paper Reading Hub]])
     - *Landmark Invariant:* Reduction from worst-case lattice problems (GapSVP, SIVP) to average-case Learning With Errors (LWE), foundational to post-quantum cryptography.
     - *Reading Guidance:* Focus Pass 2 on the quantum reduction step between discrete Gaussian distributions on the dual lattice and continuous Gaussian perturbations.

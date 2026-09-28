@@ -23,11 +23,11 @@ tags:
 
 The core degree requirements mandate completing tangible, production-grade software and hardware artifacts for each course block. Builds are developed using standard system toolchains including `gcc`, `clang`, `rust`, `cargo`, `gdb`, `valgrind`, `qemu`, `verilog`, `renode`, and `pytest`.
 
-- [ ] **Phase 0 On-Ramp:** [[01 - Curriculum/Phase 0 - Prerequisites/P4 - Programming On-Ramp|Phase 0 Programming]]: Valgrind-clean 300-line C program, Hash Table with open addressing, and Binary Search Tree from scratch. Verified with `gcc`, `valgrind`, and `gdb`.
+- [ ] **Phase 0 On-Ramp:** [[01 - Curriculum/Phase 0 - Prerequisites/P4 - Programming On-Ramp|Phase 0 Programming]]: Valgrind-clean 300-line C program, hash table (separate chaining), and binary search tree from scratch. Verified with `gcc`, `valgrind`, and `gdb`.
 - [ ] **Block 01:** [[01 - Curriculum/Year 1 - Fundamentals/01 - CS61A|01 - CS61A]]: Scheme Interpreter with tail-call optimization, user-defined macros, and lexical scoping implemented in Python and verified via `pytest`.
 - [ ] **Block 02:** [[01 - Curriculum/Year 1 - Fundamentals/02 - Calculus I|02 - Calculus I]]: Numerical differentiation engine, adaptive Simpson's rule and Riemann sum integrator, and Taylor series polynomial approximator implemented in Python and C, verified with `pytest`.
 - [ ] **Block 03:** [[01 - Curriculum/Year 1 - Fundamentals/03 - Physics I|03 - Physics I]]: Classical kinematics, 2D/3D rigid-body collision simulator, and symplectic numerical integrator (Verlet/leapfrog) in C++ verified with unit tests.
-- [ ] **Block 04:** [[01 - Curriculum/Year 1 - Fundamentals/04 - Nand2Tetris|04 - Nand2Tetris]]: Complete hardware-to-software computing stack: 16-bit Hack CPU and ALU in Verilog/HDL, assembler, stack-based VM translator, Jack compiler, and minimal OS running an interactive graphics demo.
+- [ ] **Block 04:** [[01 - Curriculum/Year 1 - Fundamentals/04 - Nand2Tetris|04 - Nand2Tetris]]: Complete hardware-to-software computing stack: 16-bit Hack CPU and ALU in the Nand2Tetris HDL, assembler, stack-based VM translator, Jack compiler, and minimal OS running an interactive graphics demo.
 - [ ] **Block 05:** [[01 - Curriculum/Year 1 - Fundamentals/05 - SICP|05 - SICP]]: Metacircular Evaluator, Amb non-deterministic evaluator, and Lazy Stream Evaluator in Scheme/Racket.
 - [ ] **Block 06:** [[01 - Curriculum/Year 1 - Fundamentals/06 - C Fluency|06 - C Fluency]]: Reusable systems data structures in ANSI C: dynamic array vector, arena string allocator, hash map, and a POSIX-compliant `ls -laR` utility. Verified leak-free with `valgrind` and `clang` AddressSanitizer.
 - [ ] **Block 07:** [[01 - Curriculum/Year 1 - Fundamentals/07 - Multivariable Calculus|07 - Multivariable Calculus]]: Vector calculus numerical gradient descent, Hessian matrix computation, and 3D contour surface visualizer in Python with `numpy` and `matplotlib`.
@@ -59,13 +59,13 @@ The core degree requirements mandate completing tangible, production-grade softw
 
 ---
 
-## 🌉 Core Bridge Course Builds
+## 🌉 Optional Bridge Course Builds (computer-engineering path)
 
-The foundational engineering bridge courses connect continuous physical mathematics, circuit electronics, and signal processing to digital systems:
+Not required for 6-3 and outside the hour budget. Build these only if you take the bridge blocks. Each line below follows its block's own Build section.
 
-- [ ] **Block 04a:** [[01 - Curriculum/Year 1 - Fundamentals/04a - Differential Equations Bridge|04a - Differential Equations Bridge]]: Numerical ODE Integration Engine: 4th-order Runge-Kutta (RK4) and adaptive Dormand-Prince stepper in C and Python, with phase portrait trajectory visualizer. Verified via `pytest`.
-- [ ] **Block 08a:** [[01 - Curriculum/Year 1 - Fundamentals/08a - Circuits and Electronics Bridge|08a - Circuits and Electronics Bridge]]: Active Analog Audio Equalizer & MOSFET Digital Inverter: Sallen-Key active filter breadboard circuit with operational amplifiers, SPICE simulation models, and virtualized sensor instrumentation in `renode`.
-- [ ] **Block 15a:** [[01 - Curriculum/Year 2 - Systems/15a - Signals and Systems Bridge|15a - Signals and Systems Bridge]]: Discrete-Time Signal Processing Suite: Radix-2 Cooley-Tukey Fast Fourier Transform (FFT) and Parks-McClellan FIR filter engine in C++ compiled with `gcc`/`clang` and profiled with `valgrind`.
+- [ ] **Block 04a:** [[01 - Curriculum/Year 1 - Fundamentals/04a - Differential Equations Bridge|04a - Differential Equations Bridge]]: Numerical ODE integration engine (RK4 and adaptive RKF45) with a phase-portrait and chaos visualizer; the Van der Pol limit cycle demonstrated.
+- [ ] **Block 08a:** [[01 - Curriculum/Year 1 - Fundamentals/08a - Circuits and Electronics Bridge|08a - Circuits and Electronics Bridge]]: Dual-stage active audio pre-amplifier and 4th-order Sallen-Key Butterworth band-pass filter, simulated in SPICE, then built on a breadboard.
+- [ ] **Block 15a:** [[01 - Curriculum/Year 2 - Systems/15a - Signals and Systems Bridge|15a - Signals and Systems Bridge]]: Zero-dependency DSP engine in C or Rust: radix-2 FFT/IFFT, FFT convolution, and a WAV-file audio filter.
 
 ---
 

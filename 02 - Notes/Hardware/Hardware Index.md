@@ -19,6 +19,6 @@ tags:
 ## Reference Courses
 - [[04 - Nand2Tetris]]
 - [[08 - Physics II]] (MIT 8.02SC)
-- [[08a - Circuits and Electronics Bridge]] (MIT 6.2000)
+- [[08a - Circuits and Electronics Bridge]] (MIT 6.2000; optional)
 - [[14 - Computer Architecture]] (ETH Zürich Mutlu)
 - [[Track 6 - Computer Engineering]]

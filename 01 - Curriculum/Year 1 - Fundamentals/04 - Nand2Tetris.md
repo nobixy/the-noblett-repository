@@ -75,4 +75,4 @@ Complete all twelve Nand2Tetris projects using the Hardware Simulator, `python` 
 
 ## 🧭 Navigation
 - **Topic Hub:** [[02 - Notes/Hardware/Hardware Index|Hardware Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[01 - Curriculum/Year 1 - Fundamentals/03 - Physics I|← 03 - Physics I]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 1 - Fundamentals/04a - Differential Equations Bridge|04a - Differential Equations Bridge →]]
+- **Sequential Flow:** [[01 - Curriculum/Year 1 - Fundamentals/03 - Physics I|← 03 - Physics I]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 1 - Fundamentals/04a - Differential Equations Bridge|04a - Differential Equations Bridge (optional) →]]

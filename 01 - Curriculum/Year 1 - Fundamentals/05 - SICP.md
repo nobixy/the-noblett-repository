@@ -69,4 +69,4 @@ Implement the Metacircular Evaluator (§4.1) and the Lazy Evaluator (§4.2) from
 
 ## 🧭 Navigation
 - **Topic Hub:** [[02 - Notes/Languages/Languages Index|Languages Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[01 - Curriculum/Year 1 - Fundamentals/04a - Differential Equations Bridge|← 04a - Differential Equations Bridge]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 1 - Fundamentals/06 - C Fluency|06 - C Fluency →]]
+- **Sequential Flow:** [[01 - Curriculum/Year 1 - Fundamentals/04a - Differential Equations Bridge|← 04a - Differential Equations Bridge (optional)]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 1 - Fundamentals/06 - C Fluency|06 - C Fluency →]]

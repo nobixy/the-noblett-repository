@@ -67,4 +67,4 @@ Work all assigned problem sets and review recitation derivations.
 
 ## 🧭 Navigation
 - **Topic Hub:** [[02 - Notes/Hardware/Hardware Index|Hardware Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[01 - Curriculum/Year 1 - Fundamentals/07 - Multivariable Calculus|← 07 - Multivariable Calculus]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 1 - Fundamentals/08a - Circuits and Electronics Bridge|08a - Circuits and Electronics Bridge →]]
+- **Sequential Flow:** [[01 - Curriculum/Year 1 - Fundamentals/07 - Multivariable Calculus|← 07 - Multivariable Calculus]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 1 - Fundamentals/08a - Circuits and Electronics Bridge|08a - Circuits and Electronics Bridge (optional) →]]

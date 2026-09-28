@@ -116,7 +116,7 @@ The following foundational papers from the [[03 - Papers/Paper Reading Hub|Paper
     - *Venue:* Communications of the ACM (Paper 1 in [[03 - Papers/Paper Reading Hub|Paper Reading Hub]])
     - *Landmark Invariant:* Unified hierarchical file system, uniform file descriptor I/O interface, and shell pipelines for orthogonal process composition.
     - *Reading Guidance:* Focus Pass 2 on the kernel implementation of pipes, fork/exec decoupling, and inode allocation invariants.
-2. **"Exokernel: An Architecture for Bug-Free, High-Performance Extensible Operating Systems"** (Dawson R. Engler, M. Frans Kaashoek, James O'Toole, 1995)
+2. **"Exokernel: An Operating System Architecture for Application-Level Resource Management"** (Dawson R. Engler, M. Frans Kaashoek, James O'Toole, 1995)
     - *Venue:* SOSP '95 (Paper 2 in [[03 - Papers/Paper Reading Hub|Paper Reading Hub]])
     - *Landmark Invariant:* Application of the end-to-end argument to kernel architecture; separation of protection from management via secure hardware exposure and user-space Library OSs.
     - *Reading Guidance:* Analyze how packet filters, secure disk bindings, and downloaded code achieve sub-microsecond protection transitions without sacrificing isolation.

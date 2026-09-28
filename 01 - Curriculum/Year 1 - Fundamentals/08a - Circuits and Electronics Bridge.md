@@ -17,7 +17,7 @@ date_completed: ""
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[02 - Notes/Hardware/Hardware Index|Hardware Index]]
 
 > [!NOTE] Optional — computer-engineering path
-> Not required for MIT 6-3 (the [6-3 degree chart](https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/) doesn't require 6.2000). The source program adds 6.002 circuits only for the full computer-engineering degree (see [[Track 6 - Computer Engineering|Track 6]]). It sits outside the hour budget.
+> Not required for MIT 6-3 (the [6-3 degree chart](https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/) doesn't require 6.2000). The source program adds 6.002 circuits only for the full computer-engineering degree. It sits outside the hour budget. [[Track 6 - Computer Engineering|Track 6]] and [[Track 9 - Hardware-in-the-Loop Virtualization, Digital Twins and CPS|Track 9]] list it as a prerequisite.
 
 > [!INFO] Block Overview
 > - **Term / Position:** Year 1 Spring (Co-requisite with [[08 - Physics II]], preceding [[09 - Computer Systems]] and [[14 - Computer Architecture]])

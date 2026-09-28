@@ -85,7 +85,7 @@ For any interval $[a, b]$ with $-\infty < a < b < \infty$, let $U_N[a, b]$ denot
 
 The following foundational paper from the [[03 - Papers/Paper Reading Hub|Paper Reading Hub]] is assigned to Block 15. Analyze using the Keshav Three-Pass Methodology:
 
-1. **"Deep Unsupervised Learning using Nonequilibrium Thermodynamics"** (Jascha Sohl-Dickstein, Eric Weiss, Niru Khan, Haim Sompolinsky, 2015)
+1. **"Deep Unsupervised Learning using Nonequilibrium Thermodynamics"** (Jascha Sohl-Dickstein, Eric A. Weiss, Niru Maheswaranathan, Surya Ganguli, 2015)
     - *Venue:* ICML 2015 (Paper 28 in [[03 - Papers/Paper Reading Hub|Paper Reading Hub]])
     - *Landmark Invariant:* Physical foundation of diffusion probabilistic models: reversing a forward Markovian Gaussian perturbation process to learn complex data distributions.
     - *Reading Guidance:* Focus Pass 2 on the forward diffusion kernel, reverse trajectory transition probability formulation, and variational lower bound on log-likelihood.

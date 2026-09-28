@@ -17,7 +17,7 @@ date_completed: ""
 > - **Term / Position:** Phase 0 (Final On-Ramp)
 > - **Estimated Hours:** ~40 hrs
 > - **Status:** `not-started`
-> - **Primary Course:** MIT The Missing Semester of Your CS Education (`missing-semester.mit.edu`) — all 11 lectures and exercises
+> - **Primary Course:** MIT The Missing Semester of Your CS Education, 2020 edition ([missing.csail.mit.edu/2020](https://missing.csail.mit.edu/2020/)) — all 11 lectures and exercises
 > - **Companion Reading:** Brian Ward, *How Linux Works, 3e* (Chapters 1–7)
 
 ---
@@ -40,6 +40,7 @@ Tools shape thought. Trying to learn operating systems or algorithms while fumbl
   - [ ] 9. Security and Cryptography
   - [ ] 10. Potpourri
   - [ ] 11. Q&A
+  - *The 2026 edition ([missing.csail.mit.edu](https://missing.csail.mit.edu)) has 9 lectures and adds packaging, agentic coding and code quality. It no longer covers data wrangling or security, so the 2020 list above stays the primary.*
 - [ ] **Ward, *How Linux Works***: Read Chapters 1–7 alongside the course.
 
 ---

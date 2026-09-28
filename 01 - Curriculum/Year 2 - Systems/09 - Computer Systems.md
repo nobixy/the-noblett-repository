@@ -78,4 +78,4 @@ Complete all seven canonical CMU 15-213 (CS:APP) systems labs in `c` on `linux` 
 
 ## 🧭 Navigation
 - **Topic Hub:** [[02 - Notes/Systems/Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[01 - Curriculum/Year 1 - Fundamentals/08a - Circuits and Electronics Bridge|← 08a - Circuits and Electronics Bridge]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 2 - Systems/10 - Math for CS|10 - Math for CS →]]
+- **Sequential Flow:** [[01 - Curriculum/Year 1 - Fundamentals/08a - Circuits and Electronics Bridge|← 08a - Circuits and Electronics Bridge (optional)]] | [[00 - Dashboard|Dashboard]] | [[01 - Curriculum/Year 2 - Systems/10 - Math for CS|10 - Math for CS →]]
