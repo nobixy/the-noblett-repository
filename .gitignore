@@ -7,6 +7,14 @@
 # Plugin settings that hold credentials (OAuth client secret) — never commit
 .obsidian/plugins/obsidian-google-sync/data.json
 
+# Agent scratch and local AI settings: not part of the study record
+.agents/
+.claude/
+
+# Personal data that must never reach this public repo (health, webcam)
+whoop.md
+Vision_Agent_Log.md
+
 # OS metadata
 .DS_Store
 Thumbs.db
