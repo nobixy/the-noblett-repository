@@ -1,55 +1,67 @@
 ---
 block_id: ""
 title: ""
-term: ""
+category: "core" # core | support | optional | advanced
 status: not-started # not-started | in-progress | done
 hours_estimate: 0
 hours_actual: 0
 primary_resource: ""
-milestone: ""
 date_started: ""
 date_completed: ""
 ---
 
 # {{title}}
 
-> [!INFO] Block Overview
-> - **Term / Position:** {{term}}
-> - **Estimated Hours:** {{hours_estimate}} hrs
-> - **Status:** `{{status}}`
-> - **Primary Resource:** {{primary_resource}}
-> - **Key Milestone:** {{milestone}}
+> [!INFO] README / Overview
+> **Estimated Hours:** {{hours_estimate}} hrs
+> **Status:** `{{status}}`
 
 ---
 
-## 🎯 Why This Block Matters
-*Why does this block exist in the curriculum? What intuition, mental model, or foundational capability does it build?*
+## 🎯 Why This Matters
+*Why does this block exist in the curriculum? How does it connect to the larger field?*
 
 ---
 
-## 📖 Primary Syllabus & Core Content
-- [ ] Topic 1 / Chapter 1
-- [ ] Topic 2 / Chapter 2
-- [ ] Topic 3 / Chapter 3
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Previous Block]]
 
 ---
 
-## 🛠️ Build Requirement
-*The exact project, library, interpreter, or hardware core to build.*
+## 🧠 Learning Objectives
+*What will you understand by the end of this block?*
 
 ---
 
-## 🏁 Done When
-> [!IMPORTANT]
-> A block is done when this condition is true. Not before.
+## 📖 Core Resources
+- **Primary Text/Course:** {{primary_resource}}
+- **Lectures / Reading:** 
+
+---
+
+## 🛠️ Execution
+### Exercises & Problem Sets
+- [ ] 
+
+### Labs & Projects
 - [ ] 
 
 ---
 
-## 📝 Study Notes, Psets & Proofs
-*Atomic notes, problem set proofs, and reflections.*
+## 🏁 Mastery Criteria & Assessments
+> [!IMPORTANT]
+> A block is done when you can independently satisfy these criteria. Not before.
+- [ ] What should I be able to explain without notes?
+- [ ] What should I be able to build, derive, or prove?
 
 ---
 
-## 🔄 Appendix A Alternatives (Failover)
-*Only consult if primary genuinely isn't working after two honest weeks.*
+## 📝 Study Notes & Proofs
+*Your blank-page attempts, derivations, and atomic reflections.*
+
+---
+
+## ➡️ Next Steps
+*Why does the next subject come next?*
+- [[Next Block]]

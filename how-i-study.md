@@ -11,11 +11,11 @@
 ### A. Retrieval Practice (Testing Effect)
 - Reading and highlighting create an **illusion of competence**. They feel fluent because the material is in front of the eyes, not because it is stored in long-term memory.
 - The only reliable way to cement understanding is active retrieval: close the book, shut the notes, and recall or explain the concept from scratch.
-- Use the **Spaced Blank-Sheet Retrieval Protocol** after every study block: 15 minutes of zero-hint memory dump ([[08 - Templates/Blank-Sheet Retrieval Template]]).
+- Use the **Spaced Blank-Sheet Retrieval Protocol** after every study block: 15 minutes of zero-hint memory dump ([[Blank-Sheet Retrieval Template]]).
 
 ### B. The Feynman Technique (Radical Simplicity)
 - Strip all jargon. If an idea cannot be explained in simple words and physical analogies to a 12-year-old, the underlying concept is not understood.
-- Isolate friction points where you hesitate; those are your true knowledge gaps ([[08 - Templates/Feynman Technique Note Template]]).
+- Isolate friction points where you hesitate; those are your true knowledge gaps ([[Feynman Technique Note Template]]).
 
 ### C. Elaborative Interrogation (The "Why?" Reflex)
 - Never accept a formula, algebraic step, or grammatical rule passively.
@@ -29,7 +29,7 @@
 - Interleave problem types (never drill 50 identical problems in a row); force the brain to practice *selecting the correct tool*.
 
 ### F. Benjamin Franklin Copywork (For Writing & Grammar)
-- Master English prose by analyzing master passages, outlining them, putting them aside for 3 days, and reconstructing the prose from memory ([[08 - Templates/Franklin Copywork Template]]).
+- Master English prose by analyzing master passages, outlining them, putting them aside for 3 days, and reconstructing the prose from memory ([[Franklin Copywork Template]]).
 
 ### G. Focused vs. Diffuse Mode
 - **Focused mode:** High-intensity, distraction-free concentration on problem formulation.
@@ -85,17 +85,17 @@
 *(This vault implements this exact hierarchy!)*
 
 Standard note structures are standardized using templates:
-- Course syllabus and progress notes use the [[08 - Templates/Block Note Template|Block Note Template]].
-- Topic notes in `/math`, `/systems`, `/theory`, `/hardware`, and `/languages` use the [[08 - Templates/Zettelkasten Atomic Note Template|Zettelkasten Atomic Note Template]].
+- Course syllabus and progress notes use the [[Block Note Template|Block Note Template]].
+- Topic notes in `/math`, `/systems`, `/theory`, `/hardware`, and `/languages` use the [[Zettelkasten Atomic Note Template|Zettelkasten Atomic Note Template]].
 
 ---
 
 ## 7. Mindset, Habits, and Research Practices
 
 ### A. Behavioral Protocols & Mindset Philosophy
-Sustaining this multi-year independent curriculum requires rigorous psychological and behavioral architecture. The complete operational frameworks for cognitive endurance, daily habits, and stress inoculation are centralized in the [[09 - Mindset & Habits/Mindset Hub|Mindset Hub]]:
-- **Perseverance & Growth:** Emphasize long-term commitment and viewing intellectual friction as direct evidence of neuroplastic learning (see [[09 - Mindset & Habits/Mindset Hub#1. Core Mindset: Grit & Growth|Grit & Growth Mindset]]).
-- **Focused Attention:** Structure the daily schedule around high-intensity, distraction-free concentration blocks (see [[09 - Mindset & Habits/Mindset Hub#2. Habits of Successful People|Deep Work & Time-Blocking]]).
+Sustaining this multi-year independent curriculum requires rigorous psychological and behavioral architecture. The complete operational frameworks for cognitive endurance, daily habits, and stress inoculation are centralized in the [[Mindset Hub|Mindset Hub]]:
+- **Perseverance & Growth:** Emphasize long-term commitment and viewing intellectual friction as direct evidence of neuroplastic learning (see [[Mindset Hub#1. Core Mindset: Grit & Growth|Grit & Growth Mindset]]).
+- **Focused Attention:** Structure the daily schedule around high-intensity, distraction-free concentration blocks (see [[Mindset Hub#2. Habits of Successful People|Deep Work & Time-Blocking]]).
 
 ### B. CS Research Practices
 - **Version Control:** Commit early and cleanly using Git.

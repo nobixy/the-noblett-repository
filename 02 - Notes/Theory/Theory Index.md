@@ -18,6 +18,6 @@ tags:
 - **Complexity Theory:** Reductions, Turing machines, P vs NP, NP-Completeness, Rice's theorem
 
 ## Reference Courses
-- [[13 - Algorithms I]] (MIT 6.006)
-- [[20 - Algorithms II]] (MIT 6.046J)
-- [[24 - Theory of Computation]] (MIT 6.045)
+- [[Algorithms I]] (MIT 6.006)
+- [[Algorithms II]] (MIT 6.046J)
+- [[Theory of Computation]] (MIT 6.045)

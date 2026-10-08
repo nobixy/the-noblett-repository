@@ -10,10 +10,10 @@ tags:
 
 > [!WARNING] Answer key — open only after your own attempt
 > These derivations were generated as reference material, not study notes. Reading them first creates the illusion of competence that [[how-i-study]] warns about.
-> Protocol: attempt the proof from a blank sheet in [[27 - Intensive Cryptopals or TLA+]] → compare here → log every gap you found.
+> Protocol: attempt the proof from a blank sheet in [[Intensive Cryptopals or TLA+]] → compare here → log every gap you found.
 > They are unverified; treat any step you cannot justify as a possible error, not as authority.
 
-Back to: [[27 - Intensive Cryptopals or TLA+]] · [[Worked Proofs Index]]
+Back to: [[Intensive Cryptopals or TLA+]] · [[Worked Proofs Index]]
 
 ---
 
@@ -82,11 +82,11 @@ oracle queries, completely breaking semantic confidentiality in linear time $\ma
 
 ---
 
-### 📄 Landmark Research Papers (from [[03 - Papers/Paper Reading Hub|Paper Reading Hub]])
+### 📄 Landmark Research Papers (from [[Paper Reading Hub|Paper Reading Hub]])
 
-The following foundational paper from the [[03 - Papers/Paper Reading Hub|Paper Reading Hub]] is assigned to Block 27. Analyze using the Keshav Three-Pass Methodology:
+The following foundational paper from the [[Paper Reading Hub|Paper Reading Hub]] is assigned to Block 27. Analyze using the Keshav Three-Pass Methodology:
 
 1. **"On Lattices, Learning with Errors, Random Linear Codes, and Cryptography"** (Oded Regev, 2005)
-    - *Venue:* STOC '05 (Paper 33 in [[03 - Papers/Paper Reading Hub|Paper Reading Hub]])
+    - *Venue:* STOC '05 (Paper 33 in [[Paper Reading Hub|Paper Reading Hub]])
     - *Landmark Invariant:* Reduction from worst-case lattice problems (GapSVP, SIVP) to average-case Learning With Errors (LWE), foundational to post-quantum cryptography.
     - *Reading Guidance:* Focus Pass 2 on the quantum reduction step between discrete Gaussian distributions on the dual lattice and continuous Gaussian perturbations.

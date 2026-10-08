@@ -12,26 +12,26 @@ tags:
 ---
 
 ## Areas
-- **Calculus & Analysis:** [[02 - Calculus I]], [[04a - Differential Equations Bridge]] (optional), [[07 - Multivariable Calculus]], [[18 - Real Analysis]]
-- **Classical Mechanics & Physics:** [[03 - Physics I]]
-- **Discrete Math & Logic:** [[P3 - Math Prerequisites]], [[10 - Math for CS]]
-- **Linear Algebra:** [[11 - Linear Algebra]]
-- **Probability, Signals & Statistics:** [[15 - Probability]], [[15a - Signals and Systems Bridge]] (optional), [[22 - Statistics]]
-- **Optimization & Information:** [[25 - Convex Optimization]], [[32 - Information Theory]]
+- **Calculus & Analysis:** [[Calculus I]], [[Differential Equations Bridge]] (optional), [[Multivariable Calculus]], [[Real Analysis]]
+- **Classical Mechanics & Physics:** [[Physics I]]
+- **Discrete Math & Logic:** [[Math Prerequisites]], [[Math for CS]]
+- **Linear Algebra:** [[Linear Algebra]]
+- **Probability, Signals & Statistics:** [[Probability]], [[Signals and Systems Bridge]] (optional), [[Statistics]]
+- **Optimization & Information:** [[Convex Optimization]], [[Information Theory]]
 
 ## Reference Courses
-- [[02 - Calculus I]] (MIT 18.01SC)
-- [[03 - Physics I]] (MIT 8.01SC)
-- [[04a - Differential Equations Bridge]] (MIT 18.03; optional)
-- [[07 - Multivariable Calculus]] (MIT 18.02SC)
-- [[10 - Math for CS]] (MIT 6.042J)
-- [[11 - Linear Algebra]] (MIT 18.06SC)
-- [[15 - Probability]] (MIT 6.041)
-- [[15a - Signals and Systems Bridge]] (MIT 6.3000; optional)
-- [[18 - Real Analysis]] (MIT 18.100A / Abbott)
-- [[22 - Statistics]] (MIT 18.650 / McElreath)
-- [[25 - Convex Optimization]] (Stanford EE364A / Boyd)
-- [[32 - Information Theory]] (Cover & Thomas)
+- [[Calculus I]] (MIT 18.01SC)
+- [[Physics I]] (MIT 8.01SC)
+- [[Differential Equations Bridge]] (MIT 18.03; optional)
+- [[Multivariable Calculus]] (MIT 18.02SC)
+- [[Math for CS]] (MIT 6.042J)
+- [[Linear Algebra]] (MIT 18.06SC)
+- [[Probability]] (MIT 6.041)
+- [[Signals and Systems Bridge]] (MIT 6.3000; optional)
+- [[Real Analysis]] (MIT 18.100A / Abbott)
+- [[Statistics]] (MIT 18.650 / McElreath)
+- [[Convex Optimization]] (Stanford EE364A / Boyd)
+- [[Information Theory]] (Cover & Thomas)
 
 ## Principles for Math Notes
 1. Write theorems in your own words.

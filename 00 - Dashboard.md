@@ -8,12 +8,15 @@ tags:
 
 # 00 - Dashboard
 
+> **[👉 START HERE: The Master Curriculum Map]([[00 - Start Here]])**
+
+
 ## 🧭 North Star
 **Goal:** Earn, by self-study, the working knowledge of an MIT Course 6-3 SB + MEng — proven by passing the real final exams, shipping the builds, and writing the thesis — starting from rebuilt arithmetic and grammar.
 
 **Budget:** ~5,800 planned block hours, Phase −1 through Year 5 (the sum of block estimates; the optional computer-engineering bridges 04a/08a/15a would add ~470). The source program's part-time plan (~20 hrs/wk, habits included) takes about **7.5 years**, and Phase −1 adds about six weeks. Below 15 hrs/wk, cut scope; do not stretch past 8 years.
 
-**The five rules** (from [[07 - Reference/The Independent EECS Program.pdf|the source program]]):
+**The five rules** (from [[The Independent EECS Program.pdf|the source program]]):
 1. No lecture without its problem set the same week.
 2. A block is done when its *Done when* line is true. Not before.
 3. Never start a new block until the current one is done.
@@ -25,7 +28,7 @@ tags:
 - Specializations: pick **two** of the 11 tracks, not more. Decide at the end of Year 3 ([[Specializations Hub]]).
 - The vault serves the study, not the other way round. No new structure until the current block needs it.
 
-**Now:** Phase −1 → [[BM - Bedrock Mathematics|Bedrock Math]] + [[BW - Bedrock English and Grammar|Bedrock English]] · **Next block:** [[B0 - The Deep Learner's Toolkit|B0]] → [[P1 - Learning How to Learn|P1]] · **Schedule:** [[Calendar]]
+**Now:** Phase −1 → [[Bedrock Mathematics|Bedrock Math]] + [[Bedrock English and Grammar|Bedrock English]] · **Next block:** [[The Deep Learner's Toolkit|B0]] → [[Learning How to Learn|P1]] · **Schedule:** [[Calendar]]
 
 ---
 
@@ -78,23 +81,23 @@ LIMIT 7
 ## 🎯 Phase -1: Bedrock Foundations
 *Rebuilding the operating system of the mind.*
 
-- **Habit 1 — Arithmetic First Principles:** [[BM - Bedrock Mathematics|Bedrock Math]]
-- **Habit 2 — Structural Grammar:** [[BW - Bedrock English and Grammar|Bedrock English]]
-- **Habit 3 — Cognitive Tooling:** [[B0 - The Deep Learner's Toolkit|Deep Learner's Toolkit]]
+- **Habit 1 — Arithmetic First Principles:** [[Bedrock Mathematics|Bedrock Math]]
+- **Habit 2 — Structural Grammar:** [[Bedrock English and Grammar|Bedrock English]]
+- **Habit 3 — Cognitive Tooling:** [[The Deep Learner's Toolkit|Deep Learner's Toolkit]]
 
 ### Daily Routines
-- **Feynman Technique:** Jargon-free child-level explanation ([[08 - Templates/Feynman Technique Note Template|Feynman Template]])
-- **Benjamin Franklin Copywork:** Reverse-engineering master prose ([[08 - Templates/Franklin Copywork Template|Franklin Template]])
-- **Spaced Blank-Sheet Retrieval:** 15-minute zero-hint recall dumps ([[08 - Templates/Blank-Sheet Retrieval Template|Blank-Sheet Template]])
+- **Feynman Technique:** Jargon-free child-level explanation ([[Feynman Technique Note Template|Feynman Template]])
+- **Benjamin Franklin Copywork:** Reverse-engineering master prose ([[Franklin Copywork Template|Franklin Template]])
+- **Spaced Blank-Sheet Retrieval:** 15-minute zero-hint recall dumps ([[Blank-Sheet Retrieval Template|Blank-Sheet Template]])
 
 ---
 
 ## 📈 The Vault
-- 🧠 **Mindset & Habits**: [[09 - Mindset & Habits/Mindset Hub|Mindset Hub]]
-- 📑 **Curriculum**: [[Checklist|Degree Checklist]] · [[01 - Curriculum/Specializations/Specializations Hub|Specializations Hub]]
-- 📓 **Topic Notes**: [[02 - Notes/Hardware/Hardware Index|Hardware]] · [[02 - Notes/Languages/Languages Index|Languages]] · [[02 - Notes/Math/Math Index|Math]] · [[02 - Notes/Systems/Systems Index|Systems]] · [[02 - Notes/Theory/Theory Index|Theory]]
-- 📄 **Paper Summaries**: [[03 - Papers/Paper Reading Hub|Paper Reading Hub]] (Three-pass method)
-- ✍️ **Writing Repository**: [[04 - Writing/Writing Hub|Writing Hub]] (Daily 500 words, Franklin copywork & technical essays)
-- 🛠️ **Project Specs & Lab Builds**: [[05 - Projects/Projects Hub|Projects Hub]]
-- 🌍 **Breadth & Languages**: [[06 - Breadth/Breadth and Humanities Hub|Breadth Hub]]
-- 📚 **Reference & Appendices**: [[07 - Reference/Appendix E - Failure Modes|Appendix E (Failure Modes)]] · [[07 - Reference/Appendix F - Curated URLs|Appendix F (Curated URLs)]] · Archived AI material (unverified answer keys, 2026-09-25 gap report): `99 - Archive/`
+- 🧠 **Mindset & Habits**: [[Mindset Hub|Mindset Hub]]
+- 📑 **Curriculum**: [[Checklist|Degree Checklist]] · [[Specializations Hub|Specializations Hub]]
+- 📓 **Topic Notes**: [[Hardware Index|Hardware]] · [[Languages Index|Languages]] · [[Math Index|Math]] · [[Systems Index|Systems]] · [[Theory Index|Theory]]
+- 📄 **Paper Summaries**: [[Paper Reading Hub|Paper Reading Hub]] (Three-pass method)
+- ✍️ **Writing Repository**: [[Writing Hub|Writing Hub]] (Daily 500 words, Franklin copywork & technical essays)
+- 🛠️ **Project Specs & Lab Builds**: [[Projects Hub|Projects Hub]]
+- 🌍 **Breadth & Languages**: [[Breadth and Humanities Hub|Breadth Hub]]
+- 📚 **Reference & Appendices**: [[Appendix E - Failure Modes|Appendix E (Failure Modes)]] · [[Appendix F - Curated URLs|Appendix F (Curated URLs)]] · Archived AI material (unverified answer keys, 2026-09-25 gap report): `99 - Archive/`

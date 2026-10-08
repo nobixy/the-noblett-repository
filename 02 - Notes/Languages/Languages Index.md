@@ -18,9 +18,9 @@ tags:
 - **Compiler Optimizations:** SSA form, dead code elimination, register allocation
 
 ## Reference Courses
-- [[01 - CS61A]]
-- [[05 - SICP]]
-- [[06 - C Fluency]]
-- [[12 - Interpreters]]
-- [[17 - Software Construction]]
+- [[CS61A]]
+- [[SICP]]
+- [[C Fluency]]
+- [[Interpreters]]
+- [[Software Construction]]
 - [[Track 5 - Programming Languages and Compilers]]

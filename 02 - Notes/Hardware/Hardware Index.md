@@ -17,8 +17,8 @@ tags:
 - **EDA & Tapeout:** Verilog/SystemVerilog, Verilator, FPGA synthesis, Tiny Tapeout ASIC flow
 
 ## Reference Courses
-- [[04 - Nand2Tetris]]
-- [[08 - Physics II]] (MIT 8.02SC)
-- [[08a - Circuits and Electronics Bridge]] (MIT 6.2000; optional)
-- [[14 - Computer Architecture]] (ETH Zürich Mutlu)
+- [[Nand2Tetris]]
+- [[Physics II]] (MIT 8.02SC)
+- [[Circuits and Electronics Bridge]] (MIT 6.2000; optional)
+- [[Computer Architecture]] (ETH Zürich Mutlu)
 - [[Track 6 - Computer Engineering]]
