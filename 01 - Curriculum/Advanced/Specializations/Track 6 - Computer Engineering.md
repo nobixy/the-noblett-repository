@@ -1,5 +1,5 @@
 ---
-block_id: "Block 45"
+block_id: "Block 47"
 track_id: "Track 6"
 title: "Computer Engineering"
 category: "advanced"

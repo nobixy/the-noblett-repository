@@ -1,5 +1,5 @@
 ---
-block_id: "Block 52"
+block_id: "Block 54"
 title: "January Intensive: Cryptopals or TLA+"
 category: "advanced"
 term: "Year 4 January Intensive"
@@ -14,7 +14,7 @@ date_completed: ""
 tier: "Tier 3 - Depth"
 ---
 
-# Block 52 — January Intensive: Cryptopals or TLA+
+# Block 54 — January Intensive: Cryptopals or TLA+
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Systems Index|Systems Index]]
 

@@ -14,7 +14,7 @@ tags:
 ## 🧭 North Star
 **Goal:** Earn, by self-study, the working knowledge of an MIT Course 6-3 SB + MEng — proven by passing the real final exams, shipping the builds, and writing the thesis — starting from rebuilt arithmetic and grammar.
 
-**Budget:** ~5,800 planned block hours, Phase −1 through Year 5 (the sum of block estimates; the optional computer-engineering bridges 04a/08a/15a would add ~470). The source program's part-time plan (~20 hrs/wk, habits included) takes about **7.5 years**, and Phase −1 adds about six weeks. Below 15 hrs/wk, cut scope; do not stretch past 8 years.
+**Budget:** ~6,500 planned block hours, Phase 0 through Phase 8 (the sum of block estimates; plus two Specialization Tracks). The source program's part-time plan (~20 hrs/wk, habits included) takes about **7.5 years**, and Phase −1 adds about six weeks. Below 15 hrs/wk, cut scope; do not stretch past 8 years.
 
 **The five rules** (from [[The Independent EECS Program.pdf|the source program]]):
 1. No lecture without its problem set the same week.

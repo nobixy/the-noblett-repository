@@ -1,5 +1,5 @@
 ---
-block_id: "Block 51"
+block_id: "Block 53"
 title: "Capstone Project & Thesis (MEng Year)"
 category: "advanced"
 term: "Year 5 (Two Semesters)"
@@ -14,7 +14,7 @@ date_completed: ""
 tier: "Tier 3 - Depth"
 ---
 
-# Block 51 — Capstone Project & Thesis (MEng Year)
+# Block 53 — Capstone Project & Thesis (MEng Year)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Projects Hub|Projects Hub]]
 

@@ -1,5 +1,5 @@
 ---
-block_id: "Block 43"
+block_id: "Block 45"
 track_id: "Track 4"
 title: "Graphics and Vision"
 category: "advanced"

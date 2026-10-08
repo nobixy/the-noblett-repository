@@ -1,5 +1,5 @@
 ---
-block_id: "Block 32"
+block_id: "Block 34"
 title: "Computer Security"
 category: "core"
 term: "Year 2"

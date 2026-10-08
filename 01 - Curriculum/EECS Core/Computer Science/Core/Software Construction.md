@@ -129,4 +129,4 @@ The most under-appreciated course in the MIT degree. How to write complex code t
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Languages Index|Languages Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Databases|← Databases]] | [[00 - Dashboard|Dashboard]] | [[Distributed Systems|Distributed Systems →]]
+- **Sequential Flow:** [[Databases|← Databases]] | [[00 - Dashboard|Dashboard]] | [[Parallel Computing|Parallel Computing →]]

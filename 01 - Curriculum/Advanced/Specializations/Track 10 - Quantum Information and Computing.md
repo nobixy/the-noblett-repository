@@ -1,5 +1,5 @@
 ---
-block_id: "Block 49"
+block_id: "Block 51"
 track_id: "Track 10"
 title: "Quantum Information and Computing"
 category: "advanced"

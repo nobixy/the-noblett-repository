@@ -1,5 +1,5 @@
 ---
-block_id: "Block 28"
+block_id: "Block 29"
 title: "Design and Analysis of Algorithms (MIT 6.046J)"
 category: "core"
 term: "Year 3 Spring"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 28 — Design and Analysis of Algorithms (MIT 6.046J)
+# Block 29 — Design and Analysis of Algorithms (MIT 6.046J)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Theory Index|Theory Index]]
 

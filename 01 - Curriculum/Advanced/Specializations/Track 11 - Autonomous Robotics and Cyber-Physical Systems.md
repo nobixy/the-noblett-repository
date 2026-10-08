@@ -1,5 +1,5 @@
 ---
-block_id: "Block 50"
+block_id: "Block 52"
 track_id: "Track 11"
 title: "Autonomous Robotics and Cyber-Physical Systems"
 category: "advanced"

@@ -1,5 +1,5 @@
 ---
-block_id: "Block 31"
+block_id: "Block 33"
 title: "Introduction to Machine Learning"
 category: "core"
 term: "Year 2"
@@ -29,4 +29,4 @@ Machine learning is fundamental to modern computer science.
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Theory Index|Theory Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Information Theory|← Information Theory]] | [[00 - Dashboard|Dashboard]] | [[Computer Security|Computer Security →]]
+- **Sequential Flow:** [[Artificial Intelligence|← Artificial Intelligence]] | [[00 - Dashboard|Dashboard]] | [[Computer Security|Computer Security →]]

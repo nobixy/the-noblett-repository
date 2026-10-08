@@ -60,6 +60,7 @@ This is the definitive, dependency-aware linear sequence. **Do not skip prerequi
 - [[Networking]] *(Tier 1)*
 - [[Databases]] *(Tier 1)*
 - [[Software Construction]] *(Tier 1)*
+- [[Parallel Computing]] *(Tier 1)*
 
 ### Phase 6: Distributed Systems & Advanced Algorithms
 *Navigating partial failures, eventual consistency, and hard problems.*
@@ -67,6 +68,7 @@ This is the definitive, dependency-aware linear sequence. **Do not skip prerequi
 - [[Algorithms II]] *(Tier 1)*
 - [[Statistics]] *(Tier 1)*
 - [[Information Theory]] *(Tier 3)*
+- [[Artificial Intelligence]] *(Tier 1)*
 - [[Introduction to Machine Learning]] *(Tier 1)*
 - [[Computer Security]] *(Tier 1)*
 
@@ -99,6 +101,9 @@ Pick **two** of the tracks from the [[Specializations Hub]] to pursue deeply aft
 - [[Track 9 - Hardware-in-the-Loop Virtualization, Digital Twins and CPS]]
 - [[Track 10 - Quantum Information and Computing]]
 - [[Track 11 - Autonomous Robotics and Cyber-Physical Systems]]
+- [[Track 12 - Computational Biology and Bioinformatics]]
+- [[Track 13 - Systems Formal Verification]]
+- [[Track 14 - Advanced Pure Mathematics]]
 - [[Capstone]]
 - [[Intensive Cryptopals or TLA+]]
 

@@ -1,5 +1,5 @@
 ---
-block_id: "Block 48"
+block_id: "Block 50"
 track_id: "Track 9"
 title: "Hardware-in-the-Loop Virtualization, Digital Twins and CPS"
 category: "advanced"

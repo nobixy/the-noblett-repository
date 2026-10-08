@@ -1,5 +1,5 @@
 ---
-block_id: "Block 46"
+block_id: "Block 48"
 track_id: "Track 7"
 title: "TinyML and Edge AI"
 category: "advanced"
