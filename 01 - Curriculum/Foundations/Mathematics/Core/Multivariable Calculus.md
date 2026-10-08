@@ -1,5 +1,5 @@
 ---
-block_id: "Block 7"
+block_id: "Block 13"
 title: "Multivariable Calculus (MIT 18.02SC)"
 category: "core"
 term: "Year 1 Spring"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 7 — Multivariable Calculus (MIT 18.02SC)
+# Block 13 — Multivariable Calculus (MIT 18.02SC)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 
@@ -77,4 +77,4 @@ Complete all problem sets, recitation workshops, and practice exams.
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[C Fluency|← 06 - C Fluency]] | [[00 - Dashboard|Dashboard]] | [[Physics II|08 - Physics II →]]
+- **Sequential Flow:** [[C Fluency|← C Fluency]] | [[00 - Dashboard|Dashboard]] | [[Nand2Tetris|Nand2Tetris →]]

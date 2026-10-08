@@ -1,5 +1,5 @@
 ---
-block_id: "Block 23"
+block_id: "Block 27"
 title: "Distributed Systems (MIT 6.5840 / 6.824)"
 category: "core"
 term: "Year 4 Fall"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 23 — Distributed Systems (MIT 6.5840 / 6.824)
+# Block 27 — Distributed Systems (MIT 6.5840 / 6.824)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Systems Index|Systems Index]]
 
@@ -86,4 +86,4 @@ Complete the MIT 6.5840 / 6.824 distributed systems laboratory suite in `go` orc
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Statistics|← 22 - Statistics]] | [[00 - Dashboard|Dashboard]] | [[Theory of Computation|24 - Theory of Computation →]]
+- **Sequential Flow:** [[Software Construction|← Software Construction]] | [[00 - Dashboard|Dashboard]] | [[Algorithms II|Algorithms II →]]

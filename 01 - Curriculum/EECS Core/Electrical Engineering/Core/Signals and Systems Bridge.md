@@ -1,5 +1,5 @@
 ---
-block_id: "Block 15a"
+block_id: "Block 38"
 title: "Signals and Systems Bridge (MIT 6.3000)"
 category: "core"
 term: "Year 2 Spring"
@@ -17,7 +17,7 @@ date_completed: ""
 tier: "Tier 2 - Support"
 ---
 
-# Block 15a — Signals and Systems Bridge (MIT 6.3000)
+# Block 38 — Signals and Systems Bridge (MIT 6.3000)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 
@@ -234,4 +234,4 @@ You must implement a production-grade, zero-dependency digital signal processing
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Probability|← 15 - Probability]] | [[00 - Dashboard|Dashboard]] | [[Operating Systems|16 - Operating Systems →]]
+- **Sequential Flow:** [[Circuits and Electronics Bridge|← Circuits and Electronics Bridge]] | [[00 - Dashboard|Dashboard]] | [[Differential Equations Bridge|Differential Equations Bridge →]]

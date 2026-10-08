@@ -1,4 +1,5 @@
 ---
+block_id: "Block 47"
 track_id: "Track 8"
 title: "Rust for Systems Engineering and Formal Verification"
 category: "advanced"
@@ -203,3 +204,5 @@ A freestanding, crash-resilient, multi-core operating system kernel written in 1
   - If chosen as **Primary Specialization (Track A)**: Course 1 binds to [[Specialization A1|Block 26 - Specialization A1]] and Course 2 binds to [[Specialization A2|Block 28 - Specialization A2]].
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization B1|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization B2|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]]
+
+- **Sequential Flow:** [[Track 7 - TinyML and Edge AI|← Track 7 - TinyML and Edge AI]] | [[00 - Dashboard|Dashboard]] | [[Track 9 - Hardware-in-the-Loop Virtualization, Digital Twins and CPS|Track 9 - Hardware-in-the-Loop Virtualization, Digital Twins and CPS →]]

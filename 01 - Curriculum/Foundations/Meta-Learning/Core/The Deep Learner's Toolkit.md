@@ -1,5 +1,5 @@
 ---
-block_id: "B0"
+block_id: "Block 2"
 title: "The Deep Learner's Toolkit"
 category: "core"
 term: "Phase -1 (Bedrock Foundation)"
@@ -103,3 +103,5 @@ To become exceptionally educated from the ground up, you must abandon how school
 ## ➡️ Next Steps
 *Why does the next subject come next?*
 - [[Next Block]]
+
+- **Sequential Flow:** [[Learning How to Learn|← Learning How to Learn]] | [[00 - Dashboard|Dashboard]] | [[Tooling|Tooling →]]

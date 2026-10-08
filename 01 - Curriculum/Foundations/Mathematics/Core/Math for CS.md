@@ -1,5 +1,5 @@
 ---
-block_id: "Block 10"
+block_id: "Block 19"
 title: "Mathematics for Computer Science (MIT 6.042J)"
 category: "core"
 term: "Year 2 Fall"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 10 — Mathematics for Computer Science (MIT 6.042J)
+# Block 19 — Mathematics for Computer Science (MIT 6.042J)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 
@@ -78,4 +78,4 @@ Work through every assigned problem set in MIT 6.042J, typesetting complete form
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Computer Systems|← 09 - Computer Systems]] | [[00 - Dashboard|Dashboard]] | [[Linear Algebra|11 - Linear Algebra →]]
+- **Sequential Flow:** [[Operating Systems|← Operating Systems]] | [[00 - Dashboard|Dashboard]] | [[Real Analysis|Real Analysis →]]

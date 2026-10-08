@@ -1,5 +1,5 @@
 ---
-block_id: "BW"
+block_id: "Block 4"
 title: "Bedrock English: Grammar & Sentence Architecture"
 category: "core"
 term: "Phase -1 (Bedrock Foundation)"
@@ -98,3 +98,5 @@ The two master rules that instantly transform weak, muddy sentences into surgica
 ## ➡️ Next Steps
 *Why does the next subject come next?*
 - [[Next Block]]
+
+- **Sequential Flow:** [[Tooling|← Tooling]] | [[00 - Dashboard|Dashboard]] | [[Reading, Thinking, and Writing|Reading, Thinking, and Writing →]]

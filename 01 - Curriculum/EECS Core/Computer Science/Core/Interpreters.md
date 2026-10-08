@@ -1,5 +1,5 @@
 ---
-block_id: "Block 12"
+block_id: "Block 33"
 title: "Interpreters and Language Runtimes"
 category: "core"
 term: "Year 2 January Intensive"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 12 — Interpreters and Language Runtimes
+# Block 33 — Interpreters and Language Runtimes
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Languages Index|Languages Index]]
 
@@ -77,4 +77,4 @@ Build two complete programming language implementations — one tree-walking int
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Languages Index|Languages Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Linear Algebra|← 11 - Linear Algebra]] | [[00 - Dashboard|Dashboard]] | [[Algorithms I|13 - Algorithms I →]]
+- **Sequential Flow:** [[Computer Security|← Computer Security]] | [[00 - Dashboard|Dashboard]] | [[Theory of Computation|Theory of Computation →]]

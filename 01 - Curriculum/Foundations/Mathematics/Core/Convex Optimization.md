@@ -1,5 +1,5 @@
 ---
-block_id: "Block 25"
+block_id: "Block 21"
 title: "Convex Optimization (Stanford EE364A & Boyd)"
 category: "core"
 term: "Year 4 Fall"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 3 - Depth"
 ---
 
-# Block 25 — Convex Optimization (Stanford EE364A & Boyd)
+# Block 21 — Convex Optimization (Stanford EE364A & Boyd)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 
@@ -86,4 +86,4 @@ Formulate and solve large-scale convex optimization problems in `python` using `
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Theory of Computation|← 24 - Theory of Computation]] | [[00 - Dashboard|Dashboard]] | [[Specialization A1|26 - Specialization A1 →]]
+- **Sequential Flow:** [[Real Analysis|← Real Analysis]] | [[00 - Dashboard|Dashboard]] | [[Algorithms I|Algorithms I →]]

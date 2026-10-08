@@ -1,5 +1,5 @@
 ---
-block_id: "Block 20"
+block_id: "Block 28"
 title: "Design and Analysis of Algorithms (MIT 6.046J)"
 category: "core"
 term: "Year 3 Spring"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 20 — Design and Analysis of Algorithms (MIT 6.046J)
+# Block 28 — Design and Analysis of Algorithms (MIT 6.046J)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Theory Index|Theory Index]]
 
@@ -82,4 +82,4 @@ Implement Edmonds-Karp network flow, Dinic's blocking flow algorithm, a Primal-D
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Theory Index|Theory Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Networking|← 19 - Networking]] | [[00 - Dashboard|Dashboard]] | [[Databases|21 - Databases →]]
+- **Sequential Flow:** [[Distributed Systems|← Distributed Systems]] | [[00 - Dashboard|Dashboard]] | [[Statistics|Statistics →]]

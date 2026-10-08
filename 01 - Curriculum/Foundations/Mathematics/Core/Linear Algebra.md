@@ -1,5 +1,5 @@
 ---
-block_id: "Block 11"
+block_id: "Block 15"
 title: "Linear Algebra (MIT 18.06 & Axler LADR)"
 category: "core"
 term: "Year 2 Fall"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 11 — Linear Algebra (MIT 18.06 & Axler LADR)
+# Block 15 — Linear Algebra (MIT 18.06 & Axler LADR)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 
@@ -75,4 +75,4 @@ Build from scratch in `python` using `numpy`: LU factorization with partial pivo
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Math for CS|← 10 - Math for CS]] | [[00 - Dashboard|Dashboard]] | [[Interpreters|12 - Interpreters →]]
+- **Sequential Flow:** [[Nand2Tetris|← Nand2Tetris]] | [[00 - Dashboard|Dashboard]] | [[Computer Systems|Computer Systems →]]

@@ -1,5 +1,5 @@
 ---
-block_id: "Block 1"
+block_id: "Block 10"
 title: "Programming and Abstraction (Berkeley CS61A)"
 category: "core"
 term: "Year 1 Fall"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 1 — Programming and Abstraction (Berkeley CS61A)
+# Block 10 — Programming and Abstraction (Berkeley CS61A)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Languages Index|Languages Index]]
 
@@ -76,4 +76,4 @@ The Scheme interpreter project. Then extend it with something the course doesn't
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Languages Index|Languages Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Tooling|← P5 - Tooling]] | [[00 - Dashboard|Dashboard]] | [[Calculus I|02 - Calculus I →]]
+- **Sequential Flow:** [[Programming On-Ramp|← Programming On-Ramp]] | [[00 - Dashboard|Dashboard]] | [[SICP|SICP →]]

@@ -1,5 +1,5 @@
 ---
-block_id: "BM"
+block_id: "Block 6"
 title: "Bedrock Mathematics: Arithmetic from First Principles"
 category: "core"
 term: "Phase -1 (Bedrock Foundation)"
@@ -103,3 +103,5 @@ Here, you start from absolute zero—not as a child memorizing flashcards, but a
 ## ➡️ Next Steps
 *Why does the next subject come next?*
 - [[Next Block]]
+
+- **Sequential Flow:** [[Reading, Thinking, and Writing|← Reading, Thinking, and Writing]] | [[00 - Dashboard|Dashboard]] | [[Math Prerequisites|Math Prerequisites →]]

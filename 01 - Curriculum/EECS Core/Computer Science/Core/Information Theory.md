@@ -1,5 +1,5 @@
 ---
-block_id: "Block 32"
+block_id: "Block 30"
 title: "Information Theory, Inference, and Learning Algorithms"
 category: "core"
 term: "Year 5"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 3 - Depth"
 ---
 
-# Block 32 — Information Theory, Inference, and Learning Algorithms
+# Block 30 — Information Theory, Inference, and Learning Algorithms
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 
@@ -82,4 +82,4 @@ Implement an information theory and coding suite in `python` and `c++` using `nu
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Specialization B2|← 31 - Specialization B2]] | [[00 - Dashboard|Dashboard]] | [[Projects Hub|Projects Hub →]]
+- **Sequential Flow:** [[Statistics|← Statistics]] | [[00 - Dashboard|Dashboard]] | [[Introduction to Machine Learning|Introduction to Machine Learning →]]

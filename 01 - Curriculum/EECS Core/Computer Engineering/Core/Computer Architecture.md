@@ -1,5 +1,5 @@
 ---
-block_id: "Block 14"
+block_id: "Block 17"
 title: "Computer Architecture & Digital Design"
 category: "core"
 term: "Year 2 Spring"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 2 - Support"
 ---
 
-# Block 14 — Computer Architecture & Digital Design
+# Block 17 — Computer Architecture & Digital Design
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Hardware Index|Hardware Index]]
 
@@ -80,4 +80,4 @@ Build a 5-stage pipelined RISC-V processor core in Verilog with hazard detection
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Hardware Index|Hardware Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Algorithms I|← 13 - Algorithms I]] | [[00 - Dashboard|Dashboard]] | [[Probability|15 - Probability →]]
+- **Sequential Flow:** [[Computer Systems|← Computer Systems]] | [[00 - Dashboard|Dashboard]] | [[Operating Systems|Operating Systems →]]

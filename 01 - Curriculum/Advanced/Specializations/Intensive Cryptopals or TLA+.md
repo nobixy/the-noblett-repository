@@ -1,5 +1,5 @@
 ---
-block_id: "Block 27"
+block_id: "Block 52"
 title: "January Intensive: Cryptopals or TLA+"
 category: "advanced"
 term: "Year 4 January Intensive"
@@ -14,7 +14,7 @@ date_completed: ""
 tier: "Tier 3 - Depth"
 ---
 
-# Block 27 — January Intensive: Cryptopals or TLA+
+# Block 52 — January Intensive: Cryptopals or TLA+
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Systems Index|Systems Index]]
 
@@ -74,4 +74,4 @@ Complete hands-on security and formal verification engineering in `python`, `rus
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Specialization A1|← 26 - Specialization A1]] | [[00 - Dashboard|Dashboard]] | [[Specialization A2|28 - Specialization A2 →]]
+- **Sequential Flow:** [[Capstone|← Capstone]] | [[00 - Dashboard|Dashboard]] | [[00 - Dashboard|Dashboard →]]

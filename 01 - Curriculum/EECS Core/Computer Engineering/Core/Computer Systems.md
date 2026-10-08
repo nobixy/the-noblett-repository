@@ -1,5 +1,5 @@
 ---
-block_id: "Block 9"
+block_id: "Block 16"
 title: "Computer Systems: A Programmer's Perspective (CS:APP)"
 category: "core"
 term: "Year 2 Fall"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 9 — Computer Systems: A Programmer's Perspective (CS:APP)
+# Block 16 — Computer Systems: A Programmer's Perspective (CS:APP)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Systems Index|Systems Index]]
 
@@ -92,4 +92,4 @@ Complete all seven canonical CMU 15-213 (CS:APP) systems labs in `c` on `linux` 
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Circuits and Electronics Bridge|← 08a - Circuits and Electronics Bridge (optional)]] | [[00 - Dashboard|Dashboard]] | [[Math for CS|10 - Math for CS →]]
+- **Sequential Flow:** [[Linear Algebra|← Linear Algebra]] | [[00 - Dashboard|Dashboard]] | [[Computer Architecture|Computer Architecture →]]

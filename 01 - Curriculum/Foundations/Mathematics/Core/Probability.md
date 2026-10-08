@@ -1,5 +1,5 @@
 ---
-block_id: "Block 15"
+block_id: "Block 23"
 title: "Introduction to Probability (MIT 6.041 / 6.3700)"
 category: "core"
 term: "Year 2 Spring"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 15 — Introduction to Probability (MIT 6.041 / 6.3700)
+# Block 23 — Introduction to Probability (MIT 6.041 / 6.3700)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 
@@ -82,4 +82,4 @@ Work all MIT 6.041 problem sets and formal mathematical derivations in `latex`. 
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Computer Architecture|← 14 - Computer Architecture]] | [[00 - Dashboard|Dashboard]] | [[Signals and Systems Bridge|15a - Signals and Systems Bridge (optional) →]]
+- **Sequential Flow:** [[Algorithms I|← Algorithms I]] | [[00 - Dashboard|Dashboard]] | [[Networking|Networking →]]

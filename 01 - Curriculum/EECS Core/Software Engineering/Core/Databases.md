@@ -1,5 +1,5 @@
 ---
-block_id: "Block 21"
+block_id: "Block 25"
 title: "Database Systems (CMU 15-445/645 & DDIA)"
 category: "core"
 term: "Year 3 Spring"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 21 — Database Systems (CMU 15-445/645 & DDIA)
+# Block 25 — Database Systems (CMU 15-445/645 & DDIA)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Systems Index|Systems Index]]
 
@@ -83,4 +83,4 @@ Implement all four CMU BusTub projects in `c++` using `cmake`, debugged with `gd
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Algorithms II|← 20 - Algorithms II]] | [[00 - Dashboard|Dashboard]] | [[Statistics|22 - Statistics →]]
+- **Sequential Flow:** [[Networking|← Networking]] | [[00 - Dashboard|Dashboard]] | [[Software Construction|Software Construction →]]

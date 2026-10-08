@@ -1,5 +1,5 @@
 ---
-block_id: "Block 13"
+block_id: "Block 22"
 title: "Introduction to Algorithms (MIT 6.006)"
 category: "core"
 term: "Year 2 Spring"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 13 — Introduction to Algorithms (MIT 6.006)
+# Block 22 — Introduction to Algorithms (MIT 6.006)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Theory Index|Theory Index]]
 
@@ -80,4 +80,4 @@ Implement every major data structure and algorithm from scratch in `c` and `pyth
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Theory Index|Theory Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Interpreters|← 12 - Interpreters]] | [[00 - Dashboard|Dashboard]] | [[Computer Architecture|14 - Computer Architecture →]]
+- **Sequential Flow:** [[Convex Optimization|← Convex Optimization]] | [[00 - Dashboard|Dashboard]] | [[Probability|Probability →]]

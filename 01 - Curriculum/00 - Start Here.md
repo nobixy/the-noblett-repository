@@ -35,6 +35,7 @@ This is the definitive, dependency-aware linear sequence. **Do not skip prerequi
 *Mastering abstraction and low-level memory operations.*
 - [[Programming On-Ramp]] *(Tier 2 - Optional if CS61A cold test is passed)*
 - [[CS61A]] *(Tier 1)*
+- [[SICP]] *(Tier 3)*
 - [[C Fluency]] *(Tier 1)*
 - [[Multivariable Calculus]] *(Tier 1)*
 
@@ -43,11 +44,14 @@ This is the definitive, dependency-aware linear sequence. **Do not skip prerequi
 - [[Nand2Tetris]] *(Tier 1)*
 - [[Linear Algebra]] *(Tier 1)*
 - [[Computer Systems]] *(Tier 1)*
+- [[Computer Architecture]] *(Tier 2)*
 - [[Operating Systems]] *(Tier 1)*
 
 ### Phase 4: Algorithms & Discrete Mathematics
 *The science of computation and structured data.*
 - [[Math for CS]] *(Tier 1)*
+- [[Real Analysis]] *(Tier 3)*
+- [[Convex Optimization]] *(Tier 3)*
 - [[Algorithms I]] *(Tier 1)*
 - [[Probability]] *(Tier 1)*
 
@@ -62,6 +66,9 @@ This is the definitive, dependency-aware linear sequence. **Do not skip prerequi
 - [[Distributed Systems]] *(Tier 1)*
 - [[Algorithms II]] *(Tier 1)*
 - [[Statistics]] *(Tier 1)*
+- [[Information Theory]] *(Tier 3)*
+- [[Introduction to Machine Learning]] *(Tier 1)*
+- [[Computer Security]] *(Tier 1)*
 
 ### Phase 7: Compilers & Theory of Computation
 *Language semantics and the theoretical limits of what can be computed.*
@@ -81,11 +88,19 @@ This is the definitive, dependency-aware linear sequence. **Do not skip prerequi
 ## 3. Advanced & Specializations
 
 Pick **two** of the tracks from the [[Specializations Hub]] to pursue deeply after completing the Core.
-- [[Specialization A1]]
-- [[Specialization A2]]
-- [[Specialization B1]]
-- [[Specialization B2]]
+- [[Track 1 - AI and Machine Learning]]
+- [[Track 2 - Systems and Performance]]
+- [[Track 3 - Security and Cryptography]]
+- [[Track 4 - Graphics and Vision]]
+- [[Track 5 - Programming Languages and Compilers]]
+- [[Track 6 - Computer Engineering]]
+- [[Track 7 - TinyML and Edge AI]]
+- [[Track 8 - Rust for Systems Engineering and Formal Verification]]
+- [[Track 9 - Hardware-in-the-Loop Virtualization, Digital Twins and CPS]]
+- [[Track 10 - Quantum Information and Computing]]
+- [[Track 11 - Autonomous Robotics and Cyber-Physical Systems]]
 - [[Capstone]]
+- [[Intensive Cryptopals or TLA+]]
 
 ---
 

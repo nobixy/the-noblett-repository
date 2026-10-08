@@ -1,5 +1,5 @@
 ---
-block_id: "Block 4"
+block_id: "Block 14"
 title: "From NAND to Tetris (Hardware & Software Hierarchy)"
 category: "core"
 term: "Year 1 January Intensive"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 4 — From NAND to Tetris (Hardware & Software Hierarchy)
+# Block 14 — From NAND to Tetris (Hardware & Software Hierarchy)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Hardware Index|Hardware Index]]
 
@@ -87,4 +87,4 @@ Complete all twelve Nand2Tetris projects using the Hardware Simulator, `python` 
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Hardware Index|Hardware Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Physics I|← 03 - Physics I]] | [[00 - Dashboard|Dashboard]] | [[Differential Equations Bridge|04a - Differential Equations Bridge (optional) →]]
+- **Sequential Flow:** [[Multivariable Calculus|← Multivariable Calculus]] | [[00 - Dashboard|Dashboard]] | [[Linear Algebra|Linear Algebra →]]

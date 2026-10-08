@@ -1,4 +1,5 @@
 ---
+block_id: "Block 41"
 track_id: "Track 2"
 title: "Systems and Performance"
 category: "advanced"
@@ -197,3 +198,5 @@ An industrial-grade, persistent key-value storage engine engineered in C++ or Ru
   - If chosen as **Primary Specialization (Track A)**: Course 1 binds to [[Specialization A1|Block 26 - Specialization A1]] and Course 2 binds to [[Specialization A2|Block 28 - Specialization A2]].
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization B1|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization B2|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]]
+
+- **Sequential Flow:** [[Track 1 - AI and Machine Learning|← Track 1 - AI and Machine Learning]] | [[00 - Dashboard|Dashboard]] | [[Track 3 - Security and Cryptography|Track 3 - Security and Cryptography →]]

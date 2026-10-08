@@ -1,5 +1,5 @@
 ---
-block_id: P2
+block_id: "Block 5"
 title: "Reading, Thinking, and Writing"
 category: "core"
 term: "Phase 0 (0–5 mo)"
@@ -92,3 +92,5 @@ You're about to read thousands of pages of textbooks and hundreds of papers. Rea
 ## ➡️ Next Steps
 *Why does the next subject come next?*
 - [[Next Block]]
+
+- **Sequential Flow:** [[Bedrock English and Grammar|← Bedrock English and Grammar]] | [[00 - Dashboard|Dashboard]] | [[Bedrock Mathematics|Bedrock Mathematics →]]

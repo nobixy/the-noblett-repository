@@ -1,5 +1,5 @@
 ---
-block_id: "Block 6"
+block_id: "Block 12"
 title: "C Fluency & Low-Level Problem Solving"
 category: "core"
 term: "Year 1 Spring"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 6 — C Fluency & Low-Level Problem Solving
+# Block 12 — C Fluency & Low-Level Problem Solving
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Languages Index|Languages Index]]
 
@@ -77,4 +77,4 @@ Build from scratch in C: a dynamic array (vector), an arena-based string library
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Languages Index|Languages Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[SICP|← 05 - SICP]] | [[00 - Dashboard|Dashboard]] | [[Multivariable Calculus|07 - Multivariable Calculus →]]
+- **Sequential Flow:** [[SICP|← SICP]] | [[00 - Dashboard|Dashboard]] | [[Multivariable Calculus|Multivariable Calculus →]]

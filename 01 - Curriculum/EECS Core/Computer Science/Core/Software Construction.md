@@ -1,5 +1,5 @@
 ---
-block_id: "Block 17"
+block_id: "Block 26"
 title: "Software Construction (MIT 6.1020 / 6.031)"
 category: "core"
 term: "Year 3 Fall"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 17 — Software Construction (MIT 6.1020 / 6.031)
+# Block 26 — Software Construction (MIT 6.1020 / 6.031)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Languages Index|Languages Index]]
 
@@ -129,4 +129,4 @@ The most under-appreciated course in the MIT degree. How to write complex code t
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Languages Index|Languages Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Operating Systems|← 16 - Operating Systems]] | [[00 - Dashboard|Dashboard]] | [[Real Analysis|18 - Real Analysis →]]
+- **Sequential Flow:** [[Databases|← Databases]] | [[00 - Dashboard|Dashboard]] | [[Distributed Systems|Distributed Systems →]]

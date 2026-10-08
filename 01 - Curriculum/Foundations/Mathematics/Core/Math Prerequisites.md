@@ -1,5 +1,5 @@
 ---
-block_id: P3
+block_id: "Block 7"
 title: "Math Prerequisites"
 category: "core"
 term: "Phase 0 (0–5 mo)"
@@ -91,3 +91,5 @@ Write rigorous, complete formal solutions to all Velleman Chapters 1–3 exercis
 ## ➡️ Next Steps
 *Why does the next subject come next?*
 - [[Next Block]]
+
+- **Sequential Flow:** [[Bedrock Mathematics|← Bedrock Mathematics]] | [[00 - Dashboard|Dashboard]] | [[Calculus I|Calculus I →]]

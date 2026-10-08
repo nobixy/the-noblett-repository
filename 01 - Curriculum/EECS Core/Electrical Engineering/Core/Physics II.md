@@ -1,5 +1,5 @@
 ---
-block_id: "Block 8"
+block_id: "Block 36"
 title: "Electricity and Magnetism (MIT 8.02SC)"
 category: "core"
 term: "Year 1 Spring"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 8 — Electricity and Magnetism (MIT 8.02SC)
+# Block 36 — Electricity and Magnetism (MIT 8.02SC)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Hardware Index|Hardware Index]]
 
@@ -81,4 +81,4 @@ Work all assigned problem sets and review recitation derivations.
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Hardware Index|Hardware Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Multivariable Calculus|← 07 - Multivariable Calculus]] | [[00 - Dashboard|Dashboard]] | [[Circuits and Electronics Bridge|08a - Circuits and Electronics Bridge (optional) →]]
+- **Sequential Flow:** [[Physics I|← Physics I]] | [[00 - Dashboard|Dashboard]] | [[Circuits and Electronics Bridge|Circuits and Electronics Bridge →]]

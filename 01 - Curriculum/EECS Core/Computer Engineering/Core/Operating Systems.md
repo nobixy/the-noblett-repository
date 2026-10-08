@@ -1,5 +1,5 @@
 ---
-block_id: "Block 16"
+block_id: "Block 18"
 title: "Operating Systems (MIT 6.1810 & OSTEP)"
 category: "core"
 term: "Year 3 Fall"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 16 — Operating Systems (MIT 6.1810 & OSTEP)
+# Block 18 — Operating Systems (MIT 6.1810 & OSTEP)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Systems Index|Systems Index]]
 
@@ -82,3 +82,5 @@ Complete every single MIT 6.1810 xv6 lab in `c` using `gcc`, debugged with `gdb`
   - Previous: [[Probability|Block 15 — Probability]] / [[Signals and Systems Bridge|Block 15a — Signals and Systems Bridge]]
   - Overview: [[00 - Dashboard|Dashboard]]
   - Next: [[Software Construction|Block 17 — Software Construction]]
+
+- **Sequential Flow:** [[Computer Architecture|← Computer Architecture]] | [[00 - Dashboard|Dashboard]] | [[Math for CS|Math for CS →]]

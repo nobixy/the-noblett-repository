@@ -1,5 +1,5 @@
 ---
-block_id: "Block 19"
+block_id: "Block 24"
 title: "Computer Networking (Stanford CS144)"
 category: "core"
 term: "Year 3 January Intensive"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 19 — Computer Networking (Stanford CS144)
+# Block 24 — Computer Networking (Stanford CS144)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Systems Index|Systems Index]]
 
@@ -78,4 +78,4 @@ All eight Stanford CS144 labs: implement a complete, working TCP stack in modern
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Real Analysis|← 18 - Real Analysis]] | [[00 - Dashboard|Dashboard]] | [[Algorithms II|20 - Algorithms II →]]
+- **Sequential Flow:** [[Probability|← Probability]] | [[00 - Dashboard|Dashboard]] | [[Databases|Databases →]]

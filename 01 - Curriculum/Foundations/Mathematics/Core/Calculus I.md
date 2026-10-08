@@ -1,5 +1,5 @@
 ---
-block_id: "Block 2"
+block_id: "Block 8"
 title: "Calculus I (MIT 18.01SC)"
 category: "core"
 term: "Year 1 Fall"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 2 — Calculus I (MIT 18.01SC)
+# Block 8 — Calculus I (MIT 18.01SC)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 
@@ -79,4 +79,4 @@ Solve all MIT 18.01 problem sets and write formal solutions for all recitation p
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[CS61A|← 01 - CS61A]] | [[00 - Dashboard|Dashboard]] | [[Physics I|03 - Physics I →]]
+- **Sequential Flow:** [[Math Prerequisites|← Math Prerequisites]] | [[00 - Dashboard|Dashboard]] | [[Programming On-Ramp|Programming On-Ramp →]]

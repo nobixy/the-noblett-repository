@@ -1,5 +1,5 @@
 ---
-block_id: "Block 24"
+block_id: "Block 34"
 title: "Theory of Computation (MIT 6.045 & Hopcroft)"
 category: "core"
 term: "Year 4 Fall"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 24 — Theory of Computation (MIT 6.045 & Hopcroft)
+# Block 34 — Theory of Computation (MIT 6.045 & Hopcroft)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Theory Index|Theory Index]]
 
@@ -79,4 +79,4 @@ Write out formal reductions proving undecidability and NP-completeness for compl
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Theory Index|Theory Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Distributed Systems|← 23 - Distributed Systems]] | [[00 - Dashboard|Dashboard]] | [[Convex Optimization|25 - Convex Optimization →]]
+- **Sequential Flow:** [[Interpreters|← Interpreters]] | [[00 - Dashboard|Dashboard]] | [[Physics I|Physics I →]]

@@ -115,6 +115,46 @@
 
 ### Systems & Physics
 
+**Operating Systems: Three Easy Pieces (OSTEP)** (Arpaci-Dusseau)
+- **Subject:** Operating Systems
+- **Difficulty:** Intermediate
+- **Prerequisites:** [[Computer Systems]]
+- **Best Time to Read:** Phase 3
+- **Course It Supports:** [[Operating Systems]]
+- **Role:** Core (Tier 1)
+
+**Artificial Intelligence: A Modern Approach** (Russell & Norvig)
+- **Subject:** AI and Machine Learning
+- **Difficulty:** Advanced
+- **Prerequisites:** [[Algorithms II]], [[Probability]]
+- **Best Time to Read:** Phase 6
+- **Course It Supports:** [[Introduction to Machine Learning]]
+- **Role:** Core (Tier 1)
+
+**Database Systems: The Complete Book** (Garcia-Molina, Ullman, Widom)
+- **Subject:** Databases
+- **Difficulty:** Advanced
+- **Prerequisites:** [[Algorithms I]], [[Operating Systems]]
+- **Best Time to Read:** Phase 5
+- **Course It Supports:** [[Databases]]
+- **Role:** Core (Tier 1)
+
+**Computer Networking: A Top-Down Approach** (Kurose & Ross)
+- **Subject:** Networking
+- **Difficulty:** Intermediate
+- **Prerequisites:** [[Operating Systems]]
+- **Best Time to Read:** Phase 5
+- **Course It Supports:** [[Networking]]
+- **Role:** Core (Tier 1)
+
+**Security Engineering** (Ross Anderson)
+- **Subject:** Computer Security
+- **Difficulty:** Intermediate
+- **Prerequisites:** [[Computer Systems]], [[Networking]]
+- **Best Time to Read:** Phase 6
+- **Course It Supports:** [[Computer Security]]
+- **Role:** Core (Tier 1)
+
 **How Linux Works, 3e** (Brian Ward)
 - **Subject:** Linux Operating System
 - **Difficulty:** Intermediate

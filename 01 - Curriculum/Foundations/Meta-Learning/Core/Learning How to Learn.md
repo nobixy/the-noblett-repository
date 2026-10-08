@@ -1,5 +1,5 @@
 ---
-block_id: P1
+block_id: "Block 1"
 title: "Learning How to Learn"
 category: "core"
 term: "Phase 0 (0–5 mo)"
@@ -92,3 +92,5 @@ Everything downstream assumes you know how memory, practice, and attention actua
 ## ➡️ Next Steps
 *Why does the next subject come next?*
 - [[Next Block]]
+
+- **Sequential Flow:** [[00 - Dashboard|← Dashboard]] | [[00 - Dashboard|Dashboard]] | [[The Deep Learner's Toolkit|The Deep Learner's Toolkit →]]

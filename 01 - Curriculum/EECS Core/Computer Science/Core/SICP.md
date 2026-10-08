@@ -1,5 +1,5 @@
 ---
-block_id: "Block 5"
+block_id: "Block 11"
 title: "Structure and Interpretation of Computer Programs (SICP)"
 category: "core"
 term: "Year 1 Spring"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 3 - Depth"
 ---
 
-# Block 5 — Structure and Interpretation of Computer Programs (SICP)
+# Block 11 — Structure and Interpretation of Computer Programs (SICP)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Languages Index|Languages Index]]
 
@@ -81,4 +81,4 @@ Implement the Metacircular Evaluator (§4.1) and the Lazy Evaluator (§4.2) from
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Languages Index|Languages Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Differential Equations Bridge|← 04a - Differential Equations Bridge (optional)]] | [[00 - Dashboard|Dashboard]] | [[C Fluency|06 - C Fluency →]]
+- **Sequential Flow:** [[CS61A|← CS61A]] | [[00 - Dashboard|Dashboard]] | [[C Fluency|C Fluency →]]

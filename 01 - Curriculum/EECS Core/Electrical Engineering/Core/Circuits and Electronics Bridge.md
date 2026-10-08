@@ -1,5 +1,5 @@
 ---
-block_id: "Block 8a"
+block_id: "Block 37"
 title: "Circuits and Electronics Bridge (MIT 6.2000)"
 category: "core"
 term: "Year 1 Spring"
@@ -17,7 +17,7 @@ date_completed: ""
 tier: "Tier 2 - Support"
 ---
 
-# Block 8a — Circuits and Electronics Bridge (MIT 6.2000)
+# Block 37 — Circuits and Electronics Bridge (MIT 6.2000)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Hardware Index|Hardware Index]]
 
@@ -200,4 +200,4 @@ You must design, simulate in SPICE (LTspice or ngspice), and physically breadboa
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Hardware Index|Hardware Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Physics II|← 08 - Physics II]] | [[00 - Dashboard|Dashboard]] | [[Computer Systems|09 - Computer Systems →]]
+- **Sequential Flow:** [[Physics II|← Physics II]] | [[00 - Dashboard|Dashboard]] | [[Signals and Systems Bridge|Signals and Systems Bridge →]]

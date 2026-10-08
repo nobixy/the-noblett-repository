@@ -1,5 +1,5 @@
 ---
-block_id: "Block 4a"
+block_id: "Block 39"
 title: "Differential Equations and Dynamical Systems Bridge (MIT 18.03)"
 category: "core"
 term: "Year 1 Spring"
@@ -17,7 +17,7 @@ date_completed: ""
 tier: "Tier 2 - Support"
 ---
 
-# Block 4a — Differential Equations and Dynamical Systems Bridge (MIT 18.03)
+# Block 39 — Differential Equations and Dynamical Systems Bridge (MIT 18.03)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 
@@ -235,4 +235,4 @@ You must construct a high-performance numerical simulation suite and phase-space
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Nand2Tetris|← 04 - Nand2Tetris]] | [[00 - Dashboard|Dashboard]] | [[SICP|05 - SICP →]]
+- **Sequential Flow:** [[Signals and Systems Bridge|← Signals and Systems Bridge]] | [[00 - Dashboard|Dashboard]] | [[Track 1 - AI and Machine Learning|Track 1 - AI and Machine Learning →]]

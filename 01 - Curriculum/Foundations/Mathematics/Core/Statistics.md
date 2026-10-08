@@ -1,5 +1,5 @@
 ---
-block_id: "Block 22"
+block_id: "Block 29"
 title: "Statistical Inference & Modeling"
 category: "core"
 term: "Year 3 Spring"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 22 — Statistical Inference & Modeling
+# Block 29 — Statistical Inference & Modeling
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 
@@ -85,4 +85,4 @@ Implement a complete statistical inference and modeling testbench in `python` us
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Databases|← 21 - Databases]] | [[00 - Dashboard|Dashboard]] | [[Distributed Systems|23 - Distributed Systems →]]
+- **Sequential Flow:** [[Algorithms II|← Algorithms II]] | [[00 - Dashboard|Dashboard]] | [[Information Theory|Information Theory →]]

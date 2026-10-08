@@ -1,5 +1,5 @@
 ---
-block_id: "Block 3"
+block_id: "Block 35"
 title: "Classical Mechanics (MIT 8.01SC)"
 category: "core"
 term: "Year 1 Fall"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 3 — Classical Mechanics (MIT 8.01SC)
+# Block 35 — Classical Mechanics (MIT 8.01SC)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 
@@ -79,4 +79,4 @@ Complete all 8.01SC homework sets and problem-solving workshops.
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Calculus I|← 02 - Calculus I]] | [[00 - Dashboard|Dashboard]] | [[Nand2Tetris|04 - Nand2Tetris →]]
+- **Sequential Flow:** [[Theory of Computation|← Theory of Computation]] | [[00 - Dashboard|Dashboard]] | [[Physics II|Physics II →]]

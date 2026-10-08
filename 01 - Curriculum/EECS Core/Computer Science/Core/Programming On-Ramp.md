@@ -1,5 +1,5 @@
 ---
-block_id: P4
+block_id: "Block 9"
 title: "Programming On-Ramp"
 category: "core"
 term: "Phase 0 (0–5 mo)"
@@ -93,3 +93,5 @@ Implement a 300-line modular data structure library in `c` (hash table with sepa
 ## ➡️ Next Steps
 *Why does the next subject come next?*
 - [[Next Block]]
+
+- **Sequential Flow:** [[Calculus I|← Calculus I]] | [[00 - Dashboard|Dashboard]] | [[CS61A|CS61A →]]
