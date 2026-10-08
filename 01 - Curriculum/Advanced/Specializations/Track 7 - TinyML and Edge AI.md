@@ -5,10 +5,17 @@ title: "TinyML and Edge AI"
 category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites: []
+prerequisites:
+  - "C Fluency"
+  - "Computer Systems"
+  - "Computer Architecture"
+  - "Signals and Systems Bridge"
+  - "Track 1 - AI and Machine Learning"
 target_profile: "Edge ML Engineer, Embedded Systems Architect, TinyML Researcher"
 aliases: [Track 7 - TinyML and Edge AI, Track 7 - TinyML, Edge AI and Neuromorphic Computing]
 tier: "Tier 3 - Depth"
+hours_estimate: 400
+hours_actual: 0
 ---
 
 # Track 7: TinyML and Edge AI
@@ -32,7 +39,13 @@ TinyML is the rigorous discipline of executing deep neural network inference and
 
 ## 🔗 Prerequisites
 *What must you have mastered before starting this block?*
-- *None. This is a foundational block.*
+- [[C Fluency]]
+- [[Computer Systems]]
+- [[Computer Architecture]]
+- [[Signals and Systems Bridge]]
+- [[Track 1 - AI and Machine Learning]]
+
+
 
 
 ## 📚 Core Courses

@@ -5,10 +5,18 @@ title: "Security and Cryptography"
 category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites: []
+prerequisites:
+  - "C Fluency"
+  - "Computer Systems"
+  - "Math for CS"
+  - "Operating Systems"
+  - "Networking"
+  - "Intensive Cryptopals or TLA+"
 target_profile: "Cryptographic Engineer, Security Researcher, Binary Exploitation Specialist, High-Assurance Systems Auditor"
 aliases: [Track 3 - Security and Cryptography, Track 3 - Cryptography and Systems Security]
 tier: "Tier 3 - Depth"
+hours_estimate: 400
+hours_actual: 0
 ---
 
 # Track 3: Security and Cryptography
@@ -32,7 +40,14 @@ This track bridges rigorous mathematical cryptography (provable security reducti
 
 ## 🔗 Prerequisites
 *What must you have mastered before starting this block?*
-- *None. This is a foundational block.*
+- [[C Fluency]]
+- [[Computer Systems]]
+- [[Math for CS]]
+- [[Operating Systems]]
+- [[Networking]]
+- [[Intensive Cryptopals or TLA+]]
+
+
 
 
 ## 📚 Core Courses

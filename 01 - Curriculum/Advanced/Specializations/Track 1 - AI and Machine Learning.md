@@ -5,10 +5,18 @@ title: "AI and Machine Learning"
 category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites: []
+prerequisites:
+  - "CS61A"
+  - "Multivariable Calculus"
+  - "Linear Algebra"
+  - "Algorithms I"
+  - "Probability"
+  - "Convex Optimization"
 target_profile: "Machine Learning Engineer, Research Scientist, Deep Learning Infrastructure Engineer"
 aliases: [Track 1 - AI and Machine Learning, Track 1 - Artificial Intelligence and Machine Learning]
 tier: "Tier 3 - Depth"
+hours_estimate: 400
+hours_actual: 0
 ---
 
 # Track 1: AI and Machine Learning
@@ -32,7 +40,14 @@ This track provides an elite, graduate-level mastery of both theoretical machine
 
 ## 🔗 Prerequisites
 *What must you have mastered before starting this block?*
-- *None. This is a foundational block.*
+- [[CS61A]]
+- [[Multivariable Calculus]]
+- [[Linear Algebra]]
+- [[Algorithms I]]
+- [[Probability]]
+- [[Convex Optimization]]
+
+
 
 
 ## 📚 Core Courses

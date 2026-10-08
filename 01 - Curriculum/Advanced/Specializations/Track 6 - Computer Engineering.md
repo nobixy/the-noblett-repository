@@ -5,10 +5,17 @@ title: "Computer Engineering"
 category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites: []
+prerequisites:
+  - "Nand2Tetris"
+  - "Physics II"
+  - "Circuits and Electronics Bridge"
+  - "Computer Systems"
+  - "Computer Architecture"
 target_profile: "Computer Architecture Engineer, ASIC/VLSI Designer, FPGA Hardware Systems Engineer, Silicon Verification Specialist"
 aliases: [Track 6 - Computer Engineering, Track 6 - Computer Engineering (Deep Hardware)]
 tier: "Tier 3 - Depth"
+hours_estimate: 400
+hours_actual: 0
 ---
 
 # Track 6: Computer Engineering
@@ -32,7 +39,13 @@ This track takes students deep beneath the software abstraction layer into the p
 
 ## 🔗 Prerequisites
 *What must you have mastered before starting this block?*
-- *None. This is a foundational block.*
+- [[Nand2Tetris]]
+- [[Physics II]]
+- [[Circuits and Electronics Bridge]]
+- [[Computer Systems]]
+- [[Computer Architecture]]
+
+
 
 
 ## 📚 Core Courses

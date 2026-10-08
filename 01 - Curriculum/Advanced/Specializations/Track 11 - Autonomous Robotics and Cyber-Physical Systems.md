@@ -5,10 +5,18 @@ title: "Autonomous Robotics and Cyber-Physical Systems"
 category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites: []
+prerequisites:
+  - "Differential Equations Bridge"
+  - "Multivariable Calculus"
+  - "Computer Systems"
+  - "Linear Algebra"
+  - "Probability"
+  - "Signals and Systems Bridge"
 target_profile: "Autonomous Systems Engineer, Robotics Software Architect, SLAM & Motion Planning Specialist"
 aliases: [Track 11 - Autonomous Robotics and Cyber-Physical Systems, Track 11 - Autonomous Robotics and CPS]
 tier: "Tier 3 - Depth"
+hours_estimate: 400
+hours_actual: 0
 ---
 
 # Track 11: Autonomous Robotics and Cyber-Physical Systems
@@ -32,7 +40,14 @@ Building these systems requires far more than assembling pre-built ROS packages.
 
 ## 🔗 Prerequisites
 *What must you have mastered before starting this block?*
-- *None. This is a foundational block.*
+- [[Differential Equations Bridge]]
+- [[Multivariable Calculus]]
+- [[Computer Systems]]
+- [[Linear Algebra]]
+- [[Probability]]
+- [[Signals and Systems Bridge]]
+
+
 
 
 ## 📚 Core Courses

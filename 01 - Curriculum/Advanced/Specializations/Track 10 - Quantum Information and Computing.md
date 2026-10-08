@@ -5,10 +5,16 @@ title: "Quantum Information and Computing"
 category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites: []
+prerequisites:
+  - "Physics II"
+  - "Linear Algebra"
+  - "Probability"
+  - "Theory of Computation"
 target_profile: "Quantum Software Engineer, Quantum Algorithms Researcher, Quantum Information Scientist"
 aliases: [Track 10 - Quantum Information and Computing, Track 10 - Quantum Computing]
 tier: "Tier 3 - Depth"
+hours_estimate: 400
+hours_actual: 0
 ---
 
 # Track 10: Quantum Information and Computing
@@ -32,7 +38,12 @@ Shor's algorithm solves prime factorization and discrete logarithms in polynomia
 
 ## 🔗 Prerequisites
 *What must you have mastered before starting this block?*
-- *None. This is a foundational block.*
+- [[Physics II]]
+- [[Linear Algebra]]
+- [[Probability]]
+- [[Theory of Computation]]
+
+
 
 
 ## 📚 Core Courses

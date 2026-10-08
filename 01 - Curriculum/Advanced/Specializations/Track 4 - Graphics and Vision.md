@@ -5,10 +5,17 @@ title: "Graphics and Vision"
 category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites: []
+prerequisites:
+  - "C Fluency"
+  - "Multivariable Calculus"
+  - "Physics II"
+  - "Linear Algebra"
+  - "Algorithms I"
 target_profile: "Computer Graphics Engineer, Rendering Pipeline Architect, Computer Vision Scientist"
 aliases: [Track 4 - Graphics and Vision, Track 4 - Computer Graphics and Vision]
 tier: "Tier 3 - Depth"
+hours_estimate: 400
+hours_actual: 0
 ---
 
 # Track 4: Graphics and Vision
@@ -32,7 +39,13 @@ This track guides students through the complete continuum of visual computing: f
 
 ## 🔗 Prerequisites
 *What must you have mastered before starting this block?*
-- *None. This is a foundational block.*
+- [[C Fluency]]
+- [[Multivariable Calculus]]
+- [[Physics II]]
+- [[Linear Algebra]]
+- [[Algorithms I]]
+
+
 
 
 ## 📚 Core Courses

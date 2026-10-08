@@ -5,10 +5,19 @@ title: "Programming Languages and Compilers"
 category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites: []
+prerequisites:
+  - "CS61A"
+  - "Nand2Tetris"
+  - "SICP"
+  - "C Fluency"
+  - "Math for CS"
+  - "Interpreters"
+  - "Software Construction"
 target_profile: "Compiler Engineer, Programming Language Designer, Static Analysis Specialist, Formal Verification Engineer"
 aliases: [Track 5 - Programming Languages and Compilers, Track 5 - Compilers and Language Runtimes]
 tier: "Tier 3 - Depth"
+hours_estimate: 400
+hours_actual: 0
 ---
 
 # Track 5: Programming Languages and Compilers
@@ -32,7 +41,15 @@ This track equips students with both the profound mathematical theory of program
 
 ## 🔗 Prerequisites
 *What must you have mastered before starting this block?*
-- *None. This is a foundational block.*
+- [[CS61A]]
+- [[Nand2Tetris]]
+- [[SICP]]
+- [[C Fluency]]
+- [[Math for CS]]
+- [[Interpreters]]
+- [[Software Construction]]
+
+
 
 
 ## 📚 Core Courses

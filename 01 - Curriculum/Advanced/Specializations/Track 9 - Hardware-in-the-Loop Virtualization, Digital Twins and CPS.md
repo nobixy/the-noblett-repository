@@ -5,10 +5,18 @@ title: "Hardware-in-the-Loop Virtualization, Digital Twins and CPS"
 category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites: []
+prerequisites:
+  - "Physics II"
+  - "Circuits and Electronics Bridge"
+  - "Computer Systems"
+  - "Computer Architecture"
+  - "Operating Systems"
+  - "Track 6 - Computer Engineering"
 target_profile: "HIL Simulation Engineer, Cyber-Physical Systems Architect, Automotive/Avionics Safety Engineer"
 aliases: [Track 9 - Hardware-in-the-Loop Virtualization, Digital Twins and CPS, Track 9 - HIL Virtualization and CPS]
 tier: "Tier 3 - Depth"
+hours_estimate: 400
+hours_actual: 0
 ---
 
 # Track 9: Hardware-in-the-Loop Virtualization, Digital Twins and CPS
@@ -32,7 +40,14 @@ Validating safety-critical control firmware against ISO 26262 (ASIL-D) or DO-178
 
 ## 🔗 Prerequisites
 *What must you have mastered before starting this block?*
-- *None. This is a foundational block.*
+- [[Physics II]]
+- [[Circuits and Electronics Bridge]]
+- [[Computer Systems]]
+- [[Computer Architecture]]
+- [[Operating Systems]]
+- [[Track 6 - Computer Engineering]]
+
+
 
 
 ## 📚 Core Courses

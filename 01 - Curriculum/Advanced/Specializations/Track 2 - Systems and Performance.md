@@ -5,10 +5,17 @@ title: "Systems and Performance"
 category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites: []
+prerequisites:
+  - "C Fluency"
+  - "Computer Systems"
+  - "Computer Architecture"
+  - "Operating Systems"
+  - "Databases"
 target_profile: "Systems Performance Engineer, Storage Engine Architect, High-Performance Infrastructure Developer"
 aliases: [Track 2 - Systems and Performance, Track 2 - Performance Engineering and Storage Systems]
 tier: "Tier 3 - Depth"
+hours_estimate: 400
+hours_actual: 0
 ---
 
 # Track 2: Systems and Performance
@@ -32,7 +39,13 @@ This track equips students with the empirical and theoretical skills required to
 
 ## 🔗 Prerequisites
 *What must you have mastered before starting this block?*
-- *None. This is a foundational block.*
+- [[C Fluency]]
+- [[Computer Systems]]
+- [[Computer Architecture]]
+- [[Operating Systems]]
+- [[Databases]]
+
+
 
 
 ## 📚 Core Courses

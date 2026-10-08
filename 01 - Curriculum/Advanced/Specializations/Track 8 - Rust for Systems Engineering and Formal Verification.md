@@ -5,10 +5,16 @@ title: "Rust for Systems Engineering and Formal Verification"
 category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites: []
+prerequisites:
+  - "C Fluency"
+  - "Computer Systems"
+  - "Operating Systems"
+  - "Software Construction"
 target_profile: "Systems Infrastructure Engineer, High-Assurance Rust Developer, Kernel Architect"
 aliases: [Track 8 - Rust for Systems Engineering and Formal Verification, Track 8 - Rust Systems Engineering]
 tier: "Tier 3 - Depth"
+hours_estimate: 400
+hours_actual: 0
 ---
 
 # Track 8: Rust for Systems Engineering and Formal Verification
@@ -32,7 +38,12 @@ Rust revolutionizes systems programming by introducing a substructural (affine) 
 
 ## 🔗 Prerequisites
 *What must you have mastered before starting this block?*
-- *None. This is a foundational block.*
+- [[C Fluency]]
+- [[Computer Systems]]
+- [[Operating Systems]]
+- [[Software Construction]]
+
+
 
 
 ## 📚 Core Courses
