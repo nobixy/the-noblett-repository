@@ -1,15 +1,23 @@
 ---
 block_id: "B0"
 title: "The Deep Learner's Toolkit"
+category: "core"
 term: "Phase -1 (Bedrock Foundation)"
 status: in-progress
+prerequisites: []
 hours_estimate: 20
 hours_actual: 0
 primary_resource: "Cognitive Science of Deliberate Practice & Learning"
 milestone: "Mastery of the 8 core cognitive study systems demonstrated in notes"
 date_started: "2026-09-25"
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 # B0 — The Deep Learner's Toolkit: Becoming Insanely Educated
 
@@ -86,6 +94,12 @@ To become exceptionally educated from the ground up, you must abandon how school
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > You use the Feynman Technique, Blank-Sheet Retrieval, and Elaborative Interrogation instinctively during daily study sessions.
+
+---
+
+## ➡️ Next Steps
+*Why does the next subject come next?*
+- [[Next Block]]

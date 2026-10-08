@@ -1,14 +1,17 @@
 ---
 block_id: "BW"
 title: "Bedrock English: Grammar & Sentence Architecture"
+category: "core"
 term: "Phase -1 (Bedrock Foundation)"
 status: in-progress
+prerequisites: []
 hours_estimate: 40
 hours_actual: 0
 primary_resource: "Huddleston & Pullum, A Student's Introduction to English Grammar & Williams, Style"
 milestone: "Fluency in sentence anatomy, parsing, punctuation logic, and 14 days of Franklin copywork"
 date_started: "2026-09-25"
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # BW — Bedrock English: Grammar & Sentence Architecture
@@ -20,6 +23,11 @@ date_completed: ""
 Writing is not an art of mystical inspiration; it is **software engineering for human attention**. A sentence is a logical circuit: it takes characters, connects them through verbs of action, and delivers meaning to a reader's short-term working memory without cognitive overflow.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 ## 📖 Primary Resources & Texts
 1. **Rodney Huddleston & Geoffrey Pullum**, *A Student's Introduction to English Grammar*  
@@ -79,8 +87,14 @@ The two master rules that instantly transform weak, muddy sentences into surgica
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > - [ ] You can parse and diagram any compound-complex English sentence without hesitation.
 > - [ ] You spot and eliminate nominalizations by reflex.
 > - [ ] You have completed 14 consecutive days of Benjamin Franklin copywork logged in [[Writing Hub|Writing Hub]].
+
+---
+
+## ➡️ Next Steps
+*Why does the next subject come next?*
+- [[Next Block]]

@@ -1,14 +1,19 @@
 ---
 block_id: "Block 24"
 title: "Theory of Computation (MIT 6.045 & Hopcroft)"
+category: "core"
 term: "Year 4 Fall"
 status: not-started
+prerequisites:
+  - "Math for CS"
+  - "Algorithms I"
 hours_estimate: 170
 hours_actual: 0
 primary_resource: "Hopcroft, Motwani & Ullman (HMU) & MIT 6.045 / 6.1400"
 milestone: "6.045 final passed; prove unseen NP-complete & prove undecidability by reduction"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # Block 24 — Theory of Computation (MIT 6.045 & Hopcroft)
@@ -24,10 +29,19 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 What can and cannot be computed by any physical machine? The theoretical boundaries of computer science.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Math for CS]]
+- [[Algorithms I]]
+
 
 ## 📖 Primary Syllabus & Core Content
 - [ ] Automata & Languages: DFA, NFA, regular expressions, pumping lemma for regular languages
@@ -42,7 +56,7 @@ Write out formal reductions proving undecidability and NP-completeness for compl
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > 6.045 final passed; you can prove a problem you have never seen is NP-complete, and prove undecidability by reduction.
 
@@ -63,6 +77,6 @@ Write out formal reductions proving undecidability and NP-completeness for compl
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Theory Index|Theory Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Distributed Systems|← 23 - Distributed Systems]] | [[00 - Dashboard|Dashboard]] | [[Convex Optimization|25 - Convex Optimization →]]

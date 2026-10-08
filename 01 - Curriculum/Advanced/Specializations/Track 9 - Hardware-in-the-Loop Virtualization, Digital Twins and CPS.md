@@ -1,17 +1,13 @@
 ---
 track_id: "Track 9"
 title: "Hardware-in-the-Loop Virtualization, Digital Twins and CPS"
+category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites:
-  - "[[Physics II]]"
-  - "[[Circuits and Electronics Bridge]]"
-  - "[[Computer Systems]]"
-  - "[[Computer Architecture]]"
-  - "[[Operating Systems]]"
-  - "[[Track 6 - Computer Engineering]]"
+prerequisites: []
 target_profile: "HIL Simulation Engineer, Cyber-Physical Systems Architect, Automotive/Avionics Safety Engineer"
 aliases: [Track 9 - Hardware-in-the-Loop Virtualization, Digital Twins and CPS, Track 9 - HIL Virtualization and CPS]
+tier: "Tier 3 - Depth"
 ---
 
 # Track 9: Hardware-in-the-Loop Virtualization, Digital Twins and CPS
@@ -32,6 +28,11 @@ Cyber-Physical Systems (CPS)—including autonomous vehicle fleets, commercial f
 Validating safety-critical control firmware against ISO 26262 (ASIL-D) or DO-178C (DAL-A) standards cannot be performed solely on physical prototypes due to destructive risk, cost, and impossibility of edge-case physical reproducibility. Instead, modern mission-critical engineering relies on deterministic Hardware-in-the-Loop (HIL) virtualization: running real embedded electronic control units (ECUs) in hard real-time lockstep with mathematical digital twin plant simulations, emulated multi-core SoCs (via QEMU/Renode), simulated bus networks (CAN-FD, FlexRay, TSN), and automated fault injection engines. Mastering this discipline bridges embedded Linux kernel real-time tuning, numerical physics integration, bus protocol engineering, and formal hybrid system reachability verification.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 ## 📚 Core Courses
 
@@ -185,7 +186,11 @@ An end-to-end, closed-loop cyber-physical HIL simulation testbed connecting a ph
 
 ---
 
-## 🧭 Navigation & Degree Pathway
+## 🏁 Mastery Criteria & Assessments
+> [!IMPORTANT]
+> Assessment criteria go here.
+
+## ➡️ Next Steps & Degree Pathway
 - **Curriculum Hub:** [[Specializations Hub|Specializations Hub]]
 - **Degree Assignment:**
   - If chosen as **Primary Specialization (Track A)**: Course 1 binds to [[Specialization A1|Block 26 - Specialization A1]] and Course 2 binds to [[Specialization A2|Block 28 - Specialization A2]].

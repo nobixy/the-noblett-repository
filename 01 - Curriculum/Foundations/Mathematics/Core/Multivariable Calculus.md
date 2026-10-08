@@ -1,14 +1,18 @@
 ---
 block_id: "Block 7"
 title: "Multivariable Calculus (MIT 18.02SC)"
+category: "core"
 term: "Year 1 Spring"
 status: not-started
+prerequisites:
+  - "Calculus I"
 hours_estimate: 150
 hours_actual: 0
 primary_resource: "MIT 18.02SC (Denis Auroux, OCW)"
 milestone: "18.02 final exam passed"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # Block 7 — Multivariable Calculus (MIT 18.02SC)
@@ -24,10 +28,18 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 Essential for graphics, physics, electromagnetism, machine learning gradients, and multivariate probability distributions.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Calculus I]]
+
 
 ## 📖 Primary Syllabus & Core Content
 - [ ] Part I: Vectors and Matrices (dot/cross products, planes, lines, linear systems)
@@ -42,7 +54,7 @@ Complete all problem sets, recitation workshops, and practice exams.
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > 18.02 final exam passed.
 
@@ -63,6 +75,6 @@ Complete all problem sets, recitation workshops, and practice exams.
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[C Fluency|← 06 - C Fluency]] | [[00 - Dashboard|Dashboard]] | [[Physics II|08 - Physics II →]]

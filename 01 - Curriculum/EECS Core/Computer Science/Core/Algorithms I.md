@@ -1,14 +1,19 @@
 ---
 block_id: "Block 13"
 title: "Introduction to Algorithms (MIT 6.006)"
+category: "core"
 term: "Year 2 Spring"
 status: not-started
+prerequisites:
+  - "C Fluency"
+  - "Math for CS"
 hours_estimate: 180
 hours_actual: 0
 primary_resource: "MIT 6.006 (2020 OCW, Demaine, Ku, Solomon) & CLRS 4e"
 milestone: "6.006 final passed, timed; Codeforces rating ≥1200"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # Block 13 — Introduction to Algorithms (MIT 6.006)
@@ -24,8 +29,17 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 Algorithmic thinking is the core engine of computer science: design patterns, asymptotic analysis, and formal proofs of correctness.
+
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[C Fluency]]
+- [[Math for CS]]
 
 ---
 
@@ -43,7 +57,7 @@ Implement every major data structure and algorithm from scratch in `c` and `pyth
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > 6.006 final exam passed, timed; Codeforces rating ≥ 1200.
 
@@ -64,6 +78,6 @@ Implement every major data structure and algorithm from scratch in `c` and `pyth
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Theory Index|Theory Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Interpreters|← 12 - Interpreters]] | [[00 - Dashboard|Dashboard]] | [[Computer Architecture|14 - Computer Architecture →]]

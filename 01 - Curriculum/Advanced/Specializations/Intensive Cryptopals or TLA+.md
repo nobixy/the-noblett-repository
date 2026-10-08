@@ -1,14 +1,17 @@
 ---
 block_id: "Block 27"
 title: "January Intensive: Cryptopals or TLA+"
+category: "advanced"
 term: "Year 4 January Intensive"
 status: not-started
+prerequisites: []
 hours_estimate: 130
 hours_actual: 0
 primary_resource: "Cryptopals (cryptopals.com) OR Lamport TLA+ Course + Wayne Practical TLA+"
 milestone: "All 8 Cryptopals sets solved OR formal TLA+ Raft spec finding a real bug"
 date_started: ""
 date_completed: ""
+tier: "Tier 3 - Depth"
 ---
 
 # Block 27 — January Intensive: Cryptopals or TLA+
@@ -29,6 +32,11 @@ Hands-on mastery of cryptographic vulnerabilities OR formal mathematical specifi
 
 ---
 
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
+
 ## 📖 Primary Syllabus & Core Content
 - [ ] Option A: Cryptopals Crypto Challenges (Sets 1–8: AES, padding oracles, Diffie-Hellman, RSA, DSA, zero-knowledge)
 - [ ] Option B: Leslie Lamport's free TLA+ Video Course + Hillel Wayne, Practical TLA+
@@ -43,7 +51,7 @@ Complete hands-on security and formal verification engineering in `python`, `rus
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > Option A: All 8 Cryptopals challenge sets solved. Option B: TLA+ specification models Raft correctly and detects an injected or subtle race condition.
 
@@ -64,6 +72,6 @@ Complete hands-on security and formal verification engineering in `python`, `rus
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Specialization A1|← 26 - Specialization A1]] | [[00 - Dashboard|Dashboard]] | [[Specialization A2|28 - Specialization A2 →]]

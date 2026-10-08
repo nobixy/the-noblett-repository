@@ -1,14 +1,18 @@
 ---
 block_id: "Block 3"
 title: "Classical Mechanics (MIT 8.01SC)"
+category: "core"
 term: "Year 1 Fall"
 status: not-started
+prerequisites:
+  - "Calculus I"
 hours_estimate: 100
 hours_actual: 0
 primary_resource: "MIT 8.01SC & Feynman's Six Easy Pieces"
 milestone: "8.01 final exam passed"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # Block 3 — Classical Mechanics (MIT 8.01SC)
@@ -24,10 +28,18 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 MIT requires it, and it's where the instinct for mathematical modeling and dimensional analysis comes from.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Calculus I]]
+
 
 ## 📖 Primary Syllabus & Core Content
 - [ ] Kinematics and Newton's Laws of Motion
@@ -44,7 +56,7 @@ Complete all 8.01SC homework sets and problem-solving workshops.
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > 8.01 final exam passed.
 
@@ -65,6 +77,6 @@ Complete all 8.01SC homework sets and problem-solving workshops.
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Calculus I|← 02 - Calculus I]] | [[00 - Dashboard|Dashboard]] | [[Nand2Tetris|04 - Nand2Tetris →]]

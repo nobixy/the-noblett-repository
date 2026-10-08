@@ -1,16 +1,13 @@
 ---
 track_id: "Track 2"
 title: "Systems and Performance"
+category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites:
-  - "[[C Fluency]]"
-  - "[[Computer Systems]]"
-  - "[[Computer Architecture]]"
-  - "[[Operating Systems]]"
-  - "[[Databases]]"
+prerequisites: []
 target_profile: "Systems Performance Engineer, Storage Engine Architect, High-Performance Infrastructure Developer"
 aliases: [Track 2 - Systems and Performance, Track 2 - Performance Engineering and Storage Systems]
+tier: "Tier 3 - Depth"
 ---
 
 # Track 2: Systems and Performance
@@ -31,6 +28,11 @@ With the physical demise of Dennard scaling and the deceleration of Moore's Law,
 This track equips students with the empirical and theoretical skills required to build ultra-low-latency, high-throughput systems infrastructure: storage engines, operating system internals, database kernels, and distributed backbones. Students learn to profile real hardware bottlenecks using hardware performance counters (PMUs) and eBPF kernel tracing, design concurrent data structures provably immune to data races and ABA hazards, and architect systems capable of saturating multi-gigabyte/sec PCIe NVMe buses and 100GbE networks.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 ## 📚 Core Courses
 
@@ -185,7 +187,11 @@ An industrial-grade, persistent key-value storage engine engineered in C++ or Ru
 
 ---
 
-## 🧭 Navigation & Degree Pathway
+## 🏁 Mastery Criteria & Assessments
+> [!IMPORTANT]
+> Assessment criteria go here.
+
+## ➡️ Next Steps & Degree Pathway
 - **Curriculum Hub:** [[Specializations Hub|Specializations Hub]]
 - **Degree Assignment:**
   - If chosen as **Primary Specialization (Track A)**: Course 1 binds to [[Specialization A1|Block 26 - Specialization A1]] and Course 2 binds to [[Specialization A2|Block 28 - Specialization A2]].

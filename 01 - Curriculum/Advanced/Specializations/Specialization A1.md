@@ -1,14 +1,17 @@
 ---
 block_id: "Block 26"
 title: "Specialization Track A — Course 1"
+category: "advanced"
 term: "Year 4 Fall"
 status: not-started
+prerequisites: []
 hours_estimate: 170
 hours_actual: 0
 primary_resource: "Selected from Track A (see Specializations folder)"
 milestone: "Track A Course 1 completed with project"
 date_started: ""
 date_completed: ""
+tier: "Tier 3 - Depth"
 ---
 
 # Block 26 — Specialization Track A — Course 1
@@ -28,6 +31,11 @@ date_completed: ""
 Block 26 represents the foundational graduate lecture course of your primary specialization (**Track A**), chosen from the 11 EECS specialization tracks. Following the core curriculum through Year 3, this block marks the transition from generalist computing fundamentals to domain-leading technical depth (*"Two deep beats six shallow"*).
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 ## 📖 Primary Syllabus & Core Content
 
@@ -61,7 +69,7 @@ Complete the Course 1 laboratory sequence utilizing rigorous modern engineering 
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > All problem sets, theoretical derivations, and progressive laboratory assignments for Course 1 of your chosen Track A are completed. Test suite achieves 100% pass rate under automated CI with zero memory leaks verified by `valgrind` or AddressSanitizer.
 
@@ -79,6 +87,6 @@ Complete the Course 1 laboratory sequence utilizing rigorous modern engineering 
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Specializations Hub|Specializations Hub]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Convex Optimization|← 25 - Convex Optimization]] | [[00 - Dashboard|Dashboard]] | [[Intensive Cryptopals or TLA+|27 - Intensive Cryptopals or TLA+ →]]

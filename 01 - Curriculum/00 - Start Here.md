@@ -1,5 +1,5 @@
 ---
-title: "Start Here: The Noblett Curriculum"
+title: "Start Here: The Noblett Curriculum Canonical Path"
 type: hub
 tags:
   - hub
@@ -11,86 +11,80 @@ tags:
 
 Welcome to the **Noblett Repository**. This is a ground-up education system for computing, engineered to provide the intellectual territory of a serious MIT EECS education (~7,000 hours), rebuilt upon strong Foundations in Mathematics and English.
 
-## The Canonical Path
+## The Canonical Sequence
 
-> **"If I start here with weak foundations, what exact sequence of learning should I follow?"**
+> **"What exactly should I study, and in what order?"**
 
-The curriculum is strictly dependency-aware. Do not skip prerequisites. Do not start a block until its prerequisites are mastered.
+This is the definitive, dependency-aware linear sequence. **Do not skip prerequisites.** Do not start a block until its prerequisites are mastered.
 
----
+### Phase 0: Foundations & Meta-Learning
+*Build the cognitive and tooling foundations required for deep autonomous learning.*
+- [[Learning How to Learn]] *(Tier 1)*
+- [[The Deep Learner's Toolkit]] *(Tier 1)*
+- [[Tooling]] *(Tier 1)*
+- [[Bedrock English and Grammar]] *(Tier 1)*
+- [[Reading, Thinking, and Writing]] *(Tier 1)*
 
-### 1. Foundations
+### Phase 1: Bedrock Mathematics & Logic
+*EECS requires formal mathematical maturity, starting from arithmetic first principles.*
+- [[Bedrock Mathematics]] *(Tier 1)*
+- [[Math Prerequisites]] *(Tier 1)*
+- [[Calculus I]] *(Tier 1)*
 
-Before writing complex systems, we must learn to think, write, and calculate with extreme precision.
+### Phase 2: Programming Fundamentals
+*Mastering abstraction and low-level memory operations.*
+- [[Programming On-Ramp]] *(Tier 2 - Optional if CS61A cold test is passed)*
+- [[CS61A]] *(Tier 1)*
+- [[C Fluency]] *(Tier 1)*
+- [[Multivariable Calculus]] *(Tier 1)*
 
-**Meta-Learning**
-- [[The Deep Learner's Toolkit]]
-- [[Learning How to Learn]]
-- [[Tooling]]
+### Phase 3: Hardware & Systems Architecture
+*Demystifying the abstraction stack from logic gates to operating systems.*
+- [[Nand2Tetris]] *(Tier 1)*
+- [[Linear Algebra]] *(Tier 1)*
+- [[Computer Systems]] *(Tier 1)*
+- [[Operating Systems]] *(Tier 1)*
 
-**English & Communication**
-- [[Bedrock English and Grammar]]
-- [[Reading, Thinking, and Writing]]
+### Phase 4: Algorithms & Discrete Mathematics
+*The science of computation and structured data.*
+- [[Math for CS]] *(Tier 1)*
+- [[Algorithms I]] *(Tier 1)*
+- [[Probability]] *(Tier 1)*
 
-**Mathematics (The Unified Progression)**
-- [[Bedrock Mathematics]]
-- [[Math Prerequisites]]
-- [[Calculus I]]
-- [[Multivariable Calculus]]
-- [[Differential Equations Bridge]]
-- [[Linear Algebra]]
-- [[Math for CS]] (Discrete Math)
-- [[Probability]]
-- [[Statistics]]
-- [[Real Analysis]]
-- [[Convex Optimization]]
+### Phase 5: Software Engineering at Scale
+*Networked applications, databases, and professional system construction.*
+- [[Networking]] *(Tier 1)*
+- [[Databases]] *(Tier 1)*
+- [[Software Construction]] *(Tier 1)*
 
----
+### Phase 6: Distributed Systems & Advanced Algorithms
+*Navigating partial failures, eventual consistency, and hard problems.*
+- [[Distributed Systems]] *(Tier 1)*
+- [[Algorithms II]] *(Tier 1)*
+- [[Statistics]] *(Tier 1)*
 
-### 2. EECS Core
+### Phase 7: Compilers & Theory of Computation
+*Language semantics and the theoretical limits of what can be computed.*
+- [[Interpreters]] *(Tier 1)*
+- [[Theory of Computation]] *(Tier 1)*
 
-The core computer science and engineering disciplines.
-
-**Computer Science (Software & Theory)**
-- [[Programming On-Ramp]]
-- [[CS61A]]
-- [[SICP]]
-- [[C Fluency]]
-- [[Algorithms I]]
-- [[Algorithms II]]
-- [[Software Construction]]
-- [[Interpreters]]
-- [[Theory of Computation]]
-- [[Information Theory]]
-
-**Computer Engineering (Hardware & Systems)**
-- [[Nand2Tetris]]
-- [[Computer Systems]]
-- [[Computer Architecture]]
-- [[Operating Systems]]
-- [[Networking]]
-
-**Software Engineering (At Scale)**
-- [[Databases]]
-- [[Distributed Systems]]
-
-**Electrical Engineering (Physics & Signals)**
+### Phase 8: Physics & Engineering Emphases (Tier 2/3 Options)
+*If pursuing full electrical or computer engineering.*
 - [[Physics I]]
 - [[Physics II]]
 - [[Circuits and Electronics Bridge]]
 - [[Signals and Systems Bridge]]
+- [[Differential Equations Bridge]]
 
 ---
 
-### 3. Advanced & Specialization
+## 3. Advanced & Specializations
 
 Pick **two** of the tracks from the [[Specializations Hub]] to pursue deeply after completing the Core.
-
 - [[Specialization A1]]
 - [[Specialization A2]]
 - [[Specialization B1]]
 - [[Specialization B2]]
-- [[Intensive Cryptopals or TLA+]]
 - [[Capstone]]
 
 ---

@@ -1,14 +1,18 @@
 ---
 block_id: "Block 4"
 title: "From NAND to Tetris (Hardware & Software Hierarchy)"
+category: "core"
 term: "Year 1 January Intensive"
 status: not-started
+prerequisites:
+  - "CS61A"
 hours_estimate: 150
 hours_actual: 0
 primary_resource: "nand2tetris.org & The Elements of Computing Systems, 2nd ed."
 milestone: "A Jack program you wrote runs on the CPU you built"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # Block 4 — From NAND to Tetris (Hardware & Software Hierarchy)
@@ -24,10 +28,18 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 Build a whole computer, from elementary logic gates to a running high-level game, in one month. De-mystifies the entire computer abstraction stack.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[CS61A]]
+
 
 ## 📖 Primary Syllabus & Core Content
 - [ ] December Prep: Read hardware half of Justice, How Computers Really Work
@@ -52,7 +64,7 @@ Complete all twelve Nand2Tetris projects using the Hardware Simulator, `python` 
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > A non-trivial Jack program you wrote runs successfully on the CPU and architecture you built.
 
@@ -73,6 +85,6 @@ Complete all twelve Nand2Tetris projects using the Hardware Simulator, `python` 
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Hardware Index|Hardware Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Physics I|← 03 - Physics I]] | [[00 - Dashboard|Dashboard]] | [[Differential Equations Bridge|04a - Differential Equations Bridge (optional) →]]

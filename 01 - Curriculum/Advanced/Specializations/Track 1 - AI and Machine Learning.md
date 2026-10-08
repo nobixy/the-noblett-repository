@@ -1,17 +1,13 @@
 ---
 track_id: "Track 1"
 title: "AI and Machine Learning"
+category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites:
-  - "[[CS61A]]"
-  - "[[Multivariable Calculus]]"
-  - "[[Linear Algebra]]"
-  - "[[Algorithms I]]"
-  - "[[Probability]]"
-  - "[[Convex Optimization]]"
+prerequisites: []
 target_profile: "Machine Learning Engineer, Research Scientist, Deep Learning Infrastructure Engineer"
 aliases: [Track 1 - AI and Machine Learning, Track 1 - Artificial Intelligence and Machine Learning]
+tier: "Tier 3 - Depth"
 ---
 
 # Track 1: AI and Machine Learning
@@ -32,6 +28,11 @@ Modern Artificial Intelligence has transformed from heuristic expert systems int
 This track provides an elite, graduate-level mastery of both theoretical machine learning and scalable deep learning systems engineering. Students will master the rigorous statistical mechanics of generalization (Rademacher complexity, PAC bounds, VC dimension), convex and non-convex optimization, the calculus of automatic differentiation engines, high-throughput GPU kernel design for attention mechanisms, and distributed training systems across parallel worker clusters.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 ## 📚 Core Courses
 
@@ -192,6 +193,10 @@ An end-to-end, high-performance deep learning pipeline implementing a decoder-on
 
 ---
 
+## 🏁 Mastery Criteria & Assessments
+> [!IMPORTANT]
+> Assessment criteria go here.
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
@@ -201,7 +206,7 @@ An end-to-end, high-performance deep learning pipeline implementing a decoder-on
 
 ---
 
-## 🧭 Navigation & Degree Pathway
+## ➡️ Next Steps & Degree Pathway
 - **Curriculum Hub:** [[Specializations Hub|Specializations Hub]]
 - **Degree Assignment:**
   - If chosen as **Primary Specialization (Track A)**: Course 1 binds to [[Specialization A1|Block 26 - Specialization A1]] and Course 2 binds to [[Specialization A2|Block 28 - Specialization A2]].

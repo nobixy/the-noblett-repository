@@ -1,8 +1,12 @@
 ---
 block_id: "Block 8a"
 title: "Circuits and Electronics Bridge (MIT 6.2000)"
+category: "core"
 term: "Year 1 Spring"
 status: not-started
+prerequisites:
+  - "Physics II"
+  - "Differential Equations Bridge"
 optional: true # computer-engineering path; excluded from the hour budget
 hours_estimate: 160
 hours_actual: 0
@@ -10,6 +14,7 @@ primary_resource: "Anant Agarwal & Jeffrey Lang, Foundations of Analog and Digit
 milestone: "All 10 problem sets solved; SPICE simulation & physical breadboard of active multi-stage audio pre-amp/filter complete; MIT 6.002 final exam passed ≥80%"
 date_started: ""
 date_completed: ""
+tier: "Tier 2 - Support"
 ---
 
 # Block 8a — Circuits and Electronics Bridge (MIT 6.2000)
@@ -28,6 +33,9 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 2 - Support
+> **Tier 2 - Support**: Strongly recommended for full understanding.
+
 ## 🎯 Why This Block Matters
 
 Computation does not occur in an ethereal realm of pure mathematical logic; it is physically instantiated in non-linear analog silicon devices governed by electrodynamics. 
@@ -41,6 +49,12 @@ In [[Nand2Tetris]], digital logic gates (NAND, AND, OR, NOT) are treated as idea
 Mastering this bridge ensures that your understanding of computer systems ([[Computer Systems]], [[Computer Architecture]]) is anchored in physical law.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Physics II]]
+- [[Differential Equations Bridge]]
+
 
 ## 📖 Primary Syllabus & Core Content
 
@@ -152,7 +166,7 @@ You must design, simulate in SPICE (LTspice or ngspice), and physically breadboa
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 
 > [!IMPORTANT]
 > A block is done when this condition is true. Not before.
@@ -184,6 +198,6 @@ You must design, simulate in SPICE (LTspice or ngspice), and physically breadboa
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Hardware Index|Hardware Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Physics II|← 08 - Physics II]] | [[00 - Dashboard|Dashboard]] | [[Computer Systems|09 - Computer Systems →]]

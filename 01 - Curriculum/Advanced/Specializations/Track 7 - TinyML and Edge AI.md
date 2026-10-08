@@ -1,16 +1,13 @@
 ---
 track_id: "Track 7"
 title: "TinyML and Edge AI"
+category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites:
-  - "[[C Fluency]]"
-  - "[[Computer Systems]]"
-  - "[[Computer Architecture]]"
-  - "[[Signals and Systems Bridge]]"
-  - "[[Track 1 - AI and Machine Learning]]"
+prerequisites: []
 target_profile: "Edge ML Engineer, Embedded Systems Architect, TinyML Researcher"
 aliases: [Track 7 - TinyML and Edge AI, Track 7 - TinyML, Edge AI and Neuromorphic Computing]
+tier: "Tier 3 - Depth"
 ---
 
 # Track 7: TinyML and Edge AI
@@ -31,6 +28,11 @@ Standard deep learning research presumes hyperscale cloud clusters, gigawatt pow
 TinyML is the rigorous discipline of executing deep neural network inference and adaptive on-device learning directly at the sensor boundary without round-trip network latency, cloud dependency, or privacy leakage. Mastering this field requires a dual mastery of machine learning algorithmic compression (mathematical quantization, second-order pruning, structural neural architecture search) and bare-metal systems engineering (ARM Cortex-M/RISC-V SIMD intrinsics, memory hierarchy cache scheduling, DMA double-buffering, and zero-allocation execution runtimes).
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 ## 📚 Core Courses
 
@@ -190,7 +192,11 @@ An end-to-end, fully autonomous cyber-physical intelligence system deployed to a
 
 ---
 
-## 🧭 Navigation & Degree Pathway
+## 🏁 Mastery Criteria & Assessments
+> [!IMPORTANT]
+> Assessment criteria go here.
+
+## ➡️ Next Steps & Degree Pathway
 - **Curriculum Hub:** [[Specializations Hub|Specializations Hub]]
 - **Degree Assignment:**
   - If chosen as **Primary Specialization (Track A)**: Course 1 binds to [[Specialization A1|Block 26 - Specialization A1]] and Course 2 binds to [[Specialization A2|Block 28 - Specialization A2]].

@@ -1,14 +1,18 @@
 ---
 block_id: "Block 19"
 title: "Computer Networking (Stanford CS144)"
+category: "core"
 term: "Year 3 January Intensive"
 status: not-started
+prerequisites:
+  - "Operating Systems"
 hours_estimate: 150
 hours_actual: 0
 primary_resource: "Stanford CS144 (cs144.github.io) & Kurose & Ross"
 milestone: "Custom TCP stack fetches a real web page over the live internet"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # Block 19 — Computer Networking (Stanford CS144)
@@ -24,10 +28,18 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 The internet is the nervous system of modern software. Build the protocols hands-on to understand latency, reliability, congestion, and packet routing.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Operating Systems]]
+
 
 ## 📖 Primary Syllabus & Core Content
 - [ ] Application Layer: HTTP, DNS, CDN
@@ -43,7 +55,7 @@ All eight Stanford CS144 labs: implement a complete, working TCP stack in modern
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > Your custom C++ TCP stack connects to a remote server and successfully fetches a real web page over the real internet.
 
@@ -64,6 +76,6 @@ All eight Stanford CS144 labs: implement a complete, working TCP stack in modern
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Real Analysis|← 18 - Real Analysis]] | [[00 - Dashboard|Dashboard]] | [[Algorithms II|20 - Algorithms II →]]

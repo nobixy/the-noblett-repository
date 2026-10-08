@@ -1,14 +1,17 @@
 ---
 block_id: P5
 title: "Tooling"
+category: "core"
 term: "Phase 0 (0–5 mo)"
 status: not-started
+prerequisites: []
 hours_estimate: 40
 hours_actual: 0
 primary_resource: "MIT The Missing Semester of Your CS Education + Ward, How Linux Works (ch 1-7)"
 milestone: "log.md has 14 consecutive daily entries & headless Linux navigation mastered"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # P5 — Tooling
@@ -22,10 +25,18 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 Tools shape thought. Trying to learn operating systems or algorithms while fumbling with bash, git, editors, or remote servers creates unnecessary cognitive friction. Tooling must become invisible background competency.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 ## 📖 Primary Syllabus
 - [ ] **MIT Missing Semester Lectures & Exercises:**
@@ -54,7 +65,7 @@ Tools shape thought. Trying to learn operating systems or algorithms while fumbl
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > [[log]] has 14 consecutive daily entries and you can navigate, edit, wrangle data, and compile software on a Linux box without touching a GUI mouse.
 
@@ -73,3 +84,9 @@ Tools shape thought. Trying to learn operating systems or algorithms while fumbl
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - Shotts, *The Linux Command Line: A Complete Introduction*
 - Barrett, *Linux Pocket Guide*
+
+---
+
+## ➡️ Next Steps
+*Why does the next subject come next?*
+- [[Next Block]]

@@ -1,14 +1,19 @@
 ---
 block_id: "Block 17"
 title: "Software Construction (MIT 6.1020 / 6.031)"
+category: "core"
 term: "Year 3 Fall"
 status: not-started
+prerequisites:
+  - "CS61A"
+  - "C Fluency"
 hours_estimate: 150
 hours_actual: 0
 primary_resource: "MIT 6.1020 / 6.031 Readings & Ousterhout, A Philosophy of Software Design"
 milestone: "Rebuilt interpreter under spec, rep invariants, AF, and test strategy"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # Block 17 — Software Construction (MIT 6.1020 / 6.031)
@@ -24,10 +29,19 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 The most under-appreciated course in the MIT degree. How to write complex code that does not rot, and how to construct software systems that humans can understand, navigate, and operate reliably. Software construction encompasses two fundamental interfaces: the internal software interface (abstract data types, representation invariants, thread safety contracts) and the human-computer interaction (HCI) interface (mental models, usability heuristics, cognitive walkthroughs, and accessibility standards).
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[CS61A]]
+- [[C Fluency]]
+
 
 ## 📖 Primary Syllabus & Core Content
 
@@ -92,7 +106,7 @@ The most under-appreciated course in the MIT degree. How to write complex code t
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > You write a formal rep invariant and abstraction function for any complex type you define, by reflex.
 
@@ -113,6 +127,6 @@ The most under-appreciated course in the MIT degree. How to write complex code t
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Languages Index|Languages Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Operating Systems|← 16 - Operating Systems]] | [[00 - Dashboard|Dashboard]] | [[Real Analysis|18 - Real Analysis →]]

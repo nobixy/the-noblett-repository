@@ -1,14 +1,19 @@
 ---
 block_id: "Block 18"
 title: "Real Analysis (Abbott & MIT 18.100A)"
+category: "core"
 term: "Year 3 Fall"
 status: not-started
+prerequisites:
+  - "Math Prerequisites"
+  - "Multivariable Calculus"
 hours_estimate: 180
 hours_actual: 0
 primary_resource: "Stephen Abbott, Understanding Analysis & MIT 18.100A (OCW)"
 milestone: "Prove Bolzano–Weierstrass, EVT, and uniform continuity from definitions unaided"
 date_started: ""
 date_completed: ""
+tier: "Tier 3 - Depth"
 ---
 
 # Block 18 — Real Analysis (Abbott & MIT 18.100A)
@@ -24,10 +29,19 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 3 - Depth
+> **Tier 3 - Depth**: Optional deep dive for specialized mastery.
+
 ## 🎯 Why This Block Matters
 Where you learn what a proof actually is. The hardest block for most people and the one that permanently transforms your rigorous analytical thinking.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Math Prerequisites]]
+- [[Multivariable Calculus]]
+
 
 ## 📖 Primary Syllabus & Core Content
 - [ ] The Real Numbers: Axiom of completeness, inf/sup, cardinality, Cantor's theorem
@@ -45,7 +59,7 @@ Work through Abbott cover-to-cover and write out every single proof in `latex`. 
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > You can prove Bolzano–Weierstrass, the Extreme Value Theorem, and a uniform-continuity result directly from the formal definitions, on paper, unaided.
 
@@ -66,6 +80,6 @@ Work through Abbott cover-to-cover and write out every single proof in `latex`. 
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Software Construction|← 17 - Software Construction]] | [[00 - Dashboard|Dashboard]] | [[Networking|19 - Networking →]]

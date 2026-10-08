@@ -1,14 +1,19 @@
 ---
 block_id: "Block 25"
 title: "Convex Optimization (Stanford EE364A & Boyd)"
+category: "core"
 term: "Year 4 Fall"
 status: not-started
+prerequisites:
+  - "Linear Algebra"
+  - "Multivariable Calculus"
 hours_estimate: 150
 hours_actual: 0
 primary_resource: "Stephen Boyd & Lieven Vandenberghe & Stanford EE364A"
 milestone: "EE364A homework sets 1–8 completed; CVXPY project + manual KKT derivation"
 date_started: ""
 date_completed: ""
+tier: "Tier 3 - Depth"
 ---
 
 # Block 25 — Convex Optimization (Stanford EE364A & Boyd)
@@ -24,10 +29,19 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 3 - Depth
+> **Tier 3 - Depth**: Optional deep dive for specialized mastery.
+
 ## 🎯 Why This Block Matters
 Optimization is the unified mathematical engine underlying machine learning, control systems, signal processing, and quantitative engineering.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Linear Algebra]]
+- [[Multivariable Calculus]]
+
 
 ## 📖 Primary Syllabus & Core Content
 - [ ] Convex sets: Affine sets, cones, hyperplanes, dual cones
@@ -49,7 +63,7 @@ Formulate and solve large-scale convex optimization problems in `python` using `
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > Stanford EE364A homework sets 1 through 8 completed. Custom interior-point solver matches CVXPY optimal objective value to within $10^{-7}$ relative tolerance. Proofs below are derived and verified.
 
@@ -70,6 +84,6 @@ Formulate and solve large-scale convex optimization problems in `python` using `
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Theory of Computation|← 24 - Theory of Computation]] | [[00 - Dashboard|Dashboard]] | [[Specialization A1|26 - Specialization A1 →]]

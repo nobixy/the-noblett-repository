@@ -1,14 +1,19 @@
 ---
 block_id: "Block 20"
 title: "Design and Analysis of Algorithms (MIT 6.046J)"
+category: "core"
 term: "Year 3 Spring"
 status: not-started
+prerequisites:
+  - "Algorithms I"
+  - "Probability"
 hours_estimate: 180
 hours_actual: 0
 primary_resource: "MIT 6.046J (OCW) & Kleinberg & Tardos, Algorithm Design"
 milestone: "6.046 final passed, Codeforces ≥1600, solve unseen medium-hard problem in 45 min"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # Block 20 — Design and Analysis of Algorithms (MIT 6.046J)
@@ -24,10 +29,19 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 Advanced algorithmic design paradigms: Network Flow, Linear Programming, Randomized Algorithms, NP-Completeness, and Approximation Algorithms.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Algorithms I]]
+- [[Probability]]
+
 
 ## 📖 Primary Syllabus & Core Content
 - [ ] Divide and conquer: Medians, FFT, matrix multiplication
@@ -45,7 +59,7 @@ Implement Edmonds-Karp network flow, Dinic's blocking flow algorithm, a Primal-D
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > 6.046 final passed; Codeforces rating ≥ 1600; you can solve an unseen medium-hard problem in 45 minutes with a formal correctness argument and tight Big-O bound.
 
@@ -66,6 +80,6 @@ Implement Edmonds-Karp network flow, Dinic's blocking flow algorithm, a Primal-D
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Theory Index|Theory Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Networking|← 19 - Networking]] | [[00 - Dashboard|Dashboard]] | [[Databases|21 - Databases →]]

@@ -1,14 +1,19 @@
 ---
 block_id: "Block 21"
 title: "Database Systems (CMU 15-445/645 & DDIA)"
+category: "core"
 term: "Year 3 Spring"
 status: not-started
+prerequisites:
+  - "Operating Systems"
+  - "Algorithms I"
 hours_estimate: 200
 hours_actual: 0
 primary_resource: "CMU 15-445/645 (Andy Pavlo) & Kleppmann, Designing Data-Intensive Applications"
 milestone: "All 4 BusTub projects pass Gradescope; DDIA read cover to cover"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # Block 21 — Database Systems (CMU 15-445/645 & DDIA)
@@ -24,10 +29,19 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 Databases are the apex software engineering system: memory management, disk I/O, concurrency control, query planning, recovery, and distributed replication.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Operating Systems]]
+- [[Algorithms I]]
+
 
 ## 📖 Primary Syllabus & Core Content
 - [ ] Relational model, relational algebra, SQL
@@ -46,7 +60,7 @@ Implement all four CMU BusTub projects in `c++` using `cmake`, debugged with `gd
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > All four projects pass CMU Gradescope autograders with 100% test coverage.
 
@@ -67,6 +81,6 @@ Implement all four CMU BusTub projects in `c++` using `cmake`, debugged with `gd
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Algorithms II|← 20 - Algorithms II]] | [[00 - Dashboard|Dashboard]] | [[Statistics|22 - Statistics →]]

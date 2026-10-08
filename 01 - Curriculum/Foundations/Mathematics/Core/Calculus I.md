@@ -1,14 +1,18 @@
 ---
 block_id: "Block 2"
 title: "Calculus I (MIT 18.01SC)"
+category: "core"
 term: "Year 1 Fall"
 status: not-started
+prerequisites:
+  - "Math Prerequisites"
 hours_estimate: 150
 hours_actual: 0
 primary_resource: "MIT 18.01SC (OCW Scholar) & Strang's Calculus"
 milestone: "18.01 final passed, timed and closed-book"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # Block 2 — Calculus I (MIT 18.01SC)
@@ -24,8 +28,16 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 Continuous change, differentiation, integration, series. Essential mathematical fluency for physics, algorithms, and continuous optimization.
+
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Math Prerequisites]]
 
 ---
 
@@ -44,7 +56,7 @@ Solve all MIT 18.01 problem sets and write formal solutions for all recitation p
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > 18.01 final exam taken timed and closed-book, passed.
 
@@ -65,6 +77,6 @@ Solve all MIT 18.01 problem sets and write formal solutions for all recitation p
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[CS61A|← 01 - CS61A]] | [[00 - Dashboard|Dashboard]] | [[Physics I|03 - Physics I →]]

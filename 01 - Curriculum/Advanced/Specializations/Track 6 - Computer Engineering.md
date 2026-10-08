@@ -1,16 +1,13 @@
 ---
 track_id: "Track 6"
 title: "Computer Engineering"
+category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites:
-  - "[[Nand2Tetris]]"
-  - "[[Physics II]]"
-  - "[[Circuits and Electronics Bridge]]"
-  - "[[Computer Systems]]"
-  - "[[Computer Architecture]]"
+prerequisites: []
 target_profile: "Computer Architecture Engineer, ASIC/VLSI Designer, FPGA Hardware Systems Engineer, Silicon Verification Specialist"
 aliases: [Track 6 - Computer Engineering, Track 6 - Computer Engineering (Deep Hardware)]
+tier: "Tier 3 - Depth"
 ---
 
 # Track 6: Computer Engineering
@@ -31,6 +28,11 @@ Software cannot run without physical silicon. While high-level software abstract
 This track takes students deep beneath the software abstraction layer into the physical and architectural science of modern microprocessors and application-specific integrated circuits (ASICs). Students master quantitative computer architecture (out-of-order execution, branch prediction, cache coherence protocols, memory controllers), digital logic synthesis using SystemVerilog, timing closure through Static Timing Analysis (STA), and open-source silicon manufacturing tapeout flows (OpenLane, SkyWater 130nm).
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 ## 📚 Core Courses
 
@@ -192,7 +194,11 @@ A complete, production-grade 32-bit RISC-V System-on-Chip (SoC) designed in Syst
 
 ---
 
-## 🧭 Navigation & Degree Pathway
+## 🏁 Mastery Criteria & Assessments
+> [!IMPORTANT]
+> Assessment criteria go here.
+
+## ➡️ Next Steps & Degree Pathway
 - **Curriculum Hub:** [[Specializations Hub|Specializations Hub]]
 - **Degree Assignment:**
   - If chosen as **Primary Specialization (Track A)**: Course 1 binds to [[Specialization A1|Block 26 - Specialization A1]] and Course 2 binds to [[Specialization A2|Block 28 - Specialization A2]].

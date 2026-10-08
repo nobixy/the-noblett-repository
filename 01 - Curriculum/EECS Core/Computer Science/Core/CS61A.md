@@ -1,14 +1,18 @@
 ---
 block_id: "Block 1"
 title: "Programming and Abstraction (Berkeley CS61A)"
+category: "core"
 term: "Year 1 Fall"
 status: not-started
+prerequisites:
+  - "Math Prerequisites"
 hours_estimate: 170
 hours_actual: 0
 primary_resource: "Berkeley CS61A (cs61a.org) & Composing Programs"
 milestone: "Timed, closed-book CS61A past final ≥ 70%"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # Block 1 — Programming and Abstraction (Berkeley CS61A)
@@ -24,8 +28,16 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 Abstraction, recursion, higher-order functions, interpreters. The base layer of everything else in computer science.
+
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Math Prerequisites]]
 
 ---
 
@@ -41,7 +53,7 @@ The Scheme interpreter project. Then extend it with something the course doesn't
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > A past CS61A final exam taken timed and closed-book, scoring ≥ 70%.
 
@@ -62,6 +74,6 @@ The Scheme interpreter project. Then extend it with something the course doesn't
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Languages Index|Languages Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Tooling|← P5 - Tooling]] | [[00 - Dashboard|Dashboard]] | [[Calculus I|02 - Calculus I →]]

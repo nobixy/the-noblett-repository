@@ -1,8 +1,12 @@
 ---
 block_id: "Block 4a"
 title: "Differential Equations and Dynamical Systems Bridge (MIT 18.03)"
+category: "core"
 term: "Year 1 Spring"
 status: not-started
+prerequisites:
+  - "Multivariable Calculus"
+  - "Linear Algebra"
 optional: true # computer-engineering path; excluded from the hour budget
 hours_estimate: 150
 hours_actual: 0
@@ -10,6 +14,7 @@ primary_resource: "William E. Boyce & Richard C. DiPrima, Elementary Differentia
 milestone: "All 10 MIT 18.03 problem sets solved; adaptive RKF45 dynamic simulation suite & chaos visualizer built from scratch; MIT 18.03 final exam passed ≥80%"
 date_started: ""
 date_completed: ""
+tier: "Tier 2 - Support"
 ---
 
 # Block 4a — Differential Equations and Dynamical Systems Bridge (MIT 18.03)
@@ -28,6 +33,9 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 2 - Support
+> **Tier 2 - Support**: Strongly recommended for full understanding.
+
 ## 🎯 Why This Block Matters
 
 In computer science, computation is almost universally conceptualized as a sequence of discrete state transitions executed on synchronous digital logic ([[Nand2Tetris]], [[Computer Systems]]). However, the physical reality in which computers operate—and the physical systems that software must model, predict, and control—is fundamentally continuous.
@@ -38,6 +46,12 @@ In computer science, computation is almost universally conceptualized as a seque
 4. **Nonlinear Dynamics, Chaos & Modern AI:** Real systems are non-linear. The study of phase portraits, fixed points, bifurcations, limit cycles, and chaos explains how simple deterministic rules produce unpredictable behavior (the butterfly effect). Furthermore, modern breakthroughs in generative AI—such as continuous-time **Neural Ordinary Differential Equations (Neural ODEs)** and score-based diffusion models—directly formulate deep neural representations as continuous dynamical systems.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Multivariable Calculus]]
+- [[Linear Algebra]]
+
 
 ## 📖 Primary Syllabus & Core Content
 
@@ -186,7 +200,7 @@ You must construct a high-performance numerical simulation suite and phase-space
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 
 > [!IMPORTANT]
 > A block is done when this condition is true. Not before.
@@ -219,6 +233,6 @@ You must construct a high-performance numerical simulation suite and phase-space
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Nand2Tetris|← 04 - Nand2Tetris]] | [[00 - Dashboard|Dashboard]] | [[SICP|05 - SICP →]]

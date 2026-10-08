@@ -1,14 +1,18 @@
 ---
 block_id: "Block 6"
 title: "C Fluency & Low-Level Problem Solving"
+category: "core"
 term: "Year 1 Spring"
 status: not-started
+prerequisites:
+  - "CS61A"
 hours_estimate: 110
 hours_actual: 0
 primary_resource: "Kernighan & Ritchie (K&R) & Zingaro, Algorithmic Thinking (Ch 1-5)"
 milestone: "Valgrind-clean builds & whiteboard explanation of pointer arithmetic, struct padding, stack frame"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # Block 6 — C Fluency & Low-Level Problem Solving
@@ -24,10 +28,18 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 Block 9 (CS:APP) assumes real C. Get it now before hitting hardware and systems.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[CS61A]]
+
 
 ## 📖 Primary Syllabus & Core Content
 - [ ] K&R The C Programming Language: Every single exercise
@@ -42,7 +54,7 @@ Build from scratch in C: a dynamic array (vector), an arena-based string library
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > Every build is completely valgrind-clean (zero leaks, zero errors) and you can explain pointer arithmetic, struct padding, and a stack frame on a whiteboard.
 
@@ -63,6 +75,6 @@ Build from scratch in C: a dynamic array (vector), an arena-based string library
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Languages Index|Languages Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[SICP|← 05 - SICP]] | [[00 - Dashboard|Dashboard]] | [[Multivariable Calculus|07 - Multivariable Calculus →]]

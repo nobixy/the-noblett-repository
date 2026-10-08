@@ -1,15 +1,13 @@
 ---
 track_id: "Track 10"
 title: "Quantum Information and Computing"
+category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites:
-  - "[[Physics II]]"
-  - "[[Linear Algebra]]"
-  - "[[Probability]]"
-  - "[[Theory of Computation]]"
+prerequisites: []
 target_profile: "Quantum Software Engineer, Quantum Algorithms Researcher, Quantum Information Scientist"
 aliases: [Track 10 - Quantum Information and Computing, Track 10 - Quantum Computing]
+tier: "Tier 3 - Depth"
 ---
 
 # Track 10: Quantum Information and Computing
@@ -30,6 +28,11 @@ Classical computational complexity is founded on the Church-Turing thesis: any p
 Shor's algorithm solves prime factorization and discrete logarithms in polynomial time $\mathcal{O}((\log N)^3)$, rendering classical RSA and elliptic-curve cryptography obsolete, while quantum simulation provides polynomial-time solutions to molecular Hamiltonian dynamics and condensed matter physics. However, building practical quantum systems requires bridging deep mathematical physics with concrete software engineering. This track equips students with the linear algebraic postulates of quantum mechanics, universal circuit synthesis, quantum phase estimation, stabilizer error-correcting codes (surface codes), minimum-weight matching decoders, and hybrid quantum-classical NISQ algorithm compilation using industry-standard toolchains (Qiskit, Cirq).
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 ## 📚 Core Courses
 
@@ -193,7 +196,11 @@ A complete software compilation and quantum algorithm pipeline that maps molecul
 
 ---
 
-## 🧭 Navigation & Degree Pathway
+## 🏁 Mastery Criteria & Assessments
+> [!IMPORTANT]
+> Assessment criteria go here.
+
+## ➡️ Next Steps & Degree Pathway
 - **Curriculum Hub:** [[Specializations Hub|Specializations Hub]]
 - **Degree Assignment:**
   - If chosen as **Primary Specialization (Track A)**: Course 1 binds to [[Specialization A1|Block 26 - Specialization A1]] and Course 2 binds to [[Specialization A2|Block 28 - Specialization A2]].

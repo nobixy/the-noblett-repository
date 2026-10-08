@@ -1,14 +1,18 @@
 ---
 block_id: "Block 32"
 title: "Information Theory, Inference, and Learning Algorithms"
+category: "core"
 term: "Year 5"
 status: not-started
+prerequisites:
+  - "Probability"
 hours_estimate: 120
 hours_actual: 0
 primary_resource: "David MacKay, Information Theory, Inference, and Learning Algorithms (free)"
 milestone: "Derive Shannon entropy, source coding, channel capacity, and error-correcting codes"
 date_started: ""
 date_completed: ""
+tier: "Tier 3 - Depth"
 ---
 
 # Block 32 — Information Theory, Inference, and Learning Algorithms
@@ -24,10 +28,18 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 3 - Depth
+> **Tier 3 - Depth**: Optional deep dive for specialized mastery.
+
 ## 🎯 Why This Block Matters
 Unifies information theory, statistics, coding theory, and machine learning into a single profound conceptual framework.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Probability]]
+
 
 ## 📖 Primary Syllabus & Core Content
 - [ ] Introduction to Information Theory: Shannon entropy, mutual information, Kullback-Leibler divergence
@@ -47,7 +59,7 @@ Implement an information theory and coding suite in `python` and `c++` using `nu
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > Read cover to cover (~4 hrs/wk reading) and solve key theoretical problems. Custom LDPC belief-propagation simulator passes test suites with zero block errors above channel threshold. Proofs below are derived and mastered.
 
@@ -68,6 +80,6 @@ Implement an information theory and coding suite in `python` and `c++` using `nu
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Specialization B2|← 31 - Specialization B2]] | [[00 - Dashboard|Dashboard]] | [[Projects Hub|Projects Hub →]]

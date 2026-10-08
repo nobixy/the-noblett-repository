@@ -1,14 +1,18 @@
 ---
 block_id: P3
 title: "Math Prerequisites"
+category: "core"
 term: "Phase 0 (0–5 mo)"
 status: not-started
+prerequisites:
+  - "Bedrock Mathematics"
 hours_estimate: 90
 hours_actual: 0
 primary_resource: "Khan Academy -> Velleman, How to Prove It (ch 1-3)"
 milestone: "Cold exit test passed; induction & contradiction proofs written"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # P3 — Math Prerequisites
@@ -23,6 +27,9 @@ date_completed: ""
 > - **Transition Guide:** Lara Alcock, *How to Study as a Mathematics Major* (Ch 1–4)
 
 ---
+
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
 
 ## 🎯 Why This Block Matters
 Mathematics in EECS is not calculation; it is proof and structure. Before starting calculus and discrete math, you must transition from manipulative algebra to formal reasoning.
@@ -39,6 +46,11 @@ Mathematics in EECS is not calculation; it is proof and structure. Before starti
 
 ---
 
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Bedrock Mathematics]]
+
+
 ## 📖 Primary Syllabus
 - [ ] Khan Academy Algebra II, Precalculus, Trigonometry (refresh weak spots).
 - [ ] **Velleman, *How to Prove It***:
@@ -54,7 +66,7 @@ Write rigorous, complete formal solutions to all Velleman Chapters 1–3 exercis
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > The cold exit test passes and you can write a clean induction proof and a clean contradiction proof from scratch on paper without notes.
 
@@ -73,3 +85,9 @@ Write rigorous, complete formal solutions to all Velleman Chapters 1–3 exercis
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - Richard Hammack, *Book of Proof* (free PDF)
 - Paul Lockhart, *A Mathematician's Lament* (free essay)
+
+---
+
+## ➡️ Next Steps
+*Why does the next subject come next?*
+- [[Next Block]]

@@ -1,14 +1,19 @@
 ---
 block_id: "Block 12"
 title: "Interpreters and Language Runtimes"
+category: "core"
 term: "Year 2 January Intensive"
 status: not-started
+prerequisites:
+  - "Software Construction"
+  - "Computer Systems"
 hours_estimate: 130
 hours_actual: 0
 primary_resource: "Ball, Writing an Interpreter in Go & Nystrom, Crafting Interpreters (Part III)"
 milestone: "clox bytecode VM with garbage collection passes book's full test suite"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # Block 12 — Interpreters and Language Runtimes
@@ -24,10 +29,19 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 Build two complete programming language implementations — one tree-walking interpreter, one high-performance bytecode VM.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Software Construction]]
+- [[Computer Systems]]
+
 
 ## 📖 Primary Syllabus & Core Content
 - [ ] Thorsten Ball, Writing an Interpreter in Go: Lexing, Pratt parsing, AST evaluation, environment, closures
@@ -40,7 +54,7 @@ Build two complete programming language implementations — one tree-walking int
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > `clox` passes the book's full test suite cleanly.
 
@@ -61,6 +75,6 @@ Build two complete programming language implementations — one tree-walking int
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Languages Index|Languages Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Linear Algebra|← 11 - Linear Algebra]] | [[00 - Dashboard|Dashboard]] | [[Algorithms I|13 - Algorithms I →]]

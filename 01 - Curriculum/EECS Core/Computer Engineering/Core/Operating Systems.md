@@ -1,14 +1,18 @@
 ---
 block_id: "Block 16"
 title: "Operating Systems (MIT 6.1810 & OSTEP)"
+category: "core"
 term: "Year 3 Fall"
 status: not-started
+prerequisites:
+  - "Computer Systems"
 hours_estimate: 200
 hours_actual: 0
 primary_resource: "MIT 6.1810 (pdos.csail.mit.edu/6.1810) & Arpaci-Dusseau (OSTEP)"
 milestone: "All xv6 labs pass make grade + minimal kernel boots on QEMU"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # Block 16 — Operating Systems (MIT 6.1810 & OSTEP)
@@ -24,10 +28,18 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 The kernel is the ultimate low-level abstraction manager: virtual memory, traps, scheduling, locks, and file systems.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Computer Systems]]
+
 
 ## 📖 Primary Syllabus & Core Content
 - [ ] Prep: Reread Ward, How Linux Works — all of it, fast
@@ -42,7 +54,7 @@ Complete every single MIT 6.1810 xv6 lab in `c` using `gcc`, debugged with `gdb`
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > All xv6 labs pass with full points on `make grade`, and your custom minimal kernel boots on QEMU and schedules two processes.
 
@@ -63,7 +75,7 @@ Complete every single MIT 6.1810 xv6 lab in `c` using `gcc`, debugged with `gdb`
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]]
 - **Milestone Checklist:** [[Checklist|Checklist]]
 - **Sequential Block Navigation:**

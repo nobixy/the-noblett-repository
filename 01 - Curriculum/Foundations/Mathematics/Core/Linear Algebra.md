@@ -1,14 +1,18 @@
 ---
 block_id: "Block 11"
 title: "Linear Algebra (MIT 18.06 & Axler LADR)"
+category: "core"
 term: "Year 2 Fall"
 status: not-started
+prerequisites:
+  - "Multivariable Calculus"
 hours_estimate: 200
 hours_actual: 0
 primary_resource: "MIT 18.06 (Gilbert Strang) + Axler, Linear Algebra Done Right, 4e"
 milestone: "18.06 final passed, Axler ch 1–5 exercises done, NumPy matrix algorithms built"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # Block 11 — Linear Algebra (MIT 18.06 & Axler LADR)
@@ -24,8 +28,16 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 The most important mathematics for CS, taken twice on purpose: once computationally with Strang, once abstractly with Axler.
+
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Multivariable Calculus]]
 
 ---
 
@@ -40,7 +52,7 @@ Build from scratch in `python` using `numpy`: LU factorization with partial pivo
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > 18.06 final passed and Axler chapters 1–5 exercises completed.
 
@@ -61,6 +73,6 @@ Build from scratch in `python` using `numpy`: LU factorization with partial pivo
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Math for CS|← 10 - Math for CS]] | [[00 - Dashboard|Dashboard]] | [[Interpreters|12 - Interpreters →]]

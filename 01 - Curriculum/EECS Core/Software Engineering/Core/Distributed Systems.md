@@ -1,14 +1,19 @@
 ---
 block_id: "Block 23"
 title: "Distributed Systems (MIT 6.5840 / 6.824)"
+category: "core"
 term: "Year 4 Fall"
 status: not-started
+prerequisites:
+  - "Databases"
+  - "Networking"
 hours_estimate: 220
 hours_actual: 0
 primary_resource: "MIT 6.5840 (Robert Morris) & Martin Kleppmann Cambridge Lectures"
 milestone: "All Go labs pass 500 consecutive runs under go test -race"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # Block 23 — Distributed Systems (MIT 6.5840 / 6.824)
@@ -24,10 +29,19 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 How multiple computers collaborate, achieve consensus, and survive arbitrary machine failures and network partitions.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Databases]]
+- [[Networking]]
+
 
 ## 📖 Primary Syllabus & Core Content
 - [ ] RPC, threads, concurrency, and event-driven architecture
@@ -49,7 +63,7 @@ Complete the MIT 6.5840 / 6.824 distributed systems laboratory suite in `go` orc
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > All labs pass 500 consecutive test runs without a single failure or race condition under `go test -race`. Proofs below are mastered and verified against the implementation state machine.
 
@@ -70,6 +84,6 @@ Complete the MIT 6.5840 / 6.824 distributed systems laboratory suite in `go` orc
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Statistics|← 22 - Statistics]] | [[00 - Dashboard|Dashboard]] | [[Theory of Computation|24 - Theory of Computation →]]

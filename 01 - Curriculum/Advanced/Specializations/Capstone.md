@@ -1,14 +1,17 @@
 ---
 block_id: "Block 30"
 title: "Capstone Project & Thesis (MEng Year)"
+category: "advanced"
 term: "Year 5 (Two Semesters)"
 status: not-started
+prerequisites: []
 hours_estimate: 400
 hours_actual: 0
 primary_resource: "Primary Engineering / Research project"
 milestone: "Public Artifact + 15k-25k word Thesis + 30-min Talk + Outside Review"
 date_started: ""
 date_completed: ""
+tier: "Tier 3 - Depth"
 ---
 
 # Block 30 — Capstone Project & Thesis (MEng Year)
@@ -28,6 +31,11 @@ date_completed: ""
 What makes the program MEng-equivalent rather than SB-equivalent: producing novel, production-grade engineering or research.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 ## 📖 Primary Syllabus & Core Content
 - [ ] Select one of the 4 paths:
@@ -55,7 +63,7 @@ Deliver a complete, production-grade engineering artifact developed in `c`, `c++
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > Deliverables completed: (1) Public artifact with documentation; (2) 15,000–25,000-word written thesis; (3) 30-minute recorded technical presentation; (4) Written feedback from at least one external expert reviewer; (5) Mandatory HCI usability testing, cognitive walkthrough, and WCAG accessibility compliance verification completed and documented.
 
@@ -76,6 +84,6 @@ Deliver a complete, production-grade engineering artifact developed in `c`, `c++
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Projects Hub|Projects Hub]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Specialization B1|← 29 - Specialization B1]] | [[00 - Dashboard|Dashboard]] | [[Specialization B2|31 - Specialization B2 →]]

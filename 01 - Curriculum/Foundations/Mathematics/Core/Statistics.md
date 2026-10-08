@@ -1,14 +1,19 @@
 ---
 block_id: "Block 22"
 title: "Statistical Inference & Modeling"
+category: "core"
 term: "Year 3 Spring"
 status: not-started
+prerequisites:
+  - "Probability"
+  - "Linear Algebra"
 hours_estimate: 150
 hours_actual: 0
 primary_resource: "Larry Wasserman, All of Statistics & McElreath, Statistical Rethinking"
 milestone: "Derive MLE, CI, hypothesis tests, and Bayesian MCMC models on real data"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # Block 22 — Statistical Inference & Modeling
@@ -24,10 +29,19 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 Provides the rigorous theoretical grounding for modern data analysis, machine learning loss functions, uncertainty quantification, and experimental evaluation.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Probability]]
+- [[Linear Algebra]]
+
 
 ## 📖 Primary Syllabus & Core Content
 - [ ] Wasserman Chapters 1–13: Probability foundations, convergence of random variables, CDFs
@@ -48,7 +62,7 @@ Implement a complete statistical inference and modeling testbench in `python` us
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > On a real dataset, you can execute MLE, confidence intervals, hypothesis tests, and Bayesian inference with MCMC, and explain when each is the wrong tool. All proofs below are independently derived and coded in `python`.
 
@@ -69,6 +83,6 @@ Implement a complete statistical inference and modeling testbench in `python` us
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Databases|← 21 - Databases]] | [[00 - Dashboard|Dashboard]] | [[Distributed Systems|23 - Distributed Systems →]]

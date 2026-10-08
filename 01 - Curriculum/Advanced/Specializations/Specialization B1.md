@@ -1,14 +1,17 @@
 ---
 block_id: "Block 29"
 title: "Specialization Track B — Course 1"
+category: "advanced"
 term: "Year 4 Spring"
 status: not-started
+prerequisites: []
 hours_estimate: 170
 hours_actual: 0
 primary_resource: "Selected from Track B (see Specializations folder)"
 milestone: "Track B Course 1 completed with project"
 date_started: ""
 date_completed: ""
+tier: "Tier 3 - Depth"
 ---
 
 # Block 29 — Specialization Track B — Course 1
@@ -28,6 +31,11 @@ date_completed: ""
 Block 29 initiates your secondary specialization (**Track B**), chosen from the 11 EECS specialization tracks to complement Track A (*"Two deep beats six shallow"*). While Track A provides deep focus, Track B creates a cross-disciplinary orthogonal advantage (e.g., combining Systems + Rust, AI + TinyML, or Theory + Quantum).
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 ## 📖 Primary Syllabus & Core Content
 
@@ -59,7 +67,7 @@ Complete the Course 1 laboratory sequence for Track B utilizing concrete enginee
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > Course assignments, laboratory milestones, and final evaluations for Track B Course 1 are completed with all unit tests passing.
 
@@ -77,6 +85,6 @@ Complete the Course 1 laboratory sequence for Track B utilizing concrete enginee
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Specializations Hub|Specializations Hub]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Specialization A2|← 28 - Specialization A2]] | [[00 - Dashboard|Dashboard]] | [[Capstone|30 - Capstone →]]

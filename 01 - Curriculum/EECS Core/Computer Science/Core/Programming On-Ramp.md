@@ -1,14 +1,17 @@
 ---
 block_id: P4
 title: "Programming On-Ramp"
+category: "core"
 term: "Phase 0 (0–5 mo)"
 status: not-started
+prerequisites: []
 hours_estimate: 125
 hours_actual: 0
 primary_resource: "Harvard CS50x"
 milestone: "Valgrind-clean 300-line C program, Hash Table & BST from scratch"
 date_started: ""
 date_completed: ""
+tier: "Tier 2 - Support"
 ---
 
 # P4 — Programming On-Ramp
@@ -20,6 +23,9 @@ date_completed: ""
 > - **Primary Course:** Harvard CS50x (`cs50.harvard.edu/x`)
 
 ---
+
+## 📚 Curriculum Tier: Tier 2 - Support
+> **Tier 2 - Support**: Strongly recommended for full understanding.
 
 ## 🎯 Why This Block Matters
 Before diving into Berkeley CS61A, you need fundamental operational competence with memory, pointers, data structures, and debugging.
@@ -33,6 +39,11 @@ Before diving into Berkeley CS61A, you need fundamental operational competence w
 *(Can pass → skip to P5!)*
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 ## 📖 Primary Syllabus
 - [ ] Harvard CS50x (2026 edition):
@@ -57,7 +68,7 @@ Implement a 300-line modular data structure library in `c` (hash table with sepa
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > The cold exit test passes cleanly under `valgrind`.
 
@@ -76,3 +87,9 @@ Implement a 300-line modular data structure library in `c` (hash table with sepa
 *Only consult if primary genuinely isn't working after two honest weeks:*
 - King, *C Programming: A Modern Approach, 2nd ed.*
 - University of Helsinki, *Python Programming MOOC*
+
+---
+
+## ➡️ Next Steps
+*Why does the next subject come next?*
+- [[Next Block]]

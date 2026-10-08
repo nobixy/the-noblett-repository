@@ -1,16 +1,13 @@
 ---
 track_id: "Track 4"
 title: "Graphics and Vision"
+category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites:
-  - "[[C Fluency]]"
-  - "[[Multivariable Calculus]]"
-  - "[[Physics II]]"
-  - "[[Linear Algebra]]"
-  - "[[Algorithms I]]"
+prerequisites: []
 target_profile: "Computer Graphics Engineer, Rendering Pipeline Architect, Computer Vision Scientist"
 aliases: [Track 4 - Graphics and Vision, Track 4 - Computer Graphics and Vision]
+tier: "Tier 3 - Depth"
 ---
 
 # Track 4: Graphics and Vision
@@ -31,6 +28,11 @@ Visual computing is one of the most computationally demanding and mathematically
 This track guides students through the complete continuum of visual computing: from the mathematical foundations of affine projective geometry and hardware rasterization to physically based light transport (the Rendering Equation), microfacet reflection models, Monte Carlo path tracing, modern explicit GPU APIs (Vulkan, WebGPU), and modern differentiable neural radiance representations (NeRF, 3D Gaussian Splatting).
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 ## 📚 Core Courses
 
@@ -190,7 +192,11 @@ An industrial-grade physically based offline path tracer written in modern C++ (
 
 ---
 
-## 🧭 Navigation & Degree Pathway
+## 🏁 Mastery Criteria & Assessments
+> [!IMPORTANT]
+> Assessment criteria go here.
+
+## ➡️ Next Steps & Degree Pathway
 - **Curriculum Hub:** [[Specializations Hub|Specializations Hub]]
 - **Degree Assignment:**
   - If chosen as **Primary Specialization (Track A)**: Course 1 binds to [[Specialization A1|Block 26 - Specialization A1]] and Course 2 binds to [[Specialization A2|Block 28 - Specialization A2]].

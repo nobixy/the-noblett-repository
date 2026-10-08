@@ -3,48 +3,150 @@
 
 ---
 
-## 📚 Currently Owned Books (✓ On Your Shelf)
+## 📚 Mapped Book Inventory
 
-| Status | Book | Primary Usage | How It's Used |
-| :---: | :--- | :--- | :--- |
-| 🔥 **ACTIVE NOW** | **Lockhart**, *Arithmetic* | [[Bedrock Mathematics|Phase -1 Bedrock Math]] | Rebuilding numbers, counting, place value, fractions, and operations from first principles. |
-| 📖 **UP NEXT** | **Oakley**, *A Mind for Numbers* | [[Learning How to Learn|P1]] | Primary text for learning how to learn. Read before anything else in Phase 0. |
-| ✅ | **Velleman**, *How to Prove It* | [[Math Prerequisites|P3]], then [[Math for CS|Block 10]] | Proof-writing primary. Ch 1–3 in Phase 0; Ch 4–7 during Math for CS. |
-| ✅ | **Ward**, *How Linux Works, 3e* | [[Tooling|P5]], [[C Fluency|Block 6]], reread before [[Operating Systems|Block 16]] | Ch 1–7 with Missing Semester; 8–17 during C; reread entirely before OS. |
-| ✅ | **Courant & Robbins**, *What Is Mathematics?* | Year 1 companion | One chapter every two weeks: 1–2 in fall, 6–8 in spring, 3–5 with Block 10. |
-| ✅ | **Strogatz**, *The Joy of X* | Bedrock & Year 1 pleasure reading | Evenings to keep mathematics intuitive and engaging. |
-| ✅ | **Ellenberg**, *Shape* | Bedrock & Year 1 pleasure reading | Evenings geometric thinking. |
-| ✅ | **Feynman**, *Six Easy Pieces* | [[Physics I|Block 3]] | Companion to Physics I (read matching chapter before each unit). |
-| ✅ | **Justice**, *How Computers Really Work* | Dec of Year 1 | Hardware half right before Nand2Tetris. |
-| ✅ | **Kernighan & Ritchie**, *The C Programming Language* | [[C Fluency|Block 6]] | Primary text. Every single exercise. |
-| ✅ | **Zingaro**, *Algorithmic Thinking, 2e* | [[C Fluency|Block 6]] → [[Algorithms I|Block 13]] | First half as C practice; second half as algorithms practice. |
-| ✅ | **Bryant & O'Hallaron**, *CS:APP, 3e* | [[Computer Systems|Block 9]] | Primary text. *"The most important book you own."* |
-| ✅ | **Ball**, *Writing an Interpreter in Go* | [[Interpreters|Block 12]] | Replaces first half of Crafting Interpreters (Monkey tree-walker). |
-| ✅ | **Christian & Griffiths**, *Algorithms to Live By* | [[Algorithms I|Block 13]] | Pleasure reading during Algorithms I. |
-| ✅ | **Hopcroft, Motwani & Ullman**, *Automata Theory* | [[Theory of Computation|Block 24]] | Primary for Theory of Computation (Sipser is the gentler fallback). |
-| ✅ | **Weir, Brown, Yarros** novels | Habit 5 | Nightly pleasure reading (engineering-as-narrative). |
+### Mathematics & Foundations
+
+**Arithmetic** (Paul Lockhart)
+- **Subject:** Arithmetic Foundations
+- **Difficulty:** Beginner / Conceptual
+- **Prerequisites:** None
+- **Best Time to Read:** Phase 1
+- **Course It Supports:** [[Bedrock Mathematics]]
+- **Role:** Core (Tier 1)
+
+**A Mind for Numbers** (Barbara Oakley)
+- **Subject:** Meta-Learning
+- **Difficulty:** Beginner
+- **Prerequisites:** None
+- **Best Time to Read:** Phase 0
+- **Course It Supports:** [[Learning How to Learn]]
+- **Role:** Core (Tier 1)
+
+**How to Prove It** (Daniel J. Velleman)
+- **Subject:** Discrete Math & Proofs
+- **Difficulty:** Intermediate
+- **Prerequisites:** [[Bedrock Mathematics]]
+- **Best Time to Read:** Phase 1 (Ch 1-3), Phase 4 (Ch 4-7)
+- **Course It Supports:** [[Math Prerequisites]], [[Math for CS]]
+- **Role:** Core (Tier 1)
+
+**What Is Mathematics?** (Richard Courant & Herbert Robbins)
+- **Subject:** General Mathematics
+- **Difficulty:** Advanced / Broad
+- **Prerequisites:** High School Math
+- **Best Time to Read:** Ongoing (Evening Reading)
+- **Course It Supports:** Mathematical Maturity
+- **Role:** Enrichment (Tier 5)
+
+**The Joy of X** (Steven Strogatz)
+- **Subject:** Math Intuition
+- **Difficulty:** Beginner
+- **Prerequisites:** None
+- **Best Time to Read:** Ongoing
+- **Course It Supports:** Mathematical Intuition
+- **Role:** Enrichment (Tier 5)
+
+**Shape** (Jordan Ellenberg)
+- **Subject:** Geometry & Mathematical Thinking
+- **Difficulty:** Beginner / Intermediate
+- **Prerequisites:** None
+- **Best Time to Read:** Ongoing
+- **Course It Supports:** Mathematical Intuition
+- **Role:** Enrichment (Tier 5)
+
+### Computer Science & Engineering
+
+**The C Programming Language** (Kernighan & Ritchie)
+- **Subject:** C & Memory
+- **Difficulty:** Intermediate
+- **Prerequisites:** [[CS61A]]
+- **Best Time to Read:** Phase 2
+- **Course It Supports:** [[C Fluency]]
+- **Role:** Core (Tier 1)
+
+**Algorithmic Thinking, 2e** (Daniel Zingaro)
+- **Subject:** Algorithms in C
+- **Difficulty:** Intermediate
+- **Prerequisites:** [[CS61A]]
+- **Best Time to Read:** Phase 2
+- **Course It Supports:** [[C Fluency]], [[Algorithms I]]
+- **Role:** Core (Tier 1)
+
+**Computer Systems: A Programmer's Perspective (CS:APP)** (Bryant & O'Hallaron)
+- **Subject:** Systems Architecture
+- **Difficulty:** Advanced
+- **Prerequisites:** [[C Fluency]], [[Nand2Tetris]]
+- **Best Time to Read:** Phase 3
+- **Course It Supports:** [[Computer Systems]]
+- **Role:** Core (Tier 1)
+
+**Writing an Interpreter in Go** (Thorsten Ball)
+- **Subject:** Compilers / Interpreters
+- **Difficulty:** Intermediate
+- **Prerequisites:** [[Software Construction]]
+- **Best Time to Read:** Phase 7
+- **Course It Supports:** [[Interpreters]]
+- **Role:** Core (Tier 1)
+
+**Automata Theory, Languages, and Computation** (Hopcroft, Motwani & Ullman)
+- **Subject:** Theoretical Computer Science
+- **Difficulty:** Advanced
+- **Prerequisites:** [[Math for CS]], [[Algorithms I]]
+- **Best Time to Read:** Phase 7
+- **Course It Supports:** [[Theory of Computation]]
+- **Role:** Core (Tier 1)
+
+**How Computers Really Work** (Matthew Justice)
+- **Subject:** Basic Computer Architecture
+- **Difficulty:** Beginner
+- **Prerequisites:** None
+- **Best Time to Read:** Before Phase 3
+- **Course It Supports:** [[Nand2Tetris]]
+- **Role:** Support (Tier 2)
+
+**Algorithms to Live By** (Christian & Griffiths)
+- **Subject:** Popular Computer Science
+- **Difficulty:** Beginner
+- **Prerequisites:** None
+- **Best Time to Read:** Phase 4
+- **Course It Supports:** [[Algorithms I]]
+- **Role:** Enrichment (Tier 5)
+
+### Systems & Physics
+
+**How Linux Works, 3e** (Brian Ward)
+- **Subject:** Linux Operating System
+- **Difficulty:** Intermediate
+- **Prerequisites:** None
+- **Best Time to Read:** Phase 0 (Ch 1-7), Phase 3 (Ch 8-17)
+- **Course It Supports:** [[Tooling]], [[Operating Systems]]
+- **Role:** Core (Tier 1)
+
+**Six Easy Pieces** (Richard Feynman)
+- **Subject:** Physics (Mechanics)
+- **Difficulty:** Intermediate
+- **Prerequisites:** [[Calculus I]]
+- **Best Time to Read:** Phase 8
+- **Course It Supports:** [[Physics I]]
+- **Role:** Support (Tier 2)
 
 ---
 
-## 🛒 Books to Acquire Next (In Order of Need)
+## 🛒 Books to Acquire Next (Aligned to Canonical Path)
 
-### Phase -1 & Phase 0 Priority (Buy used or borrow from library)
-- [ ] **Huddleston & Pullum**, *A Student's Introduction to English Grammar* — Needed for [[Bedrock English and Grammar|BW Bedrock English]]
-- [ ] **Williams & Bizup**, *Style: Lessons in Clarity and Grace* (or *Toward Clarity and Grace*) — Needed for [[Bedrock English and Grammar|BW Bedrock English]]
-- [ ] **Brown, Roediger & McDaniel**, *Make It Stick* — Needed in [[Learning How to Learn|P1]]
-- [ ] **Adler & Van Doren**, *How to Read a Book* — Needed in [[Reading, Thinking, and Writing|P2]]
-- [ ] **Pólya**, *How to Solve It* — Needed in [[Reading, Thinking, and Writing|P2]]
-- [ ] **Hermans**, *The Programmer's Brain* — Needed in [[Reading, Thinking, and Writing|P2]]
+### Phase 0 Priority
+- [ ] **Huddleston & Pullum**, *A Student's Introduction to English Grammar* (For [[Bedrock English and Grammar]])
+- [ ] **Williams & Bizup**, *Style: Lessons in Clarity and Grace* (For [[Reading, Thinking, and Writing]])
+- [ ] **Brown, Roediger & McDaniel**, *Make It Stick* (For [[Learning How to Learn]])
 
-### Year 1 Priority
-- [ ] **Nisan & Schocken**, *The Elements of Computing Systems, 2e* — Y1 Jan (site is free; physical book worth having)
-- [ ] **Pinker**, *The Sense of Style* — Y1 Spring
+### Phase 2 & 3 Priority
+- [ ] **Nisan & Schocken**, *The Elements of Computing Systems, 2e* (For [[Nand2Tetris]])
+- [ ] **Pinker**, *The Sense of Style* (For continuous writing improvement)
 
-### Year 2 Onward Priority
-- [ ] **Cormen, Leiserson, Rivest, Stein (CLRS)**, *Introduction to Algorithms, 4e* — Y2 Spring
-- [ ] **Harris & Harris**, *Digital Design and Computer Architecture, RISC-V Edition* — Y2 Spring
-- [ ] **Ousterhout**, *A Philosophy of Software Design, 2nd ed.* — Y3 Fall
-- [ ] **Abbott**, *Understanding Analysis* — Y3 Fall
-- [ ] **Kleinberg & Tardos**, *Algorithm Design* — Y3 Spring
-- [ ] **Kleppmann**, *Designing Data-Intensive Applications* — Y3 Spring
-- [ ] **Sipser**, *Introduction to the Theory of Computation, 3e* — Y4 Fall (only if HMU proves too dense)
+### Phase 4+ Priority
+- [ ] **Cormen, Leiserson, Rivest, Stein (CLRS)**, *Introduction to Algorithms, 4e* (For [[Algorithms I]])
+- [ ] **Kleppmann**, *Designing Data-Intensive Applications* (For [[Databases]] and [[Distributed Systems]])
+- [ ] **Ousterhout**, *A Philosophy of Software Design, 2nd ed.* (For [[Software Construction]])
+- [ ] **Kleinberg & Tardos**, *Algorithm Design* (For [[Algorithms II]])
+- [ ] **Sipser**, *Introduction to the Theory of Computation, 3e* (As fallback for HMU in [[Theory of Computation]])

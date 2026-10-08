@@ -1,14 +1,17 @@
 ---
 block_id: P1
 title: "Learning How to Learn"
+category: "core"
 term: "Phase 0 (0–5 mo)"
 status: in-progress
+prerequisites: []
 hours_estimate: 30
 hours_actual: 0
 primary_resource: "Oakley, A Mind for Numbers + Coursera Learning How to Learn"
 milestone: "Study system written in how-i-study.md & weekly template created"
 date_started: "2026-09-25"
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # P1 — Learning How to Learn
@@ -22,10 +25,18 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 Everything downstream assumes you know how memory, practice, and attention actually work. Most people don't, and they study in ways that feel productive and aren't. Two weeks here saves months later.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 ## 📖 Primary Syllabus & Actions
 - [ ] **Oakley, *A Mind for Numbers***: Read cover to cover.
@@ -47,7 +58,7 @@ Everything downstream assumes you know how memory, practice, and attention actua
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > - [ ] You can explain, without notes:
 >   - Retrieval practice
@@ -75,3 +86,9 @@ Everything downstream assumes you know how memory, practice, and attention actua
 - Ericsson & Pool, *Peak* (deliberate practice)
 - Cal Newport, *How to Become a Straight-A Student* (tactics)
 - Andy Matuschak, "Why Books Don't Work" (free essay)
+
+---
+
+## ➡️ Next Steps
+*Why does the next subject come next?*
+- [[Next Block]]

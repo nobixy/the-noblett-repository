@@ -1,17 +1,13 @@
 ---
 track_id: "Track 11"
 title: "Autonomous Robotics and Cyber-Physical Systems"
+category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites:
-  - "[[Differential Equations Bridge]]"
-  - "[[Multivariable Calculus]]"
-  - "[[Computer Systems]]"
-  - "[[Linear Algebra]]"
-  - "[[Probability]]"
-  - "[[Signals and Systems Bridge]]"
+prerequisites: []
 target_profile: "Autonomous Systems Engineer, Robotics Software Architect, SLAM & Motion Planning Specialist"
 aliases: [Track 11 - Autonomous Robotics and Cyber-Physical Systems, Track 11 - Autonomous Robotics and CPS]
+tier: "Tier 3 - Depth"
 ---
 
 # Track 11: Autonomous Robotics and Cyber-Physical Systems
@@ -32,6 +28,11 @@ Autonomous robotics represents the ultimate synthesis of cyber-physical engineer
 Building these systems requires far more than assembling pre-built ROS packages. High-assurance robotics engineering requires deep mathematical mastery of non-linear state estimation (Extended Kalman Filters, Lie group geometry $SE(3)$, factor graph optimization), spatial perception (point cloud processing, Visual-Inertial Odometry), sampling-based and trajectory optimization algorithms (RRT*, direct collocation, Model Predictive Control), and distributed real-time publish-subscribe architectures (ROS 2, DDS).
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 ## 📚 Core Courses
 
@@ -192,7 +193,11 @@ A complete, production-grade autonomous navigation, frontier exploration, and ob
 
 ---
 
-## 🧭 Navigation & Degree Pathway
+## 🏁 Mastery Criteria & Assessments
+> [!IMPORTANT]
+> Assessment criteria go here.
+
+## ➡️ Next Steps & Degree Pathway
 - **Curriculum Hub:** [[Specializations Hub|Specializations Hub]]
 - **Degree Assignment:**
   - If chosen as **Primary Specialization (Track A)**: Course 1 binds to [[Specialization A1|Block 26 - Specialization A1]] and Course 2 binds to [[Specialization A2|Block 28 - Specialization A2]].

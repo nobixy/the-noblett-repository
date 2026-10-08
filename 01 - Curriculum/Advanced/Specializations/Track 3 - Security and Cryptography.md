@@ -1,17 +1,13 @@
 ---
 track_id: "Track 3"
 title: "Security and Cryptography"
+category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites:
-  - "[[C Fluency]]"
-  - "[[Computer Systems]]"
-  - "[[Math for CS]]"
-  - "[[Operating Systems]]"
-  - "[[Networking]]"
-  - "[[Intensive Cryptopals or TLA+]]"
+prerequisites: []
 target_profile: "Cryptographic Engineer, Security Researcher, Binary Exploitation Specialist, High-Assurance Systems Auditor"
 aliases: [Track 3 - Security and Cryptography, Track 3 - Cryptography and Systems Security]
+tier: "Tier 3 - Depth"
 ---
 
 # Track 3: Security and Cryptography
@@ -32,6 +28,11 @@ Security is not a feature that can be bolted onto software post-hoc; it is an ad
 This track bridges rigorous mathematical cryptography (provable security reductions, game-hopping proofs, lattice-based post-quantum cryptography, and zero-knowledge proof systems) with low-level systems vulnerability exploitation (binary analysis, Return-Oriented Programming, heap layout manipulation, kernel exploitation, and timing side-channel attacks). Students develop the adversarial mindset and engineering rigor needed to design, implement, and formally audit cryptographic systems that withstand attack by sophisticated adversaries.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 ## 📚 Core Courses
 
@@ -187,7 +188,11 @@ A secure, multi-party end-to-end encrypted messaging engine written in Rust or C
 
 ---
 
-## 🧭 Navigation & Degree Pathway
+## 🏁 Mastery Criteria & Assessments
+> [!IMPORTANT]
+> Assessment criteria go here.
+
+## ➡️ Next Steps & Degree Pathway
 - **Curriculum Hub:** [[Specializations Hub|Specializations Hub]]
 - **Degree Assignment:**
   - If chosen as **Primary Specialization (Track A)**: Course 1 binds to [[Specialization A1|Block 26 - Specialization A1]] and Course 2 binds to [[Specialization A2|Block 28 - Specialization A2]].

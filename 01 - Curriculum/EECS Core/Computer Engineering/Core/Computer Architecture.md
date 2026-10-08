@@ -1,14 +1,18 @@
 ---
 block_id: "Block 14"
 title: "Computer Architecture & Digital Design"
+category: "core"
 term: "Year 2 Spring"
 status: not-started
+prerequisites:
+  - "Computer Systems"
 hours_estimate: 200
 hours_actual: 0
 primary_resource: "Onur Mutlu, DDCA (ETH Zürich) & Harris & Harris RISC-V Edition"
 milestone: "Pipelined RISC-V core in Verilog runs compiled C program"
 date_started: ""
 date_completed: ""
+tier: "Tier 2 - Support"
 ---
 
 # Block 14 — Computer Architecture & Digital Design
@@ -24,10 +28,18 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 2 - Support
+> **Tier 2 - Support**: Strongly recommended for full understanding.
+
 ## 🎯 Why This Block Matters
 How the CPU actually executes instructions at the gate and pipeline level. The foundation for hardware systems engineering.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Computer Systems]]
+
 
 ## 📖 Primary Syllabus & Core Content
 - [ ] Combinational and sequential logic design in SystemVerilog/Verilog
@@ -45,7 +57,7 @@ Build a 5-stage pipelined RISC-V processor core in Verilog with hazard detection
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > Your hardware CPU executes a real C program compiled with `riscv64-unknown-elf-gcc`.
 
@@ -66,6 +78,6 @@ Build a 5-stage pipelined RISC-V processor core in Verilog with hazard detection
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Hardware Index|Hardware Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Algorithms I|← 13 - Algorithms I]] | [[00 - Dashboard|Dashboard]] | [[Probability|15 - Probability →]]

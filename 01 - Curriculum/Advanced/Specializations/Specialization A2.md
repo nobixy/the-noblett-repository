@@ -1,14 +1,17 @@
 ---
 block_id: "Block 28"
 title: "Specialization Track A — Course 2"
+category: "advanced"
 term: "Year 4 Spring"
 status: not-started
+prerequisites: []
 hours_estimate: 180
 hours_actual: 0
 primary_resource: "Selected from Track A (see Specializations folder)"
 milestone: "Track A Course 2 completed with build deliverable"
 date_started: ""
 date_completed: ""
+tier: "Tier 3 - Depth"
 ---
 
 # Block 28 — Specialization Track A — Course 2
@@ -28,6 +31,11 @@ date_completed: ""
 Block 28 constitutes Course 2 of your primary specialization (**Track A**) and the execution of its major capstone engineering build. Here, theoretical principles crystallized in Block 26 are synthesized into a production-grade, end-to-end engineering system evaluated against rigorous, measurable industry benchmarks.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 ## 📖 Primary Syllabus & Core Content
 
@@ -58,7 +66,7 @@ Construct and deliver the complete **Track A Capstone Build Deliverable** specif
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > The Track A Capstone Build Deliverable is completely implemented, benchmarked, and passes all quantitative acceptance criteria (e.g., latency $< 30\text{ ms}$, throughput $> 100\text{ tokens/s}$, zero data races under ThreadSanitizer).
 
@@ -76,6 +84,6 @@ Construct and deliver the complete **Track A Capstone Build Deliverable** specif
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Specializations Hub|Specializations Hub]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Intensive Cryptopals or TLA+|← 27 - Intensive Cryptopals or TLA+]] | [[00 - Dashboard|Dashboard]] | [[Specialization B1|29 - Specialization B1 →]]

@@ -1,14 +1,17 @@
 ---
 block_id: "BM"
 title: "Bedrock Mathematics: Arithmetic from First Principles"
+category: "core"
 term: "Phase -1 (Bedrock Foundation)"
 status: in-progress
+prerequisites: []
 hours_estimate: 60
 hours_actual: 0
 primary_resource: "Paul Lockhart, Arithmetic (Owned) & Khan Academy (Pre-Algebra -> Algebra I)"
 milestone: "Complete conceptual mastery of arithmetic, fractions, negative numbers, and early algebra"
 date_started: "2026-09-25"
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # BM — Bedrock Mathematics: Arithmetic from First Principles
@@ -21,6 +24,11 @@ Most people believe they are "bad at math" because they were taught arithmetic a
 Here, you start from absolute zero—not as a child memorizing flashcards, but as a philosopher examining **why** numbers behave as they do.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 ## 📖 Primary Resources & Texts
 1. **Paul Lockhart, *Arithmetic*** (✅ Already on your shelf!):
@@ -84,8 +92,14 @@ Here, you start from absolute zero—not as a child memorizing flashcards, but a
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > - [ ] You have read Lockhart's *Arithmetic* and solved its core exercises.
 > - [ ] You pass the Khan Academy Pre-Algebra & Algebra I challenge tests cold with zero arithmetic errors.
 > - [ ] You can explain the conceptual reasons behind fraction division and negative multiplication to someone else with zero jargon and zero algebraic recipes.
+
+---
+
+## ➡️ Next Steps
+*Why does the next subject come next?*
+- [[Next Block]]

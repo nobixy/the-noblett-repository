@@ -1,14 +1,18 @@
 ---
 block_id: "Block 10"
 title: "Mathematics for Computer Science (MIT 6.042J)"
+category: "core"
 term: "Year 2 Fall"
 status: not-started
+prerequisites:
+  - "Math Prerequisites"
 hours_estimate: 170
 hours_actual: 0
 primary_resource: "MIT 6.042J / 6.1200J (Lehman, Leighton, Meyer) & Tom Leighton Lectures"
 milestone: "6.042 final exam passed, timed"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # Block 10 — Mathematics for Computer Science (MIT 6.042J)
@@ -24,8 +28,16 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 Proofs, induction, counting, graphs, number theory, recurrences. The load-bearing mathematics for algorithms, complexity, and distributed systems.
+
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Math Prerequisites]]
 
 ---
 
@@ -43,7 +55,7 @@ Work through every assigned problem set in MIT 6.042J, typesetting complete form
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > MIT 6.042 final exam passed under timed conditions.
 
@@ -64,6 +76,6 @@ Work through every assigned problem set in MIT 6.042J, typesetting complete form
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Computer Systems|← 09 - Computer Systems]] | [[00 - Dashboard|Dashboard]] | [[Linear Algebra|11 - Linear Algebra →]]

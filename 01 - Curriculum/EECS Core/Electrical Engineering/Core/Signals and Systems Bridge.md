@@ -1,8 +1,12 @@
 ---
 block_id: "Block 15a"
 title: "Signals and Systems Bridge (MIT 6.3000)"
+category: "core"
 term: "Year 2 Spring"
 status: not-started
+prerequisites:
+  - "Circuits and Electronics Bridge"
+  - "Linear Algebra"
 optional: true # computer-engineering path; excluded from the hour budget
 hours_estimate: 160
 hours_actual: 0
@@ -10,6 +14,7 @@ primary_resource: "Alan Oppenheim & Alan Willsky, Signals and Systems (2e) & MIT
 milestone: "All 10 MIT 6.003 problem sets solved; discrete-time DSP audio processing suite built from scratch; MIT 6.003 final exam passed ≥80%"
 date_started: ""
 date_completed: ""
+tier: "Tier 2 - Support"
 ---
 
 # Block 15a — Signals and Systems Bridge (MIT 6.3000)
@@ -28,6 +33,9 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 2 - Support
+> **Tier 2 - Support**: Strongly recommended for full understanding.
+
 ## 🎯 Why This Block Matters
 
 Signals and Systems is the universal mathematical bridge linking physical analog reality to digital computation. 
@@ -40,6 +48,12 @@ In computer science curricula, data is typically modeled as discrete arrays, gra
 4. **Foundation for Cutting-Edge Disciplines:** Signals and systems directly underpins Digital Signal Processing (DSP), software-defined radio, audio/speech synthesis, computer vision convolutions, robotic feedback control ([[Differential Equations Bridge]]), and edge AI feature extraction ([[Track 7 - TinyML and Edge AI]]).
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Circuits and Electronics Bridge]]
+- [[Linear Algebra]]
+
 
 ## 📖 Primary Syllabus & Core Content
 
@@ -185,7 +199,7 @@ You must implement a production-grade, zero-dependency digital signal processing
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 
 > [!IMPORTANT]
 > A block is done when this condition is true. Not before.
@@ -218,6 +232,6 @@ You must implement a production-grade, zero-dependency digital signal processing
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Probability|← 15 - Probability]] | [[00 - Dashboard|Dashboard]] | [[Operating Systems|16 - Operating Systems →]]

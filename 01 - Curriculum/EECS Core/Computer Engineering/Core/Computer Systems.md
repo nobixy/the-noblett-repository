@@ -1,14 +1,19 @@
 ---
 block_id: "Block 9"
 title: "Computer Systems: A Programmer's Perspective (CS:APP)"
+category: "core"
 term: "Year 2 Fall"
 status: not-started
+prerequisites:
+  - "C Fluency"
+  - "Nand2Tetris"
 hours_estimate: 200
 hours_actual: 0
 primary_resource: "Bryant & O'Hallaron, CS:APP, 3e & CMU 15-213 Lectures"
 milestone: "All 7 CS:APP labs pass; malloc lab score ≥90; objdump decoded cold"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # Block 9 — Computer Systems: A Programmer's Perspective (CS:APP)
@@ -24,10 +29,19 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 The single highest-payoff course in CS. Explains everything between your high-level program and raw physical hardware.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[C Fluency]]
+- [[Nand2Tetris]]
+
 
 ## 📖 Primary Syllabus & Core Content
 - [ ] Ch 1: A Tour of Computer Systems
@@ -55,7 +69,7 @@ Complete all seven canonical CMU 15-213 (CS:APP) systems labs in `c` on `linux` 
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > All seven labs pass cleanly; Malloc Lab scores ≥ 90 on space utilization and throughput; you read objdump output without flinching.
 
@@ -76,6 +90,6 @@ Complete all seven canonical CMU 15-213 (CS:APP) systems labs in `c` on `linux` 
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Circuits and Electronics Bridge|← 08a - Circuits and Electronics Bridge (optional)]] | [[00 - Dashboard|Dashboard]] | [[Math for CS|10 - Math for CS →]]

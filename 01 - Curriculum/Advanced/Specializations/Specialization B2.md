@@ -1,14 +1,17 @@
 ---
 block_id: "Block 31"
 title: "Specialization Track B — Course 2"
+category: "advanced"
 term: "Year 5"
 status: not-started
+prerequisites: []
 hours_estimate: 180
 hours_actual: 0
 primary_resource: "Selected from Track B (see Specializations folder)"
 milestone: "Track B Course 2 completed alongside Capstone"
 date_started: ""
 date_completed: ""
+tier: "Tier 3 - Depth"
 ---
 
 # Block 31 — Specialization Track B — Course 2
@@ -28,6 +31,11 @@ date_completed: ""
 Block 31 represents Course 2 of your secondary specialization (**Track B**), executed concurrently with the Year 5 MEng [[Capstone]] project. It solidifies your secondary technical pillar, ensuring graduate-level mastery in two complementary disciplines (*"Two deep beats six shallow"*).
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 ## 📖 Primary Syllabus & Core Content
 
@@ -59,7 +67,7 @@ Complete the Track B Course 2 laboratories and capstone-integrated build deliver
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > All coursework, laboratory milestones, and the Track B technical deliverable are completed, tested, and integrated with the Year 5 Capstone.
 
@@ -77,6 +85,6 @@ Complete the Track B Course 2 laboratories and capstone-integrated build deliver
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Specializations Hub|Specializations Hub]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Capstone|← 30 - Capstone]] | [[00 - Dashboard|Dashboard]] | [[Information Theory|32 - Information Theory →]]

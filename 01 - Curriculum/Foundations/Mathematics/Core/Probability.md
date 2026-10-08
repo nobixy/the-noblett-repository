@@ -1,14 +1,19 @@
 ---
 block_id: "Block 15"
 title: "Introduction to Probability (MIT 6.041 / 6.3700)"
+category: "core"
 term: "Year 2 Spring"
 status: not-started
+prerequisites:
+  - "Calculus I"
+  - "Math for CS"
 hours_estimate: 150
 hours_actual: 0
 primary_resource: "MIT 6.041 / 6.3700 (John Tsitsiklis, OCW) & Bertsekas & Tsitsiklis Text"
 milestone: "Final passed; derive distributions/moments & solve Markov chains unaided"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # Block 15 — Introduction to Probability (MIT 6.041 / 6.3700)
@@ -24,10 +29,19 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 Probabilistic reasoning is mandatory for randomized algorithms, machine learning, systems performance, and statistical inference.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Calculus I]]
+- [[Math for CS]]
+
 
 ## 📖 Primary Syllabus & Core Content
 - [ ] Sample space, conditioning, Bayes' rule, independence
@@ -45,7 +59,7 @@ Work all MIT 6.041 problem sets and formal mathematical derivations in `latex`. 
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > Final exam passed; you can derive standard distributions and their moments, and solve Markov-chain problems without a formula sheet.
 
@@ -66,6 +80,6 @@ Work all MIT 6.041 problem sets and formal mathematical derivations in `latex`. 
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Computer Architecture|← 14 - Computer Architecture]] | [[00 - Dashboard|Dashboard]] | [[Signals and Systems Bridge|15a - Signals and Systems Bridge (optional) →]]

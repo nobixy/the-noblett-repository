@@ -1,18 +1,13 @@
 ---
 track_id: "Track 5"
 title: "Programming Languages and Compilers"
+category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites:
-  - "[[CS61A]]"
-  - "[[Nand2Tetris]]"
-  - "[[SICP]]"
-  - "[[C Fluency]]"
-  - "[[Math for CS]]"
-  - "[[Interpreters]]"
-  - "[[Software Construction]]"
+prerequisites: []
 target_profile: "Compiler Engineer, Programming Language Designer, Static Analysis Specialist, Formal Verification Engineer"
 aliases: [Track 5 - Programming Languages and Compilers, Track 5 - Compilers and Language Runtimes]
+tier: "Tier 3 - Depth"
 ---
 
 # Track 5: Programming Languages and Compilers
@@ -33,6 +28,11 @@ Programming languages and optimizing compilers form the cognitive and physical b
 This track equips students with both the profound mathematical theory of programming language semantics and the deep engineering systems discipline of compiler optimization. Students master operational and denotational semantics, type systems (Simply Typed Lambda Calculus, Hindley-Milner type inference, System F, dependent types), abstract interpretation, control-flow graph algorithms (Static Single Assignment form, dominance frontiers), machine-level optimization passes (SCCP, GVN, LICM), and target register allocation via graph coloring.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 ## 📚 Core Courses
 
@@ -190,7 +190,11 @@ A production-grade compiler pipeline implemented in OCaml, Rust, or C++ that com
 
 ---
 
-## 🧭 Navigation & Degree Pathway
+## 🏁 Mastery Criteria & Assessments
+> [!IMPORTANT]
+> Assessment criteria go here.
+
+## ➡️ Next Steps & Degree Pathway
 - **Curriculum Hub:** [[Specializations Hub|Specializations Hub]]
 - **Degree Assignment:**
   - If chosen as **Primary Specialization (Track A)**: Course 1 binds to [[Specialization A1|Block 26 - Specialization A1]] and Course 2 binds to [[Specialization A2|Block 28 - Specialization A2]].

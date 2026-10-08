@@ -1,14 +1,19 @@
 ---
 block_id: "Block 8"
 title: "Electricity and Magnetism (MIT 8.02SC)"
+category: "core"
 term: "Year 1 Spring"
 status: not-started
+prerequisites:
+  - "Physics I"
+  - "Multivariable Calculus"
 hours_estimate: 100
 hours_actual: 0
 primary_resource: "MIT 8.02SC (OCW Scholar)"
 milestone: "8.02 final exam passed"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # Block 8 — Electricity and Magnetism (MIT 8.02SC)
@@ -24,10 +29,19 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 Electromagnetism underlies all electronic computation, semiconductors, signal transmission, and RF communication.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Physics I]]
+- [[Multivariable Calculus]]
+
 
 ## 📖 Primary Syllabus & Core Content
 - [ ] Electric Fields and Coulomb's Law
@@ -44,7 +58,7 @@ Work all assigned problem sets and review recitation derivations.
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > 8.02 final exam passed.
 
@@ -65,6 +79,6 @@ Work all assigned problem sets and review recitation derivations.
 
 ---
 
-## 🧭 Navigation
+## ➡️ Next Steps
 - **Topic Hub:** [[Hardware Index|Hardware Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Multivariable Calculus|← 07 - Multivariable Calculus]] | [[00 - Dashboard|Dashboard]] | [[Circuits and Electronics Bridge|08a - Circuits and Electronics Bridge (optional) →]]

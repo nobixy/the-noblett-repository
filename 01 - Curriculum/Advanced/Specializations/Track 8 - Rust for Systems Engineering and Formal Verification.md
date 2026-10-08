@@ -1,15 +1,13 @@
 ---
 track_id: "Track 8"
 title: "Rust for Systems Engineering and Formal Verification"
+category: "advanced"
 term: "Years 4 & 5"
 status: not-started
-prerequisites:
-  - "[[C Fluency]]"
-  - "[[Computer Systems]]"
-  - "[[Operating Systems]]"
-  - "[[Software Construction]]"
+prerequisites: []
 target_profile: "Systems Infrastructure Engineer, High-Assurance Rust Developer, Kernel Architect"
 aliases: [Track 8 - Rust for Systems Engineering and Formal Verification, Track 8 - Rust Systems Engineering]
+tier: "Tier 3 - Depth"
 ---
 
 # Track 8: Rust for Systems Engineering and Formal Verification
@@ -30,6 +28,11 @@ For over fifty years, systems infrastructure, operating system kernels, database
 Rust revolutionizes systems programming by introducing a substructural (affine) type system that enforces compile-time ownership, single-writer mutable exclusivity, and strict lifetime boundaries without requiring a runtime garbage collector. However, mastering Rust for professional systems engineering requires moving beyond beginner syntax. True high-assurance systems work demands understanding the formal operational semantics of pointer provenance (Stacked Borrows / Tree Borrows), writing sound encapsulated `unsafe` blocks audited by Miri, implementing lock-free data structures compliant with the C++20/Rust memory models, building asynchronous execution reactors from scratch, and utilizing modern SMT-based deductive model checkers (Kani, Creusot) to mechanically prove software correctness.
 
 ---
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- *None. This is a foundational block.*
+
 
 ## 📚 Core Courses
 
@@ -190,7 +193,11 @@ A freestanding, crash-resilient, multi-core operating system kernel written in 1
 
 ---
 
-## 🧭 Navigation & Degree Pathway
+## 🏁 Mastery Criteria & Assessments
+> [!IMPORTANT]
+> Assessment criteria go here.
+
+## ➡️ Next Steps & Degree Pathway
 - **Curriculum Hub:** [[Specializations Hub|Specializations Hub]]
 - **Degree Assignment:**
   - If chosen as **Primary Specialization (Track A)**: Course 1 binds to [[Specialization A1|Block 26 - Specialization A1]] and Course 2 binds to [[Specialization A2|Block 28 - Specialization A2]].

@@ -1,14 +1,18 @@
 ---
 block_id: P2
 title: "Reading, Thinking, and Writing"
+category: "core"
 term: "Phase 0 (0–5 mo)"
 status: not-started
+prerequisites:
+  - "Bedrock English and Grammar"
 hours_estimate: 40
 hours_actual: 0
 primary_resource: "Adler, Keshav, Pólya, McEnerney, Winston, Hermans"
 milestone: "Four builds exist in /notes (/writing & /papers)"
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core"
 ---
 
 # P2 — Reading, Thinking, and Writing
@@ -24,9 +28,18 @@ date_completed: ""
 
 ---
 
+## 📚 Curriculum Tier: Tier 1 - Core
+> **Tier 1 - Core**: Must complete before advancing.
+
 ## 🎯 Why This Block Matters
 You're about to read thousands of pages of textbooks and hundreds of papers. Reading a textbook, a proof, a paper, and a codebase are four different skills. So is solving a problem you've never seen. So is writing something a reader will finish.
 
+
+## 🔗 Prerequisites
+*What must you have mastered before starting this block?*
+- [[Bedrock English and Grammar]]
+
+- None.
 ---
 
 ## 📖 Primary Syllabus & Actions
@@ -53,7 +66,7 @@ You're about to read thousands of pages of textbooks and hundreds of papers. Rea
 
 ---
 
-## 🏁 Done When
+## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > All four builds exist in the repository notes.
 
@@ -73,3 +86,9 @@ You're about to read thousands of pages of textbooks and hundreds of papers. Rea
 - Sönke Ahrens, *How to Take Smart Notes*
 - William Zinsser, *Writing to Learn*
 - Lara Alcock, *How to Study as a Mathematics Major*
+
+---
+
+## ➡️ Next Steps
+*Why does the next subject come next?*
+- [[Next Block]]
