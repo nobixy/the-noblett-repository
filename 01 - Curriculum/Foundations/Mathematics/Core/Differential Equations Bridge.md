@@ -235,4 +235,4 @@ You must construct a high-performance numerical simulation suite and phase-space
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Signals and Systems Bridge|← Signals and Systems Bridge]] | [[00 - Dashboard|Dashboard]] | [[Track 1 - AI and Machine Learning|Track 1 - AI and Machine Learning →]]
+- **Sequential Flow:** [[Signals and Systems Bridge|← Signals and Systems Bridge]] | [[00 - Dashboard|Dashboard]] | [[Advanced Systems and Performance|Advanced Systems and Performance →]]

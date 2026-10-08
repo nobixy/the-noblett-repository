@@ -1,5 +1,5 @@
 ---
-block_id: "Block 53"
+block_id: "Block 57"
 title: "Capstone Project & Thesis (MEng Year)"
 category: "advanced"
 term: "Year 5 (Two Semesters)"
@@ -14,7 +14,7 @@ date_completed: ""
 tier: "Tier 3 - Depth"
 ---
 
-# Block 53 — Capstone Project & Thesis (MEng Year)
+# Block 57 — Capstone Project & Thesis (MEng Year)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Projects Hub|Projects Hub]]
 
@@ -86,4 +86,4 @@ Deliver a complete, production-grade engineering artifact developed in `c`, `c++
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Projects Hub|Projects Hub]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Track 11 - Autonomous Robotics and Cyber-Physical Systems|← Track 11 - Autonomous Robotics and Cyber-Physical Systems]] | [[00 - Dashboard|Dashboard]] | [[Intensive Cryptopals or TLA+|Intensive Cryptopals or TLA+ →]]
+- **Sequential Flow:** [[Advanced Pure Mathematics|← Advanced Pure Mathematics]] | [[00 - Dashboard|Dashboard]] | [[00 - Dashboard|Dashboard →]]

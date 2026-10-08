@@ -1,5 +1,5 @@
 ---
-block_id: "Block 47"
+block_id: "Block 48"
 track_id: "Track 6"
 title: "Computer Engineering"
 category: "advanced"
@@ -219,4 +219,4 @@ A complete, production-grade 32-bit RISC-V System-on-Chip (SoC) designed in Syst
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization B1|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization B2|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]]
 
-- **Sequential Flow:** [[Track 5 - Programming Languages and Compilers|← Track 5 - Programming Languages and Compilers]] | [[00 - Dashboard|Dashboard]] | [[Track 7 - TinyML and Edge AI|Track 7 - TinyML and Edge AI →]]
+- **Sequential Flow:** [[Advanced Graphics and Vision|← Advanced Graphics and Vision]] | [[00 - Dashboard|Dashboard]] | [[TinyML and Edge AI|TinyML and Edge AI →]]

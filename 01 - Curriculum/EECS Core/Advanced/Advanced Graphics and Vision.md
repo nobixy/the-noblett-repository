@@ -1,5 +1,5 @@
 ---
-block_id: "Block 45"
+block_id: "Block 47"
 track_id: "Track 4"
 title: "Graphics and Vision"
 category: "advanced"
@@ -217,4 +217,4 @@ An industrial-grade physically based offline path tracer written in modern C++ (
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization B1|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization B2|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]]
 
-- **Sequential Flow:** [[Track 3 - Security and Cryptography|← Track 3 - Security and Cryptography]] | [[00 - Dashboard|Dashboard]] | [[Track 5 - Programming Languages and Compilers|Track 5 - Programming Languages and Compilers →]]
+- **Sequential Flow:** [[Deep AI and Machine Learning|← Deep AI and Machine Learning]] | [[00 - Dashboard|Dashboard]] | [[Advanced Computer Engineering|Advanced Computer Engineering →]]

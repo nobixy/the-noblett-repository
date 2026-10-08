@@ -1,5 +1,5 @@
 ---
-block_id: "Block 50"
+block_id: "Block 51"
 track_id: "Track 9"
 title: "Hardware-in-the-Loop Virtualization, Digital Twins and CPS"
 category: "advanced"
@@ -213,4 +213,4 @@ An end-to-end, closed-loop cyber-physical HIL simulation testbed connecting a ph
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization B1|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization B2|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]]
 
-- **Sequential Flow:** [[Track 8 - Rust for Systems Engineering and Formal Verification|← Track 8 - Rust for Systems Engineering and Formal Verification]] | [[00 - Dashboard|Dashboard]] | [[Track 10 - Quantum Information and Computing|Track 10 - Quantum Information and Computing →]]
+- **Sequential Flow:** [[Autonomous Robotics|← Autonomous Robotics]] | [[00 - Dashboard|Dashboard]] | [[Advanced Security and Cryptography|Advanced Security and Cryptography →]]

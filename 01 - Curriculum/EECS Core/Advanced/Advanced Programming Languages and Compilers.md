@@ -1,5 +1,5 @@
 ---
-block_id: "Block 46"
+block_id: "Block 45"
 track_id: "Track 5"
 title: "Programming Languages and Compilers"
 category: "advanced"
@@ -219,4 +219,4 @@ A production-grade compiler pipeline implemented in OCaml, Rust, or C++ that com
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization B1|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization B2|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]]
 
-- **Sequential Flow:** [[Track 4 - Graphics and Vision|← Track 4 - Graphics and Vision]] | [[00 - Dashboard|Dashboard]] | [[Track 6 - Computer Engineering|Track 6 - Computer Engineering →]]
+- **Sequential Flow:** [[Systems Formal Verification|← Systems Formal Verification]] | [[00 - Dashboard|Dashboard]] | [[Deep AI and Machine Learning|Deep AI and Machine Learning →]]

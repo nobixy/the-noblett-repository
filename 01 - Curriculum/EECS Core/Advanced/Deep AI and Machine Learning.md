@@ -1,5 +1,5 @@
 ---
-block_id: "Block 42"
+block_id: "Block 46"
 track_id: "Track 1"
 title: "AI and Machine Learning"
 category: "advanced"
@@ -229,4 +229,4 @@ An end-to-end, high-performance deep learning pipeline implementing a decoder-on
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization B1|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization B2|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]]
 
-- **Sequential Flow:** [[Differential Equations Bridge|← Differential Equations Bridge]] | [[00 - Dashboard|Dashboard]] | [[Track 2 - Systems and Performance|Track 2 - Systems and Performance →]]
+- **Sequential Flow:** [[Advanced Programming Languages and Compilers|← Advanced Programming Languages and Compilers]] | [[00 - Dashboard|Dashboard]] | [[Advanced Graphics and Vision|Advanced Graphics and Vision →]]

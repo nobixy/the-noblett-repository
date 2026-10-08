@@ -1,5 +1,5 @@
 ---
-block_id: "Block 48"
+block_id: "Block 49"
 track_id: "Track 7"
 title: "TinyML and Edge AI"
 category: "advanced"
@@ -217,4 +217,4 @@ An end-to-end, fully autonomous cyber-physical intelligence system deployed to a
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization B1|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization B2|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]]
 
-- **Sequential Flow:** [[Track 6 - Computer Engineering|← Track 6 - Computer Engineering]] | [[00 - Dashboard|Dashboard]] | [[Track 8 - Rust for Systems Engineering and Formal Verification|Track 8 - Rust for Systems Engineering and Formal Verification →]]
+- **Sequential Flow:** [[Advanced Computer Engineering|← Advanced Computer Engineering]] | [[00 - Dashboard|Dashboard]] | [[Autonomous Robotics|Autonomous Robotics →]]

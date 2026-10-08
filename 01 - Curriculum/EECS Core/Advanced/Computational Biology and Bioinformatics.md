@@ -1,5 +1,5 @@
 ---
-block_id: "Block TBD"
+block_id: "Block 55"
 title: "Track 12 - Computational Biology and Bioinformatics"
 category: "specialization"
 term: "Year 4 or 5"
@@ -62,4 +62,4 @@ The intersection of algorithms, machine learning, and genomics represents one of
 > You can explain the algorithms behind modern aligners (like BWA or Bowtie), correctly formulate an HMM for gene finding, and your genome assembler reconstructs the target sequence with high fidelity.
 
 ## ➡️ Next Steps
-- **Sequential Flow:** *This is a terminal specialization track.*
+- **Sequential Flow:** [[Quantum Information and Computing|← Quantum Information and Computing]] | [[00 - Dashboard|Dashboard]] | [[Advanced Pure Mathematics|Advanced Pure Mathematics →]]

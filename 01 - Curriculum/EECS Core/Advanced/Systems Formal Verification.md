@@ -1,5 +1,5 @@
 ---
-block_id: "Block TBD"
+block_id: "Block 44"
 title: "Track 13 - Systems Formal Verification (TLA+ & Alloy)"
 category: "specialization"
 term: "Year 4 or 5"
@@ -59,4 +59,4 @@ While unit testing proves the presence of bugs, formal verification proves their
 > You can fluently express concurrent behaviors using temporal logic, write a formal specification before writing a line of code, and routinely use TLC to discover edge-case deadlocks that human reasoning misses.
 
 ## ➡️ Next Steps
-- **Sequential Flow:** *This is a terminal specialization track.*
+- **Sequential Flow:** [[Rust for Systems Engineering|← Rust for Systems Engineering]] | [[00 - Dashboard|Dashboard]] | [[Advanced Programming Languages and Compilers|Advanced Programming Languages and Compilers →]]

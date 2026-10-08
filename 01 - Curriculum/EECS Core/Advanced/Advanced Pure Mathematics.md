@@ -1,5 +1,5 @@
 ---
-block_id: "Block TBD"
+block_id: "Block 56"
 title: "Track 14 - Advanced Pure Mathematics"
 category: "specialization"
 term: "Year 4 or 5"
@@ -57,4 +57,4 @@ Instead of software builds, this track requires rigorous, mathematician-grade pr
 > All proofs terminate with a Q.E.D. tombstone, completely satisfy the hypotheses, and demonstrate absolute rigorous logic without hand-waving.
 
 ## ➡️ Next Steps
-- **Sequential Flow:** *This is a terminal specialization track.*
+- **Sequential Flow:** [[Computational Biology and Bioinformatics|← Computational Biology and Bioinformatics]] | [[00 - Dashboard|Dashboard]] | [[Magnum Opus Capstone|Magnum Opus Capstone →]]

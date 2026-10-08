@@ -1,5 +1,5 @@
 ---
-block_id: "Block 44"
+block_id: "Block 52"
 track_id: "Track 3"
 title: "Security and Cryptography"
 category: "advanced"
@@ -215,4 +215,4 @@ A secure, multi-party end-to-end encrypted messaging engine written in Rust or C
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization B1|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization B2|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]]
 
-- **Sequential Flow:** [[Track 2 - Systems and Performance|← Track 2 - Systems and Performance]] | [[00 - Dashboard|Dashboard]] | [[Track 4 - Graphics and Vision|Track 4 - Graphics and Vision →]]
+- **Sequential Flow:** [[Hardware-in-the-Loop Virtualization and Digital Twins|← Hardware-in-the-Loop Virtualization and Digital Twins]] | [[00 - Dashboard|Dashboard]] | [[Intensive Cryptopals|Intensive Cryptopals →]]

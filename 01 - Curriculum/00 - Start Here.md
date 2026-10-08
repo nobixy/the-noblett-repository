@@ -1,5 +1,5 @@
 ---
-title: "Start Here: The Noblett Curriculum Canonical Path"
+title: "Start Here: The Noblett Repository"
 type: hub
 tags:
   - hub
@@ -9,113 +9,80 @@ tags:
 
 # 00 - Start Here
 
-Welcome to the **Noblett Repository**. This is a ground-up education system for computing, engineered to provide the intellectual territory of a serious MIT EECS education (~7,000 hours), rebuilt upon strong Foundations in Mathematics and English.
+Welcome to the **Noblett Repository**. This is a lifelong education and life-management system designed to build structural competence across computer science, practical engineering, and adult responsibilities. It is built on evidence, active practice, and sustainable maintenance.
 
-## The Canonical Sequence
+## System Architecture
 
-> **"What exactly should I study, and in what order?"**
+The repository operates on five integrated tracks. Do not attempt to run multiple high-intensity tracks simultaneously. 
 
-This is the definitive, dependency-aware linear sequence. **Do not skip prerequisites.** Do not start a block until its prerequisites are mastered.
+1. **[[01 - Core Spine|The Core Spine]]**: The linear, dependency-aware sequence of computer science and software engineering.
+2. **[[02 - Maintenance Tracks|Maintenance Tracks]]**: Continuous, low-friction daily habits for mathematics, reading, and writing.
+3. **[[03 - Engineering Practice|Engineering Practice]]**: Applied tooling, building, testing, and operational skills that run parallel to theory.
+4. **[[04 - Human Systems|Human Systems]]**: The infrastructure of adult life (money, health, time, relationships) required to sustain long-term intellectual work.
+5. **[[05 - Specialization Branches|Specialization Branches]]**: Deep elective domains unlocked only after reaching baseline employability.
 
-### Phase 0: Foundations & Meta-Learning
-*Build the cognitive and tooling foundations required for deep autonomous learning.*
-- [[Learning How to Learn]] *(Tier 1)*
-- [[The Deep Learner's Toolkit]] *(Tier 1)*
-- [[Tooling]] *(Tier 1)*
-- [[Bedrock English and Grammar]] *(Tier 1)*
-- [[Reading, Thinking, and Writing]] *(Tier 1)*
+---
 
-### Phase 1: Bedrock Mathematics & Logic
-*EECS requires formal mathematical maturity, starting from arithmetic first principles.*
-- [[Bedrock Mathematics]] *(Tier 1)*
-- [[Math Prerequisites]] *(Tier 1)*
-- [[Calculus I]] *(Tier 1)*
+## The Core Spine
 
-### Phase 2: Programming Fundamentals
-*Mastering abstraction and low-level memory operations.*
-- [[Programming On-Ramp]] *(Tier 2 - Optional if CS61A cold test is passed)*
-- [[CS61A]] *(Tier 1)*
-- [[SICP]] *(Tier 3)*
-- [[C Fluency]] *(Tier 1)*
-- [[Multivariable Calculus]] *(Tier 1)*
+> **Rule:** Do not skip prerequisites. Progress requires verifiable evidence (code, projects, problem sets), not just reading.
+
+### Phase 1: Foundations & Programming Intro
+*Building algorithmic thinking and basic abstractions.*
+- [[Programming On-Ramp]] *(If no prior experience)*
+- [[Structure and Interpretation of Computer Programs (Python)]] or [[CS61A]]
+
+### Phase 2: Data, Logic, and Proof
+*The mathematical and structural basis of computation.*
+- [[Mathematics for Computer Science]] *(Discrete Math & Proofs)*
+- [[Data Structures]]
 
 ### Phase 3: Hardware & Systems Architecture
-*Demystifying the abstraction stack from logic gates to operating systems.*
-- [[Nand2Tetris]] *(Tier 1)*
-- [[Linear Algebra]] *(Tier 1)*
-- [[Computer Systems]] *(Tier 1)*
-- [[Computer Architecture]] *(Tier 2)*
-- [[Operating Systems]] *(Tier 1)*
+*Crossing the hardware-software boundary.*
+- [[C Fluency and Memory Management]]
+- [[Nand2Tetris]]
+- [[Computer Architecture]]
 
-### Phase 4: Algorithms & Discrete Mathematics
-*The science of computation and structured data.*
-- [[Math for CS]] *(Tier 1)*
-- [[Real Analysis]] *(Tier 3)*
-- [[Convex Optimization]] *(Tier 3)*
-- [[Algorithms I]] *(Tier 1)*
-- [[Probability]] *(Tier 1)*
+### Phase 4: Core Software Engineering
+*Managing complexity and system resources.*
+- [[Algorithms I]]
+- [[Operating Systems]]
+- [[Computer Networks]]
 
-### Phase 5: Software Engineering at Scale
-*Networked applications, databases, and professional system construction.*
-- [[Networking]] *(Tier 1)*
-- [[Databases]] *(Tier 1)*
-- [[Software Construction]] *(Tier 1)*
-- [[Parallel Computing]] *(Tier 1)*
-
-### Phase 6: Distributed Systems & Advanced Algorithms
-*Navigating partial failures, eventual consistency, and hard problems.*
-- [[Distributed Systems]] *(Tier 1)*
-- [[Algorithms II]] *(Tier 1)*
-- [[Statistics]] *(Tier 1)*
-- [[Information Theory]] *(Tier 3)*
-- [[Artificial Intelligence]] *(Tier 1)*
-- [[Introduction to Machine Learning]] *(Tier 1)*
-- [[Computer Security]] *(Tier 1)*
-
-### Phase 7: Compilers & Theory of Computation
-*Language semantics and the theoretical limits of what can be computed.*
-- [[Interpreters]] *(Tier 1)*
-- [[Theory of Computation]] *(Tier 1)*
-
-### Phase 8: Physics & Engineering Emphases (Tier 2/3 Options)
-*If pursuing full electrical or computer engineering.*
-- [[Physics I]]
-- [[Physics II]]
-- [[Circuits and Electronics Bridge]]
-- [[Signals and Systems Bridge]]
-- [[Differential Equations Bridge]]
+### Phase 5: Employability & Scale
+*Building robust, data-backed applications.*
+- [[Database Systems]]
+- [[Software Construction]]
+- [[Distributed Systems Foundations]]
+- **Milestone:** [[Employability Portfolio and Review]]
 
 ---
 
-## 3. Advanced & Specializations
+## Specialization Branches (Elective)
+*Enter these only after completing Phase 5 or when professionally required. Pick one primary branch at a time.*
 
-Pick **two** of the tracks from the [[Specializations Hub]] to pursue deeply after completing the Core.
-- [[Track 1 - AI and Machine Learning]]
-- [[Track 2 - Systems and Performance]]
-- [[Track 3 - Security and Cryptography]]
-- [[Track 4 - Graphics and Vision]]
-- [[Track 5 - Programming Languages and Compilers]]
-- [[Track 6 - Computer Engineering]]
-- [[Track 7 - TinyML and Edge AI]]
-- [[Track 8 - Rust for Systems Engineering and Formal Verification]]
-- [[Track 9 - Hardware-in-the-Loop Virtualization, Digital Twins and CPS]]
-- [[Track 10 - Quantum Information and Computing]]
-- [[Track 11 - Autonomous Robotics and Cyber-Physical Systems]]
-- [[Track 12 - Computational Biology and Bioinformatics]]
-- [[Track 13 - Systems Formal Verification]]
-- [[Track 14 - Advanced Pure Mathematics]]
-- [[Capstone]]
-- [[Intensive Cryptopals or TLA+]]
+- [[Branch - Full-Stack and Product Engineering]]
+- [[Branch - Systems and Performance]]
+- [[Branch - AI and Machine Learning]]
+- [[Branch - Security and Cryptography]]
+- [[Branch - Programming Languages and Compilers]]
+- [[Branch - Advanced Mathematics]]
 
 ---
 
-## The Five Immutable Rules
-1. **No lecture without its problem set the same week.**
-2. **A block is done when its *Done when* line is true. Not before.**
-3. **Never start a new block until the current one is done.**
-4. **Math and writing are daily habits and are never paused.**
-5. **Keep a daily log, in git.**
+## Operating Rules
+
+1. **Objective Completion:** A block is only complete when its defined output (project, pset, artifact) is finished and verified. Consumption does not equal completion.
+2. **One Primary Challenge:** Run only one high-intensity Core Spine or Specialization course at a time.
+3. **Daily Maintenance:** Math and writing are continuous, low-friction habits. Do not pause them, but scale their volume to fit the day.
+4. **Continuous Engineering Practice:** Theory must be immediately paired with practical tooling (Git, Linux, testing).
+5. **Spaced Retrieval:** Rely on spaced review and active recall, not rereading.
+6. **Missed-Week Recovery:** Systems break. When you miss a week, execute a clean reset without guilt or compensatory binge-studying.
+7. **Scope Control:** Timebox exploration. Do not let elective curiosity indefinitely stall core dependencies.
+8. **Evidence over Feeling:** Trust your test suites, proofs, and peer feedback over the illusion of understanding.
+9. **Personal Data Privacy:** Keep private financial, health, identity, and relationship data entirely out of public version control.
+10. **Versioning the System:** The repository is versioned. If a process fails consistently, write a [[Decision Record]] to change it. Do not rebuild the system impulsively.
 
 ---
 
-*For dashboard metrics and daily habits, return to [[00 - Dashboard]].*
+*For daily operations, metrics, and active tasks, proceed to the [[00 - Dashboard]].*

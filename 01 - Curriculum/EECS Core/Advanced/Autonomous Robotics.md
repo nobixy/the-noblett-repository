@@ -1,5 +1,5 @@
 ---
-block_id: "Block 52"
+block_id: "Block 50"
 track_id: "Track 11"
 title: "Autonomous Robotics and Cyber-Physical Systems"
 category: "advanced"
@@ -220,4 +220,4 @@ A complete, production-grade autonomous navigation, frontier exploration, and ob
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization B1|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization B2|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]]
 
-- **Sequential Flow:** [[Track 10 - Quantum Information and Computing|← Track 10 - Quantum Information and Computing]] | [[00 - Dashboard|Dashboard]] | [[Capstone|Capstone →]]
+- **Sequential Flow:** [[TinyML and Edge AI|← TinyML and Edge AI]] | [[00 - Dashboard|Dashboard]] | [[Hardware-in-the-Loop Virtualization and Digital Twins|Hardware-in-the-Loop Virtualization and Digital Twins →]]

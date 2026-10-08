@@ -12,9 +12,9 @@ tags:
 
 
 ## 🧭 North Star
-**Goal:** Earn, by self-study, the working knowledge of an MIT Course 6-3 SB + MEng — proven by passing the real final exams, shipping the builds, and writing the thesis — starting from rebuilt arithmetic and grammar.
+**Goal:** Complete the equivalent of a rigorous MIT Course 6-3 SB + MEng, and then continue executing an infinite, lifelong learning sequence bridging post-doc level depth across quantum computing, computational biology, formal verification, and pure mathematics. This is a magnum opus of self-education.
 
-**Budget:** ~6,500 planned block hours, Phase 0 through Phase 8 (the sum of block estimates; plus two Specialization Tracks). The source program's part-time plan (~20 hrs/wk, habits included) takes about **7.5 years**, and Phase −1 adds about six weeks. Below 15 hrs/wk, cut scope; do not stretch past 8 years.
+**Budget:** This is a lifelong endeavor. There is no longer an 8-year completion constraint. The curriculum spans 17 sequential phases (from Arithmetic to advanced Computational Biology and Quantum Information). The only metric that matters is continuous, disciplined forward progress.
 
 **The five rules** (from [[The Independent EECS Program.pdf|the source program]]):
 1. No lecture without its problem set the same week.
@@ -25,7 +25,6 @@ tags:
 
 **Guardrails for this vault:**
 - The *Study Notes, Psets & Proofs* section of every block is written by me, from a blank page. Each block's **Check your work** callout names the course's own solutions, autograder, or test suite; I open it only after my own attempt.
-- Specializations: pick **two** of the 11 tracks, not more. Decide at the end of Year 3 ([[Specializations Hub]]).
 - The vault serves the study, not the other way round. No new structure until the current block needs it.
 
 **Now:** Phase −1 → [[Bedrock Mathematics|Bedrock Math]] + [[Bedrock English and Grammar|Bedrock English]] · **Next block:** [[The Deep Learner's Toolkit|B0]] → [[Learning How to Learn|P1]] · **Schedule:** [[Calendar]]
