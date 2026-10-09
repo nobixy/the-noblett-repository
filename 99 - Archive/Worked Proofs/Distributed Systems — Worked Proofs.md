@@ -10,10 +10,10 @@ tags:
 
 > [!WARNING] Answer key — open only after your own attempt
 > These derivations were generated as reference material, not study notes. Reading them first creates the illusion of competence that [[how-i-study]] warns about.
-> Protocol: attempt the proof from a blank sheet in [[Distributed Systems]] → compare here → log every gap you found.
+> Protocol: attempt the proof from a blank sheet in [[B23 - Distributed Systems|Distributed Systems]] → compare here → log every gap you found.
 > They are unverified; treat any step you cannot justify as a possible error, not as authority.
 
-Back to: [[Distributed Systems]] · [[Worked Proofs Index]]
+Back to: [[B23 - Distributed Systems|Distributed Systems]] · [[Worked Proofs Index]]
 
 ---
 
@@ -87,11 +87,11 @@ The following foundational papers from the [[Paper Reading Hub|Paper Reading Hub
 1. **"Time, Clocks, and the Ordering of Events in a Distributed System"** (Leslie Lamport, 1978)
     - *Venue:* Communications of the ACM (Paper 21 in [[Paper Reading Hub|Paper Reading Hub]])
     - *Landmark Invariant:* Logical clocks, happened-before partial order ($\to$), total ordering of events, and state machine replication foundations.
-    - *Reading Guidance:* Relate Lamport clocks and vector clocks to distributed causality, state machine replication, and inter-process ordering invariants in [[Operating Systems]].
+    - *Reading Guidance:* Relate Lamport clocks and vector clocks to distributed causality, state machine replication, and inter-process ordering invariants in [[B16 - Operating Systems|Operating Systems]].
 2. **"Impossibility of Distributed Consensus with One Faulty Process"** (Michael J. Fischer, Nancy A. Lynch, Michael S. Paterson (FLP), 1985)
     - *Venue:* Journal of the ACM (Paper 22 in [[Paper Reading Hub|Paper Reading Hub]])
     - *Landmark Invariant:* Proof by bivalence perturbation that no deterministic asynchronous protocol can guarantee consensus in the presence of even a single crash failure.
-    - *Reading Guidance:* Compare the Fischer-Lynch-Paterson (FLP) impossibility result in asynchronous systems with kernel-level crash recovery and single-node fail-stop assumptions in [[Operating Systems]].
+    - *Reading Guidance:* Compare the Fischer-Lynch-Paterson (FLP) impossibility result in asynchronous systems with kernel-level crash recovery and single-node fail-stop assumptions in [[B16 - Operating Systems|Operating Systems]].
 3. **"In Search of an Understandable Consensus Algorithm" (Raft)** (Diego Ongaro & John Ousterhout, 2014)
     - *Venue:* USENIX ATC '14 (Paper 23 in [[Paper Reading Hub|Paper Reading Hub]])
     - *Landmark Invariant:* Decomposed consensus via leader election, randomized timers, and log matching invariant; provably safe state machine replication.

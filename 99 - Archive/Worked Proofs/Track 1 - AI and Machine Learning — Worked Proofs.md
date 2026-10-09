@@ -10,10 +10,10 @@ tags:
 
 > [!WARNING] Answer key — open only after your own attempt
 > These derivations were generated as reference material, not study notes. Reading them first creates the illusion of competence that [[how-i-study]] warns about.
-> Protocol: attempt the proof from a blank sheet in [[Deep AI and Machine Learning]] → compare here → log every gap you found.
+> Protocol: attempt the proof from a blank sheet in [[T01 - Deep AI and Machine Learning|Deep AI and Machine Learning]] → compare here → log every gap you found.
 > They are unverified; treat any step you cannot justify as a possible error, not as authority.
 
-Back to: [[Deep AI and Machine Learning]] · [[Worked Proofs Index]]
+Back to: [[T01 - Deep AI and Machine Learning|Deep AI and Machine Learning]] · [[Worked Proofs Index]]
 
 ---
 
@@ -47,7 +47,7 @@ $$\|F - f\|_\infty < \epsilon$$
 ### Proof 2: Deep Neural Network Generalization & Contraction Bounds (Talagrand's Lemma)
 
 > [!NOTE]
-> The general statistical learning framework—including McDiarmid's bounded differences inequality, ghost sample symmetrization, and uniform PAC bounds via empirical Rademacher complexity and VC-dimension—is rigorously established in [[Statistics|22 - Statistics]] (see Proof 3: Vapnik-Chervonenkis Dimension & PAC Generalization Bounds). 
+> The general statistical learning framework—including McDiarmid's bounded differences inequality, ghost sample symmetrization, and uniform PAC bounds via empirical Rademacher complexity and VC-dimension—is rigorously established in [[B22 - Statistics|22 - Statistics]] (see Proof 3: Vapnik-Chervonenkis Dimension & PAC Generalization Bounds). 
 > Below, Track 1 specializes these bounds to deep neural architectures using **Talagrand's Contraction Lemma** and layer-wise Lipschitz bounds.
 
 **Theorem (Talagrand's Contraction Lemma for Neural Networks):**
@@ -78,5 +78,5 @@ $$R(f) \le R_S(f) + \mathcal{O}\left( \frac{B \prod_{l=1}^L M_l}{\sqrt{m}} \righ
    Because the activation $\sigma$ is 1-Lipschitz ($\sigma(0)=0$ for ReLU/GELU), each non-linear activation contracts without blowing up Rademacher complexity. 
    The linear transformation at layer $l$ scales the complexity by at most the matrix operator norm $\|W_l\|_2$.
 5. **Final Bound Integration:**
-   Composing the contraction lemma with the foundational concentration bounds in [[Statistics|22 - Statistics]] yields the norm-based uniform generalization bound:
+   Composing the contraction lemma with the foundational concentration bounds in [[B22 - Statistics|22 - Statistics]] yields the norm-based uniform generalization bound:
    $$R(f) \le R_S(f) + 2 \hat{\mathcal{R}}_S(\mathcal{H}_{\text{NN}}) + 3 \sqrt{\frac{\ln(2/\delta)}{2m}} \le R_S(f) + \mathcal{O}\left( \frac{B \prod_{l=1}^L \|W_l\|_2}{\sqrt{m}} \right) + 3 \sqrt{\frac{\ln(2/\delta)}{2m}} \quad \blacksquare$$

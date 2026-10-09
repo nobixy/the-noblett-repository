@@ -19,9 +19,9 @@ tags:
 - **Distributed Systems:** Consensus (Raft/Paxos), replication, vector clocks, sharding
 
 ## Reference Courses
-- [[Computer Systems]] (CS:APP)
-- [[Operating Systems]] (MIT 6.1810)
-- [[Networking]] (Stanford CS144)
-- [[Databases]] (CMU 15-445)
-- [[Distributed Systems]] (MIT 6.5840)
-- [[Intensive Cryptopals]] (Cryptopals / TLA+)
+- [[B09 - Computer Systems|Computer Systems]] (CS:APP)
+- [[B16 - Operating Systems|Operating Systems]] (MIT 6.1810)
+- [[B19 - Networking|Networking]] (Stanford CS144)
+- [[B21 - Databases|Databases]] (CMU 15-445)
+- [[B23 - Distributed Systems|Distributed Systems]] (MIT 6.5840)
+- [[B27 - Intensive Cryptopals|Intensive Cryptopals]] (Cryptopals / TLA+)

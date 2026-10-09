@@ -10,10 +10,10 @@ tags:
 
 > [!WARNING] Answer key — open only after your own attempt
 > These derivations were generated as reference material, not study notes. Reading them first creates the illusion of competence that [[how-i-study]] warns about.
-> Protocol: attempt the proof from a blank sheet in [[Interpreters]] → compare here → log every gap you found.
+> Protocol: attempt the proof from a blank sheet in [[B12 - Interpreters|Interpreters]] → compare here → log every gap you found.
 > They are unverified; treat any step you cannot justify as a possible error, not as authority.
 
-Back to: [[Interpreters]] · [[Worked Proofs Index]]
+Back to: [[B12 - Interpreters|Interpreters]] · [[Worked Proofs Index]]
 
 ---
 

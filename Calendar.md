@@ -8,7 +8,7 @@
 - [ ] **11:00 PM - Sleep:** Minimum 8 hours targeted.
 - [ ] **7:30 AM - Wake Up:** Immediate light exposure. No intense cognitive load yet.
 - [ ] **8:00 AM - Focused Study Block (90 min):** Hardest material.
-  - *Current Focus:* [[Bedrock Mathematics]] & [[Bedrock English and Grammar]].
+  - *Current Focus:* [[BM - Bedrock Mathematics|Bedrock Mathematics]] & [[BW - Bedrock English and Grammar|Bedrock English and Grammar]].
   - *Practice:* Apply the Feynman Technique. No distractions.
 - [ ] **9:30 AM - Spaced Blank-Sheet Retrieval (15 min):** 
   - Zero-hint memory dump of the morning's block using [[Blank-Sheet Retrieval Template]].

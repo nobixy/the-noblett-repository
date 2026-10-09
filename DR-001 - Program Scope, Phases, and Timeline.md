@@ -48,7 +48,7 @@ Four statements in the vault disagree about how big the program is, how long it 
 
 ### C4. When do specializations open?
 - [[00 - Start Here]] (Specialization Branches): *"Enter these only after completing Phase 5 or when professionally required. Pick one primary branch at a time."*
-- [[05 - Specialization Branches]]: *"Deep elective domains unlocked only after reaching baseline employability."*
+- [[Specialization Branches|05 - Specialization Branches]]: *"Deep elective domains unlocked only after reaching baseline employability."*
 - [[Checklist]] Year 4: Distributed Systems (Block 23) → Theory of Computation (24) → Convex Optimization (25) → **Specialization A, Course 1 (Block 26)** → Intensive (27) → Spec A, Course 2 (28) → Spec B, Course 1 (29). Spec B, Course 2 runs alongside the Capstone in Year 5.
 - Check: every Phase 5 course (Databases, Software Construction, Distributed Systems) comes before Block 26 in the Checklist. So "after Phase 5" and "Year 4" describe **the same point** in the course order. The real difference is the gate: Start Here and the hub also require the Employability Portfolio (Phase 5 milestone, "baseline employability"), but the Checklist doesn't track it.
 

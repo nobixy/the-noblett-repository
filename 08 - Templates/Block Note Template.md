@@ -2,6 +2,7 @@
 block_id: "" # B0 | BM | BW | P1–P5 | Block N | Block Na | E1–E4 | Track N (see DR-002)
 title: ""
 category: "core" # core | elective | specialization
+subject: "" # English | Mathematics | Meta-Learning | Computer Science | Software Engineering | Computer Engineering | Electrical Engineering | Specialization | Capstone
 term: ""
 status: not-started # not-started | in-progress | done
 prerequisites: [] # exact note names
@@ -12,9 +13,13 @@ milestone: ""
 date_started: ""
 date_completed: ""
 tier: "Tier 1 - Core" # Tier 1 - Core | Tier 2 - Support | Tier 3 - Depth
+# job_ready: 1 # only for job-ready path blocks (💼1–💼5, DR-003)
+# File name: "<prefix> - <short name>" (B01, B04a, P3, E2, T07 …) in the stage folder under 01 - Curriculum (DR-003)
 ---
 
 # {{title}}
+
+[[00 - Start Here|Start Here]] / [[00 - Start Here#The Path|The Path]]
 
 > [!INFO] README / Overview
 > **Estimated Hours:** {{hours_estimate}} hrs
@@ -69,3 +74,4 @@ tier: "Tier 1 - Core" # Tier 1 - Core | Tier 2 - Support | Tier 3 - Depth
 ## ➡️ Next Steps
 *Why does the next subject come next?*
 - [[Next Block]]
+- **Sequential Flow:** [[Previous Block|← Previous]] | [[00 - Start Here|Start Here]] | [[Next Block|Next →]]

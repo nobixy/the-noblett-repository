@@ -24,4 +24,4 @@ Welcome to the Mindset Hub. This space synthesizes the behavioral protocols requ
 - **Mindfulness & Meditation:** Builds the metacognitive muscle to notice when focus drifts, bringing attention back to the present task.
 
 ---
-*Back to [[00 - Dashboard]]*
+*Back to [[00 - Start Here|Start Here]]*

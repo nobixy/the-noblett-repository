@@ -1,5 +1,5 @@
 # How I Will Study: The Deep Learner's Manifesto
-*Last revised: 2026-09-25 (Next scheduled revision: 2027-03-25)*
+*Last revised: 2026-09-25 (Next scheduled revision: 2027-03-25)* · Home: [[00 - Start Here|Start Here]]
 
 > [!QUOTE]
 > "Don't let note-taking become the hobby. Notes exist to support retrieval, synthesis, and building."
@@ -111,3 +111,4 @@ Sustaining this multi-year independent curriculum requires rigorous psychologica
 | 2026-09-25 | Phase -1 (Mindset Update) | Added Mindset, Deep Work, and CS Research Practices sections. |
 | 2026-10-09 | Phase -1 (Bedrock Foundation) | [[DR-001 - Program Scope, Phases, and Timeline\|DR-001]]: Program timeboxed ~8 yrs inside a lifelong system; hour budget = core + two tracks. |
 | 2026-10-09 | Phase -1 (Bedrock Foundation) | [[DR-002 - Vault Refactor and Canonical Numbering\|DR-002]]: Checklist numbering made canonical; E1–E4 made optional electives; Track 15 (Full-Stack) added; hubs fleshed out. |
+| 2026-10-09 | Phase -1 (Bedrock Foundation) | [[DR-003 - One Path Restructure\|DR-003]]: Curriculum folders follow study order (Phase −1 → Year 5); Dashboard, Checklist and Start Here merged into one hub, [[00 - Start Here\|Start Here]], with the job-ready path as 💼 markers on The Path. |

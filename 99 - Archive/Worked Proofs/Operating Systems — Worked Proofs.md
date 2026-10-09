@@ -10,16 +10,16 @@ tags:
 
 > [!WARNING] Answer key — open only after your own attempt
 > These derivations were generated as reference material, not study notes. Reading them first creates the illusion of competence that [[how-i-study]] warns about.
-> Protocol: attempt the proof from a blank sheet in [[Operating Systems]] → compare here → log every gap you found.
+> Protocol: attempt the proof from a blank sheet in [[B16 - Operating Systems|Operating Systems]] → compare here → log every gap you found.
 > They are unverified; treat any step you cannot justify as a possible error, not as authority.
 
-Back to: [[Operating Systems]] · [[Worked Proofs Index]]
+Back to: [[B16 - Operating Systems|Operating Systems]] · [[Worked Proofs Index]]
 
 ---
 
 ### 1. The Vector Clock Causal Ordering Theorem
 > [!NOTE] Distributed Systems Reciprocity
-> For the foundational scalar logical clock and distributed state-machine replication models, see [[Distributed Systems|23 - Distributed Systems]] and [[Paper Reading Hub|Paper Reading Hub]] (Paper 21: Leslie Lamport 1978, "Time, Clocks, and the Ordering of Events in a Distributed System").
+> For the foundational scalar logical clock and distributed state-machine replication models, see [[B23 - Distributed Systems|23 - Distributed Systems]] and [[Paper Reading Hub|Paper Reading Hub]] (Paper 21: Leslie Lamport 1978, "Time, Clocks, and the Ordering of Events in a Distributed System").
 
 **Theorem (Fidge 1988, Mattern 1989):** In an asynchronous distributed system of $N$ processes without synchronized clocks, the Vector Clock algorithm establishes an exact isomorphism between event timestamps and the causal happened-before partial order ($\to$):
 $$a \to b \iff V(a) < V(b)$$
@@ -53,7 +53,7 @@ Each process $P_i$ maintains vector clock $V_i \in \mathbb{N}^N$, initialized to
 
 ### 2. The FLP Impossibility Theorem (Fischer, Lynch, Paterson 1985)
 > [!NOTE] Distributed Consensus Reciprocity
-> For the complete study of how distributed systems resolve or circumvent consensus impossibility in asynchronous networks, see [[Distributed Systems|23 - Distributed Systems]] and [[Paper Reading Hub|Paper Reading Hub]] (Paper 22: Michael J. Fischer, Nancy A. Lynch, Michael S. Paterson 1985, "Impossibility of Distributed Consensus with One Faulty Process").
+> For the complete study of how distributed systems resolve or circumvent consensus impossibility in asynchronous networks, see [[B23 - Distributed Systems|23 - Distributed Systems]] and [[Paper Reading Hub|Paper Reading Hub]] (Paper 22: Michael J. Fischer, Nancy A. Lynch, Michael S. Paterson 1985, "Impossibility of Distributed Consensus with One Faulty Process").
 
 **Theorem:** In an asynchronous network model, no deterministic consensus protocol can guarantee both safety (agreement, validity) and liveness (termination) in the presence of even a single unannounced crash failure.
 
