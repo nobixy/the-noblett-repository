@@ -74,7 +74,7 @@ Build a 5-stage pipelined RISC-V processor core in Verilog with hazard detection
 
 ## 🔄 Appendix A Alternatives (Failover)
 *Only consult if primary genuinely isn't working after two honest weeks:*
-- MIT 6.1910 / 6.004 (OCW); Berkeley CS61C Project 3; Patterson & Hennessy, Computer Organization and Design RISC-V.
+- MIT 6.1910 / 6.004 (OCW, Ward & Halstead *Computation Structures*); Berkeley CS61C Project 3; Patterson & Hennessy, Computer Organization and Design RISC-V.
 
 ---
 

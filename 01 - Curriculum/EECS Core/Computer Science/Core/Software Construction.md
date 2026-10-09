@@ -9,7 +9,7 @@ prerequisites:
   - "C Fluency"
 hours_estimate: 150
 hours_actual: 0
-primary_resource: "MIT 6.1020 / 6.031 Readings & Ousterhout, A Philosophy of Software Design"
+primary_resource: "MIT 6.1020 / 6.031 Readings, Joshua Bloch (Effective Java), & Ousterhout (A Philosophy of Software Design)"
 milestone: "Rebuilt interpreter under spec, rep invariants, AF, and test strategy"
 date_started: ""
 date_completed: ""
@@ -24,7 +24,7 @@ tier: "Tier 1 - Core"
 > - **Term / Position:** Year 3 Fall
 > - **Estimated Hours:** ~150 hrs
 > - **Status:** `not-started`
-> - **Primary Resource:** MIT 6.1020 / 6.031 Readings & Ousterhout, A Philosophy of Software Design
+> - **Primary Resource:** MIT 6.1020 / 6.031 Readings, Joshua Bloch (*Effective Java*), & Ousterhout (*A Philosophy of Software Design*)
 > - **Key Milestone:** Rebuilt interpreter under spec, rep invariants, AF, and test strategy
 
 ---
@@ -103,6 +103,7 @@ The most under-appreciated course in the MIT degree. How to write complex code t
   - 100% keyboard accessibility: All interactive controls navigable and operable via Tab, Shift+Tab, Enter, Space, and Arrow keys, with zero focus traps and high-visibility focus indicators.
   - Strict contrast ratios: Automated verification that text-to-background contrast satisfies $\ge 4.5:1$ for standard text and $\ge 3:1$ for large text across light and dark themes.
   - Accessibility Tree verification: Ensure all interactive elements expose correct semantic roles, accessible names, and live region announcements for state changes.
+5. **Alternative / Extended 6.1020 Milestone (Concurrent Client-Server System):** As a direct counterpart to the canonical MIT 6.1020 final project, construct a concurrent, networked client-server application (e.g., collaborative whiteboard/canvas or real-time multiplayer board game). Strictly enforce thread-safety arguments, client-server protocol specifications, immutable ADTs, and defensive copying against rep exposure with comprehensive automated regression test coverage.
 
 ---
 

@@ -20,7 +20,7 @@ tier: "Tier 2 - Support"
 > - **Term / Position:** Phase 0
 > - **Estimated Hours:** 100–150 hrs
 > - **Status:** `not-started`
-> - **Primary Course:** Harvard CS50x (`cs50.harvard.edu/x`)
+> - **Primary Course:** Harvard CS50x (`cs50.harvard.edu/x`) & John Guttag, *Introduction to Computation and Programming Using Python* (MIT 6.100A/B)
 
 ---
 
