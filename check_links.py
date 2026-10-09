@@ -38,7 +38,8 @@ for f in md_files:
             target = target.split('#')[0].strip()
             
             if target not in valid_targets and target != "":
-                missing_links.append((f, target))
+                if not f.startswith("/home/noblixy/The Noblett Repository/08 - Templates") or target not in ("Previous Block", "Next Block"):
+                    missing_links.append((f, target))
 
 if missing_links:
     for f, t in missing_links:

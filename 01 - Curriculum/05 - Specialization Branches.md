@@ -19,10 +19,13 @@ Deep elective domains unlocked only after reaching baseline employability.
 
 ## Security and Cryptography
 - [[Intensive Cryptopals]]
+- [[Advanced Security and Cryptography]]
 - Network security, cryptography, reverse engineering, vulnerability research.
 
 ## Programming Languages and Compilers
+- [[Advanced Programming Languages and Compilers]]
 - Type theory, language design, static analysis, interpreters.
 
 ## Advanced Mathematics
+- [[Advanced Pure Mathematics]]
 - Abstract algebra, topology, advanced probability, information theory.

@@ -2,7 +2,7 @@
 
 **Date:** {{date}}
 **Tags:** 
-**Connections:** `Related Note 1`, `Related Note 2`
+**Connections:** `[[Related Note 1]]`, `[[Related Note 2]]`
 
 ---
 
