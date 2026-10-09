@@ -92,4 +92,4 @@ Write rigorous, complete formal solutions to all Velleman Chapters 1–3 exercis
 *Why does the next subject come next?*
 - Next Block
 
-- **Sequential Flow:** [[Bedrock Mathematics|← Bedrock Mathematics]] | [[00 - Dashboard|Dashboard]] | [[Calculus I|Calculus I →]]
+- **Sequential Flow:** [[Reading, Thinking, and Writing|← Reading, Thinking, and Writing]] | [[00 - Dashboard|Dashboard]] | [[Programming On-Ramp|Programming On-Ramp →]]

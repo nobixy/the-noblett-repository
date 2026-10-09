@@ -86,4 +86,4 @@ Complete the MIT 6.5840 / 6.824 distributed systems laboratory suite in `go` orc
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Parallel Computing|← Parallel Computing]] | [[00 - Dashboard|Dashboard]] | [[Algorithms II|Algorithms II →]]
+- **Sequential Flow:** [[Statistics|← Statistics]] | [[00 - Dashboard|Dashboard]] | [[Theory of Computation|Theory of Computation →]]

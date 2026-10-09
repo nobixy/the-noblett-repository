@@ -81,4 +81,4 @@ Implement the Metacircular Evaluator (§4.1) and the Lazy Evaluator (§4.2) from
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Languages Index|Languages Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[CS61A|← CS61A]] | [[00 - Dashboard|Dashboard]] | [[C Fluency|C Fluency →]]
+- **Sequential Flow:** [[Differential Equations Bridge|← Differential Equations Bridge]] | [[00 - Dashboard|Dashboard]] | [[C Fluency|C Fluency →]]

@@ -17,6 +17,7 @@ aliases: [Track 9 - Hardware-in-the-Loop Virtualization, Digital Twins and CPS, 
 tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
+optional: true # specialization track not yet chosen (DR-001)
 ---
 
 # Track 9: Hardware-in-the-Loop Virtualization, Digital Twins and CPS

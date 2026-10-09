@@ -93,4 +93,4 @@ You're about to read thousands of pages of textbooks and hundreds of papers. Rea
 *Why does the next subject come next?*
 - Next Block
 
-- **Sequential Flow:** [[Bedrock English and Grammar|← Bedrock English and Grammar]] | [[00 - Dashboard|Dashboard]] | [[Bedrock Mathematics|Bedrock Mathematics →]]
+- **Sequential Flow:** [[Learning How to Learn|← Learning How to Learn]] | [[00 - Dashboard|Dashboard]] | [[Math Prerequisites|Math Prerequisites →]]

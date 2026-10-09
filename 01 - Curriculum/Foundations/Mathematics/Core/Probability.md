@@ -82,4 +82,4 @@ Work all MIT 6.041 problem sets and formal mathematical derivations in `latex`. 
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Algorithms I|← Algorithms I]] | [[00 - Dashboard|Dashboard]] | [[Networking|Networking →]]
+- **Sequential Flow:** [[Computer Architecture|← Computer Architecture]] | [[00 - Dashboard|Dashboard]] | [[Signals and Systems Bridge|Signals and Systems Bridge →]]

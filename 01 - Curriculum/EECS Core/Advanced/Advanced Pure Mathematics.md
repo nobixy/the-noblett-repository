@@ -15,6 +15,7 @@ milestone: "Master Group Theory, Point-Set Topology, and Manifolds"
 date_started: ""
 date_completed: ""
 tier: "Tier 3 - Depth"
+optional: true # specialization track not yet chosen (DR-001)
 ---
 
 # Track 14 — Advanced Pure Mathematics
@@ -57,4 +58,4 @@ Instead of software builds, this track requires rigorous, mathematician-grade pr
 > All proofs terminate with a Q.E.D. tombstone, completely satisfy the hypotheses, and demonstrate absolute rigorous logic without hand-waving.
 
 ## ➡️ Next Steps
-- **Sequential Flow:** [[Computational Biology and Bioinformatics|← Computational Biology and Bioinformatics]] | [[00 - Dashboard|Dashboard]] | [[Magnum Opus Capstone|Magnum Opus Capstone →]]
+- **Sequential Flow:** [[Computational Biology and Bioinformatics|← Computational Biology and Bioinformatics]] | [[00 - Dashboard|Dashboard]] | [[05 - Specialization Branches|Specialization Branches →]]

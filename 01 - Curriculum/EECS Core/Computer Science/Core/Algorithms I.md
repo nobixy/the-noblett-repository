@@ -80,4 +80,4 @@ Implement every major data structure and algorithm from scratch in `c` and `pyth
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Theory Index|Theory Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Convex Optimization|← Convex Optimization]] | [[00 - Dashboard|Dashboard]] | [[Probability|Probability →]]
+- **Sequential Flow:** [[Interpreters|← Interpreters]] | [[00 - Dashboard|Dashboard]] | [[Computer Architecture|Computer Architecture →]]

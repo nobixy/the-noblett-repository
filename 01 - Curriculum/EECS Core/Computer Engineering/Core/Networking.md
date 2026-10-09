@@ -78,4 +78,4 @@ All eight Stanford CS144 labs: implement a complete, working TCP stack in modern
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Probability|← Probability]] | [[00 - Dashboard|Dashboard]] | [[Databases|Databases →]]
+- **Sequential Flow:** [[Real Analysis|← Real Analysis]] | [[00 - Dashboard|Dashboard]] | [[Algorithms II|Algorithms II →]]

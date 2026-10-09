@@ -5,7 +5,7 @@ category: "core"
 term: "Year 3 Fall"
 status: not-started
 prerequisites:
-  - "Algorithms II"
+  - "Algorithms I"
   - "Probability"
   - "Linear Algebra"
 hours_estimate: 150
@@ -30,7 +30,7 @@ Transitioning from classical AI into data-driven statistical learning. Covers th
 
 ## 🔗 Prerequisites
 *What must you have mastered before starting this block?*
-- [[Algorithms II]]
+- [[Algorithms I]]
 - [[Probability]]
 - [[Linear Algebra]]
 
@@ -58,4 +58,4 @@ Transitioning from classical AI into data-driven statistical learning. Covers th
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Theory Index|Theory Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Artificial Intelligence|← Artificial Intelligence]] | [[00 - Dashboard|Dashboard]] | [[Computer Security|Computer Security →]]
+- **Sequential Flow:** *Not yet placed in the [[Checklist]] sequence; start once the prerequisites above are done.* | [[00 - Dashboard|Dashboard]]

@@ -82,4 +82,4 @@ Implement Edmonds-Karp network flow, Dinic's blocking flow algorithm, a Primal-D
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Theory Index|Theory Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Distributed Systems|← Distributed Systems]] | [[00 - Dashboard|Dashboard]] | [[Statistics|Statistics →]]
+- **Sequential Flow:** [[Networking|← Networking]] | [[00 - Dashboard|Dashboard]] | [[Databases|Databases →]]

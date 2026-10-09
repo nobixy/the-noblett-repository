@@ -79,4 +79,4 @@ Solve all MIT 18.01 problem sets and write formal solutions for all recitation p
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Math Prerequisites|← Math Prerequisites]] | [[00 - Dashboard|Dashboard]] | [[Programming On-Ramp|Programming On-Ramp →]]
+- **Sequential Flow:** [[CS61A|← CS61A]] | [[00 - Dashboard|Dashboard]] | [[Physics I|Physics I →]]

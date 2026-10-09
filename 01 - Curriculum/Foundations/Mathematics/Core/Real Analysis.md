@@ -82,4 +82,4 @@ Work through Abbott cover-to-cover and write out every single proof in `latex`. 
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Math for CS|← Math for CS]] | [[00 - Dashboard|Dashboard]] | [[Convex Optimization|Convex Optimization →]]
+- **Sequential Flow:** [[Software Construction|← Software Construction]] | [[00 - Dashboard|Dashboard]] | [[Networking|Networking →]]

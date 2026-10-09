@@ -8,13 +8,13 @@ tags:
 
 # 00 - Dashboard
 
-> **[👉 START HERE: The Master Curriculum Map]([[00 - Start Here]])**
+> **[[00 - Start Here|👉 START HERE: The Master Curriculum Map]]**
 
 
 ## 🧭 North Star
 **Goal:** Complete the equivalent of a rigorous MIT Course 6-3 SB + MEng, and then continue executing an infinite, lifelong learning sequence bridging post-doc level depth across quantum computing, computational biology, formal verification, and pure mathematics. This is a magnum opus of self-education.
 
-**Budget:** This is a lifelong endeavor. There is no longer an 8-year completion constraint. The curriculum spans 17 sequential phases (from Arithmetic to advanced Computational Biology and Quantum Information). The only metric that matters is continuous, disciplined forward progress.
+**Budget:** The *Program* (Phase −1 → Year 5 Capstone: core blocks + two specialization tracks + habits, ≈6,500–8,000 h) is timeboxed at ~8 years; below 15 hrs/wk, cut scope (Physics → Statistics → second track) instead of extending. After the Capstone, *Lifelong Continuation* (remaining tracks and beyond) has no deadline. Structure: 7 stages (Phase −1, Phase 0, Years 1–5) in the [[Checklist]]; the 5-phase Core Spine in [[00 - Start Here]] is the employability path through them. See [[DR-001 - Program Scope, Phases, and Timeline|DR-001]].
 
 **The five rules** (from [[The Independent EECS Program.pdf|the source program]]):
 1. No lecture without its problem set the same week.
@@ -40,7 +40,7 @@ tags:
 ---
 
 ## 📊 Degree Progress
-*Driven by each block's `status` and `hours_actual` frontmatter: update those, and this updates itself. Blocks flagged `optional: true` (the 04a/08a/15a bridges) are left out.*
+*Driven by each block's `status` and `hours_actual` frontmatter: update those, and this updates itself. Blocks flagged `optional: true` (the 04a/08a/15a bridges and any specialization track not yet chosen) are left out.*
 
 ```dataview
 TABLE WITHOUT ID status AS Status, length(rows) AS Blocks, sum(rows.hours_actual) AS "Hours logged", sum(rows.hours_estimate) AS "Hours planned"

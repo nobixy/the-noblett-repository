@@ -62,4 +62,4 @@ Complete the core assignments from Stanford CS149, including optimizing a fracta
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Software Construction|← Software Construction]] | [[00 - Dashboard|Dashboard]] | [[Distributed Systems|Distributed Systems →]]
+- **Sequential Flow:** *Not yet placed in the [[Checklist]] sequence; start once the prerequisites above are done.* | [[00 - Dashboard|Dashboard]]

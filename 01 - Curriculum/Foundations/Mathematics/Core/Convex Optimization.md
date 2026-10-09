@@ -86,4 +86,4 @@ Formulate and solve large-scale convex optimization problems in `python` using `
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Real Analysis|← Real Analysis]] | [[00 - Dashboard|Dashboard]] | [[Algorithms I|Algorithms I →]]
+- **Sequential Flow:** [[Theory of Computation|← Theory of Computation]] | [[00 - Dashboard|Dashboard]] | [[05 - Specialization Branches|Specialization A, Course 1 →]]

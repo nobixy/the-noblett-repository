@@ -200,4 +200,4 @@ You must design, simulate in SPICE (LTspice or ngspice), and physically breadboa
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Hardware Index|Hardware Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Physics II|← Physics II]] | [[00 - Dashboard|Dashboard]] | [[Signals and Systems Bridge|Signals and Systems Bridge →]]
+- **Sequential Flow:** [[Physics II|← Physics II]] | [[00 - Dashboard|Dashboard]] | [[Computer Systems|Computer Systems →]]

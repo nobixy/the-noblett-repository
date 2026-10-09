@@ -79,4 +79,4 @@ Write out formal reductions proving undecidability and NP-completeness for compl
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Theory Index|Theory Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Interpreters|← Interpreters]] | [[00 - Dashboard|Dashboard]] | [[Physics I|Physics I →]]
+- **Sequential Flow:** [[Distributed Systems|← Distributed Systems]] | [[00 - Dashboard|Dashboard]] | [[Convex Optimization|Convex Optimization →]]

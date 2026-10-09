@@ -64,4 +64,4 @@ Complete the classic Berkeley CS188 Pacman projects in Python. Build agents that
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Theory Index|CS Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Information Theory|← Information Theory]] | [[00 - Dashboard|Dashboard]] | [[Introduction to Machine Learning|Introduction to Machine Learning →]]
+- **Sequential Flow:** *Not yet placed in the [[Checklist]] sequence; start once the prerequisites above are done.* | [[00 - Dashboard|Dashboard]]

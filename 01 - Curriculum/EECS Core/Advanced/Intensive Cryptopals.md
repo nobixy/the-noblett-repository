@@ -74,4 +74,4 @@ Complete hands-on security and formal verification engineering in `python`, `rus
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Advanced Security and Cryptography|← Advanced Security and Cryptography]] | [[00 - Dashboard|Dashboard]] | [[Quantum Information and Computing|Quantum Information and Computing →]]
+- **Sequential Flow:** [[05 - Specialization Branches|← Specialization A, Course 1]] | [[00 - Dashboard|Dashboard]] | [[05 - Specialization Branches|Specialization A, Course 2 →]]

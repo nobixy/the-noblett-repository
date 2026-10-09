@@ -15,6 +15,7 @@ aliases: [Track 10 - Quantum Information and Computing, Track 10 - Quantum Compu
 tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
+optional: true # specialization track not yet chosen (DR-001)
 ---
 
 # Track 10: Quantum Information and Computing
@@ -219,4 +220,4 @@ A complete software compilation and quantum algorithm pipeline that maps molecul
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[05 - Specialization Branches|Block 29 - Specialization B1]] and Course 2 binds to [[05 - Specialization Branches|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]]
 
-- **Sequential Flow:** [[Intensive Cryptopals|← Intensive Cryptopals]] | [[00 - Dashboard|Dashboard]] | [[Computational Biology and Bioinformatics|Computational Biology and Bioinformatics →]]
+- **Sequential Flow:** [[Advanced Security and Cryptography|← Advanced Security and Cryptography]] | [[00 - Dashboard|Dashboard]] | [[Computational Biology and Bioinformatics|Computational Biology and Bioinformatics →]]

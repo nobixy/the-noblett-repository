@@ -85,4 +85,4 @@ Implement a complete statistical inference and modeling testbench in `python` us
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Algorithms II|← Algorithms II]] | [[00 - Dashboard|Dashboard]] | [[Information Theory|Information Theory →]]
+- **Sequential Flow:** [[Databases|← Databases]] | [[00 - Dashboard|Dashboard]] | [[Distributed Systems|Distributed Systems →]]

@@ -76,6 +76,7 @@
 ---
 
 ## Year 4: Advanced Core and Specializations
+*Specialization A opens at Block 26, once Blocks 23–25 are done. Choose both tracks before Block 26 and clear `optional: true` on those two notes (DR-001). Employability Portfolio due by end of Year 4.*
 - [ ] **[[Distributed Systems|Block 23]]:** Distributed Systems (MIT 6.5840 / 6.824, Kleppmann) — *All labs pass 500 consecutive runs under `go test -race`.*
 - [ ] **[[Theory of Computation|Block 24]]:** Theory of Computation (✓ *Hopcroft*, MIT 6.045) — *6.045 final passed; prove NP-completeness and undecidability by reduction.*
 - [ ] **[[Convex Optimization|Block 25]]:** Convex Optimization (Boyd & Vandenberghe, Stanford EE364A) — *EE364A homework 1–8 done; CVXPY project + manual KKT.*
@@ -97,3 +98,12 @@
 - [ ] **[[05 - Specialization Branches|Specialization B — Course 2]].**
 - [ ] **[[Information Theory|Block 32]]:** Information Theory (David MacKay, Cover & Thomas) — *Derive Shannon entropy, channel capacity, Huffman/Arithmetic encoders, and LDPC codes.*
 - [ ] **Year 5 Breadth (HASS):** Yale Open Course (History) + Great-books sequence / Prose *Reading Like a Writer*.
+
+---
+
+## Not Yet Scheduled (notes exist, no slot in the year plan)
+*These are marked Tier 1 - Core and count toward the Dashboard hour totals, but the source program has no slot for them. Place each one, or mark it optional, before Year 3.*
+- [ ] **[[Artificial Intelligence]]:** Berkeley CS188, Russell & Norvig. Needs Math for CS, Probability, Algorithms I.
+- [ ] **[[Introduction to Machine Learning]]:** MIT 6.3900 / 6.036. Needs Algorithms I, Probability, Linear Algebra.
+- [ ] **[[Computer Security]]:** Anderson, *Security Engineering*. Needs Computer Systems, Networking.
+- [ ] **[[Parallel Computing]]:** Stanford CS149. Needs Computer Architecture, Operating Systems.

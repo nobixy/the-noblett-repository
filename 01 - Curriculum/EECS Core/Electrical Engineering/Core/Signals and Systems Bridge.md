@@ -234,4 +234,4 @@ You must implement a production-grade, zero-dependency digital signal processing
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Circuits and Electronics Bridge|← Circuits and Electronics Bridge]] | [[00 - Dashboard|Dashboard]] | [[Differential Equations Bridge|Differential Equations Bridge →]]
+- **Sequential Flow:** [[Probability|← Probability]] | [[00 - Dashboard|Dashboard]] | [[Operating Systems|Operating Systems →]]

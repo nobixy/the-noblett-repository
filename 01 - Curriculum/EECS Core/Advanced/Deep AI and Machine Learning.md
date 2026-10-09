@@ -17,6 +17,7 @@ aliases: [Track 1 - AI and Machine Learning, Track 1 - Artificial Intelligence a
 tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
+optional: true # specialization track not yet chosen (DR-001)
 ---
 
 # Track 1: AI and Machine Learning

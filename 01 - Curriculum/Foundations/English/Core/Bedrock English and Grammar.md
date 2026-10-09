@@ -99,4 +99,4 @@ The two master rules that instantly transform weak, muddy sentences into surgica
 *Why does the next subject come next?*
 - Next Block
 
-- **Sequential Flow:** [[Tooling|← Tooling]] | [[00 - Dashboard|Dashboard]] | [[Reading, Thinking, and Writing|Reading, Thinking, and Writing →]]
+- **Sequential Flow:** [[Bedrock Mathematics|← Bedrock Mathematics]] | [[00 - Dashboard|Dashboard]] | [[Learning How to Learn|Learning How to Learn →]]

@@ -16,6 +16,7 @@ aliases: [Track 7 - TinyML and Edge AI, Track 7 - TinyML, Edge AI and Neuromorph
 tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
+optional: true # specialization track not yet chosen (DR-001)
 ---
 
 # Track 7: TinyML and Edge AI

@@ -76,4 +76,4 @@ The Scheme interpreter project. Then extend it with something the course doesn't
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Languages Index|Languages Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Programming On-Ramp|← Programming On-Ramp]] | [[00 - Dashboard|Dashboard]] | [[SICP|SICP →]]
+- **Sequential Flow:** [[Tooling|← Tooling]] | [[00 - Dashboard|Dashboard]] | [[Calculus I|Calculus I →]]

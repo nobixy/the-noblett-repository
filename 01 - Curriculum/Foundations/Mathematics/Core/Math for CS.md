@@ -78,4 +78,4 @@ Work through every assigned problem set in MIT 6.042J, typesetting complete form
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Operating Systems|← Operating Systems]] | [[00 - Dashboard|Dashboard]] | [[Real Analysis|Real Analysis →]]
+- **Sequential Flow:** [[Computer Systems|← Computer Systems]] | [[00 - Dashboard|Dashboard]] | [[Linear Algebra|Linear Algebra →]]

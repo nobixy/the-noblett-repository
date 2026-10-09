@@ -75,4 +75,4 @@ Build from scratch in `python` using `numpy`: LU factorization with partial pivo
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Nand2Tetris|← Nand2Tetris]] | [[00 - Dashboard|Dashboard]] | [[Computer Systems|Computer Systems →]]
+- **Sequential Flow:** [[Math for CS|← Math for CS]] | [[00 - Dashboard|Dashboard]] | [[Interpreters|Interpreters →]]

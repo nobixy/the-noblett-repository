@@ -36,25 +36,30 @@ Continuous, low-friction daily habits:
 
 > **Rule:** Do not skip prerequisites. Progress requires verifiable evidence (code, projects, problem sets), not just reading.
 
+*The spine is the employability path (the source program's §5.3 "get employable" sequence, plus a few extras). The full program, including the Phase −1/0 foundations, the math and physics sequence, and theory, is tracked block by block in the [[Checklist]].*
+
 ### Phase 1: Foundations & Programming Intro
 *Building algorithmic thinking and basic abstractions.*
 - [[Programming On-Ramp]] *(If no prior experience)*
-- [[CS61A|Structure and Interpretation of Computer Programs (Python)]] or [[CS61A]]
+- [[CS61A|Programming and Abstraction (Berkeley CS61A, Python)]]
+- [[SICP]] *(Optional depth: the original Scheme text, after CS61A)*
+- [[Math Prerequisites]] *(Proof basics; required before Math for CS)*
 
 ### Phase 2: Data, Logic, and Proof
 *The mathematical and structural basis of computation.*
 - [[Math for CS|Mathematics for Computer Science]] *(Discrete Math & Proofs)*
-- [[Algorithms I|Data Structures]]
 
 ### Phase 3: Hardware & Systems Architecture
 *Crossing the hardware-software boundary.*
 - [[C Fluency|C Fluency and Memory Management]]
 - [[Nand2Tetris]]
+- [[Computer Systems|Computer Systems (CS:APP)]]
 - [[Computer Architecture]]
 
 ### Phase 4: Core Software Engineering
 *Managing complexity and system resources.*
 - [[Algorithms I]]
+- [[Interpreters]] *(Monkey + clox; Software Construction rebuilds it)*
 - [[Operating Systems]]
 - [[Networking|Computer Networks]]
 
@@ -68,7 +73,7 @@ Continuous, low-friction daily habits:
 ---
 
 ## Specialization Branches (Elective)
-*Enter these only after completing Phase 5 or when professionally required. Pick one primary branch at a time.*
+*Specialization A starts at Checklist Block 26, after every Phase 5 course is done (Year 4 in the [[Checklist]]). Pick two tracks for the Program and run them one at a time; the rest are Lifelong Continuation. Entering early "when professionally required" needs a Decision Record.*
 
 - [[05 - Specialization Branches|Branch - Full-Stack and Product Engineering]]
 - [[05 - Specialization Branches|Branch - Systems and Performance]]

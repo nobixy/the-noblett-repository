@@ -7,6 +7,7 @@ status: not-started
 prerequisites:
   - "CS61A"
   - "C Fluency"
+  - "Interpreters"
 hours_estimate: 150
 hours_actual: 0
 primary_resource: "MIT 6.1020 / 6.031 Readings, Joshua Bloch (Effective Java), & Ousterhout (A Philosophy of Software Design)"
@@ -41,6 +42,7 @@ The most under-appreciated course in the MIT degree. How to write complex code t
 *What must you have mastered before starting this block?*
 - [[CS61A]]
 - [[C Fluency]]
+- [[Interpreters]]
 
 
 ## 📖 Primary Syllabus & Core Content
@@ -130,4 +132,4 @@ The most under-appreciated course in the MIT degree. How to write complex code t
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Languages Index|Languages Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Databases|← Databases]] | [[00 - Dashboard|Dashboard]] | [[Parallel Computing|Parallel Computing →]]
+- **Sequential Flow:** [[Operating Systems|← Operating Systems]] | [[00 - Dashboard|Dashboard]] | [[Real Analysis|Real Analysis →]]

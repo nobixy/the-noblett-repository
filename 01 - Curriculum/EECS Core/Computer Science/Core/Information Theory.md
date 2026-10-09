@@ -82,4 +82,4 @@ Implement an information theory and coding suite in `python` and `c++` using `nu
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Statistics|← Statistics]] | [[00 - Dashboard|Dashboard]] | [[Artificial Intelligence|Artificial Intelligence →]]
+- **Sequential Flow:** [[Magnum Opus Capstone|← Magnum Opus Capstone]] | [[00 - Dashboard|Dashboard]] | [[00 - Dashboard|Dashboard →]]

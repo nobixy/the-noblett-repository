@@ -60,8 +60,8 @@
 
 ## 4. Time, Honestly
 - MIT counts one "unit" as roughly 1 hr/wk for a 14-week term; a 12-unit subject is ~170 hours.
-- The whole program is roughly **6,500–8,000 hours**.
-- Below 15 hrs/wk, cut scope rather than extending the timeline beyond 8 years.
+- The Program (Phase −1 → Capstone, core + two tracks + habits) is roughly **6,500–8,000 hours**; unchosen tracks are Lifelong Continuation and not counted.
+- Below 15 hrs/wk, cut scope (Physics → Statistics → second track) rather than extending the Program beyond ~8 years.
 
 ---
 
@@ -109,3 +109,4 @@ Sustaining this multi-year independent curriculum requires rigorous psychologica
 | :--- | :--- | :--- |
 | 2026-09-25 | Phase -1 (Bedrock Setup) | Added the 8 core cognitive study systems (Feynman, Franklin, Blank-Sheet, Elaborative Interrogation) and Bedrock Math/English. |
 | 2026-09-25 | Phase -1 (Mindset Update) | Added Mindset, Deep Work, and CS Research Practices sections. |
+| 2026-10-09 | Phase -1 (Bedrock Foundation) | [[DR-001 - Program Scope, Phases, and Timeline\|DR-001]]: Program timeboxed ~8 yrs inside a lifelong system; hour budget = core + two tracks. |

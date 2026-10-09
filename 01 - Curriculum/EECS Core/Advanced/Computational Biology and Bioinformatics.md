@@ -16,6 +16,7 @@ milestone: "Complete the Rosalind Bioinformatics Stronghold and implement a geno
 date_started: ""
 date_completed: ""
 tier: "Tier 3 - Depth"
+optional: true # specialization track not yet chosen (DR-001)
 ---
 
 # Track 12 — Computational Biology and Bioinformatics

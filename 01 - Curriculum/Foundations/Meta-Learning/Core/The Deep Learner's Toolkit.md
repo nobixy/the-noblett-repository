@@ -104,4 +104,4 @@ To become exceptionally educated from the ground up, you must abandon how school
 *Why does the next subject come next?*
 - Next Block
 
-- **Sequential Flow:** [[Learning How to Learn|← Learning How to Learn]] | [[00 - Dashboard|Dashboard]] | [[Tooling|Tooling →]]
+- **Sequential Flow:** [[00 - Dashboard|← Dashboard]] | [[00 - Dashboard|Dashboard]] | [[Bedrock Mathematics|Bedrock Mathematics →]]

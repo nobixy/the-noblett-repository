@@ -104,4 +104,4 @@ Here, you start from absolute zero—not as a child memorizing flashcards, but a
 *Why does the next subject come next?*
 - Next Block
 
-- **Sequential Flow:** [[Reading, Thinking, and Writing|← Reading, Thinking, and Writing]] | [[00 - Dashboard|Dashboard]] | [[Math Prerequisites|Math Prerequisites →]]
+- **Sequential Flow:** [[The Deep Learner's Toolkit|← The Deep Learner's Toolkit]] | [[00 - Dashboard|Dashboard]] | [[Bedrock English and Grammar|Bedrock English and Grammar →]]

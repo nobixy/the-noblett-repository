@@ -6,7 +6,6 @@ term: "Year 1 Spring"
 status: not-started
 prerequisites:
   - "Multivariable Calculus"
-  - "Linear Algebra"
 optional: true # computer-engineering path; excluded from the hour budget
 hours_estimate: 150
 hours_actual: 0
@@ -50,7 +49,6 @@ In computer science, computation is almost universally conceptualized as a seque
 ## 🔗 Prerequisites
 *What must you have mastered before starting this block?*
 - [[Multivariable Calculus]]
-- [[Linear Algebra]]
 
 
 ## 📖 Primary Syllabus & Core Content
@@ -235,4 +233,4 @@ You must construct a high-performance numerical simulation suite and phase-space
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Signals and Systems Bridge|← Signals and Systems Bridge]] | [[00 - Dashboard|Dashboard]] | [[Advanced Systems and Performance|Advanced Systems and Performance →]]
+- **Sequential Flow:** [[Nand2Tetris|← Nand2Tetris]] | [[00 - Dashboard|Dashboard]] | [[SICP|SICP →]]

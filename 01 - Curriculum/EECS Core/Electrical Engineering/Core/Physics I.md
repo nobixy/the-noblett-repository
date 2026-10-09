@@ -79,4 +79,4 @@ Complete all 8.01SC homework sets and problem-solving workshops.
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Theory of Computation|← Theory of Computation]] | [[00 - Dashboard|Dashboard]] | [[Physics II|Physics II →]]
+- **Sequential Flow:** [[Calculus I|← Calculus I]] | [[00 - Dashboard|Dashboard]] | [[Nand2Tetris|Nand2Tetris →]]

@@ -94,4 +94,4 @@ Implement a 300-line modular data structure library in `c` (hash table with sepa
 *Why does the next subject come next?*
 - Next Block
 
-- **Sequential Flow:** [[Calculus I|← Calculus I]] | [[00 - Dashboard|Dashboard]] | [[CS61A|CS61A →]]
+- **Sequential Flow:** [[Math Prerequisites|← Math Prerequisites]] | [[00 - Dashboard|Dashboard]] | [[Tooling|Tooling →]]

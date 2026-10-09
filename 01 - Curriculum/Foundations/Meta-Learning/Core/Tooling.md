@@ -91,4 +91,4 @@ Tools shape thought. Trying to learn operating systems or algorithms while fumbl
 *Why does the next subject come next?*
 - Next Block
 
-- **Sequential Flow:** [[The Deep Learner's Toolkit|← The Deep Learner's Toolkit]] | [[00 - Dashboard|Dashboard]] | [[Bedrock English and Grammar|Bedrock English and Grammar →]]
+- **Sequential Flow:** [[Programming On-Ramp|← Programming On-Ramp]] | [[00 - Dashboard|Dashboard]] | [[CS61A|CS61A →]]

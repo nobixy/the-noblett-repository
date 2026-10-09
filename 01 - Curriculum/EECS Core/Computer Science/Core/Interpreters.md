@@ -5,7 +5,7 @@ category: "core"
 term: "Year 2 January Intensive"
 status: not-started
 prerequisites:
-  - "Software Construction"
+  - "C Fluency"
   - "Computer Systems"
 hours_estimate: 130
 hours_actual: 0
@@ -39,7 +39,7 @@ Build two complete programming language implementations — one tree-walking int
 
 ## 🔗 Prerequisites
 *What must you have mastered before starting this block?*
-- [[Software Construction]]
+- [[C Fluency]]
 - [[Computer Systems]]
 
 
@@ -77,4 +77,4 @@ Build two complete programming language implementations — one tree-walking int
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Languages Index|Languages Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Computer Security|← Computer Security]] | [[00 - Dashboard|Dashboard]] | [[Theory of Computation|Theory of Computation →]]
+- **Sequential Flow:** [[Linear Algebra|← Linear Algebra]] | [[00 - Dashboard|Dashboard]] | [[Algorithms I|Algorithms I →]]

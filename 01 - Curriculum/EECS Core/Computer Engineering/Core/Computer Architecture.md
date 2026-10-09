@@ -80,4 +80,4 @@ Build a 5-stage pipelined RISC-V processor core in Verilog with hazard detection
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Hardware Index|Hardware Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Computer Systems|← Computer Systems]] | [[00 - Dashboard|Dashboard]] | [[Operating Systems|Operating Systems →]]
+- **Sequential Flow:** [[Algorithms I|← Algorithms I]] | [[00 - Dashboard|Dashboard]] | [[Probability|Probability →]]

@@ -87,4 +87,4 @@ Complete all twelve Nand2Tetris projects using the Hardware Simulator, `python` 
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Hardware Index|Hardware Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Multivariable Calculus|← Multivariable Calculus]] | [[00 - Dashboard|Dashboard]] | [[Linear Algebra|Linear Algebra →]]
+- **Sequential Flow:** [[Physics I|← Physics I]] | [[00 - Dashboard|Dashboard]] | [[Differential Equations Bridge|Differential Equations Bridge →]]

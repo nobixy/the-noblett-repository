@@ -16,6 +16,7 @@ aliases: [Track 6 - Computer Engineering, Track 6 - Computer Engineering (Deep H
 tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
+optional: true # specialization track not yet chosen (DR-001)
 ---
 
 # Track 6: Computer Engineering

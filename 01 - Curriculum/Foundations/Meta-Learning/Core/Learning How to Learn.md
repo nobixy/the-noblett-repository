@@ -93,4 +93,4 @@ Everything downstream assumes you know how memory, practice, and attention actua
 *Why does the next subject come next?*
 - Next Block
 
-- **Sequential Flow:** [[00 - Dashboard|← Dashboard]] | [[00 - Dashboard|Dashboard]] | [[The Deep Learner's Toolkit|The Deep Learner's Toolkit →]]
+- **Sequential Flow:** [[Bedrock English and Grammar|← Bedrock English and Grammar]] | [[00 - Dashboard|Dashboard]] | [[Reading, Thinking, and Writing|Reading, Thinking, and Writing →]]

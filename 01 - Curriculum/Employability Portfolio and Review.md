@@ -8,6 +8,8 @@ tags:
 
 # Employability Portfolio and Review
 
+*Due by the end of Year 4, before the Capstone proposal. Not a gate for specializations ([[DR-001 - Program Scope, Phases, and Timeline|DR-001]]).*
+
 The milestone specification for reaching baseline professional readiness.
 
 ## Requirements

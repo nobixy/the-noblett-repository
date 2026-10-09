@@ -86,4 +86,4 @@ Deliver a complete, production-grade engineering artifact developed in `c`, `c++
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Projects Hub|Projects Hub]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Advanced Pure Mathematics|← Advanced Pure Mathematics]] | [[00 - Dashboard|Dashboard]] | [[00 - Dashboard|Dashboard →]]
+- **Sequential Flow:** [[05 - Specialization Branches|← Specialization B, Course 1]] | [[00 - Dashboard|Dashboard]] | [[Information Theory|Information Theory →]]

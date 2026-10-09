@@ -83,4 +83,4 @@ Complete every single MIT 6.1810 xv6 lab in `c` using `gcc`, debugged with `gdb`
   - Overview: [[00 - Dashboard|Dashboard]]
   - Next: [[Software Construction|Block 17 — Software Construction]]
 
-- **Sequential Flow:** [[Computer Architecture|← Computer Architecture]] | [[00 - Dashboard|Dashboard]] | [[Math for CS|Math for CS →]]
+- **Sequential Flow:** [[Signals and Systems Bridge|← Signals and Systems Bridge]] | [[00 - Dashboard|Dashboard]] | [[Software Construction|Software Construction →]]

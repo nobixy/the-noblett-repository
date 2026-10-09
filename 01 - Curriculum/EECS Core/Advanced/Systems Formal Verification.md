@@ -15,6 +15,7 @@ milestone: "Formally verify a distributed consensus protocol and a relational so
 date_started: ""
 date_completed: ""
 tier: "Tier 3 - Depth"
+optional: true # specialization track not yet chosen (DR-001)
 ---
 
 # Track 13 — Systems Formal Verification (TLA+ & Alloy)

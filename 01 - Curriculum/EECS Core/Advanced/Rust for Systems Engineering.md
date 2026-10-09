@@ -15,6 +15,7 @@ aliases: [Track 8 - Rust for Systems Engineering and Formal Verification, Track 
 tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
+optional: true # specialization track not yet chosen (DR-001)
 ---
 
 # Track 8: Rust for Systems Engineering and Formal Verification

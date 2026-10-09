@@ -77,4 +77,4 @@ Complete all problem sets, recitation workshops, and practice exams.
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[C Fluency|← C Fluency]] | [[00 - Dashboard|Dashboard]] | [[Nand2Tetris|Nand2Tetris →]]
+- **Sequential Flow:** [[C Fluency|← C Fluency]] | [[00 - Dashboard|Dashboard]] | [[Physics II|Physics II →]]

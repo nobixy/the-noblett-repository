@@ -83,4 +83,4 @@ Implement all four CMU BusTub projects in `c++` using `cmake`, debugged with `gd
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Networking|← Networking]] | [[00 - Dashboard|Dashboard]] | [[Software Construction|Software Construction →]]
+- **Sequential Flow:** [[Algorithms II|← Algorithms II]] | [[00 - Dashboard|Dashboard]] | [[Statistics|Statistics →]]

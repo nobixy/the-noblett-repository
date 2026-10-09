@@ -11,12 +11,13 @@ prerequisites:
   - "Math for CS"
   - "Operating Systems"
   - "Networking"
-  - "Intensive Cryptopals or TLA+"
+  - "Intensive Cryptopals"
 target_profile: "Cryptographic Engineer, Security Researcher, Binary Exploitation Specialist, High-Assurance Systems Auditor"
 aliases: [Track 3 - Security and Cryptography, Track 3 - Cryptography and Systems Security]
 tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
+optional: true # specialization track not yet chosen (DR-001)
 ---
 
 # Track 3: Security and Cryptography
@@ -85,7 +86,7 @@ This course develops modern provable cryptography, reductionist security proofs,
 
 ---
 
-### Course 2: Systems Security, Binary Exploitation & Protocol Verification (MIT 6.1600/6.858 + pwn.college)
+### Course 2: Systems Security, Binary Exploitation & Protocol Verification (MIT 6.5660/6.858 + pwn.college)
 
 This course explores memory corruption vulnerabilities, binary exploitation, operating system isolation mechanisms, microarchitectural side-channels, and secure protocol design.
 
@@ -215,4 +216,4 @@ A secure, multi-party end-to-end encrypted messaging engine written in Rust or C
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[05 - Specialization Branches|Block 29 - Specialization B1]] and Course 2 binds to [[05 - Specialization Branches|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]]
 
-- **Sequential Flow:** [[Hardware-in-the-Loop Virtualization and Digital Twins|← Hardware-in-the-Loop Virtualization and Digital Twins]] | [[00 - Dashboard|Dashboard]] | [[Intensive Cryptopals|Intensive Cryptopals →]]
+- **Sequential Flow:** [[Hardware-in-the-Loop Virtualization and Digital Twins|← Hardware-in-the-Loop Virtualization and Digital Twins]] | [[00 - Dashboard|Dashboard]] | [[Quantum Information and Computing|Quantum Information and Computing →]]

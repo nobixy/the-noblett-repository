@@ -92,4 +92,4 @@ Complete all seven canonical CMU 15-213 (CS:APP) systems labs in `c` on `linux` 
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Linear Algebra|← Linear Algebra]] | [[00 - Dashboard|Dashboard]] | [[Computer Architecture|Computer Architecture →]]
+- **Sequential Flow:** [[Circuits and Electronics Bridge|← Circuits and Electronics Bridge]] | [[00 - Dashboard|Dashboard]] | [[Math for CS|Math for CS →]]

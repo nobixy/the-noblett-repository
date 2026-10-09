@@ -81,4 +81,4 @@ Work all assigned problem sets and review recitation derivations.
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Hardware Index|Hardware Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Physics I|← Physics I]] | [[00 - Dashboard|Dashboard]] | [[Circuits and Electronics Bridge|Circuits and Electronics Bridge →]]
+- **Sequential Flow:** [[Multivariable Calculus|← Multivariable Calculus]] | [[00 - Dashboard|Dashboard]] | [[Circuits and Electronics Bridge|Circuits and Electronics Bridge →]]

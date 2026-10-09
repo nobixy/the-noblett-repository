@@ -2,7 +2,7 @@
 block_id: "Block 34"
 title: "Computer Security"
 category: "core"
-term: "Year 2"
+term: "Year 3 Spring"
 status: not-started
 prerequisites:
   - "Computer Systems"
@@ -27,4 +27,4 @@ Security is essential for robust systems.
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Theory Index|Theory Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** [[Introduction to Machine Learning|← Introduction to Machine Learning]] | [[00 - Dashboard|Dashboard]] | [[Interpreters|Interpreters →]]
+- **Sequential Flow:** *Not yet placed in the [[Checklist]] sequence; start once the prerequisites above are done.* | [[00 - Dashboard|Dashboard]]

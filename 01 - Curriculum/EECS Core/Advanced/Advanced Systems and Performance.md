@@ -16,6 +16,7 @@ aliases: [Track 2 - Systems and Performance, Track 2 - Performance Engineering a
 tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
+optional: true # specialization track not yet chosen (DR-001)
 ---
 
 # Track 2: Systems and Performance
@@ -212,4 +213,4 @@ An industrial-grade, persistent key-value storage engine engineered in C++ or Ru
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[05 - Specialization Branches|Block 29 - Specialization B1]] and Course 2 binds to [[05 - Specialization Branches|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]]
 
-- **Sequential Flow:** [[Differential Equations Bridge|← Differential Equations Bridge]] | [[00 - Dashboard|Dashboard]] | [[Rust for Systems Engineering|Rust for Systems Engineering →]]
+- **Sequential Flow:** [[05 - Specialization Branches|← Specialization Branches]] | [[00 - Dashboard|Dashboard]] | [[Rust for Systems Engineering|Rust for Systems Engineering →]]

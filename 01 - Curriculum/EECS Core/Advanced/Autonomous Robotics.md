@@ -17,6 +17,7 @@ aliases: [Track 11 - Autonomous Robotics and Cyber-Physical Systems, Track 11 - 
 tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
+optional: true # specialization track not yet chosen (DR-001)
 ---
 
 # Track 11: Autonomous Robotics and Cyber-Physical Systems

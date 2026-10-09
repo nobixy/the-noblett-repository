@@ -16,6 +16,7 @@ aliases: [Track 4 - Graphics and Vision, Track 4 - Computer Graphics and Vision]
 tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
+optional: true # specialization track not yet chosen (DR-001)
 ---
 
 # Track 4: Graphics and Vision
