@@ -79,21 +79,21 @@
 - [ ] **[[Distributed Systems|Block 23]]:** Distributed Systems (MIT 6.5840 / 6.824, Kleppmann) — *All labs pass 500 consecutive runs under `go test -race`.*
 - [ ] **[[Theory of Computation|Block 24]]:** Theory of Computation (✓ *Hopcroft*, MIT 6.045) — *6.045 final passed; prove NP-completeness and undecidability by reduction.*
 - [ ] **[[Convex Optimization|Block 25]]:** Convex Optimization (Boyd & Vandenberghe, Stanford EE364A) — *EE364A homework 1–8 done; CVXPY project + manual KKT.*
-- [ ] **[[Specialization A1|Block 26]]:** Specialization A — Course 1.
-- [ ] **[[Intensive Cryptopals or TLA+|Block 27]]:** January Intensive: Cryptopals (all 8 sets) OR TLA+ (spec Raft, find real bug).
-- [ ] **[[Specialization A2|Block 28]]:** Specialization A — Course 2.
-- [ ] **[[Specialization B1|Block 29]]:** Specialization B — Course 1.
+- [ ] **[[05 - Specialization Branches|Block 26]]:** Specialization A — Course 1.
+- [ ] **[[Intensive Cryptopals|Block 27]]:** January Intensive: Cryptopals (all 8 sets) OR TLA+ (spec Raft, find real bug).
+- [ ] **[[05 - Specialization Branches|Block 28]]:** Specialization A — Course 2.
+- [ ] **[[05 - Specialization Branches|Block 29]]:** Specialization B — Course 1.
 - [ ] **Year 4 Breadth (HASS):** MIT 6.805 Ethics / Hofstadter *Gödel, Escher, Bach*.
 - [ ] **Year 4 Writing Deliverable:** Capstone proposal (3,000 words: problem, related work, plan, evaluation criteria).
 
 ---
 
 ## Year 5: The MEng Year
-- [ ] **[[Capstone|Block 30]]:** Capstone Project (System / Research Replicate / Open Source / Tape out Chip).
+- [ ] **[[Magnum Opus Capstone|Block 30]]:** Capstone Project (System / Research Replicate / Open Source / Tape out Chip).
 - [ ] **Capstone Artifact:** Public artifact with documentation.
 - [ ] **Capstone Thesis:** 15,000–25,000 words.
 - [ ] **Capstone Talk:** 30-minute recorded presentation.
 - [ ] **Capstone Outside Review:** Written critique from external reviewer.
-- [ ] **[[Specialization B2|Specialization B — Course 2]].**
+- [ ] **[[05 - Specialization Branches|Specialization B — Course 2]].**
 - [ ] **[[Information Theory|Block 32]]:** Information Theory (David MacKay, Cover & Thomas) — *Derive Shannon entropy, channel capacity, Huffman/Arithmetic encoders, and LDPC codes.*
 - [ ] **Year 5 Breadth (HASS):** Yale Open Course (History) + Great-books sequence / Prose *Reading Like a Writer*.

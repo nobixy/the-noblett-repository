@@ -109,7 +109,7 @@ This curated catalog contains foundational PhD-level papers categorized across 7
 |:---|:---|:---:|:---:|:---|:---|
 | 31 | **"New Directions in Cryptography"** (Whitfield Diffie & Martin E. Hellman) | 1976 | *IEEE Transactions on Information Theory* | Asymmetric public-key cryptography; Diffie-Hellman key exchange over discrete logarithm groups; computational one-way trapdoor functions. | [[Math for CS]] |
 | 32 | **"A Method for Obtaining Digital Signatures and Public-Key Cryptosystems"** (Ronald L. Rivest, Adi Shamir, Leonard Adleman) | 1978 | *Communications of the ACM* | The RSA cryptosystem; Euler's totient theorem and integer factorization hardness for digital signatures and encryption. | [[Math for CS]] |
-| 33 | **"On Lattices, Learning with Errors, Random Linear Codes, and Cryptography"** (Oded Regev) | 2005 | *STOC '05* | Reduction from worst-case lattice problems (GapSVP, SIVP) to average-case Learning With Errors (LWE), foundational to post-quantum cryptography. | [[Intensive Cryptopals or TLA+]] |
+| 33 | **"On Lattices, Learning with Errors, Random Linear Codes, and Cryptography"** (Oded Regev) | 2005 | *STOC '05* | Reduction from worst-case lattice problems (GapSVP, SIVP) to average-case Learning With Errors (LWE), foundational to post-quantum cryptography. | [[Intensive Cryptopals]] |
 | 34 | **"A Mathematical Theory of Communication"** (Claude E. Shannon) | 1948 | *Bell System Technical Journal* | Information entropy $H(X) = -\sum p_i \log_2 p_i$, source coding theorem, and noisy channel coding theorem capacity limit $C = B \log_2(1 + \text{SNR})$. | [[Information Theory]] |
 | 35 | **"How to Share a Secret"** (Adi Shamir) | 1979 | *Communications of the ACM* | $(k, n)$-threshold secret sharing via Lagrange polynomial interpolation over finite fields $\mathbb{F}_p$; information-theoretically secure against $<k$ colluding shares. | [[Math for CS]] |
 
@@ -138,7 +138,7 @@ Year 4 (Specialization & Graduate Core):
   - Fischer, Lynch, Paterson (1985) [FLP Impossibility] -> [[Distributed Systems]]
   - Ongaro & Ousterhout (2014) [Raft Consensus] -> [[Distributed Systems]]
   - Cook (1971) & Karp (1972) [NP-Completeness Foundations] -> [[Theory of Computation]]
-  - Regev (2005) [Learning With Errors Lattice Reduction] -> [[Intensive Cryptopals or TLA+]]
+  - Regev (2005) [Learning With Errors Lattice Reduction] -> [[Intensive Cryptopals]]
   - Vaswani et al. (2017) [Transformer Attention] -> [[Linear Algebra]]
 
 Year 5 (MEng & Capstone):

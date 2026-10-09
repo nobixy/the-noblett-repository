@@ -19,7 +19,7 @@ tier: "Tier 3 - Depth"
 
 # Track 13 — Systems Formal Verification (TLA+ & Alloy)
 
-[[00 - Dashboard|Dashboard]] / [[Specializations Hub|Specializations Hub]]
+[[00 - Dashboard|Dashboard]] / [[05 - Specialization Branches|Specializations Hub]]
 
 > [!INFO] Track Overview
 > - **Term / Position:** Year 4 or 5 Specialization

@@ -2,7 +2,7 @@
 block_id: "Block 33"
 title: "Introduction to Machine Learning"
 category: "core"
-term: "Year 2"
+term: "Year 3 Fall"
 status: not-started
 prerequisites:
   - "Algorithms II"
@@ -13,10 +13,20 @@ hours_actual: 0
 tier: "Tier 1 - Core"
 ---
 
-# Introduction to Machine Learning
+# Introduction to Machine Learning (MIT 6.3900 / 6.036)
 
-## 🎯 Why This Matters
-Machine learning is fundamental to modern computer science.
+> [!INFO] Block Overview
+> - **Term / Position:** Year 3 Fall
+> - **Estimated Hours:** ~150 hrs
+> - **Status:** `not-started`
+> - **Primary Resource:** MIT 6.3900 / 6.036
+
+---
+
+## 🎯 Course Scope
+Transitioning from classical AI into data-driven statistical learning. Covers the mathematical foundations of model training, deep learning, and unsupervised methods.
+
+---
 
 ## 🔗 Prerequisites
 *What must you have mastered before starting this block?*
@@ -24,8 +34,27 @@ Machine learning is fundamental to modern computer science.
 - [[Probability]]
 - [[Linear Algebra]]
 
-## 📖 Core Resources
-- Russell & Norvig
+---
+
+## 📖 Topics List
+- [ ] Linear/logistic regression
+- [ ] Neural nets & backprop
+- [ ] CNNs
+- [ ] RNNs/attention
+- [ ] Clustering/PCA
+
+---
+
+## 🏁 Done when
+> [!IMPORTANT]
+> A concrete machine learning project is completed, and core algorithms (linear/logistic regression, neural nets, CNNs, RNNs, PCA) are implemented from scratch in NumPy without framework crutches.
+
+---
+
+## 📝 Study Notes, Psets & Proofs
+*Your blank-page attempts, derivations, and atomic reflections.*
+
+---
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Theory Index|Theory Index]] | [[Checklist|Master Checklist]]

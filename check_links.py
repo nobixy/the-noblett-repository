@@ -18,6 +18,11 @@ for f in md_files:
     valid_targets.add(basename[:-3])
     valid_targets.add(basename) # sometimes .md is included
 
+for root, dirs, files in os.walk(repo_dir):
+    for f in files:
+        if f.endswith(".pdf"):
+            valid_targets.add(f)
+
 # Find and validate wikilinks
 missing_links = []
 wikilink_pattern = re.compile(r'\[\[(.*?)\]\]')

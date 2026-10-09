@@ -19,7 +19,7 @@ tier: "Tier 1 - Core"
 
 # Block 32 — Introduction to Artificial Intelligence
 
-[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[CS Index|CS Index]]
+[[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Theory Index|CS Index]]
 
 > [!INFO] Block Overview
 > - **Term / Position:** Year 3 Fall
@@ -63,5 +63,5 @@ Complete the classic Berkeley CS188 Pacman projects in Python. Build agents that
 > Compare your agent's behavior against the course autograder outputs.
 
 ## ➡️ Next Steps
-- **Topic Hub:** [[CS Index|CS Index]] | [[Checklist|Master Checklist]]
+- **Topic Hub:** [[Theory Index|CS Index]] | [[Checklist|Master Checklist]]
 - **Sequential Flow:** [[Information Theory|← Information Theory]] | [[00 - Dashboard|Dashboard]] | [[Introduction to Machine Learning|Introduction to Machine Learning →]]

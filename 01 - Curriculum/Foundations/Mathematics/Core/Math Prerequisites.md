@@ -90,6 +90,6 @@ Write rigorous, complete formal solutions to all Velleman Chapters 1–3 exercis
 
 ## ➡️ Next Steps
 *Why does the next subject come next?*
-- [[Next Block]]
+- Next Block
 
 - **Sequential Flow:** [[Bedrock Mathematics|← Bedrock Mathematics]] | [[00 - Dashboard|Dashboard]] | [[Calculus I|Calculus I →]]

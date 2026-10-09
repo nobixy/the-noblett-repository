@@ -22,7 +22,7 @@ hours_actual: 0
 
 > [!INFO] Track Overview
 > - **Track ID:** Track 7
-> - **Prerequisites:** [[C Fluency]], [[Computer Systems]], [[Computer Architecture]], [[Signals and Systems Bridge]], [[Track 1 - AI and Machine Learning]]
+> - **Prerequisites:** [[C Fluency]], [[Computer Systems]], [[Computer Architecture]], [[Signals and Systems Bridge]], [[Deep AI and Machine Learning]]
 > - **Target Profile:** Edge ML Engineer, Embedded Systems Architect, TinyML Researcher
 > - **Structure:** Two core courses plus three progressive labs and one comprehensive capstone build deliverable.
 > - **Curriculum Position:** Elective specialization block across Years 4 & 5 (*"Two deep beats six shallow"*).
@@ -43,7 +43,7 @@ TinyML is the rigorous discipline of executing deep neural network inference and
 - [[Computer Systems]]
 - [[Computer Architecture]]
 - [[Signals and Systems Bridge]]
-- [[Track 1 - AI and Machine Learning]]
+- [[Deep AI and Machine Learning]]
 
 
 
@@ -211,10 +211,10 @@ An end-to-end, fully autonomous cyber-physical intelligence system deployed to a
 > Assessment criteria go here.
 
 ## ➡️ Next Steps & Degree Pathway
-- **Curriculum Hub:** [[Specializations Hub|Specializations Hub]]
+- **Curriculum Hub:** [[05 - Specialization Branches|Specializations Hub]]
 - **Degree Assignment:**
-  - If chosen as **Primary Specialization (Track A)**: Course 1 binds to [[Specialization A1|Block 26 - Specialization A1]] and Course 2 binds to [[Specialization A2|Block 28 - Specialization A2]].
-  - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization B1|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization B2|Block 31 - Specialization B2]].
+  - If chosen as **Primary Specialization (Track A)**: Course 1 binds to [[05 - Specialization Branches|Block 26 - Specialization A1]] and Course 2 binds to [[05 - Specialization Branches|Block 28 - Specialization A2]].
+  - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[05 - Specialization Branches|Block 29 - Specialization B1]] and Course 2 binds to [[05 - Specialization Branches|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]]
 
 - **Sequential Flow:** [[Advanced Computer Engineering|← Advanced Computer Engineering]] | [[00 - Dashboard|Dashboard]] | [[Autonomous Robotics|Autonomous Robotics →]]

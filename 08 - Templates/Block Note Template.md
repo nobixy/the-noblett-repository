@@ -25,7 +25,7 @@ date_completed: ""
 
 ## 🔗 Prerequisites
 *What must you have mastered before starting this block?*
-- [[Previous Block]]
+- Previous Block
 
 ---
 
@@ -64,4 +64,4 @@ date_completed: ""
 
 ## ➡️ Next Steps
 *Why does the next subject come next?*
-- [[Next Block]]
+- Next Block

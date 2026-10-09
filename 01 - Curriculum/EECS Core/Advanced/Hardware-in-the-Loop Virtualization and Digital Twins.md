@@ -23,7 +23,7 @@ hours_actual: 0
 
 > [!INFO] Track Overview
 > - **Track ID:** Track 9
-> - **Prerequisites:** [[Physics II]], [[Circuits and Electronics Bridge]], [[Computer Systems]], [[Computer Architecture]], [[Operating Systems]], [[Track 6 - Computer Engineering]]
+> - **Prerequisites:** [[Physics II]], [[Circuits and Electronics Bridge]], [[Computer Systems]], [[Computer Architecture]], [[Operating Systems]], [[Advanced Computer Engineering]]
 > - **Target Profile:** HIL Simulation Engineer, Cyber-Physical Systems Architect, Automotive/Avionics Safety Engineer
 > - **Structure:** Two core courses plus three progressive labs and one comprehensive capstone build deliverable.
 > - **Curriculum Position:** Elective specialization block across Years 4 & 5 (*"Two deep beats six shallow"*).
@@ -45,7 +45,7 @@ Validating safety-critical control firmware against ISO 26262 (ASIL-D) or DO-178
 - [[Computer Systems]]
 - [[Computer Architecture]]
 - [[Operating Systems]]
-- [[Track 6 - Computer Engineering]]
+- [[Advanced Computer Engineering]]
 
 
 
@@ -207,10 +207,10 @@ An end-to-end, closed-loop cyber-physical HIL simulation testbed connecting a ph
 > Assessment criteria go here.
 
 ## ➡️ Next Steps & Degree Pathway
-- **Curriculum Hub:** [[Specializations Hub|Specializations Hub]]
+- **Curriculum Hub:** [[05 - Specialization Branches|Specializations Hub]]
 - **Degree Assignment:**
-  - If chosen as **Primary Specialization (Track A)**: Course 1 binds to [[Specialization A1|Block 26 - Specialization A1]] and Course 2 binds to [[Specialization A2|Block 28 - Specialization A2]].
-  - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization B1|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization B2|Block 31 - Specialization B2]].
+  - If chosen as **Primary Specialization (Track A)**: Course 1 binds to [[05 - Specialization Branches|Block 26 - Specialization A1]] and Course 2 binds to [[05 - Specialization Branches|Block 28 - Specialization A2]].
+  - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[05 - Specialization Branches|Block 29 - Specialization B1]] and Course 2 binds to [[05 - Specialization Branches|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]]
 
 - **Sequential Flow:** [[Autonomous Robotics|← Autonomous Robotics]] | [[00 - Dashboard|Dashboard]] | [[Advanced Security and Cryptography|Advanced Security and Cryptography →]]

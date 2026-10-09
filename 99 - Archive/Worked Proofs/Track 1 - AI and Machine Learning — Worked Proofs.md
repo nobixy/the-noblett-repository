@@ -10,10 +10,10 @@ tags:
 
 > [!WARNING] Answer key — open only after your own attempt
 > These derivations were generated as reference material, not study notes. Reading them first creates the illusion of competence that [[how-i-study]] warns about.
-> Protocol: attempt the proof from a blank sheet in [[Track 1 - AI and Machine Learning]] → compare here → log every gap you found.
+> Protocol: attempt the proof from a blank sheet in [[Deep AI and Machine Learning]] → compare here → log every gap you found.
 > They are unverified; treat any step you cannot justify as a possible error, not as authority.
 
-Back to: [[Track 1 - AI and Machine Learning]] · [[Worked Proofs Index]]
+Back to: [[Deep AI and Machine Learning]] · [[Worked Proofs Index]]
 
 ---
 

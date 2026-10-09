@@ -21,4 +21,4 @@ tags:
 - [[Physics II]] (MIT 8.02SC)
 - [[Circuits and Electronics Bridge]] (MIT 6.2000; optional)
 - [[Computer Architecture]] (ETH Zürich Mutlu)
-- [[Track 6 - Computer Engineering]]
+- [[Advanced Computer Engineering]]

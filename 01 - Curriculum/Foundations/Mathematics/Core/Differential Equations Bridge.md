@@ -22,7 +22,7 @@ tier: "Tier 2 - Support"
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 
 > [!NOTE] Optional — computer-engineering path
-> Not required for MIT 6-3 (the [6-3 degree chart](https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/) doesn't require 18.03), and not part of the source program. Its main job is to prepare the optional [[Circuits and Electronics Bridge|08a]] and [[Signals and Systems Bridge|15a]] blocks. It sits outside the hour budget. [[Track 11 - Autonomous Robotics and Cyber-Physical Systems|Track 11]] lists it as a prerequisite.
+> Not required for MIT 6-3 (the [6-3 degree chart](https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/) doesn't require 18.03), and not part of the source program. Its main job is to prepare the optional [[Circuits and Electronics Bridge|08a]] and [[Signals and Systems Bridge|15a]] blocks. It sits outside the hour budget. [[Autonomous Robotics|Track 11]] lists it as a prerequisite.
 
 > [!INFO] Block Overview
 > - **Term / Position:** Year 1 Spring (Co-requisite with [[Multivariable Calculus]] and [[Physics II]], preceding [[Circuits and Electronics Bridge]], [[Linear Algebra]], and [[Signals and Systems Bridge]])

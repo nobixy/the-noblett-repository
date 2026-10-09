@@ -97,6 +97,6 @@ The two master rules that instantly transform weak, muddy sentences into surgica
 
 ## ➡️ Next Steps
 *Why does the next subject come next?*
-- [[Next Block]]
+- Next Block
 
 - **Sequential Flow:** [[Tooling|← Tooling]] | [[00 - Dashboard|Dashboard]] | [[Reading, Thinking, and Writing|Reading, Thinking, and Writing →]]

@@ -91,6 +91,6 @@ Everything downstream assumes you know how memory, practice, and attention actua
 
 ## ➡️ Next Steps
 *Why does the next subject come next?*
-- [[Next Block]]
+- Next Block
 
 - **Sequential Flow:** [[00 - Dashboard|← Dashboard]] | [[00 - Dashboard|Dashboard]] | [[The Deep Learner's Toolkit|The Deep Learner's Toolkit →]]

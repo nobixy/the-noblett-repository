@@ -102,6 +102,6 @@ To become exceptionally educated from the ground up, you must abandon how school
 
 ## ➡️ Next Steps
 *Why does the next subject come next?*
-- [[Next Block]]
+- Next Block
 
 - **Sequential Flow:** [[Learning How to Learn|← Learning How to Learn]] | [[00 - Dashboard|Dashboard]] | [[Tooling|Tooling →]]

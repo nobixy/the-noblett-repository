@@ -93,7 +93,7 @@ LIMIT 7
 
 ## 📈 The Vault
 - 🧠 **Mindset & Habits**: [[Mindset Hub|Mindset Hub]]
-- 📑 **Curriculum**: [[Checklist|Degree Checklist]] · [[Specializations Hub|Specializations Hub]]
+- 📑 **Curriculum**: [[Checklist|Degree Checklist]] · [[05 - Specialization Branches|Specializations Hub]]
 - 📓 **Topic Notes**: [[Hardware Index|Hardware]] · [[Languages Index|Languages]] · [[Math Index|Math]] · [[Systems Index|Systems]] · [[Theory Index|Theory]]
 - 📄 **Paper Summaries**: [[Paper Reading Hub|Paper Reading Hub]] (Three-pass method)
 - ✍️ **Writing Repository**: [[Writing Hub|Writing Hub]] (Daily 500 words, Franklin copywork & technical essays)

@@ -23,7 +23,7 @@ hours_actual: 0
 
 > [!INFO] Track Overview
 > - **Track ID:** Track 3
-> - **Prerequisites:** [[C Fluency]], [[Computer Systems]], [[Math for CS]], [[Operating Systems]], [[Networking]], [[Intensive Cryptopals or TLA+]]
+> - **Prerequisites:** [[C Fluency]], [[Computer Systems]], [[Math for CS]], [[Operating Systems]], [[Networking]], [[Intensive Cryptopals]]
 > - **Target Profile:** Cryptographic Engineer, Security Researcher, Binary Exploitation Specialist, High-Assurance Systems Auditor
 > - **Structure:** Two core courses plus three progressive labs and one comprehensive capstone build deliverable.
 > - **Curriculum Position:** Elective specialization block across Years 4 & 5 (*"Two deep beats six shallow"*).
@@ -45,7 +45,7 @@ This track bridges rigorous mathematical cryptography (provable security reducti
 - [[Math for CS]]
 - [[Operating Systems]]
 - [[Networking]]
-- [[Intensive Cryptopals or TLA+]]
+- [[Intensive Cryptopals]]
 
 
 
@@ -209,10 +209,10 @@ A secure, multi-party end-to-end encrypted messaging engine written in Rust or C
 > Assessment criteria go here.
 
 ## ➡️ Next Steps & Degree Pathway
-- **Curriculum Hub:** [[Specializations Hub|Specializations Hub]]
+- **Curriculum Hub:** [[05 - Specialization Branches|Specializations Hub]]
 - **Degree Assignment:**
-  - If chosen as **Primary Specialization (Track A)**: Course 1 binds to [[Specialization A1|Block 26 - Specialization A1]] and Course 2 binds to [[Specialization A2|Block 28 - Specialization A2]].
-  - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization B1|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization B2|Block 31 - Specialization B2]].
+  - If chosen as **Primary Specialization (Track A)**: Course 1 binds to [[05 - Specialization Branches|Block 26 - Specialization A1]] and Course 2 binds to [[05 - Specialization Branches|Block 28 - Specialization A2]].
+  - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[05 - Specialization Branches|Block 29 - Specialization B1]] and Course 2 binds to [[05 - Specialization Branches|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]]
 
 - **Sequential Flow:** [[Hardware-in-the-Loop Virtualization and Digital Twins|← Hardware-in-the-Loop Virtualization and Digital Twins]] | [[00 - Dashboard|Dashboard]] | [[Intensive Cryptopals|Intensive Cryptopals →]]

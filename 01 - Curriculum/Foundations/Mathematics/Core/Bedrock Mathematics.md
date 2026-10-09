@@ -102,6 +102,6 @@ Here, you start from absolute zero—not as a child memorizing flashcards, but a
 
 ## ➡️ Next Steps
 *Why does the next subject come next?*
-- [[Next Block]]
+- Next Block
 
 - **Sequential Flow:** [[Reading, Thinking, and Writing|← Reading, Thinking, and Writing]] | [[00 - Dashboard|Dashboard]] | [[Math Prerequisites|Math Prerequisites →]]

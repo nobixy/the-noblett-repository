@@ -24,4 +24,4 @@ tags:
 - [[Networking]] (Stanford CS144)
 - [[Databases]] (CMU 15-445)
 - [[Distributed Systems]] (MIT 6.5840)
-- [[Intensive Cryptopals or TLA+]] (Cryptopals / TLA+)
+- [[Intensive Cryptopals]] (Cryptopals / TLA+)

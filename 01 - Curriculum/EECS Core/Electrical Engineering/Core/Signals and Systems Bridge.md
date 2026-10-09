@@ -22,7 +22,7 @@ tier: "Tier 2 - Support"
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 
 > [!NOTE] Optional — computer-engineering path
-> Not required for MIT 6-3 (the [6-3 degree chart](https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/) doesn't require 6.3000). The source program adds 6.003 signals only for the full computer-engineering degree, where it is also [[Track 6 - Computer Engineering|Track 6]]'s second course. It sits outside the hour budget. [[Track 7 - TinyML and Edge AI|Track 7]] and [[Track 11 - Autonomous Robotics and Cyber-Physical Systems|Track 11]] list it as a prerequisite.
+> Not required for MIT 6-3 (the [6-3 degree chart](https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/) doesn't require 6.3000). The source program adds 6.003 signals only for the full computer-engineering degree, where it is also [[Advanced Computer Engineering|Track 6]]'s second course. It sits outside the hour budget. [[TinyML and Edge AI|Track 7]] and [[Autonomous Robotics|Track 11]] list it as a prerequisite.
 
 > [!INFO] Block Overview
 > - **Term / Position:** Year 2 Spring (Following [[Linear Algebra]] and [[Probability]], preceding [[Operating Systems]] and Year 3 Depth)
@@ -45,7 +45,7 @@ In computer science curricula, data is typically modeled as discrete arrays, gra
 1. **The Frequency Domain Paradigm:** Time-domain representations often obscure essential structural properties. Transforming signals into the frequency domain decomposes complex waveforms into orthogonal complex exponential basis functions ($e^{j\omega t}$ and $z^n$), converting intractable differential/difference equations into simple algebraic multiplications ($Y(\omega) = H(\omega)X(\omega)$).
 2. **Convolution & LTI System Theory:** The bedrock understanding of Linear Time-Invariant (LTI) systems guarantees that any system can be completely characterized by its response to an infinitely sharp impulse ($\delta(t)$ or $\delta[n]$), and its response to *any* arbitrary input is computed via convolution.
 3. **The Information Bridge (Nyquist-Shannon Sampling):** The sampling theorem provides the mathematical guarantee of digital media: it specifies the exact condition under which a continuous physical signal can be sampled, digitized, stored in memory ([[Computer Systems]]), processed by software, and reconstructed back into physical reality with zero mathematical loss of information.
-4. **Foundation for Cutting-Edge Disciplines:** Signals and systems directly underpins Digital Signal Processing (DSP), software-defined radio, audio/speech synthesis, computer vision convolutions, robotic feedback control ([[Differential Equations Bridge]]), and edge AI feature extraction ([[Track 7 - TinyML and Edge AI]]).
+4. **Foundation for Cutting-Edge Disciplines:** Signals and systems directly underpins Digital Signal Processing (DSP), software-defined radio, audio/speech synthesis, computer vision convolutions, robotic feedback control ([[Differential Equations Bridge]]), and edge AI feature extraction ([[TinyML and Edge AI]]).
 
 ---
 

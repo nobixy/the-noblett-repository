@@ -15,11 +15,20 @@ Welcome to the **Noblett Repository**. This is a lifelong education and life-man
 
 The repository operates on five integrated tracks. Do not attempt to run multiple high-intensity tracks simultaneously. 
 
-1. **[[01 - Core Spine|The Core Spine]]**: The linear, dependency-aware sequence of computer science and software engineering.
-2. **[[02 - Maintenance Tracks|Maintenance Tracks]]**: Continuous, low-friction daily habits for mathematics, reading, and writing.
+1. **[[#The Core Spine|The Core Spine]]**: The linear, dependency-aware sequence of computer science and software engineering.
+2. **[[#Maintenance Tracks|Maintenance Tracks]]**: Continuous, low-friction daily habits for mathematics, reading, and writing.
 3. **[[03 - Engineering Practice|Engineering Practice]]**: Applied tooling, building, testing, and operational skills that run parallel to theory.
 4. **[[04 - Human Systems|Human Systems]]**: The infrastructure of adult life (money, health, time, relationships) required to sustain long-term intellectual work.
 5. **[[05 - Specialization Branches|Specialization Branches]]**: Deep elective domains unlocked only after reaching baseline employability.
+
+---
+
+## Maintenance Tracks
+
+Continuous, low-friction daily habits:
+- **Mathematics**: Daily proofs, discrete math, or linear algebra practice.
+- **Reading**: Seminal papers and technical literature.
+- **Writing**: Daily technical writing or reflections.
 
 ---
 
@@ -30,16 +39,16 @@ The repository operates on five integrated tracks. Do not attempt to run multipl
 ### Phase 1: Foundations & Programming Intro
 *Building algorithmic thinking and basic abstractions.*
 - [[Programming On-Ramp]] *(If no prior experience)*
-- [[Structure and Interpretation of Computer Programs (Python)]] or [[CS61A]]
+- [[CS61A|Structure and Interpretation of Computer Programs (Python)]] or [[CS61A]]
 
 ### Phase 2: Data, Logic, and Proof
 *The mathematical and structural basis of computation.*
-- [[Mathematics for Computer Science]] *(Discrete Math & Proofs)*
-- [[Data Structures]]
+- [[Math for CS|Mathematics for Computer Science]] *(Discrete Math & Proofs)*
+- [[Algorithms I|Data Structures]]
 
 ### Phase 3: Hardware & Systems Architecture
 *Crossing the hardware-software boundary.*
-- [[C Fluency and Memory Management]]
+- [[C Fluency|C Fluency and Memory Management]]
 - [[Nand2Tetris]]
 - [[Computer Architecture]]
 
@@ -47,13 +56,13 @@ The repository operates on five integrated tracks. Do not attempt to run multipl
 *Managing complexity and system resources.*
 - [[Algorithms I]]
 - [[Operating Systems]]
-- [[Computer Networks]]
+- [[Networking|Computer Networks]]
 
 ### Phase 5: Employability & Scale
 *Building robust, data-backed applications.*
-- [[Database Systems]]
+- [[Databases|Database Systems]]
 - [[Software Construction]]
-- [[Distributed Systems Foundations]]
+- [[Distributed Systems|Distributed Systems Foundations]]
 - **Milestone:** [[Employability Portfolio and Review]]
 
 ---
@@ -61,12 +70,12 @@ The repository operates on five integrated tracks. Do not attempt to run multipl
 ## Specialization Branches (Elective)
 *Enter these only after completing Phase 5 or when professionally required. Pick one primary branch at a time.*
 
-- [[Branch - Full-Stack and Product Engineering]]
-- [[Branch - Systems and Performance]]
-- [[Branch - AI and Machine Learning]]
-- [[Branch - Security and Cryptography]]
-- [[Branch - Programming Languages and Compilers]]
-- [[Branch - Advanced Mathematics]]
+- [[05 - Specialization Branches|Branch - Full-Stack and Product Engineering]]
+- [[05 - Specialization Branches|Branch - Systems and Performance]]
+- [[05 - Specialization Branches|Branch - AI and Machine Learning]]
+- [[05 - Specialization Branches|Branch - Security and Cryptography]]
+- [[05 - Specialization Branches|Branch - Programming Languages and Compilers]]
+- [[05 - Specialization Branches|Branch - Advanced Mathematics]]
 
 ---
 
