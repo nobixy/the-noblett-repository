@@ -110,3 +110,4 @@ Sustaining this multi-year independent curriculum requires rigorous psychologica
 | 2026-09-25 | Phase -1 (Bedrock Setup) | Added the 8 core cognitive study systems (Feynman, Franklin, Blank-Sheet, Elaborative Interrogation) and Bedrock Math/English. |
 | 2026-09-25 | Phase -1 (Mindset Update) | Added Mindset, Deep Work, and CS Research Practices sections. |
 | 2026-10-09 | Phase -1 (Bedrock Foundation) | [[DR-001 - Program Scope, Phases, and Timeline\|DR-001]]: Program timeboxed ~8 yrs inside a lifelong system; hour budget = core + two tracks. |
+| 2026-10-09 | Phase -1 (Bedrock Foundation) | [[DR-002 - Vault Refactor and Canonical Numbering\|DR-002]]: Checklist numbering made canonical; E1–E4 made optional electives; Track 15 (Full-Stack) added; hubs fleshed out. |

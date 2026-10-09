@@ -1,8 +1,8 @@
 ---
-block_id: "Block 42"
+block_id: "Track 2"
 track_id: "Track 2"
 title: "Systems and Performance"
-category: "advanced"
+category: "specialization"
 term: "Years 4 & 5"
 status: not-started
 prerequisites:
@@ -17,9 +17,13 @@ tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
 optional: true # specialization track not yet chosen (DR-001)
+primary_resource: "Software Systems Performance Engineering (MIT 6.172 Equivalent) + Multiprocessor Programming & Advanced Database Storage (Herlihy & Shavit / CMU 15-721)"
+milestone: "Production-Grade High-Performance Storage Engine or Kernel/DB Upstream Contribution"
+date_started: ""
+date_completed: ""
 ---
 
-# Track 2: Systems and Performance
+# Track 2 — Systems and Performance
 
 > [!INFO] Track Overview
 > - **Track ID:** Track 2

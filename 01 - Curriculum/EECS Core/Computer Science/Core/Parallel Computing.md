@@ -1,7 +1,7 @@
 ---
-block_id: "Block 27"
+block_id: "E4"
 title: "Parallel Computing"
-category: "core"
+category: "elective"
 term: "Year 3 Spring"
 status: not-started
 prerequisites:
@@ -13,10 +13,11 @@ primary_resource: "Stanford CS149"
 milestone: "Write a high-performance CUDA kernel and lock-free thread pool"
 date_started: ""
 date_completed: ""
-tier: "Tier 1 - Core"
+tier: "Tier 3 - Depth"
+optional: true # optional elective, outside the Checklist sequence (DR-002)
 ---
 
-# Block 27 — Parallel Computing
+# E4 — Parallel Computing
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Systems Index|Systems Index]]
 
@@ -27,8 +28,8 @@ tier: "Tier 1 - Core"
 > - **Primary Resource:** Stanford CS149: Parallel Computing
 > - **Key Milestone:** Write a high-performance CUDA kernel and lock-free thread pool
 
-## 📚 Curriculum Tier: Tier 1 - Core
-> **Tier 1 - Core**: Must complete before advancing.
+## 📚 Curriculum Tier: Tier 3 - Depth
+> **Tier 3 - Depth**: Optional deep dive for specialized mastery.
 
 ## 🎯 Why This Block Matters
 Moore's Law for single-core performance is dead. Modern systems rely on explicit parallelism across multi-core CPUs, GPUs, and SIMD execution. You must learn to write concurrent, lock-free, high-throughput code.
@@ -62,4 +63,4 @@ Complete the core assignments from Stanford CS149, including optimizing a fracta
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[Checklist|Master Checklist]]
-- **Sequential Flow:** *Not yet placed in the [[Checklist]] sequence; start once the prerequisites above are done.* | [[00 - Dashboard|Dashboard]]
+- **Sequential Flow:** *Optional elective (E1–E4), outside the [[Checklist]] sequence; start once the prerequisites above are done.* | [[00 - Dashboard|Dashboard]]

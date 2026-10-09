@@ -1,5 +1,5 @@
 ---
-block_id: "Block 19"
+block_id: "Block 10"
 title: "Mathematics for Computer Science (MIT 6.042J)"
 category: "core"
 term: "Year 2 Fall"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 19 — Mathematics for Computer Science (MIT 6.042J)
+# Block 10 — Mathematics for Computer Science (MIT 6.042J)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 

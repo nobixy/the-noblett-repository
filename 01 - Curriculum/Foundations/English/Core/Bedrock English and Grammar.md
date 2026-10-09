@@ -1,5 +1,5 @@
 ---
-block_id: "Block 4"
+block_id: "BW"
 title: "Bedrock English: Grammar & Sentence Architecture"
 category: "core"
 term: "Phase -1 (Bedrock Foundation)"

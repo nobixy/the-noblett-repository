@@ -1,8 +1,8 @@
 ---
-block_id: "Block 52"
+block_id: "Track 3"
 track_id: "Track 3"
 title: "Security and Cryptography"
-category: "advanced"
+category: "specialization"
 term: "Years 4 & 5"
 status: not-started
 prerequisites:
@@ -18,9 +18,13 @@ tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
 optional: true # specialization track not yet chosen (DR-001)
+primary_resource: "Applied Cryptography & Provable Security (Boneh & Shoup / Stanford CS255 Equivalent) + Systems Security, Binary Exploitation & Protocol Verification (MIT 6.5660/6.858 + pwn.college)"
+milestone: "End-to-End Audited Encrypted Messaging Protocol with Post-Quantum Hybrid KEM"
+date_started: ""
+date_completed: ""
 ---
 
-# Track 3: Security and Cryptography
+# Track 3 — Security and Cryptography
 
 > [!INFO] Track Overview
 > - **Track ID:** Track 3

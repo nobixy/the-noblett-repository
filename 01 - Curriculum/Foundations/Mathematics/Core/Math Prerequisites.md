@@ -1,5 +1,5 @@
 ---
-block_id: "Block 7"
+block_id: "P3"
 title: "Math Prerequisites"
 category: "core"
 term: "Phase 0 (0–5 mo)"

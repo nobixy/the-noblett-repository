@@ -1,5 +1,5 @@
 ---
-block_id: "Block 17"
+block_id: "Block 14"
 title: "Computer Architecture & Digital Design"
 category: "core"
 term: "Year 2 Spring"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 2 - Support"
 ---
 
-# Block 17 — Computer Architecture & Digital Design
+# Block 14 — Computer Architecture & Digital Design
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Hardware Index|Hardware Index]]
 

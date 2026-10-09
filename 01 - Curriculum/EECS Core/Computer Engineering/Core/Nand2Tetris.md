@@ -1,5 +1,5 @@
 ---
-block_id: "Block 14"
+block_id: "Block 4"
 title: "From NAND to Tetris (Hardware & Software Hierarchy)"
 category: "core"
 term: "Year 1 January Intensive"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 14 — From NAND to Tetris (Hardware & Software Hierarchy)
+# Block 4 — From NAND to Tetris (Hardware & Software Hierarchy)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Hardware Index|Hardware Index]]
 

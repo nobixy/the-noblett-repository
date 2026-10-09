@@ -1,5 +1,5 @@
 ---
-block_id: "Block 15"
+block_id: "Block 11"
 title: "Linear Algebra (MIT 18.06 & Axler LADR)"
 category: "core"
 term: "Year 2 Fall"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 15 — Linear Algebra (MIT 18.06 & Axler LADR)
+# Block 11 — Linear Algebra (MIT 18.06 & Axler LADR)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 

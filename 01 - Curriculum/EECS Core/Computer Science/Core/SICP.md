@@ -1,5 +1,5 @@
 ---
-block_id: "Block 11"
+block_id: "Block 5"
 title: "Structure and Interpretation of Computer Programs (SICP)"
 category: "core"
 term: "Year 1 Spring"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 3 - Depth"
 ---
 
-# Block 11 — Structure and Interpretation of Computer Programs (SICP)
+# Block 5 — Structure and Interpretation of Computer Programs (SICP)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Languages Index|Languages Index]]
 

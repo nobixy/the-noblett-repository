@@ -1,8 +1,8 @@
 ---
-block_id: "Block 47"
+block_id: "Track 4"
 track_id: "Track 4"
 title: "Graphics and Vision"
-category: "advanced"
+category: "specialization"
 term: "Years 4 & 5"
 status: not-started
 prerequisites:
@@ -17,9 +17,13 @@ tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
 optional: true # specialization track not yet chosen (DR-001)
+primary_resource: "Mathematical Foundations of Computer Graphics (GAMES101 / Shirley Equivalent) + Physically Based Rendering & Real-Time GPU Architectures (PBRT / Pharr et al. / Vulkan)"
+milestone: "Spectral Monte Carlo Path Tracer with Volumetric Scattering and Neural Denoising"
+date_started: ""
+date_completed: ""
 ---
 
-# Track 4: Graphics and Vision
+# Track 4 — Graphics and Vision
 
 > [!INFO] Track Overview
 > - **Track ID:** Track 4

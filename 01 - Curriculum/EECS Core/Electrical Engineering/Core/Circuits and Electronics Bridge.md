@@ -1,5 +1,5 @@
 ---
-block_id: "Block 39"
+block_id: "Block 8a"
 title: "Circuits and Electronics Bridge (MIT 6.2000)"
 category: "core"
 term: "Year 1 Spring"
@@ -17,7 +17,7 @@ date_completed: ""
 tier: "Tier 2 - Support"
 ---
 
-# Block 39 — Circuits and Electronics Bridge (MIT 6.2000)
+# Block 8a — Circuits and Electronics Bridge (MIT 6.2000)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Hardware Index|Hardware Index]]
 

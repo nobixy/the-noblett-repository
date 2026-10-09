@@ -1,5 +1,5 @@
 ---
-block_id: "Block 13"
+block_id: "Block 7"
 title: "Multivariable Calculus (MIT 18.02SC)"
 category: "core"
 term: "Year 1 Spring"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 13 — Multivariable Calculus (MIT 18.02SC)
+# Block 7 — Multivariable Calculus (MIT 18.02SC)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 

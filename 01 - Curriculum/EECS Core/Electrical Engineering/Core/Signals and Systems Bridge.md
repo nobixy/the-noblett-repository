@@ -1,5 +1,5 @@
 ---
-block_id: "Block 40"
+block_id: "Block 15a"
 title: "Signals and Systems Bridge (MIT 6.3000)"
 category: "core"
 term: "Year 2 Spring"
@@ -17,7 +17,7 @@ date_completed: ""
 tier: "Tier 2 - Support"
 ---
 
-# Block 40 — Signals and Systems Bridge (MIT 6.3000)
+# Block 15a — Signals and Systems Bridge (MIT 6.3000)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 

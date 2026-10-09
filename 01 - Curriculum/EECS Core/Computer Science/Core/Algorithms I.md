@@ -1,5 +1,5 @@
 ---
-block_id: "Block 22"
+block_id: "Block 13"
 title: "Introduction to Algorithms (MIT 6.006)"
 category: "core"
 term: "Year 2 Spring"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 22 — Introduction to Algorithms (MIT 6.006)
+# Block 13 — Introduction to Algorithms (MIT 6.006)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Theory Index|Theory Index]]
 

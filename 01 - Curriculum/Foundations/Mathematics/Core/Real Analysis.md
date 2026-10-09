@@ -1,5 +1,5 @@
 ---
-block_id: "Block 20"
+block_id: "Block 18"
 title: "Real Analysis (Abbott & MIT 18.100A)"
 category: "core"
 term: "Year 3 Fall"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 3 - Depth"
 ---
 
-# Block 20 — Real Analysis (Abbott & MIT 18.100A)
+# Block 18 — Real Analysis (Abbott & MIT 18.100A)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 

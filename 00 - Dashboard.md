@@ -40,7 +40,7 @@ tags:
 ---
 
 ## 📊 Degree Progress
-*Driven by each block's `status` and `hours_actual` frontmatter: update those, and this updates itself. Blocks flagged `optional: true` (the 04a/08a/15a bridges and any specialization track not yet chosen) are left out.*
+*Driven by each block's `status` and `hours_actual` frontmatter: update those, and this updates itself. Blocks flagged `optional: true` (the 04a/08a/15a bridges, the E1–E4 electives, and any specialization track not yet chosen) are left out.*
 
 ```dataview
 TABLE WITHOUT ID status AS Status, length(rows) AS Blocks, sum(rows.hours_actual) AS "Hours logged", sum(rows.hours_estimate) AS "Hours planned"

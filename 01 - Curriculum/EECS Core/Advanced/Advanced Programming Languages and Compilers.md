@@ -1,8 +1,8 @@
 ---
-block_id: "Block 45"
+block_id: "Track 5"
 track_id: "Track 5"
 title: "Programming Languages and Compilers"
-category: "advanced"
+category: "specialization"
 term: "Years 4 & 5"
 status: not-started
 prerequisites:
@@ -19,9 +19,13 @@ tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
 optional: true # specialization track not yet chosen (DR-001)
+primary_resource: "Type Systems & Formal Operational Semantics (Pierce TAPL / Harper PFPL Equivalent) + Advanced Optimizing Compilers & Code Generation (Cornell CS 6120 / Cooper & Torczon)"
+milestone: "End-to-End Optimizing Compiler targeting RISC-V with Mechanized Type Soundness Proof"
+date_started: ""
+date_completed: ""
 ---
 
-# Track 5: Programming Languages and Compilers
+# Track 5 — Programming Languages and Compilers
 
 > [!INFO] Track Overview
 > - **Track ID:** Track 5

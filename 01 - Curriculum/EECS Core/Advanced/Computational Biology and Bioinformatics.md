@@ -1,8 +1,9 @@
 ---
-block_id: "Block 55"
-title: "Track 12 - Computational Biology and Bioinformatics"
+block_id: "Track 12"
+track_id: "Track 12"
+title: "Computational Biology and Bioinformatics"
 category: "specialization"
-term: "Year 4 or 5"
+term: "Years 4 & 5"
 status: not-started
 prerequisites:
   - "Algorithms II"
@@ -17,6 +18,7 @@ date_started: ""
 date_completed: ""
 tier: "Tier 3 - Depth"
 optional: true # specialization track not yet chosen (DR-001)
+aliases: [Track 12 - Computational Biology and Bioinformatics]
 ---
 
 # Track 12 — Computational Biology and Bioinformatics
@@ -24,7 +26,7 @@ optional: true # specialization track not yet chosen (DR-001)
 [[00 - Dashboard|Dashboard]] / [[05 - Specialization Branches|Specializations Hub]]
 
 > [!INFO] Track Overview
-> - **Term / Position:** Year 4 or 5 Specialization
+> - **Term / Position:** Years 4 & 5 Specialization
 > - **Estimated Hours:** ~400 hrs
 > - **Status:** `not-started`
 > - **Primary Resources:** Rosalind.info, CMU 02-251 (Great Ideas in Computational Biology), MIT 6.8700 (Advanced Computational Biology)

@@ -1,8 +1,8 @@
 ---
-block_id: "Block 46"
+block_id: "Track 1"
 track_id: "Track 1"
 title: "AI and Machine Learning"
-category: "advanced"
+category: "specialization"
 term: "Years 4 & 5"
 status: not-started
 prerequisites:
@@ -18,9 +18,13 @@ tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
 optional: true # specialization track not yet chosen (DR-001)
+primary_resource: "Mathematical Machine Learning & Statistical Foundations (Stanford CS229 Equivalent) + Deep Learning Systems & Generative Architectures (CMU 10-414 / CS231n)"
+milestone: "Production-Grade Autoregressive Transformer Training & Quantized Serving Engine"
+date_started: ""
+date_completed: ""
 ---
 
-# Track 1: AI and Machine Learning
+# Track 1 — AI and Machine Learning
 
 > [!INFO] Track Overview
 > - **Track ID:** Track 1

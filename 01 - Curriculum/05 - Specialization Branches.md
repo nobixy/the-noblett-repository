@@ -7,6 +7,7 @@ type: hub
 Deep elective domains. Specialization A opens at Checklist Block 26, after the Phase 5 courses ([[DR-001 - Program Scope, Phases, and Timeline|DR-001]]). Two tracks belong to the Program; the rest are Lifelong Continuation.
 
 ## Full-Stack and Product Engineering
+- [[Full-Stack and Product Engineering]] (Track 15)
 - Web frameworks, UI/UX, product design, mobile development.
 
 ## Systems and Performance

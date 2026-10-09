@@ -1,5 +1,5 @@
 ---
-block_id: "Block 37"
+block_id: "Block 3"
 title: "Classical Mechanics (MIT 8.01SC)"
 category: "core"
 term: "Year 1 Fall"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 37 — Classical Mechanics (MIT 8.01SC)
+# Block 3 — Classical Mechanics (MIT 8.01SC)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 

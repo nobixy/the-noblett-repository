@@ -1,5 +1,5 @@
 ---
-block_id: "Block 18"
+block_id: "Block 16"
 title: "Operating Systems (MIT 6.1810 & OSTEP)"
 category: "core"
 term: "Year 3 Fall"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 18 — Operating Systems (MIT 6.1810 & OSTEP)
+# Block 16 — Operating Systems (MIT 6.1810 & OSTEP)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Systems Index|Systems Index]]
 

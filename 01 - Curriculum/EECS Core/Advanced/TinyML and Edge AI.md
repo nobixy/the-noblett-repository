@@ -1,8 +1,8 @@
 ---
-block_id: "Block 49"
+block_id: "Track 7"
 track_id: "Track 7"
 title: "TinyML and Edge AI"
-category: "advanced"
+category: "specialization"
 term: "Years 4 & 5"
 status: not-started
 prerequisites:
@@ -10,16 +10,20 @@ prerequisites:
   - "Computer Systems"
   - "Computer Architecture"
   - "Signals and Systems Bridge"
-  - "Track 1 - AI and Machine Learning"
+  - "Deep AI and Machine Learning"
 target_profile: "Edge ML Engineer, Embedded Systems Architect, TinyML Researcher"
 aliases: [Track 7 - TinyML and Edge AI, Track 7 - TinyML, Edge AI and Neuromorphic Computing]
 tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
 optional: true # specialization track not yet chosen (DR-001)
+primary_resource: "Foundations of Efficient Deep Learning (MIT 6.5940 Equivalent) + Embedded Edge Systems & Microcontroller Deployment"
+milestone: "Autonomous Real-Time Keyword Spotting & Vision Anomaly Detection on Bare-Metal Microcontroller"
+date_started: ""
+date_completed: ""
 ---
 
-# Track 7: TinyML and Edge AI
+# Track 7 — TinyML and Edge AI
 
 > [!INFO] Track Overview
 > - **Track ID:** Track 7

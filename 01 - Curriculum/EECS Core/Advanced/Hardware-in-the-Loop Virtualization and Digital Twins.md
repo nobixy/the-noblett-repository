@@ -1,8 +1,8 @@
 ---
-block_id: "Block 51"
+block_id: "Track 9"
 track_id: "Track 9"
 title: "Hardware-in-the-Loop Virtualization, Digital Twins and CPS"
-category: "advanced"
+category: "specialization"
 term: "Years 4 & 5"
 status: not-started
 prerequisites:
@@ -11,16 +11,20 @@ prerequisites:
   - "Computer Systems"
   - "Computer Architecture"
   - "Operating Systems"
-  - "Track 6 - Computer Engineering"
+  - "Advanced Computer Engineering"
 target_profile: "HIL Simulation Engineer, Cyber-Physical Systems Architect, Automotive/Avionics Safety Engineer"
 aliases: [Track 9 - Hardware-in-the-Loop Virtualization, Digital Twins and CPS, Track 9 - HIL Virtualization and CPS]
 tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
 optional: true # specialization track not yet chosen (DR-001)
+primary_resource: "Real-Time Systems, Hypervisors & Plant Modeling + Hardware-in-the-Loop Testbeds, Emulation & Fault Injection"
+milestone: "Complete Hardware-in-the-Loop (HIL) Testbed for Autonomous Drone Flight Controller"
+date_started: ""
+date_completed: ""
 ---
 
-# Track 9: Hardware-in-the-Loop Virtualization, Digital Twins and CPS
+# Track 9 — Hardware-in-the-Loop Virtualization, Digital Twins and CPS
 
 > [!INFO] Track Overview
 > - **Track ID:** Track 9

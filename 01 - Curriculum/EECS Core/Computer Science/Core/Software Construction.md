@@ -1,5 +1,5 @@
 ---
-block_id: "Block 26"
+block_id: "Block 17"
 title: "Software Construction (MIT 6.1020 / 6.031)"
 category: "core"
 term: "Year 3 Fall"
@@ -17,7 +17,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 26 — Software Construction (MIT 6.1020 / 6.031)
+# Block 17 — Software Construction (MIT 6.1020 / 6.031)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Languages Index|Languages Index]]
 

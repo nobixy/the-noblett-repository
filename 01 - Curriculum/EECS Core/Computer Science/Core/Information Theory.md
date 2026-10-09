@@ -1,5 +1,5 @@
 ---
-block_id: "Block 31"
+block_id: "Block 32"
 title: "Information Theory, Inference, and Learning Algorithms"
 category: "core"
 term: "Year 5"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 3 - Depth"
 ---
 
-# Block 31 — Information Theory, Inference, and Learning Algorithms
+# Block 32 — Information Theory, Inference, and Learning Algorithms
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 

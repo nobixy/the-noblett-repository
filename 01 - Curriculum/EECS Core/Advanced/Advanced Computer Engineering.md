@@ -1,8 +1,8 @@
 ---
-block_id: "Block 48"
+block_id: "Track 6"
 track_id: "Track 6"
 title: "Computer Engineering"
-category: "advanced"
+category: "specialization"
 term: "Years 4 & 5"
 status: not-started
 prerequisites:
@@ -17,9 +17,13 @@ tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
 optional: true # specialization track not yet chosen (DR-001)
+primary_resource: "Advanced Computer Architecture & Memory Hierarchies (Hennessy & Patterson / Mutlu Equivalent) + VLSI Systems Design & Silicon Synthesis (Weste & Harris / OpenLane / SkyWater)"
+milestone: "Tapeout-Ready 32-bit RISC-V SoC with AXI Bus, Peripherals, and Silicon DRC/LVS Verification"
+date_started: ""
+date_completed: ""
 ---
 
-# Track 6: Computer Engineering
+# Track 6 — Computer Engineering
 
 > [!INFO] Track Overview
 > - **Track ID:** Track 6

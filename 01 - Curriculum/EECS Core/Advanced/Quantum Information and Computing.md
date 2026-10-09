@@ -1,8 +1,8 @@
 ---
-block_id: "Block 54"
+block_id: "Track 10"
 track_id: "Track 10"
 title: "Quantum Information and Computing"
-category: "advanced"
+category: "specialization"
 term: "Years 4 & 5"
 status: not-started
 prerequisites:
@@ -16,9 +16,13 @@ tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
 optional: true # specialization track not yet chosen (DR-001)
+primary_resource: "Foundations of Quantum Information & Algorithms + Fault Tolerance, Quantum Error Correction & NISQ Systems"
+milestone: "End-to-End Quantum Compiler & Variational Quantum Eigensolver (VQE) Pipeline"
+date_started: ""
+date_completed: ""
 ---
 
-# Track 10: Quantum Information and Computing
+# Track 10 — Quantum Information and Computing
 
 > [!INFO] Track Overview
 > - **Track ID:** Track 10

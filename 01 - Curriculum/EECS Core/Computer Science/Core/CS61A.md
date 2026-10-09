@@ -1,5 +1,5 @@
 ---
-block_id: "Block 10"
+block_id: "Block 1"
 title: "Programming and Abstraction (Berkeley CS61A)"
 category: "core"
 term: "Year 1 Fall"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 10 — Programming and Abstraction (Berkeley CS61A)
+# Block 1 — Programming and Abstraction (Berkeley CS61A)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Languages Index|Languages Index]]
 

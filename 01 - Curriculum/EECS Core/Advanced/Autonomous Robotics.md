@@ -1,8 +1,8 @@
 ---
-block_id: "Block 50"
+block_id: "Track 11"
 track_id: "Track 11"
 title: "Autonomous Robotics and Cyber-Physical Systems"
-category: "advanced"
+category: "specialization"
 term: "Years 4 & 5"
 status: not-started
 prerequisites:
@@ -18,9 +18,13 @@ tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
 optional: true # specialization track not yet chosen (DR-001)
+primary_resource: "Probabilistic State Estimation, SLAM & Spatial Perception + Optimal Control, Motion Planning & Autonomous Navigation"
+milestone: "Autonomous Indoor Navigation & Exploration System in ROS 2 / Gazebo"
+date_started: ""
+date_completed: ""
 ---
 
-# Track 11: Autonomous Robotics and Cyber-Physical Systems
+# Track 11 — Autonomous Robotics and Cyber-Physical Systems
 
 > [!INFO] Track Overview
 > - **Track ID:** Track 11

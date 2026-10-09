@@ -1,5 +1,5 @@
 ---
-block_id: "Block 16"
+block_id: "Block 9"
 title: "Computer Systems: A Programmer's Perspective (CS:APP)"
 category: "core"
 term: "Year 2 Fall"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 16 — Computer Systems: A Programmer's Perspective (CS:APP)
+# Block 9 — Computer Systems: A Programmer's Perspective (CS:APP)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Systems Index|Systems Index]]
 

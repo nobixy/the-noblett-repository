@@ -1,5 +1,5 @@
 ---
-block_id: "Block 21"
+block_id: "Block 25"
 title: "Convex Optimization (Stanford EE364A & Boyd)"
 category: "core"
 term: "Year 4 Fall"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 3 - Depth"
 ---
 
-# Block 21 — Convex Optimization (Stanford EE364A & Boyd)
+# Block 25 — Convex Optimization (Stanford EE364A & Boyd)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 

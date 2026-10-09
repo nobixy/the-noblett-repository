@@ -1,6 +1,8 @@
 # The Independent EECS Checklist
 *Print it or check boxes digitally only when the "Done when" line is true. Course notes follow the [[Block Note Template|Block Note Template]].*
 
+*Numbering is canonical ([[DR-002 - Vault Refactor and Canonical Numbering|DR-002]]): B0/BM/BW (Phase −1), P1–P5 (Phase 0), Blocks 1–30 from the source program, bridges 4a/8a/15a, Block 31 = Specialization B Course 2, Block 32 = Information Theory, E1–E4 = optional electives, Tracks 1–15 = specializations. Each note's `block_id` and title match this list.*
+
 ---
 
 ## Habits — Running Tally
@@ -95,15 +97,15 @@
 - [ ] **Capstone Thesis:** 15,000–25,000 words.
 - [ ] **Capstone Talk:** 30-minute recorded presentation.
 - [ ] **Capstone Outside Review:** Written critique from external reviewer.
-- [ ] **[[05 - Specialization Branches|Specialization B — Course 2]].**
+- [ ] **[[05 - Specialization Branches|Block 31]]:** Specialization B — Course 2 (alongside the Capstone).
 - [ ] **[[Information Theory|Block 32]]:** Information Theory (David MacKay, Cover & Thomas) — *Derive Shannon entropy, channel capacity, Huffman/Arithmetic encoders, and LDPC codes.*
 - [ ] **Year 5 Breadth (HASS):** Yale Open Course (History) + Great-books sequence / Prose *Reading Like a Writer*.
 
 ---
 
-## Not Yet Scheduled (notes exist, no slot in the year plan)
-*These are marked Tier 1 - Core and count toward the Dashboard hour totals, but the source program has no slot for them. Place each one, or mark it optional, before Year 3.*
-- [ ] **[[Artificial Intelligence]]:** Berkeley CS188, Russell & Norvig. Needs Math for CS, Probability, Algorithms I.
-- [ ] **[[Introduction to Machine Learning]]:** MIT 6.3900 / 6.036. Needs Algorithms I, Probability, Linear Algebra.
-- [ ] **[[Computer Security]]:** Anderson, *Security Engineering*. Needs Computer Systems, Networking.
-- [ ] **[[Parallel Computing]]:** Stanford CS149. Needs Computer Architecture, Operating Systems.
+## Optional Electives (E1–E4)
+*Outside the year plan and the hour budget ([[DR-002 - Vault Refactor and Canonical Numbering|DR-002]]). Take one only when its prerequisites are done and it doesn't displace a Checklist block (Operating Rule 2).*
+- [ ] **[[Artificial Intelligence|E1]]:** Berkeley CS188, Russell & Norvig. Needs Math for CS, Probability, Algorithms I.
+- [ ] **[[Introduction to Machine Learning|E2]]:** MIT 6.036 / 6.3900. Needs Algorithms I, Probability, Linear Algebra.
+- [ ] **[[Computer Security|E3]]:** MIT 6.1600, Anderson *Security Engineering*. Needs Computer Systems, Networking, Math for CS.
+- [ ] **[[Parallel Computing|E4]]:** Stanford CS149. Needs Computer Architecture, Operating Systems.

@@ -1,5 +1,5 @@
 ---
-block_id: "Block 41"
+block_id: "Block 4a"
 title: "Differential Equations and Dynamical Systems Bridge (MIT 18.03)"
 category: "core"
 term: "Year 1 Spring"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 2 - Support"
 ---
 
-# Block 41 — Differential Equations and Dynamical Systems Bridge (MIT 18.03)
+# Block 4a — Differential Equations and Dynamical Systems Bridge (MIT 18.03)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 

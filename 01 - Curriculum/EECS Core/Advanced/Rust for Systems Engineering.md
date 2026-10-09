@@ -1,8 +1,8 @@
 ---
-block_id: "Block 43"
+block_id: "Track 8"
 track_id: "Track 8"
 title: "Rust for Systems Engineering and Formal Verification"
-category: "advanced"
+category: "specialization"
 term: "Years 4 & 5"
 status: not-started
 prerequisites:
@@ -16,9 +16,13 @@ tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
 optional: true # specialization track not yet chosen (DR-001)
+primary_resource: "Advanced Rust Systems & Memory Safety Internals + Asynchronous Runtimes, Kernels & Formal Rust Verification"
+milestone: "Bootable Multi-Core `no_std` Microkernel with Formally Verified Drivers"
+date_started: ""
+date_completed: ""
 ---
 
-# Track 8: Rust for Systems Engineering and Formal Verification
+# Track 8 — Rust for Systems Engineering and Formal Verification
 
 > [!INFO] Track Overview
 > - **Track ID:** Track 8

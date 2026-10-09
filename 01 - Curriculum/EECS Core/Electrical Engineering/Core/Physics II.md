@@ -1,5 +1,5 @@
 ---
-block_id: "Block 38"
+block_id: "Block 8"
 title: "Electricity and Magnetism (MIT 8.02SC)"
 category: "core"
 term: "Year 1 Spring"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 38 — Electricity and Magnetism (MIT 8.02SC)
+# Block 8 — Electricity and Magnetism (MIT 8.02SC)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Hardware Index|Hardware Index]]
 

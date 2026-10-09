@@ -1,10 +1,14 @@
 ---
-block_id: "Block 57"
+block_id: "Block 30"
 title: "Capstone Project & Thesis (MEng Year)"
-category: "advanced"
+category: "core"
 term: "Year 5 (Two Semesters)"
 status: not-started
-prerequisites: []
+prerequisites:
+  - "Distributed Systems"
+  - "Theory of Computation"
+  - "Convex Optimization"
+  - "Intensive Cryptopals"
 hours_estimate: 400
 hours_actual: 0
 primary_resource: "Primary Engineering / Research project"
@@ -14,7 +18,7 @@ date_completed: ""
 tier: "Tier 3 - Depth"
 ---
 
-# Block 57 — Capstone Project & Thesis (MEng Year)
+# Block 30 — Capstone Project & Thesis (MEng Year)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Projects Hub|Projects Hub]]
 
@@ -34,7 +38,11 @@ What makes the program MEng-equivalent rather than SB-equivalent: producing nove
 
 ## 🔗 Prerequisites
 *What must you have mastered before starting this block?*
-- *None. This is a foundational block.*
+- [[Distributed Systems]]
+- [[Theory of Computation]]
+- [[Convex Optimization]]
+- [[Intensive Cryptopals]]
+*In practice: all Year 4 blocks, Specialization A, and the Year 4 capstone proposal (3,000 words).*
 
 
 ## 📖 Primary Syllabus & Core Content

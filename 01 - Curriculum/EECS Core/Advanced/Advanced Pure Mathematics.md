@@ -1,8 +1,9 @@
 ---
-block_id: "Block 56"
-title: "Track 14 - Advanced Pure Mathematics"
+block_id: "Track 14"
+track_id: "Track 14"
+title: "Advanced Pure Mathematics"
 category: "specialization"
-term: "Year 4 or 5"
+term: "Years 4 & 5"
 status: not-started
 prerequisites:
   - "Math for CS"
@@ -16,6 +17,7 @@ date_started: ""
 date_completed: ""
 tier: "Tier 3 - Depth"
 optional: true # specialization track not yet chosen (DR-001)
+aliases: [Track 14 - Advanced Pure Mathematics]
 ---
 
 # Track 14 — Advanced Pure Mathematics
@@ -23,7 +25,7 @@ optional: true # specialization track not yet chosen (DR-001)
 [[00 - Dashboard|Dashboard]] / [[05 - Specialization Branches|Specializations Hub]]
 
 > [!INFO] Track Overview
-> - **Term / Position:** Year 4 or 5 Specialization
+> - **Term / Position:** Years 4 & 5 Specialization
 > - **Estimated Hours:** ~400 hrs
 > - **Status:** `not-started`
 > - **Primary Resources:** Standard graduate math texts
@@ -58,4 +60,4 @@ Instead of software builds, this track requires rigorous, mathematician-grade pr
 > All proofs terminate with a Q.E.D. tombstone, completely satisfy the hypotheses, and demonstrate absolute rigorous logic without hand-waving.
 
 ## ➡️ Next Steps
-- **Sequential Flow:** [[Computational Biology and Bioinformatics|← Computational Biology and Bioinformatics]] | [[00 - Dashboard|Dashboard]] | [[05 - Specialization Branches|Specialization Branches →]]
+- **Sequential Flow:** [[Computational Biology and Bioinformatics|← Computational Biology and Bioinformatics]] | [[00 - Dashboard|Dashboard]] | [[Full-Stack and Product Engineering|Full-Stack and Product Engineering →]]

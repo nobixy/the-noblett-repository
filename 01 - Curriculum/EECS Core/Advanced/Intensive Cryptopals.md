@@ -1,10 +1,12 @@
 ---
-block_id: "Block 53"
+block_id: "Block 27"
 title: "January Intensive: Cryptopals or TLA+"
-category: "advanced"
+category: "core"
 term: "Year 4 January Intensive"
 status: not-started
-prerequisites: []
+prerequisites:
+  - "Math for CS"
+  - "Distributed Systems"
 hours_estimate: 130
 hours_actual: 0
 primary_resource: "Cryptopals (cryptopals.com) OR Lamport TLA+ Course + Wayne Practical TLA+"
@@ -14,7 +16,7 @@ date_completed: ""
 tier: "Tier 3 - Depth"
 ---
 
-# Block 53 — January Intensive: Cryptopals or TLA+
+# Block 27 — January Intensive: Cryptopals or TLA+
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Systems Index|Systems Index]]
 
@@ -34,7 +36,9 @@ Hands-on mastery of cryptographic vulnerabilities OR formal mathematical specifi
 
 ## 🔗 Prerequisites
 *What must you have mastered before starting this block?*
-- *None. This is a foundational block.*
+- [[Math for CS]]
+- [[Distributed Systems]]
+*Math for CS covers Option A (Cryptopals); Option B (TLA+) specs your Raft from [[Distributed Systems]] (Block 23).*
 
 
 ## 📖 Primary Syllabus & Core Content

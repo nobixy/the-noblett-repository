@@ -1,5 +1,5 @@
 ---
-block_id: "Block 24"
+block_id: "Block 19"
 title: "Computer Networking (Stanford CS144)"
 category: "core"
 term: "Year 3 January Intensive"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 24 — Computer Networking (Stanford CS144)
+# Block 19 — Computer Networking (Stanford CS144)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Systems Index|Systems Index]]
 

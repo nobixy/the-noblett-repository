@@ -1,5 +1,5 @@
 ---
-block_id: "Block 23"
+block_id: "Block 15"
 title: "Introduction to Probability (MIT 6.041 / 6.3700)"
 category: "core"
 term: "Year 2 Spring"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 23 — Introduction to Probability (MIT 6.041 / 6.3700)
+# Block 15 — Introduction to Probability (MIT 6.041 / 6.3700)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 

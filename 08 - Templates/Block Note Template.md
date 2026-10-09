@@ -1,13 +1,17 @@
 ---
-block_id: ""
+block_id: "" # B0 | BM | BW | P1–P5 | Block N | Block Na | E1–E4 | Track N (see DR-002)
 title: ""
-category: "core" # core | support | optional | advanced
+category: "core" # core | elective | specialization
+term: ""
 status: not-started # not-started | in-progress | done
+prerequisites: [] # exact note names
 hours_estimate: 0
 hours_actual: 0
 primary_resource: ""
+milestone: ""
 date_started: ""
 date_completed: ""
+tier: "Tier 1 - Core" # Tier 1 - Core | Tier 2 - Support | Tier 3 - Depth
 ---
 
 # {{title}}

@@ -1,5 +1,5 @@
 ---
-block_id: "Block 28"
+block_id: "Block 23"
 title: "Distributed Systems (MIT 6.5840 / 6.824)"
 category: "core"
 term: "Year 4 Fall"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 28 — Distributed Systems (MIT 6.5840 / 6.824)
+# Block 23 — Distributed Systems (MIT 6.5840 / 6.824)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Systems Index|Systems Index]]
 

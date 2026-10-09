@@ -1,5 +1,5 @@
 ---
-block_id: "Block 8"
+block_id: "Block 2"
 title: "Calculus I (MIT 18.01SC)"
 category: "core"
 term: "Year 1 Fall"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 8 — Calculus I (MIT 18.01SC)
+# Block 2 — Calculus I (MIT 18.01SC)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 

@@ -1,5 +1,5 @@
 ---
-block_id: "Block 36"
+block_id: "Block 24"
 title: "Theory of Computation (MIT 6.045 & Hopcroft)"
 category: "core"
 term: "Year 4 Fall"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 36 — Theory of Computation (MIT 6.045 & Hopcroft)
+# Block 24 — Theory of Computation (MIT 6.045 & Hopcroft)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Theory Index|Theory Index]]
 

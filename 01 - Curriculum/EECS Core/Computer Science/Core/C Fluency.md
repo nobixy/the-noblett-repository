@@ -1,5 +1,5 @@
 ---
-block_id: "Block 12"
+block_id: "Block 6"
 title: "C Fluency & Low-Level Problem Solving"
 category: "core"
 term: "Year 1 Spring"
@@ -15,7 +15,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 12 — C Fluency & Low-Level Problem Solving
+# Block 6 — C Fluency & Low-Level Problem Solving
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Languages Index|Languages Index]]
 

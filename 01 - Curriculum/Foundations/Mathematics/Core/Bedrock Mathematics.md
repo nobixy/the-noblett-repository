@@ -1,5 +1,5 @@
 ---
-block_id: "Block 6"
+block_id: "BM"
 title: "Bedrock Mathematics: Arithmetic from First Principles"
 category: "core"
 term: "Phase -1 (Bedrock Foundation)"

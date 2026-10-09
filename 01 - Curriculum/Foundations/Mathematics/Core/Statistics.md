@@ -1,5 +1,5 @@
 ---
-block_id: "Block 30"
+block_id: "Block 22"
 title: "Statistical Inference & Modeling"
 category: "core"
 term: "Year 3 Spring"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 30 — Statistical Inference & Modeling
+# Block 22 — Statistical Inference & Modeling
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Math Index|Math Index]]
 

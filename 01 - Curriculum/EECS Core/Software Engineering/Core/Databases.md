@@ -1,5 +1,5 @@
 ---
-block_id: "Block 25"
+block_id: "Block 21"
 title: "Database Systems (CMU 15-445/645 & DDIA)"
 category: "core"
 term: "Year 3 Spring"
@@ -16,7 +16,7 @@ date_completed: ""
 tier: "Tier 1 - Core"
 ---
 
-# Block 25 — Database Systems (CMU 15-445/645 & DDIA)
+# Block 21 — Database Systems (CMU 15-445/645 & DDIA)
 
 [[00 - Dashboard|Dashboard]] / [[Checklist|Checklist]] / [[Systems Index|Systems Index]]
 
