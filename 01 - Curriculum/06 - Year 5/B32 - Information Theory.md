@@ -67,6 +67,12 @@ Implement an information theory and coding suite in `python` and `c++` using `nu
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP. Core EE and ML theory.
+- MacKay (free PDF): inference.org.uk/itila/.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*

@@ -1,6 +1,6 @@
 ---
 block_id: "Block 10"
-title: "Mathematics for Computer Science (MIT 6.042J)"
+title: "Mathematics for Computer Science (MIT 6.1200J / 6.042J)"
 category: "core"
 subject: "Mathematics"
 term: "Year 2 Fall"
@@ -9,7 +9,7 @@ prerequisites:
   - "P3 - Math Prerequisites"
 hours_estimate: 170
 hours_actual: 0
-primary_resource: "MIT 6.042J / 6.1200J (Lehman, Leighton, Meyer) & Tom Leighton Lectures"
+primary_resource: "MIT 6.1200J (OCW, Spring 2024) & Lehman, Leighton, Meyer, Mathematics for Computer Science (free)"
 milestone: "6.042 final exam passed, timed"
 date_started: ""
 date_completed: ""
@@ -18,7 +18,7 @@ job_ready: 2 # job-ready path, phase 2 (DR-003)
 aliases: ["Math for CS"]
 ---
 
-# Block 10 — Mathematics for Computer Science (MIT 6.042J)
+# Block 10 — Mathematics for Computer Science (MIT 6.1200J / 6.042J)
 
 [[00 - Start Here|Start Here]] / [[00 - Start Here#The Path|The Path]] / [[Math Index|Math Index]]
 
@@ -26,7 +26,7 @@ aliases: ["Math for CS"]
 > - **Term / Position:** Year 2 Fall
 > - **Estimated Hours:** ~170 hrs
 > - **Status:** `not-started`
-> - **Primary Resource:** MIT 6.042J / 6.1200J (Lehman, Leighton, Meyer) & Tom Leighton Lectures
+> - **Primary Resource:** MIT 6.1200J (OCW, Spring 2024) & Lehman, Leighton, Meyer, Mathematics for Computer Science (free)
 > - **Key Milestone:** 6.042 final exam passed, timed
 
 ---
@@ -61,6 +61,13 @@ Work through every assigned problem set in MIT 6.042J, typesetting complete form
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > MIT 6.042 final exam passed under timed conditions.
+
+---
+
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** UPGRADE. Moved to the newer MIT offering.
+- **MIT 6.1200J** (OCW, Spring 2024: notes, videos, psets): ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/. Textbook *Mathematics for Computer Science* is free (CC BY-SA).
+- Exams for the *Done when* test: OCW 6.042J Spring 2015 has an Exams section: ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/.
 
 ---
 

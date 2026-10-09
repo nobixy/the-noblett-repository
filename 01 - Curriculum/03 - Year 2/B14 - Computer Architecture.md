@@ -66,6 +66,15 @@ Build a 5-stage pipelined RISC-V processor core in Verilog with hazard detection
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** UPGRADE. Added autograded Verilog practice and the current MIT course.
+- **HDLBits** (free, autograded Verilog exercises): hdlbits.01xz.net — finish it before the RISC-V core.
+- ETH DDCA (Mutlu, free lectures): safari.ethz.ch/digitaltechnik/; **MIT 6.191** current site (Fall 2026): 6191.mit.edu/fall26.
+- Free toolchain: Verilator (veripool.org/verilator), YosysHQ oss-cad-suite.
+- 💲 FPGA board; free alternative: run the core in Verilator only.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*

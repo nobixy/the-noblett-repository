@@ -71,6 +71,12 @@ Formulate and solve large-scale convex optimization problems in `python` using `
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP.
+- **Stanford EE364A**: web.stanford.edu/class/ee364a/; Boyd & Vandenberghe (free PDF): stanford.edu/~boyd/cvxbook/.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
@@ -88,4 +94,4 @@ Formulate and solve large-scale convex optimization problems in `python` using `
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[00 - Start Here#The Path|The Path]]
-- **Sequential Flow:** [[B24 - Theory of Computation|← Theory of Computation]] | [[00 - Start Here|Start Here]] | [[Specialization Branches|Specialization A, Course 1 →]]
+- **Sequential Flow:** [[B24 - Theory of Computation|← Theory of Computation]] | [[00 - Start Here|Start Here]] | [[B25a - Deep Learning|Deep Learning →]]

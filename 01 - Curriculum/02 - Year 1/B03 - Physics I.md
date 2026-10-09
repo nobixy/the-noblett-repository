@@ -7,7 +7,7 @@ term: "Year 1 Fall"
 status: not-started
 prerequisites:
   - "B02 - Calculus I"
-hours_estimate: 100
+hours_estimate: 130
 hours_actual: 0
 primary_resource: "MIT 8.01SC & Feynman's Six Easy Pieces"
 milestone: "8.01 final exam passed"
@@ -23,7 +23,7 @@ aliases: ["Physics I"]
 
 > [!INFO] Block Overview
 > - **Term / Position:** Year 1 Fall
-> - **Estimated Hours:** ~100 hrs
+> - **Estimated Hours:** ~130 hrs
 > - **Status:** `not-started`
 > - **Primary Resource:** MIT 8.01SC & Feynman's Six Easy Pieces
 > - **Key Milestone:** 8.01 final exam passed
@@ -61,6 +61,12 @@ Complete all 8.01SC homework sets and problem-solving workshops.
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > 8.01 final exam passed.
+
+---
+
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** UPGRADE. Hours raised 100 → 130: 8.01SC is a full 12-unit MIT subject.
+- **MIT 8.01SC Classical Mechanics** (OCW, Fall 2016): ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/. 💲 *Six Easy Pieces* is optional.
 
 ---
 

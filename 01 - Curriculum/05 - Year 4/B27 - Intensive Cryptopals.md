@@ -63,6 +63,12 @@ Complete hands-on security and formal verification engineering in `python`, `rus
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP.
+- cryptopals.com (free, 8 sets); learntla.com (free) for Option B.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*

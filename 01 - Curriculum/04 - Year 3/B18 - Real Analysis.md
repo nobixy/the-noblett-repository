@@ -15,6 +15,7 @@ milestone: "Prove Bolzano–Weierstrass, EVT, and uniform continuity from defini
 date_started: ""
 date_completed: ""
 tier: "Tier 3 - Depth"
+optional: true # made optional by DR-004: rigor, but not required for EECS
 aliases: ["Real Analysis"]
 ---
 
@@ -64,6 +65,12 @@ Work through Abbott cover-to-cover and write out every single proof in `latex`. 
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > You can prove Bolzano–Weierstrass, the Extreme Value Theorem, and a uniform-continuity result directly from the formal definitions, on paper, unaided.
+
+---
+
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** MADE OPTIONAL. Valuable rigor but not EECS-required (neither MIT 6-3 nor 6-5 requires it); 180 h moved to ML, deep learning and EE. Take it before Track 1 or Track 8 if you want proof depth.
+- **MIT 18.100A** (OCW, Fall 2020): ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/.
 
 ---
 

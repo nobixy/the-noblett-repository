@@ -18,7 +18,7 @@ tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
 optional: true # specialization track not yet chosen (DR-001)
-primary_resource: "Mathematical Foundations of Computer Graphics (GAMES101 / Shirley Equivalent) + Physically Based Rendering & Real-Time GPU Architectures (PBRT / Pharr et al. / Vulkan)"
+primary_resource: "Berkeley CS184 + Ray Tracing in One Weekend + PBRT 4e + Szeliski (free)"
 milestone: "Spectral Monte Carlo Path Tracer with Volumetric Scattering and Neural Denoising"
 date_started: ""
 date_completed: ""
@@ -53,6 +53,13 @@ This track guides students through the complete continuum of visual computing: f
 
 
 
+
+## 🌐 Real Courses (verified 2026-10-09, DR-004)
+*The module plan below is the syllabus; these are the real, current courses that teach it. Do their assignments as the coursework.*
+- **Course 1 → Berkeley CS184** (course site and assignments): cs184.eecs.berkeley.edu; *Ray Tracing in One Weekend* series (free): raytracing.github.io; Scratchapixel (free).
+- **Course 2 → Physically Based Rendering 4e** (free online): pbr-book.org; real-time: learnopengl.com and vulkan-tutorial.com (free); vision: Szeliski, *Computer Vision* 2e (free PDF): szeliski.org/Book/.
+
+---
 
 ## 📚 Core Courses
 
@@ -223,4 +230,4 @@ An industrial-grade physically based offline path tracer written in modern C++ (
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization Branches|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization Branches|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Start Here|Start Here]] / [[00 - Start Here#The Path|The Path]]
 
-- **Sequential Flow:** [[T01 - Deep AI and Machine Learning|← Deep AI and Machine Learning]] | [[00 - Start Here|Start Here]] | [[T06 - Advanced Computer Engineering|Advanced Computer Engineering →]]
+- **Sequential Flow:** [[T03 - Advanced Security and Cryptography|← Advanced Security and Cryptography]] | [[00 - Start Here|Start Here]] | [[T05 - Advanced Programming Languages and Compilers|Advanced Programming Languages and Compilers →]]

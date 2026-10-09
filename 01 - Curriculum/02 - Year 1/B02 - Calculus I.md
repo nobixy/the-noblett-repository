@@ -64,6 +64,13 @@ Solve all MIT 18.01 problem sets and write formal solutions for all recitation p
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** UPGRADE. Added intuition source.
+- **MIT 18.01SC** (OCW Scholar, psets and exams with solutions): ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/.
+- 3Blue1Brown *Essence of Calculus* (free): 3blue1brown.com/topics/calculus — watch before each unit.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*

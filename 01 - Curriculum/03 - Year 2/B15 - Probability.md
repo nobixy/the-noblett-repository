@@ -67,6 +67,12 @@ Work all MIT 6.041 problem sets and formal mathematical derivations in `latex`. 
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP.
+- **MIT 6.041SC** (OCW Scholar): ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/; RES.6-012 lecture videos; MITx 6.431x on edX (audit free; some graded items may be paywalled); free text: probabilitycourse.com.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*

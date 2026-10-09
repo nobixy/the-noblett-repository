@@ -63,6 +63,12 @@ Build from scratch in C: a dynamic array (vector), an arena-based string library
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP.
+- 💲 K&R; free alternatives: CS50x's C weeks and *Beej's Guide to C*.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
@@ -80,4 +86,4 @@ Build from scratch in C: a dynamic array (vector), an arena-based string library
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Languages Index|Languages Index]] | [[00 - Start Here#The Path|The Path]]
-- **Sequential Flow:** [[B05 - SICP|← SICP]] | [[00 - Start Here|Start Here]] | [[B07 - Multivariable Calculus|Multivariable Calculus →]]
+- **Sequential Flow:** [[B04a - Differential Equations Bridge|← Differential Equations Bridge]] | [[00 - Start Here|Start Here]] | [[B07 - Multivariable Calculus|Multivariable Calculus →]]

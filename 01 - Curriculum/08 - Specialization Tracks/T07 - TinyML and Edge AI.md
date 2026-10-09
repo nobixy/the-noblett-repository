@@ -11,14 +11,14 @@ prerequisites:
   - "B09 - Computer Systems"
   - "B14 - Computer Architecture"
   - "B15a - Signals and Systems Bridge"
-  - "T01 - Deep AI and Machine Learning"
+  - "B25a - Deep Learning"
 target_profile: "Edge ML Engineer, Embedded Systems Architect, TinyML Researcher"
 aliases: [Track 7 - TinyML and Edge AI, Track 7 - TinyML, Edge AI and Neuromorphic Computing, "TinyML and Edge AI"]
 tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
 optional: true # specialization track not yet chosen (DR-001)
-primary_resource: "Foundations of Efficient Deep Learning (MIT 6.5940 Equivalent) + Embedded Edge Systems & Microcontroller Deployment"
+primary_resource: "MIT 6.5940 EfficientML + Harvard ML Systems book + UT Austin Embedded Systems (free)"
 milestone: "Autonomous Real-Time Keyword Spotting & Vision Anomaly Detection on Bare-Metal Microcontroller"
 date_started: ""
 date_completed: ""
@@ -28,7 +28,7 @@ date_completed: ""
 
 > [!INFO] Track Overview
 > - **Track ID:** Track 7
-> - **Prerequisites:** [[B06 - C Fluency|C Fluency]], [[B09 - Computer Systems|Computer Systems]], [[B14 - Computer Architecture|Computer Architecture]], [[B15a - Signals and Systems Bridge|Signals and Systems Bridge]], [[T01 - Deep AI and Machine Learning|Deep AI and Machine Learning]]
+> - **Prerequisites:** [[B06 - C Fluency|C Fluency]], [[B09 - Computer Systems|Computer Systems]], [[B14 - Computer Architecture|Computer Architecture]], [[B15a - Signals and Systems Bridge|Signals and Systems Bridge]], [[B25a - Deep Learning|Deep Learning]]
 > - **Target Profile:** Edge ML Engineer, Embedded Systems Architect, TinyML Researcher
 > - **Structure:** Two core courses plus three progressive labs and one comprehensive capstone build deliverable.
 > - **Curriculum Position:** Elective specialization block across Years 4 & 5 (*"Two deep beats six shallow"*).
@@ -49,10 +49,18 @@ TinyML is the rigorous discipline of executing deep neural network inference and
 - [[B09 - Computer Systems|Computer Systems]]
 - [[B14 - Computer Architecture|Computer Architecture]]
 - [[B15a - Signals and Systems Bridge|Signals and Systems Bridge]]
-- [[T01 - Deep AI and Machine Learning|Deep AI and Machine Learning]]
+- [[B25a - Deep Learning|Deep Learning]]
 
 
 
+
+## 🌐 Real Courses (verified 2026-10-09, DR-004)
+*The module plan below is the syllabus; these are the real, current courses that teach it. Do their assignments as the coursework.*
+- **Course 1 → MIT 6.5940 TinyML and Efficient Deep Learning** (free lectures and labs): efficientml.ai, hanlab.mit.edu/courses/2024-fall-65940.
+- **Course 2 → Embedded ML systems:** *Machine Learning Systems* (Harvard CS249r, free online book): mlsysbook.ai; embedded foundations: UT Austin *Embedded Systems – Shape the World* on edX (free to audit); Interrupt blog (interrupt.memfault.com).
+- 💲 A microcontroller dev board with a microphone/camera. Free alternative: Renode (renode.io) emulation for most labs.
+
+---
 
 ## 📚 Core Courses
 
@@ -223,4 +231,4 @@ An end-to-end, fully autonomous cyber-physical intelligence system deployed to a
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization Branches|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization Branches|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Start Here|Start Here]] / [[00 - Start Here#The Path|The Path]]
 
-- **Sequential Flow:** [[T06 - Advanced Computer Engineering|← Advanced Computer Engineering]] | [[00 - Start Here|Start Here]] | [[T11 - Autonomous Robotics|Autonomous Robotics →]]
+- **Sequential Flow:** [[T06 - Advanced Computer Engineering|← Advanced Computer Engineering]] | [[00 - Start Here|Start Here]] | [[T08 - Quantum Information and Computing|Quantum Information and Computing →]]

@@ -96,6 +96,11 @@ To become exceptionally educated from the ground up, you must abandon how school
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP. Evidence-based study methods; nothing to replace.
+
+---
+
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > You use the Feynman Technique, Blank-Sheet Retrieval, and Elaborative Interrogation instinctively during daily study sessions.

@@ -63,6 +63,12 @@ Build two complete programming language implementations — one tree-walking int
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP.
+- *Crafting Interpreters* (free online): craftinginterpreters.com — its test suite is the autograder. 💲 Ball's Go books (interpreterbook.com); free alternative: Crafting Interpreters Part II (jlox).
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*

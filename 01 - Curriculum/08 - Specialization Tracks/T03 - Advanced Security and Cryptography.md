@@ -19,7 +19,7 @@ tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
 optional: true # specialization track not yet chosen (DR-001)
-primary_resource: "Applied Cryptography & Provable Security (Boneh & Shoup / Stanford CS255 Equivalent) + Systems Security, Binary Exploitation & Protocol Verification (MIT 6.5660/6.858 + pwn.college)"
+primary_resource: "Boneh & Shoup + Stanford Crypto I + MIT 6.5660 + pwn.college (free)"
 milestone: "End-to-End Audited Encrypted Messaging Protocol with Post-Quantum Hybrid KEM"
 date_started: ""
 date_completed: ""
@@ -55,6 +55,13 @@ This track bridges rigorous mathematical cryptography (provable security reducti
 
 
 
+
+## 🌐 Real Courses (verified 2026-10-09, DR-004)
+*The module plan below is the syllabus; these are the real, current courses that teach it. Do their assignments as the coursework.*
+- **Course 1 → Applied cryptography:** Boneh & Shoup, *A Graduate Course in Applied Cryptography* (free): toc.cryptobook.us; Coursera *Cryptography I* (Boneh; free to audit): coursera.org/learn/crypto.
+- **Course 2 → Systems security:** MIT 6.5660 (2026 labs): css.csail.mit.edu/6.5660/2026/ and OCW Spring 2024; pwn.college (free, auto-checked binary exploitation).
+
+---
 
 ## 📚 Core Courses
 
@@ -221,4 +228,4 @@ A secure, multi-party end-to-end encrypted messaging engine written in Rust or C
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization Branches|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization Branches|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Start Here|Start Here]] / [[00 - Start Here#The Path|The Path]]
 
-- **Sequential Flow:** [[T09 - Hardware-in-the-Loop Virtualization and Digital Twins|← Hardware-in-the-Loop Virtualization and Digital Twins]] | [[00 - Start Here|Start Here]] | [[T10 - Quantum Information and Computing|Quantum Information and Computing →]]
+- **Sequential Flow:** [[T02 - Advanced Systems and Performance|← Advanced Systems and Performance]] | [[00 - Start Here|Start Here]] | [[T04 - Advanced Graphics and Vision|Advanced Graphics and Vision →]]

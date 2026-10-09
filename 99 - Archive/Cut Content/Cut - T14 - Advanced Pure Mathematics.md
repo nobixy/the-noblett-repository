@@ -19,7 +19,11 @@ date_completed: ""
 tier: "Tier 3 - Depth"
 optional: true # specialization track not yet chosen (DR-001)
 aliases: [Track 14 - Advanced Pure Mathematics, "Advanced Pure Mathematics"]
+cut: "DR-004 (2026-10-09): Cut: algebra, topology and manifolds are a math degree, not EECS. The math EECS needs is in the core (linear algebra, probability, statistics, optimization, information theory)."
 ---
+> [!WARNING] Removed from the curriculum by [[DR-004 - Content Overhaul|DR-004]] (2026-10-09)
+> Cut: algebra, topology and manifolds are a math degree, not EECS. The math EECS needs is in the core (linear algebra, probability, statistics, optimization, information theory).
+
 
 # Track 14 — Advanced Pure Mathematics
 
@@ -61,4 +65,4 @@ Instead of software builds, this track requires rigorous, mathematician-grade pr
 > All proofs terminate with a Q.E.D. tombstone, completely satisfy the hypotheses, and demonstrate absolute rigorous logic without hand-waving.
 
 ## ➡️ Next Steps
-- **Sequential Flow:** [[T12 - Computational Biology and Bioinformatics|← Computational Biology and Bioinformatics]] | [[00 - Start Here|Start Here]] | [[T15 - Full-Stack and Product Engineering|Full-Stack and Product Engineering →]]
+- **Sequential Flow:** [[Cut - T12 - Computational Biology and Bioinformatics|← Computational Biology and Bioinformatics]] | [[00 - Start Here|Start Here]] | [[T10 - Full-Stack and Product Engineering|Full-Stack and Product Engineering →]]

@@ -8,7 +8,7 @@ status: not-started
 prerequisites: []
 hours_estimate: 125
 hours_actual: 0
-primary_resource: "Harvard CS50x"
+primary_resource: "Harvard CS50x 2026"
 milestone: "Valgrind-clean 300-line C program, Hash Table & BST from scratch"
 date_started: ""
 date_completed: ""
@@ -74,6 +74,12 @@ Implement a 300-line modular data structure library in `c` (hash table with sepa
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > The cold exit test passes cleanly under `valgrind`.
+
+---
+
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** UPGRADE. Pointed at the current offering and its autograder.
+- **CS50x 2026** (free, certificate free): cs50.harvard.edu/x/2026/. Problem sets are autograded with `check50` and submitted with `submit50` — use them as the *Check your work* step.
 
 ---
 

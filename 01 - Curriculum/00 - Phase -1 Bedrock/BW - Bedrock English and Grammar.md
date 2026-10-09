@@ -89,6 +89,12 @@ The two master rules that instantly transform weak, muddy sentences into surgica
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP. Writing is a graded skill in every later block.
+- 💲 Huddleston & Pullum and Williams *Style* are paid; free alternative: the copywork and blank-sheet routines in this block need no book.
+
+---
+
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > - [ ] You can parse and diagram any compound-complex English sentence without hesitation.

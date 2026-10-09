@@ -21,7 +21,11 @@ primary_resource: "Advanced Rust Systems & Memory Safety Internals + Asynchronou
 milestone: "Bootable Multi-Core `no_std` Microkernel with Formally Verified Drivers"
 date_started: ""
 date_completed: ""
+cut: "DR-004 (2026-10-09): Merged into Track 2 (Systems and Performance): Rust is a tool for systems work, not a separate domain. Its labs stay available below."
 ---
+> [!WARNING] Removed from the curriculum by [[DR-004 - Content Overhaul|DR-004]] (2026-10-09)
+> Merged into Track 2 (Systems and Performance): Rust is a tool for systems work, not a separate domain. Its labs stay available below.
+
 
 # Track 8 — Rust for Systems Engineering and Formal Verification
 
@@ -222,4 +226,4 @@ A freestanding, crash-resilient, multi-core operating system kernel written in 1
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization Branches|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization Branches|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Start Here|Start Here]] / [[00 - Start Here#The Path|The Path]]
 
-- **Sequential Flow:** [[T02 - Advanced Systems and Performance|← Advanced Systems and Performance]] | [[00 - Start Here|Start Here]] | [[T13 - Systems Formal Verification|Systems Formal Verification →]]
+- **Sequential Flow:** [[T02 - Advanced Systems and Performance|← Advanced Systems and Performance]] | [[00 - Start Here|Start Here]] | [[Cut - T13 - Systems Formal Verification|Systems Formal Verification →]]

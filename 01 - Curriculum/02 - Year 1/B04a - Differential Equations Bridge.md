@@ -7,7 +7,6 @@ term: "Year 1 Spring"
 status: not-started
 prerequisites:
   - "B07 - Multivariable Calculus"
-optional: true # computer-engineering path; excluded from the hour budget
 hours_estimate: 150
 hours_actual: 0
 primary_resource: "William E. Boyce & Richard C. DiPrima, Elementary Differential Equations and Boundary Value Problems (11e) & Steven Strogatz, Nonlinear Dynamics and Chaos (2e) & MIT 18.03 OCW"
@@ -22,8 +21,8 @@ aliases: ["Differential Equations Bridge"]
 
 [[00 - Start Here|Start Here]] / [[00 - Start Here#The Path|The Path]] / [[Math Index|Math Index]]
 
-> [!NOTE] Optional — computer-engineering path
-> Not required for MIT 6-3 (the [6-3 degree chart](https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/) doesn't require 18.03), and not part of the source program. Its main job is to prepare the optional [[B08a - Circuits and Electronics Bridge|08a]] and [[B15a - Signals and Systems Bridge|15a]] blocks. It sits outside the hour budget. [[T11 - Autonomous Robotics|Track 11]] lists it as a prerequisite.
+> [!NOTE] Core since [[DR-004 - Content Overhaul|DR-004]] (2026-10-09)
+> Required: MIT's 6-5 Electrical Engineering with Computing degree requires circuits (6.2000) and signals (6.3000), and differential equations underpin both. Counted in the hour budget.
 
 > [!INFO] Block Overview
 > - **Term / Position:** Year 1 Spring (Co-requisite with [[B07 - Multivariable Calculus|Multivariable Calculus]] and [[B08 - Physics II|Physics II]], preceding [[B08a - Circuits and Electronics Bridge|Circuits and Electronics Bridge]], [[B11 - Linear Algebra|Linear Algebra]], and [[B15a - Signals and Systems Bridge|Signals and Systems Bridge]])
@@ -212,6 +211,12 @@ You must construct a high-performance numerical simulation suite and phase-space
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** UPGRADE → CORE. Required for circuits, signals and control; MIT's 6-5 (Electrical Engineering with Computing) needs it.
+- **MIT 18.03SC** (OCW Scholar, psets and exams with solutions): ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
@@ -235,4 +240,4 @@ You must construct a high-performance numerical simulation suite and phase-space
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[00 - Start Here#The Path|The Path]]
-- **Sequential Flow:** [[B04 - Nand2Tetris|← Nand2Tetris]] | [[00 - Start Here|Start Here]] | [[B05 - SICP|SICP →]]
+- **Sequential Flow:** [[B04 - Nand2Tetris|← Nand2Tetris]] | [[00 - Start Here|Start Here]] | [[B06 - C Fluency|C Fluency →]]

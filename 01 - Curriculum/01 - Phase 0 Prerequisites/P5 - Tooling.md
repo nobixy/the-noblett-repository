@@ -8,7 +8,7 @@ status: not-started
 prerequisites: []
 hours_estimate: 40
 hours_actual: 0
-primary_resource: "MIT The Missing Semester of Your CS Education + Ward, How Linux Works (ch 1-7)"
+primary_resource: "MIT The Missing Semester (2026 edition) + Ward, How Linux Works (ch 1-7)"
 milestone: "log.md has 14 consecutive daily entries & headless Linux navigation mastered"
 date_started: ""
 date_completed: ""
@@ -70,6 +70,13 @@ Tools shape thought. Trying to learn operating systems or algorithms while fumbl
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > [[log]] has 14 consecutive daily entries and you can navigate, edit, wrangle data, and compile software on a Linux box without touching a GUI mouse.
+
+---
+
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** UPGRADE. Missing Semester was rewritten for 2026.
+- **Missing Semester 2026** (free, new edition): missing.csail.mit.edu/2026/ — shell, command-line environment, dev environment, debugging and profiling, Git, packaging and shipping code, agentic coding, code quality. Older topics (data wrangling, security) remain on missing.csail.mit.edu.
+- 💲 *How Linux Works*; free alternative on Arch: the Arch Wiki and `man` pages.
 
 ---
 

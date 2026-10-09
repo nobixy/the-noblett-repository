@@ -75,6 +75,12 @@ Write rigorous, complete formal solutions to all Velleman Chapters 1–3 exercis
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP. Proof fluency before CS61A and 6.1200.
+- 💲 Velleman *How to Prove It*; free alternatives: *Infinite Descent* (infinitedescent.xyz) or Hammack *Book of Proof* (free PDF).
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*

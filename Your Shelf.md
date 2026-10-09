@@ -128,7 +128,7 @@
 - **Difficulty:** Advanced
 - **Prerequisites:** [[B20 - Algorithms II|Algorithms II]], [[B15 - Probability|Probability]]
 - **Best Time to Read:** Phase 6
-- **Course It Supports:** [[E2 - Introduction to Machine Learning|Introduction to Machine Learning]]
+- **Course It Supports:** [[E1 - Artificial Intelligence|Artificial Intelligence]]
 - **Role:** Core (Tier 1)
 
 **Database Systems: The Complete Book** (Garcia-Molina, Ullman, Widom)
@@ -152,7 +152,7 @@
 - **Difficulty:** Intermediate
 - **Prerequisites:** [[B09 - Computer Systems|Computer Systems]], [[B19 - Networking|Networking]]
 - **Best Time to Read:** Phase 6
-- **Course It Supports:** [[E3 - Computer Security|Computer Security]]
+- **Course It Supports:** [[E2 - Computer Security|Computer Security]]
 - **Role:** Core (Tier 1)
 
 **How Linux Works, 3e** (Brian Ward)

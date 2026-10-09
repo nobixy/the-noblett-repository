@@ -1,7 +1,7 @@
 ---
 block_id: "Track 5"
 track_id: "Track 5"
-title: "Programming Languages and Compilers"
+title: "Programming Languages, Compilers and Verification"
 category: "specialization"
 subject: "Specialization"
 term: "Years 4 & 5"
@@ -9,7 +9,6 @@ status: not-started
 prerequisites:
   - "B01 - CS61A"
   - "B04 - Nand2Tetris"
-  - "B05 - SICP"
   - "B06 - C Fluency"
   - "B10 - Math for CS"
   - "B12 - Interpreters"
@@ -20,17 +19,17 @@ tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
 optional: true # specialization track not yet chosen (DR-001)
-primary_resource: "Type Systems & Formal Operational Semantics (Pierce TAPL / Harper PFPL Equivalent) + Advanced Optimizing Compilers & Code Generation (Cornell CS 6120 / Cooper & Torczon)"
+primary_resource: "Software Foundations + Grossman PL + Cornell CS 6120 + learntla/Alloy (free)"
 milestone: "End-to-End Optimizing Compiler targeting RISC-V with Mechanized Type Soundness Proof"
 date_started: ""
 date_completed: ""
 ---
 
-# Track 5 — Programming Languages and Compilers
+# Track 5 — Programming Languages, Compilers and Verification
 
 > [!INFO] Track Overview
 > - **Track ID:** Track 5
-> - **Prerequisites:** [[B01 - CS61A|CS61A]], [[B04 - Nand2Tetris|Nand2Tetris]], [[B05 - SICP|SICP]], [[B06 - C Fluency|C Fluency]], [[B10 - Math for CS|Math for CS]], [[B12 - Interpreters|Interpreters]], [[B17 - Software Construction|Software Construction]]
+> - **Prerequisites:** [[B01 - CS61A|CS61A]], [[B04 - Nand2Tetris|Nand2Tetris]], [[B06 - C Fluency|C Fluency]], [[B10 - Math for CS|Math for CS]], [[B12 - Interpreters|Interpreters]], [[B17 - Software Construction|Software Construction]]
 > - **Target Profile:** Compiler Engineer, Programming Language Designer, Static Analysis Specialist, Formal Verification Engineer
 > - **Structure:** Two core courses plus three progressive labs and one comprehensive capstone build deliverable.
 > - **Curriculum Position:** Elective specialization block across Years 4 & 5 (*"Two deep beats six shallow"*).
@@ -49,7 +48,6 @@ This track equips students with both the profound mathematical theory of program
 *What must you have mastered before starting this block?*
 - [[B01 - CS61A|CS61A]]
 - [[B04 - Nand2Tetris|Nand2Tetris]]
-- [[B05 - SICP|SICP]]
 - [[B06 - C Fluency|C Fluency]]
 - [[B10 - Math for CS|Math for CS]]
 - [[B12 - Interpreters|Interpreters]]
@@ -57,6 +55,19 @@ This track equips students with both the profound mathematical theory of program
 
 
 
+
+## 🌐 Real Courses (verified 2026-10-09, DR-004)
+*The module plan below is the syllabus; these are the real, current courses that teach it. Do their assignments as the coursework.*
+- **Course 1 → Semantics and types:** *Software Foundations* (free; every exercise is machine-checked by the proof assistant): softwarefoundations.cis.upenn.edu; Grossman, *Programming Languages* on Coursera (free to audit): coursera.org/learn/programming-languages.
+- **Course 2 → Compilers:** Cornell CS 6120 Advanced Compilers (self-guided, free, Bril IR): cs.cornell.edu/courses/cs6120/2025fa/; Stanford CS143 (cool compiler): web.stanford.edu/class/cs143/.
+- **Verification (merged from former Track 13):** learntla.com (free); *Formal Software Design with Alloy 6* (free): haslab.github.io/formal-software-design/; Alloy tools: alloytools.org.
+
+---
+
+## 🔀 Merged In by DR-004
+**Formal verification (former Track 13)** is now part of this track. Its full module plan, labs and capstone are kept in [[Cut - T13 - Systems Formal Verification]]; use its labs as optional extra labs here.
+
+---
 
 ## 📚 Core Courses
 
@@ -225,4 +236,4 @@ A production-grade compiler pipeline implemented in OCaml, Rust, or C++ that com
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization Branches|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization Branches|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Start Here|Start Here]] / [[00 - Start Here#The Path|The Path]]
 
-- **Sequential Flow:** [[T13 - Systems Formal Verification|← Systems Formal Verification]] | [[00 - Start Here|Start Here]] | [[T01 - Deep AI and Machine Learning|Deep AI and Machine Learning →]]
+- **Sequential Flow:** [[T04 - Advanced Graphics and Vision|← Advanced Graphics and Vision]] | [[00 - Start Here|Start Here]] | [[T06 - Advanced Computer Engineering|Advanced Computer Engineering →]]

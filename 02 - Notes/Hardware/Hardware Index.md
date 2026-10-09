@@ -18,7 +18,7 @@ tags:
 
 ## Reference Courses
 - [[B04 - Nand2Tetris|Nand2Tetris]]
-- [[B08 - Physics II|Physics II]] (MIT 8.02SC)
-- [[B08a - Circuits and Electronics Bridge|Circuits and Electronics Bridge]] (MIT 6.2000; optional)
+- [[B08 - Physics II|Physics II]] (MIT 8.02)
+- [[B08a - Circuits and Electronics Bridge|Circuits and Electronics Bridge]] (MIT 6.2000)
 - [[B14 - Computer Architecture|Computer Architecture]] (ETH Zürich Mutlu)
 - [[T06 - Advanced Computer Engineering|Advanced Computer Engineering]]

@@ -1,5 +1,5 @@
 ---
-block_id: "" # B0 | BM | BW | P1–P5 | Block N | Block Na | E1–E4 | Track N (see DR-002)
+block_id: "" # B0 | BM | BW | P1–P5 | Block N | Block Na | E1–E2 | Track N (see DR-002, DR-004)
 title: ""
 category: "core" # core | elective | specialization
 subject: "" # English | Mathematics | Meta-Learning | Computer Science | Software Engineering | Computer Engineering | Electrical Engineering | Specialization | Capstone

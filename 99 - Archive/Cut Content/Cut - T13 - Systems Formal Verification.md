@@ -19,7 +19,11 @@ date_completed: ""
 tier: "Tier 3 - Depth"
 optional: true # specialization track not yet chosen (DR-001)
 aliases: [Track 13 - Systems Formal Verification, "Systems Formal Verification"]
+cut: "DR-004 (2026-10-09): Merged into Track 5 (Programming Languages, Compilers and Verification); Block 27 Option B already covers TLA+."
 ---
+> [!WARNING] Removed from the curriculum by [[DR-004 - Content Overhaul|DR-004]] (2026-10-09)
+> Merged into Track 5 (Programming Languages, Compilers and Verification); Block 27 Option B already covers TLA+.
+
 
 # Track 13 — Systems Formal Verification (TLA+ & Alloy)
 
@@ -63,4 +67,4 @@ While unit testing proves the presence of bugs, formal verification proves their
 > You can fluently express concurrent behaviors using temporal logic, write a formal specification before writing a line of code, and routinely use TLC to discover edge-case deadlocks that human reasoning misses.
 
 ## ➡️ Next Steps
-- **Sequential Flow:** [[T08 - Rust for Systems Engineering|← Rust for Systems Engineering]] | [[00 - Start Here|Start Here]] | [[T05 - Advanced Programming Languages and Compilers|Advanced Programming Languages and Compilers →]]
+- **Sequential Flow:** [[Cut - T08 - Rust for Systems Engineering|← Rust for Systems Engineering]] | [[00 - Start Here|Start Here]] | [[T05 - Advanced Programming Languages and Compilers|Advanced Programming Languages and Compilers →]]

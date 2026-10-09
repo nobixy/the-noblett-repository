@@ -74,6 +74,11 @@ You're about to read thousands of pages of textbooks and hundreds of papers. Rea
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP. Paper reading and writing are used from Year 2 on.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*

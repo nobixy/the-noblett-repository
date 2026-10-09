@@ -11,7 +11,7 @@ tags:
 ---
 
 ## Core Areas
-- **Paradigms:** Functional programming (Scheme/Lisp in SICP), Systems (C, Go, C++, Rust)
+- **Paradigms:** Functional programming (Scheme in CS61A; SICP optional), Systems (C, Go, C++, Rust)
 - **Parsing & Syntax:** Lexical analysis, context-free grammars, Pratt parsing, ASTs
 - **Runtime Systems:** Tree-walking, stack-based bytecode VMs, mark-and-sweep garbage collection
 - **Type Theory & Formal Semantics:** Simply typed lambda calculus, type inference, Coq/Rocq proofs
@@ -19,7 +19,6 @@ tags:
 
 ## Reference Courses
 - [[B01 - CS61A|CS61A]]
-- [[B05 - SICP|SICP]]
 - [[B06 - C Fluency|C Fluency]]
 - [[B12 - Interpreters|Interpreters]]
 - [[B17 - Software Construction|Software Construction]]

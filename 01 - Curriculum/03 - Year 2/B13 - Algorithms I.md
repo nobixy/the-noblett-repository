@@ -66,6 +66,14 @@ Implement every major data structure and algorithm from scratch in `c` and `pyth
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** UPGRADE. Added an autograded problem set.
+- **MIT 6.006** (OCW, Spring 2020): ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/.
+- **CSES Problem Set** (free, autograded): cses.fi/problemset/ — do the Sorting/Searching, Dynamic Programming and Graph sections alongside the lectures.
+- 💲 CLRS 4e; free alternative: Erickson, *Algorithms* (jeffe.cs.illinois.edu/teaching/algorithms/).
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*

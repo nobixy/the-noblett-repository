@@ -1,6 +1,6 @@
 ---
 block_id: "Block 8"
-title: "Electricity and Magnetism (MIT 8.02SC)"
+title: "Electricity and Magnetism (MIT 8.02)"
 category: "core"
 subject: "Electrical Engineering"
 term: "Year 1 Spring"
@@ -8,9 +8,9 @@ status: not-started
 prerequisites:
   - "B03 - Physics I"
   - "B07 - Multivariable Calculus"
-hours_estimate: 100
+hours_estimate: 130
 hours_actual: 0
-primary_resource: "MIT 8.02SC (OCW Scholar)"
+primary_resource: "MIT 8.02 Electricity and Magnetism (OCW, Spring 2007 & Spring 2019)"
 milestone: "8.02 final exam passed"
 date_started: ""
 date_completed: ""
@@ -18,15 +18,15 @@ tier: "Tier 1 - Core"
 aliases: ["Physics II"]
 ---
 
-# Block 8 — Electricity and Magnetism (MIT 8.02SC)
+# Block 8 — Electricity and Magnetism (MIT 8.02)
 
 [[00 - Start Here|Start Here]] / [[00 - Start Here#The Path|The Path]] / [[Hardware Index|Hardware Index]]
 
 > [!INFO] Block Overview
 > - **Term / Position:** Year 1 Spring
-> - **Estimated Hours:** ~100 hrs
+> - **Estimated Hours:** ~130 hrs
 > - **Status:** `not-started`
-> - **Primary Resource:** MIT 8.02SC (OCW Scholar)
+> - **Primary Resource:** MIT 8.02 Electricity and Magnetism (OCW, Spring 2007 & Spring 2019)
 > - **Key Milestone:** 8.02 final exam passed
 
 ---
@@ -63,6 +63,12 @@ Work all assigned problem sets and review recitation derivations.
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > 8.02 final exam passed.
+
+---
+
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** UPGRADE. There is no 8.02SC on OCW; pointed at the real 8.02 courses. Hours 100 → 130.
+- **MIT 8.02 Electricity and Magnetism** (OCW): Spring 2007 (Lewin lectures, psets, exams) ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/ and Spring 2019 ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2019/.
 
 ---
 

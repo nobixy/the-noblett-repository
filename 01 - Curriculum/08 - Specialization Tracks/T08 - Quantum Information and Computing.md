@@ -1,6 +1,6 @@
 ---
-block_id: "Track 10"
-track_id: "Track 10"
+block_id: "Track 8"
+track_id: "Track 8"
 title: "Quantum Information and Computing"
 category: "specialization"
 subject: "Specialization"
@@ -17,16 +17,16 @@ tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
 optional: true # specialization track not yet chosen (DR-001)
-primary_resource: "Foundations of Quantum Information & Algorithms + Fault Tolerance, Quantum Error Correction & NISQ Systems"
+primary_resource: "Quantum Country + IBM Quantum Learning + MIT 8.04 + Gottesman/Stim (free)"
 milestone: "End-to-End Quantum Compiler & Variational Quantum Eigensolver (VQE) Pipeline"
 date_started: ""
 date_completed: ""
 ---
 
-# Track 10 — Quantum Information and Computing
+# Track 8 — Quantum Information and Computing
 
 > [!INFO] Track Overview
-> - **Track ID:** Track 10
+> - **Track ID:** Track 8
 > - **Prerequisites:** [[B08 - Physics II|Physics II]], [[B11 - Linear Algebra|Linear Algebra]], [[B15 - Probability|Probability]], [[B24 - Theory of Computation|Theory of Computation]]
 > - **Target Profile:** Quantum Software Engineer, Quantum Algorithms Researcher, Quantum Information Scientist
 > - **Structure:** Two core courses plus three progressive labs and one comprehensive capstone build deliverable.
@@ -51,6 +51,14 @@ Shor's algorithm solves prime factorization and discrete logarithms in polynomia
 
 
 
+
+## 🌐 Real Courses (verified 2026-10-09, DR-004)
+*The module plan below is the syllabus; these are the real, current courses that teach it. Do their assignments as the coursework.*
+- **Course 1 → Foundations:** Quantum Country (free): quantum.country; IBM Quantum Learning (free courses, real hardware): quantum.cloud.ibm.com/learning; physics background: MIT 8.04 Quantum Physics I (OCW, Spring 2016).
+- **Course 2 → Error correction and systems:** Gottesman, *Stabilizer Codes and Quantum Error Correction* (free, arXiv quant-ph/9705052); Stim simulator (free): github.com/quantumlib/Stim.
+- 💲 Nielsen & Chuang; free alternative: the resources above.
+
+---
 
 ## 📚 Core Courses
 
@@ -225,4 +233,4 @@ A complete software compilation and quantum algorithm pipeline that maps molecul
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization Branches|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization Branches|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Start Here|Start Here]] / [[00 - Start Here#The Path|The Path]]
 
-- **Sequential Flow:** [[T03 - Advanced Security and Cryptography|← Advanced Security and Cryptography]] | [[00 - Start Here|Start Here]] | [[T12 - Computational Biology and Bioinformatics|Computational Biology and Bioinformatics →]]
+- **Sequential Flow:** [[T07 - TinyML and Edge AI|← TinyML and Edge AI]] | [[00 - Start Here|Start Here]] | [[T09 - Autonomous Robotics|Autonomous Robotics →]]

@@ -20,7 +20,11 @@ date_completed: ""
 tier: "Tier 3 - Depth"
 optional: true # specialization track not yet chosen (DR-001)
 aliases: [Track 12 - Computational Biology and Bioinformatics, "Computational Biology and Bioinformatics"]
+cut: "DR-004 (2026-10-09): Cut: an application domain outside EECS. Lifelong-continuation material, not part of becoming an EECS engineer."
 ---
+> [!WARNING] Removed from the curriculum by [[DR-004 - Content Overhaul|DR-004]] (2026-10-09)
+> Cut: an application domain outside EECS. Lifelong-continuation material, not part of becoming an EECS engineer.
+
 
 # Track 12 — Computational Biology and Bioinformatics
 
@@ -45,7 +49,7 @@ The intersection of algorithms, machine learning, and genomics represents one of
 - [[B20 - Algorithms II|Algorithms II]]
 - [[B15 - Probability|Probability]]
 - [[B22 - Statistics|Statistics]]
-- [[E2 - Introduction to Machine Learning|Introduction to Machine Learning]]
+- [[Cut - E2 - Introduction to Machine Learning|Introduction to Machine Learning]]
 
 ## 📖 Primary Syllabus & Core Content
 - [ ] Rosalind Bioinformatics Stronghold (algorithmic foundations)
@@ -66,4 +70,4 @@ The intersection of algorithms, machine learning, and genomics represents one of
 > You can explain the algorithms behind modern aligners (like BWA or Bowtie), correctly formulate an HMM for gene finding, and your genome assembler reconstructs the target sequence with high fidelity.
 
 ## ➡️ Next Steps
-- **Sequential Flow:** [[T10 - Quantum Information and Computing|← Quantum Information and Computing]] | [[00 - Start Here|Start Here]] | [[T14 - Advanced Pure Mathematics|Advanced Pure Mathematics →]]
+- **Sequential Flow:** [[T08 - Quantum Information and Computing|← Quantum Information and Computing]] | [[00 - Start Here|Start Here]] | [[Cut - T14 - Advanced Pure Mathematics|Advanced Pure Mathematics →]]

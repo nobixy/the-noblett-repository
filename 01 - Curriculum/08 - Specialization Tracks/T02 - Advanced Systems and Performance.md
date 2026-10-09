@@ -18,7 +18,7 @@ tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
 optional: true # specialization track not yet chosen (DR-001)
-primary_resource: "Software Systems Performance Engineering (MIT 6.172 Equivalent) + Multiprocessor Programming & Advanced Database Storage (Herlihy & Shavit / CMU 15-721)"
+primary_resource: "MIT 6.172 + CMU 15-721 + Rust systems (free)"
 milestone: "Production-Grade High-Performance Storage Engine or Kernel/DB Upstream Contribution"
 date_started: ""
 date_completed: ""
@@ -53,6 +53,19 @@ This track equips students with the empirical and theoretical skills required to
 
 
 
+
+## 🌐 Real Courses (verified 2026-10-09, DR-004)
+*The module plan below is the syllabus; these are the real, current courses that teach it. Do their assignments as the coursework.*
+- **Course 1 → MIT 6.172 Performance Engineering of Software Systems** (OCW, Fall 2018: lectures, projects): ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/.
+- **Course 2 → CMU 15-721 Advanced Database Systems** (current site): 15721.courses.cs.cmu.edu/ (Spring 2024 archive: 15721.courses.cs.cmu.edu/spring2024/), with the Rust module below.
+- **Rust (merged from former Track 8):** Mara Bos, *Rust Atomics and Locks* (free online): mara.nl/atomics/; Jon Gjengset's *Crust of Rust* streams (free): youtube.com/@jonhoo.
+
+---
+
+## 🔀 Merged In by DR-004
+**Rust (former Track 8)** is now part of this track. Its full module plan, labs and capstone are kept in [[Cut - T08 - Rust for Systems Engineering]]; use its labs as optional extra labs here.
+
+---
 
 ## 📚 Core Courses
 
@@ -218,4 +231,4 @@ An industrial-grade, persistent key-value storage engine engineered in C++ or Ru
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization Branches|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization Branches|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Start Here|Start Here]] / [[00 - Start Here#The Path|The Path]]
 
-- **Sequential Flow:** [[Specialization Branches|← Specialization Branches]] | [[00 - Start Here|Start Here]] | [[T08 - Rust for Systems Engineering|Rust for Systems Engineering →]]
+- **Sequential Flow:** [[T01 - Deep AI and Machine Learning|← Deep AI and Machine Learning]] | [[00 - Start Here|Start Here]] | [[T03 - Advanced Security and Cryptography|Advanced Security and Cryptography →]]

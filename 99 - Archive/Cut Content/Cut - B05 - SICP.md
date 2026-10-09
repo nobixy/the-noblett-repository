@@ -15,7 +15,11 @@ date_started: ""
 date_completed: ""
 tier: "Tier 3 - Depth"
 aliases: ["SICP"]
+cut: "DR-004 (2026-10-09): Cut (merged): CS61A is SICP taught in Python, Block 12 builds two interpreters; a third pass over the same ideas costs 120 h. SICP chapters 1–3 remain optional reading in Block 1."
 ---
+> [!WARNING] Removed from the curriculum by [[DR-004 - Content Overhaul|DR-004]] (2026-10-09)
+> Cut (merged): CS61A is SICP taught in Python, Block 12 builds two interpreters; a third pass over the same ideas costs 120 h. SICP chapters 1–3 remain optional reading in Block 1.
+
 
 # Block 5 — Structure and Interpretation of Computer Programs (SICP)
 

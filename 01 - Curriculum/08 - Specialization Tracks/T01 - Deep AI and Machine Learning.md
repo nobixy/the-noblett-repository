@@ -13,13 +13,15 @@ prerequisites:
   - "B13 - Algorithms I"
   - "B15 - Probability"
   - "B25 - Convex Optimization"
+  - "B22a - Machine Learning"
+  - "B25a - Deep Learning"
 target_profile: "Machine Learning Engineer, Research Scientist, Deep Learning Infrastructure Engineer"
 aliases: [Track 1 - AI and Machine Learning, Track 1 - Artificial Intelligence and Machine Learning, "Deep AI and Machine Learning"]
 tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
 optional: true # specialization track not yet chosen (DR-001)
-primary_resource: "Mathematical Machine Learning & Statistical Foundations (Stanford CS229 Equivalent) + Deep Learning Systems & Generative Architectures (CMU 10-414 / CS231n)"
+primary_resource: "Stanford CS229 + CMU 10-414 Deep Learning Systems + Stanford CS336 (all free)"
 milestone: "Production-Grade Autoregressive Transformer Training & Quantized Serving Engine"
 date_started: ""
 date_completed: ""
@@ -52,9 +54,19 @@ This track provides an elite, graduate-level mastery of both theoretical machine
 - [[B13 - Algorithms I|Algorithms I]]
 - [[B15 - Probability|Probability]]
 - [[B25 - Convex Optimization|Convex Optimization]]
+- [[B22a - Machine Learning|Machine Learning]]
+- [[B25a - Deep Learning|Deep Learning]]
 
 
 
+
+## 🌐 Real Courses (verified 2026-10-09, DR-004)
+*The module plan below is the syllabus; these are the real, current courses that teach it. Do their assignments as the coursework.*
+- **Course 1 → Stanford CS229 Machine Learning** (free notes, psets): cs229.stanford.edu; lectures via see.stanford.edu/Course/CS229.
+- **Course 2 → CMU 10-414/714 Deep Learning Systems** (free lectures and assignments: build the `needle` framework incl. GPU backend): dlsyscourse.org; then **Stanford CS336 Language Modeling from Scratch** (public assignments): cs336.stanford.edu, github.com/stanford-cs336.
+- Core Blocks 22a (ML) and 25a (Deep Learning) now cover the CS231n level, so this track starts at the systems and LLM level.
+
+---
 
 ## 📚 Core Courses
 
@@ -235,4 +247,4 @@ An end-to-end, high-performance deep learning pipeline implementing a decoder-on
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization Branches|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization Branches|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Start Here|Start Here]] / [[00 - Start Here#The Path|The Path]]
 
-- **Sequential Flow:** [[T05 - Advanced Programming Languages and Compilers|← Advanced Programming Languages and Compilers]] | [[00 - Start Here|Start Here]] | [[T04 - Advanced Graphics and Vision|Advanced Graphics and Vision →]]
+- **Sequential Flow:** [[Specialization Branches|← Specialization Branches]] | [[00 - Start Here|Start Here]] | [[T02 - Advanced Systems and Performance|Advanced Systems and Performance →]]

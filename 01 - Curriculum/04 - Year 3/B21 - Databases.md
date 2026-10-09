@@ -69,6 +69,13 @@ Implement all four CMU BusTub projects in `c++` using `cmake`, debugged with `gd
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** UPGRADE. Uses the public autograder.
+- **CMU 15-445** (Fall 2025 site; Fall 2026 is live): 15445.courses.cs.cmu.edu/fall2025/. The course FAQ lists a public Gradescope for non-CMU students (autograders open after CMU due dates; keep your solutions private, as the FAQ asks). Lectures on the CMU-DB YouTube channel.
+- 💲 DDIA; free alternative: the Red Book (redbook.io) and the 15-445 lectures.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*

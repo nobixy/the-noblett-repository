@@ -24,7 +24,7 @@ Welcome to the **Noblett Repository**. This is a lifelong education and life-man
 ---
 
 ## 📊 Degree Progress
-*Driven by each block's `status` and `hours_actual` frontmatter: update those, and this updates itself. Blocks flagged `optional: true` (the 04a/08a/15a bridges, the E1–E4 electives, and any specialization track not yet chosen) are left out.*
+*Driven by each block's `status` and `hours_actual` frontmatter: update those, and this updates itself. Blocks flagged `optional: true` (Block 18 Real Analysis, the E1–E2 electives, and any specialization track not yet chosen) are left out.*
 
 ```dataview
 TABLE WITHOUT ID status AS Status, length(rows) AS Blocks, sum(rows.hours_actual) AS "Hours logged", sum(rows.hours_estimate) AS "Hours planned"
@@ -56,7 +56,7 @@ SORT key ASC
 
 > [!NOTE] Legend
 > **💼1–💼5** mark the **job-ready path**, the employability path through the stages (the source program's §5.3 "get employable" sequence; formerly the separate Core Spine): 💼1 Foundations & Programming Intro · 💼2 Data, Logic, and Proof · 💼3 Hardware & Systems Architecture · 💼4 Core Software Engineering · 💼5 Employability & Scale, closed by the [[Employability Portfolio and Review|Employability Portfolio]]. The numbers group blocks by phase; study order is still the list order. Each 💼 block note carries `job_ready: <phase>`. SICP was optional depth in Phase 1 and stays unmarked.
-> Numbering is canonical ([[DR-002 - Vault Refactor and Canonical Numbering|DR-002]]): B0/BM/BW (Phase −1), P1–P5 (Phase 0), Blocks 1–30 from the source program, bridges 4a/8a/15a, Block 31 = Specialization B Course 2, Block 32 = Information Theory, E1–E4 = optional electives, Tracks 1–15 = specializations. Each note's `block_id` and title match this list.
+> Numbering is canonical ([[DR-002 - Vault Refactor and Canonical Numbering|DR-002]]): B0/BM/BW (Phase −1), P1–P5 (Phase 0), Blocks 1–30 from the source program, bridges 4a/8a/15a (core since DR-004), new core blocks 22a/23a/25a (DR-004), Block 31 = Specialization B Course 2, Block 32 = Information Theory, E1–E2 = optional electives, Tracks 1–11 = specializations. Block 5 (SICP) was cut by DR-004. Each note's `block_id` and title match this list.
 
 ---
 
@@ -82,12 +82,12 @@ SORT key ASC
 - [ ] **[[B03 - Physics I|Block 3]]:** Physics I (MIT 8.01SC, ✓ *Six Easy Pieces*) — *8.01 final passed.*
 - [ ] **December Prep:** ✓ *How Computers Really Work* — hardware half.
 - [ ] **[[B04 - Nand2Tetris|Block 4]]:** 💼3 Nand2Tetris (Hardware & software) — *A Jack program you wrote runs on the CPU you built.*
-- [ ] **[[B04a - Differential Equations Bridge|Block 4a]]** *(optional — computer-engineering path, outside the hour budget)*: Differential Equations Bridge (MIT 18.03SC, Strogatz) — *Construct adaptive RK4/RKF45 chaos simulator; 18.03 final passed.*
-- [ ] **[[B05 - SICP|Block 5]]:** SICP (MIT 6.001) — *Write metacircular evaluator from memory in under 1 hr.*
+- [ ] **[[B04a - Differential Equations Bridge|Block 4a]]:** Differential Equations Bridge (MIT 18.03SC, Strogatz) — *Construct adaptive RK4/RKF45 chaos simulator; 18.03 final passed.*
+- ~~Block 5: SICP~~ — *cut by [[DR-004 - Content Overhaul|DR-004]]: CS61A and Block 12 already cover it; chapters 1–3 are optional reading in Block 1 ([[Cut - B05 - SICP|archived note]]).*
 - [ ] **[[B06 - C Fluency|Block 6]]:** 💼3 C Fluency (✓ *K&R*, ✓ *Zingaro* 1–5, ✓ *How Linux Works* 8–17) — *Valgrind-clean builds; whiteboard explanation of pointer arithmetic, struct padding, stack frame.*
 - [ ] **[[B07 - Multivariable Calculus|Block 7]]:** Multivariable Calculus (MIT 18.02SC) — *18.02 final passed.*
-- [ ] **[[B08 - Physics II|Block 8]]:** Physics II (MIT 8.02SC) — *8.02 final passed.*
-- [ ] **[[B08a - Circuits and Electronics Bridge|Block 8a]]** *(optional — computer-engineering path, outside the hour budget)*: Circuits & Electronics Bridge (MIT 6.002 / 6.2000, Agarwal & Lang) — *Design & test 4th-order Sallen-Key Butterworth filter in SPICE & breadboard.*
+- [ ] **[[B08 - Physics II|Block 8]]:** Physics II (MIT 8.02) — *8.02 final passed.*
+- [ ] **[[B08a - Circuits and Electronics Bridge|Block 8a]]:** Circuits & Electronics Bridge (MIT 6.002 / 6.2000, Agarwal & Lang) — *Design & test 4th-order Sallen-Key Butterworth filter in SPICE & breadboard.*
 - [ ] **Year 1 Companion Reading:** ✓ *What Is Mathematics?* ch. 1–2, 6–8.
 - [ ] **Year 1 Writing Deliverable:** 12 published technical blog posts + one 2,000-word essay with visible revision history.
 
@@ -95,13 +95,13 @@ SORT key ASC
 
 ### Year 2: The Systems Year
 - [ ] **[[B09 - Computer Systems|Block 9]]:** 💼3 Computer Systems (✓ *CS:APP*, CMU 15-213) — *All 7 labs pass; malloc lab score ≥90.*
-- [ ] **[[B10 - Math for CS|Block 10]]:** 💼2 Mathematics for Computer Science (MIT 6.042J, ✓ *Velleman* 4–7, ✓ *What Is Math?* 3–5) — *6.042 final passed, timed.*
+- [ ] **[[B10 - Math for CS|Block 10]]:** 💼2 Mathematics for Computer Science (MIT 6.1200J / 6.042J, ✓ *Velleman* 4–7, ✓ *What Is Math?* 3–5) — *6.042 final passed, timed.*
 - [ ] **[[B11 - Linear Algebra|Block 11]]:** Linear Algebra (MIT 18.06 + Axler *LADR* 4e) — *18.06 final passed & Axler ch. 1–5 exercises done; NumPy builds.*
 - [ ] **[[B12 - Interpreters|Block 12]]:** 💼4 Interpreters (✓ *Ball* Go Monkey → Nystrom *clox*) — *clox passes book's full test suite.*
 - [ ] **[[B13 - Algorithms I|Block 13]]:** 💼4 Algorithms I (MIT 6.006, CLRS, ✓ *Zingaro* 6–10, ✓ *Algorithms to Live By*) — *6.006 final passed; Codeforces rating ≥1200.*
 - [ ] **[[B14 - Computer Architecture|Block 14]]:** 💼3 Computer Architecture (ETH Zürich DDCA Mutlu, Harris & Harris RISC-V) — *Pipelined RISC-V core runs compiled C program.*
 - [ ] **[[B15 - Probability|Block 15]]:** Probability (MIT 6.041 / 6.3700) — *Final passed; derive standard distributions/moments & solve Markov chains.*
-- [ ] **[[B15a - Signals and Systems Bridge|Block 15a]]** *(optional — computer-engineering path, outside the hour budget)*: Signals & Systems Bridge (MIT 6.003 / 6.3000, Oppenheim & Willsky) — *Implement real-time audio FFT DSP filterbank in C or Rust.*
+- [ ] **[[B15a - Signals and Systems Bridge|Block 15a]]:** Signals & Systems Bridge (MIT 6.003 / 6.3000, Oppenheim & Willsky) — *Implement real-time audio FFT DSP filterbank in C or Rust.*
 - [ ] **Year 2 Breadth (HASS):** Petzold, *Code, 2nd ed.* / Sandel, *Justice*.
 - [ ] **Year 2 Writing Deliverable:** 12 posts + 5,000-word technical design doc (CPU or interpreter) + monthly paper summaries (3-pass).
 
@@ -109,22 +109,25 @@ SORT key ASC
 
 ### Year 3: Depth
 - [ ] **[[B16 - Operating Systems|Block 16]]:** 💼4 Operating Systems (✓ *How Linux Works* reread, OSTEP, MIT 6.1810 xv6) — *All xv6 labs pass make grade + minimal bootable kernel.*
-- [ ] **[[B17 - Software Construction|Block 17]]:** 💼5 Software Construction (MIT 6.031, Ousterhout *Philosophy of Software Design*) — *Rebuilt clox/Monkey under spec, rep invariants, AF.*
-- [ ] **[[B18 - Real Analysis|Block 18]]:** Real Analysis (Abbott *Understanding Analysis*, MIT 18.100A) — *Prove Bolzano–Weierstrass, EVT, uniform-continuity from definitions unaided.*
+- [ ] **[[B17 - Software Construction|Block 17]]:** 💼5 Software Construction (MIT 6.102 readings + 6.005 psets, Ousterhout *Philosophy of Software Design*) — *Rebuilt clox/Monkey under spec, rep invariants, AF.*
+- [ ] **[[B18 - Real Analysis|Block 18]]** *(optional since [[DR-004 - Content Overhaul|DR-004]], outside the hour budget)*: Real Analysis (Abbott *Understanding Analysis*, MIT 18.100A) — *Prove Bolzano–Weierstrass, EVT, uniform-continuity from definitions unaided.*
 - [ ] **[[B19 - Networking|Block 19]]:** 💼4 Networking (Stanford CS144, Kurose & Ross) — *All 8 labs pass; TCP stack fetches real web page.*
 - [ ] **[[B20 - Algorithms II|Block 20]]:** Algorithms II (MIT 6.046J, Kleinberg & Tardos) — *6.046 final passed; Codeforces ≥1600; 45-min unseen problem.*
 - [ ] **[[B21 - Databases|Block 21]]:** 💼5 Databases (CMU 15-445, BusTub, DDIA) — *All four BusTub projects pass Gradescope; DDIA read cover to cover.*
 - [ ] **[[B22 - Statistics|Block 22]]:** Statistics (Wasserman *All of Statistics*, McElreath *Statistical Rethinking*) — *Real dataset MLE, CI, hypothesis tests, MCMC Bayesian inference.*
+- [ ] **[[B22a - Machine Learning|Block 22a]]:** Machine Learning (MIT 6.390 + MITx 6.036 OLL autograder, Stanford CS229 notes) — *All OLL exercises pass; regression, classifiers, a neural net and k-means built from scratch in NumPy.* *(new, DR-004)*
 - [ ] **Year 3 Breadth (HASS):** MIT 14.01 Microecon / MIT 5.111 / 7.01SC Science.
 - [ ] **Year 3 Writing Deliverable:** 8,000-word survey of one subfield (30+ cited sources, adhering to PRISMA guidelines) + reproducible environments (e.g., Docker) for all code + 2 public recorded talks.
 
 ---
 
 ### Year 4: Advanced Core and Specializations
-*Specialization A opens at Block 26, once Blocks 23–25 are done. Choose both tracks before Block 26 and clear `optional: true` on those two notes (DR-001). Employability Portfolio due by end of Year 4.*
+*Specialization A opens at Block 26, once Blocks 23–25a are done. Choose both tracks before Block 26 and clear `optional: true` on those two notes (DR-001). Employability Portfolio due by end of Year 4.*
 - [ ] **[[B23 - Distributed Systems|Block 23]]:** 💼5 Distributed Systems (MIT 6.5840 / 6.824, Kleppmann) — *All labs pass 500 consecutive runs under `go test -race`.*
-- [ ] **[[B24 - Theory of Computation|Block 24]]:** Theory of Computation (✓ *Hopcroft*, MIT 6.045) — *6.045 final passed; prove NP-completeness and undecidability by reduction.*
+- [ ] **[[B23a - Parallel Computing|Block 23a]]:** Parallel Computing (Stanford CS149: SIMD, threads, CUDA) — *Assignments 1–3 correct and fast; thread pool clean under ThreadSanitizer.* *(was elective E4; core since DR-004)*
+- [ ] **[[B24 - Theory of Computation|Block 24]]:** Theory of Computation (MIT 18.404J Sipser videos, ✓ *Hopcroft*) — *18.404J final passed; prove NP-completeness and undecidability by reduction.*
 - [ ] **[[B25 - Convex Optimization|Block 25]]:** Convex Optimization (Boyd & Vandenberghe, Stanford EE364A) — *EE364A homework 1–8 done; CVXPY project + manual KKT.*
+- [ ] **[[B25a - Deep Learning|Block 25a]]:** Deep Learning (Karpathy *Zero to Hero*, Stanford CS231n, Prince *UDL*) — *Autograd engine + GPT from scratch; CS231n assignments 1–3 pass their checks.* *(new, DR-004)*
 - [ ] **[[Specialization Branches|Block 26]]:** Specialization A — Course 1.
 - [ ] **[[B27 - Intensive Cryptopals|Block 27]]:** January Intensive: Cryptopals (all 8 sets) OR TLA+ (spec Raft, find real bug).
 - [ ] **[[Specialization Branches|Block 28]]:** Specialization A — Course 2.
@@ -147,24 +150,27 @@ SORT key ASC
 
 ---
 
-### Optional Electives (E1–E4)
+### Optional Electives (E1–E2)
 *Outside the year plan and the hour budget ([[DR-002 - Vault Refactor and Canonical Numbering|DR-002]]). Take one only when its prerequisites are done and it doesn't displace a block on The Path (Operating Rule 2).*
 - [ ] **[[E1 - Artificial Intelligence|E1]]:** Berkeley CS188, Russell & Norvig. Needs Math for CS, Probability, Algorithms I.
-- [ ] **[[E2 - Introduction to Machine Learning|E2]]:** MIT 6.036 / 6.3900. Needs Algorithms I, Probability, Linear Algebra.
-- [ ] **[[E3 - Computer Security|E3]]:** MIT 6.1600, Anderson *Security Engineering*. Needs Computer Systems, Networking, Math for CS.
-- [ ] **[[E4 - Parallel Computing|E4]]:** Stanford CS149. Needs Computer Architecture, Operating Systems.
+- [ ] **[[E2 - Computer Security|E2]]:** MIT 6.1600, Anderson *Security Engineering*. Needs Computer Systems, Networking, Math for CS.
 
 ---
 
 ## Specialization Branches (Elective)
 *Specialization A starts at Block 26, after every 💼5 course is done (Year 4 in [[#The Path|The Path]]). Pick two tracks for the Program and run them one at a time; the rest are Lifelong Continuation. Entering early "when professionally required" needs a Decision Record.*
 
-- [[Specialization Branches|Branch - Full-Stack and Product Engineering]]
-- [[Specialization Branches|Branch - Systems and Performance]]
-- [[Specialization Branches|Branch - AI and Machine Learning]]
-- [[Specialization Branches|Branch - Security and Cryptography]]
-- [[Specialization Branches|Branch - Programming Languages and Compilers]]
-- [[Specialization Branches|Branch - Advanced Mathematics]]
+- [[T01 - Deep AI and Machine Learning|Track 1 - AI and Machine Learning]]
+- [[T02 - Advanced Systems and Performance|Track 2 - Systems and Performance (incl. Rust)]]
+- [[T03 - Advanced Security and Cryptography|Track 3 - Security and Cryptography]]
+- [[T04 - Advanced Graphics and Vision|Track 4 - Graphics and Vision]]
+- [[T05 - Advanced Programming Languages and Compilers|Track 5 - PL, Compilers and Verification]]
+- [[T06 - Advanced Computer Engineering|Track 6 - Computer Engineering]]
+- [[T07 - TinyML and Edge AI|Track 7 - TinyML and Edge AI]]
+- [[T08 - Quantum Information and Computing|Track 8 - Quantum Information]]
+- [[T09 - Autonomous Robotics|Track 9 - Robotics, Control and CPS]]
+- [[T10 - Full-Stack and Product Engineering|Track 10 - Full-Stack and Product]]
+- [[T11 - Signal Processing and Communications|Track 11 - Signal Processing and Communications]]
 
 ---
 
@@ -202,7 +208,7 @@ Continuous, low-friction daily habits:
 ### 🧭 North Star
 **Goal:** Complete the equivalent of a rigorous MIT Course 6-3 SB + MEng, and then continue executing an infinite, lifelong learning sequence bridging post-doc level depth across quantum computing, computational biology, formal verification, and pure mathematics. This is a magnum opus of self-education.
 
-**Budget:** The *Program* (Phase −1 → Year 5 Capstone: core blocks + two specialization tracks + habits, ≈6,500–8,000 h) is timeboxed at ~8 years; below 15 hrs/wk, cut scope (Physics → Statistics → second track) instead of extending. After the Capstone, *Lifelong Continuation* (remaining tracks and beyond) has no deadline. Structure: 7 stages (Phase −1, Phase 0, Years 1–5) in [[#The Path|The Path]]; the 💼1–💼5 markers there are the employability path through them. See [[DR-001 - Program Scope, Phases, and Timeline|DR-001]].
+**Budget:** The *Program* (Phase −1 → Year 5 Capstone: core blocks + two specialization tracks + habits, ≈7,600–8,100 h; see [[DR-004 - Content Overhaul|DR-004]]) is timeboxed at ~8 years; below 15 hrs/wk, cut scope (Physics → Statistics → second track) instead of extending. After the Capstone, *Lifelong Continuation* (remaining tracks and beyond) has no deadline. Structure: 7 stages (Phase −1, Phase 0, Years 1–5) in [[#The Path|The Path]]; the 💼1–💼5 markers there are the employability path through them. See [[DR-001 - Program Scope, Phases, and Timeline|DR-001]].
 
 **The five rules** (from [[The Independent EECS Program.pdf|the source program]]):
 1. No lecture without its problem set the same week.

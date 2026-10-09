@@ -10,8 +10,8 @@ prerequisites:
   - "B13 - Algorithms I"
 hours_estimate: 170
 hours_actual: 0
-primary_resource: "Hopcroft, Motwani & Ullman (HMU) & MIT 6.045 / 6.1400"
-milestone: "6.045 final passed; prove unseen NP-complete & prove undecidability by reduction"
+primary_resource: "MIT 18.404J (OCW, Fall 2020, Sipser) & Hopcroft, Motwani & Ullman"
+milestone: "18.404J/6.1400 final passed; prove NP-completeness and undecidability by reduction"
 date_started: ""
 date_completed: ""
 tier: "Tier 1 - Core"
@@ -26,8 +26,8 @@ aliases: ["Theory of Computation"]
 > - **Term / Position:** Year 4 Fall
 > - **Estimated Hours:** ~170 hrs
 > - **Status:** `not-started`
-> - **Primary Resource:** Hopcroft, Motwani & Ullman (HMU) & MIT 6.045 / 6.1400
-> - **Key Milestone:** 6.045 final passed; prove unseen NP-complete & prove undecidability by reduction
+> - **Primary Resource:** MIT 18.404J (OCW, Fall 2020, Sipser) & Hopcroft, Motwani & Ullman
+> - **Key Milestone:** 18.404J/6.1400 final passed; prove NP-completeness and undecidability by reduction
 
 ---
 
@@ -64,6 +64,13 @@ Write out formal reductions proving undecidability and NP-completeness for compl
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** UPGRADE. Switched the primary to the course with full public video and psets.
+- **MIT 18.404J / 6.1400** (OCW, Fall 2020, Sipser: full lecture videos, psets): ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/. Use HMU as the reference text.
+- 💲 Sipser's book; free alternative: Barak, *Introduction to Theoretical Computer Science* (introtcs.org).
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
@@ -81,4 +88,4 @@ Write out formal reductions proving undecidability and NP-completeness for compl
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Theory Index|Theory Index]] | [[00 - Start Here#The Path|The Path]]
-- **Sequential Flow:** [[B23 - Distributed Systems|← Distributed Systems]] | [[00 - Start Here|Start Here]] | [[B25 - Convex Optimization|Convex Optimization →]]
+- **Sequential Flow:** [[B23a - Parallel Computing|← Parallel Computing]] | [[00 - Start Here|Start Here]] | [[B25 - Convex Optimization|Convex Optimization →]]

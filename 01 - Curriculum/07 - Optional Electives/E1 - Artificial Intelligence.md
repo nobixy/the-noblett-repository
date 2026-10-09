@@ -58,6 +58,12 @@ Complete the classic Berkeley CS188 Pacman projects in Python. Build agents that
 > [!IMPORTANT]
 > All Pacman autograder test cases pass completely, and you can mathematically formulate an MDP and execute value iteration by hand.
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP (optional). Classic AI (search, games, MDPs) with excellent autograders; ML itself is now core in Block 22a.
+- **Berkeley CS188** (Fall 2025): inst.eecs.berkeley.edu/~cs188/fa25/ — Pacman projects ship with `autograder.py`.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
@@ -67,4 +73,4 @@ Complete the classic Berkeley CS188 Pacman projects in Python. Build agents that
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Theory Index|CS Index]] | [[00 - Start Here#The Path|The Path]]
-- **Sequential Flow:** *Optional elective (E1–E4), outside the ordered [[00 - Start Here#The Path|Path]]; start once the prerequisites above are done.* | [[00 - Start Here|Start Here]]
+- **Sequential Flow:** *Optional elective (E1–E2), outside the ordered [[00 - Start Here#The Path|Path]]; start once the prerequisites above are done.* | [[00 - Start Here|Start Here]]

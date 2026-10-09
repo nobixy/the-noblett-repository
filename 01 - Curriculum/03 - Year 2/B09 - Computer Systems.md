@@ -78,6 +78,13 @@ Complete all seven canonical CMU 15-213 (CS:APP) systems labs in `c` on `linux` 
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP. World-class labs with autograders.
+- **CS:APP self-study labs** (handouts + autograders): csapp.cs.cmu.edu/3e/labs.html; CMU 15-213 schedule and lecture videos: cs.cmu.edu/~213/.
+- 💲 CS:APP 3e; free alternative: *Dive Into Systems* (diveintosystems.org).
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*

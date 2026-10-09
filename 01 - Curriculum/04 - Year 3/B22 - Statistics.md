@@ -70,6 +70,12 @@ Implement a complete statistical inference and modeling testbench in `python` us
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP.
+- **MIT 18.650** (OCW, Fall 2016: psets and exams): ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/; McElreath's *Statistical Rethinking* lectures (free, xcelab.net/rm/); ISLP (free): statlearning.com. 💲 Wasserman.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
@@ -87,4 +93,4 @@ Implement a complete statistical inference and modeling testbench in `python` us
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[00 - Start Here#The Path|The Path]]
-- **Sequential Flow:** [[B21 - Databases|← Databases]] | [[00 - Start Here|Start Here]] | [[B23 - Distributed Systems|Distributed Systems →]]
+- **Sequential Flow:** [[B21 - Databases|← Databases]] | [[00 - Start Here|Start Here]] | [[B22a - Machine Learning|Machine Learning →]]

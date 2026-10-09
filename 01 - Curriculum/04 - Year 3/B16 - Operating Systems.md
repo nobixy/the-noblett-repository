@@ -63,6 +63,12 @@ Complete every single MIT 6.1810 xv6 lab in `c` using `gcc`, debugged with `gdb`
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP. `make grade` is a real autograder.
+- **MIT 6.1810** (2025 labs): pdos.csail.mit.edu/6.1810/2025/schedule.html; OSTEP (free): ostep.org.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*

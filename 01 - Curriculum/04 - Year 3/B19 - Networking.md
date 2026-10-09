@@ -64,6 +64,12 @@ All eight Stanford CS144 labs: implement a complete, working TCP stack in modern
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP. Labs ship with tests.
+- **Stanford CS144**: cs144.github.io. 💲 Kurose & Ross; free alternative: Peterson & Davie, *Computer Networks: A Systems Approach* (book.systemsapproach.org).
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*

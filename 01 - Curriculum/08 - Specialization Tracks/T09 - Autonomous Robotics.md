@@ -1,7 +1,7 @@
 ---
-block_id: "Track 11"
-track_id: "Track 11"
-title: "Autonomous Robotics and Cyber-Physical Systems"
+block_id: "Track 9"
+track_id: "Track 9"
+title: "Autonomous Robotics, Control and Cyber-Physical Systems"
 category: "specialization"
 subject: "Specialization"
 term: "Years 4 & 5"
@@ -19,16 +19,16 @@ tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
 optional: true # specialization track not yet chosen (DR-001)
-primary_resource: "Probabilistic State Estimation, SLAM & Spatial Perception + Optimal Control, Motion Planning & Autonomous Navigation"
+primary_resource: "Modern Robotics + MIT Underactuated + MIT Manipulation + ROS 2 (free)"
 milestone: "Autonomous Indoor Navigation & Exploration System in ROS 2 / Gazebo"
 date_started: ""
 date_completed: ""
 ---
 
-# Track 11 — Autonomous Robotics and Cyber-Physical Systems
+# Track 9 — Autonomous Robotics, Control and Cyber-Physical Systems
 
 > [!INFO] Track Overview
-> - **Track ID:** Track 11
+> - **Track ID:** Track 9
 > - **Prerequisites:** [[B04a - Differential Equations Bridge|Differential Equations Bridge]], [[B07 - Multivariable Calculus|Multivariable Calculus]], [[B09 - Computer Systems|Computer Systems]], [[B11 - Linear Algebra|Linear Algebra]], [[B15 - Probability|Probability]], [[B15a - Signals and Systems Bridge|Signals and Systems Bridge]]
 > - **Target Profile:** Autonomous Systems Engineer, Robotics Software Architect, SLAM & Motion Planning Specialist
 > - **Structure:** Two core courses plus three progressive labs and one comprehensive capstone build deliverable.
@@ -55,6 +55,19 @@ Building these systems requires far more than assembling pre-built ROS packages.
 
 
 
+
+## 🌐 Real Courses (verified 2026-10-09, DR-004)
+*The module plan below is the syllabus; these are the real, current courses that teach it. Do their assignments as the coursework.*
+- **Course 1 → Estimation, SLAM and kinematics:** *Modern Robotics* (Lynch & Park, free book + videos): hades.mech.northwestern.edu/index.php/Modern_Robotics; Cyrill Stachniss's SLAM/estimation lectures (free): youtube.com/@CyrillStachniss.
+- **Course 2 → Control and planning:** MIT *Underactuated Robotics* (free, current): underactuated.csail.mit.edu; MIT *Robotic Manipulation* (free): manipulation.csail.mit.edu; Steve Brunton's control lectures (free): youtube.com/@Eigensteve; classic control on OCW: 6.241J Dynamic Systems and Control.
+- **Hardware-in-the-loop (merged from former Track 9):** ROS 2 (docs.ros.org/en/jazzy/), Renode (renode.io) for MCU emulation.
+
+---
+
+## 🔀 Merged In by DR-004
+**Hardware-in-the-loop and digital twins (former Track 9)** is now part of this track. Its full module plan, labs and capstone are kept in [[Cut - T09 - Hardware-in-the-Loop Virtualization and Digital Twins]]; use its labs as optional extra labs here.
+
+---
 
 ## 📚 Core Courses
 
@@ -226,4 +239,4 @@ A complete, production-grade autonomous navigation, frontier exploration, and ob
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization Branches|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization Branches|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Start Here|Start Here]] / [[00 - Start Here#The Path|The Path]]
 
-- **Sequential Flow:** [[T07 - TinyML and Edge AI|← TinyML and Edge AI]] | [[00 - Start Here|Start Here]] | [[T09 - Hardware-in-the-Loop Virtualization and Digital Twins|Hardware-in-the-Loop Virtualization and Digital Twins →]]
+- **Sequential Flow:** [[T08 - Quantum Information and Computing|← Quantum Information and Computing]] | [[00 - Start Here|Start Here]] | [[T10 - Full-Stack and Product Engineering|Full-Stack and Product Engineering →]]

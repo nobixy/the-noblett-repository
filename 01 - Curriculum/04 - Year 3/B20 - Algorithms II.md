@@ -67,6 +67,12 @@ Implement Edmonds-Karp network flow, Dinic's blocking flow algorithm, a Primal-D
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP.
+- **MIT 6.046J** (OCW, Spring 2015): ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/; CMU 15-451 (Fall 2025): cs.cmu.edu/~15451-f25/; autograded practice: CSES, Kattis (open.kattis.com), Codeforces.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*

@@ -94,6 +94,12 @@ Here, you start from absolute zero—not as a child memorizing flashcards, but a
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP. Fills real gaps cheaply.
+- Khan Academy Pre-Algebra → Algebra I is free and has auto-checked exercises. 💲 Lockhart *Arithmetic* is owned; no purchase needed.
+
+---
+
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > - [ ] You have read Lockhart's *Arithmetic* and solved its core exercises.

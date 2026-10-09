@@ -62,6 +62,12 @@ Complete all problem sets, recitation workshops, and practice exams.
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP.
+- **MIT 18.02SC** (OCW Scholar): ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*

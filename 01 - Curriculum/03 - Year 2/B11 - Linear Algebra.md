@@ -60,6 +60,12 @@ Build from scratch in `python` using `numpy`: LU factorization with partial pivo
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP.
+- **MIT 18.06SC** (OCW Scholar, exams with solutions): ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/; Axler *LADR* 4e is free: linear.axler.net; 3Blue1Brown *Essence of Linear Algebra*: 3blue1brown.com/topics/linear-algebra.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*

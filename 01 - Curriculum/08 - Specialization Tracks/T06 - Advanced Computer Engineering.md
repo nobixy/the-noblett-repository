@@ -18,7 +18,7 @@ tier: "Tier 3 - Depth"
 hours_estimate: 400
 hours_actual: 0
 optional: true # specialization track not yet chosen (DR-001)
-primary_resource: "Advanced Computer Architecture & Memory Hierarchies (Hennessy & Patterson / Mutlu Equivalent) + VLSI Systems Design & Silicon Synthesis (Weste & Harris / OpenLane / SkyWater)"
+primary_resource: "ETH Computer Architecture + CMU 18-447 + MIT 6.205 FPGA + open-source ASIC flow"
 milestone: "Tapeout-Ready 32-bit RISC-V SoC with AXI Bus, Peripherals, and Silicon DRC/LVS Verification"
 date_started: ""
 date_completed: ""
@@ -53,6 +53,14 @@ This track takes students deep beneath the software abstraction layer into the p
 
 
 
+
+## 🌐 Real Courses (verified 2026-10-09, DR-004)
+*The module plan below is the syllabus; these are the real, current courses that teach it. Do their assignments as the coursework.*
+- **Course 1 → Computer architecture:** ETH Zürich Computer Architecture (Mutlu, Fall 2025, free videos): safari.ethz.ch/architecture/fall2025/; CMU 18-447 (Hoe).
+- **Course 2 → Digital systems and silicon:** MIT 6.205 Digital Systems Laboratory (FPGA, current site): fpga.mit.edu/6205/F25; open-source ASIC flow with Tiny Tapeout (tinytapeout.com; designing and simulating is free, 💲 a fabrication slot costs money; free alternative: stop at GDS + gate-level simulation).
+- 💲 Zero to ASIC Course (paid); the free alternative is Tiny Tapeout's own guides plus the oss-cad-suite.
+
+---
 
 ## 📚 Core Courses
 
@@ -225,4 +233,4 @@ A complete, production-grade 32-bit RISC-V System-on-Chip (SoC) designed in Syst
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization Branches|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization Branches|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Start Here|Start Here]] / [[00 - Start Here#The Path|The Path]]
 
-- **Sequential Flow:** [[T04 - Advanced Graphics and Vision|← Advanced Graphics and Vision]] | [[00 - Start Here|Start Here]] | [[T07 - TinyML and Edge AI|TinyML and Edge AI →]]
+- **Sequential Flow:** [[T05 - Advanced Programming Languages and Compilers|← Advanced Programming Languages and Compilers]] | [[00 - Start Here|Start Here]] | [[T07 - TinyML and Edge AI|TinyML and Edge AI →]]

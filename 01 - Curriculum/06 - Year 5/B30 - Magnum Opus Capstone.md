@@ -79,6 +79,11 @@ Deliver a complete, production-grade engineering artifact developed in `c`, `c++
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP. The HCI deliverable applies only to interactive systems, as written.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*

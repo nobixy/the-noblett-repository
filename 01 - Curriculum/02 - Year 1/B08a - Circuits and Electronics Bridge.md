@@ -8,10 +8,9 @@ status: not-started
 prerequisites:
   - "B08 - Physics II"
   - "B04a - Differential Equations Bridge"
-optional: true # computer-engineering path; excluded from the hour budget
 hours_estimate: 160
 hours_actual: 0
-primary_resource: "Anant Agarwal & Jeffrey Lang, Foundations of Analog and Digital Electronic Circuits & MIT 6.002 / 6.2000 OCW"
+primary_resource: "MIT 6.2000 (circuits.mit.edu) & MIT 6.002 OCW (2007) & MITx 6.002.1x"
 milestone: "All 10 problem sets solved; SPICE simulation & physical breadboard of active multi-stage audio pre-amp/filter complete; MIT 6.002 final exam passed ≥80%"
 date_started: ""
 date_completed: ""
@@ -23,14 +22,14 @@ aliases: ["Circuits and Electronics Bridge"]
 
 [[00 - Start Here|Start Here]] / [[00 - Start Here#The Path|The Path]] / [[Hardware Index|Hardware Index]]
 
-> [!NOTE] Optional — computer-engineering path
-> Not required for MIT 6-3 (the [6-3 degree chart](https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/) doesn't require 6.2000). The source program adds 6.002 circuits only for the full computer-engineering degree. It sits outside the hour budget. [[T06 - Advanced Computer Engineering|Track 6]] and [[T09 - Hardware-in-the-Loop Virtualization and Digital Twins|Track 9]] list it as a prerequisite.
+> [!NOTE] Core since [[DR-004 - Content Overhaul|DR-004]] (2026-10-09)
+> Required: MIT's 6-5 Electrical Engineering with Computing degree requires circuits (6.2000) and signals (6.3000), and differential equations underpin both. Counted in the hour budget.
 
 > [!INFO] Block Overview
 > - **Term / Position:** Year 1 Spring (Co-requisite with [[B08 - Physics II|Physics II]], preceding [[B09 - Computer Systems|Computer Systems]] and [[B14 - Computer Architecture|Computer Architecture]])
 > - **Estimated Hours:** ~160 hrs
 > - **Status:** `not-started`
-> - **Primary Resource:** Anant Agarwal & Jeffrey Lang, *Foundations of Analog and Digital Electronic Circuits* (Morgan Kaufmann) & MIT 6.002 / 6.2000 *Circuits and Electronics*
+> - **Primary Resource:** MIT 6.2000 (circuits.mit.edu) & MIT 6.002 OCW (2007) & MITx 6.002.1x
 > - **Key Milestone:** All 10 problem sets solved; SPICE simulation & physical breadboard of active multi-stage audio pre-amp/filter complete; MIT 6.002 final exam passed ≥80%
 
 ---
@@ -176,6 +175,15 @@ You must design, simulate in SPICE (LTspice or ngspice), and physically breadboa
 - [ ] Complete SPICE simulation netlist executes cleanly in LTspice or ngspice, verifying $\ge 20\text{ dB}$ gain and $-40\text{ dB/decade}$ filter rolloff.
 - [ ] Physical breadboard (or hardware bench simulator) successfully amplifies a real audio signal or function generator sweep without noticeable distortion ($< 1\%$ THD).
 - [ ] MIT 6.002 / 6.2000 Final Examination completed under strict exam conditions (closed-book, 3 hours) scoring $\ge 80\%$.
+
+---
+
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** UPGRADE → CORE. The 'EE' in EECS: MIT's 6-5 requires 6.2000. No longer optional.
+- **MIT 6.2000 Circuits and Electronics** (current, Fall 2026 site with lectures, psets, labs): circuits.mit.edu/F26.
+- **MIT 6.002** (OCW, Spring 2007: full videos, psets, exams): ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/; archived **MITx 6.002.1x** with autograded problems (free edX login): learning.edx.org/course/course-v1:MITx+6.002.1x+2T2019/home.
+- Free simulators: Falstad (falstad.com/circuit), ngspice, KiCad (kicad.org).
+- 💲 Breadboard, parts kit and a multimeter for the hardware build. Free alternative: do every build in ngspice/Falstad first; buy parts only for the final build.
 
 ---
 

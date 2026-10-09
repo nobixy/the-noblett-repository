@@ -73,6 +73,12 @@ Complete all twelve Nand2Tetris projects using the Hardware Simulator, `python` 
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP. Still the best bottom-up build; its test scripts are the autograder.
+- nand2tetris.org (free software suite + test scripts); Coursera *Build a Modern Computer from First Principles* Part I (free to audit): coursera.org/learn/build-a-computer.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*

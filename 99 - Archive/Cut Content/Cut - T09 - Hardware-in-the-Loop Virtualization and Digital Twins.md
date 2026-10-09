@@ -23,7 +23,11 @@ primary_resource: "Real-Time Systems, Hypervisors & Plant Modeling + Hardware-in
 milestone: "Complete Hardware-in-the-Loop (HIL) Testbed for Autonomous Drone Flight Controller"
 date_started: ""
 date_completed: ""
+cut: "DR-004 (2026-10-09): Merged into Track 9 (Autonomous Robotics and Control): HIL testing and digital twins are how CPS and robots are validated."
 ---
+> [!WARNING] Removed from the curriculum by [[DR-004 - Content Overhaul|DR-004]] (2026-10-09)
+> Merged into Track 9 (Autonomous Robotics and Control): HIL testing and digital twins are how CPS and robots are validated.
+
 
 # Track 9 — Hardware-in-the-Loop Virtualization, Digital Twins and CPS
 
@@ -219,4 +223,4 @@ An end-to-end, closed-loop cyber-physical HIL simulation testbed connecting a ph
   - If chosen as **Secondary Specialization (Track B)**: Course 1 binds to [[Specialization Branches|Block 29 - Specialization B1]] and Course 2 binds to [[Specialization Branches|Block 31 - Specialization B2]].
 - **Curriculum Roadmap:** [[00 - Start Here|Start Here]] / [[00 - Start Here#The Path|The Path]]
 
-- **Sequential Flow:** [[T11 - Autonomous Robotics|← Autonomous Robotics]] | [[00 - Start Here|Start Here]] | [[T03 - Advanced Security and Cryptography|Advanced Security and Cryptography →]]
+- **Sequential Flow:** [[T09 - Autonomous Robotics|← Autonomous Robotics]] | [[00 - Start Here|Start Here]] | [[T03 - Advanced Security and Cryptography|Advanced Security and Cryptography →]]

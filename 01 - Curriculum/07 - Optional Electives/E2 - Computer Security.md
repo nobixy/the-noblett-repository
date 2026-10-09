@@ -1,5 +1,5 @@
 ---
-block_id: "E3"
+block_id: "E2"
 title: "Computer Security"
 category: "elective"
 subject: "Computer Science"
@@ -20,12 +20,12 @@ optional: true # optional elective, outside the ordered Path (DR-002)
 aliases: ["Computer Security"]
 ---
 
-# E3 — Computer Security
+# E2 — Computer Security
 
 [[00 - Start Here|Start Here]] / [[00 - Start Here#The Path|The Path]] / [[Systems Index|Systems Index]]
 
 > [!INFO] Block Overview
-> - **Term / Position:** Optional elective (E3); fits after Networking (Block 19)
+> - **Term / Position:** Optional elective (E2); fits after Networking (Block 19)
 > - **Estimated Hours:** ~120 hrs
 > - **Status:** `not-started`
 > - **Primary Resource:** MIT 6.1600 Foundations of Computer Security (Corrigan-Gibbs, Kalai, Zeldovich): lecture videos, notes, labs and past exams at 61600.csail.mit.edu; Anderson, *Security Engineering* 3e (free online) as the reference
@@ -72,6 +72,12 @@ The six public 6.1600 labs: password cracking, Merkle trees, bad randomness, per
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** UPGRADE (optional). Renumbered E3 → E2; added hands-on autograded practice.
+- **MIT 6.1600**: 61600.csail.mit.edu; **MIT 6.5660 Computer Systems Security** (2026 labs): css.csail.mit.edu/6.5660/2026/; **pwn.college** (free, auto-checked challenges): pwn.college.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 *Your blank-page attempts, derivations, and atomic reflections.*
 
@@ -82,4 +88,4 @@ The six public 6.1600 labs: password cracking, Merkle trees, bad randomness, per
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[00 - Start Here#The Path|The Path]]
-- **Sequential Flow:** *Optional elective (E1–E4), outside the ordered [[00 - Start Here#The Path|Path]]; start once the prerequisites above are done.* | [[00 - Start Here|Start Here]]
+- **Sequential Flow:** *Optional elective (E1–E2), outside the ordered [[00 - Start Here#The Path|Path]]; start once the prerequisites above are done.* | [[00 - Start Here|Start Here]]

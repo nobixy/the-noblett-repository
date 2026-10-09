@@ -28,7 +28,6 @@ The core degree requirements mandate completing tangible, production-grade softw
 - [ ] **Block 02:** [[B02 - Calculus I|02 - Calculus I]]: Numerical differentiation engine, adaptive Simpson's rule and Riemann sum integrator, and Taylor series polynomial approximator implemented in Python and C, verified with `pytest`.
 - [ ] **Block 03:** [[B03 - Physics I|03 - Physics I]]: Classical kinematics, 2D/3D rigid-body collision simulator, and symplectic numerical integrator (Verlet/leapfrog) in C++ verified with unit tests.
 - [ ] **Block 04:** [[B04 - Nand2Tetris|04 - Nand2Tetris]]: Complete hardware-to-software computing stack: 16-bit Hack CPU and ALU in the Nand2Tetris HDL, assembler, stack-based VM translator, Jack compiler, and minimal OS running an interactive graphics demo.
-- [ ] **Block 05:** [[B05 - SICP|05 - SICP]]: Metacircular Evaluator, Amb non-deterministic evaluator, and Lazy Stream Evaluator in Scheme/Racket.
 - [ ] **Block 06:** [[B06 - C Fluency|06 - C Fluency]]: Reusable systems data structures in ANSI C: dynamic array vector, arena string allocator, hash map, and a POSIX-compliant `ls -laR` utility. Verified leak-free with `valgrind` and `clang` AddressSanitizer.
 - [ ] **Block 07:** [[B07 - Multivariable Calculus|07 - Multivariable Calculus]]: Vector calculus numerical gradient descent, Hessian matrix computation, and 3D contour surface visualizer in Python with `numpy` and `matplotlib`.
 - [ ] **Block 08:** [[B08 - Physics II|08 - Physics II]]: Finite-difference time-domain (FDTD) electromagnetic field simulation and Maxwell's equations solver in Python and C++.
@@ -41,14 +40,17 @@ The core degree requirements mandate completing tangible, production-grade softw
 - [ ] **Block 15:** [[B15 - Probability|15 - Probability]]: Monte Carlo simulation suite, discrete/continuous Markov chain steady-state solver, and random walk martingale path estimator in Python with `numpy` and `scipy`.
 - [ ] **Block 16:** [[B16 - Operating Systems|16 - Operating Systems]]: Complete MIT 6.1810 xv6 RISC-V lab curriculum (system calls, copy-on-write page faults, user-level thread scheduler, lock-free memory buffer, crash-consistent logging file system) and minimal freestanding kernel booting in `qemu`.
 - [ ] **Block 17:** [[B17 - Software Construction|17 - Software Construction]]: Production compiler intermediate representation and optimizer with formal representation invariants, abstract data types (ADTs), and automated WCAG 2.1 AA developer inspection interface.
-- [ ] **Block 18:** [[B18 - Real Analysis|18 - Real Analysis]]: Arbitrary-precision epsilon-delta convergence verifier, metric space topology explorer, and continuous nowhere-differentiable function visualizer in Python and Rust, with theorems mechanized in Lean.
+- [ ] **Block 18:** [[B18 - Real Analysis|18 - Real Analysis]] *(optional, DR-004)*: Arbitrary-precision epsilon-delta convergence verifier, metric space topology explorer, and continuous nowhere-differentiable function visualizer in Python and Rust, with theorems mechanized in Lean.
 - [ ] **Block 19:** [[B19 - Networking|19 - Networking]]: Stanford CS144 TCP/IP stack from scratch in modern C++: TCP receiver, TCP sender, connection state machine, sliding-window flow control, and IP router. Tested against real network packet captures with `clang` and `gdb`.
 - [ ] **Block 20:** [[B20 - Algorithms II|20 - Algorithms II]]: Edmonds-Karp and Dinic's blocking network flow algorithms, Primal-Dual Simplex solver, and spectral graph partitioner in C++ and Python, verified with `pytest` on DIMACS benchmarks.
 - [ ] **Block 21:** [[B21 - Databases|21 - Databases]]: CMU 15-445 BusTub relational DBMS engine in C++: buffer pool manager, extendible hash index, B+ tree index, Volcano execution engine, and multi-version concurrency control (MVCC).
 - [ ] **Block 22:** [[B22 - Statistics|22 - Statistics]]: High-dimensional MLE numerical optimizer, Likelihood Ratio and Wald hypothesis testing suite, and Hamiltonian Monte Carlo (HMC) / Metropolis-Hastings MCMC sampler in Python with `numpy`, `scipy`, and `pytest`.
+- [ ] **Block 22a:** [[B22a - Machine Learning|22a - Machine Learning]]: From-scratch NumPy regression, logistic regression, 2-layer net with gradient-checked backprop, k-means and PCA; one real-dataset project with error analysis.
 - [ ] **Block 23:** [[B23 - Distributed Systems|23 - Distributed Systems]]: MIT 6.5840 distributed systems labs in Go: MapReduce execution framework, Raft replicated consensus protocol (leader election, log replication, snapshotting), and fault-tolerant sharded key-value service.
+- [ ] **Block 23a:** [[B23a - Parallel Computing|23a - Parallel Computing]]: Stanford CS149 assignments 1–3: ISPC/SIMD speedups, task-graph thread pool, CUDA circle renderer.
 - [ ] **Block 24:** [[B24 - Theory of Computation|24 - Theory of Computation]]: Deterministic and non-deterministic Turing machine simulators, generalized DFA minimization engine, and Boolean 3-SAT verifier/reduction engine in Python, with computability lemmas formalized in Lean.
 - [ ] **Block 25:** [[B25 - Convex Optimization|25 - Convex Optimization]]: Portfolio optimization and trajectory planner formulated in CVXPY / SciPy with manual derivation and implementation of KKT optimality conditions.
+- [ ] **Block 25a:** [[B25a - Deep Learning|25a - Deep Learning]]: micrograd autograd engine, a GPT trained from scratch, CS231n assignments 1–3, and one small paper reproduction.
 - [ ] **Block 26:** [[Specialization Branches|26 - Specialization A1]]: Primary Specialization Foundational Systems Build in Rust, C++, or Python: core algorithmic substrate, runtime environment integration, and concurrency race detection verified with `pytest` or `cargo test`.
 - [ ] **Block 27:** [[B27 - Intensive Cryptopals|27 - Intensive Cryptopals or TLA+]]: Complete solution of all 8 Cryptopals crypto challenges (AES-CBC padding oracles, ECB byte-at-a-time, RSA signature forgery, Diffie-Hellman MITM) OR formal TLA+ specification and model-checking bug reproduction of Raft/Paxos.
 - [ ] **Block 28:** [[Specialization Branches|28 - Specialization A2]]: Primary Specialization Advanced Systems Engine in Rust, C++, or Python: standalone high-performance system artifact, quantitative throughput/latency benchmarking, and formal invariant test harness with `valgrind` or sanitizers.
@@ -59,9 +61,9 @@ The core degree requirements mandate completing tangible, production-grade softw
 
 ---
 
-## 🌉 Optional Bridge Course Builds (computer-engineering path)
+## 🌉 EE Core Builds (bridges, core since DR-004)
 
-Not required for 6-3 and outside the hour budget. Build these only if you take the bridge blocks. Each line below follows its block's own Build section.
+Core since [[DR-004 - Content Overhaul|DR-004]]: MIT's 6-5 (Electrical Engineering with Computing) requires circuits and signals. Each line below follows its block's own Build section.
 
 - [ ] **Block 04a:** [[B04a - Differential Equations Bridge|04a - Differential Equations Bridge]]: Numerical ODE integration engine (RK4 and adaptive RKF45) with a phase-portrait and chaos visualizer; the Van der Pol limit cycle demonstrated.
 - [ ] **Block 08a:** [[B08a - Circuits and Electronics Bridge|08a - Circuits and Electronics Bridge]]: Dual-stage active audio pre-amplifier and 4th-order Sallen-Key Butterworth band-pass filter, simulated in SPICE, then built on a breadboard.
@@ -80,10 +82,11 @@ The 11 advanced graduate tracks culminate in substantial capstone engineering pr
 - [ ] **Track 5 (Programming Languages & Compilers):** [[T05 - Advanced Programming Languages and Compilers|Track 5 Capstone]]: Optimizing SSA Compiler (`velox-cc`) with dominance frontiers, Chaitin-Briggs graph coloring register allocation, RV32IM backend tested in `qemu`, and mechanized Lean 4 / Coq type soundness proofs.
 - [ ] **Track 6 (Computer Engineering):** [[T06 - Advanced Computer Engineering|Track 6 Capstone]]: Hardened 32-bit RISC-V SoC (`apex-soc`) with Wishbone interconnect, UART, and SPI peripherals written in Verilog, simulated with Verilator and Cocotb, and hardened to GDSII layout via OpenLane SkyWater 130nm PDK.
 - [ ] **Track 7 (TinyML & Edge AI):** [[T07 - TinyML and Edge AI|Track 7 Capstone]]: Edge Wake-Word Detection System (`edge-vision`) executing INT8 quantized inference on ARM Cortex-M microcontrollers via CMSIS-NN SIMD vectorization, tested in `qemu` and `renode`.
-- [ ] **Track 8 (Rust Systems & Formal Verification):** [[T08 - Rust for Systems Engineering|Track 8 Capstone]]: Formally Verified Preemptive SMP Microkernel (`aegis-os`) in Rust with 4-level paging and verified VirtIO drivers built with `cargo` and verified using Kani model checking.
-- [ ] **Track 9 (Hardware-in-the-Loop & CPS):** [[T09 - Hardware-in-the-Loop Virtualization and Digital Twins|Track 9 Capstone]]: Real-Time Hardware-in-the-Loop Testbed (`aero-twin`) simulating 6-DOF flight dynamics and CAN-FD communication orchestrated in `renode` and QEMU.
-- [ ] **Track 10 (Quantum Information & Computing):** [[T10 - Quantum Information and Computing|Track 10 Capstone]]: Variational Quantum Eigensolver (VQE) & Circuit Compiler (`q-compile`) with A* SWAP routing on heavy-hex coupling graphs and ZNE error mitigation tested via `pytest`.
-- [ ] **Track 11 (Autonomous Robotics & CPS):** [[T11 - Autonomous Robotics|Track 11 Capstone]]: Autonomous Indoor Navigation Stack (`drone-nav`) in ROS 2 with 3D LiDAR odometry, Informed RRT*, and real-time Model Predictive Control (MPC).
+- [ ] **Track 8 (Quantum Information & Computing):** [[T08 - Quantum Information and Computing|Track 8 Capstone]]: Variational Quantum Eigensolver (VQE) & Circuit Compiler (`q-compile`) with A* SWAP routing on heavy-hex coupling graphs and ZNE error mitigation tested via `pytest`.
+- [ ] **Track 9 (Robotics, Control & CPS):** [[T09 - Autonomous Robotics|Track 9 Capstone]]: Autonomous Indoor Navigation Stack (`drone-nav`) in ROS 2 with 3D LiDAR odometry, Informed RRT*, and real-time Model Predictive Control (MPC).
+- [ ] **Track 10 (Full-Stack & Product):** [[T10 - Full-Stack and Product Engineering|Track 10 Capstone]]: A deployed, tested, multi-user web product with auth, a relational database, CI/CD and real users.
+- [ ] **Track 11 (Signal Processing & Communications):** [[T11 - Signal Processing and Communications|Track 11 Capstone]]: Software-defined-radio receiver decoding a real over-the-air digital signal from IQ samples up, with measured BER vs. theory.
+- *Merged by [[DR-004 - Content Overhaul|DR-004]]:* the former Rust track's microkernel capstone is an optional Track 2 capstone; the former HIL/digital-twin testbed is an optional Track 9 capstone (see [[Cut - T08 - Rust for Systems Engineering]] and [[Cut - T09 - Hardware-in-the-Loop Virtualization and Digital Twins]]).
 
 ---
 

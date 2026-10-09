@@ -8,10 +8,9 @@ status: not-started
 prerequisites:
   - "B08a - Circuits and Electronics Bridge"
   - "B11 - Linear Algebra"
-optional: true # computer-engineering path; excluded from the hour budget
 hours_estimate: 160
 hours_actual: 0
-primary_resource: "Alan Oppenheim & Alan Willsky, Signals and Systems (2e) & MIT 6.003 / 6.3000 OCW"
+primary_resource: "MIT 6.3000 Signal Processing (sigproc.mit.edu) & MIT 6.003 OCW (2011)"
 milestone: "All 10 MIT 6.003 problem sets solved; discrete-time DSP audio processing suite built from scratch; MIT 6.003 final exam passed ≥80%"
 date_started: ""
 date_completed: ""
@@ -23,14 +22,14 @@ aliases: ["Signals and Systems Bridge"]
 
 [[00 - Start Here|Start Here]] / [[00 - Start Here#The Path|The Path]] / [[Math Index|Math Index]]
 
-> [!NOTE] Optional — computer-engineering path
-> Not required for MIT 6-3 (the [6-3 degree chart](https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/) doesn't require 6.3000). The source program adds 6.003 signals only for the full computer-engineering degree, where it is also [[T06 - Advanced Computer Engineering|Track 6]]'s second course. It sits outside the hour budget. [[T07 - TinyML and Edge AI|Track 7]] and [[T11 - Autonomous Robotics|Track 11]] list it as a prerequisite.
+> [!NOTE] Core since [[DR-004 - Content Overhaul|DR-004]] (2026-10-09)
+> Required: MIT's 6-5 Electrical Engineering with Computing degree requires circuits (6.2000) and signals (6.3000), and differential equations underpin both. Counted in the hour budget.
 
 > [!INFO] Block Overview
 > - **Term / Position:** Year 2 Spring (Following [[B11 - Linear Algebra|Linear Algebra]] and [[B15 - Probability|Probability]], preceding [[B16 - Operating Systems|Operating Systems]] and Year 3 Depth)
 > - **Estimated Hours:** ~160 hrs
 > - **Status:** `not-started`
-> - **Primary Resource:** Alan V. Oppenheim & Alan S. Willsky with S. Hamid Nawab, *Signals and Systems*, 2nd ed. (Prentice Hall) & MIT 6.003 / 6.3000 *Signal Processing*
+> - **Primary Resource:** MIT 6.3000 Signal Processing (sigproc.mit.edu) & MIT 6.003 OCW (2011)
 > - **Key Milestone:** All 10 MIT 6.003 problem sets solved; discrete-time DSP audio processing suite built from scratch; MIT 6.003 final exam passed ≥80%
 
 ---
@@ -210,6 +209,14 @@ You must implement a production-grade, zero-dependency digital signal processing
 - [ ] Audio DSP engine successfully parses, filters, and outputs a valid 16-bit PCM WAV file with measured frequency attenuation matching specifications.
 - [ ] STFT spectrogram generator outputs an accurate visual time-frequency representation of a frequency chirp signal.
 - [ ] MIT 6.003 / 6.3000 Final Examination completed under strict closed-book conditions (3 hours) scoring $\ge 80\%$.
+
+---
+
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** UPGRADE → CORE. MIT's 6-5 requires 6.3000; signals are the base of communications, control, audio and imaging. No longer optional.
+- **MIT 6.3000 Signal Processing** (current, Fall 2026 site): sigproc.mit.edu/fall26.
+- **MIT 6.003** (OCW, Fall 2011: videos, psets, exams with solutions): ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/.
+- Free text: *The Scientist and Engineer's Guide to DSP* (dspguide.com). 💲 Oppenheim & Willsky; free alternative: the 6.003 notes.
 
 ---
 

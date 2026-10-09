@@ -72,6 +72,12 @@ Complete the MIT 6.5840 / 6.824 distributed systems laboratory suite in `go` orc
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP.
+- **MIT 6.5840** (Spring 2026; labs ship Go test suites): pdos.csail.mit.edu/6.5840/.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
@@ -89,4 +95,4 @@ Complete the MIT 6.5840 / 6.824 distributed systems laboratory suite in `go` orc
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[00 - Start Here#The Path|The Path]]
-- **Sequential Flow:** [[B22 - Statistics|← Statistics]] | [[00 - Start Here|Start Here]] | [[B24 - Theory of Computation|Theory of Computation →]]
+- **Sequential Flow:** [[B22a - Machine Learning|← Machine Learning]] | [[00 - Start Here|Start Here]] | [[B23a - Parallel Computing|Parallel Computing →]]

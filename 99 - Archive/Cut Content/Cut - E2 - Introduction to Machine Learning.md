@@ -18,7 +18,11 @@ date_completed: ""
 tier: "Tier 3 - Depth"
 optional: true # optional elective, outside the ordered Path (DR-002)
 aliases: ["Introduction to Machine Learning"]
+cut: "DR-004 (2026-10-09): Merged into core Block 22a (Machine Learning), which upgrades it from an optional elective to a required block."
 ---
+> [!WARNING] Removed from the curriculum by [[DR-004 - Content Overhaul|DR-004]] (2026-10-09)
+> Merged into core Block 22a (Machine Learning), which upgrades it from an optional elective to a required block.
+
 
 # E2 — Introduction to Machine Learning (MIT 6.3900 / 6.036)
 

@@ -11,7 +11,7 @@ prerequisites:
   - "B12 - Interpreters"
 hours_estimate: 150
 hours_actual: 0
-primary_resource: "MIT 6.1020 / 6.031 Readings, Joshua Bloch (Effective Java), & Ousterhout (A Philosophy of Software Design)"
+primary_resource: "MIT 6.102 readings & MIT 6.005 OCW (Spring 2016) & Ousterhout, A Philosophy of Software Design"
 milestone: "Rebuilt interpreter under spec, rep invariants, AF, and test strategy"
 date_started: ""
 date_completed: ""
@@ -28,7 +28,7 @@ aliases: ["Software Construction"]
 > - **Term / Position:** Year 3 Fall
 > - **Estimated Hours:** ~150 hrs
 > - **Status:** `not-started`
-> - **Primary Resource:** MIT 6.1020 / 6.031 Readings, Joshua Bloch (*Effective Java*), & Ousterhout (*A Philosophy of Software Design*)
+> - **Primary Resource:** MIT 6.102 readings & MIT 6.005 OCW (Spring 2016) & Ousterhout, A Philosophy of Software Design
 > - **Key Milestone:** Rebuilt interpreter under spec, rep invariants, AF, and test strategy
 
 ---
@@ -100,6 +100,8 @@ The most under-appreciated course in the MIT degree. How to write complex code t
 ---
 
 ## 🛠️ Build Requirement
+> [!NOTE] DR-004: item 1 and item 5 are the required build. Items 2–4 (developer UI, heuristic evaluation, accessibility audit) are optional stretch work; that material belongs to Track 10.
+
 1. **Core Architecture & Optimizing Compiler IR:** Take your `clox` or Monkey interpreter from Block 12 and rebuild it in `c` using `clang` and `make`. Implement an optimizing compiler intermediate representation featuring Static Single Assignment (SSA) form with dominance frontier calculation, dead code elimination, and graph coloring register allocation. Formulate explicit representation invariants (`checkRep`), abstraction functions, and verify 100% unit test coverage and complete absence of memory leaks under `valgrind`.
 2. **Interactive Developer Interface (CLI/TUI/Web GUI):** Construct an interactive debugging interface or visual AST/CFG inspector for your compiler/interpreter that exposes variable live ranges, register allocation graphs, and SSA dominance trees.
 3. **Formal Heuristic Usability Evaluation:** Conduct an exhaustive heuristic evaluation of your developer interface against Nielsen's 10 Usability Heuristics. Document severity ratings (0: Not a problem, 1: Cosmetic, 2: Minor, 3: Major, 4: Catastrophe) and execute a structured 4-step cognitive walkthrough for primary developer workflows (inspecting SSA $\phi$-nodes, stepping through bytecode, diagnosing type errors).
@@ -115,6 +117,13 @@ The most under-appreciated course in the MIT degree. How to write complex code t
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > You write a formal rep invariant and abstraction function for any complex type you define, by reflex.
+
+---
+
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** UPGRADE. Trimmed: items 2–4 of the build (UI, heuristic evaluation, accessibility audit) are now optional stretch work; they belong to Track 10. Real psets added.
+- **MIT 6.102** readings (public): web.mit.edu/6.102/www/; **MIT 6.005** (OCW, Spring 2016: problem sets and exams): ocw.mit.edu/courses/6-005-software-construction-spring-2016/.
+- 💲 *Effective Java* and *A Philosophy of Software Design*; free alternative: the 6.102 readings cover specs, ADTs, rep invariants and testing.
 
 ---
 

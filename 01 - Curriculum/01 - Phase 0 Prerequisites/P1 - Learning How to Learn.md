@@ -73,6 +73,12 @@ Everything downstream assumes you know how memory, practice, and attention actua
 
 ---
 
+## 🔎 Verified Resources (DR-004, checked 2026-10-09)
+**Verdict:** KEEP. Short, high leverage.
+- Coursera *Learning How to Learn* (free to audit): coursera.org/learn/learning-how-to-learn. 💲 *A Mind for Numbers*; free alternative: the course itself covers the same material.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
