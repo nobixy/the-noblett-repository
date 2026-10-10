@@ -73,6 +73,8 @@ Most software jobs ship web products. The core program teaches what sits under a
 ## 🏆 Capstone Build Deliverable
 A deployed, tested, multi-user web product with authentication, a relational database, CI/CD and monitoring, used by real people other than you. Ship a written design doc and a postmortem of one real incident or failed assumption.
 
+*Ready-made option:* the [[OSS Project - Embeddable Typing Test (Monkeytype)|Embeddable Typing Test]] meets this brief at S5.
+
 ---
 
 ## 🏁 Mastery Criteria & Assessments

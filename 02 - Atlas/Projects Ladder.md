@@ -144,6 +144,21 @@ One small project for each learning method, 2–5 h each, slotted into the Start
 
 ---
 
+## 🌐 Open-Source Portfolio Project
+A typing test any site can embed, with trusted results for job-skill tests. You learn it from Monkeytype and contribute upstream. Full spec: [[OSS Project - Embeddable Typing Test (Monkeytype)|Embeddable Typing Test]].
+
+| Stage | When | Done when | h |
+| :--- | :--- | :--- | :-- |
+| S1 First upstream PR | after [[P4 - Programming On-Ramp\|P4]] CS50 Weeks 8–9 (mini-build slots) | one PR merged upstream; frontend runs locally | 8 |
+| S2 Embeddable widget | after Full Stack Open Parts 0–2, 9 | another site embeds it with one tag and gets the score via `postMessage` | 20 |
+| S3 Signed results + dashboard | after [[B19 - Networking\|B19]], with [[B24a - Applied Cryptography and Protocol Security\|B24a]] | tampered or replayed results fail verification; a friend sees your score | 35 |
+| S4 Anti-cheat + accessibility | with [[B17 - Software Construction\|B17]], B24a | threat model written; accessibility audit green in CI; untimed keyboard-only run works | 15 |
+| S5 Publish | before the [[Employability Portfolio and Review\|Employability Portfolio]] | npm + docs + demo live; someone else used it; write-up published | 15 |
+
+*Hours: swapped, not added. These are the portfolio's full-stack and API projects (and the T10 capstone if you pick T10).*
+
+---
+
 ## 🚀 Specialization Track Capstones
 
 | Track | Capstone build |

@@ -105,6 +105,11 @@ The 11 advanced graduate tracks culminate in substantial capstone engineering pr
 
 ---
 
+## 🌐 Open-Source Portfolio Project
+- [ ] **Embeddable Typing Test:** [[OSS Project - Embeddable Typing Test (Monkeytype)|Embeddable Typing Test]]. Contribute to Monkeytype (GPL-3.0), then build an iframe/web-component typing test with server-scored, signed results, anti-cheat and accessibility for job-skill tests. Stages S1–S5; it counts as the Employability Portfolio's items 2–3.
+
+---
+
 ## 🧭 Navigation
 - **Curriculum Overview:** [[00 - Start Here|Start Here]]
 - **Milestone Checklist:** [[00 - Start Here#The Path|The Path]]
