@@ -18,7 +18,7 @@ The infrastructure of adult life required to sustain long-term intellectual work
 - **Finance & Budgeting**: Tracking expenses, emergency funds, tax strategies, long-term investments.
   - *Minimum system:* a monthly budget review and an emergency fund target, kept outside the vault.
 - **Health & Sleep**: Circadian rhythms, sleep hygiene, nutrition, progressive overload training.
-  - *Minimum system:* fixed sleep and wake times (see [[Calendar]]), regular exercise, and protecting the hardest study block from fatigue.
+  - *Minimum system:* fixed sleep and wake times (kept in your calendar), regular exercise, and protecting the hardest study block from fatigue.
 - **Weekly Review**: Goal tracking, calendar audits, resetting the workspace, habit alignment.
   - *Minimum system:* Sunday review using the [[Weekly Review Template]] (see [[how-i-study]] §2).
 - **Relationships & Communication**: Active listening, conflict resolution, networking, mentorship.

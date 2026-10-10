@@ -54,7 +54,7 @@ Checked 2026-10-10:
 **Flags:**
 - B0, BM and BW mastery still needs the Khan unit tests, 10 days of copywork, and the explanations.
 - Lockhart now has to be finished by the end of P3 instead of in BM.
-- [[Calendar]] still says the current focus is reading BM and BW. It's your file, so it wasn't edited: swap in the Week 1 checklist if you want.
+- The Calendar note still said the current focus is reading BM and BW. It was your file, so it wasn't edited (it has since been removed from the vault).
 - The day-job weekly schedule was not changed.
 
 **Undo:** `git checkout -- . && git clean -fd` (back to `f6f26ef`).

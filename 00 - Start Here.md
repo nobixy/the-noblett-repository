@@ -17,7 +17,6 @@ Welcome to the **Noblett Repository**. This is a lifelong education and life-man
 
 > - **Daily Study Log:** [[log.md]] (entries in `03 - Journal/`)
 > - **Living Study Manifesto:** [[how-i-study.md]]
-> - **Telemetry Log:** [[Telemetry Log.md]]
 > - **Book Acquisition Tracker:** [[Your Shelf]]
 > - **Every build, in order:** [[Projects Ladder]]
 
@@ -292,4 +291,4 @@ Continuous, low-friction daily habits:
 - ✍️ **Writing Repository**: [[Writing Hub|Writing Hub]] (Daily 500 words, Franklin copywork & technical essays)
 - 🛠️ **Project Specs & Lab Builds**: [[Projects Hub|Projects Hub]] · [[Projects Ladder]] (every build in order, with done-when lines)
 - 🌍 **Breadth & Languages**: [[Breadth and Humanities Hub|Breadth Hub]]
-- 📚 **Reference & Appendices**: [[Appendix E - Failure Modes|Appendix E (Failure Modes)]] · [[Appendix F - Curated URLs|Appendix F (Curated URLs)]] · [[Your Shelf]] (books) · Cut blocks and the removal list: `99 - Archive/` ([[Removed 2026-10-10 Manifest|what was removed on 2026-10-10]])
+- 📚 **Reference & Appendices**: [[Appendix E - Failure Modes|Appendix E (Failure Modes)]] · [[Appendix F - Curated URLs|Appendix F (Curated URLs)]] · [[Your Shelf]] (books) · Cut blocks: `99 - Archive/` (anything removed on 2026-10-10 is in git history)

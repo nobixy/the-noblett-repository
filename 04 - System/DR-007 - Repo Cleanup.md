@@ -17,7 +17,7 @@ tags:
 "Go ahead and refactor the whole repo, I see a bunch of unnecessary stuff." The vault had 11 top-level folders, five of them holding one note each, six decision records loose in the root, and a large archive of AI-generated material (39 unverified answer keys, a 47 KB gap report, 17 one-off scripts, two redirect stubs) that nothing on The Path used.
 
 ## Decision
-**Removed (61 files, all recoverable from `67bd081`; full list in [[Removed 2026-10-10 Manifest]]):**
+**Removed (61 files, all recoverable from `67bd081`; the full list was in the Removed 2026-10-10 Manifest, since removed; see git history):**
 - `99 - Archive/Worked Proofs/` (39 notes): AI-generated answer keys, never verified. Each block's *Check your work* callout already points at the course's own solutions.
 - `99 - Archive/Scripts/` (17 scripts + README): one-off migration scripts marked "do not re-run"; `verify_curriculum.py` replaced the checkers.
 - `99 - Archive/Redirects/` (2 stubs) and the 2026-09-25 *Baseline Gap Analysis* report.

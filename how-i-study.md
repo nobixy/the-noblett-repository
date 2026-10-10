@@ -101,21 +101,18 @@ Every week ends with one small build (≤2 h, usually the Saturday block) tied t
 /  (vault root)
   00 - Start Here.md           # the one hub: dashboard, The Path, rules
   how-i-study.md               # written in P1, revised every 6 months
-  log.md                       # daily log dashboard (entries in 07 - Daily Log)
-  01 - Curriculum/             # one folder per stage, in study order
-  02 - Notes/                  # topic indexes (math, systems, theory, hardware, languages) + papers, writing, breadth hubs
-  03 - Projects/               # every build, one spec per project
-  04 - Reference/              # source program PDF, appendices, book shelf
-  05 - Decisions/              # DR-001 … (why the system changed)
-  06 - Templates/
-  07 - Daily Log/
-  99 - Archive/                # cut blocks + the removal list
+  log.md                       # daily log dashboard (entries in 03 - Journal)
+  README.md
+  01 - Curriculum/             # every block, track and milestone note (flat; study order is The Path)
+  02 - Atlas/                  # topic indexes, hubs (projects, papers, writing, breadth), Projects Ladder, learning methods, appendices, book shelf, source PDF
+  03 - Journal/                # daily log entries (YYYY-MM-DD)
+  04 - System/                 # templates + decision records (DR-001 …)
+  99 - Archive/                # cut blocks
 ```
-*(Layout set by [[DR-007 - Repo Cleanup|DR-007]]. Calendar and Telemetry Log stay in the root because the iPhone Shortcut automation writes to them by path.)*
 
 Standard note structures are standardized using templates:
 - Course syllabus and progress notes use the [[Block Note Template|Block Note Template]].
-- Topic notes in `02 - Notes/` (linked from the five topic indexes) use the [[Zettelkasten Atomic Note Template|Zettelkasten Atomic Note Template]].
+- Topic notes in `02 - Atlas/` (linked from the five topic indexes) use the [[Zettelkasten Atomic Note Template|Zettelkasten Atomic Note Template]].
 
 ---
 
@@ -157,6 +154,6 @@ Standard note structures are standardized using templates:
 | 2026-10-09 | Phase -1 (Bedrock Foundation) | [[DR-004 - Content Overhaul\|DR-004]]: Content overhaul — EE core (circuits, signals, diff eq), ML, deep learning and parallel/GPU made core; SICP, two non-EECS tracks cut; three tracks merged; every track tied to real free courses. Planned hours 5,805. |
 | 2026-10-09 | Phase -1 (Bedrock Foundation) | [[DR-005 - Capstone and Maker Thread\|DR-005]]: Capstone redesigned as an autonomous drone-swarm prototype (civilian/dual-use, no weapons); 🔧 Maker thread (5 labs + Drone Lab); Block 19a network science and mesh; Block 24a applied crypto core; Cryptopals required; Databases and Theory of Computation optional. Planned hours 5,995. |
 | 2026-10-09 | Phase -1 (Bedrock Foundation) | [[DR-006 - Digital Twin, EW Resilience and Fun Prerequisites\|DR-006]]: Capstone gains a digital twin (M2b) and defensive, simulation-only EW resilience; every Phase −1/0 block gets a fun build; Coursera Plus companions and a NeetCode Pro sprint (ends Feb 6, 2027) added. Planned hours 6,005. |
-| 2026-10-10 | Phase -1 (Bedrock Foundation) | [[DR-007 - Repo Cleanup\|DR-007]]: Repo cleanup — 61 AI-generated or one-off archive files removed (recoverable from git), Mindset Hub merged into §7A, 11 → 8 top-level folders, decisions moved to `05 - Decisions/`. Hours unchanged (6,005). |
+| 2026-10-10 | Phase -1 (Bedrock Foundation) | [[DR-007 - Repo Cleanup\|DR-007]]: Repo cleanup — 61 AI-generated or one-off archive files removed (recoverable from git), Mindset Hub merged into §7A, 11 → 8 top-level folders, decisions given their own folder. Hours unchanged (6,005). |
 | 2026-10-10 | Phase -1 (Bedrock Foundation) | [[DR-008 - Project-First Start and Projects Ladder\|DR-008]]: Build first — Week 1 checklist, 12-week Starter Sprint of fun builds, books become companions on a stated Reading Ramp (§2a), weekly mini-build (§2b), every block has a build, [[Projects Ladder]]. Hours unchanged (6,005). |
 | 2026-10-10 | Phase -1 (Bedrock Foundation) | [[DR-009 - Learning Method Deep Dives\|DR-009]]: 16 learning-method deep dives with honest evidence ratings and a 2–5 h project each, plus a learning-styles myth note; [[LM00 - Learning Methods Hub\|hub]] with suggested order; slotted into the Starter Sprint and Phase 0 as swaps. Hours unchanged (6,005). |
