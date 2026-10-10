@@ -25,3 +25,6 @@ module: "06-computer-architecture"
 
 ## Caches
 - **Ulrich Drepper, "What Every Programmer Should Know About Memory"** (free PDF) — long and detailed; read sections 3 (caches) and 6 (what programmers can do) after the Cache Simulator.
+
+## Video and course companions
+Free YouTube series and Coursera/edX/MIT OCW courses for this module are listed in [courses-and-videos.md](../courses-and-videos.md#modules-0113). Use them with the [V protocol](../study-protocols.md#v--watch-actively): lectures and quizzes as second explanations; this module's own projects, not the courses' assignments.

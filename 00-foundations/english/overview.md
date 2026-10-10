@@ -84,6 +84,8 @@ So roughly 8 months to E10, running underneath the build modules. Spelling pract
 | 15–20 | **Stage lesson or practice set** from the current stage file | [S] [W] |
 | 15–20 | **Copywork** at your current level (below) | [C] |
 | 5 | **Log:** misspelled words go in your error log; one line in the journal | — |
+| +10 | **Fun write** (at least 4 days a week): a prompt from the [writing prompt bank](writing-prompts.md) for your stage — fast, no spell checker, then 3 minutes checking this stage's skill | [C] [T] |
+| +10 | **Touch typing** on keybr.com (weeks 1–12), then Monkeytype's English 1k list | [I] |
 
 Flashcard review (10–20 minutes) can go here or in the morning. Spelling cards and grammar-rule cards share the same deck as everything else.
 
@@ -108,6 +110,12 @@ Franklin copywork [C] is the backbone of this track. You rebuild good sentences 
 - Move up a level when you can rebuild a passage at your level with fewer than 3 spelling errors and the meaning intact, three times in a row.
 
 ---
+
+## Fun, videos, and courses
+
+- **[Writing prompts](writing-prompts.md):** 150+ fun prompts sorted by stage, plus constraint games, project-tied prompts, and speaking prompts for your weekly recording.
+- **[Courses and videos](../../courses-and-videos.md#foundations-english):** Khan Academy Grammar, Google's free Technical Writing courses, *Writing in the Sciences* and *Grammar and Punctuation* on Coursera, and YouTube channels — mapped stage by stage. Every stage file also has a short **Watch, practise, and write** section.
+- **[The first twelve weeks](../first-twelve-weeks.md):** week-by-week targets, companions, and badges for the start.
 
 ## How the study methods run through this track
 

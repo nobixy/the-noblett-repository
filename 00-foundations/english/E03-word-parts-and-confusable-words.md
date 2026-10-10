@@ -280,6 +280,16 @@ Split each word into parts and give the meaning of each part, then the meaning o
 
 ---
 
+## Watch, practise, and write
+
+*Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
+
+- **Watch:** Crash Course Linguistics (YouTube): the morphology episode. TED-Ed etymology lessons. etymonline.com for word histories.
+- **Practise:** Spelling-log review in Study Deck or Anki; the retest against your E01 baseline.
+- **Fun writes this stage** ([prompt bank](writing-prompts.md)): #2 the their/there/they're detective · #8 word builder · #11 compound creatures · #14 sound-alike sentences
+
+---
+
 ## Self-check and retest (end of week 3)
 
 This is the end of the spelling-focused part of the track. Retest everything from E01 and compare.

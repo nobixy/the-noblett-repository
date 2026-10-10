@@ -28,3 +28,6 @@ module: "07-systems-programming"
 - **Heapsmith:** Paul Wilson et al., "Dynamic Storage Allocation: A Survey and Critical Review" (1995) — the classic survey; the jemalloc and mimalloc design documents for modern ideas.
 - **Burrow:** the POSIX Shell Command Language specification (pubs.opengroup.org) — the exact rules your subset follows.
 - **Crate:** "A Painless Guide to CRC Error Detection Algorithms" (Ross Williams, free); the zip and PNG specifications (for comparison, not copying); the AFL++ documentation; search "Zip Slip vulnerability" for the path-traversal history.
+
+## Video and course companions
+Free YouTube series and Coursera/edX/MIT OCW courses for this module are listed in [courses-and-videos.md](../courses-and-videos.md#modules-0113). Use them with the [V protocol](../study-protocols.md#v--watch-actively): lectures and quizzes as second explanations; this module's own projects, not the courses' assignments.

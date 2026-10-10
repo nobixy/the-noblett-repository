@@ -359,6 +359,16 @@ Read bottom to top: **100101₂**. Check: 32 + 4 + 1 = 37 ✓
 
 ---
 
+## Watch, practise, and play
+
+*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-math).*
+
+- **Watch:** Math Antics: multiplication and long division. Khan Academy: multiplication and division. Numberphile (YouTube): a fun video on remainders or divisibility.
+- **Practise:** Khan Academy multiplication and division practice; times-table flashcards.
+- **Play** ([puzzles and games](puzzles-and-games.md)): times-table bingo · the 24 game · the missing-digit trick · 1089
+
+---
+
 ## Self-check (cold, 35 minutes, no calculator)
 
 1. 9 × 7, 11 × 12, 6 × 8, 7 × 7 (all from memory)

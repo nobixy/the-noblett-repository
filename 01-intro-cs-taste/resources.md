@@ -32,3 +32,6 @@ module: "01-intro-cs-taste"
 - Read the error from the bottom up (Lab 02). Write a stuck note. Sleep on it.
 - Search the exact error message in quotes.
 - Ask in a beginner-friendly community (the Python Discord, r/learnpython). Include what you tried — your bug-report skills from E09 make people want to help.
+
+## Video and course companions
+Free YouTube series and Coursera/edX/MIT OCW courses for this module are listed in [courses-and-videos.md](../courses-and-videos.md#modules-0113). Use them with the [V protocol](../study-protocols.md#v--watch-actively): lectures and quizzes as second explanations; this module's own projects, not the courses' assignments.

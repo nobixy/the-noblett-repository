@@ -335,6 +335,16 @@ The **LCM** of two numbers is the smallest number that is a multiple of both. LC
 
 ---
 
+## Watch, practise, and play
+
+*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-math).*
+
+- **Watch:** Khan Academy: Pre-algebra, factors and multiples. Numberphile: prime-number videos. Eddie Woo (YouTube): classroom explanations.
+- **Practise:** Alcumus (artofproblemsolving.com, free): prealgebra number theory.
+- **Play** ([puzzles and games](puzzles-and-games.md)): prime race · factor-pair rectangles · Kaprekar's 6174
+
+---
+
 ## Self-check (cold, 30 minutes, no calculator)
 
 1. List all factors of 60.

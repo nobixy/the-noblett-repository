@@ -29,3 +29,6 @@ module: "12-math-for-engineering"
 - **3Blue1Brown, "But what is the Fourier Transform?"** (YouTube).
 - **Steven W. Smith, *The Scientist and Engineer's Guide to Digital Signal Processing*** (free at dspguide.com) — practical and clear; chapters 8–12 (DFT, FFT) and 15–16 (moving-average and windowed filters).
 - **phyphox** (phyphox.org) — the free phone-sensor app used in Motion Lab.
+
+## Video and course companions
+Free YouTube series and Coursera/edX/MIT OCW courses for this module are listed in [courses-and-videos.md](../courses-and-videos.md#modules-0113). Use them with the [V protocol](../study-protocols.md#v--watch-actively): lectures and quizzes as second explanations; this module's own projects, not the courses' assignments.

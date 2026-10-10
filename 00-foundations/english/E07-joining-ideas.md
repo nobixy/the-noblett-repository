@@ -301,6 +301,16 @@ Save before and after (`english/joining-before-after.md`). Count changes.
 
 ---
 
+## Watch, practise, and write
+
+*Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
+
+- **Watch:** Khan Academy Grammar: 'Syntax: conventions of standard English' (run-ons, fragments, parallel structure). *Grammar and Punctuation* (Coursera), the sentence weeks.
+- **Practise:** Sentence combining: 5 a day from your own journal.
+- **Fun writes this stage** ([prompt bank](writing-prompts.md)): #50 excuses a printer gives · #51 robot butler rules · #56 run-on rescue · #58 code comments that explain why
+
+---
+
 ## Self-check
 
 1. **[R] Blank sheet (10 min):** independent vs dependent clauses; the four sentence types; FANBOYS vs linking adverbs and their punctuation; the logic table; four fixes for a run-on; what parallel structure is.

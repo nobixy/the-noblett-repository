@@ -293,6 +293,16 @@ George Pólya's method (see [LM14](<../../02 - Atlas/LM14 - Pólya's Problem Sol
 
 ---
 
+## Watch, practise, and play
+
+*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-math).*
+
+- **Watch:** Math Antics: multi-digit addition and subtraction. Khan Academy: Arithmetic, add and subtract.
+- **Practise:** Khan Academy addition and subtraction unit test, as an extra cold check.
+- **Play** ([puzzles and games](puzzles-and-games.md)): odometer bets · Countdown numbers · estimation first
+
+---
+
 ## Self-check (cold, 30 minutes, no calculator)
 
 1. 6,284 + 3,759

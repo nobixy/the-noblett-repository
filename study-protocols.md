@@ -26,6 +26,7 @@ You do not need to read the research to use them. The deep dives are in `02 - At
 | **C** | Franklin copywork | 20–30 min | English, every weekday; later, technical prose | how-i-study §1F · [LM06](<02 - Atlas/LM06 - Franklin Copywork.md>) |
 | **D** | Diffuse break | 10–30 min | When you are stuck after real effort | how-i-study §1G · [LM11](<02 - Atlas/LM11 - Focused and Diffuse Thinking.md>) |
 | **T** | Teach-back and write-up | varies | End of every project; some milestones | how-i-study §3 (items 3 and 5) |
+| **V** | Watch actively | video length + 10 min | Any video lesson or online course | how-i-study §1A (illusion of competence) · [LM08](<02 - Atlas/LM08 - Chunking and the Illusion of Competence.md>) |
 
 A **Milestone Checkpoint** is R + F + W together, about 30 minutes. Every project milestone in this repository ends with one. Use the [Milestone Checkpoint Template](<04 - System/Milestone Checkpoint Template.md>).
 
@@ -179,6 +180,21 @@ Every project ends with a communication deliverable. These are graded as part of
 **Teach-back:** once a month, explain something to a real person (a friend, a partner, an online study group). Their questions are better than any test.
 
 **Writing grows with you:** in the first months the deliverables are short and simple (a half-page with five clear sentences is a real achievement). The English stages tell you which deliverable sizes fit where you are. Do the deliverable at your current level; do not skip it because your writing is not "good enough" yet. Writing these *is* how it gets good.
+
+---
+
+## V — Watch actively
+
+**Goal:** learn from videos and online courses without falling into the "I watched it, so I know it" trap.
+
+Watching a clear explainer feels like learning, just like rereading does. Most of that feeling is the illusion of competence. These steps turn a video into practice:
+
+1. **Before (1 min):** write the video's title and one question you hope it answers.
+2. **During:** watch at normal speed. **Pause at least every 5 minutes** and predict what comes next, or do the example yourself before the presenter does. Keep the notes short (key words and sketches, not transcripts).
+3. **After (10 min):** close the video and do a blank-sheet recall [R] of what it said. Then do **3–5 practice problems** or write a short paragraph using the idea. A video with no practice afterwards counts as entertainment, not study.
+4. **Rule of thumb:** at most **1 minute of video for every 2 minutes of doing** in a study session. Courses (Coursera, Khan, edX) count toward your hours only for the parts where you answer questions, write, or code.
+
+All the videos and courses mapped to each stage and module are in [courses-and-videos.md](courses-and-videos.md).
 
 ---
 

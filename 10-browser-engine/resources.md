@@ -23,3 +23,6 @@ module: "10-browser-engine"
 ## Tools
 - **Firefox Developer Tools** — the inspector shows the DOM a real browser built, computed styles, and the box model for any element: your oracle for "what should this look like?"
 - **html5lib** (Python, test-only witness) — a spec-compliant HTML parser.
+
+## Video and course companions
+Free YouTube series and Coursera/edX/MIT OCW courses for this module are listed in [courses-and-videos.md](../courses-and-videos.md#modules-0113). Use them with the [V protocol](../study-protocols.md#v--watch-actively): lectures and quizzes as second explanations; this module's own projects, not the courses' assignments.

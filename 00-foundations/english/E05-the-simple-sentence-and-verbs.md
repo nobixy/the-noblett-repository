@@ -318,6 +318,16 @@ Choose or write the correct form.
 
 ---
 
+## Watch, practise, and write
+
+*Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
+
+- **Watch:** Khan Academy Grammar: the syntax and verb-tense units. Oxford Online English (YouTube): verb tense lessons.
+- **Practise:** Khan Academy Grammar exercises on subject–verb agreement and tense.
+- **Fun writes this stage** ([prompt bank](writing-prompts.md)): #29 commit log of your life · #31 the life of a packet · #34 active or passive detective · #38 diary of a CPU
+
+---
+
 ## Self-check
 
 1. **[R] Blank sheet (10 min):** what makes a sentence complete; the five patterns with examples; the six tenses with examples; the agreement traps.

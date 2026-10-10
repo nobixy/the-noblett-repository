@@ -200,6 +200,16 @@ Write a prediction with a reason. Write a 3-line Python loop and time it with `t
 
 ---
 
+## Watch, practise, and write
+
+*Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
+
+- **Watch:** Google Technical Writing Two (free). *English Composition I* (Duke, Coursera) for argument. *Successful Presentation* (University of Colorado Boulder, Coursera) for demos.
+- **Practise:** Review someone else's writing with the E10 review rules (an online community, a friend's email, a project's README).
+- **Fun writes this stage** ([prompt bank](writing-prompts.md)): #82 tabs vs spaces (argue the other side) · #83 design doc for a time machine · #84 pizza trade-off table · #88 the steelman
+
+---
+
 ## Self-check
 
 1. **[R] Blank sheet (15 min):** the six parts of an argument; the rules for trade-off tables; McEnerney's two ideas; the eight design-doc sections and each one's job; the lab report sections; the demo shape; how to receive a review.

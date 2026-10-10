@@ -25,3 +25,6 @@ module: "13-capstone"
 - **A:** RFC 9110 (HTTP semantics) for carrying HTTP over a new transport; your Courier spec.
 - **B:** the RISC-V ELF psABI specification (calling convention for RV64); your Ember and Seedling docs.
 - **C:** MicroPython network docs for the Pico W; NTP basics (RFC 5905's introduction) for time synchronisation.
+
+## Video and course companions
+Free YouTube series and Coursera/edX/MIT OCW courses for this module are listed in [courses-and-videos.md](../courses-and-videos.md#modules-0113). Use them with the [V protocol](../study-protocols.md#v--watch-actively): lectures and quizzes as second explanations; this module's own projects, not the courses' assignments.

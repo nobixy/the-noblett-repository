@@ -300,6 +300,16 @@ In one or two plain sentences each, explain:
 
 ---
 
+## Watch, practise, and write
+
+*Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
+
+- **Watch:** English with Lucy or mmmEnglish (YouTube): search the channel for the rule you're on (doubling consonants, silent e, y to i, i before e).
+- **Practise:** Monkeytype with the English 1k word list once your typing passes 25 wpm.
+- **Fun writes this stage** ([prompt bank](writing-prompts.md)): #5 a letter to your worst word · #9 the prefix day · #12 the spelling bee announcer · #18 a rule as a rhyme
+
+---
+
 ## Self-check (end of week 3)
 
 1. **Dictation (30 words):** record these, wait a day, write them. *beginning, occurred, preferred, visited, targeted, hoping, hopping, writing, written, usable, noticeable, changeable, truly, argument, tried, trying, studies, played, daily, said, believe, receive, weird, neighbor, foreign, libraries, arrays, matrices, finally, useful.* Target: **27/30**.

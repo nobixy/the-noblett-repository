@@ -301,6 +301,16 @@ You don't need to memorise the general rotation formula now. In [Module 12](../.
 
 ---
 
+## Watch, practise, and play
+
+*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-math).*
+
+- **Watch:** Khan Academy: Geometry. Eddie Woo: Pythagoras proofs and trigonometry. GeoGebra (free) for constructions.
+- **Practise:** Khan Academy geometry and right-triangle trigonometry exercises.
+- **Play** ([puzzles and games](puzzles-and-games.md)): measure π with a can · Pythagoras in the room · shadow height · turtle art contest · tangrams
+
+---
+
 ## Self-check (cold, 35 minutes; calculator for π, roots, trig)
 
 1. Area of the triangle with corners (0, 0), (6, 0), and (0, 4).

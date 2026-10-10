@@ -335,6 +335,16 @@ So fractions whose denominator is a power of 2 have short, exact binary forms. B
 
 ---
 
+## Watch, practise, and play
+
+*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-math).*
+
+- **Watch:** Math Antics: the fractions series. Khan Academy: fractions units.
+- **Practise:** Khan Academy fraction unit tests; Alcumus fractions.
+- **Play** ([puzzles and games](puzzles-and-games.md)): fraction war · unit-fraction puzzles · the 24 game with 3, 3, 8, 8
+
+---
+
 ## Self-check (cold, 35 minutes, no calculator)
 
 1. Simplify 72/90.

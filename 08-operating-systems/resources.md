@@ -25,3 +25,6 @@ module: "08-operating-systems"
 ## Concurrency
 - **Allen Downey, *The Little Book of Semaphores*** (free) — puzzles that sharpen concurrency thinking.
 - **ThreadSanitizer** documentation (clang.llvm.org/docs/ThreadSanitizer.html).
+
+## Video and course companions
+Free YouTube series and Coursera/edX/MIT OCW courses for this module are listed in [courses-and-videos.md](../courses-and-videos.md#modules-0113). Use them with the [V protocol](../study-protocols.md#v--watch-actively): lectures and quizzes as second explanations; this module's own projects, not the courses' assignments.

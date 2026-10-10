@@ -33,3 +33,6 @@ module: "02-programming-fundamentals"
 
 ## Parsing (Worldfile)
 - **Crafting Interpreters** (Robert Nystrom, free at craftinginterpreters.com), chapters 4–6 — a beautifully written explanation of scanning and recursive-descent parsing. Read them as a *second explanation* after you've written your own condition parser.
+
+## Video and course companions
+Free YouTube series and Coursera/edX/MIT OCW courses for this module are listed in [courses-and-videos.md](../courses-and-videos.md#modules-0113). Use them with the [V protocol](../study-protocols.md#v--watch-actively): lectures and quizzes as second explanations; this module's own projects, not the courses' assignments.

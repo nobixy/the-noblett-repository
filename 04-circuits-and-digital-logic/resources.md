@@ -27,3 +27,6 @@ module: "04-circuits-and-digital-logic"
 ## Control (Pico Thermostat)
 - **Brian Douglas's "Control Systems Lectures"** and **"Understanding PID Control"** (YouTube; also MATLAB Tech Talks) — visual, practical, excellent.
 - **Karl Åström & Richard Murray, *Feedback Systems*** (free online) — the rigorous version, for later.
+
+## Video and course companions
+Free YouTube series and Coursera/edX/MIT OCW courses for this module are listed in [courses-and-videos.md](../courses-and-videos.md#modules-0113). Use them with the [V protocol](../study-protocols.md#v--watch-actively): lectures and quizzes as second explanations; this module's own projects, not the courses' assignments.

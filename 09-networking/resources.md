@@ -28,3 +28,6 @@ module: "09-networking"
 - **Julia Evans, "Networking! ACK!" and "How DNS Works"** zines — friendly visual explanations.
 - **Jacobson, "Congestion Avoidance and Control" (1988)** — the classic paper behind slow start and AIMD; readable and historically important. Try the three-pass reading method (LM13) on it.
 - **Mathis, Semke, Mahdavi, Ott, "The Macroscopic Behavior of the TCP Congestion Avoidance Algorithm" (1997)** — the model tested in Lab 03.
+
+## Video and course companions
+Free YouTube series and Coursera/edX/MIT OCW courses for this module are listed in [courses-and-videos.md](../courses-and-videos.md#modules-0113). Use them with the [V protocol](../study-protocols.md#v--watch-actively): lectures and quizzes as second explanations; this module's own projects, not the courses' assignments.

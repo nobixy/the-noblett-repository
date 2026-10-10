@@ -272,6 +272,16 @@ Spelling notes: *rely → reliable* (Rule 3, y → i); *simple + ly = simply* (a
 
 ---
 
+## Watch, practise, and write
+
+*Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
+
+- **Watch:** Khan Academy Grammar (free): the parts-of-speech units. Watch one short video per part of speech.
+- **Practise:** Khan Academy Grammar exercises for each part of speech (auto-checked: an extra [R] check).
+- **Fun writes this stage** ([prompt bank](writing-prompts.md)): #19 noun-only poem · #20 verb-only chase · #21 build your own Mad Lib · #22 name the code in your room
+
+---
+
 ## Self-check
 
 1. **[R] Blank sheet:** the eight parts of speech, the job of each, the test for each, and two examples each. 10 minutes. Check.

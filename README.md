@@ -63,6 +63,12 @@ Phase E  Capstone                         ── 13 Capstone: connect your syste
 
 At 20 hours a week, with life happening, this is about three years. That is fine. It is not a race. The [archived v1 plan](<99 - Archive/v1 - Course-Based Curriculum/>) has advanced tracks (machine learning, robotics, security, the drone-swarm capstone) to take on **after** this core, when you choose.
 
+### Videos, courses, and fun
+
+- **[courses-and-videos.md](courses-and-videos.md)** maps free YouTube series, Coursera courses, Khan Academy, MIT OpenCourseWare, and more to every stage and module. They're companions to the builds, not replacements.
+- **[The first twelve weeks](00-foundations/first-twelve-weeks.md)** lays out the start week by week, with badges.
+- **[Writing prompts](00-foundations/english/writing-prompts.md)** and **[math puzzles and games](00-foundations/math/puzzles-and-games.md)** keep daily practice fun.
+
 ### When to start what
 
 - **Week 1:** English E01 and Math M01 start. Set up your machine ([Lab 00](01-intro-cs-taste/labs/lab-00-machine-setup.md)).
@@ -113,6 +119,7 @@ Every spec uses letter codes from [study-protocols.md](study-protocols.md):
 | **C** | Franklin copywork | Every English stage; technical prose later |
 | **D** | Diffuse break and stuck notes | The 90-minute stuck rule in every project |
 | **T** | Teach-back and formal write-up | The communication deliverable in every project |
+| **V** | Watch actively | Every video or online course: pause and predict, then recall and practise |
 
 The methods are not extra homework. They replace rereading and passive watching. Most protocols take 10 to 30 minutes.
 
@@ -169,7 +176,8 @@ Where a famous course covers the same topic, `resources.md` may point to its *le
 README.md                    you are here
 00 - Start Here.md           the checklist and dashboard
 how-i-study.md               your study manifesto (the methods)
-study-protocols.md           the methods as exact routines (R F W S I C D T)
+study-protocols.md           the methods as exact routines (R F W S I C D T V)
+courses-and-videos.md        YouTube, Coursera, Khan, and other free courses mapped to every stage and module
 log.md                       daily log dashboard
 
 00-foundations/

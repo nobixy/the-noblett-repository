@@ -194,6 +194,16 @@ Each weekday (45–60 minutes total, alongside copywork):
 
 ---
 
+## Watch, practise, and write
+
+*Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
+
+- **Watch:** English with Lucy and BBC Learning English (YouTube): short videos on commonly misspelled words. Use the [V protocol](../../study-protocols.md#v--watch-actively): after each video, spell its words from memory.
+- **Practise:** keybr.com typing, 10 minutes a day (your fingers learn spellings too). Learning How to Learn (Coursera), weeks 1–3.
+- **Fun writes this stage** ([prompt bank](writing-prompts.md)): #1 word smuggler · #4 name acrostic · #13 ten-word headlines · #17 the 100-word challenge
+
+---
+
 ## Self-check (end of week 3)
 
 Do this cold, without studying first.

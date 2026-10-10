@@ -24,3 +24,6 @@ module: "05-data-structures-and-algorithms"
 
 ## Practice problems
 - Erickson's chapter exercises; 6.006 problem sets; **Codeforces** or **LeetCode** "easy/medium" problems by topic — a few per week, mixed across topics [I], as a supplement, not a replacement for the projects.
+
+## Video and course companions
+Free YouTube series and Coursera/edX/MIT OCW courses for this module are listed in [courses-and-videos.md](../courses-and-videos.md#modules-0113). Use them with the [V protocol](../study-protocols.md#v--watch-actively): lectures and quizzes as second explanations; this module's own projects, not the courses' assignments.

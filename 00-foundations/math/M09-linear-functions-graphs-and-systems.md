@@ -312,6 +312,16 @@ Graph both lines; read off where they cross. Good for seeing; imprecise for exac
 
 ---
 
+## Watch, practise, and play
+
+*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-math).*
+
+- **Watch:** Khan Academy: Algebra 1, linear equations, graphs, and systems. *Algebra: Elementary to Advanced* (Coursera), courses 1–2.
+- **Practise:** Desmos (free) classroom activities on slopes and intercepts.
+- **Play** ([puzzles and games](puzzles-and-games.md)): Desmos art · who catches whom?
+
+---
+
 ## Self-check (cold, 35 minutes)
 
 1. If f(x) = 5 − 2x, find f(−3).

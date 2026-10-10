@@ -338,6 +338,16 @@ Open Python and type `0.1 + 0.2`. You'll get `0.30000000000000004`. This is not 
 
 ---
 
+## Watch, practise, and play
+
+*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-math).*
+
+- **Watch:** Math Antics: decimals and percents. Khan Academy: decimals, percents, ratios and rates. Computerphile: 'Floating Point Numbers'.
+- **Practise:** Khan Academy ratios and percents practice.
+- **Play** ([puzzles and games](puzzles-and-games.md)): the percent shopping game · recipe remix · the 0.1 + 0.2 bet · Fermi questions
+
+---
+
 ## Self-check (cold, 35 minutes; no calculator for 1–8)
 
 1. 6.08 − 2.9

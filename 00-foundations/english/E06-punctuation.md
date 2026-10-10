@@ -360,6 +360,16 @@ Take three of your journal entries from your first month. Fix every punctuation 
 
 ---
 
+## Watch, practise, and write
+
+*Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
+
+- **Watch:** Khan Academy Grammar: the punctuation unit. *Grammar and Punctuation* (UC Irvine, Coursera), the punctuation weeks.
+- **Practise:** Khan Academy punctuation exercises; then Practice Set 3 on your own writing.
+- **Fun writes this stage** ([prompt bank](writing-prompts.md)): #40 CPU and RAM argue · #43 the apostrophe crime scene · #45 the terminal transcript · #46 commas change everything
+
+---
+
 ## Self-check
 
 1. **[R] Blank sheet (15 min):** the six comma rules with examples; the two jobs of the apostrophe; colon rule; semicolon's two jobs; when to use code format instead of quotes.

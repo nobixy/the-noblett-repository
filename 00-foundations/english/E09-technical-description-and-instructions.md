@@ -293,6 +293,16 @@ Find a real bug or annoyance in any software you use (a website, an app, a game)
 
 ---
 
+## Watch, practise, and write
+
+*Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
+
+- **Watch:** Google Technical Writing One (free, about 4 hours). Technology Connections or Steve Mould (YouTube): watch one explanation of an everyday machine, then write your own.
+- **Practise:** Google Technical Writing One's in-class exercises, done on paper first.
+- **Fun writes this stage** ([prompt bank](writing-prompts.md)): #70 instructions for an alien · #71 bug report for your cat · #72 README for your fridge · #73 rewrite bad error messages
+
+---
+
 ## Self-check
 
 1. **[R] Blank sheet (15 min):** the structure of all four forms; the rules for steps; the parts of a definition; must/should/may.

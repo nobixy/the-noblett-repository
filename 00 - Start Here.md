@@ -32,7 +32,7 @@ Each day is about 60–90 minutes. Do them in order; if a day takes two days, th
 - [ ] **Day 6 (Saturday build) — Count in other bases.** [Base Workshop Milestone 1](00-foundations/math/projects/base-workshop/spec.md#milestone-1--the-counting-board-m01-paper): the paper counting board. Then your first **Franklin copywork** session ([study-protocols C](study-protocols.md#c--franklin-copywork)) on a Simple English Wikipedia passage about computers.
 - [ ] **Day 7 (Sunday) — Review.** [Weekly Review](<04 - System/Weekly Review Template.md>): flashcards set up (Anki, or a paper Leitner box), one blank-sheet recall [R] of the week, plan week 2 (E01 Part 4 and M01 Parts 3–5; Lab 00 Session 2).
 
-**After Week 1:** follow the checklist below, using the daily shape in the [README](README.md#the-daily-and-weekly-shape-about-20-hours-a-week): math mornings, English evenings, builds on Saturdays, review on Sundays. Start Module 01 in week 3.
+**After Week 1:** follow **[The First Twelve Weeks](00-foundations/first-twelve-weeks.md)** (week-by-week targets, videos, fun picks, badges), then the checklist below, using the daily shape in the [README](README.md#the-daily-and-weekly-shape-about-20-hours-a-week): math mornings, English evenings, builds on Saturdays, review on Sundays. Start Module 01 in week 3.
 
 ---
 
@@ -174,6 +174,8 @@ Each day is about 60–90 minutes. Do them in order; if a day takes two days, th
 - Weekly spoken recordings [F]: `0`
 - Free-writing error rate (per 100 words): baseline `__` → latest `__`
 - Math facts minute (M03): best `__ / 30`
+- Fun writes: `0` · Typing speed: `__` wpm
+- Badges earned (see [the badge board](00-foundations/first-twelve-weeks.md#badge-board)): `0`
 
 ---
 
@@ -195,6 +197,7 @@ Each day is about 60–90 minutes. Do them in order; if a day takes two days, th
 ## Map of the vault
 
 - **Curriculum:** the numbered folders `00-foundations/` … `13-capstone/` — see the [README](README.md#repository-layout).
+- **Fun and companions:** [Writing prompts](00-foundations/english/writing-prompts.md) · [Math puzzles and games](00-foundations/math/puzzles-and-games.md) · [Courses and videos](courses-and-videos.md) · [The first twelve weeks](00-foundations/first-twelve-weeks.md)
 - **Study methods:** [study-protocols.md](study-protocols.md) · [how-i-study.md](how-i-study.md) · deep dives [LM00 hub](<02 - Atlas/LM00 - Learning Methods Hub.md>) · [Learning Styles Myth](<02 - Atlas/Learning Styles Myth.md>)
 - **Templates** (`04 - System/`): [Milestone Checkpoint](<04 - System/Milestone Checkpoint Template.md>) · [Design Doc](<04 - System/Design Doc Template.md>) · [Lab Report](<04 - System/Lab Report Template.md>) · [Demo Script](<04 - System/Demo Script Template.md>) · [Blank-Sheet Retrieval](<04 - System/Blank-Sheet Retrieval Template.md>) · [Feynman Note](<04 - System/Feynman Technique Note Template.md>) · [Franklin Copywork](<04 - System/Franklin Copywork Template.md>) · [Weekly Review](<04 - System/Weekly Review Template.md>) · [Daily Log](<04 - System/Daily Log Entry Template.md>)
 - **Reference hubs** (`02 - Atlas/`): writing, paper reading, topic indexes, your book shelf, human systems.

@@ -316,6 +316,16 @@ This "nowhere to go" is called **overflow**, and it is a real source of computer
 
 ---
 
+## Watch, practise, and play
+
+*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-math).*
+
+- **Watch:** Math Antics (YouTube): 'Place Value'. Crash Course Computer Science: the episode on representing numbers and letters with binary. Khan Academy: Arithmetic, place value.
+- **Practise:** Khan Academy place-value and rounding exercises (auto-checked, so good for mixed review [I]).
+- **Play** ([puzzles and games](puzzles-and-games.md)): binary mind-reading cards · count to 31 on one hand · hex speed round · make 100
+
+---
+
 ## Self-check (end of week 3, cold, 30 minutes)
 
 1. Write 5,020,301 in words and in expanded form.

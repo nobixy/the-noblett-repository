@@ -95,7 +95,7 @@ Each stage file has the same parts:
 | 5–10 | **Check and log:** mark answers; every miss goes in your math error log (below) | [R] |
 | 5 | **Why:** one why-ladder on today's main rule | [W] |
 
-**Fridays:** a cumulative mixed set: 10 problems from this week, 5 from earlier stages (spacing [I]).
+**Fridays:** a cumulative mixed set: 10 problems from this week, 5 from earlier stages (spacing [I]) — or **Fun Friday** once a week: two games or puzzles from [your stage](puzzles-and-games.md).
 **Sundays:** in the weekly review, redo two old problems cold, one from your error log.
 
 **On a bad day:** 10 mixed problems from earlier stages and your flashcards. That counts.
@@ -153,6 +153,12 @@ Small, real, and each connected to later builds. Milestones before [01 Lab 01](.
 | [Growth and Halving Lab](projects/growth-and-halving-lab/spec.md) | M11 | Experiments on doubling and halving, including timing your own search programs | Algorithm analysis (05) |
 
 ---
+
+## Fun, videos, and courses
+
+- **[Puzzles and games](puzzles-and-games.md):** number tricks (with the *why*), card and dice games, Fermi questions, Desmos challenges, and online puzzle platforms — sorted by stage. Use them for warm-ups and a weekly **Fun Friday**.
+- **[Courses and videos](../../courses-and-videos.md#foundations-math):** Math Antics, Khan Academy, Eddie Woo, 3Blue1Brown, Numberphile, Alcumus, and Coursera's *Algebra: Elementary to Advanced* and *Introduction to Mathematical Thinking* — mapped stage by stage. Every stage file also has a short **Watch, practise, and play** section.
+- **[The first twelve weeks](../first-twelve-weeks.md):** the plan for the start.
 
 ## Free resources (pointers only)
 
