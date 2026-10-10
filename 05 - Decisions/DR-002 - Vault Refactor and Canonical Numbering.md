@@ -15,7 +15,7 @@ tags:
 
 ## Context
 After the DR-001 review, four structural problems were left:
-1. **Two numbering systems.** The [[Checklist]], the source PDF, [[how-i-study]] ("Apply after Block 12") and the Projects Hub used the program's numbering (CS61A = Block 1). Note titles and `block_id` used a second numbering from a migration script (CS61A = Block 10, tracks = Blocks 42–56). The Checklist also skipped Block 31.
+1. **Two numbering systems.** The [[00 - Start Here|Checklist]], the source PDF, [[how-i-study]] ("Apply after Block 12") and the Projects Hub used the program's numbering (CS61A = Block 1). Note titles and `block_id` used a second numbering from a migration script (CS61A = Block 10, tracks = Blocks 42–56). The Checklist also skipped Block 31.
 2. **Inconsistent frontmatter.** Category values were `core`, `advanced` and `specialization`. 13 notes lacked `primary_resource`/`milestone`, three tracks lacked `track_id` and used "Track N - …" titles, prerequisites used aliases, and the Capstone and Cryptopals listed no prerequisites.
 3. **Four blocks outside the plan.** AI, Intro ML, Computer Security and Parallel Computing were marked Tier 1 Core and counted in the hours, but the source program never schedules them. Two of them were stubs.
 4. **Thin hubs and a missing branch.** Engineering Practice, Human Systems and the Employability Portfolio were bare outlines. The portfolio required a full-stack web app that no note taught.

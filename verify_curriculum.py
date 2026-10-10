@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Read-only consistency check for the curriculum (see DR-002, DR-003, DR-005).
 
-Run from anywhere: python3 verify_curriculum.py
+Run from anywhere: python3 verify_curriculum.py   (folder layout: DR-007)
 Exit code 0 = clean, 1 = problems found. Never writes files.
 Checks block notes (any note in 01 - Curriculum with a block_id):
   schema keys, category values, block_id format/uniqueness, title matches block_id,
@@ -69,7 +69,7 @@ def strip_code(t): return re.sub(r"```.*?```", "", t, flags=re.S)
 # vault-wide links
 for name, path in notes.items():
     rel = os.path.relpath(path, ROOT)
-    if rel.startswith("08 - Templates"): continue
+    if rel.startswith("06 - Templates"): continue
     for tgt in LINK_RE.findall(strip_code(open(path, encoding="utf-8").read())):
         base = tgt.strip().split("/")[-1]
         if base and base.lower() not in lower and base.lower() not in files:

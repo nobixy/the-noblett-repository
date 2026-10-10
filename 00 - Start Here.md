@@ -16,7 +16,7 @@ Welcome to the **Noblett Repository**. This is a lifelong education and life-man
 
 **Now:** Phase −1 → [[BM - Bedrock Mathematics|Bedrock Math]] + [[BW - Bedrock English and Grammar|Bedrock English]] · **Next block:** [[B0 - The Deep Learner's Toolkit|B0]] → [[P1 - Learning How to Learn|P1]] · **Schedule:** [[Calendar]]
 
-> - **Daily Study Log:** [[log.md]] (entries in `10 - Daily Log/`)
+> - **Daily Study Log:** [[log.md]] (entries in `07 - Daily Log/`)
 > - **Living Study Manifesto:** [[how-i-study.md]]
 > - **Telemetry Log:** [[Telemetry Log.md]]
 > - **Book Acquisition Tracker:** [[Your Shelf]]
@@ -284,13 +284,13 @@ LIMIT 7
 ---
 
 ## 📈 The Vault
-- 🧠 **Mindset & Habits**: [[Mindset Hub|Mindset Hub]]
+- 🧠 **Mindset & Habits**: [[how-i-study#A. Mindset and Habits|how-i-study §7A]]
 - 📑 **Curriculum** (`01 - Curriculum/`, one folder per stage): [[#The Path|The Path]] · [[Specialization Branches|Specializations Hub]] · [[Employability Portfolio and Review|Employability Portfolio]]
 - 🔧 **Supporting notes**: [[Engineering Practice]] (tooling, testing, operations) · [[Human Systems]] (money, health, time, relationships)
-- 🗂️ **Decisions**: [[DR-001 - Program Scope, Phases, and Timeline|DR-001]] · [[DR-002 - Vault Refactor and Canonical Numbering|DR-002]] · [[DR-003 - One Path Restructure|DR-003]] · template: [[Decision Record]]
+- 🗂️ **Decisions** (`05 - Decisions/`): [[DR-001 - Program Scope, Phases, and Timeline|DR-001]] · [[DR-002 - Vault Refactor and Canonical Numbering|DR-002]] · [[DR-003 - One Path Restructure|DR-003]] · [[DR-004 - Content Overhaul|DR-004]] · [[DR-005 - Capstone and Maker Thread|DR-005]] · [[DR-006 - Digital Twin, EW Resilience and Fun Prerequisites|DR-006]] · [[DR-007 - Repo Cleanup|DR-007]] · template: [[Decision Record]]
 - 📓 **Topic Notes**: [[Hardware Index|Hardware]] · [[Languages Index|Languages]] · [[Math Index|Math]] · [[Systems Index|Systems]] · [[Theory Index|Theory]]
 - 📄 **Paper Summaries**: [[Paper Reading Hub|Paper Reading Hub]] (Three-pass method)
 - ✍️ **Writing Repository**: [[Writing Hub|Writing Hub]] (Daily 500 words, Franklin copywork & technical essays)
 - 🛠️ **Project Specs & Lab Builds**: [[Projects Hub|Projects Hub]]
 - 🌍 **Breadth & Languages**: [[Breadth and Humanities Hub|Breadth Hub]]
-- 📚 **Reference & Appendices**: [[Appendix E - Failure Modes|Appendix E (Failure Modes)]] · [[Appendix F - Curated URLs|Appendix F (Curated URLs)]] · Archived AI material (unverified answer keys, 2026-09-25 gap report, redirect stubs for the retired Dashboard and Checklist): `99 - Archive/`
+- 📚 **Reference & Appendices**: [[Appendix E - Failure Modes|Appendix E (Failure Modes)]] · [[Appendix F - Curated URLs|Appendix F (Curated URLs)]] · [[Your Shelf]] (books) · Cut blocks and the removal list: `99 - Archive/` ([[Removed 2026-10-10 Manifest|what was removed on 2026-10-10]])
