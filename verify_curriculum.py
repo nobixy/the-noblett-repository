@@ -69,7 +69,7 @@ def strip_code(t): return re.sub(r"```.*?```", "", t, flags=re.S)
 # vault-wide links
 for name, path in notes.items():
     rel = os.path.relpath(path, ROOT)
-    if rel.startswith("06 - Templates"): continue
+    if rel.startswith("04 - System"): continue
     for tgt in LINK_RE.findall(strip_code(open(path, encoding="utf-8").read())):
         base = tgt.strip().split("/")[-1]
         if base and base.lower() not in lower and base.lower() not in files:
