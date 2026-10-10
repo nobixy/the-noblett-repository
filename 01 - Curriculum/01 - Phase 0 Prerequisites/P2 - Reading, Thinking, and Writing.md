@@ -7,7 +7,7 @@ term: "Phase 0 (0–5 mo)"
 status: not-started
 prerequisites:
   - "BW - Bedrock English and Grammar"
-hours_estimate: 40
+hours_estimate: 30
 hours_actual: 0
 primary_resource: "Adler, Keshav, Pólya, McEnerney, Winston, Hermans"
 milestone: "Four builds exist in /notes (/writing & /papers)"
@@ -21,7 +21,7 @@ aliases: ["Reading, Thinking, and Writing"]
 
 > [!INFO] Block Overview
 > - **Term / Position:** Phase 0 (Weeks 3–4)
-> - **Estimated Hours:** ~40 hrs
+> - **Estimated Hours:** ~30 hrs
 > - **Status:** `not-started`
 > - **Primary Reading:** Adler & Van Doren, *How to Read a Book* (Parts 1–3); Keshav, *"How to Read a Paper"*; Simonson & Gouvea, *"How to Read Mathematics"*; Hermans, *The Programmer's Brain*
 > - **Primary Thinking:** Pólya, *How to Solve It*
@@ -46,7 +46,7 @@ You're about to read thousands of pages of textbooks and hundreds of papers. Rea
 
 ## 📖 Primary Syllabus & Actions
 - [ ] **Reading Skills:**
-  - [ ] Adler & Van Doren, *How to Read a Book* — Parts 1–3 (inspectional, analytical, syntopical).
+  - [ ] Adler & Van Doren, *How to Read a Book* — Parts 1–2 (inspectional, analytical); Part 3 (syntopical) optional since DR-006.
   - [ ] Keshav, *"How to Read a Paper"* (2007, 3 pages, free) — Master the 3-pass method.
   - [ ] Simonson & Gouvea, *"How to Read Mathematics"* (free essay).
   - [ ] Hermans, *The Programmer's Brain* — Cognitive science applied to reading code.
@@ -71,6 +71,12 @@ You're about to read thousands of pages of textbooks and hundreds of papers. Rea
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > All four builds exist in the repository notes.
+
+---
+
+## 🎮 Fun Build & Extras (DR-006, 2026-10-09)
+- **Fun Pólya practice:** **Human Resource Machine** 💲 $14.99 on Steam: each level is a Pólya problem solved in a tiny assembly language. Write the four steps for 5 levels in place of 2 of the 5 puzzle problems.
+- **Trimmed (DR-006, −10 h):** Adler Part 3 (syntopical reading) is optional; Parts 1–2 stay.
 
 ---
 

@@ -89,6 +89,11 @@ The two master rules that instantly transform weak, muddy sentences into surgica
 
 ---
 
+## 🎮 Fun Build & Extras (DR-006, 2026-10-09)
+- **Fun build:** a 1,500-word branching story in **Twine** (twinery.org, free): every choice must be a clean sentence that passes the Williams rules. It replaces 4 of the 14 Franklin copywork days (10 remain).
+
+---
+
 ## 🔎 Verified Resources (DR-004, checked 2026-10-09)
 **Verdict:** KEEP. Writing is a graded skill in every later block.
 - 💲 Huddleston & Pullum and Williams *Style* are paid; free alternative: the copywork and blank-sheet routines in this block need no book.

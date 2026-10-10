@@ -229,7 +229,7 @@ A complete, production-grade autonomous navigation, frontier exploration, and ob
 ---
 
 ## 🛩️ Capstone Link (DR-005, 2026-10-09)
-**Recommended Specialization A for the drone-swarm capstone.** Estimation (EKF, factor graphs), control (LQR, MPC) and planning are the capstone's flight and coordination core. Do the Track 9 labs on a quadrotor model where you can (PX4 SITL from [[B27a - Drone Lab - Flight Stack, ROS 2 and SITL|Block 27a]]), and add multi-robot material: Bullo's *Lectures on Network Systems* (fbullo.github.io/lns/) and the MARL book (marl-book.com).
+**Recommended Specialization A for the drone-swarm capstone.** Estimation (EKF, factor graphs), control (LQR, MPC) and planning are the capstone's flight and coordination core. Do the Track 9 labs on a quadrotor model where you can (PX4 SITL from [[B27a - Drone Lab - Flight Stack, ROS 2 and SITL|Block 27a]]), and add multi-robot material: Bullo's *Lectures on Network Systems* (fbullo.github.io/lns/) and the MARL book (marl-book.com). Coursera Plus (DR-006): *Modern Robotics, Course 1* (Northwestern) matches this track's primary text; the U of Toronto self-driving courses cover estimation and motion planning. UPenn's Robotics/Aerial Robotics courses are no longer on Coursera (pages 404 as of 2026-10-09).
 
 ---
 

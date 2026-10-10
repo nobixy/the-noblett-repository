@@ -96,6 +96,11 @@ To become exceptionally educated from the ground up, you must abandon how school
 
 ---
 
+## 🎮 Fun Build & Extras (DR-006, 2026-10-09)
+- **Fun build:** make a 10-minute **Scratch** quiz game (scratch.mit.edu, free) that drills one of the study systems; it replaces the written summary for that system and is your first program. Cards you get wrong go into Anki.
+
+---
+
 ## 🔎 Verified Resources (DR-004, checked 2026-10-09)
 **Verdict:** KEEP. Evidence-based study methods; nothing to replace.
 

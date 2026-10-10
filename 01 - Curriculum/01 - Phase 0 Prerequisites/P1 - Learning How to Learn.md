@@ -73,6 +73,12 @@ Everything downstream assumes you know how memory, practice, and attention actua
 
 ---
 
+## 🎮 Fun Build & Extras (DR-006, 2026-10-09)
+- **Coursera Plus:** *Learning How to Learn* (Oakley & Sejnowski) is included; take it there for the graded quizzes and certificate.
+- **Fun:** start your **🎮 Daily Code Streak** now (see P4): 20 minutes a day, tracked in [[log]], is a habit that makes the Anki and spacing ideas from this block concrete.
+
+---
+
 ## 🔎 Verified Resources (DR-004, checked 2026-10-09)
 **Verdict:** KEEP. Short, high leverage.
 - Coursera *Learning How to Learn* (free to audit): coursera.org/learn/learning-how-to-learn. 💲 *A Mind for Numbers*; free alternative: the course itself covers the same material.

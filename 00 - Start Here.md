@@ -61,6 +61,7 @@ SORT key ASC
 ---
 
 ### Phase -1: Bedrock Foundations (The Ground Floor)
+*🎮 Every Phase −1/0 block now has a fun build (Scratch, Twine, Desmos, OverTheWire, a game for CS50) and the 🎮 Daily Code Streak ([[DR-006 - Digital Twin, EW Resilience and Fun Prerequisites|DR-006]]). **NeetCode Pro ends Feb 6, 2027**: do the NeetCode sprint in [[P4 - Programming On-Ramp|P4]] before then; the free fallback is the neetcode.io roadmap + YouTube + LeetCode free. Coursera Plus courses are listed in each block's Companion section.*
 - [ ] **[[B0 - The Deep Learner's Toolkit|B0]]:** The Deep Learner's Toolkit — *Mastery of Feynman Technique, Elaborative Interrogation, Franklin Copywork, Subgoal Labeling, and Blank-Sheet Retrieval.*
 - [ ] **[[BM - Bedrock Mathematics|BM]]:** Bedrock Mathematics (✓ *Lockhart, Arithmetic*, Khan Academy Pre-Alg → Alg I) — *Complete conceptual understanding of counting, base-10, fractions, negative multiplication, and algebraic balance scales.*
 - [ ] **[[BW - Bedrock English and Grammar|BW]]:** Bedrock English & Grammar (Huddleston & Pullum, Williams *Style*) — *Sentence diagramming, de-nominalization fluency, and 14 consecutive days of Franklin Copywork completed.*
@@ -71,8 +72,8 @@ SORT key ASC
 - [ ] **[[P1 - Learning How to Learn|P1]]:** Learning how to learn (✓ *Mind for Numbers*, *Learning How to Learn*, *Make It Stick*, Dunlosky) — *Study system written in [[how-i-study]], weekly template created, 20 Anki cards created.*
 - [ ] **[[P2 - Reading, Thinking, and Writing|P2]]:** Reading, thinking, writing (Adler, Keshav, Pólya, Hermans, McEnerney, Winston) — *Four builds exist in [[Writing Hub|Writing Hub]] & [[Paper Reading Hub|Paper Reading Hub]].*
 - [ ] **[[P3 - Math Prerequisites|P3]]:** 💼1 Math prerequisites (✓ *Velleman* 1–3; *Arithmetic* is read in BM) — *Cold test passed; clean induction & contradiction proofs.*
-- [ ] **[[P4 - Programming On-Ramp|P4]]:** 💼1 Programming on-ramp (*CS50x*) — *300-line valgrind-clean C program; hash table & BST from scratch.*
-- [ ] **[[P5 - Tooling|P5]]:** Tooling + notes repo (*Missing Semester*, ✓ *How Linux Works* 1–7) — *[[log]] has 14 consecutive daily entries & headless Linux mastery.*
+- [ ] **[[P4 - Programming On-Ramp|P4]]:** 💼1 Programming on-ramp (*CS50x* + NeetCode Pro sprint before Feb 6, 2027; CS50 final project as a game) — *300-line valgrind-clean C program; hash table & BST from scratch.*
+- [ ] **[[P5 - Tooling|P5]]:** Tooling + notes repo (*Missing Semester*, OverTheWire Bandit 0–20, ✓ *How Linux Works* 1–7) — *[[log]] has 14 consecutive daily entries & headless Linux mastery.*
 
 ---
 
@@ -148,9 +149,9 @@ SORT key ASC
 ---
 
 ### Year 5: The MEng Year
-- [ ] **[[B30 - Magnum Opus Capstone|Block 30]]:** Capstone: Autonomous Drone Swarm Prototype (decentralized coordination, secure mesh, on-board perception, GPS-denied nav; sim first, then 3+ small drones; no weapons) — *Milestones M0–M6 met.* *(redesigned, [[DR-005 - Capstone and Maker Thread|DR-005]])*
+- [ ] **[[B30 - Magnum Opus Capstone|Block 30]]:** Capstone: Autonomous Drone Swarm Prototype (decentralized coordination, secure mesh, on-board perception, GPS-denied nav, digital-twin rerouting, EW resilience in simulation; sim first, then 3+ small drones; no weapons) — *Milestones M0–M6 (+ M2b digital twin) met.* *(redesigned, [[DR-005 - Capstone and Maker Thread|DR-005]])*
 - [ ] **Capstone Artifact:** Public artifact with documentation.
-- [ ] **Capstone Thesis:** 15,000–25,000 words.
+- [ ] **Capstone Thesis:** 10,000–15,000 words (trimmed by DR-006).
 - [ ] **Capstone Talk:** 30-minute recorded presentation.
 - [ ] **Capstone Outside Review:** Written critique from external reviewer.
 - [ ] **[[Specialization Branches|Block 31]]:** Specialization B — Course 2 (alongside the Capstone).
@@ -219,7 +220,7 @@ Continuous, low-friction daily habits:
 ### 🧭 North Star
 **Goal:** Complete the equivalent of a rigorous MIT Course 6-3 SB + MEng, and then continue executing an infinite, lifelong learning sequence bridging post-doc level depth across quantum computing, computational biology, formal verification, and pure mathematics. This is a magnum opus of self-education.
 
-**Budget:** The *Program* (Phase −1 → Year 5 Capstone: core blocks + two specialization tracks + habits, ≈7,800–8,300 h; see [[DR-005 - Capstone and Maker Thread|DR-005]]) is timeboxed at ~8 years; below 15 hrs/wk, cut scope (Physics → Statistics → second track) instead of extending. After the Capstone, *Lifelong Continuation* (remaining tracks and beyond) has no deadline. Structure: 7 stages (Phase −1, Phase 0, Years 1–5) in [[#The Path|The Path]]; the 💼1–💼5 markers there are the employability path through them. See [[DR-001 - Program Scope, Phases, and Timeline|DR-001]].
+**Budget:** The *Program* (Phase −1 → Year 5 Capstone: core blocks + two specialization tracks + habits, ≈7,800–8,300 h; see [[DR-006 - Digital Twin, EW Resilience and Fun Prerequisites|DR-006]]) is timeboxed at ~8 years; below 15 hrs/wk, cut scope (Physics → Statistics → second track) instead of extending. After the Capstone, *Lifelong Continuation* (remaining tracks and beyond) has no deadline. Structure: 7 stages (Phase −1, Phase 0, Years 1–5) in [[#The Path|The Path]]; the 💼1–💼5 markers there are the employability path through them. See [[DR-001 - Program Scope, Phases, and Timeline|DR-001]].
 
 **The five rules** (from [[The Independent EECS Program.pdf|the source program]]):
 1. No lecture without its problem set the same week.

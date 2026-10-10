@@ -52,7 +52,9 @@ The last Maker Lab and the on-ramp to the capstone: an open-source flight stack,
 ## 📖 Primary Syllabus & Core Content
 - [ ] Quadrotor dynamics and cascaded control (rate → attitude → position); PID tuning from logs.
 - [ ] State estimation: complementary filter → EKF; PX4's EKF2; IMU, barometer, optical flow, range sensors.
-- [ ] PX4 architecture (uORB, modules), MAVLink, QGroundControl; ArduPilot SITL as a second stack.
+- [ ] PX4 architecture (uORB, modules), MAVLink, QGroundControl (ArduPilot SITL as a second stack is optional since DR-006).
+- [ ] **Digital-twin primer (DR-006):** turn a real neighborhood into a Gazebo world from OpenStreetMap buildings + USGS 3DEP elevation; fly the survey mission there; plan around buildings with A* on a 3D grid. Optional: Unreal + Cesium for Unreal + Cosys-AirSim if your GPU can take it.
+- [ ] **Failure injection (DR-006):** PX4 failure injection (`SYS_FAILURE_EN`) to switch off GPS or the data link in SITL and watch the failsafes.
 - [ ] ROS 2 (Lyrical Luth LTS): nodes, topics, services, actions, tf2, launch files, rosbag; the PX4–ROS 2 bridge (uXRCE-DDS) and offboard control.
 - [ ] Multi-vehicle SITL in Gazebo; Crazyswarm2 and CrazySim for Crazyflie swarms; gym-pybullet-drones for learning-based control.
 - [ ] GPS-denied navigation basics: optical flow + ToF (Crazyflie Flow deck), visual-inertial odometry overview (MIT VNAV).
@@ -64,13 +66,20 @@ The last Maker Lab and the on-ramp to the capstone: an open-source flight stack,
 ## 🛠️ Build Requirement
 1. **SITL:** PX4 in Gazebo controlled by your ROS 2 node flies a lawn-mower survey pattern; then 3 vehicles at once.
 2. **Real micro-drone:** one Crazyflie (or an ESP-Drone you build) flies a scripted hover → square → land indoors with optical flow; retune one PID loop from logged step responses.
-3. **Failsafes:** trigger every failsafe in SITL and the link-loss and low-battery ones on hardware; log each.
+3. **Digital-twin world:** the same SITL survey flown in your OSM + 3DEP Gazebo world, rerouting around one building you add mid-flight.
+4. **Failsafes:** trigger every failsafe in SITL and the link-loss and low-battery ones on hardware; log each.
 
 ---
 
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > 10/10 SITL missions; the real drone flies the scripted pattern 5 times in a row; step responses and failsafe logs in your notes; TRUST certificate in hand before any outdoor flight.
+
+---
+
+## 🎓 Coursera Plus companions (DR-006, 2026-10-09)
+- *Introduction to Self-Driving Cars*, *State Estimation and Localization for Self-Driving Cars* and *Motion Planning for Self-Driving Cars* (University of Toronto; all included in Coursera Plus as of 2026-10-09). The estimation course is the best primer for EKF/GPS-denied work; the planning course covers A*, lattice and dynamic replanning. Take them in place of the optional ArduPilot second stack.
+- Map data and simulators for the twin: openstreetmap.org/copyright (ODbL), apps.nationalmap.gov/downloader/ (USGS 3DEP, public domain), gazebosim.org/docs/latest/getstarted/, cosys-lab.github.io/Cosys-AirSim/, cesium.com/learn/unreal/, docs.px4.io/main/en/debug/failure_injection.html.
 
 ---
 

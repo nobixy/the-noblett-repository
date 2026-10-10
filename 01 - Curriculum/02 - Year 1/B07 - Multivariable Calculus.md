@@ -62,6 +62,11 @@ Complete all problem sets, recitation workshops, and practice exams.
 
 ---
 
+## 🎓 Companion Courses (DR-006, 2026-10-09)
+- **Coursera Plus:** *Mathematics for Machine Learning: Multivariate Calculus* (Imperial College London) as a short, visual companion to 18.02; it replaces some 18.02 recitation practice, so no extra hours.
+
+---
+
 ## 🔎 Verified Resources (DR-004, checked 2026-10-09)
 **Verdict:** KEEP.
 - **MIT 18.02SC** (OCW Scholar): ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/.

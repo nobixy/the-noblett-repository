@@ -6,7 +6,7 @@ subject: "Computer Science"
 term: "Phase 0 (0–5 mo)"
 status: not-started
 prerequisites: []
-hours_estimate: 125
+hours_estimate: 145
 hours_actual: 0
 primary_resource: "Harvard CS50x 2026"
 milestone: "Valgrind-clean 300-line C program, Hash Table & BST from scratch"
@@ -21,7 +21,7 @@ aliases: ["Programming On-Ramp"]
 
 > [!INFO] Block Overview
 > - **Term / Position:** Phase 0
-> - **Estimated Hours:** 100–150 hrs
+> - **Estimated Hours:** ~145 hrs
 > - **Status:** `not-started`
 > - **Primary Course:** Harvard CS50x (`cs50.harvard.edu/x`) & John Guttag, *Introduction to Computation and Programming Using Python* (MIT 6.100A/B)
 
@@ -74,6 +74,33 @@ Implement a 300-line modular data structure library in `c` (hash table with sepa
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > The cold exit test passes cleanly under `valgrind`.
+
+---
+
+## 🎮 NeetCode Pro Sprint, Daily Code Streak and Fun Builds (DR-006, 2026-10-09)
+> [!IMPORTANT] Your NeetCode Pro access ends **Feb 6, 2027**
+> Use it now, in Phase −1/0. +20 h on this block (offset by trimming P2 and Block 17).
+
+**Before Feb 6, 2027 (≈17 weeks; about 20 min a day, plus one longer session a week):**
+1. *Python for Beginners* (NeetCode Pro, interactive). Do it before CS50x Week 6 so Python feels familiar.
+2. *Python for Coding Interviews* (NeetCode Pro).
+3. *Algorithms & Data Structures for Beginners* (NeetCode Pro, ≈25 h): lessons Arrays → Linked Lists → Recursion → Sorting → Binary Search → Trees → Hashing at least. This previews Block 13.
+4. **NeetCode 150** (neetcode.io/roadmap), easy problems in Arrays & Hashing, Two Pointers, Stack, Binary Search, Linked List, as your **🎮 Daily Code Streak**: one problem a day, logged in [[log]].
+- Download nothing you're not allowed to. Keep your own notes and solutions in your repo so they outlive the subscription.
+
+**After Feb 6, 2027 (free fallback):** the neetcode.io roadmap and practice lists, NeetCode's free YouTube solutions (youtube.com/@NeetCode), and LeetCode's free problem set. Keep the streak going with Exercism (exercism.org, free, mentored), Codewars (codewars.com) or Project Euler.
+
+**Advent of Code (Dec 1–25, 2026)** (adventofcode.com, free): do the puzzles in Python as the streak during December.
+
+**Coursera Plus alternatives** (included as of 2026-10-09): *Programming for Everybody (Getting Started with Python)* and *Python Data Structures* (University of Michigan). Use them as the failover if CS50x Week 1 (C) is a wall: do them first, then return to CS50x.
+
+**Fun build:** make your **CS50x final project a small game**. Options:
+- **LÖVE** (love2d.org, free, Lua)
+- **Godot** (godotengine.org, free)
+- **p5.js** with The Coding Train videos (p5js.org, thecodingtrain.com, free)
+- **PICO-8** 💲 $14.99 (lexaloffle.com)
+
+Optional after P4: CS50's *Introduction to Game Development* (cs50.harvard.edu/games, free) or *Introduction to Game Design* (Coursera Plus).
 
 ---
 

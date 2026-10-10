@@ -94,6 +94,13 @@ Here, you start from absolute zero—not as a child memorizing flashcards, but a
 
 ---
 
+## 🎮 Fun Build & Extras (DR-006, 2026-10-09)
+- **Fun build:** a base-converter and fraction visualizer in **Scratch** (free), replacing one Khan Academy practice set per pillar (unit tests stay).
+- **Play:** *nandgame.com* (free) or **Turing Complete** 💲 $19.99 on Steam: build binary arithmetic from NAND gates (Pillar 1: why base 2?). **3Blue1Brown** (3blue1brown.com, free) for intuition.
+- **Optional read:** Petzold, *Code: The Hidden Language* (already on the Year 2 list; read it now if you like).
+
+---
+
 ## 🔎 Verified Resources (DR-004, checked 2026-10-09)
 **Verdict:** KEEP. Fills real gaps cheaply.
 - Khan Academy Pre-Algebra → Algebra I is free and has auto-checked exercises. 💲 Lockhart *Arithmetic* is owned; no purchase needed.

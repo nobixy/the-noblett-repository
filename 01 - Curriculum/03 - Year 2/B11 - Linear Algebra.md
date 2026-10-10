@@ -60,6 +60,11 @@ Build from scratch in `python` using `numpy`: LU factorization with partial pivo
 
 ---
 
+## 🎓 Companion Courses (DR-006, 2026-10-09)
+- **Coursera Plus:** *Mathematics for Machine Learning: Linear Algebra* (Imperial) as a companion to 18.06; it replaces some drill, so no extra hours.
+
+---
+
 ## 🔎 Verified Resources (DR-004, checked 2026-10-09)
 **Verdict:** KEEP.
 - **MIT 18.06SC** (OCW Scholar, exams with solutions): ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/; Axler *LADR* 4e is free: linear.axler.net; 3Blue1Brown *Essence of Linear Algebra*: 3blue1brown.com/topics/linear-algebra.

@@ -73,6 +73,11 @@ Complete all twelve Nand2Tetris projects using the Hardware Simulator, `python` 
 
 ---
 
+## 🎓 Companion Courses (DR-006, 2026-10-09)
+- **Coursera Plus:** *Build a Modern Computer from First Principles: From Nand to Tetris* Parts I and II (Hebrew University) are included; the Coursera versions grade each project. Same course, same hours. Optional fun follow-up later: **TIS-100** 💲 $6.99 (Steam), an assembly puzzle game.
+
+---
+
 ## 🔎 Verified Resources (DR-004, checked 2026-10-09)
 **Verdict:** KEEP. Still the best bottom-up build; its test scripts are the autograder.
 - nand2tetris.org (free software suite + test scripts); Coursera *Build a Modern Computer from First Principles* Part I (free to audit): coursera.org/learn/build-a-computer.

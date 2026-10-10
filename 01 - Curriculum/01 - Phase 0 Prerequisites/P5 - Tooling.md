@@ -73,6 +73,12 @@ Tools shape thought. Trying to learn operating systems or algorithms while fumbl
 
 ---
 
+## 🎮 Fun Build & Extras (DR-006, 2026-10-09)
+- **Fun build:** **OverTheWire Bandit** (overthewire.org/wargames/bandit/, free), a shell wargame. Clear levels 0–20 in place of the Missing Semester shell and scripting exercises (lectures stay).
+- **Maker teaser:** blink an LED on a **Raspberry Pi Pico** ($5) with MicroPython from your Linux shell, or simulate it in Wokwi (free); a micro:bit (microbit.org) works too.
+
+---
+
 ## 🔎 Verified Resources (DR-004, checked 2026-10-09)
 **Verdict:** UPGRADE. Missing Semester was rewritten for 2026.
 - **Missing Semester 2026** (free, new edition): missing.csail.mit.edu/2026/ — shell, command-line environment, dev environment, debugging and profiling, Git, packaging and shipping code, agentic coding, code quality. Older topics (data wrangling, security) remain on missing.csail.mit.edu.

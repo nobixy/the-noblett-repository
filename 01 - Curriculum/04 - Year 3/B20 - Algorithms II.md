@@ -67,6 +67,11 @@ Implement Edmonds-Karp network flow, Dinic's blocking flow algorithm, a Primal-D
 
 ---
 
+## 🎓 Companion Courses (DR-006, 2026-10-09)
+- **NeetCode:** the free NeetCode 150/250 lists (neetcode.io/practice) for graph, DP and greedy practice next to 6.046. *Advanced Algorithms* is a NeetCode Pro course; your Pro access ends Feb 6, 2027, long before this block, so treat it as optional and only if you renew.
+
+---
+
 ## 🔎 Verified Resources (DR-004, checked 2026-10-09)
 **Verdict:** KEEP.
 - **MIT 6.046J** (OCW, Spring 2015): ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/; CMU 15-451 (Fall 2025): cs.cmu.edu/~15451-f25/; autograded practice: CSES, Kattis (open.kattis.com), Codeforces.

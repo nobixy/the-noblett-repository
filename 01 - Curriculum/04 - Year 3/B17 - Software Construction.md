@@ -9,7 +9,7 @@ prerequisites:
   - "B01 - CS61A"
   - "B06 - C Fluency"
   - "B12 - Interpreters"
-hours_estimate: 150
+hours_estimate: 120
 hours_actual: 0
 primary_resource: "MIT 6.102 readings & MIT 6.005 OCW (Spring 2016) & Ousterhout, A Philosophy of Software Design"
 milestone: "Rebuilt interpreter under spec, rep invariants, AF, and test strategy"
@@ -26,7 +26,7 @@ aliases: ["Software Construction"]
 
 > [!INFO] Block Overview
 > - **Term / Position:** Year 3 Fall
-> - **Estimated Hours:** ~150 hrs
+> - **Estimated Hours:** ~120 hrs
 > - **Status:** `not-started`
 > - **Primary Resource:** MIT 6.102 readings & MIT 6.005 OCW (Spring 2016) & Ousterhout, A Philosophy of Software Design
 > - **Key Milestone:** Rebuilt interpreter under spec, rep invariants, AF, and test strategy
@@ -100,7 +100,7 @@ The most under-appreciated course in the MIT degree. How to write complex code t
 ---
 
 ## 🛠️ Build Requirement
-> [!NOTE] DR-004: item 1 and item 5 are the required build. Items 2–4 (developer UI, heuristic evaluation, accessibility audit) are optional stretch work; that material belongs to Track 10.
+> [!NOTE] DR-004: item 1 and item 5 are the required build. Items 2–4 (developer UI, heuristic evaluation, accessibility audit) are optional stretch work; that material belongs to Track 10. Since DR-006 the hour estimate (150 → 120 h) no longer counts them.
 
 1. **Core Architecture & Optimizing Compiler IR:** Take your `clox` or Monkey interpreter from Block 12 and rebuild it in `c` using `clang` and `make`. Implement an optimizing compiler intermediate representation featuring Static Single Assignment (SSA) form with dominance frontier calculation, dead code elimination, and graph coloring register allocation. Formulate explicit representation invariants (`checkRep`), abstraction functions, and verify 100% unit test coverage and complete absence of memory leaks under `valgrind`.
 2. **Interactive Developer Interface (CLI/TUI/Web GUI):** Construct an interactive debugging interface or visual AST/CFG inspector for your compiler/interpreter that exposes variable live ranges, register allocation graphs, and SSA dominance trees.

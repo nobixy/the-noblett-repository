@@ -80,7 +80,7 @@ A software-defined-radio receiver for a real over-the-air digital signal, writte
 ---
 
 ## 🛩️ Capstone Link (DR-005, 2026-10-09)
-**Capstone link:** the physical layer under the swarm's mesh (modulation, coding, interference, SDR). Pick it as Specialization B instead of Track 7 if radio links interest you more than on-board ML; [[B19a - Wireless, Mesh and Network Science|Block 19a]] gives the receive-only SDR basics either way.
+**Capstone link:** the physical layer under the swarm's mesh (modulation, coding, interference, SDR). Pick it as Specialization B instead of Track 7 if radio links interest you more than on-board ML; [[B19a - Wireless, Mesh and Network Science|Block 19a]] gives the receive-only SDR basics either way. Since DR-006 it also owns the theory behind the capstone's EW-resilience design: spread spectrum, frequency hopping, coding gain and interference (simulation only; never transmit jamming).
 
 ---
 

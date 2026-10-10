@@ -73,6 +73,11 @@ Simulate in Wokwi first (it runs ESP32 and Pico code), then build:
 
 ---
 
+## 🎓 Companion Courses (DR-006, 2026-10-09)
+- **Coursera Plus:** *Introduction to Embedded Systems Software and Development Environments* (University of Colorado Boulder) for the toolchain, cross-compiling and build systems part of this lab.
+
+---
+
 ## 🔎 Verified Resources (DR-005, checked 2026-10-09)
 - Raspberry Pi microcontroller docs and Pico C/C++ SDK (free): raspberrypi.com/documentation/microcontrollers/.
 - ESP-IDF Programming Guide (free): docs.espressif.com/projects/esp-idf/en/stable/esp32/ (ESP-NOW: …/api-reference/network/esp_now.html).

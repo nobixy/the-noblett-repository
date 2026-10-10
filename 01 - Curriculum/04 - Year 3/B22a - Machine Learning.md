@@ -72,6 +72,11 @@ Implement from scratch in `python` + `numpy` (no frameworks): linear and ridge r
 
 ---
 
+## 🎓 Companion Courses (DR-006, 2026-10-09)
+- **Coursera Plus:** *Mathematics for Machine Learning: PCA* (Imperial) as a companion to the dimensionality-reduction part. Note: DeepLearning.AI's Machine Learning Specialization is **not** in Coursera Plus (checked 2026-10-09).
+
+---
+
 ## 🔎 Verified Resources (DR-004, checked 2026-10-09)
 - **MIT 6.390 lecture notes** (free, current): introml.mit.edu/notes — the course runs Fall 2026 at introml.mit.edu/fall26 (MIT-only submission).
 - **MITx 6.036 on the Open Learning Library** (free, autograded exercises and labs, no enrollment needed): openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/about. OCW mirror with lecture videos: ocw.mit.edu/courses/6-036-introduction-to-machine-learning-fall-2020/.

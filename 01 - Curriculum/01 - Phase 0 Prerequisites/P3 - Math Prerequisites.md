@@ -75,6 +75,11 @@ Write rigorous, complete formal solutions to all Velleman Chapters 1–3 exercis
 
 ---
 
+## 🎮 Fun Build & Extras (DR-006, 2026-10-09)
+- **Fun build:** **Desmos art** (desmos.com/calculator, free): draw a picture using only the functions you are refreshing (lines, parabolas, trig, restricted domains); it replaces one Khan precalculus practice set. Optional preview: 3Blue1Brown *Essence of Linear Algebra*.
+
+---
+
 ## 🔎 Verified Resources (DR-004, checked 2026-10-09)
 **Verdict:** KEEP. Proof fluency before CS61A and 6.1200.
 - 💲 Velleman *How to Prove It*; free alternatives: *Infinite Descent* (infinitedescent.xyz) or Hammack *Book of Proof* (free PDF).

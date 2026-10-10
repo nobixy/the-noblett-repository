@@ -66,6 +66,11 @@ Implement every major data structure and algorithm from scratch in `c` and `pyth
 
 ---
 
+## 🎓 Companion Courses (DR-006, 2026-10-09)
+- **NeetCode:** if you did the NeetCode Pro sprint in P4 (Pro ends Feb 6, 2027), your notes from *Algorithms & Data Structures for Beginners* are your review sheet here. Keep the NeetCode 150 (free roadmap at neetcode.io/roadmap; free videos at youtube.com/@NeetCode; LeetCode free tier) as practice next to 6.006 and Codeforces.
+
+---
+
 ## 🔎 Verified Resources (DR-004, checked 2026-10-09)
 **Verdict:** UPGRADE. Added an autograded problem set.
 - **MIT 6.006** (OCW, Spring 2020): ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/.

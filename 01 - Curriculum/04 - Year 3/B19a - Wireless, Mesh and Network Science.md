@@ -10,7 +10,7 @@ prerequisites:
   - "B11 - Linear Algebra"
   - "B15 - Probability"
   - "B13 - Algorithms I"
-hours_estimate: 120
+hours_estimate: 130
 hours_actual: 0
 primary_resource: "Bullo, Lectures on Network Systems + Barabási, Network Science + Kurose & Ross ch. 7 + batman-adv / 802.11s docs (all free)"
 milestone: "3–5 node mesh runs distributed average consensus; measured convergence matches the algebraic-connectivity prediction within 2x; mesh heals after a node drops"
@@ -25,7 +25,7 @@ tier: "Tier 1 - Core"
 
 > [!INFO] Block Overview
 > - **Term / Position:** Year 3 Spring (after Networking)
-> - **Estimated Hours:** ~120 hrs
+> - **Estimated Hours:** ~130 hrs
 > - **Status:** `not-started`
 > - **Primary Resource:** Bullo, Lectures on Network Systems + Barabási, Network Science + Kurose & Ross ch. 7 + batman-adv / 802.11s docs (all free)
 > - **Key Milestone:** 3–5 node mesh runs distributed average consensus; measured convergence matches the algebraic-connectivity prediction within 2x; mesh heals after a node drops
@@ -57,6 +57,7 @@ A swarm is a network first and a set of drones second. CS144 taught the wired in
 - [ ] Wireless and mobile networks: 802.11 MAC, CSMA/CA, hidden terminals, path loss and fading, link budgets (Kurose & Ross ch. 7).
 - [ ] Ad-hoc and mesh networking: MANET routing (AODV, OLSR), B.A.T.M.A.N. advanced (layer 2), IEEE 802.11s in Linux, ESP-NOW, LoRa mesh (Meshtastic), delay-tolerant ideas.
 - [ ] Radio basics, receive-only: an RTL-SDR and PySDR ch. 1–6 to see real signals (sets up Track 11).
+- [ ] **Resilient links (DR-006):** link-loss behaviors, delay-tolerant networking (RFC 4838, RFC 9171), frequency hopping and spread spectrum (DSSS/FHSS) and processing gain, LPI/LPD ideas, multi-bearer fallback (Wi-Fi mesh → LoRa → optical). Emulate jamming as loss and SNR drops in simulation only. Primer: *Wireless Communications for Everybody* (Yonsei, Coursera Plus).
 - [ ] Optional: graph neural networks (Stanford CS224W) for learned swarm policies.
 
 ---

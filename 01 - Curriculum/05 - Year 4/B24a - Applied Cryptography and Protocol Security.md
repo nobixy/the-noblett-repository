@@ -74,6 +74,11 @@ The capstone swarm's radio links are its attack surface: anyone can listen, repl
 
 ---
 
+## 🎓 Companion Courses (DR-006, 2026-10-09)
+- **Coursera Plus:** *Cryptography I* (Stanford, Boneh) is included, so you get the graded programming assignments and certificate with your subscription.
+
+---
+
 ## 🔎 Verified Resources (DR-005, checked 2026-10-09)
 - Dan Boneh, Cryptography I (Coursera; audit free, certificate 💲): coursera.org/learn/crypto.
 - Boneh & Shoup, *A Graduate Course in Applied Cryptography* (free): toc.cryptobook.us.
