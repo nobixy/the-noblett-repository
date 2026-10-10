@@ -33,11 +33,11 @@ This repository is written in plain English on purpose. Short sentences. Common 
 The curriculum has five phases. English and math run as **daily tracks** underneath everything; the build modules run on top.
 
 ```
-Phase A  Foundations + first taste       ── 00 English E1–E5 · 00 Math M1–M5 · 01 Intro CS Taste
+Phase A  Foundations + first taste       ── 00 English E01–E05 · 00 Math M01–M05 · 01 Intro CS Taste
 Phase B  Learn to program and to reason   ── 02 Programming · 03 Discrete Math · 04 Circuits & Logic
-                                              (English E6–E8 · Math M6–M8 continue daily)
+                                              (English E06–E08 · Math M06–M09 continue daily)
 Phase C  Machines and algorithms          ── 05 Data Structures & Algorithms · 06 Architecture · 07 Systems Programming
-                                              (English E9–E10 · Math M9 · then 12 Math for Engineering)
+                                              (English E09–E10 · Math M10–M11 · then 12 Math for Engineering)
 Phase D  The big systems                  ── 08 Operating Systems · 09 Networking · 10 Browser Engine · 11 Databases
 Phase E  Capstone                         ── 13 Capstone: connect your systems into one working stack
 ```
@@ -65,8 +65,8 @@ At 20 hours a week, with life happening, this is about three years. That is fine
 
 ### When to start what
 
-- **Week 1:** English E1 and Math M1 start. Set up your machine ([Lab 00](01-intro-cs-taste/labs/lab-00-machine-setup.md)).
-- **Week 3 (after E1 and M1):** Start [01 Intro CS Taste](01-intro-cs-taste/overview.md). Its first lab teaches you just enough Python to begin. Its projects use only whole numbers and short sentences.
+- **Week 1:** English E01 and Math M01 start. Set up your machine ([Lab 00](01-intro-cs-taste/labs/lab-00-machine-setup.md)).
+- **Week 3 (after E01 and M01):** Start [01 Intro CS Taste](01-intro-cs-taste/overview.md). Its first lab teaches you just enough Python to begin. Its projects use only whole numbers and short sentences.
 - **From then on:** One build module at a time. English and math continue daily, at their own pace. Each module's overview lists the English and math stages it needs. If you are not there yet, the overview tells you what to do.
 
 ---
@@ -173,8 +173,8 @@ study-protocols.md           the methods as exact routines (R F W S I C D T)
 log.md                       daily log dashboard
 
 00-foundations/
-  english/                   E1–E10: spelling → sentences → paragraphs → technical writing
-  math/                      M1–M9: place value → fractions → algebra → geometry → functions
+  english/                   E01–E10: spelling → sentences → paragraphs → technical writing
+  math/                      M01–M11: place value → fractions → algebra → geometry → logarithms
 01-intro-cs-taste/           four small real systems, plus setup and Python labs
 02-programming-fundamentals/
 03-discrete-math/
