@@ -45,13 +45,13 @@ Phase E  Capstone                         ── 13 Capstone: connect your syste
 | # | Module | What you build (headline) | Hours | Phase |
 | :-- | :-- | :-- | --: | :-- |
 | 00 | [Foundations: English](00-foundations/english/overview.md) | Spelling engine, machine manuals, bug reports, your first design doc | ~220 | A–C (daily) |
-| 00 | [Foundations: Math](00-foundations/math/overview.md) | Base-counting abacus, prime factory, fare models, scale floor plans, growth curves | ~300 | A–C (daily) |
+| 00 | [Foundations: Math](00-foundations/math/overview.md) | Base-counting board, prime factory, fare models, scale floor plans, growth curves | ~315 | A–C (daily) |
 | 01 | [Intro CS Taste](01-intro-cs-taste/overview.md) | A tiny computer emulator, a talking pair of programs, a toy shell, a terminal page viewer | ~90 | A |
 | 02 | [Programming Fundamentals](02-programming-fundamentals/overview.md) | Your own spaced-repetition app, a sound synthesizer, a data-driven adventure engine | ~160 | B |
 | 03 | [Discrete Math](03-discrete-math/overview.md) | A logic solver, a toy cipher and its break, a counting verifier, a proof journal | ~130 | B |
 | 04 | [Circuits & Digital Logic](04-circuits-and-digital-logic/overview.md) | Breadboard circuits, your own logic simulator, chip-built adders and counters | ~150 | B |
 | 05 | [Data Structures & Algorithms](05-data-structures-and-algorithms/overview.md) | A word-diff tool, a search engine for your notes, a route planner, an editor buffer | ~190 | C |
-| 06 | [Computer Architecture](06-computer-architecture/overview.md) | A 16-bit CPU you design: ISA, emulator, assembler, and gate-level datapath | ~190 | C |
+| 06 | [Computer Architecture](06-computer-architecture/overview.md) | A 16-bit CPU you design (ISA, emulator, assembler, gate-level datapath), a compiler for your own language, a cache simulator | ~240 | C |
 | 07 | [Systems Programming](07-systems-programming/overview.md) | A memory allocator, a shell, a checksummed archive format (all in C) | ~190 | C |
 | 08 | [Operating Systems](08-operating-systems/overview.md) | A scheduler arena, a tag-based FUSE file system, a small RISC-V kernel | ~230 | D |
 | 09 | [Networking](09-networking/overview.md) | A packet decoder, a reliable transport over UDP, an HTTP server | ~200 | D |
@@ -59,7 +59,7 @@ Phase E  Capstone                         ── 13 Capstone: connect your syste
 | 11 | [Databases](11-databases/overview.md) | A crash-safe storage engine with B+tree index and a small query language | ~170 | D |
 | 12 | [Math for Engineering](12-math-for-engineering/overview.md) | Calculus, linear algebra and probability through simulations and image tools | ~200 | C–D (daily) |
 | 13 | [Capstone](13-capstone/overview.md) | Your browser, over your transport, from your server, on your stack | ~250 | E |
-| | **Total** | | **~2,830** | |
+| | **Total** | | **~2,900** | |
 
 At 20 hours a week, with life happening, this is about three years. That is fine. It is not a race. The [archived v1 plan](<99 - Archive/v1 - Course-Based Curriculum/>) has advanced tracks (machine learning, robotics, security, the drone-swarm capstone) to take on **after** this core, when you choose.
 

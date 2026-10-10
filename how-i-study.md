@@ -1,5 +1,5 @@
 # How I Will Study: The Deep Learner's Manifesto
-*Last revised: 2026-10-10 (Next scheduled revision: 2027-03-25)* · Home: [[00 - Start Here|Start Here]]
+*Last revised: 2026-10-10 (Next scheduled revision: 2027-03-25)* · Home: [[00 - Start Here|Start Here]] · Exact routines: [study-protocols](study-protocols.md)
 
 > [!QUOTE]
 > "Don't let note-taking become the hobby. Notes exist to support retrieval, synthesis, and building."
@@ -7,6 +7,8 @@
 ---
 
 ## 1. Core Cognitive Learning Principles
+*Every one of these is turned into a short, exact routine with a letter code (R, F, W, S, I, C, D, T) in [study-protocols](study-protocols.md). Every stage, lab, and project in the curriculum uses those codes ([DR-010](<04 - System/DR-010 - Project-First Original Curriculum.md>)).*
+
 *Deep dive + a project for every method below and more (spacing, interleaving, dual coding, self-explanation, chunking, deep work, Zettelkasten, three-pass reading, Pólya, mindset): [[LM00 - Learning Methods Hub|Learning Methods Hub]] ([[DR-009 - Learning Method Deep Dives|DR-009]]). There is no such thing as a personal "learning style": [[Learning Styles Myth]].*
 
 ### A. Retrieval Practice (Testing Effect)
@@ -55,42 +57,42 @@
 | **Sunday (2 hrs)** | Review & planning | Problem set wrap-up, weekly review in [[log]], writing, planning next week's schedule. |
 
 ### 2a. Reading Ramp
-*[[DR-008 - Project-First Start and Projects Ladder|DR-008]]: I learn best by building, so the build comes first and reading grows as the habit does.*
+*[[DR-008 - Project-First Start and Projects Ladder|DR-008]], kept by [DR-010](<04 - System/DR-010 - Project-First Original Curriculum.md>): I learn best by building, so the build comes first and reading grows as the habit does.*
 
 | When | Reading per day | What |
 | :--- | :--- | :--- |
-| Weeks 1–4 | 0–15 min, optional | Builds only. If you feel like it: Lockhart, *Arithmetic*, ch. 1–2. |
-| Weeks 5–8 | 15–20 min | Lockhart (about a chapter a week); Williams *Style*, lessons 1–2. |
-| Weeks 9–12 | 20–30 min | Add the *Learning How to Learn* videos (Coursera Plus) and Oakley, *A Mind for Numbers*. |
-| Phase 0 (P1–P5) | up to 45 min | Each block's reading, always tied to that block's build. |
-| Year 1 onward | what the block assigns | Build first: read what the current build needs, when it needs it. |
+| Weeks 1–4 | 0–15 min, optional | Stage lessons and builds only. If I feel like it: Lockhart, *Arithmetic*, alongside M01–M02. |
+| Weeks 5–12 | 15–20 min | Lockhart with M03–M05; copywork passages count as reading. |
+| From E08 | 20–30 min | Williams, *Style*, as a companion to E08–E10. |
+| Modules 02+ | what the build needs | Each module's `resources.md` lists second explanations. Read the chapter a milestone needs, when it needs it. |
 
-*Rule: if reading feels like a wall two days running, drop back one row for a week. The builds keep going either way. Reading volume goes up only as the habit holds.*
+*Rule: if reading feels like a wall two days running, drop back one row for a week. The builds keep going either way.*
 
-### 2b. Weekly Mini-Build
-Every week ends with one small build (≤2 h, usually the Saturday block) tied to what I studied that week, logged in [[log]]. Weeks 1–12 use the [[Projects Ladder#🪜 Starter Sprint (Weeks 1–12)|Starter Sprint]]; after that, pick from the ideas for the current year in the [[Projects Ladder]].
+### 2b. Saturday Build Block
+Every Saturday is the build block: the next milestone of the current project ([Start Here](<00 - Start Here.md>) shows which). Each milestone ends with a Milestone Checkpoint (R + F + W, 30 minutes). Log it in [[log]].
 
 ---
 
 ## 3. How to Grade Myself Without a TA
 
-1. **Autograders & Test Suites:** `make grade` in MIT 6.1810, Gradescope for CMU 15-445, full test suites in CS144, BusTub, clox, Monkey, and MIT 6.5840. Tests must pass cleanly.
-2. **Timed, Closed-Book Past Exams:** Sit MIT OCW, Berkeley HKN, and CMU exams under strict real conditions without notes. Passing threshold is objective signal.
-3. **Formal Write-ups:** If the solution or proof write-up is vague, the understanding is vague.
-4. **Strangers' Code Review:** Open PRs and contribute to open source.
-5. **The Feynman Technique / Teaching:** Write clear technical blog posts explaining the hardest concept in each block.
+1. **My own test suites:** every project spec says what to test. Tests must pass cleanly — including the hard kinds: random differential tests against a second implementation, crash tests, and fuzzing.
+2. **"Done when" lists and rubrics:** every stage and project has one. I score myself honestly, and I don't tick a box early.
+3. **Timed, closed-book problem sets:** at each module close (MIT OCW and similar past exams for the math modules). The score is objective signal.
+4. **Formal write-ups:** design docs, lab reports, specifications. If the write-up is vague, the understanding is vague.
+5. **Other people:** usability tests of my instructions, reviews of my design docs, strangers' code review, playtesters.
+6. **The Feynman technique / teaching:** recorded explanations, weekly, and an explainer for the hardest idea in each project.
 
 ---
 
 ## 4. Time, Honestly
-- MIT counts one "unit" as roughly 1 hr/wk for a 14-week term; a 12-unit subject is ~170 hours.
-- The Program (Phase −1 → Capstone, core + two tracks + habits) is roughly **7,800–8,300 hours** (see [[DR-006 - Digital Twin, EW Resilience and Fun Prerequisites|DR-006]]); unchosen tracks are Lifelong Continuation and not counted.
-- Below 15 hrs/wk, cut scope (Physics → Statistics → second track) rather than extending the Program beyond ~8 years.
+- The core curriculum (foundations through capstone) is about **2,900 hours**: roughly three years at 20 hours a week, with life happening. See the module table in the [README](README.md#the-sequence).
+- The advanced tracks from the v1 plan (in `99 - Archive/`) come after the core, if I choose them — by Decision Record.
+- Below 15 hours a week, slow down rather than skip foundations; the daily minimum (flashcards + one copywork sentence) keeps the habit alive.
 
 ---
 
 ## 5. Community — Do Not Skip
-- **Recurse Center (`recurse.com`):** Free, self-directed 6- or 12-week retreat (remote or NYC). Highest-value single thing available to a self-taught programmer. Apply after Block 12.
+- **Recurse Center (`recurse.com`):** Free, self-directed 6- or 12-week retreat (remote or NYC). Highest-value single thing available to a self-taught programmer. Apply after Module 05.
 - **Study Partner:** One person on the same path, weekly video call, screen-share psets. Roughly doubles completion rates.
 - **Communities:** Papers We Love, OSSU Discord, language Discords (Rust, Zig, Haskell), auditing local university lectures.
 
@@ -99,20 +101,21 @@ Every week ends with one small build (≤2 h, usually the Saturday block) tied t
 ## 6. Notes System Taxonomy
 ```text
 /  (vault root)
-  00 - Start Here.md           # the one hub: dashboard, The Path, rules
-  how-i-study.md               # written in P1, revised every 6 months
+  README.md                    # how the curriculum works
+  00 - Start Here.md           # dashboard and checklist
+  how-i-study.md               # this manifesto, revised every 6 months
+  study-protocols.md           # the methods as exact routines (R F W S I C D T)
   log.md                       # daily log dashboard (entries in 03 - Journal)
-  README.md
-  01 - Curriculum/             # every block, track and milestone note (flat; study order is The Path)
-  02 - Atlas/                  # topic indexes, hubs (projects, papers, writing, breadth), Projects Ladder, learning methods, appendices, book shelf, source PDF
+  00-foundations/              # english/ (E01–E10) and math/ (M01–M11), each with projects/
+  01-intro-cs-taste/ … 13-capstone/   # one folder per module: overview.md, labs/, projects/<name>/spec.md, resources.md
+  02 - Atlas/                  # learning-method deep dives (LM01–LM16), topic indexes, hubs, book shelf
   03 - Journal/                # daily log entries (YYYY-MM-DD)
   04 - System/                 # templates + decision records (DR-001 …)
-  99 - Archive/                # cut blocks
+  99 - Archive/                # the v1 course-based plan and cut material
+~/workbench/                   # (outside the vault) my code, design docs, lab reports, recordings — one folder per project
 ```
 
-Standard note structures are standardized using templates:
-- Course syllabus and progress notes use the [[Block Note Template|Block Note Template]].
-- Topic notes in `02 - Atlas/` (linked from the five topic indexes) use the [[Zettelkasten Atomic Note Template|Zettelkasten Atomic Note Template]].
+Templates in `04 - System/`: Milestone Checkpoint, Design Doc, Lab Report, Demo Script, Blank-Sheet Retrieval, Feynman Note, Franklin Copywork, Weekly Review, Daily Log.
 
 ---
 
@@ -157,3 +160,4 @@ Standard note structures are standardized using templates:
 | 2026-10-10 | Phase -1 (Bedrock Foundation) | [[DR-007 - Repo Cleanup\|DR-007]]: Repo cleanup — 61 AI-generated or one-off archive files removed (recoverable from git), Mindset Hub merged into §7A, 11 → 8 top-level folders, decisions given their own folder. Hours unchanged (6,005). |
 | 2026-10-10 | Phase -1 (Bedrock Foundation) | [[DR-008 - Project-First Start and Projects Ladder\|DR-008]]: Build first — Week 1 checklist, 12-week Starter Sprint of fun builds, books become companions on a stated Reading Ramp (§2a), weekly mini-build (§2b), every block has a build, [[Projects Ladder]]. Hours unchanged (6,005). |
 | 2026-10-10 | Phase -1 (Bedrock Foundation) | [[DR-009 - Learning Method Deep Dives\|DR-009]]: 16 learning-method deep dives with honest evidence ratings and a 2–5 h project each, plus a learning-styles myth note; [[LM00 - Learning Methods Hub\|hub]] with suggested order; slotted into the Starter Sprint and Phase 0 as swaps. Hours unchanged (6,005). |
+| 2026-10-10 | Phase A (Foundations) | [DR-010](<04 - System/DR-010 - Project-First Original Curriculum.md>): Curriculum rebuilt project-first with original projects: English E01–E10 and Math M01–M11 from absolute basics, an Intro CS Taste module, Modules 02–13 with original specs; methods made into exact routines ([study-protocols](study-protocols.md)); v1 course-based plan archived. Core ≈ 2,900 h. |

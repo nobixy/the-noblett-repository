@@ -24,7 +24,7 @@ recalled_percentage_estimate: 0
 ---
 
 ## 2. Missed Concepts & Forgotten Details (Verified Against Book)
-*(Annotate what was forgotten or misremembered)*
+*(Annotate what was forgotten or misremembered. Write each as `- question :: answer` so Study Deck's `import-misses` can turn it into a card.)*
 - 
 
 ---

@@ -17,7 +17,7 @@ module: "01-intro-cs-taste"
 - **Ben Eater's 8-bit breadboard computer** videos (YouTube, free) — someone building a computer from chips, step by step. Watch for inspiration; Module 04 is where you'll do similar things.
 
 ## Networking (Relay)
-- **Julia Evans, "Networking! ACK!"** zine (wizardzines.com, paid) and her free blog posts on networking (jvns.ca).
+- **Julia Evans, "Networking! ACK!"** zine (wizardzines.com, paid) and the free networking posts on jvns.ca.
 - **Beej's Guide to Network Programming** (beej.us/guide/bgnet, free) — written for C, but its explanations of sockets, TCP, and UDP apply directly.
 
 ## Shells and processes (Burrow Jr.)

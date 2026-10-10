@@ -15,7 +15,7 @@ module: "04-circuits-and-digital-logic"
 ## Digital logic (Lab 03, Gatesmith)
 - **Charles Petzold, *Code*** (2nd ed.) — the relay-and-switch story of gates, adders, and memory. Read the logic chapters alongside Lab 03.
 - **Harris & Harris, *Digital Design and Computer Architecture*** (book; RISC-V edition) — chapters 1–3 for combinational and sequential logic; chapter 5 for adders including carry-lookahead. Also used in Module 06.
-- **Ben Eater's videos** (YouTube) — building a computer on breadboards from 74-series chips; his clock module and adder videos match Labs 02–03 closely.
+- **Ben Eater's videos** (YouTube) — building a computer on breadboards from 74-series chips; the clock-module and adder videos match Labs 02–03 closely.
 - **Datasheets** — Texas Instruments and Nexperia publish free datasheets for the NE555 and every 74HC chip. Read the first page, the pinout, and the function table.
 - **GTKWave** (gtkwave.sourceforge.net) and the **VCD format** description in the IEEE 1364 (Verilog) standard summaries found online.
 

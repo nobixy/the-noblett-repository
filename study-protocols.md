@@ -130,7 +130,7 @@ You do not need to track this by hand. Put cards in a flashcard tool (Anki, or t
 
 **Goal:** learn good sentences by rebuilding them from memory.
 
-Benjamin Franklin taught himself to write this way. It works because you compare your own sentences to a skilled writer's, word by word.
+This is how Benjamin Franklin learned to write. It works because you compare your own sentences to a skilled writer's, word by word.
 
 1. **Pick** a short passage (3–8 sentences) from the current copywork level (see [English overview](00-foundations/english/overview.md#copywork-ladder)).
 2. **Copy** it by hand once, slowly. Notice each spelling and each comma.

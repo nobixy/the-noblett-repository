@@ -143,7 +143,7 @@ One or two per entry. Run them; don't just read about them. Use `man <command>` 
 | **W** | Every "Question" line; the three-level why on your most surprising observation |
 | **F** | The guide is a long-form Feynman explanation for a curious beginner |
 | **D** | The two-day cooling-off between drafts |
-| **C** | Copywork during this project: Julia Evans' writing on Linux tools (jvns.ca) — she writes exactly this kind of "here's what I observed and what it means" explanation |
+| **C** | Copywork during this project: Julia Evans' writing on Linux tools (jvns.ca), which is exactly this kind of "here's what I observed and what it means" explanation |
 | **T** | The reader in Milestone 3 |
 
 ## Stretch goals

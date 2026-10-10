@@ -1,36 +1,37 @@
 ---
 week_ending: "{{date}}"
 hours_studied: 0
-blocks_worked_on: []
-five_hundred_words_streak: 0
-anki_days_completed: 0
+english_stage: ""
+math_stage: ""
+build: ""
+flashcard_days: 0
+copywork_sessions: 0
 ---
 
-# Weekly Review — Week of {{week_ending}}
+# Weekly Review — Week ending {{date}}
 
-> [!NOTE] Weekly Objective Check
-> - **Total Hours Logged:** {{hours_studied}} / target hrs
-> - **500 Words Streak:** {{five_hundred_words_streak}} days
-> - **Anki Consistency:** {{anki_days_completed}} / 7 days
+*Sunday, 30–60 minutes. See [study-protocols](<../study-protocols.md#the-session-loop>). Update the "Where am I?" box in [Start Here](<../00 - Start Here.md>) when you finish.*
 
----
+## 1. Numbers
+- Hours studied: __ · Journal days: __ / 7
+- Flashcard days: __ / 7 · Copywork sessions: __ (current level: __, differences this week: __)
+- English stage: __ · Math stage: __ · Build: __ (milestone __)
 
-## 📈 What Worked Well
-- 
+## 2. [R] Cold re-do (15 min, nothing open)
+- One old math problem from the error log: ✓ / ✗
+- One old English practice item (or spelling dictation of 10 log words): __ / 10
+- One blank-sheet sketch of this week's build:
 
----
+## 3. [F] Weekly recording
+- Topic: __ · Length: __ · Filler words: __ · One thing to improve:
 
-## 🛑 Friction & What Didn't Work
-- 
+## 4. What worked / what didn't
+- Worked:
+- Friction (and any stuck notes [D] still open):
 
----
-
-## 🔄 Adjustments for Next Week
-- 
-
----
-
-## 📅 Next Week's Protected Schedule
-- **Morning Deep Work Focus:** 
-- **Evening Reading / Anki Focus:** 
-- **Saturday Build Goal:** 
+## 5. Next week
+- **Mornings (math):**
+- **Evenings (English):**
+- **Saturday build (milestone and its "done when"):**
+- **Sunday:** this review
+- One adjustment to try:
