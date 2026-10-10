@@ -31,7 +31,7 @@ Welcome to the **Noblett Repository**. This is a lifelong education and life-man
 - [ ] **Day 2:** Blink an LED on a simulated **Raspberry Pi Pico** at wokwi.com/pi-pico (free; use the MicroPython Blink template). Change it to flash SOS.
 - [ ] **Day 3:** **Desmos art** at desmos.com/calculator: draw a face or a house using at least 10 equations.
 - [ ] **Day 4:** **OverTheWire Bandit**, levels 0–3, from your own terminal (overthewire.org/wargames/bandit).
-- [ ] **Day 5:** Add a timer and a high score to your Scratch game. Write a 5-line Feynman note on how the score works ([[Feynman Technique Note Template|template]]).
+- [ ] **Day 5:** Add a timer and a high score to your Scratch game. Write a 5-line Feynman note on how the score works ([[Feynman Technique Note Template|template]]); the [[LM01 - Feynman Technique|LM01 project]] grows it into a short video or post.
 - [ ] **Day 6 (Saturday build):** **nandgame.com**: build gates up to a half adder.
 - [ ] **Day 7 (Sunday, 30 min):** Weekly review: what was fun, what was boring. Pick next week's build from the [[Projects Ladder#🪜 Starter Sprint (Weeks 1–12)|Starter Sprint]].
 - [ ] **Every day:** one streak item (a NeetCode lesson or an easy problem, 20 min). Reading this week is optional: 10–15 min of Lockhart, *Arithmetic*, if you feel like it.
@@ -304,6 +304,7 @@ LIMIT 7
 ## 📈 The Vault
 - 🧠 **Mindset & Habits**: [[how-i-study#A. Mindset and Habits|how-i-study §7A]]
 - 📑 **Curriculum** (`01 - Curriculum/`, one folder per stage): [[#The Path|The Path]] · [[Specialization Branches|Specializations Hub]] · [[Employability Portfolio and Review|Employability Portfolio]]
+- 🧠 **Learning methods** (deep dive + project each): [[LM00 - Learning Methods Hub|Learning Methods Hub]] · [[Learning Styles Myth]]
 - 🔧 **Supporting notes**: [[Engineering Practice]] (tooling, testing, operations) · [[Human Systems]] (money, health, time, relationships)
 - 🗂️ **Decisions** (`05 - Decisions/`): [[DR-001 - Program Scope, Phases, and Timeline|DR-001]] · [[DR-002 - Vault Refactor and Canonical Numbering|DR-002]] · [[DR-003 - One Path Restructure|DR-003]] · [[DR-004 - Content Overhaul|DR-004]] · [[DR-005 - Capstone and Maker Thread|DR-005]] · [[DR-006 - Digital Twin, EW Resilience and Fun Prerequisites|DR-006]] · [[DR-007 - Repo Cleanup|DR-007]] · [[DR-008 - Project-First Start and Projects Ladder|DR-008]] · template: [[Decision Record]]
 - 📓 **Topic Notes**: [[Hardware Index|Hardware]] · [[Languages Index|Languages]] · [[Math Index|Math]] · [[Systems Index|Systems]] · [[Theory Index|Theory]]

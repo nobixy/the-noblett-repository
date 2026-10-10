@@ -18,6 +18,7 @@ tags:
 ---
 
 ## 🧭 The Keshav Three-Pass Methodology
+*Deep dive + project: [[LM13 - Three-Pass Paper Reading|LM13]].*
 
 1. **Pass 1 (Bird's Eye — 10–15 min):** Read title, abstract, section headings, conclusion, and skim references. Determine the category, context, correctness plausibility, and contributions ($C^5$).
 2. **Pass 2 (Grasp Content — 1–2 hours):** Read with attention to figures, diagrams, and proofs. Mark unfamiliar terms, skipped proofs, and core assumptions.

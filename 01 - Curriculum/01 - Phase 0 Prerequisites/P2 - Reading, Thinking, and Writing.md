@@ -68,6 +68,13 @@ You're about to read thousands of pages of textbooks and hundreds of papers. Rea
 
 ---
 
+## 🧠 Learning-Method Projects (DR-009, 2026-10-10)
+- [[LM13 - Three-Pass Paper Reading|LM13 Three-Pass Paper Reading]]: One paper, three passes (twice) (~3 h)
+- [[LM14 - Pólya's Problem Solving|LM14 Pólya's Problem Solving]]: Puzzle week with labeled steps (~3 h)
+- **Hours:** inside this block's existing hours; no new time: these are P2's existing build 2 and Week 11 puzzles.
+
+---
+
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > All four builds exist in the repository notes.

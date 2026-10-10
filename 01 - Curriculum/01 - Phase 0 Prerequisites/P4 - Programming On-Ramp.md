@@ -71,6 +71,12 @@ Implement a 300-line modular data structure library in `c` (hash table with sepa
 
 ---
 
+## 🧠 Learning-Method Projects (DR-009, 2026-10-10)
+- [[LM10 - Worked Examples and Subgoal Labeling|LM10 Worked Examples and Subgoal Labeling]]: Subgoal Annotator (~3 h)
+- **Hours:** inside this block's existing hours; replaces rewatching CS50 lectures; you annotate the lecture source code instead.
+
+---
+
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > The cold exit test passes cleanly under `valgrind`.

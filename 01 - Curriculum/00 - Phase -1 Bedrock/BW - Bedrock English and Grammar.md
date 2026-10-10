@@ -108,6 +108,13 @@ The two master rules that instantly transform weak, muddy sentences into surgica
 
 ---
 
+## 🧠 Learning-Method Projects (DR-009, 2026-10-10)
+- [[LM06 - Franklin Copywork|LM06 Franklin Copywork]]: Copywork Diff tool (~3 h)
+- [[LM07 - Self-Explanation|LM07 Self-Explanation]]: Narrated Solutions (~2 h)
+- **Hours:** inside this block's existing hours; replaces 5 of the 10 parsing sentences and 5 of the 10 de-nominalization drills; the diff tool does copywork's comparison step.
+
+---
+
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > - [ ] You can parse and diagram any compound-complex English sentence without hesitation.

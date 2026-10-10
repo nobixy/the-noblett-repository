@@ -61,6 +61,13 @@ Everything downstream assumes you know how memory, practice, and attention actua
 
 ---
 
+## 🧠 Learning-Method Projects (DR-009, 2026-10-10)
+- [[LM09 - Spacing and Spaced Repetition|LM09 Spacing and Spaced Repetition]]: Your own spaced-repetition app (Leitner → SM-2 → FSRS) (~5 h)
+- [[LM15 - Growth Mindset and Grit|LM15 Growth Mindset and Grit]]: Then-vs-Now (~2 h)
+- **Hours:** inside this block's existing hours; replaces the optional *Ultralearning* skim and the bash-template part of Build 2; the SM-2 app absorbs the Week 9 Leitner app (4 h).
+
+---
+
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > - [ ] You can explain, without notes:

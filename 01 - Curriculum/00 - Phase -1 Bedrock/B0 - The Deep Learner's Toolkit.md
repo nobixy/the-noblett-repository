@@ -35,6 +35,7 @@ To become exceptionally educated from the ground up, you must abandon how school
 Don't read this note front to back before starting. Start with the [[00 - Start Here#🚀 Week 1 — Do This Today|Week 1 checklist]]: the Scratch quiz game (Week 1) and the Pico blink + reaction timer in Wokwi (Week 2) are this block's builds. Read **one** study system below per day (5 minutes) and use it on that day's build: Feynman-explain your score code, label the subgoals of the blink loop, blank-sheet what you built yesterday.
 - **Done when:** both Week 1–2 builds work (someone else played the game; SOS blinks and the timer prints milliseconds), and you used each of the 8 systems at least once on a build, noted in [[log]].
 - **Hours:** inside the existing 20 h; the builds replace reading time.
+- **Deep dive + project for each system:** [[LM00 - Learning Methods Hub|Learning Methods Hub]] ([[DR-009 - Learning Method Deep Dives|DR-009]]).
 
 ---
 
@@ -110,6 +111,13 @@ Don't read this note front to back before starting. Start with the [[00 - Start 
 
 ## 🔎 Verified Resources (DR-004, checked 2026-10-09)
 **Verdict:** KEEP. Evidence-based study methods; nothing to replace.
+
+---
+
+## 🧠 Learning-Method Projects (DR-009, 2026-10-10)
+- [[LM01 - Feynman Technique|LM01 Feynman Technique]]: Explain-It: a video or post about your Week 1 build (~2 h)
+- [[LM02 - Retrieval Practice|LM02 Retrieval Practice]]: Blank-Sheet Timer (Scratch first, Python later) (~3 h)
+- **Hours:** inside this block's existing hours; replaces reading the long *8 Core Cognitive Study Systems* section front to back; the deep dives are that reading, done project-first.
 
 ---
 

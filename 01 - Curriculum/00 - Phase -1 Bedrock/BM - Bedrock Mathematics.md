@@ -117,6 +117,15 @@ The pillars below are learned by building, then checked with Khan Academy. Lockh
 
 ---
 
+## 🧠 Learning-Method Projects (DR-009, 2026-10-10)
+- [[LM03 - Elaborative Interrogation|LM03 Elaborative Interrogation]]: Why-Ladders for 10 math rules (+ optional why-bot) (~2 h)
+- [[LM04 - Dual Coding|LM04 Dual Coding]]: Draw-It set in Excalidraw (~2 h)
+- [[LM05 - Interleaving|LM05 Interleaving]]: Shuffle Drill: mixed-problem generator (~3 h)
+- [[LM08 - Chunking and the Illusion of Competence|LM08 Chunking and the Illusion of Competence]]: Calibration Tracker (~3 h)
+- **Hours:** inside this block's existing hours; the Shuffle Drill replaces the Khan practice sets beyond the unit tests (the unit tests stay); the why-ladders for invert-and-multiply and negative × negative count as Build Requirement 2's Feynman explanations.
+
+---
+
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > - [ ] The four Build First projects work (DR-008).

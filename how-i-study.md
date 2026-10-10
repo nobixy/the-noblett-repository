@@ -7,33 +7,41 @@
 ---
 
 ## 1. Core Cognitive Learning Principles
+*Deep dive + a project for every method below and more (spacing, interleaving, dual coding, self-explanation, chunking, deep work, Zettelkasten, three-pass reading, Pólya, mindset): [[LM00 - Learning Methods Hub|Learning Methods Hub]] ([[DR-009 - Learning Method Deep Dives|DR-009]]). There is no such thing as a personal "learning style": [[Learning Styles Myth]].*
 
 ### A. Retrieval Practice (Testing Effect)
 - Reading and highlighting create an **illusion of competence**. They feel fluent because the material is in front of the eyes, not because it is stored in long-term memory.
 - The only reliable way to cement understanding is active retrieval: close the book, shut the notes, and recall or explain the concept from scratch.
 - Use the **Spaced Blank-Sheet Retrieval Protocol** after every study block: 15 minutes of zero-hint memory dump ([[Blank-Sheet Retrieval Template]]).
+- → [[LM02 - Retrieval Practice|LM02 deep dive + project]]
 
 ### B. The Feynman Technique (Radical Simplicity)
 - Strip all jargon. If an idea cannot be explained in simple words and physical analogies to a 12-year-old, the underlying concept is not understood.
 - Isolate friction points where you hesitate; those are your true knowledge gaps ([[Feynman Technique Note Template]]).
+- → [[LM01 - Feynman Technique|LM01 deep dive + project]]
 
 ### C. Elaborative Interrogation (The "Why?" Reflex)
 - Never accept a formula, algebraic step, or grammatical rule passively.
 - Constantly interrogate: *"Why does this step follow from the previous one?", "What breaks if this assumption is dropped?"*
+- → [[LM03 - Elaborative Interrogation|LM03 deep dive + project]]
 
 ### D. Subgoal Labeling & Worked Examples
 - Label the conceptual milestones inside worked math derivations and code architectures before attempting unassisted problem sets.
+- → [[LM10 - Worked Examples and Subgoal Labeling|LM10 deep dive + project]]
 
 ### E. Spacing & Interleaving (Desirable Difficulties)
 - Cramming produces zero durable storage strength. Space repetitions over days, weeks, and months.
 - Interleave problem types (never drill 50 identical problems in a row); force the brain to practice *selecting the correct tool*.
+- → [[LM09 - Spacing and Spaced Repetition|LM09 deep dive + project]] · [[LM05 - Interleaving|LM05 deep dive + project]]
 
 ### F. Benjamin Franklin Copywork (For Writing & Grammar)
 - Master English prose by analyzing master passages, outlining them, putting them aside for 3 days, and reconstructing the prose from memory ([[Franklin Copywork Template]]).
+- → [[LM06 - Franklin Copywork|LM06 deep dive + project]]
 
 ### G. Focused vs. Diffuse Mode
 - **Focused mode:** High-intensity, distraction-free concentration on problem formulation.
 - **Diffuse mode:** Unconscious background processing during rest, walks, sleep, or low-cognitive activities. When genuinely stuck on a hard proof after deep focused effort, step away to let diffuse connections form.
+- → [[LM11 - Focused and Diffuse Thinking|LM11 deep dive + project]]
 
 ---
 
@@ -125,6 +133,8 @@ Standard note structures are standardized using templates:
 - **The Eisenhower Matrix:** Categorize tasks into Urgent/Important. Ruthlessly eliminate the non-important.
 - **Consistency:** Daily 1% improvements compound over years.
 
+*Evidence check: both ideas are weaker than they sound; see [[LM15 - Growth Mindset and Grit|LM15]]. Deep work and Pomodoro: [[LM12 - Deep Work, Time-Blocking and Pomodoro|LM12]].*
+
 #### 3. High-Leverage Hobbies
 - **Aerobic Exercise:** Regular cardio enhances neuroplasticity and clears the diffuse mode of thinking.
 - **Mindfulness & Meditation:** Builds the metacognitive muscle to notice when focus drifts, bringing attention back to the present task.
@@ -149,3 +159,4 @@ Standard note structures are standardized using templates:
 | 2026-10-09 | Phase -1 (Bedrock Foundation) | [[DR-006 - Digital Twin, EW Resilience and Fun Prerequisites\|DR-006]]: Capstone gains a digital twin (M2b) and defensive, simulation-only EW resilience; every Phase −1/0 block gets a fun build; Coursera Plus companions and a NeetCode Pro sprint (ends Feb 6, 2027) added. Planned hours 6,005. |
 | 2026-10-10 | Phase -1 (Bedrock Foundation) | [[DR-007 - Repo Cleanup\|DR-007]]: Repo cleanup — 61 AI-generated or one-off archive files removed (recoverable from git), Mindset Hub merged into §7A, 11 → 8 top-level folders, decisions moved to `05 - Decisions/`. Hours unchanged (6,005). |
 | 2026-10-10 | Phase -1 (Bedrock Foundation) | [[DR-008 - Project-First Start and Projects Ladder\|DR-008]]: Build first — Week 1 checklist, 12-week Starter Sprint of fun builds, books become companions on a stated Reading Ramp (§2a), weekly mini-build (§2b), every block has a build, [[Projects Ladder]]. Hours unchanged (6,005). |
+| 2026-10-10 | Phase -1 (Bedrock Foundation) | [[DR-009 - Learning Method Deep Dives\|DR-009]]: 16 learning-method deep dives with honest evidence ratings and a 2–5 h project each, plus a learning-styles myth note; [[LM00 - Learning Methods Hub\|hub]] with suggested order; slotted into the Starter Sprint and Phase 0 as swaps. Hours unchanged (6,005). |

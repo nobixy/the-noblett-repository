@@ -67,6 +67,14 @@ Tools shape thought. Trying to learn operating systems or algorithms while fumbl
 
 ---
 
+## 🧠 Learning-Method Projects (DR-009, 2026-10-10)
+- [[LM11 - Focused and Diffuse Thinking|LM11 Focused and Diffuse Thinking]]: Stuck-Log experiment (~2 h)
+- [[LM12 - Deep Work, Time-Blocking and Pomodoro|LM12 Deep Work, Time-Blocking and Pomodoro]]: Focus Timer CLI (~4 h)
+- [[LM16 - Zettelkasten|LM16 Zettelkasten]]: Vault Link-Graph Analyzer (~5 h)
+- **Hours:** inside this block's existing hours; counts as the Missing Semester exercises for lecture 2 (shell tools and scripting), 4 (data wrangling) and 6 (version control): the exercises are your own tools.
+
+---
+
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > [[log]] has 14 consecutive daily entries and you can navigate, edit, wrangle data, and compile software on a Linux box without touching a GUI mouse.

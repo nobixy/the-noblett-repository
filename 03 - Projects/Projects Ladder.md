@@ -20,20 +20,26 @@ tags:
 ## 🪜 Starter Sprint (Weeks 1–12)
 *One fun build a week while the study habit forms. Week 1 is broken into days on [[00 - Start Here#🚀 Week 1 — Do This Today|Start Here]]. Alongside it, every day: the 🎮 Daily Code Streak (NeetCode *Python for Beginners*, then easy NeetCode 150 problems; NeetCode Pro ends Feb 6, 2027, then the free neetcode.io roadmap, Exercism or Codewars).*
 
-| Week | Build | Counts toward | Done when | Cost |
-| :-- | :--- | :--- | :--- | :--- |
-| 1 | Scratch quiz game: 10 questions about anything you like, with a score | [[B0 - The Deep Learner's Toolkit\|B0]] | someone else plays it start to finish | free (scratch.mit.edu, no install) |
-| 2 | Blink a Raspberry Pi Pico in the Wokwi simulator, then make it flash SOS and time your reaction to a button | [[B0 - The Deep Learner's Toolkit\|B0]] | SOS blinks correctly and the reaction timer prints milliseconds | free (wokwi.com/pi-pico); a real Pico 2 is 💲 $5, optional |
-| 3 | Desmos art: draw a picture using only lines, parabolas and restricted domains | [[BM - Bedrock Mathematics\|BM]] | the picture uses 15+ equations and you can say what each one does | free (desmos.com/calculator) |
-| 4 | Scratch base converter + fraction visualizer | [[BM - Bedrock Mathematics\|BM]] | converts 0–255 between decimal, binary and hex both ways, and draws any a/b as a bar | free |
-| 5 | nandgame: build NAND → half adder → full adder → multi-bit adder | [[BM - Bedrock Mathematics\|BM]] | the adder levels pass and you wrote a 1-page Feynman note: why binary adds like decimal | free (nandgame.com); Turing Complete is 💲 $19.99, optional |
-| 6 | Twine branching story where every choice is a clean sentence | [[BW - Bedrock English and Grammar\|BW]] | 1,500 words, 3 endings, and a friend played it | free (twinery.org) |
-| 7 | Python sentence machine: random sentences from the 4 core sentence patterns | [[BW - Bedrock English and Grammar\|BW]] | it prints 20 grammatical sentences and you can mark subject, verb and object in each | free |
-| 8 | OverTheWire Bandit, levels 0–10, in your own terminal | [[P5 - Tooling\|P5]] | you reached level 10 and wrote one line per level on the command that cracked it | free (overthewire.org) |
-| 9 | Python flashcard app with Leitner boxes for your first 20 study cards | [[P1 - Learning How to Learn\|P1]] | it schedules all 20 cards and you used it 7 days in a row | free |
-| 10 | Python prime sieve + factor-tree printer | [[BM - Bedrock Mathematics\|BM]] | it factors every number up to 1,000 and a test checks each factorization multiplies back | free |
-| 11 | Puzzle week: 5 Human Resource Machine levels, or 5 Project Euler problems, each with Pólya's four steps written out | [[P2 - Reading, Thinking, and Writing\|P2]] | 5 solved, 5 write-ups | Project Euler is free (projecteuler.net); Human Resource Machine is 💲 $14.99, optional |
-| 12 | Pong or Breakout clone in p5.js or LÖVE | [[P4 - Programming On-Ramp\|P4]] | playable with a score, and someone beat your high score | free (p5js.org, love2d.org) |
+| Week | Build | Counts toward | Done when | Cost | Method of the week (DR-009) |
+| :-- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Scratch quiz game: 10 questions about anything you like, with a score | [[B0 - The Deep Learner's Toolkit\|B0]] | someone else plays it start to finish | free (scratch.mit.edu, no install) | [[LM01 - Feynman Technique\|LM01 Feynman Technique]] |
+| 2 | Blink a Raspberry Pi Pico in the Wokwi simulator, then make it flash SOS and time your reaction to a button | [[B0 - The Deep Learner's Toolkit\|B0]] | SOS blinks correctly and the reaction timer prints milliseconds | free (wokwi.com/pi-pico); a real Pico 2 is 💲 $5, optional | [[LM02 - Retrieval Practice\|LM02 Retrieval Practice]] |
+| 3 | Desmos art: draw a picture using only lines, parabolas and restricted domains | [[BM - Bedrock Mathematics\|BM]] | the picture uses 15+ equations and you can say what each one does | free (desmos.com/calculator) | [[LM03 - Elaborative Interrogation\|LM03 Elaborative Interrogation]] |
+| 4 | Scratch base converter + fraction visualizer | [[BM - Bedrock Mathematics\|BM]] | converts 0–255 between decimal, binary and hex both ways, and draws any a/b as a bar | free | [[LM05 - Interleaving\|LM05 Interleaving]] |
+| 5 | nandgame: build NAND → half adder → full adder → multi-bit adder | [[BM - Bedrock Mathematics\|BM]] | the adder levels pass and you wrote a 1-page Feynman note: why binary adds like decimal | free (nandgame.com); Turing Complete is 💲 $19.99, optional | [[LM04 - Dual Coding\|LM04 Dual Coding]] |
+| 6 | Twine branching story where every choice is a clean sentence | [[BW - Bedrock English and Grammar\|BW]] | 1,500 words, 3 endings, and a friend played it | free (twinery.org) | [[LM06 - Franklin Copywork\|LM06 Franklin Copywork]] |
+| 7 | Python sentence machine: random sentences from the 4 core sentence patterns | [[BW - Bedrock English and Grammar\|BW]] | it prints 20 grammatical sentences and you can mark subject, verb and object in each | free | [[LM07 - Self-Explanation\|LM07 Self-Explanation]] |
+| 8 | OverTheWire Bandit, levels 0–10, in your own terminal | [[P5 - Tooling\|P5]] | you reached level 10 and wrote one line per level on the command that cracked it | free (overthewire.org) | [[LM11 - Focused and Diffuse Thinking\|LM11 Focused and Diffuse Thinking]] |
+| 9 | Python flashcard app with Leitner boxes for your first 20 study cards | [[P1 - Learning How to Learn\|P1]] | it schedules all 20 cards and you used it 7 days in a row | free | [[LM09 - Spacing and Spaced Repetition\|LM09 Spacing and Spaced Repetition]] |
+| 10 | Python prime sieve + factor-tree printer | [[BM - Bedrock Mathematics\|BM]] | it factors every number up to 1,000 and a test checks each factorization multiplies back | free | [[LM08 - Chunking and the Illusion of Competence\|LM08 Chunking and the Illusion of Competence]] |
+| 11 | Puzzle week: 5 Human Resource Machine levels, or 5 Project Euler problems, each with Pólya's four steps written out | [[P2 - Reading, Thinking, and Writing\|P2]] | 5 solved, 5 write-ups | Project Euler is free (projecteuler.net); Human Resource Machine is 💲 $14.99, optional | [[LM14 - Pólya's Problem Solving\|LM14 Pólya's Problem Solving]] |
+| 12 | Pong or Breakout clone in p5.js or LÖVE | [[P4 - Programming On-Ramp\|P4]] | playable with a score, and someone beat your high score | free (p5js.org, love2d.org) |  |
+
+---
+
+## 🧠 Learning-Method Projects ([[DR-009 - Learning Method Deep Dives|DR-009]])
+One small project for each learning method, 2–5 h each, slotted into the Starter Sprint weeks (column above) and Phase 0. Full list, evidence and order: [[LM00 - Learning Methods Hub|Learning Methods Hub]].
+- **Phase 0 (after Week 12):** [[LM09 - Spacing and Spaced Repetition|LM09 spaced-repetition app, SM-2 upgrade]] and [[LM15 - Growth Mindset and Grit|LM15 then-vs-now]] in P1 · [[LM13 - Three-Pass Paper Reading|LM13 three-pass reading]] in P2 · [[LM10 - Worked Examples and Subgoal Labeling|LM10 subgoal annotator]] in P4 · [[LM12 - Deep Work, Time-Blocking and Pomodoro|LM12 focus timer]] and [[LM16 - Zettelkasten|LM16 vault link-graph analyzer]] in P5.
 
 ---
 
