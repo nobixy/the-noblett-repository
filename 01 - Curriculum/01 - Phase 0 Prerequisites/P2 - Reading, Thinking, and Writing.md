@@ -111,6 +111,6 @@ You're about to read thousands of pages of textbooks and hundreds of papers. Rea
 
 ## ➡️ Next Steps
 *Why does the next subject come next?*
-- Next Block
+- Next block: [[P3 - Math Prerequisites|P3 — Math Prerequisites]]
 
 - **Sequential Flow:** [[P1 - Learning How to Learn|← Learning How to Learn]] | [[00 - Start Here|Start Here]] | [[P3 - Math Prerequisites|Math Prerequisites →]]

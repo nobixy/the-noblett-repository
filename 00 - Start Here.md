@@ -14,7 +14,7 @@ Welcome to the **Noblett Repository**. This is a lifelong education and life-man
 
 *This one note is the dashboard, the checklist, and the map ([[DR-003 - One Path Restructure|DR-003]]). Block notes live in `01 - Curriculum/`, one folder per stage, in study order.*
 
-**Now:** [[#🚀 Week 1 — Do This Today|Week 1: do this today]] → Starter Sprint builds for [[BM - Bedrock Mathematics|Bedrock Math]] + [[BW - Bedrock English and Grammar|Bedrock English]] · **Next block:** [[B0 - The Deep Learner's Toolkit|B0]] → [[P1 - Learning How to Learn|P1]] · **Schedule:** [[Calendar]]
+**Now:** [[#🚀 Week 1 — Do This Today|Week 1: do this today]] → Starter Sprint builds for [[BM - Bedrock Mathematics|Bedrock Math]] + [[BW - Bedrock English and Grammar|Bedrock English]] · **Block order:** [[B0 - The Deep Learner's Toolkit|B0]] → [[BM - Bedrock Mathematics|BM]] → [[BW - Bedrock English and Grammar|BW]] → [[P1 - Learning How to Learn|P1]] · **Schedule:** [[Calendar]]
 
 > - **Daily Study Log:** [[log.md]] (entries in `07 - Daily Log/`)
 > - **Living Study Manifesto:** [[how-i-study.md]]
@@ -212,7 +212,7 @@ SORT key ASC
 - [ ] Talks given: `0` / 8 (from Year 2)
 - [ ] Foreign language level: `____` (Target: B1)
 - [ ] Books read for pleasure this year: `0`
-- [ ] [[how-i-study]] last revised: `2026-09-25`
+- [ ] [[how-i-study]] last revised: `2026-10-10`
 
 ---
 
@@ -306,7 +306,7 @@ LIMIT 7
 - 📑 **Curriculum** (`01 - Curriculum/`, one folder per stage): [[#The Path|The Path]] · [[Specialization Branches|Specializations Hub]] · [[Employability Portfolio and Review|Employability Portfolio]]
 - 🧠 **Learning methods** (deep dive + project each): [[LM00 - Learning Methods Hub|Learning Methods Hub]] · [[Learning Styles Myth]]
 - 🔧 **Supporting notes**: [[Engineering Practice]] (tooling, testing, operations) · [[Human Systems]] (money, health, time, relationships)
-- 🗂️ **Decisions** (`05 - Decisions/`): [[DR-001 - Program Scope, Phases, and Timeline|DR-001]] · [[DR-002 - Vault Refactor and Canonical Numbering|DR-002]] · [[DR-003 - One Path Restructure|DR-003]] · [[DR-004 - Content Overhaul|DR-004]] · [[DR-005 - Capstone and Maker Thread|DR-005]] · [[DR-006 - Digital Twin, EW Resilience and Fun Prerequisites|DR-006]] · [[DR-007 - Repo Cleanup|DR-007]] · [[DR-008 - Project-First Start and Projects Ladder|DR-008]] · template: [[Decision Record]]
+- 🗂️ **Decisions** (`05 - Decisions/`): [[DR-001 - Program Scope, Phases, and Timeline|DR-001]] · [[DR-002 - Vault Refactor and Canonical Numbering|DR-002]] · [[DR-003 - One Path Restructure|DR-003]] · [[DR-004 - Content Overhaul|DR-004]] · [[DR-005 - Capstone and Maker Thread|DR-005]] · [[DR-006 - Digital Twin, EW Resilience and Fun Prerequisites|DR-006]] · [[DR-007 - Repo Cleanup|DR-007]] · [[DR-008 - Project-First Start and Projects Ladder|DR-008]] · [[DR-009 - Learning Method Deep Dives|DR-009]] · template: [[Decision Record]]
 - 📓 **Topic Notes**: [[Hardware Index|Hardware]] · [[Languages Index|Languages]] · [[Math Index|Math]] · [[Systems Index|Systems]] · [[Theory Index|Theory]]
 - 📄 **Paper Summaries**: [[Paper Reading Hub|Paper Reading Hub]] (Three-pass method)
 - ✍️ **Writing Repository**: [[Writing Hub|Writing Hub]] (Daily 500 words, Franklin copywork & technical essays)

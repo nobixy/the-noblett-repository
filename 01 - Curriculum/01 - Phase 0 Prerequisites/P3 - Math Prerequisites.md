@@ -106,6 +106,6 @@ Write rigorous, complete formal solutions to all Velleman Chapters 1–3 exercis
 
 ## ➡️ Next Steps
 *Why does the next subject come next?*
-- Next Block
+- Next block: [[P4 - Programming On-Ramp|P4 — Programming On-Ramp]]
 
 - **Sequential Flow:** [[P2 - Reading, Thinking, and Writing|← Reading, Thinking, and Writing]] | [[00 - Start Here|Start Here]] | [[P4 - Programming On-Ramp|Programming On-Ramp →]]

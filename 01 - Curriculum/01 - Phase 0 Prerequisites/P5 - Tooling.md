@@ -112,6 +112,6 @@ Tools shape thought. Trying to learn operating systems or algorithms while fumbl
 
 ## ➡️ Next Steps
 *Why does the next subject come next?*
-- Next Block
+- Next block: [[B01 - CS61A|Block 1 — CS61A]]
 
 - **Sequential Flow:** [[P4 - Programming On-Ramp|← Programming On-Ramp]] | [[00 - Start Here|Start Here]] | [[B01 - CS61A|CS61A →]]

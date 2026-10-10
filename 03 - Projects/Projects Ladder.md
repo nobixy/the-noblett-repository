@@ -125,7 +125,7 @@ One small project for each learning method, 2–5 h each, slotted into the Start
 | 48 | [[B27a - Drone Lab - Flight Stack, ROS 2 and SITL\|Block 27a]] | 10/10 SITL missions (3 vehicles); one micro-drone flies indoors; failsafes logged. |
 | 49 | [[Specialization Branches\|Block 28]] | Your chosen track's course project (see the track note). |
 | 50 | [[Specialization Branches\|Block 29]] | Your chosen track's course project (see the track note). |
-| 51 | [[Employability Portfolio and Review\|Employability Portfolio]] | Due by end of Year 4: three public projects, resume, outside review ([[DR-001 - Program Scope, Phases, and Timeline\|DR-001]]). *(optional)* |
+| 51 | [[Employability Portfolio and Review\|Employability Portfolio]] | Due by end of Year 4: three public projects, resume, outside review ([[DR-001 - Program Scope, Phases, and Timeline\|DR-001]]). |
 
 ### Year 5: The MEng Year
 

@@ -1,5 +1,5 @@
 # How I Will Study: The Deep Learner's Manifesto
-*Last revised: 2026-09-25 (Next scheduled revision: 2027-03-25)* · Home: [[00 - Start Here|Start Here]]
+*Last revised: 2026-10-10 (Next scheduled revision: 2027-03-25)* · Home: [[00 - Start Here|Start Here]]
 
 > [!QUOTE]
 > "Don't let note-taking become the hobby. Notes exist to support retrieval, synthesis, and building."
@@ -84,7 +84,7 @@ Every week ends with one small build (≤2 h, usually the Saturday block) tied t
 
 ## 4. Time, Honestly
 - MIT counts one "unit" as roughly 1 hr/wk for a 14-week term; a 12-unit subject is ~170 hours.
-- The Program (Phase −1 → Capstone, core + two tracks + habits) is roughly **6,500–8,000 hours**; unchosen tracks are Lifelong Continuation and not counted.
+- The Program (Phase −1 → Capstone, core + two tracks + habits) is roughly **7,800–8,300 hours** (see [[DR-006 - Digital Twin, EW Resilience and Fun Prerequisites|DR-006]]); unchosen tracks are Lifelong Continuation and not counted.
 - Below 15 hrs/wk, cut scope (Physics → Statistics → second track) rather than extending the Program beyond ~8 years.
 
 ---

@@ -52,3 +52,6 @@ Note names did not change, so every wikilink still resolves. Links to the delete
 **Undo:**
 - If not yet committed: `git checkout -- . && git clean -fd` (back to `67bd081`).
 - If Obsidian Git already committed it: `git revert <that commit>`.
+
+> [!WARNING] Do not run this Undo line now
+> It was written for the moment right after this change, before it was committed. Today `git checkout -- . && git clean -fd` would throw away **all** uncommitted edits and delete every untracked file in the vault (new notes, today's log). To undo this decision now, use `git revert <commit>` or restore single files with `git checkout <commit> -- "<path>"`.

@@ -113,6 +113,6 @@ Everything downstream assumes you know how memory, practice, and attention actua
 
 ## ➡️ Next Steps
 *Why does the next subject come next?*
-- Next Block
+- Next block: [[P2 - Reading, Thinking, and Writing|P2 — Reading, Thinking, and Writing]]
 
 - **Sequential Flow:** [[BW - Bedrock English and Grammar|← Bedrock English and Grammar]] | [[00 - Start Here|Start Here]] | [[P2 - Reading, Thinking, and Writing|Reading, Thinking, and Writing →]]

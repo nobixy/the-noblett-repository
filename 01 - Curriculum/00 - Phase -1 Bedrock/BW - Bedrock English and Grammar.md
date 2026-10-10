@@ -125,6 +125,6 @@ The two master rules that instantly transform weak, muddy sentences into surgica
 
 ## ➡️ Next Steps
 *Why does the next subject come next?*
-- Next Block
+- Next block: [[P1 - Learning How to Learn|P1 — Learning How to Learn]]
 
 - **Sequential Flow:** [[BM - Bedrock Mathematics|← Bedrock Mathematics]] | [[00 - Start Here|Start Here]] | [[P1 - Learning How to Learn|Learning How to Learn →]]

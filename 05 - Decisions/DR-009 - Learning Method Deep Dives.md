@@ -73,3 +73,6 @@ The total stays ≈7,805–8,305 h with ~15 h of margin.
 - The day-job weekly schedule was not changed.
 
 **Undo:** `git checkout -- . && git clean -fd` (back to `edd2829`).
+
+> [!WARNING] Do not run this Undo line now
+> It was written for the moment right after this change, before it was committed. Today `git checkout -- . && git clean -fd` would throw away **all** uncommitted edits and delete every untracked file in the vault (new notes, today's log). To undo this decision now, use `git revert <commit>` or restore single files with `git checkout <commit> -- "<path>"`.

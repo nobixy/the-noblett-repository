@@ -10,7 +10,7 @@ words_500: false
 
 Back to: [[log|Master Log]]
 
-- **Active Block:** [[]]
+- **Active Block:** _(link the block you worked on, e.g. BM)_
 - **What I did:**
   - 
 - **What I got stuck on / Friction:**

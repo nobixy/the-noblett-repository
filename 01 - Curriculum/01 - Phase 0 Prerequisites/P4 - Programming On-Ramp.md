@@ -134,6 +134,6 @@ Optional after P4: CS50's *Introduction to Game Development* (cs50.harvard.edu/g
 
 ## ➡️ Next Steps
 *Why does the next subject come next?*
-- Next Block
+- Next block: [[P5 - Tooling|P5 — Tooling]]
 
 - **Sequential Flow:** [[P3 - Math Prerequisites|← Math Prerequisites]] | [[00 - Start Here|Start Here]] | [[P5 - Tooling|Tooling →]]

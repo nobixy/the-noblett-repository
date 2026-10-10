@@ -20,7 +20,7 @@ The milestone specification for reaching baseline professional readiness. It clo
   2. A full-stack web application with user authentication and database.
      - *Source:* [[T10 - Full-Stack and Product Engineering|Track 10]]. The minimum, whether or not Track 10 is one of your two tracks, is Full Stack Open Parts 0–5 (≈6 parts × 15–20 h). Parts 4–5 cover token authentication, user administration and testing, and Part 13 adds a relational database.
   3. A robust API or microservice demonstrating CI/CD and testing.
-     - *Source:* [[B17 - Software Construction|Block 17]] discipline + the CI/CD and Docker rows of [[Engineering Practice|03 - Engineering Practice]].
+     - *Source:* [[B17 - Software Construction|Block 17]] discipline + the CI/CD and Docker rows of [[Engineering Practice|Engineering Practice]].
 - **Technical Resume Standards**: 1-page format, quantifiable impact, no jargon, strictly relevant technologies.
 - **Code Review Checklist**: Readability, modularity, security, performance, test coverage.
 - **Production Deployment Criteria**: Hosted online, automated build process, proper environment variable management, monitoring/logging.

@@ -137,6 +137,6 @@ The pillars below are learned by building, then checked with Khan Academy. Lockh
 
 ## ➡️ Next Steps
 *Why does the next subject come next?*
-- Next Block
+- Next block: [[BW - Bedrock English and Grammar|BW — Bedrock English and Grammar]]
 
 - **Sequential Flow:** [[B0 - The Deep Learner's Toolkit|← The Deep Learner's Toolkit]] | [[00 - Start Here|Start Here]] | [[BW - Bedrock English and Grammar|Bedrock English and Grammar →]]

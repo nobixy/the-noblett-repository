@@ -19,8 +19,8 @@ tags:
 - **Year 1:** 12 published technical blog posts + one 2,000-word essay with visible revision history.
 - **Year 2:** 12 posts + 5,000-word technical design document (for your CPU or interpreter) + monthly 3-pass paper summaries.
 - **Year 3:** 8,000-word survey of one subfield (30+ cited sources) + 2 public recorded talks.
-- **Year 4:** Capstone proposal (3,000 words: problem, related work, plan, evaluation criteria).
-- **Year 5:** 15,000–25,000-word Capstone Thesis + 30-minute recorded talk.
+- **Year 4:** Capstone proposal = Capstone milestone M0 (3,000 words: problem, related work, plan, evaluation criteria, threat model, safety case).
+- **Year 5:** 10,000–15,000-word Capstone Thesis (trimmed by DR-006) + 30-minute recorded talk.
 
 ---
 
