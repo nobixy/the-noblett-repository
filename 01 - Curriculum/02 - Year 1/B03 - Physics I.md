@@ -58,6 +58,14 @@ Complete all 8.01SC homework sets and problem-solving workshops.
 
 ---
 
+## 🔨 Project Build (DR-008, 2026-10-10)
+**2D physics sandbox.** In p5.js or pygame: projectiles with drag, springs, and elastic collisions, using a symplectic (Verlet) integrator. Plus one phone experiment with **phyphox** (free app from RWTH Aachen): a pendulum measured with the accelerometer.
+- **Done when:** total energy drifts under 1% over 10,000 steps, momentum is conserved in collisions to 1e-9, and your phyphox pendulum gives g within 2%.
+- **Reading supports the build:** Each 8.01 unit adds one feature to the sandbox.
+- **Hours:** inside the block's existing hours; it replaces the recitation write-ups (problem sets and the final stay).
+
+---
+
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > 8.01 final exam passed.

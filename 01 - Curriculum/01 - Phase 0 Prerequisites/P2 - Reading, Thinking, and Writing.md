@@ -46,7 +46,7 @@ You're about to read thousands of pages of textbooks and hundreds of papers. Rea
 
 ## 📖 Primary Syllabus & Actions
 - [ ] **Reading Skills:**
-  - [ ] Adler & Van Doren, *How to Read a Book* — Parts 1–2 (inspectional, analytical); Part 3 (syntopical) optional since DR-006.
+  - [ ] Adler & Van Doren, *How to Read a Book* — Part 1 (inspectional) now, as a companion; Part 2 (analytical) moved to Year 1 Companion Reading by DR-008; Part 3 (syntopical) optional since DR-006.
   - [ ] Keshav, *"How to Read a Paper"* (2007, 3 pages, free) — Master the 3-pass method.
   - [ ] Simonson & Gouvea, *"How to Read Mathematics"* (free essay).
   - [ ] Hermans, *The Programmer's Brain* — Cognitive science applied to reading code.
@@ -61,9 +61,9 @@ You're about to read thousands of pages of textbooks and hundreds of papers. Rea
 ---
 
 ## 🛠️ Build Requirement
-1. **Adler-style analytical reading** of one non-fiction book you've already read (write a 1-page synopsis with structure, claims, disagreements in [[Writing Hub|Writing Hub]] using `vim` / Markdown).
+1. **Build write-up (DR-008):** a 1,000-word post about your favourite Starter Sprint build (what it does, how, what broke, what you'd change), structured with Adler's four questions (what is it about, what exactly is said, is it true, what of it?), in [[Writing Hub|Writing Hub]] using `vim` / Markdown. Replaces the analytical-reading synopsis.
 2. **Three-pass read of one paper** (e.g., Lamport's *"Time, Clocks"* or Ritchie & Thompson's *"The UNIX Time-Sharing System"*) saved in [[Paper Reading Hub|Paper Reading Hub]] formatted in `latex`.
-3. **Five hard math or puzzle problems** solved with Pólya's four steps explicitly written out and verified with `python`.
+3. **Five hard math or puzzle problems** solved with Pólya's four steps explicitly written out and verified with `python` (Starter Sprint Week 11: Project Euler, free, or Human Resource Machine).
 4. **14 straight days of 500 words** written and logged in [[Writing Hub|Writing Hub]], tracked with `git`.
 
 ---

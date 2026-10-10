@@ -32,6 +32,16 @@ Here, you start from absolute zero—not as a child memorizing flashcards, but a
 - *None. This is a foundational block.*
 
 
+## 🚀 Build First (DR-008, 2026-10-10)
+The pillars below are learned by building, then checked with Khan Academy. Lockhart's *Arithmetic* is now a 10–15 min/day companion that ramps up from Week 5 ([[how-i-study#2a. Reading Ramp|Reading Ramp]]), not the thing you have to finish before anything else.
+- **Week 3, Desmos art** (Pillars 2–3, free): **done when** the picture uses 15+ equations and you can say what each does.
+- **Week 4, Scratch base converter + fraction visualizer** (Pillars 1, 3): **done when** it converts 0–255 between decimal, binary and hex both ways and draws any a/b as a bar.
+- **Week 5, nandgame adders** (Pillars 1–2, free at nandgame.com): **done when** the adder levels pass and your 1-page Feynman note explains why binary adds like decimal.
+- **Week 10, Python prime sieve + factor trees** (Pillar 5): **done when** it factors every number up to 1,000 and a test multiplies each factorization back.
+- **Hours:** inside the existing 60 h; the builds replace Lockhart reading time and one Khan practice set per pillar (the unit tests stay).
+
+---
+
 ## 📖 Primary Resources & Texts
 1. **Paul Lockhart, *Arithmetic*** (✅ Already on your shelf!):
   - A brilliant, deep, beautifully written exploration of counting, positional systems, fractions, and multiplication.
@@ -86,7 +96,7 @@ Here, you start from absolute zero—not as a child memorizing flashcards, but a
 ---
 
 ## 🛠️ Build Requirement
-1. Work through all chapters and exercises of Lockhart's *Arithmetic*.
+1. Read Lockhart's *Arithmetic* as a 10–15 min/day companion (about a chapter a week from Week 5) and do the exercises for the pillar you're building; finish it by the end of [[P3 - Math Prerequisites|P3]] (DR-008).
 2. Write a 1-page Feynman Explanation in `02 - Notes/` (link it from [[Math Index]]) answering:
   - *"Why does invert-and-multiply work when dividing fractions?"*
   - *"Why is a negative multiplied by a negative always positive?"*
@@ -109,7 +119,8 @@ Here, you start from absolute zero—not as a child memorizing flashcards, but a
 
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
-> - [ ] You have read Lockhart's *Arithmetic* and solved its core exercises.
+> - [ ] The four Build First projects work (DR-008).
+> - [ ] Lockhart's *Arithmetic*: you're reading it as a companion, with its core exercises done for each pillar (finish by the end of P3).
 > - [ ] You pass the Khan Academy Pre-Algebra & Algebra I challenge tests cold with zero arithmetic errors.
 > - [ ] You can explain the conceptual reasons behind fraction division and negative multiplication to someone else with zero jargon and zero algebraic recipes.
 

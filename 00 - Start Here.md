@@ -14,12 +14,29 @@ Welcome to the **Noblett Repository**. This is a lifelong education and life-man
 
 *This one note is the dashboard, the checklist, and the map ([[DR-003 - One Path Restructure|DR-003]]). Block notes live in `01 - Curriculum/`, one folder per stage, in study order.*
 
-**Now:** Phase −1 → [[BM - Bedrock Mathematics|Bedrock Math]] + [[BW - Bedrock English and Grammar|Bedrock English]] · **Next block:** [[B0 - The Deep Learner's Toolkit|B0]] → [[P1 - Learning How to Learn|P1]] · **Schedule:** [[Calendar]]
+**Now:** [[#🚀 Week 1 — Do This Today|Week 1: do this today]] → Starter Sprint builds for [[BM - Bedrock Mathematics|Bedrock Math]] + [[BW - Bedrock English and Grammar|Bedrock English]] · **Next block:** [[B0 - The Deep Learner's Toolkit|B0]] → [[P1 - Learning How to Learn|P1]] · **Schedule:** [[Calendar]]
 
 > - **Daily Study Log:** [[log.md]] (entries in `07 - Daily Log/`)
 > - **Living Study Manifesto:** [[how-i-study.md]]
 > - **Telemetry Log:** [[Telemetry Log.md]]
 > - **Book Acquisition Tracker:** [[Your Shelf]]
+> - **Every build, in order:** [[Projects Ladder]]
+
+---
+
+## 🚀 Week 1 — Do This Today
+*Build first, read later ([[DR-008 - Project-First Start and Projects Ladder|DR-008]]). Each day is about an hour. Log each day in today's daily note (two minutes).*
+
+- [ ] **Day 1 (today):** Make a 10-question **Scratch quiz game** at scratch.mit.edu (free, no install). Done when someone else can play it start to finish. Then do one lesson of NeetCode *Python for Beginners*: that starts your 🎮 Daily Code Streak (NeetCode Pro ends Feb 6, 2027).
+- [ ] **Day 2:** Blink an LED on a simulated **Raspberry Pi Pico** at wokwi.com/pi-pico (free; use the MicroPython Blink template). Change it to flash SOS.
+- [ ] **Day 3:** **Desmos art** at desmos.com/calculator: draw a face or a house using at least 10 equations.
+- [ ] **Day 4:** **OverTheWire Bandit**, levels 0–3, from your own terminal (overthewire.org/wargames/bandit).
+- [ ] **Day 5:** Add a timer and a high score to your Scratch game. Write a 5-line Feynman note on how the score works ([[Feynman Technique Note Template|template]]).
+- [ ] **Day 6 (Saturday build):** **nandgame.com**: build gates up to a half adder.
+- [ ] **Day 7 (Sunday, 30 min):** Weekly review: what was fun, what was boring. Pick next week's build from the [[Projects Ladder#🪜 Starter Sprint (Weeks 1–12)|Starter Sprint]].
+- [ ] **Every day:** one streak item (a NeetCode lesson or an easy problem, 20 min). Reading this week is optional: 10–15 min of Lockhart, *Arithmetic*, if you feel like it.
+
+*After Week 1, follow the [[Projects Ladder]]: one fun build a week for 12 weeks, and the [[how-i-study#2a. Reading Ramp|Reading Ramp]] adds reading slowly.*
 
 ---
 
@@ -61,15 +78,16 @@ SORT key ASC
 ---
 
 ### Phase -1: Bedrock Foundations (The Ground Floor)
+*🚀 **Build first ([[DR-008 - Project-First Start and Projects Ladder|DR-008]]):** Phase −1 starts with the [[#🚀 Week 1 — Do This Today|Week 1 checklist]] and a 12-week Starter Sprint of fun builds ([[Projects Ladder]]). The books are 10–30 min companions that ramp up slowly ([[how-i-study#2a. Reading Ramp|Reading Ramp]]), not the starting line. Every block on The Path has at least one build with a done-when line.*
 *🎮 Every Phase −1/0 block now has a fun build (Scratch, Twine, Desmos, OverTheWire, a game for CS50) and the 🎮 Daily Code Streak ([[DR-006 - Digital Twin, EW Resilience and Fun Prerequisites|DR-006]]). **NeetCode Pro ends Feb 6, 2027**: do the NeetCode sprint in [[P4 - Programming On-Ramp|P4]] before then; the free fallback is the neetcode.io roadmap + YouTube + LeetCode free. Coursera Plus courses are listed in each block's Companion section.*
 - [ ] **[[B0 - The Deep Learner's Toolkit|B0]]:** The Deep Learner's Toolkit — *Mastery of Feynman Technique, Elaborative Interrogation, Franklin Copywork, Subgoal Labeling, and Blank-Sheet Retrieval.*
-- [ ] **[[BM - Bedrock Mathematics|BM]]:** Bedrock Mathematics (✓ *Lockhart, Arithmetic*, Khan Academy Pre-Alg → Alg I) — *Complete conceptual understanding of counting, base-10, fractions, negative multiplication, and algebraic balance scales.*
-- [ ] **[[BW - Bedrock English and Grammar|BW]]:** Bedrock English & Grammar (Huddleston & Pullum, Williams *Style*) — *Sentence diagramming, de-nominalization fluency, and 14 consecutive days of Franklin Copywork completed.*
+- [ ] **[[BM - Bedrock Mathematics|BM]]:** Bedrock Mathematics (builds first: Scratch, Desmos, nandgame, Python primes; Khan Academy Pre-Alg → Alg I; ✓ *Lockhart, Arithmetic* as a 15-min companion) — *Complete conceptual understanding of counting, base-10, fractions, negative multiplication, and algebraic balance scales.*
+- [ ] **[[BW - Bedrock English and Grammar|BW]]:** Bedrock English & Grammar (builds first: Twine story, Python sentence machine; Williams *Style* as a companion from Week 5; Huddleston & Pullum for lookups only) — *Sentence diagramming, de-nominalization fluency, and 14 consecutive days of Franklin Copywork completed.*
 
 ---
 
 ### Phase 0: Prerequisites (0–5 months)
-- [ ] **[[P1 - Learning How to Learn|P1]]:** Learning how to learn (✓ *Mind for Numbers*, *Learning How to Learn*, *Make It Stick*, Dunlosky) — *Study system written in [[how-i-study]], weekly template created, 20 Anki cards created.*
+- [ ] **[[P1 - Learning How to Learn|P1]]:** Learning how to learn (*Learning How to Learn* course + a Python flashcard app; ✓ *Mind for Numbers* as a companion; *Make It Stick* moved to Year 1 reading) — *Study system written in [[how-i-study]], weekly template created, 20 Anki cards created.*
 - [ ] **[[P2 - Reading, Thinking, and Writing|P2]]:** Reading, thinking, writing (Adler, Keshav, Pólya, Hermans, McEnerney, Winston) — *Four builds exist in [[Writing Hub|Writing Hub]] & [[Paper Reading Hub|Paper Reading Hub]].*
 - [ ] **[[P3 - Math Prerequisites|P3]]:** 💼1 Math prerequisites (✓ *Velleman* 1–3; *Arithmetic* is read in BM) — *Cold test passed; clean induction & contradiction proofs.*
 - [ ] **[[P4 - Programming On-Ramp|P4]]:** 💼1 Programming on-ramp (*CS50x* + NeetCode Pro sprint before Feb 6, 2027; CS50 final project as a game) — *300-line valgrind-clean C program; hash table & BST from scratch.*
@@ -91,7 +109,7 @@ SORT key ASC
 - [ ] **[[B08 - Physics II|Block 8]]:** Physics II (MIT 8.02) — *8.02 final passed.*
 - [ ] **[[B08a - Circuits and Electronics Bridge|Block 8a]]:** Circuits & Electronics Bridge (MIT 6.002 / 6.2000, Agarwal & Lang) — *Design & test 4th-order Sallen-Key Butterworth filter in SPICE & breadboard.*
 - [ ] **[[B08b - Maker Lab 1 - Electronics Bench|Block 8b]]:** 🔧 Maker Lab 1: Electronics Bench, Soldering & Arduino (SparkFun/Adafruit, Wokwi sim first) — *Soldered kit, sensor logger, MOSFET motor driver all work.* *(new, [[DR-005 - Capstone and Maker Thread|DR-005]])*
-- [ ] **Year 1 Companion Reading:** ✓ *What Is Mathematics?* ch. 1–2, 6–8.
+- [ ] **Year 1 Companion Reading:** ✓ *What Is Mathematics?* ch. 1–2, 6–8 · *Make It Stick* (moved from P1) · Adler, *How to Read a Book* Part 2 (moved from P2) ([[DR-008 - Project-First Start and Projects Ladder|DR-008]]).
 - [ ] **Year 1 Writing Deliverable:** 12 published technical blog posts + one 2,000-word essay with visible revision history.
 
 ---
@@ -287,10 +305,10 @@ LIMIT 7
 - 🧠 **Mindset & Habits**: [[how-i-study#A. Mindset and Habits|how-i-study §7A]]
 - 📑 **Curriculum** (`01 - Curriculum/`, one folder per stage): [[#The Path|The Path]] · [[Specialization Branches|Specializations Hub]] · [[Employability Portfolio and Review|Employability Portfolio]]
 - 🔧 **Supporting notes**: [[Engineering Practice]] (tooling, testing, operations) · [[Human Systems]] (money, health, time, relationships)
-- 🗂️ **Decisions** (`05 - Decisions/`): [[DR-001 - Program Scope, Phases, and Timeline|DR-001]] · [[DR-002 - Vault Refactor and Canonical Numbering|DR-002]] · [[DR-003 - One Path Restructure|DR-003]] · [[DR-004 - Content Overhaul|DR-004]] · [[DR-005 - Capstone and Maker Thread|DR-005]] · [[DR-006 - Digital Twin, EW Resilience and Fun Prerequisites|DR-006]] · [[DR-007 - Repo Cleanup|DR-007]] · template: [[Decision Record]]
+- 🗂️ **Decisions** (`05 - Decisions/`): [[DR-001 - Program Scope, Phases, and Timeline|DR-001]] · [[DR-002 - Vault Refactor and Canonical Numbering|DR-002]] · [[DR-003 - One Path Restructure|DR-003]] · [[DR-004 - Content Overhaul|DR-004]] · [[DR-005 - Capstone and Maker Thread|DR-005]] · [[DR-006 - Digital Twin, EW Resilience and Fun Prerequisites|DR-006]] · [[DR-007 - Repo Cleanup|DR-007]] · [[DR-008 - Project-First Start and Projects Ladder|DR-008]] · template: [[Decision Record]]
 - 📓 **Topic Notes**: [[Hardware Index|Hardware]] · [[Languages Index|Languages]] · [[Math Index|Math]] · [[Systems Index|Systems]] · [[Theory Index|Theory]]
 - 📄 **Paper Summaries**: [[Paper Reading Hub|Paper Reading Hub]] (Three-pass method)
 - ✍️ **Writing Repository**: [[Writing Hub|Writing Hub]] (Daily 500 words, Franklin copywork & technical essays)
-- 🛠️ **Project Specs & Lab Builds**: [[Projects Hub|Projects Hub]]
+- 🛠️ **Project Specs & Lab Builds**: [[Projects Hub|Projects Hub]] · [[Projects Ladder]] (every build in order, with done-when lines)
 - 🌍 **Breadth & Languages**: [[Breadth and Humanities Hub|Breadth Hub]]
 - 📚 **Reference & Appendices**: [[Appendix E - Failure Modes|Appendix E (Failure Modes)]] · [[Appendix F - Curated URLs|Appendix F (Curated URLs)]] · [[Your Shelf]] (books) · Cut blocks and the removal list: `99 - Archive/` ([[Removed 2026-10-10 Manifest|what was removed on 2026-10-10]])

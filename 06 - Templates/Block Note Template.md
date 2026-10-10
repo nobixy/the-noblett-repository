@@ -56,6 +56,11 @@ tier: "Tier 1 - Core" # Tier 1 - Core | Tier 2 - Support | Tier 3 - Depth
 ### Labs & Projects
 - [ ] 
 
+### 🔨 Project Build (required, DR-008)
+- **Build:** 
+- **Done when:** 
+- **Weekly mini-build ideas:** 
+
 ---
 
 ## 🏁 Mastery Criteria & Assessments

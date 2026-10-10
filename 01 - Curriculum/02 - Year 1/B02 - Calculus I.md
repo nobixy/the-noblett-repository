@@ -58,6 +58,14 @@ Solve all MIT 18.01 problem sets and write formal solutions for all recitation p
 
 ---
 
+## 🔨 Project Build (DR-008, 2026-10-10)
+**Calculus toy lab.** In Python (or Desmos): (1) a numerical derivative and Newton's method root finder; (2) Riemann, trapezoid and Simpson integrators with an error-vs-step-size plot; (3) a falling-ball animation that integrates velocity into position.
+- **Done when:** the integrators match the exact answers to 10 of the 18.01 integrals within 1e-6, the error plot shows Simpson's 4th-order slope, and Newton's method finds √2 to 12 digits.
+- **Reading supports the build:** Watch the lecture or read the Strang section that the current piece needs.
+- **Hours:** inside the block's existing hours; it replaces the recitation write-ups (problem sets and the final stay).
+
+---
+
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > 18.01 final exam taken timed and closed-book, passed.

@@ -67,6 +67,8 @@ Mathematics in EECS is not calculation; it is proof and structure. Before starti
 ## 🛠️ Build Requirement
 Write rigorous, complete formal solutions to all Velleman Chapters 1–3 exercises and the Cold Exit Test in `latex`, verifying analytical expressions and combinatorial identities using `python` and SymPy.
 
+**Project build (DR-008):** a Python **truth-table and set toolkit**: prints the truth table of any formula, decides whether it is a tautology, and draws Venn diagrams for set expressions. Use it to check your Velleman ch. 1–2 answers *after* you write them by hand. **Done when** it agrees with your hand answers on every ch. 1 truth-table exercise and 5 ch. 2 set exercises. Replaces the SymPy checks for ch. 1–2.
+
 ---
 
 ## 🏁 Mastery Criteria & Assessments

@@ -56,6 +56,14 @@ Complete all problem sets, recitation workshops, and practice exams.
 
 ---
 
+## 🔨 Project Build (DR-008, 2026-10-10)
+**3D field explorer.** In Python (matplotlib) or three.js: plot surfaces, contour lines and gradient fields, run gradient descent on them, and compute flux and divergence integrals numerically.
+- **Done when:** gradient descent finds the minima of three 18.02 functions and matches your Lagrange-multiplier answers, and numerical flux equals the numerical divergence integral within 1% for two fields.
+- **Reading supports the build:** Read or watch the 18.02 session that the next feature needs.
+- **Hours:** inside the block's existing hours; it replaces the recitation write-ups (problem sets and the final stay).
+
+---
+
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > 18.02 final exam passed.

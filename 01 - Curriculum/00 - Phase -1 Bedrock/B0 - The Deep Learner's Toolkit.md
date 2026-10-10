@@ -31,6 +31,13 @@ To become exceptionally educated from the ground up, you must abandon how school
 
 ---
 
+## 🚀 Build First (DR-008, 2026-10-10)
+Don't read this note front to back before starting. Start with the [[00 - Start Here#🚀 Week 1 — Do This Today|Week 1 checklist]]: the Scratch quiz game (Week 1) and the Pico blink + reaction timer in Wokwi (Week 2) are this block's builds. Read **one** study system below per day (5 minutes) and use it on that day's build: Feynman-explain your score code, label the subgoals of the blink loop, blank-sheet what you built yesterday.
+- **Done when:** both Week 1–2 builds work (someone else played the game; SOS blinks and the timer prints milliseconds), and you used each of the 8 systems at least once on a build, noted in [[log]].
+- **Hours:** inside the existing 20 h; the builds replace reading time.
+
+---
+
 ## 🧠 The 8 Core Cognitive Study Systems
 
 ### 1. The Feynman Technique (Simplicity & Jargon Elimination)

@@ -46,6 +46,22 @@
 | **Saturday (4–6 hrs)** | Build block | Deep continuous flow for systems programming, labs, compilers, CPU verilog, kernels. |
 | **Sunday (2 hrs)** | Review & planning | Problem set wrap-up, weekly review in [[log]], writing, planning next week's schedule. |
 
+### 2a. Reading Ramp
+*[[DR-008 - Project-First Start and Projects Ladder|DR-008]]: I learn best by building, so the build comes first and reading grows as the habit does.*
+
+| When | Reading per day | What |
+| :--- | :--- | :--- |
+| Weeks 1–4 | 0–15 min, optional | Builds only. If you feel like it: Lockhart, *Arithmetic*, ch. 1–2. |
+| Weeks 5–8 | 15–20 min | Lockhart (about a chapter a week); Williams *Style*, lessons 1–2. |
+| Weeks 9–12 | 20–30 min | Add the *Learning How to Learn* videos (Coursera Plus) and Oakley, *A Mind for Numbers*. |
+| Phase 0 (P1–P5) | up to 45 min | Each block's reading, always tied to that block's build. |
+| Year 1 onward | what the block assigns | Build first: read what the current build needs, when it needs it. |
+
+*Rule: if reading feels like a wall two days running, drop back one row for a week. The builds keep going either way. Reading volume goes up only as the habit holds.*
+
+### 2b. Weekly Mini-Build
+Every week ends with one small build (≤2 h, usually the Saturday block) tied to what I studied that week, logged in [[log]]. Weeks 1–12 use the [[Projects Ladder#🪜 Starter Sprint (Weeks 1–12)|Starter Sprint]]; after that, pick from the ideas for the current year in the [[Projects Ladder]].
+
 ---
 
 ## 3. How to Grade Myself Without a TA
@@ -132,3 +148,4 @@ Standard note structures are standardized using templates:
 | 2026-10-09 | Phase -1 (Bedrock Foundation) | [[DR-005 - Capstone and Maker Thread\|DR-005]]: Capstone redesigned as an autonomous drone-swarm prototype (civilian/dual-use, no weapons); 🔧 Maker thread (5 labs + Drone Lab); Block 19a network science and mesh; Block 24a applied crypto core; Cryptopals required; Databases and Theory of Computation optional. Planned hours 5,995. |
 | 2026-10-09 | Phase -1 (Bedrock Foundation) | [[DR-006 - Digital Twin, EW Resilience and Fun Prerequisites\|DR-006]]: Capstone gains a digital twin (M2b) and defensive, simulation-only EW resilience; every Phase −1/0 block gets a fun build; Coursera Plus companions and a NeetCode Pro sprint (ends Feb 6, 2027) added. Planned hours 6,005. |
 | 2026-10-10 | Phase -1 (Bedrock Foundation) | [[DR-007 - Repo Cleanup\|DR-007]]: Repo cleanup — 61 AI-generated or one-off archive files removed (recoverable from git), Mindset Hub merged into §7A, 11 → 8 top-level folders, decisions moved to `05 - Decisions/`. Hours unchanged (6,005). |
+| 2026-10-10 | Phase -1 (Bedrock Foundation) | [[DR-008 - Project-First Start and Projects Ladder\|DR-008]]: Build first — Week 1 checklist, 12-week Starter Sprint of fun builds, books become companions on a stated Reading Ramp (§2a), weekly mini-build (§2b), every block has a build, [[Projects Ladder]]. Hours unchanged (6,005). |

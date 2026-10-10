@@ -60,6 +60,14 @@ Work all assigned problem sets and review recitation derivations.
 
 ---
 
+## 🔨 Project Build (DR-008, 2026-10-10)
+**E&M field simulator + electromagnet.** Simulate point charges (field lines, equipotentials) and a current loop (Biot–Savart) in Python. Bench part: wind an electromagnet (💲 about $10 for magnet wire and a nail; sim-only is fine) and read its field with the phyphox magnetometer.
+- **Done when:** the simulated point charge and dipole match Coulomb's law within 1%, a numerical Gauss's-law check passes, and the measured field rises in proportion to current.
+- **Reading supports the build:** Each 8.02 unit adds one feature to the simulator.
+- **Hours:** inside the block's existing hours; it replaces the recitation write-ups (problem sets and the final stay).
+
+---
+
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > 8.02 final exam passed.

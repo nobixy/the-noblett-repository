@@ -31,6 +31,14 @@ Writing is not an art of mystical inspiration; it is **software engineering for 
 - *None. This is a foundational block.*
 
 
+## 🚀 Build First (DR-008, 2026-10-10)
+Grammar is learned here by making things that use it. Williams *Style* becomes a 15-min companion from Week 5 (lessons 1–2 first). Huddleston & Pullum is a reference: look things up when a build needs it, don't read it cover to cover.
+- **Week 6, Twine branching story** (Pillars 3–5, free at twinery.org): **done when** it has 1,500 words and 3 endings, every choice passes the Williams rules, and a friend played it. It replaces 4 of the 14 copywork days (DR-006).
+- **Week 7, Python sentence machine** (Pillars 1–2): random sentences from the 4 core sentence patterns. **Done when** it prints 20 grammatical sentences and you can mark subject, verb and object in each by hand.
+- **Hours:** inside the existing 40 h; the builds replace reading time.
+
+---
+
 ## 📖 Primary Resources & Texts
 1. **Rodney Huddleston & Geoffrey Pullum**, *A Student's Introduction to English Grammar*  
    *(The definitive modern, linguistically accurate guide to English syntax).*

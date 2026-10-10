@@ -41,13 +41,13 @@ Everything downstream assumes you know how memory, practice, and attention actua
 
 
 ## 📖 Primary Syllabus & Actions
-- [ ] **Oakley, *A Mind for Numbers***: Read cover to cover.
+- [ ] **Oakley, *A Mind for Numbers***: read as a 20–30 min/day companion while you take the course (it covers the same ideas).
 - [ ] **Coursera *Learning How to Learn***: Complete all 4 weeks of video lectures:
   - [ ] Week 1: What is Learning? Focused vs. Diffuse Mode, Procrastination, Memory.
   - [ ] Week 2: Chunking, Illusion of Competence, Retrieval Practice, Value of Spacing.
   - [ ] Week 3: Procrastination & Habits, Memory Techniques.
   - [ ] Week 4: Renaissance Learning, Unleashing Potential, Test Taking.
-- [ ] **Brown, Roediger & McDaniel, *Make It Stick***: Read the evidence behind Oakley (retrieval practice, spacing, interleaving, why rereading/highlighting feel effective and aren't).
+- [ ] *(Moved to Year 1 Companion Reading by DR-008; the Dunlosky summary table (next item) covers the core evidence now.)* **Brown, Roediger & McDaniel, *Make It Stick***: Read the evidence behind Oakley (retrieval practice, spacing, interleaving, why rereading/highlighting feel effective and aren't).
 - [ ] **Dunlosky et al. (2013)**: *"Improving Students' Learning With Effective Learning Techniques"* (Free PDF) — Read at least the summary table of which techniques work and which don't.
 - [ ] **Scott Young, *Ultralearning*** (Evening skim): Skim chapters on directness and drilling.
 
@@ -57,6 +57,7 @@ Everything downstream assumes you know how memory, practice, and attention actua
 1. **Anki Setup:** Install Anki and write your first 20 cards from *A Mind for Numbers* and *Make It Stick*, automated via `python` scripts or manual card decks tracked in `git`.
 2. **Weekly Template:** Finalize your personal weekly schedule (based on Appendix B.2) in [[how-i-study]] using `bash` and markdown text templates.
 3. **Study System Document:** Write the one-page "how I will study" document in [[how-i-study]] — this becomes the living doc revised every 6 months.
+4. **Flashcard app (Starter Sprint Week 9, DR-008):** a Python app with Leitner boxes for your first 20 cards. **Done when** it schedules all 20 and you used it 7 days in a row. Replaces *Make It Stick* reading time.
 
 ---
 
