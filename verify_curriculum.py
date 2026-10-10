@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read-only consistency check for the curriculum (see DR-002, DR-003).
+"""Read-only consistency check for the curriculum (see DR-002, DR-003, DR-005).
 
 Run from anywhere: python3 verify_curriculum.py
 Exit code 0 = clean, 1 = problems found. Never writes files.
@@ -23,7 +23,7 @@ SKIP_DIRS = {".obsidian", ".git", ".trash", "node_modules"}
 REQUIRED = ["block_id", "title", "category", "term", "status", "prerequisites", "hours_estimate",
             "hours_actual", "primary_resource", "milestone", "date_started", "date_completed", "tier", "subject"]
 CATEGORIES = {"core", "elective", "specialization"}
-ID_RE = re.compile(r"^(B0|BM|BW|P[1-5]|Block \d+a?|E\d+|Track \d+)$")
+ID_RE = re.compile(r"^(B0|BM|BW|P[1-5]|Block \d+[a-z]?|E\d+|Track \d+)$")  # 8b, 15b etc. since DR-005
 HEADINGS = ["## 🔗 Prerequisites", "## 🏁 Mastery Criteria & Assessments", "## ➡️ Next Steps"]
 HUB = "00 - Start Here"
 
@@ -38,7 +38,7 @@ def stage_of(bid):
         0 if n <= 8 else 1 if n <= 15 else 2 if n <= 22 else 3 if n <= 29 else 4]
 
 def prefix(bid):
-    m = re.match(r"Block (\d+)(a?)$", bid)
+    m = re.match(r"Block (\d+)([a-z]?)$", bid)
     if m: return f"B{int(m.group(1)):02d}{m.group(2)}"
     m = re.match(r"Track (\d+)$", bid)
     if m: return f"T{int(m.group(1)):02d}"

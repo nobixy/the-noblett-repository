@@ -77,6 +77,7 @@ SORT key ASC
 ---
 
 ### Year 1: Learn to Program. Learn to Prove.
+*🔧 = Maker thread (Labs 1–5 + Drone Lab), the hands-on track that runs beside the theory and feeds the capstone ([[DR-005 - Capstone and Maker Thread|DR-005]]).*
 - [ ] **[[B01 - CS61A|Block 1]]:** 💼1 Berkeley CS61A (*Composing Programs*, Scheme interpreter + extension) — *Past CS61A final timed & closed-book ≥70%.*
 - [ ] **[[B02 - Calculus I|Block 2]]:** Calculus I (MIT 18.01SC, Strang) — *18.01 final, timed, closed-book, passed.*
 - [ ] **[[B03 - Physics I|Block 3]]:** Physics I (MIT 8.01SC, ✓ *Six Easy Pieces*) — *8.01 final passed.*
@@ -88,6 +89,7 @@ SORT key ASC
 - [ ] **[[B07 - Multivariable Calculus|Block 7]]:** Multivariable Calculus (MIT 18.02SC) — *18.02 final passed.*
 - [ ] **[[B08 - Physics II|Block 8]]:** Physics II (MIT 8.02) — *8.02 final passed.*
 - [ ] **[[B08a - Circuits and Electronics Bridge|Block 8a]]:** Circuits & Electronics Bridge (MIT 6.002 / 6.2000, Agarwal & Lang) — *Design & test 4th-order Sallen-Key Butterworth filter in SPICE & breadboard.*
+- [ ] **[[B08b - Maker Lab 1 - Electronics Bench|Block 8b]]:** 🔧 Maker Lab 1: Electronics Bench, Soldering & Arduino (SparkFun/Adafruit, Wokwi sim first) — *Soldered kit, sensor logger, MOSFET motor driver all work.* *(new, [[DR-005 - Capstone and Maker Thread|DR-005]])*
 - [ ] **Year 1 Companion Reading:** ✓ *What Is Mathematics?* ch. 1–2, 6–8.
 - [ ] **Year 1 Writing Deliverable:** 12 published technical blog posts + one 2,000-word essay with visible revision history.
 
@@ -95,6 +97,7 @@ SORT key ASC
 
 ### Year 2: The Systems Year
 - [ ] **[[B09 - Computer Systems|Block 9]]:** 💼3 Computer Systems (✓ *CS:APP*, CMU 15-213) — *All 7 labs pass; malloc lab score ≥90.*
+- [ ] **[[B09a - Maker Lab 2 - Embedded C|Block 9a]]:** 🔧 Maker Lab 2: Embedded C on RP2350/ESP32 (Pico SDK, ESP-IDF/FreeRTOS, Valvano) — *Own IMU driver; propeller see-saw holds ±3° with PID.* *(new, [[DR-005 - Capstone and Maker Thread|DR-005]])*
 - [ ] **[[B10 - Math for CS|Block 10]]:** 💼2 Mathematics for Computer Science (MIT 6.1200J / 6.042J, ✓ *Velleman* 4–7, ✓ *What Is Math?* 3–5) — *6.042 final passed, timed.*
 - [ ] **[[B11 - Linear Algebra|Block 11]]:** Linear Algebra (MIT 18.06 + Axler *LADR* 4e) — *18.06 final passed & Axler ch. 1–5 exercises done; NumPy builds.*
 - [ ] **[[B12 - Interpreters|Block 12]]:** 💼4 Interpreters (✓ *Ball* Go Monkey → Nystrom *clox*) — *clox passes book's full test suite.*
@@ -102,6 +105,7 @@ SORT key ASC
 - [ ] **[[B14 - Computer Architecture|Block 14]]:** 💼3 Computer Architecture (ETH Zürich DDCA Mutlu, Harris & Harris RISC-V) — *Pipelined RISC-V core runs compiled C program.*
 - [ ] **[[B15 - Probability|Block 15]]:** Probability (MIT 6.041 / 6.3700) — *Final passed; derive standard distributions/moments & solve Markov chains.*
 - [ ] **[[B15a - Signals and Systems Bridge|Block 15a]]:** Signals & Systems Bridge (MIT 6.003 / 6.3000, Oppenheim & Willsky) — *Implement real-time audio FFT DSP filterbank in C or Rust.*
+- [ ] **[[B15b - Maker Lab 3 - CAD and 3D Printing|Block 15b]]:** 🔧 Maker Lab 3: CAD & 3D Printing (Onshape/FreeCAD, PrusaSlicer, makerspace) — *Enclosure, IMU damper mount, prop guard fit by revision 3.* *(new, [[DR-005 - Capstone and Maker Thread|DR-005]])*
 - [ ] **Year 2 Breadth (HASS):** Petzold, *Code, 2nd ed.* / Sandel, *Justice*.
 - [ ] **Year 2 Writing Deliverable:** 12 posts + 5,000-word technical design doc (CPU or interpreter) + monthly paper summaries (3-pass).
 
@@ -109,11 +113,14 @@ SORT key ASC
 
 ### Year 3: Depth
 - [ ] **[[B16 - Operating Systems|Block 16]]:** 💼4 Operating Systems (✓ *How Linux Works* reread, OSTEP, MIT 6.1810 xv6) — *All xv6 labs pass make grade + minimal bootable kernel.*
+- [ ] **[[B16a - Maker Lab 4 - Raspberry Pi and Embedded Linux|Block 16a]]:** 🔧 Maker Lab 4: Raspberry Pi & Embedded Linux (Bootlin, libgpiod, Buildroot) — *Companion computer survives 50 power cycles + 1 h UART fuzzing.* *(new, [[DR-005 - Capstone and Maker Thread|DR-005]])*
 - [ ] **[[B17 - Software Construction|Block 17]]:** 💼5 Software Construction (MIT 6.102 readings + 6.005 psets, Ousterhout *Philosophy of Software Design*) — *Rebuilt clox/Monkey under spec, rep invariants, AF.*
 - [ ] **[[B18 - Real Analysis|Block 18]]** *(optional since [[DR-004 - Content Overhaul|DR-004]], outside the hour budget)*: Real Analysis (Abbott *Understanding Analysis*, MIT 18.100A) — *Prove Bolzano–Weierstrass, EVT, uniform-continuity from definitions unaided.*
 - [ ] **[[B19 - Networking|Block 19]]:** 💼4 Networking (Stanford CS144, Kurose & Ross) — *All 8 labs pass; TCP stack fetches real web page.*
+- [ ] **[[B19a - Wireless, Mesh and Network Science|Block 19a]]:** Wireless, Mesh & Network Science (Bullo *Network Systems*, Barabási, Kurose ch. 7, batman-adv/802.11s) — *Consensus on a real mesh matches the λ2 prediction within 2x.* *(new, [[DR-005 - Capstone and Maker Thread|DR-005]])*
 - [ ] **[[B20 - Algorithms II|Block 20]]:** Algorithms II (MIT 6.046J, Kleinberg & Tardos) — *6.046 final passed; Codeforces ≥1600; 45-min unseen problem.*
-- [ ] **[[B21 - Databases|Block 21]]:** 💼5 Databases (CMU 15-445, BusTub, DDIA) — *All four BusTub projects pass Gradescope; DDIA read cover to cover.*
+- [ ] **[[B21 - Databases|Block 21]]** *(optional since [[DR-005 - Capstone and Maker Thread|DR-005]], outside the hour budget)*: Databases (CMU 15-445, BusTub, DDIA) — *All four BusTub projects pass Gradescope; DDIA read cover to cover.*
+- [ ] **[[B21a - Maker Lab 5 - PCB Design|Block 21a]]:** 🔧 Maker Lab 5: PCB Design (KiCad) — *Own 2-layer MCU + IMU board passes DRC and brings up.* *(new, [[DR-005 - Capstone and Maker Thread|DR-005]])*
 - [ ] **[[B22 - Statistics|Block 22]]:** Statistics (Wasserman *All of Statistics*, McElreath *Statistical Rethinking*) — *Real dataset MLE, CI, hypothesis tests, MCMC Bayesian inference.*
 - [ ] **[[B22a - Machine Learning|Block 22a]]:** Machine Learning (MIT 6.390 + MITx 6.036 OLL autograder, Stanford CS229 notes) — *All OLL exercises pass; regression, classifiers, a neural net and k-means built from scratch in NumPy.* *(new, DR-004)*
 - [ ] **Year 3 Breadth (HASS):** MIT 14.01 Microecon / MIT 5.111 / 7.01SC Science.
@@ -125,21 +132,23 @@ SORT key ASC
 *Specialization A opens at Block 26, once Blocks 23–25a are done. Choose both tracks before Block 26 and clear `optional: true` on those two notes (DR-001). Employability Portfolio due by end of Year 4.*
 - [ ] **[[B23 - Distributed Systems|Block 23]]:** 💼5 Distributed Systems (MIT 6.5840 / 6.824, Kleppmann) — *All labs pass 500 consecutive runs under `go test -race`.*
 - [ ] **[[B23a - Parallel Computing|Block 23a]]:** Parallel Computing (Stanford CS149: SIMD, threads, CUDA) — *Assignments 1–3 correct and fast; thread pool clean under ThreadSanitizer.* *(was elective E4; core since DR-004)*
-- [ ] **[[B24 - Theory of Computation|Block 24]]:** Theory of Computation (MIT 18.404J Sipser videos, ✓ *Hopcroft*) — *18.404J final passed; prove NP-completeness and undecidability by reduction.*
+- [ ] **[[B24 - Theory of Computation|Block 24]]** *(optional since [[DR-005 - Capstone and Maker Thread|DR-005]], outside the hour budget)*: Theory of Computation (MIT 18.404J Sipser videos, ✓ *Hopcroft*) — *18.404J final passed; prove NP-completeness and undecidability by reduction.*
+- [ ] **[[B24a - Applied Cryptography and Protocol Security|Block 24a]]:** Applied Cryptography & Protocol Security (Boneh Crypto I, Boneh–Shoup, Noise/WireGuard, MAVLink 2 signing) — *Crypto I done; secure swarm link fails closed under replay/tamper.* *(new, [[DR-005 - Capstone and Maker Thread|DR-005]])*
 - [ ] **[[B25 - Convex Optimization|Block 25]]:** Convex Optimization (Boyd & Vandenberghe, Stanford EE364A) — *EE364A homework 1–8 done; CVXPY project + manual KKT.*
 - [ ] **[[B25a - Deep Learning|Block 25a]]:** Deep Learning (Karpathy *Zero to Hero*, Stanford CS231n, Prince *UDL*) — *Autograd engine + GPT from scratch; CS231n assignments 1–3 pass their checks.* *(new, DR-004)*
 - [ ] **[[Specialization Branches|Block 26]]:** Specialization A — Course 1.
-- [ ] **[[B27 - Intensive Cryptopals|Block 27]]:** January Intensive: Cryptopals (all 8 sets) OR TLA+ (spec Raft, find real bug).
+- [ ] **[[B27 - Intensive Cryptopals|Block 27]]:** January Intensive: Cryptopals (required since [[DR-005 - Capstone and Maker Thread|DR-005]]) — *Sets 1–6 solved with tests; 7–8 stretch.*
+- [ ] **[[B27a - Drone Lab - Flight Stack, ROS 2 and SITL|Block 27a]]:** 🔧 Drone Lab: PX4/ArduPilot SITL, Gazebo, ROS 2, Crazyswarm2 — *10/10 SITL missions (3 vehicles); one micro-drone flies indoors; failsafes logged.* *(new, [[DR-005 - Capstone and Maker Thread|DR-005]])*
 - [ ] **[[Specialization Branches|Block 28]]:** Specialization A — Course 2.
 - [ ] **[[Specialization Branches|Block 29]]:** Specialization B — Course 1.
 - [ ] **[[Employability Portfolio and Review|Employability Portfolio]]** 💼5 — *Due by end of Year 4: three public projects, resume, outside review ([[DR-001 - Program Scope, Phases, and Timeline|DR-001]]).*
 - [ ] **Year 4 Breadth (HASS):** MIT 6.805 Ethics / Hofstadter *Gödel, Escher, Bach*.
-- [ ] **Year 4 Writing Deliverable:** Capstone proposal (3,000 words: problem, related work, plan, evaluation criteria).
+- [ ] **Year 4 Writing Deliverable:** Capstone proposal = Capstone milestone M0 (3,000 words: problem, related work, plan, evaluation criteria, threat model, safety case).
 
 ---
 
 ### Year 5: The MEng Year
-- [ ] **[[B30 - Magnum Opus Capstone|Block 30]]:** Capstone Project (System / Research Replicate / Open Source / Tape out Chip).
+- [ ] **[[B30 - Magnum Opus Capstone|Block 30]]:** Capstone: Autonomous Drone Swarm Prototype (decentralized coordination, secure mesh, on-board perception, GPS-denied nav; sim first, then 3+ small drones; no weapons) — *Milestones M0–M6 met.* *(redesigned, [[DR-005 - Capstone and Maker Thread|DR-005]])*
 - [ ] **Capstone Artifact:** Public artifact with documentation.
 - [ ] **Capstone Thesis:** 15,000–25,000 words.
 - [ ] **Capstone Talk:** 30-minute recorded presentation.
@@ -159,6 +168,8 @@ SORT key ASC
 
 ## Specialization Branches (Elective)
 *Specialization A starts at Block 26, after every 💼5 course is done (Year 4 in [[#The Path|The Path]]). Pick two tracks for the Program and run them one at a time; the rest are Lifelong Continuation. Entering early "when professionally required" needs a Decision Record.*
+
+**Recommended for the drone-swarm capstone ([[DR-005 - Capstone and Maker Thread|DR-005]]; a recommendation, not a choice):** Specialization A = [[T09 - Autonomous Robotics|Track 9 Robotics, Control and CPS]]; Specialization B = [[T07 - TinyML and Edge AI|Track 7 TinyML and Edge AI]]. Alternatives for B: Track 3 Security or Track 11 Signals and Communications.
 
 - [[T01 - Deep AI and Machine Learning|Track 1 - AI and Machine Learning]]
 - [[T02 - Advanced Systems and Performance|Track 2 - Systems and Performance (incl. Rust)]]
@@ -208,7 +219,7 @@ Continuous, low-friction daily habits:
 ### 🧭 North Star
 **Goal:** Complete the equivalent of a rigorous MIT Course 6-3 SB + MEng, and then continue executing an infinite, lifelong learning sequence bridging post-doc level depth across quantum computing, computational biology, formal verification, and pure mathematics. This is a magnum opus of self-education.
 
-**Budget:** The *Program* (Phase −1 → Year 5 Capstone: core blocks + two specialization tracks + habits, ≈7,600–8,100 h; see [[DR-004 - Content Overhaul|DR-004]]) is timeboxed at ~8 years; below 15 hrs/wk, cut scope (Physics → Statistics → second track) instead of extending. After the Capstone, *Lifelong Continuation* (remaining tracks and beyond) has no deadline. Structure: 7 stages (Phase −1, Phase 0, Years 1–5) in [[#The Path|The Path]]; the 💼1–💼5 markers there are the employability path through them. See [[DR-001 - Program Scope, Phases, and Timeline|DR-001]].
+**Budget:** The *Program* (Phase −1 → Year 5 Capstone: core blocks + two specialization tracks + habits, ≈7,800–8,300 h; see [[DR-005 - Capstone and Maker Thread|DR-005]]) is timeboxed at ~8 years; below 15 hrs/wk, cut scope (Physics → Statistics → second track) instead of extending. After the Capstone, *Lifelong Continuation* (remaining tracks and beyond) has no deadline. Structure: 7 stages (Phase −1, Phase 0, Years 1–5) in [[#The Path|The Path]]; the 💼1–💼5 markers there are the employability path through them. See [[DR-001 - Program Scope, Phases, and Timeline|DR-001]].
 
 **The five rules** (from [[The Independent EECS Program.pdf|the source program]]):
 1. No lecture without its problem set the same week.

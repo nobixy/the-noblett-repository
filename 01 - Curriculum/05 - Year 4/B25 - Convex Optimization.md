@@ -94,4 +94,4 @@ Formulate and solve large-scale convex optimization problems in `python` using `
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[00 - Start Here#The Path|The Path]]
-- **Sequential Flow:** [[B24 - Theory of Computation|← Theory of Computation]] | [[00 - Start Here|Start Here]] | [[B25a - Deep Learning|Deep Learning →]]
+- **Sequential Flow:** [[B24a - Applied Cryptography and Protocol Security|← Applied Cryptography]] | [[00 - Start Here|Start Here]] | [[B25a - Deep Learning|Deep Learning →]]

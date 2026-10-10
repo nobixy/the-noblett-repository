@@ -225,6 +225,11 @@ A production-grade compiler pipeline implemented in OCaml, Rust, or C++ that com
 
 ---
 
+## 🛩️ Capstone Link (DR-005, 2026-10-09)
+**TLA+ moved here from Block 27.** Lamport's TLA+ course and learntla.com (free); a stretch for the capstone is a TLA+ spec of the swarm's task-allocation protocol checked with TLC.
+
+---
+
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > Assessment criteria go here.

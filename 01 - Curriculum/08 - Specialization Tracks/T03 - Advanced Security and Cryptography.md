@@ -13,6 +13,7 @@ prerequisites:
   - "B16 - Operating Systems"
   - "B19 - Networking"
   - "B27 - Intensive Cryptopals"
+  - "B24a - Applied Cryptography and Protocol Security"
 target_profile: "Cryptographic Engineer, Security Researcher, Binary Exploitation Specialist, High-Assurance Systems Auditor"
 aliases: [Track 3 - Security and Cryptography, Track 3 - Cryptography and Systems Security, "Advanced Security and Cryptography"]
 tier: "Tier 3 - Depth"
@@ -29,7 +30,7 @@ date_completed: ""
 
 > [!INFO] Track Overview
 > - **Track ID:** Track 3
-> - **Prerequisites:** [[B06 - C Fluency|C Fluency]], [[B09 - Computer Systems|Computer Systems]], [[B10 - Math for CS|Math for CS]], [[B16 - Operating Systems|Operating Systems]], [[B19 - Networking|Networking]], [[B27 - Intensive Cryptopals|Intensive Cryptopals]]
+> - **Prerequisites:** [[B06 - C Fluency|C Fluency]], [[B09 - Computer Systems|Computer Systems]], [[B10 - Math for CS|Math for CS]], [[B16 - Operating Systems|Operating Systems]], [[B19 - Networking|Networking]], [[B27 - Intensive Cryptopals|Intensive Cryptopals]], [[B24a - Applied Cryptography and Protocol Security|Applied Cryptography]]
 > - **Target Profile:** Cryptographic Engineer, Security Researcher, Binary Exploitation Specialist, High-Assurance Systems Auditor
 > - **Structure:** Two core courses plus three progressive labs and one comprehensive capstone build deliverable.
 > - **Curriculum Position:** Elective specialization block across Years 4 & 5 (*"Two deep beats six shallow"*).
@@ -52,6 +53,7 @@ This track bridges rigorous mathematical cryptography (provable security reducti
 - [[B16 - Operating Systems|Operating Systems]]
 - [[B19 - Networking|Networking]]
 - [[B27 - Intensive Cryptopals|Intensive Cryptopals]]
+- [[B24a - Applied Cryptography and Protocol Security|Applied Cryptography and Protocol Security]]
 
 
 
@@ -214,6 +216,11 @@ A secure, multi-party end-to-end encrypted messaging engine written in Rust or C
   # Run memory safety checks under Miri
   cargo miri test
   ```
+
+---
+
+## 🛩️ Capstone Link (DR-005, 2026-10-09)
+**Alternative Specialization B for the capstone** (instead of Track 7) if you want the comms-security and red-team side to lead. Builds on [[B24a - Applied Cryptography and Protocol Security|Block 24a]] and [[B27 - Intensive Cryptopals|Block 27]].
 
 ---
 

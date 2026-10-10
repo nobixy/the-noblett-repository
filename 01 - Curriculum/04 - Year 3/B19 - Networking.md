@@ -70,6 +70,11 @@ All eight Stanford CS144 labs: implement a complete, working TCP stack in modern
 
 ---
 
+## 📡 Wireless and Mesh (DR-005, 2026-10-09)
+Read Kurose & Ross ch. 7 (Wireless and Mobile Networks) alongside CS144; free videos at gaia.cs.umass.edu/kurose_ross/. The next block, [[B19a - Wireless, Mesh and Network Science|Block 19a]], takes this into mesh networking, network science and multi-agent consensus for the swarm capstone.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*
@@ -87,4 +92,4 @@ All eight Stanford CS144 labs: implement a complete, working TCP stack in modern
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[00 - Start Here#The Path|The Path]]
-- **Sequential Flow:** [[B18 - Real Analysis|← Real Analysis]] | [[00 - Start Here|Start Here]] | [[B20 - Algorithms II|Algorithms II →]]
+- **Sequential Flow:** [[B18 - Real Analysis|← Real Analysis]] | [[00 - Start Here|Start Here]] | [[B19a - Wireless, Mesh and Network Science|Wireless, Mesh and Network Science →]]

@@ -88,4 +88,4 @@ Work through every assigned problem set in MIT 6.042J, typesetting complete form
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[00 - Start Here#The Path|The Path]]
-- **Sequential Flow:** [[B09 - Computer Systems|← Computer Systems]] | [[00 - Start Here|Start Here]] | [[B11 - Linear Algebra|Linear Algebra →]]
+- **Sequential Flow:** [[B09a - Maker Lab 2 - Embedded C|← Maker Lab 2]] | [[00 - Start Here|Start Here]] | [[B11 - Linear Algebra|Linear Algebra →]]

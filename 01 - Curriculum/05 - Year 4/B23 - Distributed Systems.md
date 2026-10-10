@@ -6,7 +6,6 @@ subject: "Software Engineering"
 term: "Year 4 Fall"
 status: not-started
 prerequisites:
-  - "B21 - Databases"
   - "B19 - Networking"
 hours_estimate: 220
 hours_actual: 0
@@ -42,7 +41,6 @@ How multiple computers collaborate, achieve consensus, and survive arbitrary mac
 
 ## 🔗 Prerequisites
 *What must you have mastered before starting this block?*
-- [[B21 - Databases|Databases]]
 - [[B19 - Networking|Networking]]
 
 

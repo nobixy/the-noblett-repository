@@ -144,4 +144,4 @@ The most under-appreciated course in the MIT degree. How to write complex code t
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Languages Index|Languages Index]] | [[00 - Start Here#The Path|The Path]]
-- **Sequential Flow:** [[B16 - Operating Systems|← Operating Systems]] | [[00 - Start Here|Start Here]] | [[B18 - Real Analysis|Real Analysis →]]
+- **Sequential Flow:** [[B16a - Maker Lab 4 - Raspberry Pi and Embedded Linux|← Maker Lab 4]] | [[00 - Start Here|Start Here]] | [[B18 - Real Analysis|Real Analysis →]]

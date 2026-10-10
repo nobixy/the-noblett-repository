@@ -20,4 +20,4 @@ tags:
 ## Reference Courses
 - [[B13 - Algorithms I|Algorithms I]] (MIT 6.006)
 - [[B20 - Algorithms II|Algorithms II]] (MIT 6.046J)
-- [[B24 - Theory of Computation|Theory of Computation]] (MIT 6.045)
+- [[B24 - Theory of Computation|Theory of Computation]] (MIT 18.404J; optional since DR-005)

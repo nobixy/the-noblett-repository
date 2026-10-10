@@ -15,6 +15,7 @@ milestone: "All 4 BusTub projects pass Gradescope; DDIA read cover to cover"
 date_started: ""
 date_completed: ""
 tier: "Tier 1 - Core"
+optional: true # outside the hour budget since DR-005
 job_ready: 5 # job-ready path, phase 5 (DR-003)
 aliases: ["Databases"]
 ---
@@ -22,6 +23,9 @@ aliases: ["Databases"]
 # Block 21 — Database Systems (CMU 15-445/645 & DDIA)
 
 [[00 - Start Here|Start Here]] / [[00 - Start Here#The Path|The Path]] / [[Systems Index|Systems Index]]
+
+> [!NOTE] Optional since [[DR-005 - Capstone and Maker Thread|DR-005]] (2026-10-09)
+> Outside the hour budget, to make room for the Maker Labs, Block 19a and Block 24a within the DR-001 cap. Database internals are the least swarm-relevant 💼5 course; replication and partitioning stay core in Block 23 (DDIA). Do it before Track 2 or Track 10, or after the Capstone.
 
 > [!INFO] Block Overview
 > - **Term / Position:** Year 3 Spring
@@ -93,4 +97,4 @@ Implement all four CMU BusTub projects in `c++` using `cmake`, debugged with `gd
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[00 - Start Here#The Path|The Path]]
-- **Sequential Flow:** [[B20 - Algorithms II|← Algorithms II]] | [[00 - Start Here|Start Here]] | [[B22 - Statistics|Statistics →]]
+- **Sequential Flow:** [[B20 - Algorithms II|← Algorithms II]] | [[00 - Start Here|Start Here]] | [[B21a - Maker Lab 5 - PCB Design|Maker Lab 5 →]]

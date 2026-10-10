@@ -243,4 +243,4 @@ You must implement a production-grade, zero-dependency digital signal processing
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Math Index|Math Index]] | [[00 - Start Here#The Path|The Path]]
-- **Sequential Flow:** [[B15 - Probability|← Probability]] | [[00 - Start Here|Start Here]] | [[B16 - Operating Systems|Operating Systems →]]
+- **Sequential Flow:** [[B15 - Probability|← Probability]] | [[00 - Start Here|Start Here]] | [[B15b - Maker Lab 3 - CAD and 3D Printing|Maker Lab 3 →]]

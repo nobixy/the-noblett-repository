@@ -102,4 +102,4 @@ Complete all seven canonical CMU 15-213 (CS:APP) systems labs in `c` on `linux` 
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Systems Index|Systems Index]] | [[00 - Start Here#The Path|The Path]]
-- **Sequential Flow:** [[B08a - Circuits and Electronics Bridge|← Circuits and Electronics Bridge]] | [[00 - Start Here|Start Here]] | [[B10 - Math for CS|Math for CS →]]
+- **Sequential Flow:** [[B08b - Maker Lab 1 - Electronics Bench|← Maker Lab 1]] | [[00 - Start Here|Start Here]] | [[B09a - Maker Lab 2 - Embedded C|Maker Lab 2 →]]

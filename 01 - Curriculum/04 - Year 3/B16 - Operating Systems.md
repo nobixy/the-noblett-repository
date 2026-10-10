@@ -92,4 +92,4 @@ Complete every single MIT 6.1810 xv6 lab in `c` using `gcc`, debugged with `gdb`
   - Overview: [[00 - Start Here|Start Here]]
   - Next: [[B17 - Software Construction|Block 17 — Software Construction]]
 
-- **Sequential Flow:** [[B15a - Signals and Systems Bridge|← Signals and Systems Bridge]] | [[00 - Start Here|Start Here]] | [[B17 - Software Construction|Software Construction →]]
+- **Sequential Flow:** [[B15b - Maker Lab 3 - CAD and 3D Printing|← Maker Lab 3]] | [[00 - Start Here|Start Here]] | [[B16a - Maker Lab 4 - Raspberry Pi and Embedded Linux|Maker Lab 4 →]]

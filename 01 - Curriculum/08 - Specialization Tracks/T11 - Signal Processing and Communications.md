@@ -79,6 +79,11 @@ A software-defined-radio receiver for a real over-the-air digital signal, writte
 
 ---
 
+## 🛩️ Capstone Link (DR-005, 2026-10-09)
+**Capstone link:** the physical layer under the swarm's mesh (modulation, coding, interference, SDR). Pick it as Specialization B instead of Track 7 if radio links interest you more than on-board ML; [[B19a - Wireless, Mesh and Network Science|Block 19a]] gives the receive-only SDR basics either way.
+
+---
+
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > 6.341 and 6.02 problem sets done; all three labs verified against reference tools; the capstone decodes real signals captured over the air (or from public recordings) with measured performance within a stated margin of theory.

@@ -210,4 +210,4 @@ You must design, simulate in SPICE (LTspice or ngspice), and physically breadboa
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Hardware Index|Hardware Index]] | [[00 - Start Here#The Path|The Path]]
-- **Sequential Flow:** [[B08 - Physics II|← Physics II]] | [[00 - Start Here|Start Here]] | [[B09 - Computer Systems|Computer Systems →]]
+- **Sequential Flow:** [[B08 - Physics II|← Physics II]] | [[00 - Start Here|Start Here]] | [[B08b - Maker Lab 1 - Electronics Bench|Maker Lab 1 →]]

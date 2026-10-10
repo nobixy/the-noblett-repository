@@ -220,6 +220,11 @@ An end-to-end, fully autonomous cyber-physical intelligence system deployed to a
 
 ---
 
+## 🛩️ Capstone Link (DR-005, 2026-10-09)
+**Recommended Specialization B for the drone-swarm capstone.** On-board perception (capstone milestone M4) is a quantized detector on a microcontroller or companion computer; build the Track 7 capstone on the drone's own hardware so it carries straight into [[B30 - Magnum Opus Capstone|Block 30]].
+
+---
+
 ## 🏁 Mastery Criteria & Assessments
 > [!IMPORTANT]
 > Assessment criteria go here.

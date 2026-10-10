@@ -52,10 +52,10 @@ The core degree requirements mandate completing tangible, production-grade softw
 - [ ] **Block 25:** [[B25 - Convex Optimization|25 - Convex Optimization]]: Portfolio optimization and trajectory planner formulated in CVXPY / SciPy with manual derivation and implementation of KKT optimality conditions.
 - [ ] **Block 25a:** [[B25a - Deep Learning|25a - Deep Learning]]: micrograd autograd engine, a GPT trained from scratch, CS231n assignments 1–3, and one small paper reproduction.
 - [ ] **Block 26:** [[Specialization Branches|26 - Specialization A1]]: Primary Specialization Foundational Systems Build in Rust, C++, or Python: core algorithmic substrate, runtime environment integration, and concurrency race detection verified with `pytest` or `cargo test`.
-- [ ] **Block 27:** [[B27 - Intensive Cryptopals|27 - Intensive Cryptopals or TLA+]]: Complete solution of all 8 Cryptopals crypto challenges (AES-CBC padding oracles, ECB byte-at-a-time, RSA signature forgery, Diffie-Hellman MITM) OR formal TLA+ specification and model-checking bug reproduction of Raft/Paxos.
+- [ ] **Block 27:** [[B27 - Intensive Cryptopals|27 - Intensive Cryptopals]]: Cryptopals sets 1–6 (7–8 stretch) solved from scratch with tests: CBC padding oracles, ECB byte-at-a-time, length extension, DH MITM, Bleichenbacher, DSA nonce reuse. TLA+ moved to Track 5 (DR-005).
 - [ ] **Block 28:** [[Specialization Branches|28 - Specialization A2]]: Primary Specialization Advanced Systems Engine in Rust, C++, or Python: standalone high-performance system artifact, quantitative throughput/latency benchmarking, and formal invariant test harness with `valgrind` or sanitizers.
 - [ ] **Block 29:** [[Specialization Branches|29 - Specialization B1]]: Secondary Specialization Applied Domain Pipeline in Rust, C++, or Python: domain component implementation, automated bit-exact verification with `pytest` or `cargo test`, and system resource profiling with `valgrind`.
-- [ ] **Block 30:** [[B30 - Magnum Opus Capstone|30 - Capstone]]: Master's Engineering Capstone: 10,000+ line production systems codebase, seminal research paper replication, or physical ASIC tapeout meeting formal usability and empirical performance metrics.
+- [ ] **Block 30:** [[B30 - Magnum Opus Capstone|30 - Capstone]]: Autonomous Drone Swarm Prototype: decentralized consensus/formation/task allocation, MARL vs classical baseline, on-board TinyML perception, encrypted authenticated mesh (Noise/WireGuard, MAVLink 2 signing), GPS-denied nav, fail-safes, red team; sim first (PX4/ArduPilot SITL, Gazebo, ROS 2, Crazyswarm2), then 3+ small drones indoors. Staged milestones M0–M6 (DR-005).
 - [ ] **Block 31:** [[Specialization Branches|31 - Specialization B2]]: Secondary Specialization Scaled Infrastructure Engine in Rust, C++, or Python: advanced domain module, automated regression harness in `pytest` or `cargo test`, and quantitative profiling integrated into Year 5 Capstone.
 - [ ] **Block 32:** [[B32 - Information Theory|32 - Information Theory]]: Shannon-Fano, Huffman, and Lempel-Ziv-Welch (LZW) universal compression and decompression utility with channel capacity simulation.
 
@@ -68,6 +68,21 @@ Core since [[DR-004 - Content Overhaul|DR-004]]: MIT's 6-5 (Electrical Engineeri
 - [ ] **Block 04a:** [[B04a - Differential Equations Bridge|04a - Differential Equations Bridge]]: Numerical ODE integration engine (RK4 and adaptive RKF45) with a phase-portrait and chaos visualizer; the Van der Pol limit cycle demonstrated.
 - [ ] **Block 08a:** [[B08a - Circuits and Electronics Bridge|08a - Circuits and Electronics Bridge]]: Dual-stage active audio pre-amplifier and 4th-order Sallen-Key Butterworth band-pass filter, simulated in SPICE, then built on a breadboard.
 - [ ] **Block 15a:** [[B15a - Signals and Systems Bridge|15a - Signals and Systems Bridge]]: Zero-dependency DSP engine in C or Rust: radix-2 FFT/IFFT, FFT convolution, and a WAV-file audio filter.
+
+---
+
+## 🔧 Maker Thread and Capstone Feeders (DR-005)
+
+Hands-on labs that run beside the theory and feed the drone-swarm capstone. Each line follows its block's Build section.
+
+- [ ] **Block 08b:** [[B08b - Maker Lab 1 - Electronics Bench|08b - Maker Lab 1]]: soldered kit, debounced Arduino sensor logger, MOSFET motor driver with flyback diode.
+- [ ] **Block 09a:** [[B09a - Maker Lab 2 - Embedded C|09a - Maker Lab 2]]: own I2C/SPI IMU driver; propeller see-saw PID at ≥250 Hz holding ±3°.
+- [ ] **Block 15b:** [[B15b - Maker Lab 3 - CAD and 3D Printing|15b - Maker Lab 3]]: board enclosure, vibration-isolated IMU mount, prop guard (3 measured revisions each).
+- [ ] **Block 16a:** [[B16a - Maker Lab 4 - Raspberry Pi and Embedded Linux|16a - Maker Lab 4]]: Pi companion computer with CRC-framed UART link, camera stream, Buildroot image; power-cycle and fuzz tested.
+- [ ] **Block 19a:** [[B19a - Wireless, Mesh and Network Science|19a - Wireless, Mesh and Network Science]]: 3–5 node mesh testbed running average consensus, measured against λ2.
+- [ ] **Block 21a:** [[B21a - Maker Lab 5 - PCB Design|21a - Maker Lab 5]]: own 2-layer MCU + IMU + ToF board (or Crazyflie deck) designed in KiCad, fabbed, brought up.
+- [ ] **Block 24a:** [[B24a - Applied Cryptography and Protocol Security|24a - Applied Cryptography]]: Noise-based secure swarm link + MAVLink 2 signing in SITL + STRIDE threat model, attacked by you.
+- [ ] **Block 27a:** [[B27a - Drone Lab - Flight Stack, ROS 2 and SITL|27a - Drone Lab]]: ROS 2 node flying PX4 SITL survey missions (3 vehicles); one real micro-drone indoors; every failsafe logged.
 
 ---
 

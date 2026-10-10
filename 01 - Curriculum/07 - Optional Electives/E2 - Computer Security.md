@@ -78,6 +78,11 @@ The six public 6.1600 labs: password cracking, Merkle trees, bad randomness, per
 
 ---
 
+## 🛩️ Capstone Link (DR-005, 2026-10-09)
+Still optional, but strongly recommended before the capstone's red-team milestone (M6) in [[B30 - Magnum Opus Capstone|Block 30]]: it covers the systems side (isolation, exploitation, defenses) that [[B24a - Applied Cryptography and Protocol Security|Block 24a]] doesn't.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 *Your blank-page attempts, derivations, and atomic reflections.*
 

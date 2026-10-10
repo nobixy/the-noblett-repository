@@ -73,6 +73,11 @@ Implement an information theory and coding suite in `python` and `c++` using `nu
 
 ---
 
+## 🔗 Capstone Link (DR-005, 2026-10-09)
+Channel capacity and coding are the limits on the swarm's radio links: after this block, revisit the link budget from [[B19a - Wireless, Mesh and Network Science|Block 19a]] and state, in the capstone thesis, how close your mesh gets to capacity. Track 11 goes deeper.
+
+---
+
 ## 📝 Study Notes, Psets & Proofs
 
 *Your atomic notes, problem-set proofs, and build notes go here — written by you, from a blank page.*

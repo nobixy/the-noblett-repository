@@ -7,6 +7,12 @@ type: hub
 
 Deep elective domains. Specialization A opens at Block 26, after the 💼5 courses ([[DR-001 - Program Scope, Phases, and Timeline|DR-001]]). Two tracks belong to the Program; the rest are Lifelong Continuation. Since [[DR-004 - Content Overhaul|DR-004]] every track names the real, current, free courses that teach it (see each note's 🌐 Real Courses section).
 
+## Recommended for the drone-swarm capstone (DR-005, 2026-10-09)
+*A recommendation, not a choice: you still choose both tracks before Block 26 (DR-001).*
+- **Specialization A: [[T09 - Autonomous Robotics|Track 9 — Robotics, Control and CPS]]**: estimation, control, planning; the swarm's flight and coordination core.
+- **Specialization B: [[T07 - TinyML and Edge AI|Track 7 — TinyML and Edge AI]]**: on-board perception on small hardware.
+- Alternatives for B: [[T03 - Advanced Security and Cryptography|Track 3 — Security]] if comms security should lead, or [[T11 - Signal Processing and Communications|Track 11 — Signals and Communications]] if radio links should.
+
 ## Computer Science
 - [[T01 - Deep AI and Machine Learning|Track 1 — AI and Machine Learning]]: ML systems and LLMs from scratch (CS229, CMU DLSys, Stanford CS336).
 - [[T02 - Advanced Systems and Performance|Track 2 — Systems and Performance]]: performance engineering, database internals, Rust systems (absorbed former Track 8).

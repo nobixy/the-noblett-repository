@@ -15,12 +15,16 @@ milestone: "18.404J/6.1400 final passed; prove NP-completeness and undecidabilit
 date_started: ""
 date_completed: ""
 tier: "Tier 1 - Core"
+optional: true # outside the hour budget since DR-005
 aliases: ["Theory of Computation"]
 ---
 
 # Block 24 — Theory of Computation (MIT 6.045 & Hopcroft)
 
 [[00 - Start Here|Start Here]] / [[00 - Start Here#The Path|The Path]] / [[Theory Index|Theory Index]]
+
+> [!NOTE] Optional since [[DR-005 - Capstone and Maker Thread|DR-005]] (2026-10-09)
+> Outside the hour budget, to make room for the Maker Labs, Block 19a and Block 24a within the DR-001 cap. Computability and complexity theory is the least capstone-relevant core block; NP-completeness basics stay in Algorithms I/II. Do it before Track 5 or Track 8, or after the Capstone.
 
 > [!INFO] Block Overview
 > - **Term / Position:** Year 4 Fall
@@ -88,4 +92,4 @@ Write out formal reductions proving undecidability and NP-completeness for compl
 
 ## ➡️ Next Steps
 - **Topic Hub:** [[Theory Index|Theory Index]] | [[00 - Start Here#The Path|The Path]]
-- **Sequential Flow:** [[B23a - Parallel Computing|← Parallel Computing]] | [[00 - Start Here|Start Here]] | [[B25 - Convex Optimization|Convex Optimization →]]
+- **Sequential Flow:** [[B23a - Parallel Computing|← Parallel Computing]] | [[00 - Start Here|Start Here]] | [[B24a - Applied Cryptography and Protocol Security|Applied Cryptography →]]
