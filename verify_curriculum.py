@@ -92,8 +92,6 @@ for name, path in notes.items():
     if fm.get("category") not in CATEGORIES: bad(rel, f"category '{fm.get('category')}' not in {sorted(CATEGORIES)}")
     if bid.startswith("Track") and fm.get("track_id") != bid: bad(rel, "track_id must equal block_id")
     if ID_RE.match(bid):
-        folder = os.path.relpath(os.path.dirname(path), CURR)
-        if folder != stage_of(bid): bad(rel, f"should be in '01 - Curriculum/{stage_of(bid)}' (DR-003)")
         if not name.startswith(prefix(bid) + " - "): bad(rel, f"file name should start '{prefix(bid)} - '")
     if not fm.get("subject"): bad(rel, "subject is empty")
     if "job_ready" in fm and fm["job_ready"] not in (1, 2, 3, 4, 5): bad(rel, "job_ready must be 1-5")

@@ -57,10 +57,10 @@ WHERE block_id AND status = "in-progress"
 ```
 
 ```dataview
-TABLE WITHOUT ID regexreplace(key, "^.*/", "") AS Stage, length(rows) AS Blocks, length(filter(rows.status, (s) => s = "done")) AS Done, sum(rows.hours_actual) AS "Hours logged", sum(rows.hours_estimate) AS "Hours planned"
+TABLE WITHOUT ID key AS Stage, length(rows) AS Blocks, length(filter(rows.status, (s) => s = "done")) AS Done, sum(rows.hours_actual) AS "Hours logged", sum(rows.hours_estimate) AS "Hours planned"
 FROM "01 - Curriculum"
 WHERE block_id AND optional != true
-GROUP BY file.folder
+GROUP BY stage
 SORT key ASC
 ```
 
