@@ -77,6 +77,14 @@ Labs first, then projects in the order shown (Copydiff first, because its design
 | **D** | Off-by-one and invariant bugs: the stuck rule (three honest attempts); invariant asserts (Module 03 Lab 02) are your best debugging tool here. |
 | **T** | **Full design docs** (E10 level) before each project; lab reports for benchmarks; demos. |
 
+## Video course
+
+- **Primary:** **NeetCode: Algorithms & Data Structures for Beginners**, then **Advanced Algorithms** (NeetCode.io, NeetCode Pro) — [beginners](https://neetcode.io/courses/dsa-for-beginners/0) · [advanced](https://neetcode.io/courses/advanced-algorithms/0).
+- **Alternate:** **MIT 6.006 Introduction to Algorithms** (MIT OpenCourseWare) — [YouTube playlist](https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY) · [OCW course page](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/). If your NeetCode Pro access has ended, this becomes the primary.
+- **Which lectures go with which lab and project:** the map in [resources](<resources.md#lecture-to-vault-map>). Watch with the [V protocol](../study-protocols.md#v--watch-actively) and [use courses as companions](../study-protocols.md#using-video-courses).
+
+---
+
 ## Connections
 
 - **Back:** M11 (growth rates), Module 03 (induction proves algorithms correct; counting analyses them; the birthday bound predicts hash collisions), Module 02 (recursion, memoisation, testing), [Growth and Halving Lab](../00-foundations/math/projects/growth-and-halving-lab/spec.md).

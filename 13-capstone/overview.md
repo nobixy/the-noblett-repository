@@ -63,6 +63,14 @@ The full requirements are in **[the capstone spec](projects/the-whole-stack/spec
 | **D** | Integration bugs live between components. Trace logs from every layer, a stuck note, a walk. |
 | **T** | Proposal, report, talk, outside review — the heaviest communication load of the curriculum, on purpose. |
 
+## Video course
+
+- **Primary:** **How to Write a Great Research Paper** and **How to Give a Great Research Talk** (Simon Peyton Jones) — [paper advice](https://www.youtube.com/watch?v=VK51E3gHENc) · [talk advice](https://www.youtube.com/watch?v=ot_McoYlwUo).
+- **Alternate:** None. For the technical work, rewatch the video course of the modules your path is built from.
+- **Which lectures go with which lab and project:** the map in [resources](<resources.md#lecture-to-vault-map>). Watch with the [V protocol](../study-protocols.md#v--watch-actively) and [use courses as companions](../study-protocols.md#using-video-courses).
+
+---
+
 ## Module close (the end of the core curriculum)
 
 1. **The final retrieval [R]:** on one large sheet, draw every system you've built and how they connect. Then look at the [README](../README.md)'s module table and check you didn't forget one.

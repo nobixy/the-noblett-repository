@@ -82,6 +82,15 @@ The **emulator is the reference**. The datapath must produce the same results, c
 | **D** | CPU bugs are subtle (one wrong control bit). The emulator-vs-hardware comparison localises them; stuck notes for the rest. |
 | **T** | The ISA reference manual; design docs; a lab report on caches; demos — including a final "whole stack" demo. |
 
+## Video course
+
+- **Primary:** **Digital Design and Computer Architecture** (ETH Zürich, Onur Mutlu) — [YouTube playlist](https://www.youtube.com/playlist?list=PL5Q2soXY2Zi-EImKxYYY1SZuGiOAOBKaf).
+- **Alternate:** **Building an 8-bit breadboard computer** (Ben Eater) — [YouTube playlist](https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU), the control-logic and microcode videos.
+- **Which lectures go with which lab and project:** the map in [resources](<resources.md#lecture-to-vault-map>). Watch with the [V protocol](../study-protocols.md#v--watch-actively) and [use courses as companions](../study-protocols.md#using-video-courses).
+- **Gaps:** Neither course covers compilers; for Ember, *Crafting Interpreters* stays the second explanation.
+
+---
+
 ## Connections
 
 - **Back:** Nib (01), Gatesmith and Lab 03 (04), Module 02 (parsers: Worldfile, Truth Engine), Module 05 (hash tables for symbols; measurement), M07 (two's complement), [Magnitudes Field Guide](../00-foundations/math/projects/magnitudes-field-guide/spec.md) (memory latencies — now you'll see why).

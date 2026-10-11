@@ -339,7 +339,7 @@ The **LCM** of two numbers is the smallest number that is a multiple of both. LC
 
 ## Watch, practise, and play
 
-*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-math).*
+*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Video course for this track: [math resources](resources.md#video-course).*
 
 - **Watch:** Khan Academy: Pre-algebra, factors and multiples. Numberphile: prime-number videos. Eddie Woo (YouTube): classroom explanations.
 - **Practise:** Alcumus (artofproblemsolving.com, free): prealgebra number theory.

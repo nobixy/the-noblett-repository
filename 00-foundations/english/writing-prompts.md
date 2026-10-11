@@ -250,5 +250,5 @@ Talk briefly without notes, then listen back and count fillers.
 8. Give a short "elevator pitch" for one of your projects.
 9. Explain a word's history (from etymonline).
 10. Describe your study routine and one thing you'd change.
-11. Review a video from [courses-and-videos.md](../../courses-and-videos.md): what was clear, what wasn't?
+11. Review a video from your stage's [video course](overview.md#video-course): what was clear, what wasn't?
 12. Retell a short news story in plain English, briefly.

@@ -157,10 +157,18 @@ Small, real, and each connected to later builds. Milestones before [01 Lab 01](.
 
 ---
 
+## Video course
+
+- **Primary:** **Khan Academy math** — [Arithmetic](https://www.khanacademy.org/math/arithmetic) → [Pre-algebra](https://www.khanacademy.org/math/pre-algebra) → [Algebra 1](https://www.khanacademy.org/math/algebra) → [High school geometry](https://www.khanacademy.org/math/geometry) → [Algebra 2](https://www.khanacademy.org/math/algebra2). Short videos with auto-checked practice and unit tests, covering M01–M11.
+- **Alternate:** **Math Antics** — [YouTube channel](https://www.youtube.com/@mathantics) · [mathantics.com](https://www.mathantics.com/). Slower and friendlier, strongest in M01–M07; no logarithms.
+- **Which lectures go with which lab and project:** the map in [resources](<resources.md#lesson-to-vault-map>). Watch with the [V protocol](../../study-protocols.md#v--watch-actively) and [use courses as companions](../../study-protocols.md#using-video-courses).
+
+---
+
 ## Fun, videos, and courses
 
 - **[Puzzles and games](puzzles-and-games.md):** number tricks (with the *why*), card and dice games, Fermi questions, Desmos challenges, and online puzzle platforms — sorted by stage. Use them for warm-ups and the **Fun Session** in each section.
-- **[Courses and videos](../../courses-and-videos.md#foundations-math):** Math Antics, Khan Academy, Eddie Woo, 3Blue1Brown, Numberphile, Alcumus, and Coursera's *Algebra: Elementary to Advanced* and *Introduction to Mathematical Thinking* — mapped stage by stage. Every stage file also has a short **Watch, practise, and play** section.
+- **Video course:** see [above](#video-course). Every stage file also has a short **Watch, practise, and play** section with extra videos for that stage.
 - **[The first sections](../first-sections.md):** the plan for the start (Sections 1–12).
 
 ## Free resources (pointers only)

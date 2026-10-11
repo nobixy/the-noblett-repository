@@ -322,7 +322,7 @@ Choose or write the correct form.
 
 ## Watch, practise, and write
 
-*Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
+*Companions, not replacements: the lessons above come first. Video course for this track: [English resources](resources.md#video-course).*
 
 - **Watch:** Khan Academy Grammar: the syntax and verb-tense units. Oxford Online English (YouTube): verb tense lessons.
 - **Practise:** Khan Academy Grammar exercises on subject–verb agreement and tense.

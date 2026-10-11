@@ -363,7 +363,7 @@ Read bottom to top: **100101₂**. Check: 32 + 4 + 1 = 37 ✓
 
 ## Watch, practise, and play
 
-*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-math).*
+*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Video course for this track: [math resources](resources.md#video-course).*
 
 - **Watch:** Math Antics: multiplication and long division. Khan Academy: multiplication and division. Numberphile (YouTube): a fun video on remainders or divisibility.
 - **Practise:** Khan Academy multiplication and division practice; times-table flashcards.

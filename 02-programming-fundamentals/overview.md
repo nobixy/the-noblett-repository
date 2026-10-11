@@ -58,6 +58,14 @@ Do the labs first; then the projects in any order (Study Deck first is recommend
 | Testing style | fake clock, simulation | byte-exact headers, golden waveforms | golden-file playthroughs |
 | Math | spacing intervals, averages | fractions, ratios, exponents, sine | Boolean logic |
 
+## Video course
+
+- **Primary:** **MIT 6.100L Introduction to CS and Programming using Python** (MIT OpenCourseWare, Ana Bell) — [YouTube playlist](https://www.youtube.com/playlist?list=PLUl4u3cNGP62A-ynp6v6-LGBCzeH3VAQB) · [OCW course page](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/).
+- **Alternate:** **The Missing Semester of Your CS Education** (MIT CSAIL) — [YouTube playlist](https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J) · [course site](https://missing.csail.mit.edu/2020/).
+- **Which lectures go with which lab and project:** the map in [resources](<resources.md#lecture-to-vault-map>). Watch with the [V protocol](../study-protocols.md#v--watch-actively) and [use courses as companions](../study-protocols.md#using-video-courses).
+
+---
+
 ## Connections
 
 - **Back:** [Spelling Engine](../00-foundations/english/projects/spelling-engine/spec.md) becomes one card type in Study Deck; [Base Workshop](../00-foundations/math/projects/base-workshop/spec.md)'s `minihex.py` is how you'll inspect Tone Loom's WAV bytes; Lab 01's adventure grows into Worldfile.

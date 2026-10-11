@@ -72,6 +72,14 @@ Every arrow is a separately testable stage — the parse/render split from Pagel
 | **D** | Layout bugs are visual: render to SVG, compare, sleep on it. |
 | **T** | Design doc (grown per milestone), a "supported subset" reference, a test report, and a demo browsing real pages. |
 
+## Video course
+
+- **Primary:** **Chrome University**, selected talks (Chrome for Developers) — [YouTube playlist](https://www.youtube.com/playlist?list=PLNYkxOF6rcICgS7eFJrGDhMBwWtdTgzpx); start with "Life of a pixel".
+- **Alternate:** **CS50's Web Programming with Python and JavaScript (CS50W)**, Lecture 0 HTML and CSS (Harvard) — [course site](https://cs50.harvard.edu/web/).
+- **Which lectures go with which lab and project:** the map in [resources](<resources.md#lecture-to-vault-map>). Watch with the [V protocol](../study-protocols.md#v--watch-actively) and [use courses as companions](../study-protocols.md#using-video-courses).
+
+---
+
 ## Connections
 
 - **Back:** Pagelet (the four stages), Lantern (serves your test corpus), Floor Plan and Turtle (boxes in rows), Worldfile/Ember (parsers), Crosswalk (FSMs), Edit Buffer (text structures), Vault Search (Glimpse can search pages it has visited).

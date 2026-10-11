@@ -57,6 +57,14 @@ Language: **Python** is recommended (clarity — the ideas are the point; perfor
 | **D** | Recovery bugs appear only after crashes: deterministic fault injection makes them repeatable; stuck notes for the rest. |
 | **T** | Design docs, a file-format spec, a recovery-testing report, a benchmark report, demos. |
 
+## Video course
+
+- **Primary:** **CMU 15-445/645 Intro to Database Systems** (CMU Database Group, Andy Pavlo) — [YouTube playlist](https://www.youtube.com/playlist?list=PLSE8ODhjZXjYDBpQnSymaectKjxCy6BYq) · [course site](https://15445.courses.cs.cmu.edu/fall2024/).
+- **Alternate:** **CS50's Introduction to Databases with SQL (CS50 SQL)** (Harvard) — [YouTube playlist](https://www.youtube.com/playlist?list=PLhQjrBD2T382v1MBjNOhPu9SiJ1fsD4C0) · [course site](https://cs50.harvard.edu/sql/).
+- **Which lectures go with which lab and project:** the map in [resources](<resources.md#lecture-to-vault-map>). Watch with the [V protocol](../study-protocols.md#v--watch-actively) and [use courses as companions](../study-protocols.md#using-video-courses).
+
+---
+
 ## Connections
 
 - **Back:** Study Deck and Tagfs (append-only logs, replay), Crate (page-like binary formats, CRCs, fsync, fuzzing), Cache Simulator (LRU/CLOCK), Vault Search (indexes, hash tables), Ember/Worldfile (parsers), Module 05 (B-trees' cousins: BSTs and heaps; sorting; merging).

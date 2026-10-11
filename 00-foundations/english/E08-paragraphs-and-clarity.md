@@ -245,7 +245,7 @@ Take three pieces you wrote in E05–E07 (journal entries, field notes, the mach
 
 ## Watch, practise, and write
 
-*Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
+*Companions, not replacements: the lessons above come first. Video course for this track: [English resources](resources.md#video-course).*
 
 - **Watch:** *Writing in the Sciences* (Stanford, Coursera): the opening modules on cutting clutter and active voice. *Good with Words: Writing and Editing* (University of Michigan, Coursera).
 - **Practise:** Hemingway Editor (free, hemingwayapp.com) *after* you've revised by hand: see which long sentences you missed.

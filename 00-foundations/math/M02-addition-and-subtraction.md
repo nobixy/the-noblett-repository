@@ -297,7 +297,7 @@ George Pólya's method (see [LM14](<../../02 - Atlas/LM14 - Pólya's Problem Sol
 
 ## Watch, practise, and play
 
-*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-math).*
+*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Video course for this track: [math resources](resources.md#video-course).*
 
 - **Watch:** Math Antics: multi-digit addition and subtraction. Khan Academy: Arithmetic, add and subtract.
 - **Practise:** Khan Academy addition and subtraction unit test, as an extra cold check.

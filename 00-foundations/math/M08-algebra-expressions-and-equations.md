@@ -319,7 +319,7 @@ Solve exactly like an equation, **with one extra rule:**
 
 ## Watch, practise, and play
 
-*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-math).*
+*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Video course for this track: [math resources](resources.md#video-course).*
 
 - **Watch:** Khan Academy: Algebra 1, expressions, equations, inequalities. *Algebra: Elementary to Advanced* (Johns Hopkins, Coursera), course 1. *Introduction to Mathematical Thinking* (Stanford, Coursera) for a taste of proof.
 - **Practise:** Khan Academy Algebra 1; Alcumus algebra.

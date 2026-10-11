@@ -74,6 +74,14 @@ Courier is the heart of the module; give it as many sessions as it needs.
 
 **Network etiquette:** query public servers (root DNS servers, public resolvers) politely — a handful of requests while learning, never floods; capture only your own traffic.
 
+## Video course
+
+- **Primary:** **Computer Networking: A Top-Down Approach** video lectures (Jim Kurose) — [YouTube playlist](https://www.youtube.com/playlist?list=PLvFG2xYBrYASIUH_y2hYaMCro8KUe_yL8) · [authors' lecture page](https://gaia.cs.umass.edu/kurose_ross/lectures.php).
+- **Alternate:** **Networking tutorial** (Ben Eater) — [YouTube playlist](https://www.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW).
+- **Which lectures go with which lab and project:** the map in [resources](<resources.md#lecture-to-vault-map>). Watch with the [V protocol](../study-protocols.md#v--watch-actively) and [use courses as companions](../study-protocols.md#using-video-courses).
+
+---
+
 ## Connections
 
 - **Back:** Relay (protocols, the gremlin, stop-and-wait), Crate (CRC32, binary formats), Tone Loom (byte order — networks are **big-endian**), Ratio Workshop and Fare Detective (bandwidth and latency models), Scheduler Arena (fairness), Seedling (what's under the sockets), M11 (logs and the Mathis formula's square root).

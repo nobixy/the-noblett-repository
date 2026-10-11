@@ -115,10 +115,9 @@ Every build session works on the next milestone of the current project ([Start H
   00 - Start Here.md           # dashboard and checklist
   how-i-study.md               # this manifesto, revised by Decision Record
   study-protocols.md           # the methods as exact routines (R F W S I C D T V) and the session loop
-  courses-and-videos.md        # free courses and videos mapped to every stage and module
   log.md                       # session log dashboard (entries in 03 - Journal)
   00-foundations/              # first-sections.md; english/ (placement, E01–E10) and math/ (M01–M11), each with projects/
-  01-intro-cs-taste/ … 13-capstone/   # one folder per module: overview.md, labs/, projects/<name>/spec.md, resources.md
+  01-intro-cs-taste/ … 13-capstone/   # one folder per module: overview.md (with its Video course), labs/, projects/<name>/spec.md, resources.md (with the lecture map)
   02 - Atlas/                  # learning-method deep dives (LM00–LM16), topic indexes, hubs, book shelf
   03 - Journal/                # session log entries (YYYY-MM-DD, from the daily-notes plugin)
   04 - System/                 # templates, decision records (DR-001 …), Frontmatter Schema

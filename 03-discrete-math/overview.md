@@ -91,6 +91,14 @@ A proof is an argument (E10) with no gaps. Every proof you write follows the [Pr
 
 ---
 
+## Video course
+
+- **Primary:** **MIT 6.042J Mathematics for Computer Science** (MIT OpenCourseWare, Tom Leighton) — [YouTube playlist](https://www.youtube.com/playlist?list=PLB7540DEDD482705B) · [OCW course page](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/).
+- **Alternate:** **Discrete Math (Full Course)** (Dr. Trefor Bazett) — [YouTube playlist](https://www.youtube.com/playlist?list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS).
+- **Which lectures go with which lab and project:** the map in [resources](<resources.md#lecture-to-vault-map>). Watch with the [V protocol](../study-protocols.md#v--watch-actively) and [use courses as companions](../study-protocols.md#using-video-courses).
+
+---
+
 ## Connections
 
 - **Back:** M04 (primes, GCD, Euclid — you'll now *prove* what you used), M07 (two's complement is arithmetic mod 2ⁿ), M11 (sums and growth; induction proves the formulas); [Prime Factory](../00-foundations/math/projects/prime-factory/spec.md) (reused in Toy Cipher); [Worldfile](../02-programming-fundamentals/projects/worldfile/spec.md) (its condition language becomes Truth Engine's parser).

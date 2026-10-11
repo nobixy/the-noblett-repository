@@ -200,7 +200,7 @@ Each session (alongside copywork):
 
 ## Watch, practise, and write
 
-*Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
+*Companions, not replacements: the lessons above come first. Video course for this track: [English resources](resources.md#video-course).*
 
 - **Watch:** English with Lucy and BBC Learning English (YouTube): short videos on commonly misspelled words. Use the [V protocol](../../study-protocols.md#v--watch-actively): after each video, spell its words from memory.
 - **Practise:** keybr.com typing, a short warm-up each session (your fingers learn spellings too). Learning How to Learn (Coursera), parts 1–3.

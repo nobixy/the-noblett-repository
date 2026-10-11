@@ -68,7 +68,7 @@ There is no schedule and no deadline. You move to the next item when the current
 
 ### Videos, courses, and fun
 
-- **[courses-and-videos.md](courses-and-videos.md)** maps free YouTube series, Coursera courses, Khan Academy, MIT OpenCourseWare, and more to every stage and module. They're companions to the builds, not replacements.
+- **Video courses live in each course's own notes:** every track and module overview has a **Video course** section (one primary, at most one alternate), and its `resources.md` maps the lectures to the labs and projects. They're companions to the builds, not replacements; see [study-protocols § Using video courses](study-protocols.md#using-video-courses).
 - **[The first sections](00-foundations/first-sections.md)** lays out the start as Sections 1–12, with badges.
 - **[Writing prompts](00-foundations/english/writing-prompts.md)** and **[math puzzles and games](00-foundations/math/puzzles-and-games.md)** keep practice fun.
 
@@ -185,7 +185,6 @@ README.md                    you are here
 00 - Start Here.md           the checklist and dashboard
 how-i-study.md               your study manifesto (the methods)
 study-protocols.md           the methods as exact routines (R F W S I C D T V)
-courses-and-videos.md        YouTube, Coursera, Khan, and other free courses mapped to every stage and module
 log.md                       session log dashboard
 
 00-foundations/

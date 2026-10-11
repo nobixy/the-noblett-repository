@@ -2,6 +2,7 @@
 title: "DR-011: Sectioned Curriculum and Frontmatter Schema"
 type: decision-record
 status: accepted
+amended_by: [DR-012]
 date: 2026-10-10
 accepted: 2026-10-10
 tags:
@@ -26,7 +27,7 @@ A review of the vault after DR-010 found:
 
 ## Decision
 
-1. **Folder names (records what exists).** Top level: `00 - Start Here.md`, `README.md`, `how-i-study.md`, `study-protocols.md`, `courses-and-videos.md`, `log.md`; curriculum folders `00-foundations/` … `13-capstone/`; `02 - Atlas/` (topic indexes, learning methods, hubs, appendices); `03 - Journal/` (session log entries); `04 - System/` (templates, decision records, this schema); `99 - Archive/` (v1 plan and cut content, historical only). DR-007's folder list is historical.
+1. **Folder names (records what exists).** Top level: `00 - Start Here.md`, `README.md`, `how-i-study.md`, `study-protocols.md`, `courses-and-videos.md` (removed later, see [DR-012](<DR-012 - Video Course Picks.md>)), `log.md`; curriculum folders `00-foundations/` … `13-capstone/`; `02 - Atlas/` (topic indexes, learning methods, hubs, appendices); `03 - Journal/` (session log entries); `04 - System/` (templates, decision records, this schema); `99 - Archive/` (v1 plan and cut content, historical only). DR-007's folder list is historical.
 2. **No time in the curriculum.** The curriculum is measured in **sessions** and **sections**, never hours, days, weeks, months or years:
    - Every session has the same loop — warm-up recall, focused work, retrieval [R], log ([study-protocols § The session loop](<../study-protocols.md#the-session-loop>), the one canonical description; README and how-i-study §2 summarise it and link there).
    - Sessions group into numbered sections; stage routines are written as Section N, Sessions 1–5; every section closes with a **Section Review** (replaces the Weekly Review). Section 1 in Start Here is laid out as Sessions 0–7.

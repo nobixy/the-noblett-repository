@@ -342,7 +342,7 @@ At a billion simple steps per second: n² at n = 1,000,000 takes about 17 minute
 
 ## Watch, practise, and play
 
-*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-math).*
+*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Video course for this track: [math resources](resources.md#video-course).*
 
 - **Watch:** Khan Academy: Algebra 2 (quadratics, exponentials, logarithms) and Precalculus (sequences and series). 3Blue1Brown: 'What's so special about Euler's number e?'.
 - **Practise:** Khan Academy unit tests for exponentials and logarithms; Alcumus.

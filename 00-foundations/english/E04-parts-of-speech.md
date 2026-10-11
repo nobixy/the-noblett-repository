@@ -276,7 +276,7 @@ Spelling notes: *rely → reliable* (Rule 3, y → i); *simple + ly = simply* (a
 
 ## Watch, practise, and write
 
-*Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
+*Companions, not replacements: the lessons above come first. Video course for this track: [English resources](resources.md#video-course).*
 
 - **Watch:** Khan Academy Grammar (free): the parts-of-speech units. Watch one short video per part of speech.
 - **Practise:** Khan Academy Grammar exercises for each part of speech (auto-checked: an extra [R] check).

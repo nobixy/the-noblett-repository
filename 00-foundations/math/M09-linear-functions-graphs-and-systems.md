@@ -316,7 +316,7 @@ Graph both lines; read off where they cross. Good for seeing; imprecise for exac
 
 ## Watch, practise, and play
 
-*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-math).*
+*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Video course for this track: [math resources](resources.md#video-course).*
 
 - **Watch:** Khan Academy: Algebra 1, linear equations, graphs, and systems. *Algebra: Elementary to Advanced* (Coursera), courses 1–2.
 - **Practise:** Desmos (free) classroom activities on slopes and intercepts.

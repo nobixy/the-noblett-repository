@@ -320,7 +320,7 @@ This "nowhere to go" is called **overflow**, and it is a real source of computer
 
 ## Watch, practise, and play
 
-*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-math).*
+*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Video course for this track: [math resources](resources.md#video-course).*
 
 - **Watch:** Math Antics (YouTube): 'Place Value'. Crash Course Computer Science: the episode on representing numbers and letters with binary. Khan Academy: Arithmetic, place value.
 - **Practise:** Khan Academy place-value and rounding exercises (auto-checked, so good for mixed review [I]).

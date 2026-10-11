@@ -342,7 +342,7 @@ Open Python and type `0.1 + 0.2`. You'll get `0.30000000000000004`. This is not 
 
 ## Watch, practise, and play
 
-*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-math).*
+*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Video course for this track: [math resources](resources.md#video-course).*
 
 - **Watch:** Math Antics: decimals and percents. Khan Academy: decimals, percents, ratios and rates. Computerphile: 'Floating Point Numbers'.
 - **Practise:** Khan Academy ratios and percents practice.

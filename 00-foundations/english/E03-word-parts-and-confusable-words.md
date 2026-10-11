@@ -284,7 +284,7 @@ Split each word into parts and give the meaning of each part, then the meaning o
 
 ## Watch, practise, and write
 
-*Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
+*Companions, not replacements: the lessons above come first. Video course for this track: [English resources](resources.md#video-course).*
 
 - **Watch:** Crash Course Linguistics (YouTube): the morphology episode. TED-Ed etymology lessons. etymonline.com for word histories.
 - **Practise:** Spelling-log review in Study Deck or Anki; the retest against your E01 baseline.

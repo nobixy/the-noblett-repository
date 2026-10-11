@@ -19,7 +19,7 @@ prerequisites: []
 
 ## How computers run programs (Nib)
 - Charles Petzold, ***Code: The Hidden Language of Computer Hardware and Software*** (2nd ed.) — the best book-length story of how switches become a computer. Chapters on binary, logic, and memory pair with Nib and Module 04.
-- **Ben Eater's 8-bit breadboard computer** videos (YouTube, free) — someone building a computer from chips, step by step. Watch for inspiration; Module 04 is where you'll do similar things.
+- **Ben Eater's 8-bit breadboard computer** videos (YouTube, free) — someone building a computer from chips, step by step. Watch for inspiration; it is [Module 04's video course](../04-circuits-and-digital-logic/resources.md#video-course), where you'll do similar things.
 
 ## Networking (Relay)
 - **Julia Evans, "Networking! ACK!"** zine (wizardzines.com, paid) and the free networking posts on jvns.ca.
@@ -38,5 +38,27 @@ prerequisites: []
 - Search the exact error message in quotes.
 - Ask in a beginner-friendly community (the Python Discord, r/learnpython). Include what you tried — your bug-report skills from E09 make people want to help.
 
-## Video and course companions
-Free YouTube series and Coursera/edX/MIT OCW courses for this module are listed in [courses-and-videos.md](../courses-and-videos.md#modules-0113). Use them with the [V protocol](../study-protocols.md#v--watch-actively): lectures and quizzes as second explanations; this module's own projects, not the courses' assignments.
+## Video course
+
+*Companions, not replacements: your labs and projects are the course. Watch with the [V protocol](../study-protocols.md#v--watch-actively) (pause, predict, then blank-sheet [R]), take lectures and quizzes as second explanations, and build this module's own projects, not the course's assignments. How courses fit your sessions: [study-protocols § Using video courses](../study-protocols.md#using-video-courses).*
+
+**Primary — CS50's Introduction to Programming with Python (CS50P)**, Harvard (David J. Malan). Free on YouTube and at the course site.
+- Lectures: [YouTube playlist](https://www.youtube.com/playlist?list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V) · course site with notes and problem sets: [cs50.harvard.edu/python](https://cs50.harvard.edu/python/)
+- **Why it fits:** every project here is written in Python, and the labs teach exactly what CS50P's early lectures teach: functions, conditionals, loops, exceptions, unit tests and files. It assumes no prior programming, it is very well produced, and its lecture on unit tests (pytest) matches Lab 02.
+
+**Alternate — Crash Course Computer Science**, CrashCourse (Carrie Anne Philbin). Free on YouTube: [playlist](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo).
+- **Why:** short, visual episodes on the ideas behind each project (gates and CPUs for Nib, networks for Relay, operating systems for Burrow Jr., the Web for Pagelet). Use it when you want the big picture, not Python practice.
+
+### Lecture-to-vault map
+
+| Vault item | CS50P (primary) | Crash Course CS (alternate) |
+| :-- | :-- | :-- |
+| [Lab 00 — Machine setup](labs/lab-00-machine-setup.md) | — (use the lab; CS50P uses its own online editor) | — |
+| [Lab 01 — Python first steps](labs/lab-01-python-first-steps.md) | Lecture 0 Functions, Variables · Lecture 1 Conditionals · Lecture 2 Loops | #12 Programming Basics: Statements & Functions |
+| [Lab 02 — Errors, tests and debugging](labs/lab-02-errors-tests-and-debugging.md) | Lecture 3 Exceptions · Lecture 5 Unit Tests | — |
+| [Nib](projects/nib-machine/spec.md) (8-bit emulator) | Lecture 2 Loops · Lecture 8 Object-Oriented Programming | #3 Boolean Logic & Logic Gates · #4 Representing Numbers and Letters with Binary · #5 the ALU · #6 Registers and RAM · #7 the CPU · #8 Instructions & Programs |
+| [Relay](projects/relay-chat/spec.md) (TCP chat) | Lecture 4 Libraries · Lecture 6 File I/O | #28 Computer Networks · #29 The Internet |
+| [Burrow Jr.](projects/shell-sketch/spec.md) (mini shell) | Lecture 7 Regular Expressions (parsing input) | #18 Operating Systems · #22 Keyboards & Command Line Interfaces |
+| [Pagelet](projects/pagelet/spec.md) (HTTP page viewer) | Lecture 4 Libraries · Lecture 7 Regular Expressions | #30 The World Wide Web |
+
+**Gaps:** neither course covers `fork`/`exec`/pipes or raw sockets at the depth Burrow Jr. and Relay need; use the Python docs listed above, and Module 07 and Module 09 later.

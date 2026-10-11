@@ -48,10 +48,11 @@ Fields appear in this order. Required fields are marked ✔.
 | `E01`–`E10`, `M01`–`M11` | `E05` | Foundation stages (`type: lesson`) |
 | `FND-EN-PRJ-<slug>`, `FND-MA-PRJ-<slug>` | `FND-EN-PRJ-spelling-engine` | Foundation projects |
 | `FND-FIRST-SECTIONS`, `FND-EN-PROMPTS`, `FND-MA-PUZZLES` | | Foundation reference pages |
+| `FND-EN-RES`, `FND-MA-RES` | `FND-MA-RES` | Foundation track resources (`type: reference`), with the track's **Video course** section ([DR-012](<DR-012 - Video Course Picks.md>)) |
 | `MODnn` | `MOD06` | Module overview |
 | `MODnn-LABnn` | `MOD01-LAB00` | Lab |
 | `MODnn-PRJ-<slug>` | `MOD02-PRJ-study-deck` | Project (slug = the project folder name) |
-| `MODnn-RES` | `MOD09-RES` | Module resources (`type: reference`) |
+| `MODnn-RES` | `MOD09-RES` | Module resources (`type: reference`); each has the full **Video course** section with the lecture-to-vault map, and the module overview names the picks ([DR-012](<DR-012 - Video Course Picks.md>)) |
 
 **Checkpoint ids** (listed in an overview's `checkpoints`; they have no note of their own — they are sections of the overview):
 

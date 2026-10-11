@@ -28,7 +28,19 @@ tags: [plan, foundations, onboarding]
 | Build | Labs and projects (the "Build" row in each section) |
 | End of section | Section Review; one "just for fun" video; plan the next section |
 
-Companions come from [courses-and-videos.md](../courses-and-videos.md). Use them with the [V protocol](../study-protocols.md#v--watch-actively): pause, predict, then recall and practise.
+Companions come from each track's and module's **Video course** section ([English](english/overview.md#video-course) · [Math](math/overview.md#video-course); how to use them: [study-protocols § Using video courses](../study-protocols.md#using-video-courses)). Use them with the [V protocol](../study-protocols.md#v--watch-actively): pause, predict, then recall and practise.
+
+## Touch typing (Sections 1–12)
+
+Typing without looking frees your attention for spelling, sentences and code, and lets your fingers learn spellings (the same idea as copywork). Use **keybr.com** (it teaches letters a few at a time) as a short warm-up each session until you reach about 35 words per minute with 97% accuracy. Then switch to **monkeytype.com** with its English 1k word list, which drills the same high-frequency words as E01. Your vault also has an open-source project idea about Monkeytype: [OSS Project — Embeddable Typing Test](<../02 - Atlas/OSS Project - Embeddable Typing Test (Monkeytype).md>).
+
+## Learning how to learn (start in Section 1)
+
+| Course | Why |
+| :-- | :-- |
+| **[Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)** — Barbara Oakley & Terrence Sejnowski (Coursera, listed as Free) | Focused and diffuse mode, chunking, procrastination, illusions of competence: the science behind [study-protocols](../study-protocols.md). One of its modules per section during Sections 1–4 (the Companion rows below). |
+| **[Mindshift](https://www.coursera.org/learn/mindshift)** — Barbara Oakley (Coursera, listed as Free) | Learning as an adult career-changer; the follow-up to the above. |
+| **Veritasium, "The Biggest Myth In Education"** (YouTube) | Why "learning styles" are a myth (pairs with [Learning Styles Myth](<../02 - Atlas/Learning Styles Myth.md>)). |
 
 ---
 

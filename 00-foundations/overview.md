@@ -29,4 +29,4 @@ Two tracks that run underneath everything else in this curriculum, each with its
 - **[English placement diagnostic](english/placement.md)** — where to start the English track.
 - **[Writing prompts](english/writing-prompts.md)** — 150+ fun prompts sorted by English stage.
 - **[Math puzzles and games](math/puzzles-and-games.md)** — tricks, games, and challenges sorted by math stage.
-- **[Courses and videos](../courses-and-videos.md)** — Khan Academy, Coursera, YouTube, and other free courses mapped to every stage, used with the [V protocol](../study-protocols.md#v--watch-actively).
+- **Video courses** — each track's overview names its pick (Khan Academy for both): [English](english/overview.md#video-course) · [Math](math/overview.md#video-course), with lecture maps in each track's resources note. Use them with the [V protocol](../study-protocols.md#v--watch-actively).

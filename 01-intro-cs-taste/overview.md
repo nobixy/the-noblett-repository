@@ -93,6 +93,14 @@ Run a spell checker on the final version (allowed for deliverables, not for spel
 
 ---
 
+## Video course
+
+- **Primary:** **CS50's Introduction to Programming with Python (CS50P)** (Harvard) — [YouTube playlist](https://www.youtube.com/playlist?list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V) · [course site](https://cs50.harvard.edu/python/).
+- **Alternate:** **Crash Course Computer Science** (CrashCourse) — [YouTube playlist](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo).
+- **Which lectures go with which lab and project:** the map in [resources](<resources.md#lecture-to-vault-map>). Watch with the [V protocol](../study-protocols.md#v--watch-actively) and [use courses as companions](../study-protocols.md#using-video-courses).
+
+---
+
 ## Environment
 
 - Linux (your Arch machine) or macOS / WSL2.

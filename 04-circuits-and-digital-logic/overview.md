@@ -104,6 +104,14 @@ Labs 01–04 in order. Start Gatesmith after Lab 03 (it's software, so it can us
 | **D** | Hardware bugs are physical: a loose wire, a reversed chip. When stuck, stop, write a stuck note, and re-wire from scratch in the next session — it's often faster than debugging. |
 | **T** | **Lab reports** are the main deliverable (E08–E10 level). Each project also has a recorded demo with the real hardware. |
 
+## Video course
+
+- **Primary:** **Building an 8-bit breadboard computer** (Ben Eater) — [YouTube playlist](https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU) · [eater.net/8bit](https://eater.net/8bit).
+- **Alternate:** **Understanding PID Control** (MATLAB Tech Talks, Brian Douglas) — [series page](https://www.mathworks.com/videos/series/understanding-pid-control.html), for the Pico Thermostat.
+- **Which lectures go with which lab and project:** the map in [resources](<resources.md#lecture-to-vault-map>). Watch with the [V protocol](../study-protocols.md#v--watch-actively) and [use courses as companions](../study-protocols.md#using-video-courses).
+
+---
+
 ## Connections
 
 - **Back:** [Explain-a-System](../00-foundations/english/projects/explain-a-system/spec.md) explainers 1 (thermostat) and 3 (calculator adding) — reread them before starting; [Nib](../01-intro-cs-taste/projects/nib-machine/spec.md) (now you build its hardware ideas); M02 (carries), M07 (two's complement), M11 (exponentials); [Truth Engine](../03-discrete-math/projects/truth-engine/spec.md) (simplifying logic).

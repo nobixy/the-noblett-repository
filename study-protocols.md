@@ -194,7 +194,28 @@ Watching a clear explainer feels like learning, just like rereading does. Most o
 3. **After:** close the video and do a blank-sheet recall [R] of what it said. Then do **3–5 practice problems** or write a short paragraph using the idea. A video with no practice afterwards counts as entertainment, not study.
 4. **Rule of thumb:** **do more than you watch.** Every video segment is followed by practice on its idea. Courses (Coursera, Khan, edX) count as study only for the parts where you answer questions, write, or code.
 
-All the videos and courses mapped to each stage and module are in [courses-and-videos.md](courses-and-videos.md).
+### Using video courses
+
+Every course has its own video pick: the **Video course** section of each track or module overview names one primary and at most one alternate, and that course's `resources.md` maps the lectures to its stages, labs and projects. (The two foundation tracks: [English](<00-foundations/english/overview.md#video-course>) · [Math](<00-foundations/math/overview.md#video-course>).)
+
+- **Builds come first.** A course is a companion, not a replacement. A stage or module is done when its self-check and "Done when" lists are done, not when a playlist is finished.
+- **Watch what the map says, not the whole course.** Each resources note lists the lectures for each lab and project.
+- **Build the curriculum's projects, not the course's assignments.** Take lectures, quizzes and practice from courses; your own projects stay original and on your own machine.
+- **Primary first.** Use the alternate when the primary's explanation doesn't click, or for the gaps each note lists.
+- **Coursera:** Coursera has replaced free auditing with a free **preview** for most courses (usually the first module). A few courses are still listed as **Free** on their page; check before you plan around one.
+
+**How courses fit the session loop:**
+
+| Session type | Add |
+| :-- | :-- |
+| English sessions | The video the track map names for your stage, followed straight away by its practice exercises |
+| Math sessions | Khan practice sets as warm-ups (auto-checked, so good for [I] mixed review) |
+| Build sessions | The lecture the module map names for the lab or project you are on, *before* the build work |
+| Section Review | Optional: one "just for fun" video from a stage's watch list, as a reward |
+
+When a course has quizzes or unit tests (Khan unit tests, NeetCode exercises, OCW problem sets), use them as **extra cold self-checks** and log the scores in your Section Review.
+
+**Learning about learning:** the courses on how learning works (*Learning How to Learn*, *Mindshift*) are in [The First Sections](<00-foundations/first-sections.md#learning-how-to-learn-start-in-section-1>).
 
 ---
 

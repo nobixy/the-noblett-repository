@@ -70,6 +70,14 @@ The projects (Motion Lab, Matrix Studio, Chance Lab) are built on the units they
 | **D** | Proofs and derivations benefit from the walk-and-return habit. |
 | **T** | Each project is a lab report with plots; one recorded explainer per area. |
 
+## Video course
+
+- **Primary:** **Essence of Calculus** and **Essence of Linear Algebra** (3Blue1Brown) — [calculus playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr) · [linear algebra playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab), plus [the Fourier transform video](https://www.youtube.com/watch?v=spUNpyF58BY) for S1.
+- **Alternate:** **Harvard Stat 110: Probability** (Joe Blitzstein) — [YouTube playlist](https://www.youtube.com/playlist?list=PLLVplP8OIVc8EktkrD3Q8td0GmId7DjW0), for the P units.
+- **Which lectures go with which lab and project:** the map in [resources](<resources.md#lecture-to-vault-map>). Watch with the [V protocol](../study-protocols.md#v--watch-actively) and [use courses as companions](../study-protocols.md#using-video-courses).
+
+---
+
 ## Connections
 
 - **Back:** M09 (linear models), M10 (rotations), M11 (exponentials, logs, sums); Fare Detective (least squares at last), Study Deck (your forgetting curve), Tone Loom (signals), Pico Thermostat (RC-like heating, noise), Courier (loss models), Vault Search (cosine similarity, PageRank stretch), Scheduler Arena (random arrivals).

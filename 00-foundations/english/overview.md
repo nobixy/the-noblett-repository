@@ -86,7 +86,7 @@ There is no schedule. Each stage's practice routine is written as numbered **sec
 | 4 | **Copywork** at your current level (below) | [C] |
 | 5 | **Log:** misspelled words go in your error log; one line in the journal | — |
 | + | **Fun write** (most sessions): a prompt from the [writing prompt bank](writing-prompts.md) for your stage — fast, no spell checker, then check it for this stage's skill | [C] [T] |
-| + | **Touch typing** on keybr.com (Sections 1–12), then Monkeytype's English 1k list | [I] |
+| + | **Touch typing** on keybr.com (Sections 1–12), then Monkeytype's English 1k list ([how](../first-sections.md#touch-typing-sections-112)) | [I] |
 
 Flashcard review can go here or in a math session. Spelling cards and grammar-rule cards share the same deck as everything else.
 
@@ -112,10 +112,19 @@ Franklin copywork [C] is the backbone of this track. You rebuild good sentences 
 
 ---
 
+## Video course
+
+- **Primary:** **Khan Academy Grammar** (Khan Academy) — [YouTube playlist](https://www.youtube.com/playlist?list=PL6CQ7apI_8PjSBN8BxukW5Z76k8lRMQEf) · [course with exercises](https://www.khanacademy.org/humanities/grammar). Parts of speech, punctuation and syntax, in nearly the order of E04–E07.
+- **Alternate:** **Writing in the Sciences** (Stanford Online, Dr. Kristin Sainani, on Coursera; listed as Free) — [course](https://www.coursera.org/learn/sciwrite). Modules 1–4 for clarity and revision in E08–E10.
+- **Which lectures go with which lab and project:** the map in [resources](<resources.md#lesson-to-vault-map>). Watch with the [V protocol](../../study-protocols.md#v--watch-actively) and [use courses as companions](../../study-protocols.md#using-video-courses).
+- **Gaps:** Spelling (E01–E03) has no good video course, and E09–E10 lean on Google's free [Technical Writing One](https://developers.google.com/tech-writing/one) and [Two](https://developers.google.com/tech-writing/two).
+
+---
+
 ## Fun, videos, and courses
 
 - **[Writing prompts](writing-prompts.md):** 150+ fun prompts sorted by stage, plus constraint games, project-tied prompts, and speaking prompts for your section recording.
-- **[Courses and videos](../../courses-and-videos.md#foundations-english):** Khan Academy Grammar, Google's free Technical Writing courses, *Writing in the Sciences* and *Grammar and Punctuation* on Coursera, and YouTube channels — mapped stage by stage. Every stage file also has a short **Watch, practise, and write** section.
+- **Video course:** see [above](#video-course). Every stage file also has a short **Watch, practise, and write** section with extra videos for that stage.
 - **[The first sections](../first-sections.md):** Sections 1–12 with targets, companions, and badges for the start.
 - **[Placement diagnostic](placement.md):** where to start, and which stages you can test out of.
 

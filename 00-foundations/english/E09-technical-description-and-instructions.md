@@ -297,7 +297,7 @@ Find a real bug or annoyance in any software you use (a website, an app, a game)
 
 ## Watch, practise, and write
 
-*Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
+*Companions, not replacements: the lessons above come first. Video course for this track: [English resources](resources.md#video-course).*
 
 - **Watch:** Google Technical Writing One (free). Technology Connections or Steve Mould (YouTube): watch one explanation of an everyday machine, then write your own.
 - **Practise:** Google Technical Writing One's in-class exercises, done on paper first.

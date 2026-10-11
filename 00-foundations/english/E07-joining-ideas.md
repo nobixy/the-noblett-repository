@@ -305,7 +305,7 @@ Save before and after (`english/joining-before-after.md`). Count changes.
 
 ## Watch, practise, and write
 
-*Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
+*Companions, not replacements: the lessons above come first. Video course for this track: [English resources](resources.md#video-course).*
 
 - **Watch:** Khan Academy Grammar: 'Syntax: conventions of standard English' (run-ons, fragments, parallel structure). *Grammar and Punctuation* (Coursera), the sentence modules.
 - **Practise:** Sentence combining: 5 per session from your own journal.

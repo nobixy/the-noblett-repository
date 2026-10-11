@@ -77,6 +77,14 @@ Seedling is long; its milestones are designed so that each one ends with a kerne
 - **RISC-V toolchain and emulator:** on Arch, `sudo pacman -S riscv64-elf-gcc riscv64-elf-binutils riscv64-elf-gdb qemu-system-riscv` (package names differ elsewhere: look for a `riscv64-unknown-elf` or `riscv64-linux-gnu` cross-compiler, and `qemu-system-misc` on Debian/Ubuntu).
 - ThreadSanitizer comes with gcc and clang (`-fsanitize=thread`).
 
+## Video course
+
+- **Primary:** **MIT 6.S081 Operating System Engineering** (MIT PDOS) — lecture videos linked from the [official lecture list](https://pdos.csail.mit.edu/6.S081/2020/schedule.html).
+- **Alternate:** **Berkeley CS162 Operating Systems and Systems Programming** (John Kubiatowicz) — [YouTube playlist](https://www.youtube.com/playlist?list=PLF2K2xZjNEf97A_uBCwEl61sdxWVP7VWC).
+- **Which lectures go with which lab and project:** the map in [resources](<resources.md#lecture-to-vault-map>). Watch with the [V protocol](../study-protocols.md#v--watch-actively) and [use courses as companions](../study-protocols.md#using-video-courses).
+
+---
+
 ## Connections
 
 - **Back:** Burrow (processes and signals from the user side), Heapsmith (the kernel heap), Crate (on-disk formats, fsync), Kestrel (traps and interrupts stretch goal; the idea of privileged state), Crosswalk (thread states are an FSM), Module 05 (queues, heaps, trees).

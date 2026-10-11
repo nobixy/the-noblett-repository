@@ -84,6 +84,14 @@ Labs 01–02 first (C fundamentals and tools are needed everywhere), then Lab 03
 
 and test with `-fsanitize=address,undefined` builds as well. Linux is required for Burrow's job control details (WSL2 works; macOS mostly works with small differences in system calls, noted where relevant).
 
+## Video course
+
+- **Primary:** **CMU 15-213 Introduction to Computer Systems** (Carnegie Mellon) — [course page with slides](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html) · [lectures on YouTube](https://www.youtube.com/playlist?list=PLpIxOj-HnDsPZIJYO4U9f-xRI8bBadaso) (a third-party re-upload).
+- **Alternate:** **CS50x** (Harvard) — [YouTube playlist](https://www.youtube.com/playlist?list=PLhQjrBD2T380hlTqAU8HfvVepCcjCqTg6) · [course site](https://cs50.harvard.edu/x/).
+- **Which lectures go with which lab and project:** the map in [resources](<resources.md#lecture-to-vault-map>). Watch with the [V protocol](../study-protocols.md#v--watch-actively) and [use courses as companions](../study-protocols.md#using-video-courses).
+
+---
+
 ## Connections
 
 - **Back:** Module 06 (stack frames, calling conventions, caches), Module 05 (data structures and measurement), Burrow Jr., Base Workshop's `minihex.py` (Crate's debugging tool), Tone Loom (binary formats, endianness).

@@ -325,7 +325,7 @@ You'll build a circuit that does exactly this in Module 04 and use it to make yo
 
 ## Watch, practise, and play
 
-*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-math).*
+*Companions, not replacements: the lessons above come first. Use the [V protocol](../../study-protocols.md#v--watch-actively). Video course for this track: [math resources](resources.md#video-course).*
 
 - **Watch:** Math Antics: negative numbers and exponents. Khan Academy: Pre-algebra, negative numbers, exponents, order of operations. Eddie Woo: why a negative times a negative is positive.
 - **Practise:** Khan Academy exponents and order-of-operations exercises.

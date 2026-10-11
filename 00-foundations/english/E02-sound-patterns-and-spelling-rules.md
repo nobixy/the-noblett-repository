@@ -304,7 +304,7 @@ In one or two plain sentences each, explain:
 
 ## Watch, practise, and write
 
-*Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
+*Companions, not replacements: the lessons above come first. Video course for this track: [English resources](resources.md#video-course).*
 
 - **Watch:** English with Lucy or mmmEnglish (YouTube): search the channel for the rule you're on (doubling consonants, silent e, y to i, i before e).
 - **Practise:** Monkeytype with the English 1k word list once your typing passes 25 wpm.
