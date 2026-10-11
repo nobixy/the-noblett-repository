@@ -1,22 +1,25 @@
 ---
 title: "Lab 02 — Capacitors and the 555 Clock"
+id: "MOD04-LAB02"
+type: "lab"
 module: "04-circuits-and-digital-logic"
-hours: 10
-type: maker-lab
+phase: "B"
+order: 600
+prerequisites: [MOD04-LAB01]
+kind: "maker"
 ---
 
 # Lab 02 — Capacitors and the 555 Clock
 
 **Goal:** see an exponential curve in a real circuit, measure a time constant, and build a **clock** — the steady tick that every digital system marches to.
 
-**Time:** about 10 hours, in three sessions.
+**Sessions:** three.
 
 **Deliverable:** a lab report: *"Does an RC circuit charge the way the formula says?"* plus a working ~1 Hz blinker.
 
 ---
 
-## Session 1 — The capacitor (simulator + bench, 4 hours)
-
+## Session 1 — The capacitor (simulator + bench)
 ### What a capacitor does
 
 A **capacitor** stores charge on two plates separated by an insulator. Its **capacitance** C (farads, F; you'll use microfarads, µF = 10⁻⁶ F, and nanofarads, nF = 10⁻⁹ F — M07) says how much charge it stores per volt.
@@ -60,7 +63,7 @@ Build: switch, 5 V, 100 kΩ, 100 µF. Watch the scope trace as it charges. Read 
 
 ---
 
-## Session 2 — The 555 timer: a clock (3 hours)
+## Session 2 — The 555 timer: a clock
 
 The **NE555** is one of the most-made chips in history. In **astable** mode it switches its output between high and low forever, by repeatedly charging and discharging a capacitor between ⅓ and ⅔ of the supply voltage.
 
@@ -79,7 +82,7 @@ $$f \approx \frac{1.44}{(R_1 + 2R_2)\,C}$$
 
 ---
 
-## Session 3 — Report (3 hours)
+## Session 3 — Report
 
 **Lab report** ([template](<../../04 - System/Lab Report Template.md>)): *"Does an RC circuit charge the way the formula predicts?"* Include: the predicted curve, your measured table and plot, τ found two ways (63% point and the log-linear fit), comparison with nominal RC and the tolerance, and the 555's predicted vs measured frequency at two capacitor values. Discuss error sources: tolerance, reading the meter at the right moment, leakage current in electrolytic capacitors, the meter's own input resistance (does a 10 MΩ meter input matter in a 100 kΩ circuit?).
 
@@ -94,7 +97,7 @@ $$f \approx \frac{1.44}{(R_1 + 2R_2)\,C}$$
 ## Retrieval and reflection
 
 1. **[R]:** the charging formula; what τ means; 63% and 5τ; why charging slows; the 555 formula; what a decoupling capacitor is for.
-2. **[F] (spoken, 2 min):** "Why does a capacitor charge quickly at first and slowly later?"
+2. **[F] (spoken):** "Why does a capacitor charge quickly at first and slowly later?"
 3. **[W]:** where else have you seen "the rate of change is proportional to the distance from the target"? (Study Deck's forgetting curve; M11's halving; the thermostat coming up.)
 
 **Next:** [Lab 03 — Logic Chips on a Breadboard](lab-03-logic-chips-on-a-breadboard.md).

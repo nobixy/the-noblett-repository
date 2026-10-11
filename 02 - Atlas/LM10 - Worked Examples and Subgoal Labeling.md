@@ -3,8 +3,6 @@ title: "LM10: Worked Examples and Subgoal Labeling"
 type: learning-method
 method_id: LM10
 evidence: "Strong for beginners"
-project_hours: 3
-counts_toward: "P4"
 ---
 
 # LM10 — Worked Examples and Subgoal Labeling
@@ -30,10 +28,10 @@ Subgoal labels: Catrambone (1998); in programming, Margulieux, Guzdial & Catramb
 - Labels that just restate the code.
 
 ## 🔨 Project: Subgoal Annotator
-Add `# SUBGOAL:` comments to 3 worked examples (CS50 lecture source or your own Week builds). Write a Python script that prints the subgoal outline of any .py or .c file. Then solve a similar problem using only the outline.
+Add `# SUBGOAL:` comments to 3 worked examples (CS50 lecture source or your own Module 01 builds). Write a Python script that prints the subgoal outline of any .py or .c file. Then solve a similar problem using only the outline.
 - **Done when:** the script outlines 3 files, and you solved 3 similar problems without looking at the original examples.
-- **Time:** about 3 h, counted inside [[P4 - Programming On-Ramp|P4]]'s existing hours (replaces rewatching CS50 lectures; you annotate the lecture source code instead).
-- **Level / when:** Beginner Python (file reading, string matching). In P4, with CS50.
+- **Level:** Beginner Python (file reading, string matching).
+- **Fits with:** Protocol **S** (subgoal labels).
 
 ## Sources
 - Sweller & Cooper (1985), "The use of worked examples as a substitute for problem solving in learning algebra", *Cognition and Instruction* 2(1), 59–89.

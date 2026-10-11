@@ -1,25 +1,24 @@
 ---
-project_name: ""
-associated_block: ""
+type: build-log
+project: ""        # the project's id from its spec frontmatter, e.g. MOD02-PRJ-study-deck (see Frontmatter Schema)
+spec: ""           # path to the project's spec.md
 repo_link: ""
-status: planning # planning | building | debugging | passed
-valgrind_clean: false
-test_coverage_pass: false
-date_started: ""
-date_completed: ""
+status: planning   # planning | building | debugging | passed
+tests_pass: false
 ---
 
-# Project Spec: {{project_name}}
+# Build Log: {{project}}
 
 > [!INFO] Project Info
-> - **Associated Block:** `[[{{associated_block}}]]`
+> - **Spec:** `{{spec}}` — the requirements and "Done when" list live there; this note is your working log.
 > - **Git Repository:** `{{repo_link}}`
 > - **Status:** `{{status}}`
+> - Dates live in git history and your session log, not here ([Frontmatter Schema](<Frontmatter Schema.md>)).
 
 ---
 
 ## 🎯 Objective & Requirements
-*What does this system do? What are the hard requirements from the block?*
+*What does this system do? Copy the hard requirements from the spec in your own words.*
 
 ---
 
@@ -42,14 +41,19 @@ graph TD
 
 ---
 
-## 🧪 Verification & Autograder Test Strategy
+## 🧪 Verification & Test Strategy
 - [ ] Unit tests written before implementation
 - [ ] Edge cases (empty, overflow, max limits)
-- [ ] Memory leaks / Valgrind clean (`valgrind --leak-check=full`)
-- [ ] Race detection (`go test -race` or ThreadSanitizer)
-- [ ] Autograder / Benchmark score:
+- [ ] Memory leaks / Valgrind clean (`valgrind --leak-check=full`) — C projects
+- [ ] Race detection (ThreadSanitizer) — concurrent projects
+- [ ] The whole suite runs with one command
 
 ---
 
 ## 🛠️ Build Log & Bugs Encountered
-*Document the hardest bugs and how they were diagnosed (printf, gdb, objdump, logic analyzer).*
+*Document the hardest bugs and how they were diagnosed (printf, gdb, objdump, logic analyzer). Stuck notes [D] go here too.*
+
+---
+
+## ✅ Milestone Checkpoints
+*One [Milestone Checkpoint](<Milestone Checkpoint Template.md>) per milestone in the spec (R + F + W).*

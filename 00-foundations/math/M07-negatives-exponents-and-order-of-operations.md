@@ -1,22 +1,24 @@
 ---
 title: "M07 — Negatives, Exponents, and Order of Operations"
-stage: M07
-track: math
-hours: 30
-weeks: 4
+id: "M07"
+type: "lesson"
+module: "00-foundations"
+track: "math"
+stage: "M07"
+phase: "B"
+order: 360
+prerequisites: [M06]
 ---
 
 # M07 — Negatives, Exponents, and Order of Operations
 
 **In this stage you will:** work with negative numbers and know *why* a negative times a negative is positive; use exponents, their laws, and the reasons behind them (including why anything to the power 0 is 1); use square roots and scientific notation; apply the order of operations without traps; and see how computers store negative numbers using nothing but the odometer from M01.
 
-**Time:** about 30 hours over 4 weeks.
-
 **Before you start:** M06 done.
 
 ---
 
-## Diagnostic (cold, 20 minutes, no calculator)
+## Diagnostic (cold, no calculator)
 
 1. −7 + 4
 2. 3 − 9
@@ -260,16 +262,16 @@ You'll build a circuit that does exactly this in Module 04 and use it to make yo
 
 ---
 
-## Practice routine (4 weeks)
+## Practice routine (4 sections)
 
-| Week | Focus |
+| Section | Focus |
 | :-- | :-- |
-| 1 | Mon: number line, opposites, absolute value · Tue–Wed: adding and subtracting (moves first, then rules) · Thu: multiply/divide signs, both arguments · Fri: Practice Set 1, items 1–11 |
-| 2 | Mon: exponent meaning and the two tables · Tue: laws with the factor-counting reasons · Wed: zero and negative exponents · Thu: square roots · Fri: Practice Set 1, items 12–19 |
-| 3 | Mon: scientific notation · Tue–Wed: order of operations (20 problems, mixed) · Thu: two's complement · Fri: Practice Set 1 rest + Set 2 |
-| 4 | Mon–Wed: [Magnitudes Field Guide](projects/magnitudes-field-guide/spec.md) · Thu: Feynman · Fri: self-check |
+| 1 | Session 1: number line, opposites, absolute value · Sessions 2–3: adding and subtracting (moves first, then rules) · Session 4: multiply/divide signs, both arguments · Session 5: Practice Set 1, items 1–11 |
+| 2 | Session 1: exponent meaning and the two tables · Session 2: laws with the factor-counting reasons · Session 3: zero and negative exponents · Session 4: square roots · Session 5: Practice Set 1, items 12–19 |
+| 3 | Session 1: scientific notation · Sessions 2–3: order of operations (20 problems, mixed) · Session 4: two's complement · Session 5: Practice Set 1 rest + Set 2 |
+| 4 | Sessions 1–3: [Magnitudes Field Guide](projects/magnitudes-field-guide/spec.md) · Session 4: Feynman · Session 5: self-check |
 
-**Daily warm-up [R]:** powers of 2 from 2⁰ to 2¹⁰ and the 10ⁿ prefixes, from memory; then one order-of-operations problem.
+**Warm-up [R] (every session):** powers of 2 from 2⁰ to 2¹⁰ and the 10ⁿ prefixes, from memory; then one order-of-operations problem.
 
 **Key why-questions [W]:**
 1. Why does subtracting a negative make a number bigger?
@@ -331,7 +333,7 @@ You'll build a circuit that does exactly this in Module 04 and use it to make yo
 
 ---
 
-## Self-check (cold, 30 minutes, no calculator)
+## Self-check (cold, no calculator)
 
 1. −15 + 9 − (−4)
 2. (−3)³
@@ -343,7 +345,7 @@ You'll build a circuit that does exactly this in Module 04 and use it to make yo
 8. (−12 ÷ 4) − (−2)(−5)
 9. What is the smallest number of bits that can give 1,000 different values?
 10. In 4-bit two's complement, add 0011 and 1101. What does the result show?
-11. **[R] Blank sheet (10 min):** adding/subtracting negatives with the "moves" picture; both arguments for (−)×(−) = (+); the exponent laws with reasons; why a⁰ = 1; order of operations with the two traps; two's complement and "flip and add 1."
+11. **[R] Blank sheet:** adding/subtracting negatives with the "moves" picture; both arguments for (−)×(−) = (+); the exponent laws with reasons; why a⁰ = 1; order of operations with the two traps; two's complement and "flip and add 1."
 
 <details>
 <summary>Answers (self-check)</summary>

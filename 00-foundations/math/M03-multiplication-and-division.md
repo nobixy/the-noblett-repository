@@ -1,22 +1,24 @@
 ---
 title: "M03 — Multiplication and Division"
-stage: M03
-track: math
-hours: 30
-weeks: 4
+id: "M03"
+type: "lesson"
+module: "00-foundations"
+track: "math"
+stage: "M03"
+phase: "A"
+order: 160
+prerequisites: [M02]
 ---
 
 # M03 — Multiplication and Division
 
 **In this stage you will:** understand multiplication as groups, as area, and as scaling; learn the times tables with strategies instead of rote; see why the distributive law makes long multiplication work; do long division and know what each step means; and master remainders and **modulo**, one of the most-used operations in programming.
 
-**Time:** about 30 hours over 4 weeks.
-
 **Before you start:** M02 done.
 
 ---
 
-## Diagnostic (cold, 20 minutes, no calculator)
+## Diagnostic (cold, no calculator)
 
 1. 7 × 8
 2. 12 × 9
@@ -130,7 +132,7 @@ You need the facts up to 12 × 12 in your memory, instantly. Not because calcula
 
 **The hard core** (learn as flashcards): 6×7=42, 6×8=48, 7×7=49, 7×8=56, 8×8=64, 6×9=54, 7×9=63, 8×9=72. Hook for 7 × 8: "**5, 6, 7, 8**" → 56 = 7 × 8.
 
-**Practice:** the strategies first, slowly, for one week. Then flashcards on the 1-3-7-21 schedule. Then a daily 1-minute timed sheet of 30 mixed facts. Target: 30 in 60 seconds, no errors.
+**Practice:** the strategies first, slowly, for one section. Then flashcards on the 1-3-7-21 spacing schedule. Then a 1-minute timed sheet every session of 30 mixed facts. Target: 30 in 60 seconds, no errors.
 
 > **[W] Why do the strategies work?** Every one is the distributive law. 9 × 7 = (10 − 1) × 7 = 70 − 7. 6 × 7 = (5 + 1) × 7 = 35 + 7. Write three more in this form.
 
@@ -296,19 +298,19 @@ Read bottom to top: **100101₂**. Check: 32 + 4 + 1 = 37 ✓
 
 ---
 
-## Practice routine (4 weeks)
+## Practice routine (4 sections)
 
-| Week | Focus |
+| Section | Focus |
 | :-- | :-- |
-| 1 | Mon: meanings and properties · Tue: distributive law with rectangles · Wed–Fri: times-table strategies (one strategy group a day), start flashcards |
-| 2 | Mon–Tue: ×10, ×100, shifts · Wed–Thu: area model, then standard long multiplication · Fri: Practice Set 1, items 1–9 |
-| 3 | Mon: division meanings, division by zero · Tue–Thu: long division · Fri: Practice Set 1, items 10–14 + cumulative |
-| 4 | Mon–Tue: modulo and cycles · Wed: base conversion by division · Thu: Practice Set 1 rest + Set 2 · Fri: self-check |
+| 1 | Session 1: meanings and properties · Session 2: distributive law with rectangles · Sessions 3–5: times-table strategies (one strategy group per session), start flashcards |
+| 2 | Sessions 1–2: ×10, ×100, shifts · Sessions 3–4: area model, then standard long multiplication · Session 5: Practice Set 1, items 1–9 |
+| 3 | Session 1: division meanings, division by zero · Sessions 2–4: long division · Session 5: Practice Set 1, items 10–14 + cumulative |
+| 4 | Sessions 1–2: modulo and cycles · Session 3: base conversion by division · Session 4: Practice Set 1 rest + Set 2 · Session 5: self-check |
 
-**Daily:**
+**Every session:**
 - **Warm-up [R]:** the long-division subgoal labels from memory, then one problem.
 - **Facts minute:** 30 mixed times-table facts in 60 seconds (paper or flashcards). Log the score.
-- **Prime Factory:** start [Milestone 1](projects/prime-factory/spec.md) in week 4.
+- **Prime Factory:** start [Milestone 1](projects/prime-factory/spec.md) in section 4.
 
 **Key why-questions [W]:**
 1. Why does the distributive law hold? (Draw it.)
@@ -316,7 +318,7 @@ Read bottom to top: **100101₂**. Check: 32 + 4 + 1 = 37 ✓
 3. Why can't we divide by zero? Why is 0 ÷ 5 fine?
 4. Why does repeated division by 2 give the binary digits?
 
-**Feynman target [F]:** *"What is modulo, and where does it show up in real life?"* Five examples, no jargon, 2 minutes out loud.
+**Feynman target [F]:** *"What is modulo, and where does it show up in real life?"* Five examples, no jargon, out loud.
 
 ---
 
@@ -369,7 +371,7 @@ Read bottom to top: **100101₂**. Check: 32 + 4 + 1 = 37 ✓
 
 ---
 
-## Self-check (cold, 35 minutes, no calculator)
+## Self-check (cold, no calculator)
 
 1. 9 × 7, 11 × 12, 6 × 8, 7 × 7 (all from memory)
 2. 57 × 86
@@ -380,7 +382,7 @@ Read bottom to top: **100101₂**. Check: 32 + 4 + 1 = 37 ✓
 7. Convert 99 to binary by repeated division.
 8. Convert 255 to hex by repeated division.
 9. Three printers each print 45 pages per minute. How many minutes to print 2,700 pages? (Pólya.)
-10. **[R] Blank sheet (10 min):** meanings of × and ÷, the five properties with reasons, long multiplication and long division as subgoal labels, what modulo means with three examples.
+10. **[R] Blank sheet:** meanings of × and ÷, the five properties with reasons, long multiplication and long division as subgoal labels, what modulo means with three examples.
 
 <details>
 <summary>Answers (self-check)</summary>
@@ -391,7 +393,7 @@ Read bottom to top: **100101₂**. Check: 32 + 4 + 1 = 37 ✓
 ## Done when
 
 - [ ] Self-check ≥ 8/9 on items 1–9, blank sheet done.
-- [ ] Facts minute: 30 facts in 60 seconds, no errors, three days in a row.
+- [ ] Facts minute: 30 facts in 60 seconds, no errors, three sessions in a row.
 - [ ] Four why-questions answered; Feynman recording made.
 - [ ] [Prime Factory](projects/prime-factory/spec.md) Milestone 1 done.
 

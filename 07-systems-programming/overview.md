@@ -1,7 +1,12 @@
 ---
 title: "07 — Systems Programming"
+id: "MOD07"
+type: "overview"
 module: "07-systems-programming"
-hours: 190
+phase: "C"
+order: 990
+prerequisites: [MOD06, MOD05, MOD01-PRJ-shell-sketch, E10]
+checkpoints: [MOD07-CLOSE]
 tags: [module, systems, c]
 ---
 
@@ -34,16 +39,15 @@ By the end you will be able to:
 
 ## Sequence and time
 
-| Order | Item | Hours | Concepts |
-| :-- | :-- | --: | :-- |
-| 1 | [Lab 01 — C for Python Programmers](labs/lab-01-c-for-python-programmers.md) | 20 | types, pointers, arrays, strings, structs, malloc/free, headers, make |
-| 2 | [Lab 02 — Debugging Tools](labs/lab-02-debugging-tools.md) | 8 | gdb, valgrind, AddressSanitizer, UBSan, warnings as errors |
-| 3 | [Lab 03 — System Calls and strace](labs/lab-03-system-calls-and-strace.md) | 8 | files, fds, fork/exec/wait, pipes, signals, errno |
-| 4 | [Lab 04 — Measuring the Memory Hierarchy](labs/lab-04-measuring-the-memory-hierarchy.md) | 8 | perf, loop order, strides, cache sizes, array vs list in C |
-| 5 | **[Heapsmith](projects/heapsmith/spec.md)** — a memory allocator | 50 | heap layout, free lists, splitting, coalescing, size classes, fragmentation, debugging features |
-| 6 | **[Burrow](projects/burrow/spec.md)** — a Unix shell | 55 | processes, pipelines, redirection, process groups, job control, signals, a script language |
-| 7 | **[Crate](projects/crate/spec.md)** — an archive format | 40 | binary formats, endianness, CRC32, compression, corruption recovery, fuzzing |
-| | **Total** | **~190** | |
+| Order | Item | Concepts |
+| :-- | :-- | :-- |
+| 1 | [Lab 01 — C for Python Programmers](labs/lab-01-c-for-python-programmers.md) | types, pointers, arrays, strings, structs, malloc/free, headers, make |
+| 2 | [Lab 02 — Debugging Tools](labs/lab-02-debugging-tools.md) | gdb, valgrind, AddressSanitizer, UBSan, warnings as errors |
+| 3 | [Lab 03 — System Calls and strace](labs/lab-03-system-calls-and-strace.md) | files, fds, fork/exec/wait, pipes, signals, errno |
+| 4 | [Lab 04 — Measuring the Memory Hierarchy](labs/lab-04-measuring-the-memory-hierarchy.md) | perf, loop order, strides, cache sizes, array vs list in C |
+| 5 | **[Heapsmith](projects/heapsmith/spec.md)** — a memory allocator | heap layout, free lists, splitting, coalescing, size classes, fragmentation, debugging features |
+| 6 | **[Burrow](projects/burrow/spec.md)** — a Unix shell | processes, pipelines, redirection, process groups, job control, signals, a script language |
+| 7 | **[Crate](projects/crate/spec.md)** — an archive format | binary formats, endianness, CRC32, compression, corruption recovery, fuzzing |
 
 Labs 01–02 first (C fundamentals and tools are needed everywhere), then Lab 03 before Burrow, Lab 04 any time. Projects in any order; Heapsmith first is recommended because it makes pointers second nature.
 
@@ -67,7 +71,7 @@ Labs 01–02 first (C fundamentals and tools are needed everywhere), then Lab 03
 | **S** | Subgoal comments before every C function (they matter even more in C, where one wrong step corrupts memory). |
 | **C** | Copywork this module: Rob Pike's "Notes on Programming in C" and Kernighan & Pike's prose — models of short, exact technical writing. |
 | **I** | C practice problems mixed with earlier modules' algorithms re-written in C. |
-| **D** | Memory bugs can be baffling. Valgrind first; then the 90-minute rule and a stuck note. |
+| **D** | Memory bugs can be baffling. Valgrind first; then the stuck rule (three honest attempts) and a stuck note. |
 | **T** | Design docs, a measurement report per project, demos. |
 
 ## Environment
@@ -87,9 +91,11 @@ and test with `-fsanitize=address,undefined` builds as well. Linux is required f
 
 ## Module close
 
-1. **Cumulative retrieval [R] (60 min):** a process's memory map; a block in your allocator with its header; the system calls for a pipeline with job control; Crate's file layout.
-2. **Code review [T]:** pick 200 lines from one project and review them yourself a week later as a stranger (or ask someone): memory safety, error handling, clarity. Fix what you find.
+1. **Cumulative retrieval [R]:** a process's memory map; a block in your allocator with its header; the system calls for a pipeline with job control; Crate's file layout.
+2. **Code review [T]:** pick 200 lines from one project and review them yourself at least one section later as a stranger (or ask someone): memory safety, error handling, clarity. Fix what you find.
 3. **Update your [Terminal Field Notes](../00-foundations/english/projects/terminal-field-notes/spec.md)** with one entry correcting something you wrote back then about processes or memory.
 4. Tick the module in [Start Here](<../00 - Start Here.md>).
+
+**Resources:** books, docs, and tools for this module are in [resources.md](resources.md) (pointers only — the projects are the course).
 
 **Next:** [08 Operating Systems](../08-operating-systems/overview.md).

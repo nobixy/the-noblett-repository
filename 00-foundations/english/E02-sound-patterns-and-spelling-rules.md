@@ -1,16 +1,18 @@
 ---
 title: "E02 — Sound Patterns and Spelling Rules"
-stage: E02
-track: english
-hours: 20
-weeks: 3
+id: "E02"
+type: "lesson"
+module: "00-foundations"
+track: "english"
+stage: "E02"
+phase: "A"
+order: 60
+prerequisites: [E01]
 ---
 
 # E02 — Sound Patterns and Spelling Rules
 
 **In this stage you will:** learn how English letters map to sounds, learn the six spelling rules that explain most suffix errors, and re-tag your error log by rule so you can see which rules you break most.
-
-**Time:** about 20 hours over 3 weeks.
 
 **Before you start:** E01 done. Your `spelling-log.tsv` has 30+ entries.
 
@@ -24,7 +26,7 @@ Spelling rules are a lot like code: a condition and an action. "**If** the word 
 
 ---
 
-## Part 1 — Letters and sounds (week 1)
+## Part 1 — Letters and sounds (section 1)
 
 English has 26 letters but about 44 sounds. So some sounds need two letters, and some letters make more than one sound. The patterns below explain most of it.
 
@@ -120,7 +122,7 @@ Hook for silent letters: a related word often says the letter out loud: *sign �
 
 ---
 
-## Part 2 — The six spelling rules (weeks 2–3)
+## Part 2 — The six spelling rules (sections 2–3)
 
 These rules are about adding **suffixes** (endings like *-ing, -ed, -er, -ful, -ly, -s*). Most adult spelling errors happen right here.
 
@@ -214,17 +216,17 @@ Then count each tag. (By hand, or on Linux: `cut -f4 spelling-log.tsv | tr ',' '
 
 ---
 
-## Part 4 — The three-week routine
+## Part 4 — The three-section routine
 
-Same shape as E01, with the lesson block focused on one pattern or rule per day.
+Same shape as E01, with the lesson block focused on one pattern or rule per session.
 
-| Week | Lesson focus (15–20 min/day) |
+| Section | Lesson focus |
 | :-- | :-- |
-| 1 | Mon: Patterns 1–3 · Tue: Pattern 4 · Wed: Patterns 5–6 · Thu: Patterns 7–8 + silent letters · Fri: mixed dictation + re-tag your log |
-| 2 | Mon: Rule 1 · Tue: Rule 2 · Wed: Rule 3 · Thu: Rules 1–3 mixed (Practice Set 1) · Fri: dictation |
-| 3 | Mon: Rule 4 · Tue: Rule 5 · Wed: Rule 6 · Thu: Practice Sets 2 and 3 · Fri: self-check |
+| 1 | Session 1: Patterns 1–3 · Session 2: Pattern 4 · Session 3: Patterns 5–6 · Session 4: Patterns 7–8 + silent letters · Session 5: mixed dictation + re-tag your log |
+| 2 | Session 1: Rule 1 · Session 2: Rule 2 · Session 3: Rule 3 · Session 4: Rules 1–3 mixed (Practice Set 1) · Session 5: dictation |
+| 3 | Session 1: Rule 4 · Session 2: Rule 5 · Session 3: Rule 6 · Session 4: Practice Sets 2 and 3 · Session 5: self-check |
 
-Each lesson day:
+Each lesson session:
 1. **Read** the rule. Cover it. **Write it from memory** in your own words, as an *if… then…* sentence [R].
 2. **Why-ladder [W]:** what misreading does this rule prevent? Write the answer in one sentence.
 3. **Subgoal labels [S]:** write the rule as numbered steps you could follow. Example for Rule 1:
@@ -310,11 +312,11 @@ In one or two plain sentences each, explain:
 
 ---
 
-## Self-check (end of week 3)
+## Self-check (end of section 3)
 
-1. **Dictation (30 words):** record these, wait a day, write them. *beginning, occurred, preferred, visited, targeted, hoping, hopping, writing, written, usable, noticeable, changeable, truly, argument, tried, trying, studies, played, daily, said, believe, receive, weird, neighbor, foreign, libraries, arrays, matrices, finally, useful.* Target: **27/30**.
+1. **Dictation (30 words):** record these, wait until a later session, write them. *beginning, occurred, preferred, visited, targeted, hoping, hopping, writing, written, usable, noticeable, changeable, truly, argument, tried, trying, studies, played, daily, said, believe, receive, weird, neighbor, foreign, libraries, arrays, matrices, finally, useful.* Target: **27/30**.
 2. **Rules from memory [R]:** on a blank page, write all six rules as *if… then…* statements with one example each. Check against this file.
-3. **Teach-back [F] [T]:** record a 2-minute voice memo explaining the doubling rule to a friend, including why it exists. Listen back; note any spot you stumbled.
+3. **Teach-back [F] [T]:** record a short voice memo explaining the doubling rule to a friend, including why it exists. Listen back; note any spot you stumbled.
 4. **Log check:** your two most common tags from Part 3. Did your misses in this stage's dictations come from the same tags?
 
 ## Done when

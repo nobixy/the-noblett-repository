@@ -1,20 +1,23 @@
 ---
 title: "Project: Base Workshop"
-track: math
+id: "FND-MA-PRJ-base-workshop"
+type: "project"
+module: "00-foundations"
+track: "math"
+phase: "A"
+order: 190
+prerequisites: [M01]
 stages: "M01–M02, then after 01 Lab 01"
-hours: 14
 artifact: "A paper counting board and adding sheets; bases.py, odometer.py, and minihex.py"
-deliverable: "5–8 sentence explanation + 3-minute recorded demo"
+deliverable: "5–8 sentence explanation + short recorded demo"
 ---
 
 # Project: Base Workshop
 
 | | |
 | :-- | :-- |
-| **When** | Milestones 1–3 during M01–M02 (paper only). Milestones 4–5 after [01 Lab 01](../../../../01-intro-cs-taste/labs/lab-01-python-first-steps.md). |
-| **Time** | About 14 hours |
 | **You build** | A physical counting board for bases 2, 5, 10, 16; hand-decoded secret messages; then a base converter, an odometer simulator, and a tiny hex-dump tool that shows the real bytes inside any file on your computer |
-| **Deliverable** | A short written explanation (5–8 sentences) and a 3-minute recorded demo |
+| **Deliverable** | A short written explanation (5–8 sentences) and a short recorded demo |
 
 ---
 
@@ -145,7 +148,7 @@ def from_base(digits: str, base: int) -> int:
 
 Sized for where you are in English (E02–E05):
 1. **Explanation (5–8 sentences)** in `README.md`: what the tools do and how `to_base` works. Short, correct sentences; every term explained.
-2. **3-minute recorded demo:** show the counting board briefly, run `bases.py`, run `odometer.py` until it overflows, and dump a PNG with `minihex.py`. Say what the magic number spells.
+2. **short recorded demo:** show the counting board briefly, run `bases.py`, run `odometer.py` until it overflows, and dump a PNG with `minihex.py`. Say what the magic number spells.
 
 ## Study-method integration
 
@@ -179,4 +182,4 @@ Sized for where you are in English (E02–E05):
 ## Connections
 
 - **Back:** M01 (place value, bases), M02 (carrying), M03 (repeated division).
-- **Forward:** [01 Nib project](../../../../01-intro-cs-taste/projects/nib-machine/spec.md) (memory as bytes), Module 04 (adder circuits), Module 06 (machine code), Module 07 (binary file formats, where `minihex.py` becomes your daily debugging tool).
+- **Forward:** [01 Nib project](../../../../01-intro-cs-taste/projects/nib-machine/spec.md) (memory as bytes), Module 04 (adder circuits), Module 06 (machine code), Module 07 (binary file formats, where `minihex.py` becomes your go-to debugging tool).

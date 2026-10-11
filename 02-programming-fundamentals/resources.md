@@ -1,6 +1,11 @@
 ---
 title: "02 — Resources"
+id: "MOD02-RES"
+type: "reference"
 module: "02-programming-fundamentals"
+phase: "B"
+order: 490
+prerequisites: []
 ---
 
 # 02 — Resources

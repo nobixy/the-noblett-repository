@@ -3,8 +3,6 @@ title: "LM16: Zettelkasten"
 type: learning-method
 method_id: LM16
 evidence: "Practitioner method; not tested"
-project_hours: 5
-counts_toward: "P5"
 ---
 
 # LM16 — Zettelkasten
@@ -24,7 +22,7 @@ The risk is that note-taking becomes the hobby (your how-i-study quote).
 ## Using it in EECS
 - One note per mechanism: "TLB", "two's complement", "Little's law".
 - Link each to where it shows up (OS, architecture, networking).
-- The Zettelkasten template is in `06 - Templates/`.
+- The Zettelkasten template is in `04 - System/`.
 
 ## Common mistakes
 - Copying text instead of rewriting it.
@@ -32,10 +30,10 @@ The risk is that note-taking becomes the hobby (your how-i-study quote).
 - Spending more time organizing notes than studying.
 
 ## 🔨 Project: Vault Link-Graph Analyzer
-A Python script that walks your vault, parses its wikilinks (the double-square-bracket links), and lists orphan notes, the most-linked notes, and notes with no outgoing links. Stretch: draw the graph with `networkx`. This is a preview of network science in Block 19a.
+A Python script that walks your vault, parses its wikilinks (the double-square-bracket links), and lists orphan notes, the most-linked notes, and notes with no outgoing links. Stretch: draw the graph with `networkx`. This is a preview of Module 12's [Matrix Studio](<../12-math-for-engineering/projects/matrix-studio/spec.md>), which ranks your vault's notes by their links with eigenvectors.
 - **Done when:** it runs on your vault, its orphan list matches Obsidian's graph view, and you wrote 5 atomic notes that link orphans in.
-- **Time:** about 5 h, counted inside [[P5 - Tooling|P5]]'s existing hours (counts as the Missing Semester exercises for lecture 2 (shell tools and scripting), 4 (data wrangling) and 6 (version control): the exercises are your own tools).
-- **Level / when:** Intermediate Python (os.walk, regex, dicts). Last, in P5.
+- **Level:** Intermediate Python (os.walk, regex, dicts).
+- **Fits with:** This vault itself; the [[Zettelkasten Atomic Note Template]].
 
 ## Sources
 - Ahrens, *How to Take Smart Notes* (2017).

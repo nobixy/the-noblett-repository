@@ -1,20 +1,24 @@
 ---
 title: "Lab 02 — Virtual Memory Explorer"
+id: "MOD08-LAB02"
+type: "lab"
 module: "08-operating-systems"
-hours: 8
+phase: "D"
+order: 1100
+prerequisites: [MOD08-LAB01]
 ---
 
 # Lab 02 — Virtual Memory Explorer
 
 **Goal:** observe virtual memory on your real Linux machine — the layout of a process, address randomisation, lazy allocation, page faults, memory-mapped files, and copy-on-write after `fork` — so that when you implement page tables in Seedling, you know what they're for.
 
-**Time:** about 8 hours, in three sessions.
+**Sessions:** three.
 
 **Deliverable:** a short lab report with your measurements.
 
 ---
 
-## Session 1 — The address space (3 hours)
+## Session 1 — The address space
 
 Every process sees its own **virtual address space**: addresses that the hardware translates (using **page tables** set up by the kernel) into **physical** memory addresses. Two processes can use the same virtual address for different physical memory.
 
@@ -25,7 +29,7 @@ Every process sees its own **virtual address space**: addresses that the hardwar
 
 ---
 
-## Session 2 — Laziness and page faults (3 hours)
+## Session 2 — Laziness and page faults
 
 Memory is managed in **pages** (4 KiB on most systems: `getconf PAGESIZE`). The kernel often doesn't give you physical memory when you ask — only when you first **touch** each page. Touching an unbacked page causes a **page fault**, which the kernel handles by finding a physical page and mapping it in.
 
@@ -37,7 +41,7 @@ Measure with `getrusage(RUSAGE_SELF, &ru)` → `ru.ru_minflt` (minor faults: no 
 
 ---
 
-## Session 3 — Copy-on-write (2 hours)
+## Session 3 — Copy-on-write
 
 After `fork`, the child has a "copy" of the parent's memory — but copying gigabytes on every fork would be slow. Instead, both processes share the same physical pages, marked **read-only**; when either one **writes** a page, a page fault happens and the kernel copies just that page: **copy-on-write** (COW).
 
@@ -62,4 +66,4 @@ After `fork`, the child has a "copy" of the parent's memory — but copying giga
 ## Retrieval and reflection
 
 1. **[R]:** virtual vs physical; page; page fault (minor/major); what `mmap` does lazily; copy-on-write.
-2. **[F] (spoken, 2 min):** "Why can two programs use the same address without interfering?"
+2. **[F] (spoken):** "Why can two programs use the same address without interfering?"

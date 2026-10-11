@@ -1,31 +1,35 @@
 ---
 title: "Lab 01 — Reading a Web Standard"
+id: "MOD10-LAB01"
+type: "lab"
 module: "10-browser-engine"
-hours: 8
+phase: "D"
+order: 1260
+prerequisites: []
 ---
 
 # Lab 01 — Reading a Web Standard
 
 **Goal:** learn to read huge technical standards *selectively* — the WHATWG HTML Standard and the CSS specifications — and turn what you read into precise, testable understanding: tokenizing by hand, computing specificity, and doing box-model arithmetic.
 
-**Time:** about 8 hours, in three sessions.
+**Sessions:** three.
 
 ---
 
-## Session 1 — How to read a standard (2 hours)
+## Session 1 — How to read a standard
 
 The HTML Standard (html.spec.whatwg.org) is thousands of pages. Nobody reads it front to back. Engineers use it like a map: find the section you need, read it closely, and test your understanding.
 
 **Use the three-pass method** ([LM13](<../../02 - Atlas/LM13 - Three-Pass Paper Reading.md>)), adapted:
-1. **Pass 1 (15 min):** read the table of contents and section introductions for "Parsing HTML documents" (section 13.2). Write, in 5 sentences, what the parsing process consists of.
-2. **Pass 2 (45 min):** read "Tokenization" (13.2.5) — the overview and the first ten states (data state, tag open, end tag open, tag name, before attribute name, attribute name, after attribute name, before attribute value, attribute value (double-quoted), and the comment states). Note how each state says exactly what to do with each next character.
+1. **Pass 1:** read the table of contents and section introductions for "Parsing HTML documents" (section 13.2). Write, in 5 sentences, what the parsing process consists of.
+2. **Pass 2:** read "Tokenization" (13.2.5) — the overview and the first ten states (data state, tag open, end tag open, tag name, before attribute name, attribute name, after attribute name, before attribute value, attribute value (double-quoted), and the comment states). Note how each state says exactly what to do with each next character.
 3. **Pass 3 (only for what you'll implement):** later, during Glimpse Milestone 2.
 
 **[W]:** why does the standard describe parsing as a state machine with explicit error-recovery for every malformed input, instead of saying "invalid HTML is an error"? (Hint: what did browsers do with the broken HTML of the 1990s web, and what would happen to old pages if a new browser refused them?)
 
 ---
 
-## Session 2 — Tokenize and tree-build by hand (3 hours)
+## Session 2 — Tokenize and tree-build by hand
 
 Using the states you read, tokenize these by hand into a list of tokens (start tag with attributes, end tag, character, comment, end-of-file) [S]:
 
@@ -40,7 +44,7 @@ Check your answers against a real browser: paste the snippet into a file, open i
 
 ---
 
-## Session 3 — CSS by hand (3 hours)
+## Session 3 — CSS by hand
 
 ### Specificity
 
@@ -92,4 +96,4 @@ Compute by hand:
 ## Retrieval and reflection
 
 1. **[R]:** the tokenizer's main states; specificity rules; the width equation.
-2. **[F] (spoken, 2 min):** "Why are browsers so forgiving of broken HTML?"
+2. **[F] (spoken):** "Why are browsers so forgiving of broken HTML?"

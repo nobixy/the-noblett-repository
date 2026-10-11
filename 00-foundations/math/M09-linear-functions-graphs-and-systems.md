@@ -1,16 +1,18 @@
 ---
 title: "M09 — Linear Functions, Graphs, and Systems"
-stage: M09
-track: math
-hours: 30
-weeks: 4
+id: "M09"
+type: "lesson"
+module: "00-foundations"
+track: "math"
+stage: "M09"
+phase: "B"
+order: 380
+prerequisites: [M08]
 ---
 
 # M09 — Linear Functions, Graphs, and Systems
 
 **In this stage you will:** plot points, understand a function as an input-output machine (just like a function in code), work with straight-line functions — slope, intercept, y = mx + b — build linear models from real data and use them to predict, and solve two equations together to find where two lines meet.
-
-**Time:** about 30 hours over 4 weeks.
 
 **Before you start:** M08 done. You can solve equations and rearrange formulas.
 
@@ -18,7 +20,7 @@ weeks: 4
 
 ---
 
-## Diagnostic (cold, 25 minutes)
+## Diagnostic (cold)
 
 1. Which quadrant is the point (3, −2) in?
 2. If f(x) = 2x + 3, what is f(4)?
@@ -244,16 +246,16 @@ Graph both lines; read off where they cross. Good for seeing; imprecise for exac
 
 ---
 
-## Practice routine (4 weeks)
+## Practice routine (4 sections)
 
-| Week | Focus |
+| Section | Focus |
 | :-- | :-- |
-| 1 | Mon: coordinate plane and screen coordinates · Tue: functions as machines (write 3 as Python functions) · Wed–Thu: slope · Fri: y = mx + b, graphing by hand |
-| 2 | Mon–Tue: equation from two points; other forms · Wed: parallel lines · Thu–Fri: Practice Set 1, items 1–11 |
-| 3 | Mon–Tue: linear models from data (do the worked example, then one of your own: time how long `seq 1 N > /dev/null` takes for five values of N) · Wed–Thu: systems, all three methods · Fri: Practice Set 1 rest |
-| 4 | Mon–Wed: [Fare Detective](projects/fare-detective/spec.md) Milestones 3–4 · Thu: Practice Set 2 + Feynman · Fri: self-check |
+| 1 | Session 1: coordinate plane and screen coordinates · Session 2: functions as machines (write 3 as Python functions) · Sessions 3–4: slope · Session 5: y = mx + b, graphing by hand |
+| 2 | Sessions 1–2: equation from two points; other forms · Session 3: parallel lines · Sessions 4–5: Practice Set 1, items 1–11 |
+| 3 | Sessions 1–2: linear models from data (do the worked example, then one of your own: time how long `seq 1 N > /dev/null` takes for five values of N) · Sessions 3–4: systems, all three methods · Session 5: Practice Set 1 rest |
+| 4 | Sessions 1–3: [Fare Detective](projects/fare-detective/spec.md) Milestones 3–4 · Session 4: Practice Set 2 + Feynman · Session 5: self-check |
 
-**Daily warm-up [R]:** the "equation from two points" subgoal labels from memory, then one problem.
+**Warm-up [R] (every session):** the "equation from two points" subgoal labels from memory, then one problem.
 
 **Key why-questions [W]:**
 1. Why is the graph of y = mx + b straight?
@@ -261,7 +263,7 @@ Graph both lines; read off where they cross. Good for seeing; imprecise for exac
 3. In a cost model, which number decides who's cheaper for small usage, and which decides for large usage? Why?
 4. Why is extrapolating riskier than interpolating?
 
-**Feynman target [F]:** *"What do the slope and intercept of a model tell you?"* Use the file-transfer example. 2 minutes, out loud, with a sketch.
+**Feynman target [F]:** *"What do the slope and intercept of a model tell you?"* Use the file-transfer example. Briefly, out loud, with a sketch.
 
 ---
 
@@ -322,7 +324,7 @@ Graph both lines; read off where they cross. Good for seeing; imprecise for exac
 
 ---
 
-## Self-check (cold, 35 minutes)
+## Self-check (cold)
 
 1. If f(x) = 5 − 2x, find f(−3).
 2. Find the slope through (−1, −4) and (3, 8).
@@ -332,7 +334,7 @@ Graph both lines; read off where they cross. Good for seeing; imprecise for exac
 6. Solve: 5x − 2y = 4 and 3x + 2y = 12.
 7. Print shop A charges $12 setup plus $0.08 per page. Shop B charges $5 setup plus $0.15 per page. At how many pages do they cost the same? Which is cheaper for 500 pages?
 8. Data: (2, 9) and (5, 18). Build the linear model and predict the value at x = 10.
-9. **[R] Blank sheet (10 min):** what a function is; slope formula with meaning; y = mx + b; the model-building subgoals with what m and b mean; substitution and elimination subgoals; the three outcomes for a system.
+9. **[R] Blank sheet:** what a function is; slope formula with meaning; y = mx + b; the model-building subgoals with what m and b mean; substitution and elimination subgoals; the three outcomes for a system.
 
 <details>
 <summary>Answers (self-check)</summary>
@@ -343,7 +345,7 @@ Graph both lines; read off where they cross. Good for seeing; imprecise for exac
 ## Done when
 
 - [ ] Self-check ≥ 7/8 on items 1–8, blank sheet done.
-- [ ] You built one linear model from your own measurements (week 3 timing task).
+- [ ] You built one linear model from your own measurements (section 3 timing task).
 - [ ] Four why-questions answered; Feynman recording made.
 - [ ] [Fare Detective](projects/fare-detective/spec.md) complete.
 

@@ -1,6 +1,11 @@
 ---
 title: "09 — Resources"
+id: "MOD09-RES"
+type: "reference"
 module: "09-networking"
+phase: "D"
+order: 1230
+prerequisites: []
 ---
 
 # 09 — Resources

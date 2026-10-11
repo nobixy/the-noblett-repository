@@ -1,7 +1,8 @@
 ---
 title: "DR-008: Project-First Start and Projects Ladder"
 type: decision-record
-status: accepted
+status: superseded
+superseded_by: [DR-010, DR-011]
 date: 2026-10-10
 accepted: 2026-10-10
 tags:
@@ -11,6 +12,9 @@ tags:
 
 # DR-008: Project-First Start and Projects Ladder
 
+> [!WARNING] Superseded
+> Superseded by [[DR-010 - Project-First Original Curriculum|DR-010]] and [[DR-011 - Sectioned Curriculum and Frontmatter Schema|DR-011]]. Kept as a historical record: its dates, hours, weeks, phases and links into `99 - Archive/` describe the v1 plan and are not current instructions.
+
 *Uses the [[Decision Record]] template. Follows [[DR-007 - Repo Cleanup|DR-007]]. Accepted and applied 2026-10-10. Checkpoint before this change: git commit `f6f26ef`.*
 
 ## Context
@@ -19,7 +23,7 @@ tags:
 Phase −1 opened with Lockhart's *Arithmetic* and Huddleston & Pullum / Williams, and four Year 1 blocks (2, 3, 7, 8) had problem sets but no build. The hour cap leaves ~15 h of margin (DR-006), so nothing could be added, only swapped.
 
 ## Decision
-- **Day 1 is a build.** A [[00 - Start Here#🚀 Week 1 — Do This Today|Week 1: do this today]] checklist at the top of Start Here: Scratch game, Wokwi Pico blink, Desmos art, Bandit, nandgame, a weekly review, and the daily code streak.
+- **Day 1 is a build.** A *Week 1: do this today* checklist ([[00 - Start Here|Start Here]]; historical — that section was later replaced by "Section 1 — do this" under DR-011) at the top of Start Here: Scratch game, Wokwi Pico blink, Desmos art, Bandit, nandgame, a weekly review, and the daily code streak.
 - **Starter Sprint (Weeks 1–12):** one fun build a week, each with a done-when line, counted inside B0, BM, BW, P1, P2, P4 and P5 ([[Projects Ladder]]). All free; three optional paid extras are marked 💲.
 - **Books become companions:**
   - Lockhart: 10–15 min/day from Week 5, finished by the end of P3.
@@ -39,7 +43,7 @@ Phase −1 opened with Lockhart's *Arithmetic* and Huddleston & Pullum / William
   - [[P3 - Math Prerequisites|P3]] gets a truth-table toolkit; [[P1 - Learning How to Learn|P1]] a flashcard app; [[P2 - Reading, Thinking, and Writing|P2]] a build write-up in place of the book synopsis.
   - Every other block already had one.
   - The [[Block Note Template]] now requires a Project Build section.
-- **Weekly mini-build** (≤2 h, Saturday) for the whole program, with ideas per year ([[how-i-study#2b. Weekly Mini-Build|how-i-study §2b]]).
+- **Weekly mini-build** (≤2 h, Saturday) for the whole program, with ideas per year ([[how-i-study|how-i-study]] §2b; historical — §2b is now "Build Sessions" under DR-011).
 - **[[Projects Ladder]]:** one note linking every build in order: the Starter Sprint, every block on The Path with its done-when line, the track capstones, and Block 30.
 
 Checked 2026-10-10:

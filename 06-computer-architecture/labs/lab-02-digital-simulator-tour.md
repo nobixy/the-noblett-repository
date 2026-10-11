@@ -1,20 +1,24 @@
 ---
 title: "Lab 02 — A Tour of the Digital Simulator"
+id: "MOD06-LAB02"
+type: "lab"
 module: "06-computer-architecture"
-hours: 6
+phase: "C"
+order: 920
+prerequisites: [MOD06-LAB01]
 ---
 
 # Lab 02 — A Tour of the Digital Simulator
 
 **Goal:** become fluent in **Digital**, the graphical logic simulator recommended for the Kestrel datapath: components, buses, subcircuits, memories loaded from files, test cases, and a terminal.
 
-**Time:** about 6 hours, in two sessions.
+**Sessions:** two.
 
 **Install:** Digital is a free Java program by H. Neemann (github.com/hneemann/Digital). On Arch it's in the AUR (`digital`); elsewhere, download the release ZIP and run `Digital.jar` with Java 11+ (`sudo pacman -S jre-openjdk`). If you choose Logisim Evolution instead, the same exercises apply with different menus.
 
 ---
 
-## Session 1 — Components, buses, subcircuits (3 hours)
+## Session 1 — Components, buses, subcircuits
 
 Build each, test it, and save it in `~/workbench/06-datapath/digital/`.
 
@@ -28,7 +32,7 @@ Build each, test it, and save it in `~/workbench/06-datapath/digital/`.
 
 ---
 
-## Session 2 — Memories and I/O (3 hours)
+## Session 2 — Memories and I/O
 
 1. **ROM loaded from a hex file:** Digital's ROM component can load its contents from a file (in the component's properties). Find which file formats it accepts (it supports simple hex formats); write a tiny converter from your Kestrel `.khex` format if needed. Load 8 words and display the output of each address on a hex display while stepping an address counter.
 2. **RAM:** a RAM component with address, data in, data out, write-enable, and clock. Write a value, read it back.

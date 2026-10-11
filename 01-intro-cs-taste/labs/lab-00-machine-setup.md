@@ -1,22 +1,40 @@
 ---
 title: "Lab 00 — Machine Setup"
+id: "MOD01-LAB00"
+type: "lab"
 module: "01-intro-cs-taste"
-hours: 6
+phase: "A"
+order: 230
+prerequisites: []
 ---
 
 # Lab 00 — Machine Setup
 
 **Goal:** a working setup for the whole curriculum: a terminal you're comfortable in, an editor, Python, git, and your **workbench** — the git repository where every project, note, and log you make will live.
 
-**Time:** about 6 hours, in three sessions.
+**Sessions:** three.
 
-**You'll finish with:** `~/workbench/` under git, with your first commit; Python running; an editor set up; and the commands you'll use every day in your fingers.
+**You'll finish with:** `~/workbench/` under git, with your first commit; Python running; an editor set up; and the commands you'll use every session in your fingers.
 
-> This repository (the curriculum) is your *map*. `~/workbench/` is your *territory*: your code and your writing. Keep them separate. The map changes rarely; the territory grows every day.
+> This repository (the curriculum) is your *map*. `~/workbench/` is your *territory*: your code and your writing. Keep them separate. The map changes rarely; the territory grows every session.
 
 ---
 
-## Session 1 — The terminal (2 hours)
+## Skip check
+
+Already comfortable in a terminal? Do this check **cold** (no notes, no searching). If you pass every item, tick Lab 00 as done and go straight to [Lab 01](lab-01-python-first-steps.md) — or to its own skip check.
+
+1. Without looking anything up, use `pwd`, `ls -la`, `cd` (with `~`, `.` and `..`), `mkdir`, `touch`, `echo … >`, `cat`, `cp`, `mv` and `rm` in a scratch directory, and say what each did.
+2. Use tab completion and command history (up arrow, `Ctrl-R`) without thinking about it.
+3. `python3 --version` shows 3.12+, and you can write and run `hello.py` from your editor of choice.
+4. Create `~/workbench/`, `git init` it, add a file, and make a commit with an imperative message; then show it with `git log --oneline` and explain what `git status` and `git diff` tell you.
+5. Bandit levels 0–5 are done (or you can do them now without hints).
+
+Miss any item? Do only the session that covers it (Session 1: terminal; Session 2: editor and Python; Session 3: git and the workbench), then retake that item.
+
+---
+
+## Session 1 — The terminal
 
 The **terminal** is a window where you type commands and the computer answers in text. The program that reads your commands is called the **shell** (on Arch it's probably `zsh` or `bash`). You'll build your own shell in this module ([Burrow Jr.](../projects/shell-sketch/spec.md)) and a real one in Module 07.
 
@@ -56,13 +74,13 @@ Plus: `man <command>` shows the manual (press `q` to quit, `/word` to search). `
 ### Practice [R]
 
 1. Close all notes. In a fresh terminal: make a folder `~/practice/lab00`, create three files in it, copy one, rename one, delete one, and list the result with `ls -l`. Write down the commands you used *from memory*, then check them with the up arrow.
-2. Play [OverTheWire Bandit](https://overthewire.org/wargames/bandit/) levels 0–5 (free; a game where you log in to a remote machine and use these commands to find passwords). It's excellent practice. Levels 6–15 are a good weekend later.
+2. Play [OverTheWire Bandit](https://overthewire.org/wargames/bandit/) levels 0–5 (free; a game where you log in to a remote machine and use these commands to find passwords). It's excellent practice. Levels 6–15 are good practice for a later session or two.
 
 **[W]:** Why does `rm` have no undo, when your desktop has a trash can? (Hint: the trash can is a feature of a program on top; `rm` asks the operating system directly. You'll see what that means in Module 07.)
 
 ---
 
-## Session 2 — Editor and Python (2 hours)
+## Session 2 — Editor and Python
 
 ### Choose an editor
 
@@ -107,7 +125,7 @@ sudo pacman -S espeak-ng hunspell hunspell-en_us tk
 
 ---
 
-## Session 3 — Git and your workbench (2 hours)
+## Session 3 — Git and your workbench
 
 **Git** keeps a history of every version of your files. Each saved version is a **commit**. With git you can see what changed, when, and why, and go back if you break something. Every professional software project uses it.
 
@@ -156,9 +174,9 @@ git commit -m "Create workbench with folders for each track"
 git log --oneline           # see your history
 ```
 
-**Commit messages use the imperative** (E05 Part 6): *"Add …", "Fix …", "Create …"*. They complete the sentence "If applied, this commit will…". Start the habit now; it's daily writing practice.
+**Commit messages use the imperative** (E05 Part 6): *"Add …", "Fix …", "Create …"*. They complete the sentence "If applied, this commit will…". Start the habit now; every commit is a little writing practice.
 
-### The daily git loop
+### The git loop
 
 ```bash
 git status                       # see what changed
@@ -185,8 +203,8 @@ You can push your workbench to a **private** repository on GitHub, GitLab, or Co
 
 ## Retrieval and reflection [R] [F]
 
-1. **Blank sheet (10 min):** the ten commands and what each does; what `~`, `.`, `..` mean; the daily git loop.
-2. **Feynman (spoken, 1 min):** "What is git, and why would a single person working alone use it?"
-3. **Log:** today's journal entry (two minutes): what you set up, what was confusing, what's next.
+1. **Blank sheet:** the ten commands and what each does; what `~`, `.`, `..` mean; the git loop.
+2. **Feynman (spoken):** "What is git, and why would a single person working alone use it?"
+3. **Log:** this session's journal entry (a few lines): what you set up, what was confusing, what's next.
 
 **Next:** [Lab 01 — Python First Steps](lab-01-python-first-steps.md).

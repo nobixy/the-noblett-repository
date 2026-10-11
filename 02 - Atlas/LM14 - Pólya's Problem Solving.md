@@ -3,8 +3,6 @@ title: "LM14: Pólya's Problem Solving"
 type: learning-method
 method_id: LM14
 evidence: "Classic framework; works with practice and self-monitoring"
-project_hours: 3
-counts_toward: "P2"
 ---
 
 # LM14 — Pólya's Problem Solving
@@ -33,11 +31,11 @@ So use the four steps out loud, with check-ins.
 - Skipping step 1: coding before you can restate the problem.
 - Skipping step 4, where the reusable insight is.
 
-## 🔨 Project: Puzzle week with labeled steps
-Starter Sprint Week 11: 5 Human Resource Machine levels or 5 Project Euler problems, each with the four steps written out. Add a "look back" insight you reuse on a later problem.
+## 🔨 Project: Puzzle set with labeled steps
+5 Human Resource Machine levels or 5 Project Euler problems, each with the four steps written out. Add a "look back" insight you reuse on a later problem.
 - **Done when:** 5 write-ups exist, and at least one "look back" insight was reused on a later problem.
-- **Time:** about 3 h, counted inside [[P2 - Reading, Thinking, and Writing|P2]]'s existing hours (no new time: these are P2's existing build 2 and Week 11 puzzles).
-- **Level / when:** Beginner. Week 11 (the existing P2 build, so no new hours).
+- **Level:** Beginner.
+- **Fits with:** The four Pólya steps written out in the math stages' word problems (M02–M11).
 
 ## Sources
 - Pólya, *How to Solve It* (1945).

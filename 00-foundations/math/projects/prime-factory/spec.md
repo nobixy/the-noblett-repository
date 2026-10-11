@@ -1,8 +1,13 @@
 ---
 title: "Project: Prime Factory"
-track: math
+id: "FND-MA-PRJ-prime-factory"
+type: "project"
+module: "00-foundations"
+track: "math"
+phase: "A"
+order: 200
+prerequisites: [M02]
 stages: "M03–M04, then after 01 Lab 01"
-hours: 16
 artifact: "A hand sieve to 200 and factor sheets; primes.py with tests; timing experiments; a toy 'lock' you try to break"
 deliverable: "A one-page lab report: how hard is factoring as numbers grow?"
 ---
@@ -11,8 +16,6 @@ deliverable: "A one-page lab report: how hard is factoring as numbers grow?"
 
 | | |
 | :-- | :-- |
-| **When** | Milestones 1–2 during M03–M04 (paper). Milestones 3–5 after [01 Lab 01](../../../../01-intro-cs-taste/labs/lab-01-python-first-steps.md). |
-| **Time** | About 16 hours |
 | **You build** | A prime toolkit by hand and then in code; experiments that show why some algorithms are fast and others are slow; and a toy "lock" based on multiplying primes, which you then try to pick |
 | **Deliverable** | A one-page lab report |
 
@@ -31,7 +34,7 @@ You'll discover two things that sit at the heart of computer science:
 
 ## Milestones
 
-### Milestone 1 — The hand sieve (M03, week 4)
+### Milestone 1 — The hand sieve (M03, section 4)
 
 **Do:**
 1. On graph paper, write the numbers 1 to 200 in rows of **6** (1–6, 7–12, …).

@@ -1,9 +1,13 @@
 ---
 title: "Project: Packet Telescope"
+id: "MOD09-PRJ-packet-telescope"
+type: "project"
 module: "09-networking"
-hours: 30
+phase: "D"
+order: 1200
+prerequisites: [MOD09-LAB02, MOD07-PRJ-crate, MOD02-PRJ-tone-loom]
 artifact: "scope: a packet-capture analyser written from scratch — pcap reader; Ethernet, ARP, IPv4/IPv6, ICMP, UDP, TCP, and DNS decoders with checksum verification; one-line summaries; flow tables; TCP connection analysis; and a dissector for your own protocols"
-deliverable: "Design doc + accuracy report (compared with tshark) + 4-minute demo"
+deliverable: "Design doc + accuracy report (compared with tshark) + short demo"
 ---
 
 # Project: Packet Telescope
@@ -11,7 +15,6 @@ deliverable: "Design doc + accuracy report (compared with tshark) + 4-minute dem
 | | |
 | :-- | :-- |
 | **Module** | 09 Networking |
-| **Time** | About 30 hours |
 | **Prerequisites** | Labs 01–02 of this module; Crate and Tone Loom (binary formats); Module 05 (hash tables) |
 | **You build** | `scope`, your own packet analyser. It reads capture files written by `tcpdump`, decodes every layer by hand from the raw bytes, verifies checksums, prints a one-line summary per packet, groups packets into flows, reconstructs TCP connections (handshakes, retransmissions, round-trip times), and decodes your own protocols (Relay and Courier). Its output is checked against Wireshark's command-line twin, `tshark` |
 | **Deliverable** | Design doc, accuracy report, and demo |
@@ -92,7 +95,7 @@ Captures are untrusted input. Fuzz `scope` with mutated pcap files (Crate's fuzz
 
 1. **Design doc** v1 → v2.
 2. **Accuracy report** (2 pages): fields compared with tshark across captures, disagreements explained, the lossy-transfer analysis, and the fuzzing result.
-3. **Demo (4 minutes):** summaries of a web page load, the flow table, a TCP connection analysis, and a decoded Courier transfer.
+3. **Demo:** summaries of a web page load, the flow table, a TCP connection analysis, and a decoded Courier transfer.
 
 ## Study-method integration
 

@@ -1,20 +1,23 @@
 ---
 title: "Project: Magnitudes Field Guide"
-track: math
+id: "FND-MA-PRJ-magnitudes-field-guide"
+type: "project"
+module: "00-foundations"
+track: "math"
+phase: "B"
+order: 400
+prerequisites: [M06]
 stages: "M07"
-hours: 12
 artifact: "A measured, illustrated field guide to the sizes and speeds inside your own computer; measure.py and bits.py"
-deliverable: "The guide itself (poster or one-page Markdown) + 2-minute recorded tour"
+deliverable: "The guide itself (poster or one-page Markdown) + short recorded tour"
 ---
 
 # Project: Magnitudes Field Guide
 
 | | |
 | :-- | :-- |
-| **When** | M07, week 4 |
-| **Time** | About 12 hours |
 | **You build** | A field guide — like a bird-watcher's guide, but for the sizes and speeds inside your own computer — from the nanosecond of a CPU cycle to the 100-millisecond trip across an ocean, measured on your machine, written in scientific notation, and scaled to human time |
-| **Deliverable** | The guide (a poster, or a one-page Markdown/HTML page) and a 2-minute recorded tour of it |
+| **Deliverable** | The guide (a poster, or a one-page Markdown/HTML page) and a short recorded tour of it |
 
 ---
 
@@ -108,7 +111,7 @@ Make the final field guide. Either a **poster** (paper, A3 or bigger) or a **one
 
 ## Communication deliverable
 
-The guide itself, plus a **2-minute recorded tour**: walk through the time ladder from bottom to top, saying each step in human time. End with your three rules of thumb.
+The guide itself, plus a **short recorded tour**: walk through the time ladder from bottom to top, saying each step in human time. End with your three rules of thumb.
 
 ## Study-method integration
 

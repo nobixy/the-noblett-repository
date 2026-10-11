@@ -1,7 +1,8 @@
 ---
 title: "DR-003: One Path Restructure"
 type: decision-record
-status: accepted
+status: superseded
+superseded_by: [DR-010, DR-011]
 date: 2026-10-09
 accepted: 2026-10-09
 tags:
@@ -10,6 +11,9 @@ tags:
 ---
 
 # DR-003: One Path Restructure
+
+> [!WARNING] Superseded
+> Superseded by [[DR-010 - Project-First Original Curriculum|DR-010]] and [[DR-011 - Sectioned Curriculum and Frontmatter Schema|DR-011]]. Kept as a historical record: its dates, hours, weeks, phases and links into `99 - Archive/` describe the v1 plan and are not current instructions.
 
 *Uses the [[Decision Record]] template. Follows [[DR-002 - Vault Refactor and Canonical Numbering|DR-002]]. Accepted and applied 2026-10-09. Checkpoint before the restructure: git commit `0c7e704`.*
 
@@ -30,7 +34,7 @@ After DR-002 the content was consistent, but the structure was hard to follow:
 8. `verify_curriculum.py` also checks that every block note is in its stage folder, that its file name starts with its number, and that `subject` is set.
 
 ## Status
-**Accepted**: 2026-10-09.
+**Accepted**: 2026-10-09. **Superseded** by DR-010 and DR-011.
 
 ## Consequences
 **Easier:** open one note to see where you are, what's next and how the system works. A folder listing is the study order. Subject views are a Dataview query (`WHERE subject = "Computer Engineering"`) instead of a folder.

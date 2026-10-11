@@ -1,7 +1,11 @@
 ---
 title: "Project: Matrix Studio"
+id: "MOD12-PRJ-matrix-studio"
+type: "project"
 module: "12-math-for-engineering"
-hours: 18
+phase: "C"
+order: 880
+prerequisites: [MOD12-L1, MOD12-L2, MOD12-L3, MOD12-L4, MOD05-PRJ-vault-search]
 units: "L1, L2, L3, L4"
 artifact: "Image transformation with matrices (rotation, scaling, shear, homogeneous coordinates, interpolation); your own Gaussian elimination and least squares; PageRank of your vault's link graph by power iteration; SVD image compression"
 deliverable: "Lab report: matrices at work on images, data, and your notes (with figures)"
@@ -12,7 +16,6 @@ deliverable: "Lab report: matrices at work on images, data, and your notes (with
 | | |
 | :-- | :-- |
 | **Module** | 12 Math for Engineering (Units L1–L4) |
-| **Time** | About 18 hours |
 | **You build** | Tools that put linear algebra to work: transforming images with matrices; solving linear systems and fitting models by least squares with your own code; ranking the notes in your Obsidian vault by their links with eigenvectors; and compressing images with the singular value decomposition |
 | **Deliverable** | A lab report with figures |
 
@@ -42,7 +45,7 @@ Work with images as arrays (read and write PPM — Heapsmith's visualiser format
 2. **Least squares:** solve the normal equations AᵀA x = Aᵀb (and, better, with NumPy's `lstsq`, which uses a more stable method — note why).
 3. Apply it:
    - **[Fare Detective](../../../00-foundations/math/projects/fare-detective/spec.md) data:** the true best-fit line, compared with your old two-point and brute-force fits.
-   - **Your Courier or file-transfer timings:** latency and bandwidth from many measurements.
+   - **Your file-transfer timings (or Courier's, if Module 09 is already done — optional):** latency and bandwidth from many measurements.
    - **Your forgetting curve** from Study Deck's log: fit log(P(recall)) against days (linearised exponential).
 4. **Geometry:** least squares is projecting b onto the column space of A. Draw it for a 3-point line fit [F].
 

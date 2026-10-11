@@ -1,7 +1,12 @@
 ---
 title: "01 — Intro CS Taste"
+id: "MOD01"
+type: "overview"
 module: "01-intro-cs-taste"
-hours: 90
+phase: "A"
+order: 220
+prerequisites: [E01, M01]
+checkpoints: [MOD01-CLOSE]
 tags: [module, intro, projects]
 ---
 
@@ -9,15 +14,15 @@ tags: [module, intro, projects]
 
 **Four small, real versions of the big systems you'll build later.** In this module you build a tiny computer, two programs that talk across a network (even when the network loses messages), a mini shell that launches programs, and a document viewer that fetches pages and lets you follow links. Each one works, runs on your own machine, and fits in a few hundred lines of Python.
 
-Then, years from now in this curriculum, you'll build the full-size versions: your own CPU, your own reliable transport protocol, your own Unix shell in C, your own browser engine. When you get there, you'll recognise them. That's the point of this module: **here is a small, real version of the kind of thing you will eventually construct.**
+Then, much later in this curriculum, you'll build the full-size versions: your own CPU, your own reliable transport protocol, your own Unix shell in C, your own browser engine. When you get there, you'll recognise them. That's the point of this module: **here is a small, real version of the kind of thing you will eventually construct.**
 
 ---
 
 ## When to start
 
-After **English E01** and **Math M01** (about week 3). The projects use only whole numbers and short sentences. You learn the Python you need in [Lab 01](labs/lab-01-python-first-steps.md), as you go.
+After **English E01** and **Math M01** (about section 3). The projects use only whole numbers and short sentences. You learn the Python you need in [Lab 01](labs/lab-01-python-first-steps.md), as you go.
 
-Run this module alongside the foundations: English in the evenings, math in the mornings, **this module on Saturdays** (plus one or two weekday sessions if you have energy).
+Run this module alongside the foundations as your **build sessions**, rotating with English and math sessions (see [the session loop](../study-protocols.md#the-session-loop)).
 
 ---
 
@@ -36,18 +41,17 @@ By the end of this module you will be able to:
 
 ## Sequence and time
 
-| Order | Item | What | Hours | English/Math needed |
-| :-- | :-- | :-- | --: | :-- |
-| 1 | [Lab 00 — Machine Setup](labs/lab-00-machine-setup.md) | Terminal, editor, git, Python, your workbench repository | 6 | E01, M01 |
-| 2 | [Lab 01 — Python First Steps](labs/lab-01-python-first-steps.md) | Ten short sessions: just enough Python, learned by building | 20 | E01, M01 |
-| 3 | [Lab 02 — Errors, Tests, and Debugging](labs/lab-02-errors-tests-and-debugging.md) | Reading tracebacks, `assert`, `pytest`, print-debugging, stuck notes | 4 | E02 |
-| 4 | **[Project 1: Nib, a tiny computer](projects/nib-machine/spec.md)** | An emulator for an 8-bit machine you can program, plus a tiny assembler | 18 | M01–M02 |
-| 5 | **[Project 2: Relay, talking programs](projects/relay-chat/spec.md)** | A chat over TCP with your own protocol; then over a lossy link with your own acknowledgments | 16 | M01–M03 |
-| 6 | **[Project 3: Burrow Jr., a mini shell](projects/shell-sketch/spec.md)** | A command loop that starts programs as real processes, with built-ins, redirection, and a pipe | 12 | M01 |
-| 7 | **[Project 4: Pagelet, a page viewer](projects/pagelet/spec.md)** | Fetch pages over HTTP with a hand-written request, parse a small markup language, wrap text, follow links | 14 | M01–M02 |
-| | **Total** | | **~90** | |
+| Order | Item | What | English/Math needed |
+| :-- | :-- | :-- | :-- |
+| 1 | [Lab 00 — Machine Setup](labs/lab-00-machine-setup.md) | Terminal, editor, git, Python, your workbench repository | E01, M01 |
+| 2 | [Lab 01 — Python First Steps](labs/lab-01-python-first-steps.md) | Ten short sessions: just enough Python, learned by building | E01, M01 |
+| 3 | [Lab 02 — Errors, Tests, and Debugging](labs/lab-02-errors-tests-and-debugging.md) | Reading tracebacks, `assert`, `pytest`, print-debugging, stuck notes | E02 |
+| 4 | **[Project 1: Nib, a tiny computer](projects/nib-machine/spec.md)** | An emulator for an 8-bit machine you can program, plus a tiny assembler | M01–M02 |
+| 5 | **[Project 2: Relay, talking programs](projects/relay-chat/spec.md)** | A chat over TCP with your own protocol; then over a lossy link with your own acknowledgments | M01–M03 |
+| 6 | **[Project 3: Burrow Jr., a mini shell](projects/shell-sketch/spec.md)** | A command loop that starts programs as real processes, with built-ins, redirection, and a pipe | M01 |
+| 7 | **[Project 4: Pagelet, a page viewer](projects/pagelet/spec.md)** | Fetch pages over HTTP with a hand-written request, parse a small markup language, wrap text, follow links | M01–M02 |
 
-At about 6–8 hours a week (Saturdays plus a little), that's 3 months, ending around the time you reach English E05 and Math M04. The four projects can be done in any order after Lab 02, but the order above builds skills best.
+At an ordinary rotation, this module tends to finish around the time you reach English E05 and Math M04 (a rough guide, not a deadline). The four projects can be done in any order after Lab 02, but the order above builds skills best.
 
 ---
 
@@ -66,7 +70,7 @@ At about 6–8 hours a week (Saturdays plus a little), that's 3 months, ending a
 
 ## How the study methods run through this module
 
-Every project milestone ends with a **Milestone Checkpoint** (R + F + W, about 30 minutes; [template](<../04 - System/Milestone Checkpoint Template.md>)).
+Every project milestone ends with a **Milestone Checkpoint** (R + F + W; [template](<../04 - System/Milestone Checkpoint Template.md>)).
 
 | Protocol | How it shows up here |
 | :-- | :-- |
@@ -75,8 +79,8 @@ Every project milestone ends with a **Milestone Checkpoint** (R + F + W, about 3
 | **W** Why-ladder | Each spec lists design questions: "Why must `cd` be a built-in?", "Why does the sender need a timer?", "Why are instructions 2 bytes?" |
 | **S** Subgoal labels | Write the steps of every function as comments before code. Lab 01 teaches this from session 1. |
 | **I** Interleave and space | Lab 01's review questions mix old sessions. Projects alternate hardware-ish and software-ish topics. Flashcards for Python syntax and key terms. |
-| **D** Diffuse break | The 90-minute stuck rule. Stuck notes in your log. |
-| **T** Teach-back and write-up | Each project: a recorded demo (3–5 minutes) and a short written explanation, sized for your English stage. |
+| **D** Diffuse break | The stuck rule (three honest attempts). Stuck notes in your log. |
+| **T** Teach-back and write-up | Each project: a recorded demo and a short written explanation, sized for your English stage. |
 
 ### Communication deliverables, sized for you
 
@@ -109,9 +113,11 @@ These four projects are original designs for this curriculum. Nib's instruction 
 
 When all four projects are done:
 
-1. **Cumulative retrieval [R] (45 minutes, nothing open):** on one big sheet, draw all four systems as boxes and arrows. For each, write the one sentence that explains it. Then check against your projects and fix gaps.
-2. **Feynman showcase [F] [T]:** record a 5-minute video: "Four tiny systems I built," one minute each, plus one minute on what surprised you.
+1. **Cumulative retrieval [R] (nothing open):** on one big sheet, draw all four systems as boxes and arrows. For each, write the one sentence that explains it. Then check against your projects and fix gaps.
+2. **Feynman showcase [F] [T]:** record a short video: "Four tiny systems I built," a short part on each, plus a short part on what surprised you.
 3. **Reflection (half a page):** which project did you enjoy most, and why? That's a clue about which later modules will feel best — and worth knowing when energy is low.
 4. Tick the module in [Start Here](<../00 - Start Here.md>).
+
+**Resources:** books, docs, and tools for this module are in [resources.md](resources.md) (pointers only — the projects are the course).
 
 **Next:** [02 Programming Fundamentals](../02-programming-fundamentals/overview.md).

@@ -1,7 +1,11 @@
 ---
 title: "Lab 01 — Python First Steps"
+id: "MOD01-LAB01"
+type: "lab"
 module: "01-intro-cs-taste"
-hours: 20
+phase: "A"
+order: 240
+prerequisites: [MOD01-LAB00]
 sessions: 10
 ---
 
@@ -9,24 +13,38 @@ sessions: 10
 
 **Goal:** enough Python to build the four Module 01 projects, learned in ten short sessions. Each session teaches a few ideas, then you build a small working program with them.
 
-**Time:** about 20 hours: ten sessions of about 2 hours. One or two sessions a week, alongside the foundations.
+**Sessions:** ten, as build sessions alongside the foundations.
 
 **Before you start:** [Lab 00](lab-00-machine-setup.md) done. Python runs.
 
 ---
 
+## Skip check
+
+Already written some Python? Try this **cold**, with only the official Python docs open. If you can do all of it, tick Lab 01 as done and go to [Lab 02](lab-02-errors-tests-and-debugging.md).
+
+1. Write `time_split.py` (Session 1): turn a number of seconds into hours, minutes, and seconds using `//` and `%`.
+2. Write a function that takes a list of words and returns a dictionary of word counts, then prints the five most common, sorted.
+3. Read a text file line by line, skip blank lines, and write the results to a new file with `with open(...)`.
+4. Split a program into two files and `import` one from the other; read a file name from `sys.argv`.
+5. Explain out loud: what a variable is, what a function is, and the difference between a list and a dictionary.
+
+Partial pass? Start at the first session whose topic you missed (Sessions 1–10 are listed below) and do every session from there; the Session 10 adventure is worth doing either way.
+
+---
+
 ## How each session works
 
-1. **Learn (30 min):** read the short explanation. Type every example yourself — **don't copy and paste**. Typing is how your fingers learn the syntax (this is copywork [C] for code).
-2. **Try (30 min):** the small exercises. Predict the output *before* running each one. Wrong predictions are where you learn the most.
-3. **Build (45 min):** a small program using the session's ideas. Write the **subgoal labels as comments first** [S], then fill in code.
-4. **Recall (10 min) [R]:** close everything. On paper, write the session's key code from memory. Then check.
-5. **Review (5 min) [I]:** answer the review questions, which mix this session with earlier ones.
+1. **Learn:** read the short explanation. Type every example yourself — **don't copy and paste**. Typing is how your fingers learn the syntax (this is copywork [C] for code).
+2. **Try:** the small exercises. Predict the output *before* running each one. Wrong predictions are where you learn the most.
+3. **Build:** a small program using the session's ideas. Write the **subgoal labels as comments first** [S], then fill in code.
+4. **Recall [R]:** close everything. On paper, write the session's key code from memory. Then check.
+5. **Review [I]:** answer the review questions, which mix this session with earlier ones.
 6. **Commit** your work to `~/workbench/01-python/`, with an imperative message.
 
 **Flashcards:** add 3–5 cards per session (syntax and meanings). Example: *Q: What does `7 // 2` give? A: 3 (integer division).*
 
-**Stuck?** 25 focused minutes, then a stuck note and a break [D]. Read the error message slowly, word by word (Lab 02 teaches this properly).
+**Stuck?** Three honest attempts, then a stuck note and a break [D]. Read the error message slowly, word by word (Lab 02 teaches this properly).
 
 ---
 
@@ -555,7 +573,7 @@ Read any text file (a journal entry, a copywork passage, a man page saved with `
 - the 15 most common words, with counts;
 - the 15 most common words **of 6+ letters** (more interesting).
 
-Run it on a month of your journal entries. What do you write about most?
+Run it on a section's worth of your journal entries. What do you write about most?
 
 ### Review
 
@@ -688,6 +706,6 @@ Check against this lab. Every miss becomes a flashcard.
 
 - [ ] All ten Build programs work and are committed to `~/workbench/01-python/`.
 - [ ] Final recall done; misses on flashcards.
-- [ ] You can explain, out loud in a minute each [F]: what a variable is, what a function is, the difference between a list and a dictionary.
+- [ ] You can explain, out loud, briefly [F]: what a variable is, what a function is, the difference between a list and a dictionary.
 
 **Next:** [Lab 02 — Errors, Tests, and Debugging](lab-02-errors-tests-and-debugging.md). After that, the projects.

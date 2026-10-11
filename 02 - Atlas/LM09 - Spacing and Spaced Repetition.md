@@ -3,8 +3,6 @@ title: "LM09: Spacing and Spaced Repetition"
 type: learning-method
 method_id: LM09
 evidence: "Strong"
-project_hours: 5
-counts_toward: "P1"
 ---
 
 # LM09 — Spacing and Spaced Repetition
@@ -31,10 +29,10 @@ Scheduling algorithms: SM-2 (Wozniak, SuperMemo, 1987) is the classic. Anki has 
 - Skipping reviews and then deleting the backlog.
 
 ## 🔨 Project: Your own spaced-repetition app (Leitner → SM-2 → FSRS)
-Grow the Week 9 Leitner-box app into SM-2: an ease factor, review intervals, and cards stored in a JSON file kept in git. Stretch: compare its schedule with the open-source `fsrs` Python package.
-- **Done when:** it schedules your 20+ cards with SM-2, a unit test checks the intervals for a known review sequence, and you used it for 14 days.
-- **Time:** about 5 h, counted inside [[P1 - Learning How to Learn|P1]]'s existing hours (replaces the optional *Ultralearning* skim and the bash-template part of Build 2; the SM-2 app absorbs the Week 9 Leitner app (4 h)).
-- **Level / when:** Beginner-to-intermediate Python. Week 9 for the Leitner version; the SM-2 upgrade in P1.
+Grow a Leitner-box app into SM-2: an ease factor, review intervals, and cards stored in a JSON file kept in git. (If you have built [Study Deck](<../02-programming-fundamentals/projects/study-deck/spec.md>) in Module 02, it already does this; skip to the stretch.) Stretch: compare its schedule with the open-source `fsrs` Python package.
+- **Done when:** it schedules your 20+ cards with SM-2, a unit test checks the intervals for a known review sequence, and you used it in 14 sessions.
+- **Level:** Beginner-to-intermediate Python.
+- **Fits with:** Protocol **I** (interleave and space); [Study Deck](<../02-programming-fundamentals/projects/study-deck/spec.md>) (Module 02) is the curriculum's own spaced-repetition app. The review intervals are part of the technique itself, not a curriculum schedule.
 
 ## Sources
 - Cepeda, Pashler, Vul, Wixted & Rohrer (2006), "Distributed practice in verbal recall tasks", *Psychological Bulletin* 132(3), 354–380.

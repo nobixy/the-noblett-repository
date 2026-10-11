@@ -1,6 +1,11 @@
 ---
 title: "12 — Resources"
+id: "MOD12-RES"
+type: "reference"
 module: "12-math-for-engineering"
+phase: "C"
+order: 890
+prerequisites: []
 ---
 
 # 12 — Resources

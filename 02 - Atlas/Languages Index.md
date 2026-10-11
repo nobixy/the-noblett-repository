@@ -17,9 +17,18 @@ tags:
 - **Type Theory & Formal Semantics:** Simply typed lambda calculus, type inference, Coq/Rocq proofs
 - **Compiler Optimizations:** SSA form, dead code elimination, register allocation
 
-## Reference Courses
-- [[B01 - CS61A|CS61A]]
-- [[B06 - C Fluency|C Fluency]]
-- [[B12 - Interpreters|Interpreters]]
-- [[B17 - Software Construction|Software Construction]]
-- [[T05 - Advanced Programming Languages and Compilers|Advanced Programming Languages and Compilers]]
+## Where this is taught in the curriculum
+- **Python, decomposition, recursion, parsing a format you design:** [02 Programming Fundamentals](<../02-programming-fundamentals/overview.md>)
+- **C:** [07 Systems Programming](<../07-systems-programming/overview.md>)
+- **A compiler to your own ISA:** [06 Computer Architecture](<../06-computer-architecture/overview.md>) (Ember)
+- **Parsing real-world languages (HTML, CSS):** [10 Browser Engine](<../10-browser-engine/overview.md>)
+- Type theory, formal semantics, garbage collection: not part of the core curriculum.
+
+## Reference courses *(historical)*
+*From the superseded v1 plan (see [DR-010](<../04 - System/DR-010 - Project-First Original Curriculum.md>)); listed as outside courses only. They are not part of this curriculum.*
+
+- CS61A
+- C Fluency
+- Interpreters
+- Software Construction
+- Advanced Programming Languages and Compilers

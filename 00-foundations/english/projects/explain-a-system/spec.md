@@ -1,9 +1,14 @@
 ---
 title: "Project: Explain-a-System"
-track: english
+id: "FND-EN-PRJ-explain-a-system"
+type: "project"
+module: "00-foundations"
+track: "english"
+phase: "C"
+order: 690
+prerequisites: [E07]
 stages: "E08–E09"
-hours: 20
-artifact: "Five written explainers (400–700 words + diagram each) and five 3-minute recordings"
+artifact: "Five written explainers (400–700 words + diagram each) and five short recordings"
 deliverable: "The explainers and recordings themselves, plus reader questions and your fixes"
 ---
 
@@ -11,8 +16,6 @@ deliverable: "The explainers and recordings themselves, plus reader questions an
 
 | | |
 | :-- | :-- |
-| **When** | Explainer 1 in E08; explainers 2–5 through E09 (one every 1–2 weeks) |
-| **Time** | About 4 hours per explainer, 20 hours total |
 | **You build** | Five plain-English explanations of everyday systems, each with a diagram and a spoken version. Each one previews a system you will build later in this curriculum |
 | **Deliverable** | The explainers, the recordings, and a log of reader questions and fixes |
 
@@ -46,35 +49,35 @@ You may swap one topic for another everyday system you're curious about (GPS, a 
 
 Each explainer follows the same six steps. They are the subgoal labels [S] for "explain a system."
 
-### Step 1 — Blank-sheet first (20 min) [R]
+### Step 1 — Blank-sheet first [R]
 
 Before any research, write everything you already believe about how the system works. Draw a diagram. Be wrong freely. Save this as `N-before.md`. **This is important:** comparing it with your final version shows you what you learned.
 
-### Step 2 — Research, limited (60–90 min)
+### Step 2 — Research, limited
 
 Find **two or three** good sources: an encyclopedia article, a well-known explainer (e.g. "How Stuff Works"), a textbook chapter, a good video. Read or watch. Then **close them** and take notes from memory. Return to the sources only to check specific points. Keep a list of sources (title, author, link).
 
-**Limit:** 90 minutes. You are writing an explainer, not a thesis. Mark what you don't understand as an open question instead of researching forever.
+**Limit:** one session. You are writing an explainer, not a thesis. Mark what you don't understand as an open question instead of researching forever.
 
-### Step 3 — Feynman draft (45 min) [F]
+### Step 3 — Feynman draft [F]
 
 Write 400–700 words for a curious adult with no technical background. Use the E09 description structure: **purpose → parts → connections → walk-through of one flow → edge case**. Mark every spot where you hesitated or used a word you couldn't define with `??`. Go back to the sources for only those spots.
 
-### Step 4 — Diagram and caption (30 min)
+### Step 4 — Diagram and caption
 
 One diagram: boxes and arrows (Excalidraw, Mermaid, or paper). Every box labelled. One caption that tells the reader what to notice. Refer to it from the text.
 
-### Step 5 — Revise and get a reader (45 min + waiting)
+### Step 5 — Revise and get a reader (plus waiting)
 
-Revise with the E08 checklist (after a night's break [D]). Then give it to **one reader** who doesn't know the topic. Ask them for:
+Revise with the E08 checklist (after a break until a later session [D]). Then give it to **one reader** who doesn't know the topic. Ask them for:
 1. the one place they got lost;
 2. one question they still have after reading.
 
 Fix the first. Answer the second in the text if it fits, or in a "Questions readers asked" section at the end.
 
-### Step 6 — Record it (30 min) [T]
+### Step 6 — Record it [T]
 
-A 3-minute spoken version using the E09 explainer shape (*point → map → walk-through → edge case → point again*), pointing at your diagram on screen or paper. Don't read the text; speak from the diagram. Listen back once. Count filler words. Note one improvement.
+A short spoken version using the E09 explainer shape (*point → map → walk-through → edge case → point again*), pointing at your diagram on screen or paper. Don't read the text; speak from the diagram. Listen back once. Count filler words. Note one improvement.
 
 **Each explainer's checkpoint:** compare `N-before.md` with the final version. Write three sentences: what you believed before that was wrong, what you now understand, and what you still don't understand. That last one is your list of things to look forward to in the later module.
 
@@ -121,16 +124,16 @@ Must include: the problem — moving money is two steps (take from A, add to B),
 | Milestone | Done when |
 | :-- | :-- |
 | **1** (E08) | Explainer 1 complete: all six steps, reader feedback fixed, recording made |
-| **2** (E09, weeks 1–2) | Explainer 2 complete |
-| **3** (E09, weeks 3–4) | Explainer 3 complete |
-| **4** (E09, week 5 / after) | Explainers 4 and 5 complete |
+| **2** (E09, sections 1–2) | Explainer 2 complete |
+| **3** (E09, sections 3–4) | Explainer 3 complete |
+| **4** (E09, section 5 / after) | Explainers 4 and 5 complete |
 | **5** (after all five) | A one-page reflection (see deliverable) |
 
 You don't need a new reader for every explainer, but use at least **two different readers** across the five.
 
 ## Common pitfalls
 
-- **Researching forever.** The 90-minute limit is a feature. Gaps become questions for later modules.
+- **Researching forever.** The one-session limit is a feature. Gaps become questions for later modules.
 - **Textbook voice.** If it sounds like an encyclopedia, you're hiding behind other people's words. Use your own sentences and your own analogies.
 - **Too many parts.** A diagram with 15 boxes explains nothing. Pick the 4–7 parts that matter for the one flow you walk through.
 - **Analogies that break.** Every analogy is wrong somewhere. Say where: "*The phone book analogy breaks down because…*". That sentence shows real understanding.
@@ -152,7 +155,7 @@ After all five, `reflection.md` (one page): which explainer was hardest and why;
 | **W** | The "where the analogy breaks" sentence; your three open questions |
 | **S** | The six steps themselves |
 | **I** | Explainers alternate between hardware-ish and software-ish topics |
-| **D** | The night's break before revising |
+| **D** | The break (until a later session) before revising |
 | **T** | Real readers and recordings |
 
 ## Stretch goals

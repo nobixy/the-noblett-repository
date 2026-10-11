@@ -1,22 +1,24 @@
 ---
 title: "M02 — Addition and Subtraction"
-stage: M02
-track: math
-hours: 20
-weeks: 3
+id: "M02"
+type: "lesson"
+module: "00-foundations"
+track: "math"
+stage: "M02"
+phase: "A"
+order: 150
+prerequisites: [M01]
 ---
 
 # M02 — Addition and Subtraction
 
 **In this stage you will:** understand what adding and subtracting really mean, use their properties to calculate in your head, learn exactly why carrying and borrowing work, add in binary, hex, and clock time, and solve word problems with a four-step method.
 
-**Time:** about 20 hours over 3 weeks.
-
 **Before you start:** M01 done. You can write any number in expanded form.
 
 ---
 
-## Diagnostic (cold, 15 minutes, no calculator)
+## Diagnostic (cold, no calculator)
 
 1. 47 + 38
 2. 503 − 278
@@ -221,16 +223,16 @@ George Pólya's method (see [LM14](<../../02 - Atlas/LM14 - Pólya's Problem Sol
 
 ---
 
-## Practice routine (3 weeks)
+## Practice routine (3 sections)
 
-| Week | Focus |
+| Section | Focus |
 | :-- | :-- |
-| 1 | Mon: meanings and inverse · Tue: properties (write the "why" for each) · Wed–Thu: mental strategies (20 problems/day in your head, then check on paper) · Fri: Practice Set 1, items 1–10 |
-| 2 | Mon: column addition · Tue–Wed: column subtraction, especially with zeros · Thu: binary and hex addition · Fri: Practice Set 1, all |
-| 3 | Mon: clock time · Tue: word problems with Pólya · Wed: Base Workshop Milestone 3 · Thu: Practice Set 2 + Feynman · Fri: self-check |
+| 1 | Session 1: meanings and inverse · Session 2: properties (write the "why" for each) · Sessions 3–4: mental strategies (20 problems per session in your head, then check on paper) · Session 5: Practice Set 1, items 1–10 |
+| 2 | Session 1: column addition · Sessions 2–3: column subtraction, especially with zeros · Session 4: binary and hex addition · Session 5: Practice Set 1, all |
+| 3 | Session 1: clock time · Session 2: word problems with Pólya · Session 3: Base Workshop Milestone 3 · Session 4: Practice Set 2 + Feynman · Session 5: self-check |
 
-**Daily warm-up [R]:** write the subgoal labels for column subtraction from memory, then do one problem with zeros in the top number.
-**Mental-math minute:** every day, 10 two-digit additions and subtractions in your head, timed. Log the time. It falls fast.
+**Warm-up [R] (every session):** write the subgoal labels for column subtraction from memory, then do one problem with zeros in the top number.
+**Mental-math minute:** every session, 10 two-digit additions and subtractions in your head, timed. Log the time. It falls fast.
 
 **Key why-questions [W]:**
 1. Why does carrying work? (Answer it for base 10 and base 2.)
@@ -238,7 +240,7 @@ George Pólya's method (see [LM14](<../../02 - Atlas/LM14 - Pólya's Problem Sol
 3. Why isn't subtraction commutative?
 4. Why does "same difference" work?
 
-**Feynman target [F]:** *"Why do we carry?"* Explain to a friend with coins or bundles of sticks, no jargon. Record it (2 minutes).
+**Feynman target [F]:** *"Why do we carry?"* Explain to a friend with coins or bundles of sticks, no jargon. Record it.
 
 ---
 
@@ -303,7 +305,7 @@ George Pólya's method (see [LM14](<../../02 - Atlas/LM14 - Pólya's Problem Sol
 
 ---
 
-## Self-check (cold, 30 minutes, no calculator)
+## Self-check (cold, no calculator)
 
 1. 6,284 + 3,759
 2. 5,000 − 2,371
@@ -314,7 +316,7 @@ George Pólya's method (see [LM14](<../../02 - Atlas/LM14 - Pólya's Problem Sol
 7. 2F₁₆ + 2F₁₆
 8. 23:40 + 0:35 on a 24-hour clock
 9. A game save file is 1,250 MB. Your drive has 3,100 MB free. After saving two copies, how much is free? (Pólya, all four steps.)
-10. **[R] Blank sheet (10 min):** the meanings of addition and subtraction, the three properties with reasons, the subgoal labels for carrying and borrowing, and how other bases change the method.
+10. **[R] Blank sheet:** the meanings of addition and subtraction, the three properties with reasons, the subgoal labels for carrying and borrowing, and how other bases change the method.
 
 <details>
 <summary>Answers (self-check)</summary>

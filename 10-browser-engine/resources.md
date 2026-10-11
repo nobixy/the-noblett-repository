@@ -1,6 +1,11 @@
 ---
 title: "10 — Resources"
+id: "MOD10-RES"
+type: "reference"
 module: "10-browser-engine"
+phase: "D"
+order: 1300
+prerequisites: []
 ---
 
 # 10 — Resources

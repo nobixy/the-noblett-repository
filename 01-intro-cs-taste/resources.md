@@ -1,6 +1,11 @@
 ---
 title: "01 — Resources"
+id: "MOD01-RES"
+type: "reference"
 module: "01-intro-cs-taste"
+phase: "A"
+order: 300
+prerequisites: []
 ---
 
 # 01 — Resources

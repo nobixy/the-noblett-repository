@@ -1,9 +1,13 @@
 ---
 title: "Project: Burrow"
+id: "MOD07-PRJ-burrow"
+type: "project"
 module: "07-systems-programming"
-hours: 55
+phase: "C"
+order: 1050
+prerequisites: [MOD07-LAB03, MOD01-PRJ-shell-sketch]
 artifact: "burrow: a Unix shell in C — tokenizer, parser to an AST, pipelines, redirections, && and ||, variables and quoting, job control with process groups and terminal handover, if/while scripting, a trace timeline, and a test harness that compares behaviour with dash"
-deliverable: "Design doc + BURROW.md user manual + test report + 5-minute demo"
+deliverable: "Design doc + BURROW.md user manual + test report + short demo"
 ---
 
 # Project: Burrow
@@ -11,7 +15,6 @@ deliverable: "Design doc + BURROW.md user manual + test report + 5-minute demo"
 | | |
 | :-- | :-- |
 | **Module** | 07 Systems Programming |
-| **Time** | About 55 hours |
 | **Prerequisites** | Labs 01–03 of this module; [Burrow Jr.](../../../01-intro-cs-taste/projects/shell-sketch/spec.md) (reread your code and notes) |
 | **Platform** | Linux (or WSL2) |
 | **You build** | A real shell in C. Commands, pipelines of any length, every common redirection, sequences with `;`, `&&`, `||`, variables and quoting, **job control** (Ctrl+Z, `jobs`, `fg`, `bg`, background `&`), a small scripting language (`if`, `while`, script files), a `--trace` timeline of every process event, and a test harness that checks your shell against `dash`, a standard shell |
@@ -136,7 +139,7 @@ This is the hardest milestone. Read the GNU C Library manual's chapter **"Job Co
 1. **Design doc** v1 → v2.
 2. **`BURROW.md` user manual:** everything a user needs — grammar, built-ins, job control, scripting, differences from dash (E09: a manual that passes a usability test with one person).
 3. **Test report** (1–2 pages): the harness, the 50 differential scripts, manual job-control procedures and results, and one bug story told through trace output.
-4. **Demo (5 minutes):** a pipeline with redirections, a stopped and resumed `vim`, background jobs finishing, and a script running.
+4. **Demo:** a pipeline with redirections, a stopped and resumed `vim`, background jobs finishing, and a script running.
 
 ## Study-method integration
 

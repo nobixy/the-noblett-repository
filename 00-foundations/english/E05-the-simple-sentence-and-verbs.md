@@ -1,16 +1,18 @@
 ---
 title: "E05 — The Simple Sentence and Verbs"
-stage: E05
-track: english
-hours: 25
-weeks: 3
+id: "E05"
+type: "lesson"
+module: "00-foundations"
+track: "english"
+stage: "E05"
+phase: "A"
+order: 90
+prerequisites: [E04]
 ---
 
 # E05 — The Simple Sentence and Verbs
 
 **In this stage you will:** learn what makes a complete sentence, the five basic sentence patterns, how verbs change for time (tense), how verbs agree with their subjects, the common irregular verbs, active vs passive voice, and the imperative form used in instructions and commit messages.
-
-**Time:** about 25 hours over 3 weeks.
 
 **Before you start:** E04 done. You can find the verb and the nouns in a sentence.
 
@@ -210,22 +212,22 @@ You will write imperatives constantly:
   > ✓ `Add retry limit to the downloader`
   > ✗ `fixed stuff` · ✗ `Fixing the crash` · ✗ `crash fix maybe`
 
-Start every commit message you write from today with a capitalised imperative verb. That is real practice, every day.
+Start every commit message you write from now on with a capitalised imperative verb. That is real practice, every time you commit.
 
 ---
 
-## Part 7 — Practice routine (3 weeks)
+## Part 7 — Practice routine (3 sections)
 
-| Week | Focus |
+| Section | Focus |
 | :-- | :-- |
-| 1 | Mon: complete sentences and fragments · Tue: finding the core · Wed–Thu: the five patterns · Fri: Practice Set 1 |
-| 2 | Mon: verb forms and the six tenses · Tue–Wed: irregular verbs (in chunks of 10, flashcards) · Thu: agreement · Fri: Practice Set 2 |
-| 3 | Mon: active and passive · Tue: imperatives and commit messages · Wed: Practice Set 3 · Thu: Machine Manual Milestone 2 · Fri: self-check |
+| 1 | Session 1: complete sentences and fragments · Session 2: finding the core · Sessions 3–4: the five patterns · Session 5: Practice Set 1 |
+| 2 | Session 1: verb forms and the six tenses · Sessions 2–3: irregular verbs (in chunks of 10, flashcards) · Session 4: agreement · Session 5: Practice Set 2 |
+| 3 | Session 1: active and passive · Session 2: imperatives and commit messages · Session 3: Practice Set 3 · Session 4: Machine Manual Milestone 2 · Session 5: self-check |
 
-**Daily:**
+**Every session:**
 - **Warm-up [R]:** write the five patterns from memory with your own example of each.
-- **Sentence of the day:** write 5 sentences about something you did today. Then label each one's core (S, V, O) and its pattern number.
-- **Spelling (10 min)** + **copywork [C]** (Level 2). In the diff, check every verb's tense and agreement in your rebuild.
+- **Sentences of the session:** write 5 sentences about something you did recently. Then label each one's core (S, V, O) and its pattern number.
+- **Spelling** + **copywork [C]** (Level 2). In the diff, check every verb's tense and agreement in your rebuild.
 
 **Study protocols:**
 - **[S]** Use the four "finding the core" labels on every sentence you analyse until you can do it without the list.
@@ -330,11 +332,11 @@ Choose or write the correct form.
 
 ## Self-check
 
-1. **[R] Blank sheet (10 min):** what makes a sentence complete; the five patterns with examples; the six tenses with examples; the agreement traps.
+1. **[R] Blank sheet:** what makes a sentence complete; the five patterns with examples; the six tenses with examples; the agreement traps.
 2. **Irregular verbs:** cover the past and past-participle columns. Write them for all 58 verbs. Target: **54/58**.
 3. **Fix this paragraph** (8 errors in tense, agreement, form, or fragments):
    > Last week I install a new graphics card. The box with all the cables were heavy. I have wrote down every step. First I open the case. Then plugged the card in. There was two screws missing, so I use tape. The computer start fine after that.
-4. **Teach-back [F]:** record 2 minutes on "how to find the subject and verb of any sentence."
+4. **Teach-back [F]:** record a short explanation of "how to find the subject and verb of any sentence."
 
 <details>
 <summary>Answers (Self-check 3)</summary>

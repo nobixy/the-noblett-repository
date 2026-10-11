@@ -1,21 +1,24 @@
 ---
 title: "Lab 04 — Measuring the Memory Hierarchy"
+id: "MOD07-LAB04"
+type: "lab"
 module: "07-systems-programming"
-hours: 8
-type: lab
+phase: "C"
+order: 1030
+prerequisites: [MOD07-LAB03]
 ---
 
 # Lab 04 — Measuring the Memory Hierarchy
 
 **Goal:** see the caches you simulated in Module 06 on your real machine, with C and `perf`: loop order, strides, working-set size, and array vs linked list.
 
-**Time:** about 8 hours, in three sessions.
+**Sessions:** three.
 
 **Deliverable:** a lab report comparing your measurements with your Cache Simulator's predictions.
 
 ---
 
-## Session 1 — Timing C properly (2 hours)
+## Session 1 — Timing C properly
 
 - Use `clock_gettime(CLOCK_MONOTONIC, &ts)` for wall-clock timing in nanoseconds.
 - Compile benchmarks with optimisation (`-O2`), but make sure the compiler can't delete the work: use the result (print a checksum) or the compiler will optimise the loop away. [W] Check with Compiler Explorer (Module 06 Lab 01) that your loop is still there.
@@ -24,7 +27,7 @@ type: lab
 
 ---
 
-## Session 2 — Four experiments (4 hours)
+## Session 2 — Four experiments
 
 Predict each result first (using your Cache Simulator if you can), then measure.
 
@@ -35,7 +38,7 @@ Predict each result first (using your Cache Simulator if you can), then measure.
 
 ---
 
-## Session 3 — perf (2 hours)
+## Session 3 — perf
 
 `perf stat` counts hardware events using the CPU's own counters:
 

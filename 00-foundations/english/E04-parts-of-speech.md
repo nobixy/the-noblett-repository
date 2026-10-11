@@ -1,18 +1,20 @@
 ---
 title: "E04 — Parts of Speech"
-stage: E04
-track: english
-hours: 15
-weeks: 2
+id: "E04"
+type: "lesson"
+module: "00-foundations"
+track: "english"
+stage: "E04"
+phase: "A"
+order: 80
+prerequisites: [E03]
 ---
 
 # E04 — Parts of Speech
 
 **In this stage you will:** learn the eight kinds of words and the job each one does, learn the test for each, and use them to name things in code. You will start the [Machine Manual](projects/machine-manual/spec.md) project.
 
-**Time:** about 15 hours over 2 weeks.
-
-**Before you start:** E03 done. Spelling continues as a 10-minute daily habit.
+**Before you start:** E03 done. Spelling continues as a short part of every English session.
 
 ---
 
@@ -142,24 +144,24 @@ Programmers use the same jobs to name things. Good names make code readable; bad
 
 ---
 
-## Part 4 — Practice routine (2 weeks)
+## Part 4 — Practice routine (2 sections)
 
-| Day | Lesson (15–20 min) |
+| Section · Session | Lesson |
 | :-- | :-- |
-| Week 1 Mon | Nouns and pronouns. Find 20 nouns in your copywork passage. Find every pronoun and draw an arrow to the noun it points to. |
-| Tue | Verbs. Underline every verb in 10 sentences from the Python Tutorial. |
-| Wed | Adjectives and adverbs. Describe your desk in 5 sentences; circle each adjective and adverb. |
-| Thu | Prepositions and conjunctions. Write 10 directions from your front door to your kitchen using only prepositions to show the way. |
-| Fri | Determiners, *a/an*, *the/a*. Practice Set 1. |
-| Week 2 Mon | One word, many jobs. Practice Set 2. |
-| Tue | Naming in code. Practice Set 3. |
-| Wed | Word families. Practice Set 4. |
-| Thu | Machine Manual Milestone 1 (inventory of parts and actions). |
-| Fri | Self-check. |
+| Section 1 · Session 1 | Nouns and pronouns. Find 20 nouns in your copywork passage. Find every pronoun and draw an arrow to the noun it points to. |
+| Section 1 · Session 2 | Verbs. Underline every verb in 10 sentences from the Python Tutorial. |
+| Section 1 · Session 3 | Adjectives and adverbs. Describe your desk in 5 sentences; circle each adjective and adverb. |
+| Section 1 · Session 4 | Prepositions and conjunctions. Write 10 directions from your front door to your kitchen using only prepositions to show the way. |
+| Section 1 · Session 5 | Determiners, *a/an*, *the/a*. Practice Set 1. |
+| Section 2 · Session 1 | One word, many jobs. Practice Set 2. |
+| Section 2 · Session 2 | Naming in code. Practice Set 3. |
+| Section 2 · Session 3 | Word families. Practice Set 4. |
+| Section 2 · Session 4 | Machine Manual Milestone 1 (inventory of parts and actions). |
+| Section 2 · Session 5 | Self-check. |
 
-**Every day:**
-- **Warm-up [R]:** from memory, write the eight parts of speech with one example each. (Day 1: write as many as you can after reading. By day 5 you should get all eight in under 2 minutes.)
-- **Spelling (10 min):** error log + review.
+**Every session:**
+- **Warm-up [R]:** from memory, write the eight parts of speech with one example each. (Session 1: write as many as you can after reading. By Session 5 you should get all eight quickly and without gaps.)
+- **Spelling:** error log + review.
 - **Copywork [C]:** Level 2. After diffing, label the part of speech of every word in one sentence of the original.
 
 **Study protocols for this stage:**
@@ -284,7 +286,7 @@ Spelling notes: *rely → reliable* (Rule 3, y → i); *simple + ly = simply* (a
 
 ## Self-check
 
-1. **[R] Blank sheet:** the eight parts of speech, the job of each, the test for each, and two examples each. 10 minutes. Check.
+1. **[R] Blank sheet:** the eight parts of speech, the job of each, the test for each, and two examples each. Check.
 2. **Label** five new sentences from your copywork passage. Check them with a grammar reference if unsure (Purdue OWL, free online: owl.purdue.edu).
 3. **Pronoun hunt:** take a page of your own journal writing. Circle every *it, this, that, they*. For each, can a stranger tell what it points to? Fix the vague ones.
 4. **Code names:** look at any small piece of code (yours from Module 01 if you have started, or the Python Tutorial's examples). Rate each name: good / unclear / bad, and fix one.

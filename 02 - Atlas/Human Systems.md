@@ -19,11 +19,11 @@ The infrastructure of adult life required to sustain long-term intellectual work
   - *Minimum system:* a monthly budget review and an emergency fund target, kept outside the vault.
 - **Health & Sleep**: Circadian rhythms, sleep hygiene, nutrition, progressive overload training.
   - *Minimum system:* fixed sleep and wake times (kept in your calendar), regular exercise, and protecting the hardest study block from fatigue.
-- **Weekly Review**: Goal tracking, calendar audits, resetting the workspace, habit alignment.
-  - *Minimum system:* Sunday review using the [[Weekly Review Template]] (see [[how-i-study]] §2).
+- **Section Review**: Goal tracking, resetting the workspace, habit alignment.
+  - *Minimum system:* the [[Section Review Template]] at the end of each section (see [[how-i-study]] §2).
 - **Relationships & Communication**: Active listening, conflict resolution, networking, mentorship.
-  - *Minimum system:* the weekly study-partner call and community from [[how-i-study]] §5.
+  - *Minimum system:* a regular study-partner call and the community from [[how-i-study]] §5.
 
 ## Rules
-- When a human system fails (sleep, money stress), fix it before adding study hours. Missed-week recovery (Operating Rule 6) applies here too.
-- Track that the system ran (a checkbox in the weekly review), never the private data itself.
+- When a human system fails (sleep, money stress), fix it before adding study sessions. Restarting after a gap (Operating Rule 6) applies here too.
+- Track that the system ran (a checkbox in the Section Review), never the private data itself.

@@ -1,9 +1,13 @@
 ---
 title: "Project: Tagfs"
+id: "MOD08-PRJ-tagfs"
+type: "project"
 module: "08-operating-systems"
-hours: 50
+phase: "D"
+order: 1130
+prerequisites: [MOD08-LAB02, MOD02-PRJ-study-deck]
 artifact: "tagfs: a FUSE file system for Linux where folders are tags — files live once and appear under every tag they carry — with a journaled metadata store, crash recovery, a differential test suite against a model, and crash tests"
-deliverable: "TAGFS.md semantics spec + design doc + robustness report (differential and crash tests) + 5-minute demo"
+deliverable: "TAGFS.md semantics spec + design doc + robustness report (differential and crash tests) + short demo"
 ---
 
 # Project: Tagfs
@@ -11,7 +15,6 @@ deliverable: "TAGFS.md semantics spec + design doc + robustness report (differen
 | | |
 | :-- | :-- |
 | **Module** | 08 Operating Systems |
-| **Time** | About 50 hours |
 | **Prerequisites** | Module 07 (C, system calls, Crate's on-disk thinking); Lab 02 of this module; Study Deck's append-only log idea |
 | **Platform** | Linux with FUSE 3 (`fuse3` package and headers). WSL2 can work with extra setup; a Linux VM works everywhere |
 | **You build** | A real file system you can mount and use with any program — `ls`, your editor, `cp` — in which **folders are tags**. A file is stored once and appears under every tag it has: `/tags/linux/rust/` lists files tagged both `linux` and `rust`. Moving a file into a tag folder adds the tag. The metadata is kept crash-safe with a journal, and you test that by killing the file system in the middle of operations |
@@ -132,7 +135,7 @@ Measure against a plain directory on your normal file system: create 10,000 file
 1. **`TAGFS.md`** — the semantics specification.
 2. **Design doc** v1 → v2, including the crash-safety argument.
 3. **Robustness report** (2 pages): differential testing (operations, seeds, bugs found), crash testing (cycles, failures found, fixes), performance table.
-4. **Demo (5 minutes):** organise a folder of your notes by tags with ordinary commands; kill and recover; show the model test running.
+4. **Demo:** organise a folder of your notes by tags with ordinary commands; kill and recover; show the model test running.
 
 ## Study-method integration
 

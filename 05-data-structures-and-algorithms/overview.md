@@ -1,7 +1,12 @@
 ---
 title: "05 — Data Structures and Algorithms"
+id: "MOD05"
+type: "overview"
 module: "05-data-structures-and-algorithms"
-hours: 190
+phase: "C"
+order: 760
+prerequisites: [MOD02, MOD03, M11, E10]
+checkpoints: [MOD05-CLOSE]
 tags: [module, algorithms, data-structures]
 ---
 
@@ -12,6 +17,8 @@ tags: [module, algorithms, data-structures]
 ---
 
 ## Prerequisites
+
+**Gate:** this module starts only after both foundation track assessments (English E10 and Math M11) are passed, and after Modules 02 and 03. The frontmatter `prerequisites` list says the same.
 
 - [02 Programming Fundamentals](../02-programming-fundamentals/overview.md) and [03 Discrete Math](../03-discrete-math/overview.md) (Units 2, 3, 6, 7 at least).
 - Math **M11** (logarithms and growth) — essential.
@@ -42,18 +49,17 @@ By the end you will be able to:
 
 ## Sequence and time
 
-| Order | Item | Hours |
-| :-- | :-- | --: |
-| 1 | [Lab 01 — Big-O by Measurement](labs/lab-01-big-o-by-measurement.md) | 10 |
-| 2 | [Lab 02 — Sorting Workshop](labs/lab-02-sorting-workshop.md) | 12 |
-| 3 | [Lab 03 — Stacks, Queues, and Lists](labs/lab-03-stacks-queues-and-lists.md) | 10 |
-| 4 | **[Copydiff](projects/copydiff/spec.md)** — dynamic programming, diff algorithms | 35 |
-| 5 | **[Vault Search](projects/vault-search/spec.md)** — hash tables, inverted indexes, tries, ranking | 45 |
-| 6 | **[Route Planner](projects/route-planner/spec.md)** — graphs, heaps, Dijkstra, A* on real map data | 40 |
-| 7 | **[Edit Buffer](projects/edit-buffer/spec.md)** — gap buffers, piece tables, undo, a tiny editor | 38 |
-| | **Total** | **~190** |
+| Order | Item |
+| :-- | :-- |
+| 1 | [Lab 01 — Big-O by Measurement](labs/lab-01-big-o-by-measurement.md) |
+| 2 | [Lab 02 — Sorting Workshop](labs/lab-02-sorting-workshop.md) |
+| 3 | [Lab 03 — Stacks, Queues, and Lists](labs/lab-03-stacks-queues-and-lists.md) |
+| 4 | **[Copydiff](projects/copydiff/spec.md)** — dynamic programming, diff algorithms |
+| 5 | **[Vault Search](projects/vault-search/spec.md)** — hash tables, inverted indexes, tries, ranking |
+| 6 | **[Route Planner](projects/route-planner/spec.md)** — graphs, heaps, Dijkstra, A* on real map data |
+| 7 | **[Edit Buffer](projects/edit-buffer/spec.md)** — gap buffers, piece tables, undo, a tiny editor |
 
-About 12 hours a week → 16 weeks. Labs first, then projects in the order shown (Copydiff first, because its design doc already exists).
+Labs first, then projects in the order shown (Copydiff first, because its design doc already exists).
 
 **Study the theory alongside the builds.** For each topic, read the matching chapter of a free text (below) *when the project needs it* — not before. Then do 5–10 problems from that chapter, mixed with earlier topics [I].
 
@@ -67,8 +73,8 @@ About 12 hours a week → 16 weeks. Labs first, then projects in the order shown
 | **F** | Each project's core algorithm explained plainly and recorded: the DP table; hashing; Dijkstra's "settled" set; the piece table. |
 | **W** | Every design choice gets a contrast why-ladder in the design doc: chaining or probing? heap or sorted list? piece table or gap buffer? — **answered with measurements**. |
 | **S** | Algorithms written as subgoal comments first; worked examples traced on paper with labels (Erickson's book is excellent for this). |
-| **I** | Problem practice mixes topics; Friday problem sets mix this module with Module 03. |
-| **D** | Off-by-one and invariant bugs: the 90-minute rule; invariant asserts (Module 03 Lab 02) are your best debugging tool here. |
+| **I** | Problem practice mixes topics; Session-5 problem sets mix this module with Module 03. |
+| **D** | Off-by-one and invariant bugs: the stuck rule (three honest attempts); invariant asserts (Module 03 Lab 02) are your best debugging tool here. |
 | **T** | **Full design docs** (E10 level) before each project; lab reports for benchmarks; demos. |
 
 ## Connections
@@ -78,9 +84,11 @@ About 12 hours a week → 16 weeks. Labs first, then projects in the order shown
 
 ## Module close
 
-1. **Cumulative retrieval [R] (60 min):** every data structure's invariant and operations with costs; every algorithm's steps and cost, with reasons.
-2. **Timed problem set (2 hours):** 8 unseen problems (from Erickson's exercises or a 6.006 problem set) — design an algorithm, argue correctness, give its running time. Grade honestly with solutions where available.
+1. **Cumulative retrieval [R]:** every data structure's invariant and operations with costs; every algorithm's steps and cost, with reasons.
+2. **Timed problem set:** 8 unseen problems (from Erickson's exercises or a 6.006 problem set) — design an algorithm, argue correctness, give its running time. Grade honestly with solutions where available.
 3. **Pick-the-structure exercise [W]:** for five realistic tasks (e.g. "undo history," "top 10 scores," "autocomplete," "routing table," "duplicate detection"), write which structure you'd choose and why, in two sentences each.
 4. Tick the module in [Start Here](<../00 - Start Here.md>).
+
+**Resources:** books, docs, and tools for this module are in [resources.md](resources.md) (pointers only — the projects are the course).
 
 **Next:** [06 Computer Architecture](../06-computer-architecture/overview.md) and [07 Systems Programming](../07-systems-programming/overview.md).

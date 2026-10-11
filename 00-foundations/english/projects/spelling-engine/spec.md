@@ -1,20 +1,23 @@
 ---
 title: "Project: Spelling Engine"
-track: english
+id: "FND-EN-PRJ-spelling-engine"
+type: "project"
+module: "00-foundations"
+track: "english"
+phase: "A"
+order: 100
+prerequisites: [E01]
 stages: "E01–E03, then after 01 Lab 01"
-hours: 18
 artifact: "spelling-log.tsv + spell_quiz.py + suffix_rules.py + spell_report.py"
-deliverable: "README + 'What my data says' note + 2-minute demo"
+deliverable: "README + 'What my data says' note + short demo"
 ---
 
 # Project: Spelling Engine
 
 | | |
 | :-- | :-- |
-| **When** | Milestones 1–2 during E01–E03 (no code). Milestones 3–5 after [01 Lab 01: Python First Steps](../../../../01-intro-cs-taste/labs/lab-01-python-first-steps.md). |
-| **Time** | About 18 hours total, spread over 2–3 months |
 | **You build** | Your personal spelling dataset, a talking quiz program that tests you on your own errors with spaced review, a program that applies English suffix rules, and a progress report |
-| **Deliverable** | A README, a one-page "What my data says about my spelling" note, and a 2-minute recorded demo |
+| **Deliverable** | A README, a one-page "What my data says about my spelling" note, and a short recorded demo |
 
 ---
 
@@ -62,21 +65,21 @@ From Milestone 3 on, it has these columns (Milestones 1–2 use only the first f
 **Do:**
 1. Create `spelling-log.tsv` with the header line `date	wrong	right	tags	hook`.
 2. Add every error from your E01 baseline tests.
-3. From now on, add every misspelling you notice anywhere: your journal, messages, code comments. Keep a small paper note during the day and type them in each evening.
+3. From now on, add every misspelling you notice anywhere: your journal, messages, code comments. Keep a small paper note between sessions and type them in at the start of the next session.
 
 **Done when:** 30+ rows, each with at least one tag and a hook.
 
 **Checkpoint:** none needed yet; the E01 self-check covers it.
 
-### Milestone 2 — The weekly report by hand (during E02–E03, no code)
+### Milestone 2 — The section report by hand (during E02–E03, no code)
 
-**Do:** every Sunday, as part of the weekly review, write a short report in `english/spelling-reports.md`:
-- rows added this week;
+**Do:** at the end of every section, as part of the Section Review, write a short report in `english/spelling-reports.md`:
+- rows added this section;
 - the count of each tag (on paper, or with the `cut | sort | uniq -c` command shown in E02);
 - your top two tags;
-- words that are now "learned" (right in dictation on 4 separate days, E01 rule).
+- words that are now "learned" (right in dictation on 4 separate spaced reviews, E01 rule).
 
-**Done when:** 4 weekly reports written, and you can say your top two tags without looking.
+**Done when:** 4 section reports written, and you can say your top two tags without looking.
 
 **[W] Question to answer in the report:** *Why does your top tag happen? What is your brain doing when you make that error?* (Example: "For schwa errors, I spell the word the way I say it, and the lazy vowel gives no clue.")
 
@@ -115,7 +118,7 @@ correct:    separate
 ```
 
 **Done when:**
-- You have used it for **14 days** (not necessarily in a row) and the file is correct after every session.
+- You have used it in **14 sessions** (not necessarily in a row) and the file is correct after every session.
 - The tests below pass.
 
 **Tests to write** (`test_spell_quiz.py`, using plain `assert` or `pytest`):
@@ -178,14 +181,14 @@ Build `spell_report.py`, which reads the log and the baseline files and prints:
 - **Tabs vs spaces.** Some editors turn Tab into spaces. Check with `cat -A spelling-log.tsv` (tabs show as `^I`). Configure your editor to keep real tabs in `.tsv` files.
 - **Dates as text.** Compare dates as `datetime.date` objects, not strings (string comparison works for `YYYY-MM-DD` only by luck of the format; know why).
 - **Writing the file while reading it.** Read everything into memory first, then write.
-- **Overbuilding.** Don't add a GUI, a database, or accounts. A small tool you use daily beats a big one you never finish.
+- **Overbuilding.** Don't add a GUI, a database, or accounts. A small tool you use every session beats a big one you never finish.
 - **Studying only in the tool.** The quiz is for review. New words still get the full Look–Say–Cover–Write–Check treatment by hand.
 
 ## Communication deliverable
 
 1. **README.md** (E06 level is fine): what it is, how to run each program, the file format, the rule-engine accuracy table, and your answers to the two [W] questions in the spec (plain text; temp-file save).
 2. **"What my data says about my spelling"** (one page, E07–E08 level): your top tags, how they changed, what you think causes them, and what you'll do about it. Include at least one number from `spell_report.py`.
-3. **Demo (2 minutes, recorded):** run one quiz session and the report, and explain how the boxes work.
+3. **Demo (short, recorded):** run one quiz session and the report, and explain how the boxes work.
 
 ## Study-method integration
 
@@ -211,7 +214,7 @@ Build `spell_report.py`, which reads the log and the baseline files and prints:
 | Area | Excellent (3) | OK (2) | Not yet (1) |
 | :-- | :-- | :-- | :-- |
 | Data | 100+ rows, consistent tags and hooks, never corrupted | 30+ rows, mostly consistent | Gaps, broken rows |
-| Quiz | All behaviour + tests pass; used 14+ days | Works; few tests | Crashes or loses data |
+| Quiz | All behaviour + tests pass; used in 14+ sessions | Works; few tests | Crashes or loses data |
 | Rule engine | ≥ 90%, failures fully classified | ≥ 85%, failures listed | < 85% or not measured |
 | Report | Accurate, matches a hand count | Runs | Missing |
 | Writing | README + data note clear, revised with the E08 checklist | Complete | Missing parts |

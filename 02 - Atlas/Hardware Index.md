@@ -16,13 +16,22 @@ tags:
 - **Advanced Architecture:** Branch prediction, out-of-order execution, cache coherence protocols (MESI)
 - **EDA & Tapeout:** Verilog/SystemVerilog, Verilator, FPGA synthesis, Tiny Tapeout ASIC flow
 
-## Reference Courses
-- [[B04 - Nand2Tetris|Nand2Tetris]]
-- [[B08 - Physics II|Physics II]] (MIT 8.02)
-- [[B08a - Circuits and Electronics Bridge|Circuits and Electronics Bridge]] (MIT 6.2000)
-- [[B14 - Computer Architecture|Computer Architecture]] (ETH Zürich Mutlu)
-- [[T06 - Advanced Computer Engineering|Advanced Computer Engineering]]
+## Where this is taught in the curriculum
+- **Circuits, digital logic, state machines, microcontrollers:** [04 Circuits and Digital Logic](<../04-circuits-and-digital-logic/overview.md>)
+- **Computer organization (ISA, datapath, caches, compiler to machine):** [06 Computer Architecture](<../06-computer-architecture/overview.md>)
+- **Bare-metal and kernel work:** [08 Operating Systems](<../08-operating-systems/overview.md>)
+- **A hardware-and-software system end to end:** [13 Capstone](<../13-capstone/overview.md>) (option C, Field Station)
+- Advanced architecture, EDA and tapeout: not part of the core curriculum.
 
-## Maker Thread (DR-005)
-- [[B08b - Maker Lab 1 - Electronics Bench|Maker Lab 1: Electronics Bench]] · [[B09a - Maker Lab 2 - Embedded C|Maker Lab 2: Embedded C]] · [[B15b - Maker Lab 3 - CAD and 3D Printing|Maker Lab 3: CAD and 3D Printing]] · [[B16a - Maker Lab 4 - Raspberry Pi and Embedded Linux|Maker Lab 4: Raspberry Pi and Embedded Linux]] · [[B21a - Maker Lab 5 - PCB Design|Maker Lab 5: PCB Design]] · [[B27a - Drone Lab - Flight Stack, ROS 2 and SITL|Drone Lab]]
-- Capstone: [[B30 - Magnum Opus Capstone|Autonomous Drone Swarm Prototype]]
+## Reference courses *(historical)*
+*From the superseded v1 plan (see [DR-010](<../04 - System/DR-010 - Project-First Original Curriculum.md>)); listed as outside courses only. They are not part of this curriculum.*
+
+- Nand2Tetris
+- Physics II (MIT 8.02)
+- Circuits and Electronics Bridge (MIT 6.2000)
+- Computer Architecture (ETH Zürich Mutlu)
+- Advanced Computer Engineering
+
+## Maker thread *(historical, DR-005)*
+- Maker Lab 1: Electronics Bench · Maker Lab 2: Embedded C · Maker Lab 3: CAD and 3D Printing · Maker Lab 4: Raspberry Pi and Embedded Linux · Maker Lab 5: PCB Design · Drone Lab
+- Capstone: Autonomous Drone Swarm Prototype

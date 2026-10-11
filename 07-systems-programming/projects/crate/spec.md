@@ -1,9 +1,13 @@
 ---
 title: "Project: Crate"
+id: "MOD07-PRJ-crate"
+type: "project"
 module: "07-systems-programming"
-hours: 40
+phase: "C"
+order: 1060
+prerequisites: [MOD07-LAB03, MOD02-PRJ-tone-loom]
 artifact: "crate: an archive tool in C with a chunked, checksummed binary format; pack, list, extract, verify, and rescue commands; RLE and LZ-style compression; corruption injection tests; a fuzzing campaign; and path-traversal defences"
-deliverable: "CRATE_FORMAT.md specification + design doc + robustness report (corruption and fuzzing) + 4-minute demo"
+deliverable: "CRATE_FORMAT.md specification + design doc + robustness report (corruption and fuzzing) + short demo"
 ---
 
 # Project: Crate
@@ -11,7 +15,6 @@ deliverable: "CRATE_FORMAT.md specification + design doc + robustness report (co
 | | |
 | :-- | :-- |
 | **Module** | 07 Systems Programming |
-| **Time** | About 40 hours |
 | **Prerequisites** | Labs 01–03 of this module; Tone Loom (binary formats, endianness); Module 05 (hash tables for compression) |
 | **You build** | `crate`, a tool that packs a folder tree into one archive file and gets it back exactly — and that **notices and survives damage**. Your own binary format, with CRC32 checksums you implement, compression you implement, a recovery mode that rescues what it can from a broken archive, and a fuzzer that throws a million mangled files at your code without one crash |
 | **Deliverable** | Format specification, design doc, robustness report, and demo |
@@ -125,7 +128,7 @@ When the directory is damaged, the data may still be there. **`crate rescue ARCH
 1. **`CRATE_FORMAT.md`** — the specification, with an annotated hex dump.
 2. **Design doc** v1 → v2.
 3. **Robustness report** (2 pages): corruption-injection results by region, rescue results, the fuzzing campaign (number of executions, bugs found, each bug's class), and path-traversal tests.
-4. **Demo (4 minutes):** pack your vault, corrupt a byte, verify pinpoints it, destroy the directory, rescue the files, and show the fuzzer running.
+4. **Demo:** pack your vault, corrupt a byte, verify pinpoints it, destroy the directory, rescue the files, and show the fuzzer running.
 
 ## Study-method integration
 

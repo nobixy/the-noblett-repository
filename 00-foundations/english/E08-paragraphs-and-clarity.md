@@ -1,16 +1,18 @@
 ---
 title: "E08 — Paragraphs and Clarity"
-stage: E08
-track: english
-hours: 25
-weeks: 4
+id: "E08"
+type: "lesson"
+module: "00-foundations"
+track: "english"
+stage: "E08"
+phase: "B"
+order: 330
+prerequisites: [E07]
 ---
 
 # E08 — Paragraphs and Clarity
 
 **In this stage you will:** build paragraphs with one clear point, order sentences so each one connects to the last, apply the clarity rules (real actors as subjects, real actions as verbs), cut wasted words, and revise your own drafts with a checklist. You will start speaking your explanations out loud. Projects: finish [Terminal Field Notes](projects/terminal-field-notes/spec.md); start [Explain-a-System](projects/explain-a-system/spec.md).
-
-**Time:** about 25 hours over 4 weeks.
 
 **Before you start:** E07 done. You can join ideas with the right logic words and fix run-ons and fragments.
 
@@ -35,7 +37,7 @@ A **paragraph** is a group of sentences about **one** idea.
 2. **Support** (2–5 sentences): explanation, example, evidence, steps, or reasons.
 3. **Closing** (optional): a consequence or a link to the next paragraph.
 
-> **The cache makes the second load of a page much faster.** *(topic)* The first time you visit a site, your browser downloads every image and file. It saves copies on your disk. On the next visit, it uses those copies instead of downloading again. *(support)* That's why a site you visit every day appears almost instantly. *(closing)*
+> **The cache makes the second load of a page much faster.** *(topic)* The first time you visit a site, your browser downloads every image and file. It saves copies on your disk. On the next visit, it uses those copies instead of downloading again. *(support)* That's why a site you visit every session appears almost instantly. *(closing)*
 
 ### Tests for a good paragraph
 
@@ -142,7 +144,7 @@ Every unneeded word costs the reader attention. Cut:
 
 Nobody writes clearly in one draft. Clear writers **revise**. Use this order, from big to small (fixing commas in a paragraph you then delete is wasted time):
 
-1. **Cool off [D].** Wait at least a few hours, ideally overnight. You can't see your own errors while the draft is fresh.
+1. **Cool off [D].** Wait until a later session. You can't see your own errors while the draft is fresh.
 2. **Structure:** read only the first sentence of each paragraph. Does the argument make sense? Reorder or add topic sentences.
 3. **Paragraphs:** one idea each? Old before new?
 4. **Sentences:** actors as subjects? Actions as verbs? Verb close to subject?
@@ -162,28 +164,28 @@ From this stage on, part of your practice is out loud. Engineers explain things 
 2. **Signpost.** Tell the listener where you are: "*There are three parts. First… Second… Finally…*" A reader can look back; a listener can't.
 3. **One example beats three definitions.** Listeners remember stories and examples.
 
-**The weekly recording:** once a week, record a 2–3 minute explanation of something you built or learned (phone voice memo is fine). Listen back once. Count filler words (*um, like, basically, you know*). Note one thing to improve. Keep the count in your log. It falls quickly with practice.
+**The section recording:** once per section, record a short explanation of something you built or learned (phone voice memo is fine). Listen back once. Count filler words (*um, like, basically, you know*). Note one thing to improve. Keep the count in your log. It falls quickly with practice.
 
 ---
 
-## Part 7 — Practice routine (4 weeks)
+## Part 7 — Practice routine (4 sections)
 
-| Week | Focus |
+| Section | Focus |
 | :-- | :-- |
-| 1 | Mon–Tue: paragraph structure; write 3 paragraphs about your Module 01 project · Wed–Thu: old before new · Fri: Practice Set 1 |
-| 2 | Mon–Tue: clarity Rules 1–2 · Wed: Rules 3–4 · Thu: cutting words · Fri: Practice Set 2 |
-| 3 | Mon–Wed: revise three of your own pieces using the checklist (Practice Set 3) · Thu–Fri: Field Notes Milestone 2 |
-| 4 | Mon–Wed: Explain-a-System, first explainer (write + record) · Thu: weekly recording · Fri: self-check |
+| 1 | Sessions 1–2: paragraph structure; write 3 paragraphs about your Module 01 project · Sessions 3–4: old before new · Session 5: Practice Set 1 |
+| 2 | Sessions 1–2: clarity Rules 1–2 · Session 3: Rules 3–4 · Session 4: cutting words · Session 5: Practice Set 2 |
+| 3 | Sessions 1–3: revise three of your own pieces using the checklist (Practice Set 3) · Sessions 4–5: Field Notes Milestone 2 |
+| 4 | Sessions 1–3: Explain-a-System, first explainer (write + record) · Session 4: section recording · Session 5: self-check |
 
-**Daily:**
+**Every session:**
 - **Warm-up [R]:** write the clarity rules and the revision checklist from memory.
-- **Write one paragraph** (5–10 min) about something you did or learned today. Next day, revise yesterday's paragraph with the checklist before writing the new one.
-- **Spelling (10 min)** + **copywork [C]**: **Level 3** (Paul Graham, Feynman Lectures, Joel Spolsky). In the diff, now notice *structure*: where did the author put the topic sentence? How do the sentences chain?
+- **Write one paragraph** about something you did or learned recently. Next session, revise the last session's paragraph with the checklist before writing the new one.
+- **Spelling** + **copywork [C]**: **Level 3** (Paul Graham, Feynman Lectures, Joel Spolsky). In the diff, now notice *structure*: where did the author put the topic sentence? How do the sentences chain?
 
 **Study protocols:**
 - **[S]** The four clarity labels (Part 3) on every sentence you revise.
 - **[W]** Why does old-before-new work? Answer in your own words before reading the explanation again. Then ask: does the same principle apply to code? (Yes: a function that uses names defined just above it is easier to read than one that uses names defined far away.)
-- **[F]** Your weekly recording *is* a spoken Feynman pass.
+- **[F]** Your section recording *is* a spoken Feynman pass.
 - **[D]** The revision checklist starts with a cooling-off break. Respect it.
 - **[T]** The first Explain-a-System piece is read by someone else. Their confusion is your feedback.
 
@@ -245,7 +247,7 @@ Take three pieces you wrote in E05–E07 (journal entries, field notes, the mach
 
 *Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
 
-- **Watch:** *Writing in the Sciences* (Stanford, Coursera): the first weeks on cutting clutter and active voice. *Good with Words: Writing and Editing* (University of Michigan, Coursera).
+- **Watch:** *Writing in the Sciences* (Stanford, Coursera): the opening modules on cutting clutter and active voice. *Good with Words: Writing and Editing* (University of Michigan, Coursera).
 - **Practise:** Hemingway Editor (free, hemingwayapp.com) *after* you've revised by hand: see which long sentences you missed.
 - **Fun writes this stage** ([prompt bank](writing-prompts.md)): #60 explain your favourite game · #62 old-before-new chain · #63 the fog machine · #67 before and after
 
@@ -253,10 +255,10 @@ Take three pieces you wrote in E05–E07 (journal entries, field notes, the mach
 
 ## Self-check
 
-1. **[R] Blank sheet (10 min):** paragraph structure; the three paragraph tests; old before new; the four clarity rules; ten wordy phrases and their short forms; the seven-step revision checklist.
+1. **[R] Blank sheet:** paragraph structure; the three paragraph tests; old before new; the four clarity rules; ten wordy phrases and their short forms; the seven-step revision checklist.
 2. **Rewrite** this paragraph (about 90 words) into a clear paragraph of about 50 words:
    > It is important to note that there are a number of different reasons why the performance of a computer can basically become slower over a period of time. The installation of too many programs that start automatically is one reason. Another reason is the fact that the disk can become full, which causes a reduction in the ability of the system to perform the creation of temporary files. In order to make an improvement, a removal of unneeded programs should be performed by the user.
-3. **Spoken [F] [T]:** a 3-minute recording explaining how your Module 01 project works. Count filler words.
+3. **Spoken [F] [T]:** a short recording explaining how your Module 01 project works. Count filler words.
 
 <details>
 <summary>Sample answer (Self-check 2)</summary>
@@ -268,7 +270,7 @@ Take three pieces you wrote in E05–E07 (journal entries, field notes, the mach
 
 - [ ] Practice Sets 1–3 done.
 - [ ] Self-check rewrite is under 60 words and keeps every real fact.
-- [ ] Four weekly recordings made; filler words counted each time.
+- [ ] Four section recordings made; filler words counted each time.
 - [ ] [Terminal Field Notes](projects/terminal-field-notes/spec.md) complete.
 - [ ] [Explain-a-System](projects/explain-a-system/spec.md) explainer 1 done.
 

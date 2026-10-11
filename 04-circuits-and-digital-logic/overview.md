@@ -1,7 +1,12 @@
 ---
 title: "04 — Circuits and Digital Logic"
+id: "MOD04"
+type: "overview"
 module: "04-circuits-and-digital-logic"
-hours: 150
+phase: "B"
+order: 580
+prerequisites: [M08, MOD03-U1, MOD02, E07]
+checkpoints: [MOD04-CLOSE]
 tags: [module, ee, maker, logic]
 ---
 
@@ -16,7 +21,7 @@ This module is where the bottom of the computer stops being abstract. After it, 
 ## Prerequisites
 
 - Math **M08+** (Ohm's law is a formula to rearrange; RC charging is an exponential, explained in Lab 02 and M11).
-- [03 Discrete Math](../03-discrete-math/overview.md) **Unit 1** (logic). The rest of Module 03 can run alongside.
+- [03 Discrete Math](../03-discrete-math/overview.md) **Unit 1** (logic). The rest of Module 03 can stay open alongside (units and labs only; one build project at a time across both modules; rule 2 in [Start Here](<../00 - Start Here.md>)).
 - [02 Programming Fundamentals](../02-programming-fundamentals/overview.md) done (Gatesmith is a substantial Python program).
 - English **E07+** (lab reports are the main deliverable here).
 
@@ -64,18 +69,17 @@ By the end you will be able to:
 
 ## Sequence and time
 
-| Order | Item | Hours | Concepts |
-| :-- | :-- | --: | :-- |
-| 1 | [Lab 01 — Meter, Ohm's Law, LEDs](labs/lab-01-meter-ohms-law-and-leds.md) | 10 | voltage, current, resistance; series/parallel; dividers; LED resistors; power |
-| 2 | [Lab 02 — Capacitors and the 555 Clock](labs/lab-02-capacitors-and-the-555-clock.md) | 10 | RC charging (exponential), time constant, astable timer, clock signals |
-| 3 | [Lab 03 — Logic Chips on a Breadboard](labs/lab-03-logic-chips-on-a-breadboard.md) | 14 | datasheets; gates; pull-down resistors; half/full adders; counters; bouncing |
-| 4 | [Lab 04 — Pico and MicroPython](labs/lab-04-pico-and-micropython.md) | 12 | GPIO, debouncing in software, ADC, PWM, serial logging |
-| 5 | **[Project: Gatesmith](projects/gatesmith/spec.md)** | 50 | logic simulation, netlists, hierarchy, flip-flops, test vectors, timing, ALU design |
-| 6 | **[Project: Crosswalk Controller](projects/crosswalk-controller/spec.md)** | 26 | finite-state machines, state encoding, next-state logic, timing, testing scenarios |
-| 7 | **[Project: Pico Thermostat](projects/pico-thermostat/spec.md)** | 28 | sensing, calibration, transistor switching, feedback control, hysteresis, data logging |
-| | **Total** | **~150** | |
+| Order | Item | Concepts |
+| :-- | :-- | :-- |
+| 1 | [Lab 01 — Meter, Ohm's Law, LEDs](labs/lab-01-meter-ohms-law-and-leds.md) | voltage, current, resistance; series/parallel; dividers; LED resistors; power |
+| 2 | [Lab 02 — Capacitors and the 555 Clock](labs/lab-02-capacitors-and-the-555-clock.md) | RC charging (exponential), time constant, astable timer, clock signals |
+| 3 | [Lab 03 — Logic Chips on a Breadboard](labs/lab-03-logic-chips-on-a-breadboard.md) | datasheets; gates; pull-down resistors; half/full adders; counters; bouncing |
+| 4 | [Lab 04 — Pico and MicroPython](labs/lab-04-pico-and-micropython.md) | GPIO, debouncing in software, ADC, PWM, serial logging |
+| 5 | **[Project: Gatesmith](projects/gatesmith/spec.md)** | logic simulation, netlists, hierarchy, flip-flops, test vectors, timing, ALU design |
+| 6 | **[Project: Crosswalk Controller](projects/crosswalk-controller/spec.md)** | finite-state machines, state encoding, next-state logic, timing, testing scenarios |
+| 7 | **[Project: Pico Thermostat](projects/pico-thermostat/spec.md)** | sensing, calibration, transistor switching, feedback control, hysteresis, data logging |
 
-Labs 01–04 in order. Start Gatesmith after Lab 03 (it's software, so it fits weekday evenings while hardware waits for Saturdays). Crosswalk after Gatesmith's flip-flop milestone and Lab 04. Pico Thermostat last.
+Labs 01–04 in order. Start Gatesmith after Lab 03 (it's software, so it can use the sessions where you have no bench time; Lab 04 may run alongside it, since labs are not build projects). Crosswalk after Gatesmith's flip-flop milestone and Lab 04. Pico Thermostat last.
 
 ## How the projects map to concepts — and to later modules
 
@@ -93,11 +97,11 @@ Labs 01–04 in order. Start Gatesmith after Lab 03 (it's software, so it fits w
 | Protocol | In this module |
 | :-- | :-- |
 | **R** | Before each lab: draw the circuit from memory and predict every reading. After: blank sheet of the laws used. Milestone Checkpoints in every project. |
-| **F** | Explain voltage, current, and resistance without the water analogy, then with it — and say where the analogy breaks. Explain a flip-flop "remembering." Spoken weekly. |
+| **F** | Explain voltage, current, and resistance without the water analogy, then with it — and say where the analogy breaks. Explain a flip-flop "remembering." Spoken once per section. |
 | **W** | Why pull-down resistors? Why does NAND alone suffice? Why does a ripple adder get slower as it gets wider? Why hysteresis? Each lab and spec lists more. |
 | **S** | Lab procedures as labelled steps; the FSM design method (states → diagram → table → encoding → logic) as subgoals. |
 | **I** | Hardware and simulation alternate; labs mix analog and digital; Study Deck cards for laws, pinouts, and gate tables. |
-| **D** | Hardware bugs are physical: a loose wire, a reversed chip. When stuck, stop, write a stuck note, and re-wire from scratch the next day — it's often faster than debugging. |
+| **D** | Hardware bugs are physical: a loose wire, a reversed chip. When stuck, stop, write a stuck note, and re-wire from scratch in the next session — it's often faster than debugging. |
 | **T** | **Lab reports** are the main deliverable (E08–E10 level). Each project also has a recorded demo with the real hardware. |
 
 ## Connections
@@ -107,9 +111,11 @@ Labs 01–04 in order. Start Gatesmith after Lab 03 (it's software, so it fits w
 
 ## Module close
 
-1. **Cumulative retrieval [R] (45 min):** Ohm's law, series/parallel, dividers, the RC time constant, the 555 formula, every gate's truth table, the full adder, a D flip-flop's behaviour, the FSM design steps.
+1. **Cumulative retrieval [R]:** Ohm's law, series/parallel, dividers, the RC time constant, the 555 formula, every gate's truth table, the full adder, a D flip-flop's behaviour, the FSM design steps.
 2. **Rebuild from memory:** wire a full adder from 74HC chips with no notes, and test all 8 input rows.
 3. **Update your [Explain-a-System](../00-foundations/english/projects/explain-a-system/spec.md) explainers 1 and 3** from scratch. Compare with the originals: what do you understand now that you didn't?
 4. Tick the module in [Start Here](<../00 - Start Here.md>).
 
-**Next:** [05 Data Structures and Algorithms](../05-data-structures-and-algorithms/overview.md), then [06 Computer Architecture](../06-computer-architecture/overview.md).
+**Resources:** books, docs, and tools for this module are in [resources.md](resources.md) (pointers only — the projects are the course).
+
+**Next:** [05 Data Structures and Algorithms](../05-data-structures-and-algorithms/overview.md) (once both foundation track assessments are passed), then [06 Computer Architecture](../06-computer-architecture/overview.md).

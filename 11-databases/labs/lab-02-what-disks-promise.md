@@ -1,20 +1,24 @@
 ---
 title: "Lab 02 — What Disks Promise"
+id: "MOD11-LAB02"
+type: "lab"
 module: "11-databases"
-hours: 8
+phase: "D"
+order: 1330
+prerequisites: [MOD11-LAB01]
 ---
 
 # Lab 02 — What Disks Promise
 
 **Goal:** find out, by experiment, what is and isn't guaranteed when a program writes to disk — so that Stratum's recovery design rests on facts, not hope.
 
-**Time:** about 8 hours, in three sessions.
+**Sessions:** three.
 
 **Deliverable:** a short lab report: *"What survives a crash?"*
 
 ---
 
-## Session 1 — The write path (3 hours)
+## Session 1 — The write path
 
 When a program calls `write`, the data usually goes into the operating system's **page cache** (memory), not to the disk. The OS writes it to the device later. `fsync(fd)` asks the OS to push a file's data (and metadata) to the device and wait until the device says it's stored.
 
@@ -24,7 +28,7 @@ When a program calls `write`, the data usually goes into the operating system's 
 
 ---
 
-## Session 2 — Simulating crashes (3 hours)
+## Session 2 — Simulating crashes
 
 You can't easily pull the plug on your laptop safely. Instead, simulate what a crash *can* leave behind:
 
@@ -38,7 +42,7 @@ You can't easily pull the plug on your laptop safely. Instead, simulate what a c
 
 ---
 
-## Session 3 — How SQLite does it (2 hours)
+## Session 3 — How SQLite does it
 
 1. With `strace -f -e trace=openat,write,pwrite64,fsync,fdatasync,rename,unlink`, run a small Python program that does one `INSERT` and `COMMIT` in SQLite with `PRAGMA journal_mode=DELETE` (the default **rollback journal**). Find: the journal file being written, the fsyncs, the database file update, and the journal deletion.
 2. Repeat with `PRAGMA journal_mode=WAL` (**write-ahead log**). Compare: which files are written, how many fsyncs per commit?
@@ -61,4 +65,4 @@ You can't easily pull the plug on your laptop safely. Instead, simulate what a c
 ## Retrieval and reflection
 
 1. **[R]:** page cache; what fsync guarantees; the safe replace recipe (temp, fsync, rename, fsync dir); torn pages; rollback journal vs WAL.
-2. **[F] (spoken, 2 min):** "Why does a database write its intentions to a log before changing the data?"
+2. **[F] (spoken):** "Why does a database write its intentions to a log before changing the data?"

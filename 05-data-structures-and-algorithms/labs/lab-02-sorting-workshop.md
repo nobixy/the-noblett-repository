@@ -1,20 +1,24 @@
 ---
 title: "Lab 02 — Sorting Workshop"
+id: "MOD05-LAB02"
+type: "lab"
 module: "05-data-structures-and-algorithms"
-hours: 12
+phase: "C"
+order: 780
+prerequisites: [MOD05-LAB01]
 ---
 
 # Lab 02 — Sorting Workshop
 
 **Goal:** implement five sorting algorithms, test them ruthlessly, race them, and understand why no comparison sort can beat about n log₂ n comparisons.
 
-**Time:** about 12 hours, in four sessions.
+**Sessions:** four.
 
 **Deliverable:** a lab report: *"Which sort wins, when?"*
 
 ---
 
-## Session 1 — Simple sorts and a test harness (3 hours)
+## Session 1 — Simple sorts and a test harness
 
 ### The test harness first
 
@@ -33,7 +37,7 @@ Write it with the invariant as an `assert` in test mode. Count comparisons. Best
 
 ---
 
-## Session 2 — Divide and conquer (3 hours)
+## Session 2 — Divide and conquer
 
 ### Merge sort
 
@@ -57,7 +61,7 @@ Average O(n log n), worst O(n²) — when pivots are always the smallest or larg
 
 ---
 
-## Session 3 — Heaps and counting (3 hours)
+## Session 3 — Heaps and counting
 
 ### Heap sort (and the binary heap)
 
@@ -73,7 +77,7 @@ If keys are small integers (say 0–255), count how many of each, then output th
 
 ---
 
-## Session 4 — The lower bound and the race (3 hours)
+## Session 4 — The lower bound and the race
 
 ### Why comparison sorts need about n log₂ n comparisons
 
@@ -100,7 +104,7 @@ Using `bench.py` (Lab 01): time all five sorts plus Python's built-in `sorted` (
 ## Retrieval and reflection
 
 1. **[R]:** each sort's idea, invariant, best/worst/average cost, stability, and when to use it; the lower-bound argument.
-2. **[F] (spoken, 2 min):** "Why does merge sort take n log n time?" with the recursion tree.
+2. **[F] (spoken):** "Why does merge sort take n log n time?" with the recursion tree.
 3. **Flashcards:** the heap index formulas; each sort's costs with reasons.
 
 **Next:** [Lab 03 — Stacks, Queues, and Lists](lab-03-stacks-queues-and-lists.md).

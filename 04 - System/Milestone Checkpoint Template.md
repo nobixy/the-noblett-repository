@@ -7,9 +7,9 @@ date: "{{date}}"
 
 # Milestone Checkpoint: {{project}}, milestone {{milestone}}
 
-*R + F + W, about 30 minutes. Do part 1 with everything closed. See [study-protocols](<../study-protocols.md>).*
+*R + F + W. Do part 1 with everything closed. See [study-protocols](<../study-protocols.md>).*
 
-## 1. [R] Blank sheet (10 min, nothing open)
+## 1. [R] Blank sheet (nothing open)
 - What does this milestone's code or work do? Draw the parts as boxes and arrows.
 - What were the 2–3 hardest moments, and how did I get past them?
 - What tests prove it works?
@@ -21,14 +21,14 @@ date: "{{date}}"
 - Got wrong:
 - New flashcards (one fact each):
 
-## 2. [F] Plain-words explanation (10 min)
+## 2. [F] Plain-words explanation
 *Explain the key idea of this milestone to a smart friend with no background. Mark gaps with `??`.*
 
 
 
 - One-sentence version:
 
-## 3. [W] Why-ladder on one design choice (5–10 min)
+## 3. [W] Why-ladder on one design choice
 - **Choice I made:**
 - **Instead of:**
 - Why? →
@@ -38,4 +38,4 @@ date: "{{date}}"
 
 ## 4. Next
 - First move next session:
-- Review this checkpoint again on: (date +3 days) and (date +7 days)
+- Review this checkpoint again in later sessions, following the spacing schedule ([I] in [study-protocols](<../study-protocols.md>); the intervals are part of the technique)

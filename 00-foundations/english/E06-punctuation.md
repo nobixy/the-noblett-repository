@@ -1,16 +1,18 @@
 ---
 title: "E06 — Punctuation"
-stage: E06
-track: english
-hours: 20
-weeks: 3
+id: "E06"
+type: "lesson"
+module: "00-foundations"
+track: "english"
+stage: "E06"
+phase: "B"
+order: 310
+prerequisites: [E05]
 ---
 
 # E06 — Punctuation
 
 **In this stage you will:** learn capital letters, end marks, the six comma rules, apostrophes, colons, semicolons, quotation marks, hyphens and dashes, parentheses, number style, and how to format code and commands in writing. You will finish the [Machine Manual](projects/machine-manual/spec.md).
-
-**Time:** about 20 hours over 3 weeks.
 
 **Before you start:** E05 done. You can find the core (subject + verb) of any sentence.
 
@@ -268,23 +270,23 @@ You will write most of your technical documents in **Markdown** (like these file
 
 ---
 
-## Part 9 — Practice routine (3 weeks)
+## Part 9 — Practice routine (3 sections)
 
-| Week | Focus |
+| Section | Focus |
 | :-- | :-- |
-| 1 | Mon: capitals and end marks · Tue: comma rules 1–2 · Wed: comma rules 3–4 · Thu: comma rules 5–6, splices · Fri: Practice Set 1 |
-| 2 | Mon: apostrophes · Tue: colons and semicolons · Wed: quotes and code formatting · Thu: hyphens, dashes, parentheses, numbers · Fri: Practice Set 2 |
-| 3 | Mon–Tue: Practice Set 3 (your own writing) · Wed–Thu: Machine Manual Milestone 3 · Fri: self-check |
+| 1 | Session 1: capitals and end marks · Session 2: comma rules 1–2 · Session 3: comma rules 3–4 · Session 4: comma rules 5–6, splices · Session 5: Practice Set 1 |
+| 2 | Session 1: apostrophes · Session 2: colons and semicolons · Session 3: quotes and code formatting · Session 4: hyphens, dashes, parentheses, numbers · Session 5: Practice Set 2 |
+| 3 | Sessions 1–2: Practice Set 3 (your own writing) · Sessions 3–4: Machine Manual Milestone 3 · Session 5: self-check |
 
-**Daily:**
-- **Warm-up [R]:** write the six comma rules from memory, each with an example. (By week 2, add the two apostrophe jobs and the colon rule.)
-- **Punctuation hunt:** in today's copywork passage, label every punctuation mark with the rule it follows. When the author breaks a rule, ask why [W].
-- **Spelling (10 min)** and **copywork [C]** (Level 2). Punctuation differences now count in your diff.
+**Every session:**
+- **Warm-up [R]:** write the six comma rules from memory, each with an example. (By section 2, add the two apostrophe jobs and the colon rule.)
+- **Punctuation hunt:** in this session's copywork passage, label every punctuation mark with the rule it follows. When the author breaks a rule, ask why [W].
+- **Spelling** and **copywork [C]** (Level 2). Punctuation differences now count in your diff.
 
 **Study protocols:**
 - **[W]** For each comma rule, write the misreading it prevents. Example for Rule 4: without commas, "The router which is in the closet needs a restart" suggests there are several routers.
 - **[S]** Subgoal labels for checking any comma: (1) Is it in a list? (2) Is it before FANBOYS joining two complete sentences? (3) Is it after an introduction? (4) Is it around extra info? (5) Between equal describers? (6) Number/date/name? → If none apply, delete it.
-- **[F]** Teach the apostrophe to a friend in under two minutes. Record it. The only content: two jobs, and "never for plurals."
+- **[F]** Teach the apostrophe to a friend, briefly. Record it. The only content: two jobs, and "never for plurals."
 
 ---
 
@@ -356,7 +358,7 @@ Fix the punctuation, capitals, and formatting.
 
 ### Practice Set 3 — Your own writing
 
-Take three of your journal entries from your first month. Fix every punctuation error using the subgoal checklist above. Count the fixes. Save before and after versions in your workbench (`english/punctuation-before-after.md`). This is the most valuable practice set in the stage, because they are *your* habits.
+Take three of your journal entries from your first sections. Fix every punctuation error using the subgoal checklist above. Count the fixes. Save before and after versions in your workbench (`english/punctuation-before-after.md`). This is the most valuable practice set in the stage, because they are *your* habits.
 
 ---
 
@@ -364,7 +366,7 @@ Take three of your journal entries from your first month. Fix every punctuation 
 
 *Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
 
-- **Watch:** Khan Academy Grammar: the punctuation unit. *Grammar and Punctuation* (UC Irvine, Coursera), the punctuation weeks.
+- **Watch:** Khan Academy Grammar: the punctuation unit. *Grammar and Punctuation* (UC Irvine, Coursera), the punctuation modules.
 - **Practise:** Khan Academy punctuation exercises; then Practice Set 3 on your own writing.
 - **Fun writes this stage** ([prompt bank](writing-prompts.md)): #40 CPU and RAM argue · #43 the apostrophe crime scene · #45 the terminal transcript · #46 commas change everything
 
@@ -372,7 +374,7 @@ Take three of your journal entries from your first month. Fix every punctuation 
 
 ## Self-check
 
-1. **[R] Blank sheet (15 min):** the six comma rules with examples; the two jobs of the apostrophe; colon rule; semicolon's two jobs; when to use code format instead of quotes.
+1. **[R] Blank sheet:** the six comma rules with examples; the two jobs of the apostrophe; colon rule; semicolon's two jobs; when to use code format instead of quotes.
 2. **Fix this paragraph** (10 errors):
    > First open the terminal, then type "cd projects." The projects folder which is in your home directory has three sub folders: notes code and docs. Its important to check the files permission's before you run the script, if the script cant run you will see an error.
 3. **Explain [F]:** write a short paragraph explaining to a beginner why you should write `ls -la` in code format instead of in quotation marks.

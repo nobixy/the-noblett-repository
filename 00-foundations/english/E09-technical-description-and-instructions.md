@@ -1,16 +1,18 @@
 ---
 title: "E09 — Technical Description and Instructions"
-stage: E09
-track: english
-hours: 30
-weeks: 5
+id: "E09"
+type: "lesson"
+module: "00-foundations"
+track: "english"
+stage: "E09"
+phase: "C"
+order: 670
+prerequisites: [E08]
 ---
 
 # E09 — Technical Description and Instructions
 
 **In this stage you will:** learn the four everyday forms of technical writing: **describing a system**, **writing instructions**, **reporting a bug**, and **writing a README**. You will also define terms precisely, write captions for diagrams, and give short spoken explanations with structure. Projects: [Bug Report Gauntlet](projects/bug-report-gauntlet/spec.md); continue [Explain-a-System](projects/explain-a-system/spec.md).
-
-**Time:** about 30 hours over 5 weeks.
 
 **Before you start:** E08 done. You can write a clear paragraph and revise it with the checklist.
 
@@ -210,9 +212,9 @@ A README is the front door of a project. Every project you build from now on has
 
 ## Part 6 — Speaking with structure
 
-Your weekly recordings continue. Add structure:
+Your section recordings continue. Add structure:
 
-**The 3-minute explainer shape:**
+**The short explainer shape:**
 1. **The point** (one sentence): "*A thermostat keeps a room at one temperature by switching a heater on and off.*"
 2. **The map:** "*It has three parts, and I'll walk through one cycle.*"
 3. **The walk-through:** follow one flow, with signposts (*first, then, when, finally*).
@@ -223,19 +225,19 @@ Practise with a diagram on paper you can point at. Record. Listen back. Count fi
 
 ---
 
-## Part 7 — Practice routine (5 weeks)
+## Part 7 — Practice routine (5 sections)
 
-| Week | Focus |
+| Section | Focus |
 | :-- | :-- |
-| 1 | Mon–Tue: precise words; rewrite 10 vague sentences from your journal · Wed: definitions (write 10 for terms from Module 01–02) · Thu–Fri: Practice Set 1 |
-| 2 | Mon–Wed: describing a system; write a description of your Module 01 Nib emulator with a diagram · Thu–Fri: Explain-a-System explainer 2 |
-| 3 | Mon–Tue: instructions; write install instructions for one of your projects · Wed–Thu: usability test with a real person · Fri: revise |
-| 4 | Mon–Fri: Bug Report Gauntlet (Milestones 1–3) |
-| 5 | Mon–Tue: READMEs for two of your projects · Wed: Explain-a-System explainer 3 · Thu: weekly recording · Fri: self-check |
+| 1 | Sessions 1–2: precise words; rewrite 10 vague sentences from your journal · Session 3: definitions (write 10 for terms from Module 01–02) · Sessions 4–5: Practice Set 1 |
+| 2 | Sessions 1–3: describing a system; write a description of your Module 01 Nib emulator with a diagram · Sessions 4–5: Explain-a-System explainer 2 |
+| 3 | Sessions 1–2: instructions; write install instructions for one of your projects · Sessions 3–4: usability test with a real person · Session 5: revise |
+| 4 | Sessions 1–5: Bug Report Gauntlet (Milestones 1–3) |
+| 5 | Sessions 1–2: READMEs for two of your projects · Session 3: Explain-a-System explainer 3 · Session 4: section recording · Session 5: self-check |
 
-**Daily:**
-- **Warm-up [R]:** from memory, write the structure of one of the four forms (rotate daily).
-- **Spelling (10 min)** + **copywork [C]** at Level 3, moving to **Level 4** (RFC 768, Rob Pike) when ready. Diff for precision: where did the author use an exact word where you used a vague one?
+**Every session:**
+- **Warm-up [R]:** from memory, write the structure of one of the four forms (rotate each session).
+- **Spelling** + **copywork [C]** at Level 3, moving to **Level 4** (RFC 768, Rob Pike) when ready. Diff for precision: where did the author use an exact word where you used a vague one?
 
 **Study protocols:**
 - **[S]** Each form's structure is a set of subgoal labels. Write them as headings *before* you write any content.
@@ -297,7 +299,7 @@ Find a real bug or annoyance in any software you use (a website, an app, a game)
 
 *Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
 
-- **Watch:** Google Technical Writing One (free, about 4 hours). Technology Connections or Steve Mould (YouTube): watch one explanation of an everyday machine, then write your own.
+- **Watch:** Google Technical Writing One (free). Technology Connections or Steve Mould (YouTube): watch one explanation of an everyday machine, then write your own.
 - **Practise:** Google Technical Writing One's in-class exercises, done on paper first.
 - **Fun writes this stage** ([prompt bank](writing-prompts.md)): #70 instructions for an alien · #71 bug report for your cat · #72 README for your fridge · #73 rewrite bad error messages
 
@@ -305,10 +307,10 @@ Find a real bug or annoyance in any software you use (a website, an app, a game)
 
 ## Self-check
 
-1. **[R] Blank sheet (15 min):** the structure of all four forms; the rules for steps; the parts of a definition; must/should/may.
+1. **[R] Blank sheet:** the structure of all four forms; the rules for steps; the parts of a definition; must/should/may.
 2. **Description:** in 250–350 words plus one diagram, describe how a system you use daily works (a bike's gears, a fridge, a microwave, a phone charger). Use the five-part structure.
 3. **Instructions:** write instructions for a task you know well on a computer. Run a usability test with a real person. Record how many times they hesitated or asked. Revise until zero.
-4. **Spoken:** a 3-minute explainer using the shape in Part 6. Fillers counted.
+4. **Spoken:** a short explainer using the shape in Part 6. Fillers counted.
 
 ## Done when
 

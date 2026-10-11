@@ -1,21 +1,25 @@
 ---
 title: "Lab 01 — Fourier by Ear"
+id: "MOD12-LAB01"
+type: "lab"
 module: "12-math-for-engineering"
-hours: 15
-unit: S1
+phase: "C"
+order: 860
+prerequisites: [MOD12-S1]
+unit: "S1"
 ---
 
 # Lab 01 — Fourier by Ear
 
 **Goal:** understand the idea that every signal is a sum of sine waves — by building it, hearing it, and seeing it: implement the discrete Fourier transform (DFT), then the fast Fourier transform (FFT) by divide and conquer, analyse your Tone Loom sounds and your Pico Thermostat's sensor noise, and design a simple filter.
 
-**Time:** about 15 hours, in five sessions.
+**Sessions:** five.
 
 **Deliverable:** a lab report: *"What frequencies are in my signals, and what does a filter do to them?"*
 
 ---
 
-## Session 1 — Adding waves (3 hours)
+## Session 1 — Adding waves
 
 1. With Tone Loom (or NumPy), build a **square wave** as a sum of sines: sin(x) + sin(3x)/3 + sin(5x)/5 + … (odd harmonics, decreasing amplitude). Plot the sum with 1, 3, 10, 50 terms. Listen to each at 220 Hz. Watch the corners sharpen (and the overshoot at the corners that never goes away — the Gibbs phenomenon).
 2. Answer Tone Loom's old question [W]: *why does a square wave sound buzzy?* (It *is* a stack of higher frequencies.)
@@ -23,7 +27,7 @@ unit: S1
 
 ---
 
-## Session 2 — The DFT (3 hours)
+## Session 2 — The DFT
 
 For N samples x₀ … x_{N−1}, the DFT gives N complex numbers:
 
@@ -37,7 +41,7 @@ $$X_k = \sum_{n=0}^{N-1} x_n \, e^{-2\pi i k n / N}$$
 
 ---
 
-## Session 3 — The FFT (3 hours)
+## Session 3 — The FFT
 
 The DFT for N a power of 2 can be computed in O(N log N) by **splitting the samples into even- and odd-indexed halves**, transforming each half (recursively — Module 02 Lab 01!), and combining them with "twiddle factors" e^{−2πik/N}. Derive the combination step from the formula (write the sum as even terms + odd terms) [S], then implement the recursive radix-2 FFT.
 
@@ -47,7 +51,7 @@ The DFT for N a power of 2 can be computed in O(N log N) by **splitting the samp
 
 ---
 
-## Session 4 — Spectra of your own signals (3 hours)
+## Session 4 — Spectra of your own signals
 
 1. **Tone Loom:** the spectrum of a sine, a square, a sawtooth, and a chord. Then the **aliasing** files from Tone Loom Milestone 5: show the 30 kHz tone appearing at 14.1 kHz in the spectrum, and explain it with the sampling picture.
 2. **Windowing:** analyse a tone whose frequency doesn't fit a whole number of cycles in the window. The peak smears ("spectral leakage"). Multiply by a Hann window first and compare. [W] Why does tapering the ends help?
@@ -56,7 +60,7 @@ The DFT for N a power of 2 can be computed in O(N log N) by **splitting the samp
 
 ---
 
-## Session 5 — Filters (3 hours)
+## Session 5 — Filters
 
 1. **Moving average** of M samples is a filter. Compute its **frequency response** (the DFT of its M-sample impulse response, zero-padded) and plot it: it's a low-pass filter with ripples.
 2. Apply it to a Tone Loom chord with high-frequency noise added; listen before and after; show both spectra.
@@ -79,4 +83,4 @@ Question, methods, the square-wave build-up, DFT vs FFT timing, spectra of your 
 ## Retrieval and reflection
 
 1. **[R]:** the DFT formula and its meaning; bin frequency; the FFT's split; aliasing; leakage and windows; what a low-pass filter does.
-2. **[F] (spoken, 3 min):** "What does a Fourier transform do?" — with a chord as the example.
+2. **[F] (spoken):** "What does a Fourier transform do?" — with a chord as the example.

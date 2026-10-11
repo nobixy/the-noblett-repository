@@ -1,9 +1,13 @@
 ---
 title: "Project: Toy Cipher"
+id: "MOD03-PRJ-toy-cipher"
+type: "project"
 module: "03-discrete-math"
-hours: 16
+phase: "B"
+order: 540
+prerequisites: [MOD03-U5, FND-MA-PRJ-prime-factory, MOD02-LAB01]
 artifact: "postcard: a toy public-key system (key generation, encryption, signatures) built from your own number theory — and three working attacks on it"
-deliverable: "Proofs of correctness in the Proof Journal + 'Why textbook RSA is broken' report (2 pages) + 4-minute demo"
+deliverable: "Proofs of correctness in the Proof Journal + 'Why textbook RSA is broken' report (2 pages) + short demo"
 ---
 
 # Project: Toy Cipher
@@ -11,7 +15,6 @@ deliverable: "Proofs of correctness in the Proof Journal + 'Why textbook RSA is 
 | | |
 | :-- | :-- |
 | **Module** | 03 Discrete Math |
-| **Time** | About 16 hours |
 | **Prerequisites** | Unit 5 (modular arithmetic); [Prime Factory](../../../00-foundations/math/projects/prime-factory/spec.md); Module 02 Lab 01 (fast exponentiation) |
 | **You build** | `postcard`, a toy version of RSA public-key cryptography, built entirely from number theory you implement and prove yourself: extended Euclid, modular inverses, fast modular powers, prime generation, key pairs, encryption, and signatures. Two characters, Ada and Bram, send each other postcards. Then **you play the attacker** and break the system three different ways |
 | **Deliverable** | Proofs in your Proof Journal, a 2-page report, and a demo |
@@ -140,7 +143,7 @@ Now play Eve, the eavesdropper. Write each attack as a script, and explain it in
 
 1. **Proof Journal entries:** extended Euclid, inverse iff coprime, square-and-multiply, Fermat's little theorem, RSA correctness.
 2. **Report (2 pages, E10 level): "Why textbook RSA is broken."** For each attack: what Eve does, why it works, and what real systems do instead (padding, large keys, careful parameter choice). End with the correctness-vs-security lesson.
-3. **Demo (4 minutes):** Ada sends Bram a signed postcard; Eve breaks a small key and reads it; Eve reads a YES/NO reply without factoring.
+3. **Demo:** Ada sends Bram a signed postcard; Eve breaks a small key and reads it; Eve reads a YES/NO reply without factoring.
 
 ## Study-method integration
 

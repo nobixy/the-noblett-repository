@@ -1,16 +1,18 @@
 ---
 title: "E03 — Word Parts and Confusable Words"
-stage: E03
-track: english
-hours: 20
-weeks: 3
+id: "E03"
+type: "lesson"
+module: "00-foundations"
+track: "english"
+stage: "E03"
+phase: "A"
+order: 70
+prerequisites: [E02]
 ---
 
 # E03 — Word Parts and Confusable Words
 
 **In this stage you will:** learn to take long words apart into pieces (prefix, root, suffix) so you can spell and understand words you have never seen; master the 40 word pairs people mix up most; learn the core technical vocabulary; and re-measure your spelling against your E01 baseline.
-
-**Time:** about 20 hours over 3 weeks.
 
 **Before you start:** E02 done. You know your top two error tags.
 
@@ -121,7 +123,7 @@ A **prefix** goes at the start and changes the meaning. A **root** carries the c
 
 ## Part 2 — Confusable words
 
-These are real words, so spell checkers will not catch them. That makes them the most dangerous errors in professional writing. Learn them in groups of five per day.
+These are real words, so spell checkers will not catch them. That makes them the most dangerous errors in professional writing. Learn them in groups of five per session.
 
 | Words | Meaning and example | Hook |
 | :-- | :-- | :-- |
@@ -154,7 +156,7 @@ These are real words, so spell checkers will not catch them. That makes them the
 | **hear / here** | *hear* = with your ear · *here* = this place | **ear** in **hear** |
 | **write / right / rite** | *write* = make text · *right* = correct, or direction · *rite* = ceremony | **w**rite: **w**ords |
 | **by / buy / bye** | *by* = near, or "done by" · *buy* = pay for · *bye* = goodbye | **u** **buy** |
-| **though / through / thorough / thought / tough / threw** | *though* = however · *through* = in one side, out the other · *thorough* = complete, careful · *thought* = past of think · *tough* = hard · *threw* = past of throw | say them in spelling voice; write all six in one sentence once a week |
+| **though / through / thorough / thought / tough / threw** | *though* = however · *through* = in one side, out the other · *thorough* = complete, careful · *thought* = past of think · *tough* = hard · *threw* = past of throw | say them in spelling voice; write all six in one sentence once per section |
 | **fewer / less** | *fewer* = countable things (fewer bugs) · *less* = amounts (less memory) | can you count them? → *fewer* |
 | **i.e. / e.g.** | *i.e.* = "that is" (restates exactly) · *e.g.* = "for example" | **e.g.** = **e**xample **g**iven |
 | **a lot / alot** | always **two** words: *a lot* | you can't write "alittle" either |
@@ -200,19 +202,19 @@ You do not need all of these now. Learn **Group 1** in this stage. The other gro
 
 ---
 
-## Part 4 — The three-week routine
+## Part 4 — The three-section routine
 
-| Week | Lesson focus (15–20 min/day) | Spelling (10–15 min/day) |
+| Section | Lesson focus | Spelling |
 | :-- | :-- | :-- |
-| 1 | Prefixes and the joining rule (Mon–Tue) · roots (Wed–Thu) · suffixes (Fri) | your error log + Group 1 |
-| 2 | Confusables, five pairs a day (Mon–Fri) | your error log + confusables in sentences |
-| 3 | Tech one-word/two-word (Mon) · Practice Sets (Tue–Wed) · Self-check and retest (Thu–Fri) | your error log |
+| 1 | Prefixes and the joining rule (Sessions 1–2) · roots (Sessions 3–4) · suffixes (Session 5) | your error log + Group 1 |
+| 2 | Confusables, five pairs per session (Sessions 1–5) | your error log + confusables in sentences |
+| 3 | Tech one-word/two-word (Session 1) · Practice Sets (Sessions 2–3) · Self-check and retest (Sessions 4–5) | your error log |
 
-**Daily practice for word parts:** pick 5 words from anything you read today (an error message, a man page, a news story). Split each into parts. Write the meaning of each part. Look up the ones you are unsure about on etymonline.com. This is a why-ladder [W] on vocabulary.
+**Every-session practice for word parts:** pick 5 words from anything you read recently (an error message, a man page, a news story). Split each into parts. Write the meaning of each part. Look up the ones you are unsure about on etymonline.com. This is a why-ladder [W] on vocabulary.
 
-**Daily practice for confusables:** write one sentence of your own for each word in today's set, about your real life. *Write them by hand, without a checker.* Next day, before the new set, rewrite yesterday's sentences from memory [R].
+**Every-session practice for confusables:** write one sentence of your own for each word in this session's set, about your real life. *Write them by hand, without a checker.* Next session, before the new set, rewrite the last session's sentences from memory [R].
 
-**Copywork [C]:** move to **Level 2** in week 2 if you met the Level 1 standard (fewer than 3 spelling errors, three times in a row). Try the first paragraph of the Python Tutorial, section 1 ("Whetting Your Appetite"). Notice how many words you can now split into parts.
+**Copywork [C]:** move to **Level 2** in section 2 if you met the Level 1 standard (fewer than 3 spelling errors, three times in a row). Try the first paragraph of the Python Tutorial, section 1 ("Whetting Your Appetite"). Notice how many words you can now split into parts.
 
 ---
 
@@ -290,15 +292,15 @@ Split each word into parts and give the meaning of each part, then the meaning o
 
 ---
 
-## Self-check and retest (end of week 3)
+## Self-check and retest (end of section 3)
 
 This is the end of the spelling-focused part of the track. Retest everything from E01 and compare.
 
 1. **Repeat E01 Test A** (the same 60-word dictation). Record score.
-2. **Repeat E01 Test B** (15-minute free-write, error rate). Record score. **Target: under 1 error per 100 words.**
-3. **Confusables quiz:** make 20 sentences with blanks yourself, using 20 different pairs from Part 2. Wait two days. Fill them in cold. Target: **19/20**.
+2. **Repeat E01 Test B** (300-word free-write, error rate). Record score. **Target: under 1 error per 100 words.**
+3. **Confusables quiz:** make 20 sentences with blanks yourself, using 20 different pairs from Part 2. Wait until a later session. Fill them in cold. Target: **19/20**.
 4. **Feynman [F]:** in half a page, explain to a friend why *misspell* has two s's and *disappear* has one. Then explain why spell checkers miss *their/there* errors.
-5. **Write the comparison:** in `english/baseline-YYYY-MM-DD.md` (today's date), put your E01 numbers next to today's. Write three sentences about what changed.
+5. **Write the comparison:** in `english/baseline-retest.md`, put your E01 numbers next to the new ones. Write three sentences about what changed.
 
 ## Done when
 
@@ -307,8 +309,8 @@ This is the end of the spelling-focused part of the track. Retest everything fro
 - [ ] Free-writing error rate under 1 per 100 words (or cut in half from your baseline, whichever is easier to reach).
 - [ ] Confusables quiz ≥ 19/20.
 - [ ] Comparison note written.
-- [ ] [Spelling Engine](projects/spelling-engine/spec.md) Milestones 1–2 done (the structured log and the weekly report).
+- [ ] [Spelling Engine](projects/spelling-engine/spec.md) Milestones 1–2 done (the structured log and the section report).
 
-**After E03:** spelling becomes a 10-minute daily habit (your error log plus review), not a main lesson. Keep doing it. The words you will need for each module are listed in that module's overview.
+**After E03:** spelling becomes a short part of every English session (your error log plus review), not a main lesson. Keep doing it. The words you will need for each module are listed in that module's overview.
 
 **Next:** [E04 — Parts of Speech](E04-parts-of-speech.md).

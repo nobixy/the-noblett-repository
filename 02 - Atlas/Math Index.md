@@ -7,31 +7,41 @@ tags:
 ---
 
 # Mathematics Topic Notes
-*Per Appendix B.5: One atomic note per mathematical concept or theorem.*
+*One atomic note per mathematical concept or theorem (see [[LM16 - Zettelkasten|Zettelkasten]] and the [[Zettelkasten Atomic Note Template]]).*
 
 ---
 
 ## Areas
-- **Calculus & Analysis:** [[B02 - Calculus I|Calculus I]], [[B04a - Differential Equations Bridge|Differential Equations Bridge]], [[B07 - Multivariable Calculus|Multivariable Calculus]], [[B18 - Real Analysis|Real Analysis]]
-- **Classical Mechanics & Physics:** [[B03 - Physics I|Physics I]]
-- **Discrete Math & Logic:** [[P3 - Math Prerequisites|Math Prerequisites]], [[B10 - Math for CS|Math for CS]]
-- **Linear Algebra:** [[B11 - Linear Algebra|Linear Algebra]]
-- **Probability, Signals & Statistics:** [[B15 - Probability|Probability]], [[B15a - Signals and Systems Bridge|Signals and Systems Bridge]], [[B22 - Statistics|Statistics]], [[B22a - Machine Learning|Machine Learning]], [[B25a - Deep Learning|Deep Learning]]
-- **Optimization & Information:** [[B25 - Convex Optimization|Convex Optimization]], [[B32 - Information Theory|Information Theory]]
+*Group your atomic notes under these areas. Which module teaches each one is listed in the next section.*
+- **Arithmetic, algebra, functions & logarithms**
+- **Discrete math & logic**
+- **Calculus & analysis**
+- **Linear algebra**
+- **Probability, signals & statistics**
+- **Optimization & information** *(outside the core curriculum)*
 
-## Reference Courses
-- [[B02 - Calculus I|Calculus I]] (MIT 18.01SC)
-- [[B03 - Physics I|Physics I]] (MIT 8.01SC)
-- [[B04a - Differential Equations Bridge|Differential Equations Bridge]] (MIT 18.03)
-- [[B07 - Multivariable Calculus|Multivariable Calculus]] (MIT 18.02SC)
-- [[B10 - Math for CS|Math for CS]] (MIT 6.1200J / 6.042J)
-- [[B11 - Linear Algebra|Linear Algebra]] (MIT 18.06SC)
-- [[B15 - Probability|Probability]] (MIT 6.041)
-- [[B15a - Signals and Systems Bridge|Signals and Systems Bridge]] (MIT 6.3000)
-- [[B18 - Real Analysis|Real Analysis]] (MIT 18.100A / Abbott; optional)
-- [[B22 - Statistics|Statistics]] (MIT 18.650 / McElreath)
-- [[B25 - Convex Optimization|Convex Optimization]] (Stanford EE364A / Boyd)
-- [[B32 - Information Theory|Information Theory]] (Cover & Thomas)
+## Where this is taught in the curriculum
+- **Arithmetic to logarithms:** [Math foundations M01–M11](<../00-foundations/math/overview.md>)
+- **Discrete math & logic, proof, counting, discrete probability:** [03 Discrete Math](<../03-discrete-math/overview.md>)
+- **Calculus, linear algebra, probability & statistics, signals:** [12 Math for Engineering](<../12-math-for-engineering/overview.md>) (units C1–C3, L1–L4, P1–P3, S1)
+- **Asymptotics and the math of algorithms:** [05 Data Structures and Algorithms](<../05-data-structures-and-algorithms/overview.md>)
+- Real analysis, physics, convex optimization, information theory, machine learning: not part of the core curriculum.
+
+## Reference courses *(historical)*
+*From the superseded v1 plan (see [DR-010](<../04 - System/DR-010 - Project-First Original Curriculum.md>)); listed as outside courses only. They are not part of this curriculum.*
+
+- Calculus I (MIT 18.01SC)
+- Physics I (MIT 8.01SC)
+- Differential Equations Bridge (MIT 18.03)
+- Multivariable Calculus (MIT 18.02SC)
+- Math for CS (MIT 6.1200J / 6.042J)
+- Linear Algebra (MIT 18.06SC)
+- Probability (MIT 6.041)
+- Signals and Systems Bridge (MIT 6.3000)
+- Real Analysis (MIT 18.100A / Abbott; optional)
+- Statistics (MIT 18.650 / McElreath)
+- Convex Optimization (Stanford EE364A / Boyd)
+- Information Theory (Cover & Thomas)
 
 ## Principles for Math Notes
 1. Write theorems in your own words.

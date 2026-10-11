@@ -1,22 +1,26 @@
 ---
 title: "M05 — Fractions"
-stage: M05
-track: math
-hours: 35
-weeks: 5
+id: "M05"
+type: "lesson"
+module: "00-foundations"
+track: "math"
+stage: "M05"
+phase: "A"
+order: 180
+prerequisites: [M04]
 ---
 
 # M05 — Fractions
 
 **In this stage you will:** understand what a fraction *is* (four ways), make equivalent fractions and simplify them, compare fractions, and add, subtract, multiply, and divide them, knowing exactly why each procedure works. "Invert and multiply" will stop being a magic spell.
 
-**Time:** about 35 hours over 5 weeks. This is the stage most adults find hardest, and the one that unlocks everything after it. Take your time.
+**Sessions:** this stage runs over five sections. It is the stage most adults find hardest, and the one that unlocks everything after it. Go slowly.
 
 **Before you start:** M04 done. You can find a GCD and an LCM quickly.
 
 ---
 
-## Diagnostic (cold, 25 minutes, no calculator)
+## Diagnostic (cold, no calculator)
 
 1. Simplify 18/24.
 2. Which is bigger: 5/8 or 3/5?
@@ -260,17 +264,17 @@ So fractions whose denominator is a power of 2 have short, exact binary forms. B
 
 ---
 
-## Practice routine (5 weeks)
+## Practice routine (5 sections)
 
-| Week | Focus |
+| Section | Focus |
 | :-- | :-- |
-| 1 | Mon: four meanings (draw each for 3/4, 2/5, 7/4) · Tue: improper and mixed · Wed–Thu: equivalent fractions and simplifying · Fri: comparing |
-| 2 | Mon–Wed: adding and subtracting (with drawings first, then the procedure) · Thu: mixed numbers · Fri: Practice Set 1, items 1–9 |
-| 3 | Mon–Tue: multiplying (area model by hand for 5 problems before using the rule) · Wed–Fri: dividing: measuring meaning, both methods, the why-ladder |
-| 4 | Mon: fractions of amounts · Tue–Wed: word problems · Thu–Fri: Practice Set 1 rest + Set 2 |
-| 5 | Mon–Tue: [Ratio Workshop](projects/ratio-workshop/spec.md) Milestone 1 · Wed: Feynman pass · Thu: blank sheet + error-log review · Fri: self-check |
+| 1 | Session 1: four meanings (draw each for 3/4, 2/5, 7/4) · Session 2: improper and mixed · Sessions 3–4: equivalent fractions and simplifying · Session 5: comparing |
+| 2 | Sessions 1–3: adding and subtracting (with drawings first, then the procedure) · Session 4: mixed numbers · Session 5: Practice Set 1, items 1–9 |
+| 3 | Sessions 1–2: multiplying (area model by hand for 5 problems before using the rule) · Sessions 3–5: dividing: measuring meaning, both methods, the why-ladder |
+| 4 | Session 1: fractions of amounts · Sessions 2–3: word problems · Sessions 4–5: Practice Set 1 rest + Set 2 |
+| 5 | Sessions 1–2: [Ratio Workshop](projects/ratio-workshop/spec.md) Milestone 1 · Session 3: Feynman pass · Session 4: blank sheet + error-log review · Session 5: self-check |
 
-**Daily warm-up [R]:** pick one operation (rotate daily). Write its subgoal labels from memory and its *why* in one sentence. Do one problem.
+**Warm-up [R] (every session):** pick one operation (rotate each session). Write its subgoal labels from memory and its *why* in one sentence. Do one problem.
 
 **Key why-questions [W]:**
 1. Why must you do the same to the top and bottom to get an equivalent fraction?
@@ -278,7 +282,7 @@ So fractions whose denominator is a power of 2 have short, exact binary forms. B
 3. Why does multiplying by ½ make a number smaller?
 4. Why does invert-and-multiply work? (All three rungs.)
 
-**Feynman target [F]:** *"Why does dividing by ⅓ triple a number?"* Explain it with measuring cups, out loud, in 2 minutes. Then explain invert-and-multiply in plain words.
+**Feynman target [F]:** *"Why does dividing by ⅓ triple a number?"* Explain it with measuring cups, out loud, briefly. Then explain invert-and-multiply in plain words.
 
 **Interleaving warning [I]:** the most common fraction errors come from using the right procedure on the wrong operation (adding denominators, finding a common denominator to multiply). That's why every practice set mixes all four operations. Before each problem, **name the operation and its first step** before writing anything.
 
@@ -345,7 +349,7 @@ So fractions whose denominator is a power of 2 have short, exact binary forms. B
 
 ---
 
-## Self-check (cold, 35 minutes, no calculator)
+## Self-check (cold, no calculator)
 
 1. Simplify 72/90.
 2. Which is bigger: 7/9 or 4/5? Show how you know.
@@ -356,7 +360,7 @@ So fractions whose denominator is a power of 2 have short, exact binary forms. B
 7. 2⅔ ÷ 4
 8. A phone battery is ¾ full. You use ⅓ of a full charge. What fraction of a full charge is left?
 9. A movie is 2¼ hours long. You watched ⅗ of it. How many minutes did you watch?
-10. **[R] Blank sheet (10 min):** the four meanings of a fraction; what the denominator and numerator do; the subgoal labels for all four operations; the why-ladder for invert-and-multiply.
+10. **[R] Blank sheet:** the four meanings of a fraction; what the denominator and numerator do; the subgoal labels for all four operations; the why-ladder for invert-and-multiply.
 
 <details>
 <summary>Answers (self-check)</summary>
@@ -368,7 +372,7 @@ So fractions whose denominator is a power of 2 have short, exact binary forms. B
 
 - [ ] Self-check ≥ 8/9 on items 1–9, blank sheet done.
 - [ ] Four why-questions answered; invert-and-multiply explained out loud.
-- [ ] Your error log shows no repeated "concept" errors on fractions in the last week.
+- [ ] Your error log shows no repeated "concept" errors on fractions in the last section.
 - [ ] [Ratio Workshop](projects/ratio-workshop/spec.md) Milestone 1 done.
 
 **Next:** [M06 — Decimals, Percents, and Ratios](M06-decimals-percents-and-ratios.md).

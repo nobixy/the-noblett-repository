@@ -1,6 +1,11 @@
 ---
 title: "08 — Resources"
+id: "MOD08-RES"
+type: "reference"
 module: "08-operating-systems"
+phase: "D"
+order: 1150
+prerequisites: []
 ---
 
 # 08 — Resources

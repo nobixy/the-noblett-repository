@@ -1,20 +1,24 @@
 ---
 title: "Lab 02 — Testing and Git Workflow"
+id: "MOD02-LAB02"
+type: "lab"
 module: "02-programming-fundamentals"
-hours: 8
+phase: "B"
+order: 440
+prerequisites: [MOD02-LAB01]
 ---
 
 # Lab 02 — Testing and Git Workflow
 
 **Goal:** testing habits and git habits that working programmers use daily: test-first development, fixtures, parametrised tests, golden files, fake clocks, branches, merges, conflicts, and bisect.
 
-**Time:** about 8 hours, in three sessions.
+**Sessions:** three.
 
 **You'll finish with:** `roman.py` built test-first; a deliberately caused and resolved merge conflict; and a bug found with `git bisect`.
 
 ---
 
-## Session 1 — pytest beyond `assert` (3 hours)
+## Session 1 — pytest beyond `assert`
 
 ### Parametrised tests: one test, many cases
 
@@ -85,7 +89,7 @@ Writing the test first forces you to decide *what* the function should do before
 
 ---
 
-## Session 2 — Golden files and fake clocks (2 hours)
+## Session 2 — Golden files and fake clocks
 
 ### Golden files
 
@@ -128,7 +132,7 @@ The real program calls `due_cards(cards, today=date.today())`. Tests pass any da
 
 ---
 
-## Session 3 — Git like a professional (3 hours)
+## Session 3 — Git like a professional
 
 ### Branches
 
@@ -166,7 +170,7 @@ See the shape: `git log --oneline --graph --all`.
 `git bisect` finds the commit that introduced a bug by **binary search** through history (M11: about log₂ n steps for n commits).
 
 1. In `roman.py`, make 10 small harmless commits. In the 6th, quietly introduce a bug (e.g. break the `"CM"` case). Don't note which one.
-2. Wait a day (so you forget).
+2. Wait until a later session (so you forget).
 3. ```bash
    git bisect start
    git bisect bad                 # the current commit is broken
@@ -197,7 +201,7 @@ How many steps did it take for 10 commits? Compare with log₂ 10.
 
 ## Retrieval and reflection
 
-1. **[R] Blank sheet (10 min):** red-green-refactor; three kinds of pytest helpers (parametrize, raises, fixtures); the golden-file rules; why inject the clock; the branch-merge commands; how bisect works and why it's fast.
-2. **[F] (spoken, 1 min):** "What is a golden file, and when is it dangerous?"
+1. **[R] Blank sheet:** red-green-refactor; three kinds of pytest helpers (parametrize, raises, fixtures); the golden-file rules; why inject the clock; the branch-merge commands; how bisect works and why it's fast.
+2. **[F] (spoken):** "What is a golden file, and when is it dangerous?"
 
 **Next:** [Lab 03 — Classes and Data Modelling](lab-03-classes-and-data-modelling.md).

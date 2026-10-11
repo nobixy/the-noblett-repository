@@ -1,20 +1,24 @@
 ---
 title: "Lab 02 — DNS by Hand"
+id: "MOD09-LAB02"
+type: "lab"
 module: "09-networking"
-hours: 8
+phase: "D"
+order: 1180
+prerequisites: [MOD09-LAB01]
 ---
 
 # Lab 02 — DNS by Hand
 
 **Goal:** build DNS query packets byte by byte, send them over UDP, decode the replies (including name compression), and resolve a name **iteratively** starting from a root server — doing by hand what your computer's resolver does thousands of times a day.
 
-**Time:** about 8 hours, in three sessions. Python with `socket` and `struct`; no DNS libraries.
+**Sessions:** three. Python with `socket` and `struct`; no DNS libraries.
 
 **Etiquette:** a few dozen queries while learning are fine; don't loop queries against public servers.
 
 ---
 
-## Session 1 — Build a query (3 hours)
+## Session 1 — Build a query
 
 A DNS message has a 12-byte **header**, then sections. All numbers are **big-endian** ("network byte order") — the opposite of Tone Loom's WAV files. In `struct`, use `!` (network order): `struct.pack("!HHHHHH", …)`.
 
@@ -28,7 +32,7 @@ A DNS message has a 12-byte **header**, then sections. All numbers are **big-end
 
 ---
 
-## Session 2 — Parse the reply (3 hours)
+## Session 2 — Parse the reply
 
 Parse: the header; the question; and each **resource record** in the answer, authority, and additional sections: name, type, class, TTL (32 bits), RDLENGTH, RDATA (for A: 4 bytes of IPv4; for AAAA: 16 bytes; for NS and CNAME: a name).
 
@@ -50,7 +54,7 @@ Print replies in a `dig`-like format. Compare with `dig example.com` for three n
 
 ---
 
-## Session 3 — Iterative resolution from the root (2 hours)
+## Session 3 — Iterative resolution from the root
 
 Your resolver normally does this for you. Now do it yourself, with **recursion desired = 0**:
 
@@ -84,5 +88,5 @@ Add a **cache** keyed by (name, type) that respects TTLs. Resolve 10 names in th
 ## Retrieval and reflection
 
 1. **[R]:** the DNS header fields; label encoding; compression pointers; the root → TLD → authoritative chain.
-2. **[F] (spoken, 2 min):** "How does my computer find the address for a name it's never seen?"
+2. **[F] (spoken):** "How does my computer find the address for a name it's never seen?"
 3. **[W]:** why is DNS mostly over UDP rather than TCP? What happens when a reply is too big (look up the TC flag)?

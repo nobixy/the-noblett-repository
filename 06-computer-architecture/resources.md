@@ -1,6 +1,11 @@
 ---
 title: "06 — Resources"
+id: "MOD06-RES"
+type: "reference"
 module: "06-computer-architecture"
+phase: "C"
+order: 980
+prerequisites: []
 ---
 
 # 06 — Resources

@@ -1,9 +1,13 @@
 ---
 title: "Project: Glimpse"
+id: "MOD10-PRJ-glimpse"
+type: "project"
 module: "10-browser-engine"
-hours: 140
+phase: "D"
+order: 1290
+prerequisites: [MOD10-LAB03, MOD01-PRJ-pagelet, MOD09-PRJ-lantern]
 artifact: "Glimpse: a document browser in Python — HTTP/1.1 client with cache, HTML tokenizer and tree builder with error recovery, a CSS subset with cascade and inheritance, block and inline layout, a display list painted to terminal, SVG, and an interactive window, navigation and history, an outline, an accessibility tree, and reader mode"
-deliverable: "Design doc (grown per milestone) + SUPPORTED.md (the exact subset) + test report (golden display lists, invariants, differential parsing) + 6-minute demo"
+deliverable: "Design doc (grown per milestone) + SUPPORTED.md (the exact subset) + test report (golden display lists, invariants, differential parsing) + short demo"
 ---
 
 # Project: Glimpse
@@ -11,7 +15,6 @@ deliverable: "Design doc (grown per milestone) + SUPPORTED.md (the exact subset)
 | | |
 | :-- | :-- |
 | **Module** | 10 Browser Engine |
-| **Time** | About 140 hours (10–12 weeks) |
 | **Prerequisites** | Labs 01–03 of this module; Pagelet; Lantern (serves your test corpus); Module 05 (trees) |
 | **Language** | Python (standard library; `ssl` and `zlib` allowed; `html5lib` allowed **only in tests**, as a second witness) |
 | **You build** | **Glimpse**, a browser for documents: articles, documentation, blogs, your own notes. No JavaScript, no floats, no flexbox — but real HTML parsing with error recovery, a real cascade, real block-and-inline layout with mixed fonts, links, history, caching, and three output backends. You'll browse your own vault (as HTML from Lantern) and simple real websites with it |
@@ -148,7 +151,7 @@ The heart of the engine (Lab 02 Session 3, made general):
 1. **Design doc** — one section per milestone, with diagrams of each stage and every subset decision justified.
 2. **`SUPPORTED.md`** — the exact subset (elements, selectors, properties), known deviations from real browsers, and the reason for each.
 3. **Test report** (2–3 pages): tokenizer tables, html5lib agreement, invariants, golden lists, fuzzing, and performance before/after.
-4. **Demo (6 minutes):** browse your vault (served as HTML by Lantern), a real documentation site, reader mode, the accessibility dump, and a resize reflowing text.
+4. **Demo:** browse your vault (served as HTML by Lantern), a real documentation site, reader mode, the accessibility dump, and a resize reflowing text.
 
 ## Study-method integration
 

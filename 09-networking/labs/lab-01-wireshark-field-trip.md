@@ -1,14 +1,18 @@
 ---
 title: "Lab 01 — Wireshark Field Trip"
+id: "MOD09-LAB01"
+type: "lab"
 module: "09-networking"
-hours: 8
+phase: "D"
+order: 1170
+prerequisites: []
 ---
 
 # Lab 01 — Wireshark Field Trip
 
 **Goal:** see the internet's layers in real packets from your own machine: ARP, DNS, a TCP handshake, a plain HTTP request, a TLS handshake, and the trick behind `traceroute`.
 
-**Time:** about 8 hours, in three sessions.
+**Sessions:** three.
 
 **Tools:** Wireshark (`wireshark-qt`; add yourself to the `wireshark` group to capture without root: `sudo usermod -aG wireshark $USER`, then log out and in), `tcpdump`, `curl`, `dig`, `traceroute` (or `tracepath`).
 
@@ -16,7 +20,7 @@ hours: 8
 
 ---
 
-## Session 1 — Layers and encapsulation (3 hours)
+## Session 1 — Layers and encapsulation
 
 Every packet is **nested**: application data inside a transport header (UDP/TCP), inside a network header (IP), inside a link frame (Ethernet or Wi-Fi). Each layer only reads its own header.
 
@@ -34,7 +38,7 @@ Every packet is **nested**: application data inside a transport header (UDP/TCP)
 
 ---
 
-## Session 2 — Handshakes and lookups (3 hours)
+## Session 2 — Handshakes and lookups
 
 ### DNS
 
@@ -54,7 +58,7 @@ Capture `curl https://example.com/`. Filter `tls`. You'll see a **ClientHello** 
 
 ---
 
-## Session 3 — traceroute (2 hours)
+## Session 3 — traceroute
 
 Each IP packet has a **TTL** (time to live): every router decrements it, and a router that decrements it to zero discards the packet and sends back an **ICMP "time exceeded"** message. `traceroute` exploits this: it sends packets with TTL = 1, 2, 3, … and each router along the way reveals itself by complaining.
 
@@ -72,4 +76,4 @@ Each IP packet has a **TTL** (time to live): every router decrements it, and a r
 ## Retrieval and reflection
 
 1. **[R]:** the four layers and one header field you saw at each; the three-way handshake; what TTL does; what ARP does.
-2. **[F] (spoken, 3 min):** "What happens on the wire when I type an address and press Enter?" — using your captures.
+2. **[F] (spoken):** "What happens on the wire when I type an address and press Enter?" — using your captures.

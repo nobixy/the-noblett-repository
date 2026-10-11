@@ -1,9 +1,13 @@
 ---
 title: "Project: Route Planner"
+id: "MOD05-PRJ-route-planner"
+type: "project"
 module: "05-data-structures-and-algorithms"
-hours: 40
+phase: "C"
+order: 820
+prerequisites: [MOD05-LAB03, M10, MOD03-U7]
 artifact: "routes: a route planner on real OpenStreetMap data for your own town — graph construction, connectivity analysis, BFS, Dijkstra with your own heap, A*, travel-time routing, and map rendering"
-deliverable: "Design doc + benchmark report (Dijkstra vs A*, node expansions, times) + 5-minute demo with routes drawn on a map"
+deliverable: "Design doc + benchmark report (Dijkstra vs A*, node expansions, times) + short demo with routes drawn on a map"
 ---
 
 # Project: Route Planner
@@ -11,7 +15,6 @@ deliverable: "Design doc + benchmark report (Dijkstra vs A*, node expansions, ti
 | | |
 | :-- | :-- |
 | **Module** | 05 Data Structures and Algorithms |
-| **Time** | About 40 hours |
 | **Prerequisites** | Labs 01–03 (your `MinHeap` and BFS); Math M10 (trigonometry for distances); Module 03 Unit 7 (graphs) |
 | **You build** | `routes`, a planner that loads the real street map of your town from OpenStreetMap, turns it into a graph, analyses it, and finds shortest and fastest routes with Dijkstra and A* — using your own priority queue — then draws them on a map you can open in a browser |
 | **Deliverable** | Design doc, benchmark report, and demo |
@@ -114,7 +117,7 @@ You'll also feel the difference between an algorithm that explores blindly (Dijk
 
 1. **Design doc** v1 → v2.
 2. **Benchmark report** (2 pages): graph stats; BFS vs Dijkstra example; lazy vs decrease-key; Dijkstra vs A* (expanded nodes, times) including the inadmissible heuristic; shortest vs fastest for your 5 real trips.
-3. **Demo (5 minutes):** load the map, plan a real trip, show both algorithms' exploration pictures, and the GeoJSON route on a real map.
+3. **Demo:** load the map, plan a real trip, show both algorithms' exploration pictures, and the GeoJSON route on a real map.
 
 ## Study-method integration
 

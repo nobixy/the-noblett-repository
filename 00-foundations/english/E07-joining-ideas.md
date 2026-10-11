@@ -1,16 +1,18 @@
 ---
 title: "E07 — Joining Ideas"
-stage: E07
-track: english
-hours: 20
-weeks: 3
+id: "E07"
+type: "lesson"
+module: "00-foundations"
+track: "english"
+stage: "E07"
+phase: "B"
+order: 320
+prerequisites: [E06]
 ---
 
 # E07 — Joining Ideas
 
 **In this stage you will:** learn to join ideas into longer sentences that show how they relate: *and*, *but*, *because*, *if*, *although*, *which*. You will fix run-on sentences and fragments for good, and learn parallel structure for lists and steps. You will start [Terminal Field Notes](projects/terminal-field-notes/spec.md).
-
-**Time:** about 20 hours over 3 weeks.
 
 **Before you start:** E06 done. You know the comma rules, especially Rules 2 and 3.
 
@@ -204,22 +206,22 @@ Example:
 > → The old laptop runs Linux fast.
 > → Although the laptop is old, it runs Linux fast. *(emphasises the surprise)*
 
-Do 5 a day in this stage (Practice Set 2 has a starter set; then make your own from your journal).
+Do 5 per session in this stage (Practice Set 2 has a starter set; then make your own from your journal).
 
 ---
 
-## Part 7 — Practice routine (3 weeks)
+## Part 7 — Practice routine (3 sections)
 
-| Week | Focus |
+| Section | Focus |
 | :-- | :-- |
-| 1 | Mon: clauses and the four sentence types · Tue: compound sentences (FANBOYS, semicolons) · Wed: linking adverbs · Thu–Fri: complex sentences, Practice Set 1 |
-| 2 | Mon: relative clauses · Tue: run-ons · Wed: fragments · Thu: parallel structure · Fri: Practice Set 2 |
-| 3 | Mon–Tue: Practice Set 3 (your own writing) · Wed–Thu: Field Notes Milestone 1 · Fri: self-check |
+| 1 | Session 1: clauses and the four sentence types · Session 2: compound sentences (FANBOYS, semicolons) · Session 3: linking adverbs · Sessions 4–5: complex sentences, Practice Set 1 |
+| 2 | Session 1: relative clauses · Session 2: run-ons · Session 3: fragments · Session 4: parallel structure · Session 5: Practice Set 2 |
+| 3 | Sessions 1–2: Practice Set 3 (your own writing) · Sessions 3–4: Field Notes Milestone 1 · Session 5: self-check |
 
-**Daily:**
+**Every session:**
 - **Warm-up [R]:** write the logic table (cause / condition / time / contrast / purpose) with two joining words each, from memory.
 - **Combine 5 [S]:** five sentence-combining sets. For each, first label the relationship (*cause? contrast? time?*), then choose the joining word.
-- **Spelling (10 min)** and **copywork [C]** (Level 2; move to **Level 3** when ready). In the diff, look at how the author joins ideas. Count their sentence types.
+- **Spelling** and **copywork [C]** (Level 2; move to **Level 3** when ready). In the diff, look at how the author joins ideas. Count their sentence types.
 
 **Study protocols:**
 - **[W]** For every joining word you use, ask: is that the real relationship? "Because" claims a cause. Is it really the cause, or did it just happen at the same time? (This question will save you in debugging too: "it broke after the update" is not the same as "it broke because of the update.")
@@ -305,15 +307,15 @@ Save before and after (`english/joining-before-after.md`). Count changes.
 
 *Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
 
-- **Watch:** Khan Academy Grammar: 'Syntax: conventions of standard English' (run-ons, fragments, parallel structure). *Grammar and Punctuation* (Coursera), the sentence weeks.
-- **Practise:** Sentence combining: 5 a day from your own journal.
+- **Watch:** Khan Academy Grammar: 'Syntax: conventions of standard English' (run-ons, fragments, parallel structure). *Grammar and Punctuation* (Coursera), the sentence modules.
+- **Practise:** Sentence combining: 5 per session from your own journal.
 - **Fun writes this stage** ([prompt bank](writing-prompts.md)): #50 excuses a printer gives · #51 robot butler rules · #56 run-on rescue · #58 code comments that explain why
 
 ---
 
 ## Self-check
 
-1. **[R] Blank sheet (10 min):** independent vs dependent clauses; the four sentence types; FANBOYS vs linking adverbs and their punctuation; the logic table; four fixes for a run-on; what parallel structure is.
+1. **[R] Blank sheet:** independent vs dependent clauses; the four sentence types; FANBOYS vs linking adverbs and their punctuation; the logic table; four fixes for a run-on; what parallel structure is.
 2. **Rewrite this paragraph** so the logic is clear, using at least one cause, one contrast, one condition, and one time word. Fix all run-ons and fragments.
    > The Wi-Fi kept dropping. I moved the router. It still dropped. I checked the logs. There were many errors at night. My neighbor's network uses the same channel. I changed the channel. It works now. Mostly. It drops when the microwave runs.
 3. **Code comments:** write three "why" comments (using *because*, *so that*, or *unless*) for any three lines in your Module 01 code.

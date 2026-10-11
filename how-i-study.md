@@ -1,5 +1,11 @@
+---
+title: "How I Will Study"
+type: hub
+tags: [hub, study-methods]
+---
+
 # How I Will Study: The Deep Learner's Manifesto
-*Last revised: 2026-10-10 (Next scheduled revision: 2027-03-25)* · Home: [[00 - Start Here|Start Here]] · Exact routines: [study-protocols](study-protocols.md)
+*Revised whenever a Decision Record changes the method (latest: [DR-011](<04 - System/DR-011 - Sectioned Curriculum and Frontmatter Schema.md>)).* · Home: [[00 - Start Here|Start Here]] · Exact routines: [study-protocols](study-protocols.md)
 
 > [!QUOTE]
 > "Don't let note-taking become the hobby. Notes exist to support retrieval, synthesis, and building."
@@ -7,14 +13,14 @@
 ---
 
 ## 1. Core Cognitive Learning Principles
-*Every one of these is turned into a short, exact routine with a letter code (R, F, W, S, I, C, D, T) in [study-protocols](study-protocols.md). Every stage, lab, and project in the curriculum uses those codes ([DR-010](<04 - System/DR-010 - Project-First Original Curriculum.md>)).*
+*Every one of these is turned into a short, exact routine with a letter code (R, F, W, S, I, C, D, T, V) in [study-protocols](study-protocols.md). Every stage, lab, and project in the curriculum uses those codes ([DR-010](<04 - System/DR-010 - Project-First Original Curriculum.md>)).*
 
 *Deep dive + a project for every method below and more (spacing, interleaving, dual coding, self-explanation, chunking, deep work, Zettelkasten, three-pass reading, Pólya, mindset): [[LM00 - Learning Methods Hub|Learning Methods Hub]] ([[DR-009 - Learning Method Deep Dives|DR-009]]). There is no such thing as a personal "learning style": [[Learning Styles Myth]].*
 
 ### A. Retrieval Practice (Testing Effect)
 - Reading and highlighting create an **illusion of competence**. They feel fluent because the material is in front of the eyes, not because it is stored in long-term memory.
 - The only reliable way to cement understanding is active retrieval: close the book, shut the notes, and recall or explain the concept from scratch.
-- Use the **Spaced Blank-Sheet Retrieval Protocol** after every study block: 15 minutes of zero-hint memory dump ([[Blank-Sheet Retrieval Template]]).
+- Use the **Blank-Sheet Retrieval Protocol** [R] at the end of every session: a zero-hint memory dump ([[Blank-Sheet Retrieval Template]]).
 - → [[LM02 - Retrieval Practice|LM02 deep dive + project]]
 
 ### B. The Feynman Technique (Radical Simplicity)
@@ -32,12 +38,12 @@
 - → [[LM10 - Worked Examples and Subgoal Labeling|LM10 deep dive + project]]
 
 ### E. Spacing & Interleaving (Desirable Difficulties)
-- Cramming produces zero durable storage strength. Space repetitions over days, weeks, and months.
+- Cramming produces zero durable storage strength. Space repetitions out over growing gaps (the intervals are part of the technique: see LM09).
 - Interleave problem types (never drill 50 identical problems in a row); force the brain to practice *selecting the correct tool*.
 - → [[LM09 - Spacing and Spaced Repetition|LM09 deep dive + project]] · [[LM05 - Interleaving|LM05 deep dive + project]]
 
 ### F. Benjamin Franklin Copywork (For Writing & Grammar)
-- Master English prose by analyzing master passages, outlining them, putting them aside for 3 days, and reconstructing the prose from memory ([[Franklin Copywork Template]]).
+- Master English prose by analyzing master passages, outlining them, putting them aside until a later session, and reconstructing the prose from memory ([[Franklin Copywork Template]]).
 - → [[LM06 - Franklin Copywork|LM06 deep dive + project]]
 
 ### G. Focused vs. Diffuse Mode
@@ -47,29 +53,33 @@
 
 ---
 
-## 2. The Weekly Shape (Part-Time: ~20 Hours/Week)
+## 2. The Session Structure
 
-| Time Block | Focus | Purpose |
-| :--- | :--- | :--- |
-| **Weekday mornings (90 min before work)** | Hardest material | Protected time for proofs, arithmetic first principles, theory, algorithms. Uninterrupted focus. |
-| **Weekday evenings (60 min)** | Lectures, reading, Anki, writing | Lower cognitive overhead: grammar drills, reading companion texts, Anki card review, daily 500 words. |
-| **Saturday (4–6 hrs)** | Build block | Deep continuous flow for systems programming, labs, compilers, CPU verilog, kernels. |
-| **Sunday (2 hrs)** | Review & planning | Problem set wrap-up, weekly review in [[log]], writing, planning next week's schedule. |
+*Summary only. The canonical description is [study-protocols § The session loop](study-protocols.md#the-session-loop); the [README](README.md#the-session-structure) has the same table.* There are no hours, dates or deadlines in this curriculum: it is measured in **sessions** and **sections**.
+
+| Unit | Shape |
+| :--- | :--- |
+| **Session** | Warm-up recall → focused work on one thing → blank-sheet retrieval [R] → log entry. |
+| **Math session** | Hardest material, when I'm freshest: proofs, arithmetic from first principles, algorithms. |
+| **English session** | Stage lesson, spelling, copywork [C], optional fun write. |
+| **Build session** | The next lab session or project milestone: systems programming, circuits, the CPU in Digital, kernels. One build project at a time. |
+| **Section** | A numbered group of sessions, closed by a **Section Review** in [[log]] (flashcards, cold re-do, a spoken recording, plan the next section). |
+| **Minimum session** | Flashcards + one copywork sentence + a two-line log. |
 
 ### 2a. Reading Ramp
-*[[DR-008 - Project-First Start and Projects Ladder|DR-008]], kept by [DR-010](<04 - System/DR-010 - Project-First Original Curriculum.md>): I learn best by building, so the build comes first and reading grows as the habit does.*
+*[[DR-008 - Project-First Start and Projects Ladder|DR-008]] (historical), kept by [DR-010](<04 - System/DR-010 - Project-First Original Curriculum.md>): I learn best by building, so the build comes first and reading grows as the habit does.*
 
-| When | Reading per day | What |
+| When | Reading | What |
 | :--- | :--- | :--- |
-| Weeks 1–4 | 0–15 min, optional | Stage lessons and builds only. If I feel like it: Lockhart, *Arithmetic*, alongside M01–M02. |
-| Weeks 5–12 | 15–20 min | Lockhart with M03–M05; copywork passages count as reading. |
-| From E08 | 20–30 min | Williams, *Style*, as a companion to E08–E10. |
+| Sections 1–4 | optional | Stage lessons and builds only. If I feel like it: Lockhart, *Arithmetic*, alongside M01–M02. |
+| Sections 5–12 | a little, in most sessions | Lockhart with M03–M05; copywork passages count as reading. |
+| From E08 | a little more | Williams, *Style*, as a companion to E08–E10. |
 | Modules 02+ | what the build needs | Each module's `resources.md` lists second explanations. Read the chapter a milestone needs, when it needs it. |
 
-*Rule: if reading feels like a wall two days running, drop back one row for a week. The builds keep going either way.*
+*Rule: if reading feels like a wall two sessions running, drop back one row for a section. The builds keep going either way.*
 
-### 2b. Saturday Build Block
-Every Saturday is the build block: the next milestone of the current project ([Start Here](<00 - Start Here.md>) shows which). Each milestone ends with a Milestone Checkpoint (R + F + W, 30 minutes). Log it in [[log]].
+### 2b. Build Sessions
+Every build session works on the next milestone of the current project ([Start Here](<00 - Start Here.md>) shows which). Each milestone ends with a Milestone Checkpoint (R + F + W). Log it in [[log]].
 
 ---
 
@@ -77,23 +87,23 @@ Every Saturday is the build block: the next milestone of the current project ([S
 
 1. **My own test suites:** every project spec says what to test. Tests must pass cleanly — including the hard kinds: random differential tests against a second implementation, crash tests, and fuzzing.
 2. **"Done when" lists and rubrics:** every stage and project has one. I score myself honestly, and I don't tick a box early.
-3. **Timed, closed-book problem sets:** at each module close (MIT OCW and similar past exams for the math modules). The score is objective signal.
+3. **Closed-book problem sets:** at each module close (MIT OCW and similar past exams for the math modules). The score is objective signal.
 4. **Formal write-ups:** design docs, lab reports, specifications. If the write-up is vague, the understanding is vague.
 5. **Other people:** usability tests of my instructions, reviews of my design docs, strangers' code review, playtesters.
-6. **The Feynman technique / teaching:** recorded explanations, weekly, and an explainer for the hardest idea in each project.
+6. **The Feynman technique / teaching:** recorded explanations, one per section, and an explainer for the hardest idea in each project.
 
 ---
 
-## 4. Time, Honestly
-- The core curriculum (foundations through capstone) is about **2,900 hours**: roughly three years at 20 hours a week, with life happening. See the module table in the [README](README.md#the-sequence).
-- The advanced tracks from the v1 plan (in `99 - Archive/`) come after the core, if I choose them — by Decision Record.
-- Below 15 hours a week, slow down rather than skip foundations; the daily minimum (flashcards + one copywork sentence) keeps the habit alive.
+## 4. Pace, Honestly
+- There is no schedule. I move on when an item's "Done when" list is true, in the order of [Start Here](<00 - Start Here.md>) and each item's `prerequisites`.
+- *Historical:* the advanced tracks from the superseded v1 plan (in `99 - Archive/`) are not part of this curriculum. Taking any of them on after the core would need a new Decision Record.
+- When life gets busy, slow down rather than skip foundations; the minimum session (flashcards + one copywork sentence) keeps the habit alive.
 
 ---
 
 ## 5. Community — Do Not Skip
-- **Recurse Center (`recurse.com`):** Free, self-directed 6- or 12-week retreat (remote or NYC). Highest-value single thing available to a self-taught programmer. Apply after Module 05.
-- **Study Partner:** One person on the same path, weekly video call, screen-share psets. Roughly doubles completion rates.
+- **Recurse Center (`recurse.com`):** Free, self-directed retreat (remote or NYC). Highest-value single thing available to a self-taught programmer. Apply after Module 05.
+- **Study Partner:** One person on the same path, a regular video call, screen-share psets. Roughly doubles completion rates.
 - **Communities:** Papers We Love, OSSU Discord, language Discords (Rust, Zig, Haskell), auditing local university lectures.
 
 ---
@@ -103,19 +113,20 @@ Every Saturday is the build block: the next milestone of the current project ([S
 /  (vault root)
   README.md                    # how the curriculum works
   00 - Start Here.md           # dashboard and checklist
-  how-i-study.md               # this manifesto, revised every 6 months
-  study-protocols.md           # the methods as exact routines (R F W S I C D T)
-  log.md                       # daily log dashboard (entries in 03 - Journal)
-  00-foundations/              # english/ (E01–E10) and math/ (M01–M11), each with projects/
+  how-i-study.md               # this manifesto, revised by Decision Record
+  study-protocols.md           # the methods as exact routines (R F W S I C D T V) and the session loop
+  courses-and-videos.md        # free courses and videos mapped to every stage and module
+  log.md                       # session log dashboard (entries in 03 - Journal)
+  00-foundations/              # first-sections.md; english/ (placement, E01–E10) and math/ (M01–M11), each with projects/
   01-intro-cs-taste/ … 13-capstone/   # one folder per module: overview.md, labs/, projects/<name>/spec.md, resources.md
-  02 - Atlas/                  # learning-method deep dives (LM01–LM16), topic indexes, hubs, book shelf
-  03 - Journal/                # daily log entries (YYYY-MM-DD)
-  04 - System/                 # templates + decision records (DR-001 …)
-  99 - Archive/                # the v1 course-based plan and cut material
+  02 - Atlas/                  # learning-method deep dives (LM00–LM16), topic indexes, hubs, book shelf
+  03 - Journal/                # session log entries (YYYY-MM-DD, from the daily-notes plugin)
+  04 - System/                 # templates, decision records (DR-001 …), Frontmatter Schema
+  99 - Archive/                # historical: the superseded v1 course-based plan and cut material
 ~/workbench/                   # (outside the vault) my code, design docs, lab reports, recordings — one folder per project
 ```
 
-Templates in `04 - System/`: Milestone Checkpoint, Design Doc, Lab Report, Demo Script, Blank-Sheet Retrieval, Feynman Note, Franklin Copywork, Weekly Review, Daily Log.
+Templates in `04 - System/`: Milestone Checkpoint, Design Doc, Lab Report, Demo Script, Blank-Sheet Retrieval, Feynman Note, Franklin Copywork, Section Review, Daily Log (session log). Every curriculum file's frontmatter follows the [Frontmatter Schema](<04 - System/Frontmatter Schema.md>).
 
 ---
 
@@ -129,9 +140,9 @@ Templates in `04 - System/`: Milestone Checkpoint, Design Doc, Lab Report, Demo 
 - **Growth Mindset:** Frame every setback as a stepping stone. Avoid "I am not smart enough"; use "I haven't learned this yet."
 
 #### 2. Habits of Successful People
-- **Time-Blocking:** Protect the calendar. Assign specific tasks to specific blocks of time (Cal Newport's *Deep Work*).
+- **Session-Blocking:** Protect study sessions. Assign one specific task to each session (Cal Newport's *Deep Work*).
 - **The Eisenhower Matrix:** Categorize tasks into Urgent/Important. Ruthlessly eliminate the non-important.
-- **Consistency:** Daily 1% improvements compound over years.
+- **Consistency:** Small improvements every session compound.
 
 *Evidence check: both ideas are weaker than they sound; see [[LM15 - Growth Mindset and Grit|LM15]]. Deep work and Pomodoro: [[LM12 - Deep Work, Time-Blocking and Pomodoro|LM12]].*
 
@@ -147,6 +158,8 @@ Templates in `04 - System/`: Milestone Checkpoint, Design Doc, Lab Report, Demo 
 
 ## 8. Revision History
 
+*Historical record: rows are kept as written at the time, including v1 hours and phases. Links to archived v1 notes are historical.*
+
 | Date | Phase / Block Reached | Major Adjustments Made |
 | :--- | :--- | :--- |
 | 2026-09-25 | Phase -1 (Bedrock Setup) | Added the 8 core cognitive study systems (Feynman, Franklin, Blank-Sheet, Elaborative Interrogation) and Bedrock Math/English. |
@@ -161,3 +174,4 @@ Templates in `04 - System/`: Milestone Checkpoint, Design Doc, Lab Report, Demo 
 | 2026-10-10 | Phase -1 (Bedrock Foundation) | [[DR-008 - Project-First Start and Projects Ladder\|DR-008]]: Build first — Week 1 checklist, 12-week Starter Sprint of fun builds, books become companions on a stated Reading Ramp (§2a), weekly mini-build (§2b), every block has a build, [[Projects Ladder]]. Hours unchanged (6,005). |
 | 2026-10-10 | Phase -1 (Bedrock Foundation) | [[DR-009 - Learning Method Deep Dives\|DR-009]]: 16 learning-method deep dives with honest evidence ratings and a 2–5 h project each, plus a learning-styles myth note; [[LM00 - Learning Methods Hub\|hub]] with suggested order; slotted into the Starter Sprint and Phase 0 as swaps. Hours unchanged (6,005). |
 | 2026-10-10 | Phase A (Foundations) | [DR-010](<04 - System/DR-010 - Project-First Original Curriculum.md>): Curriculum rebuilt project-first with original projects: English E01–E10 and Math M01–M11 from absolute basics, an Intro CS Taste module, Modules 02–13 with original specs; methods made into exact routines ([study-protocols](study-protocols.md)); v1 course-based plan archived. Core ≈ 2,900 h. |
+| 2026-10-10 | Phase A (Foundations) | [DR-011](<04 - System/DR-011 - Sectioned Curriculum and Frontmatter Schema.md>): time removed from the curriculum (sessions and sections instead of hours, weeks and dates); frontmatter schema for the tracker; one canonical session structure; English placement and Lab 00/01 skip checks; ordering conflicts resolved; v1 residue retired from active notes; no job track. |

@@ -1,9 +1,13 @@
 ---
 title: "Project: Truth Engine"
+id: "MOD03-PRJ-truth-engine"
+type: "project"
 module: "03-discrete-math"
-hours: 18
+phase: "B"
+order: 530
+prerequisites: [MOD03-U1, MOD03-U3, MOD02-PRJ-worldfile]
 artifact: "truth: a propositional-logic toolkit — parser, truth tables, equivalence checking, normal forms, brute-force and DPLL satisfiability, and puzzle solvers"
-deliverable: "README + 2-page write-up of puzzle encodings and the brute-force vs DPLL measurements + 4-minute demo"
+deliverable: "README + 2-page write-up of puzzle encodings and the brute-force vs DPLL measurements + short demo"
 ---
 
 # Project: Truth Engine
@@ -11,7 +15,6 @@ deliverable: "README + 2-page write-up of puzzle encodings and the brute-force v
 | | |
 | :-- | :-- |
 | **Module** | 03 Discrete Math |
-| **Time** | About 18 hours |
 | **Prerequisites** | Unit 1 (logic), Unit 3 (induction); [Worldfile](../../../02-programming-fundamentals/projects/worldfile/spec.md)'s condition parser |
 | **You build** | `truth`, a tool that reads logical formulas, prints truth tables, decides whether two formulas mean the same thing, converts formulas to standard forms, and solves **satisfiability** — "is there any way to make this true?" — first by trying everything, then with a much smarter algorithm. Then you use it to solve logic puzzles stated in English |
 | **Deliverable** | README, a short write-up, and a demo |
@@ -144,7 +147,7 @@ It's recursive (Module 02 Lab 01) and you'll prove it correct in your [Proof Jou
 
 1. **README:** every command, the formula language, and examples.
 2. **Write-up (2 pages, E09–E10 level):** how you encoded Sudoku and the scheduling puzzle (one example clause of each kind, explained in English); the brute-force vs DPLL table; the pigeonhole result and your explanation.
-3. **Demo (4 minutes):** an equivalence check with a counterexample, a knights-and-knaves puzzle from English to answer, and DPLL solving Sudoku.
+3. **Demo:** an equivalence check with a counterexample, a knights-and-knaves puzzle from English to answer, and DPLL solving Sudoku.
 
 ## Study-method integration
 

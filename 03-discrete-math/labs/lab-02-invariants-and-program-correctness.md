@@ -1,18 +1,22 @@
 ---
 title: "Lab 02 — Invariants and Program Correctness"
+id: "MOD03-LAB02"
+type: "lab"
 module: "03-discrete-math"
-hours: 6
+phase: "B"
+order: 520
+prerequisites: [MOD03-LAB01]
 ---
 
 # Lab 02 — Invariants and Program Correctness
 
 **Goal:** prove that your own code is correct — loops with **invariants**, recursive functions with **induction** — and turn those proofs into `assert` checks that run while you test.
 
-**Time:** about 6 hours, in three sessions. Do it during Unit 3.
+**Sessions:** three. Do it during Unit 3.
 
 ---
 
-## Session 1 — Induction, briefly (2 hours)
+## Session 1 — Induction, briefly
 
 To prove a statement P(n) for every whole number n ≥ n₀:
 1. **Base case:** prove P(n₀).
@@ -32,7 +36,7 @@ Then P holds for all n ≥ n₀: P(n₀) is true; so P(n₀ + 1) is; so P(n₀ +
 
 ---
 
-## Session 2 — Loop invariants (2 hours)
+## Session 2 — Loop invariants
 
 A **loop invariant** is a statement about the program's variables that is true **every time the loop is about to check its condition**. To prove a loop correct:
 
@@ -87,7 +91,7 @@ Run your tests with these on; remove (or guard) them for speed later. An invaria
 
 ---
 
-## Session 3 — Proving recursive functions (2 hours)
+## Session 3 — Proving recursive functions
 
 For a recursive function, prove correctness by (strong) induction on the size of the input:
 - **Base case:** the function's base case returns the right answer.
@@ -107,5 +111,5 @@ For a recursive function, prove correctness by (strong) induction on the size of
 ## Retrieval and reflection
 
 1. **[R]:** the two parts of induction; the three parts of a loop-invariant proof; how to prove a recursive function correct.
-2. **[F] (spoken, 2 min):** "What is a loop invariant?" using `total`.
+2. **[F] (spoken):** "What is a loop invariant?" using `total`.
 3. **[W]:** a test checks some inputs; a proof covers all of them. Why do we still write tests for code we've proved correct? (Think: can the *code* differ from the algorithm you proved?)

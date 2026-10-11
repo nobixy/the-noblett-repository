@@ -1,6 +1,11 @@
 ---
 title: "11 — Resources"
+id: "MOD11-RES"
+type: "reference"
 module: "11-databases"
+phase: "D"
+order: 1360
+prerequisites: []
 ---
 
 # 11 — Resources

@@ -3,8 +3,6 @@ title: "LM15: Growth Mindset and Grit"
 type: learning-method
 method_id: LM15
 evidence: "Contested; small effects"
-project_hours: 2
-counts_toward: "P1"
 ---
 
 # LM15 — Growth Mindset and Grit
@@ -26,17 +24,17 @@ Honest takeaway: don't expect mindset alone to make you better. Use it to keep g
 
 ## Using it in EECS
 - Read a failing test or a red autograder as information, not a verdict.
-- Compare yourself with your own log from months ago (Appendix E, failure mode 8), not with others.
+- Compare yourself with your own log from many sections ago (Appendix E, failure mode 8), not with others.
 
 ## Common mistakes
 - Praising effort that uses bad strategies.
 - Grinding the same failing approach and calling it grit.
 
 ## 🔨 Project: Then-vs-Now
-A Python script that finds your daily note from 30 days ago and today's, and prints their "what I did" and "stuck on" sections side by side.
-- **Done when:** you ran it once a month for 2 months, and each time wrote one line about what got easier.
-- **Time:** about 2 h, counted inside [[P1 - Learning How to Learn|P1]]'s existing hours (replaces the optional *Ultralearning* skim and the bash-template part of Build 2; the SM-2 app absorbs the Week 9 Leitner app (4 h)).
-- **Level / when:** Beginner Python (files, dates). In P1 (your logs start 2026-09-25, so there is already data).
+A Python script that finds your session log entry from about 20 entries ago and your latest one, and prints their "what I did" and "stuck on" sections side by side.
+- **Done when:** you ran it at 2 Section Reviews, and each time wrote one line about what got easier.
+- **Level:** Beginner Python (files, dates).
+- **Fits with:** No protocol code; the Section Review is where you compare yourself with your own earlier sections.
 
 ## Sources
 - Sisk, Burgoyne, Sun, Butler & Macnamara (2018), "To what extent and under which circumstances are growth mind-sets important to academic achievement?", *Psychological Science* 29(4).

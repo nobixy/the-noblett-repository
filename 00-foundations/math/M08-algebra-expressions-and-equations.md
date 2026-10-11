@@ -1,22 +1,24 @@
 ---
 title: "M08 — Algebra: Expressions and Equations"
-stage: M08
-track: math
-hours: 35
-weeks: 5
+id: "M08"
+type: "lesson"
+module: "00-foundations"
+track: "math"
+stage: "M08"
+phase: "B"
+order: 370
+prerequisites: [M07]
 ---
 
 # M08 — Algebra: Expressions and Equations
 
 **In this stage you will:** use letters to stand for numbers; evaluate and simplify expressions; solve equations by keeping them balanced; rearrange formulas; solve inequalities (and know why the sign flips); and turn word problems into equations. Algebra is arithmetic with the numbers you don't know yet.
 
-**Time:** about 35 hours over 5 weeks.
-
 **Before you start:** M07 done. Negative numbers and order of operations are solid. Fractions (M05) are solid.
 
 ---
 
-## Diagnostic (cold, 25 minutes)
+## Diagnostic (cold)
 
 1. Evaluate 3x² − 2x + 5 when x = −2.
 2. Simplify 4a + 3b − a + 5b.
@@ -242,17 +244,17 @@ Solve exactly like an equation, **with one extra rule:**
 
 ---
 
-## Practice routine (5 weeks)
+## Practice routine (5 sections)
 
-| Week | Focus |
+| Section | Focus |
 | :-- | :-- |
-| 1 | Mon: variables, terms, `=` vs assignment · Tue: evaluating with brackets · Wed–Thu: like terms and expanding · Fri: factoring out + Practice Set 1, items 1–5 |
-| 2 | Mon–Tue: one- and two-step equations · Wed–Thu: variables on both sides, brackets · Fri: fractions in equations |
-| 3 | Mon: special cases · Tue–Wed: rearranging formulas · Thu: inequalities and the flip · Fri: Practice Set 1, items 6–18 |
-| 4 | Mon–Thu: word problems (two a day, all four Pólya steps written) · Fri: Practice Set 1 rest + Set 2 |
-| 5 | Mon–Wed: [Fare Detective](projects/fare-detective/spec.md) Milestones 1–2 · Thu: Feynman · Fri: self-check |
+| 1 | Session 1: variables, terms, `=` vs assignment · Session 2: evaluating with brackets · Sessions 3–4: like terms and expanding · Session 5: factoring out + Practice Set 1, items 1–5 |
+| 2 | Sessions 1–2: one- and two-step equations · Sessions 3–4: variables on both sides, brackets · Session 5: fractions in equations |
+| 3 | Session 1: special cases · Sessions 2–3: rearranging formulas · Session 4: inequalities and the flip · Session 5: Practice Set 1, items 6–18 |
+| 4 | Sessions 1–4: word problems (two per session, all four Pólya steps written) · Session 5: Practice Set 1 rest + Set 2 |
+| 5 | Sessions 1–3: [Fare Detective](projects/fare-detective/spec.md) Milestones 1–2 · Session 4: Feynman · Session 5: self-check |
 
-**Daily warm-up [R]:** write the five equation-solving subgoal labels from memory, then solve one equation and check it.
+**Warm-up [R] (every session):** write the five equation-solving subgoal labels from memory, then solve one equation and check it.
 
 **Key why-questions [W]:**
 1. Why can you only combine like terms?
@@ -325,7 +327,7 @@ Solve exactly like an equation, **with one extra rule:**
 
 ---
 
-## Self-check (cold, 35 minutes)
+## Self-check (cold)
 
 1. Evaluate −x² + 4x when x = −3.
 2. Simplify 3(2a − b) − 2(a − 4b).
@@ -336,7 +338,7 @@ Solve exactly like an equation, **with one extra rule:**
 7. Rearrange v = u + at to find a.
 8. A 600 MB download has 120 MB done and continues at 8 MB/s. How many more seconds until it finishes? (Define a variable; all four steps.)
 9. Three consecutive whole numbers add up to 84. Find them.
-10. **[R] Blank sheet (10 min):** `=` in algebra vs code; like terms and why; the five equation subgoals; the inequality flip and why; the word-problem steps.
+10. **[R] Blank sheet:** `=` in algebra vs code; like terms and why; the five equation subgoals; the inequality flip and why; the word-problem steps.
 
 <details>
 <summary>Answers (self-check)</summary>

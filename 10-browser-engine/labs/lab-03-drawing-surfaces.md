@@ -1,18 +1,22 @@
 ---
 title: "Lab 03 — Drawing Surfaces"
+id: "MOD10-LAB03"
+type: "lab"
 module: "10-browser-engine"
-hours: 6
+phase: "D"
+order: 1280
+prerequisites: [MOD10-LAB02]
 ---
 
 # Lab 03 — Drawing Surfaces
 
 **Goal:** separate *what to draw* from *where it's drawn*, with a **display list** that three backends can paint: the terminal, an SVG file, and an interactive Tk window with scrolling.
 
-**Time:** about 6 hours, in two sessions.
+**Sessions:** two.
 
 ---
 
-## Session 1 — The display list (3 hours)
+## Session 1 — The display list
 
 A **display list** is a flat list of simple drawing commands with absolute coordinates, produced by layout and consumed by painting:
 
@@ -36,7 +40,7 @@ Test: a hand-made display list (a heading, two paragraphs, a coloured box) looks
 
 ---
 
-## Session 2 — Scrolling and hit-testing (3 hours)
+## Session 2 — Scrolling and hit-testing
 
 1. **Scrolling:** a Tk window that paints a long display list with a `scroll_y` offset; mouse wheel and arrow keys change it; only commands intersecting the visible area are drawn (rectangle intersection — Floor Plan and Turtle stretch goal!). Measure painting time for a 10,000-command list with and without culling.
 2. **Hit-testing:** on a mouse click at (x, y + scroll_y), find which display item contains the point (and later, which *link*). Return it and print it.

@@ -7,7 +7,7 @@ tags:
 ---
 
 # Theory & Algorithms Topic Notes
-*Per Appendix B.5: One atomic note per algorithmic paradigm or theoretical reduction.*
+*One atomic note per algorithmic paradigm or theoretical reduction (see [[LM16 - Zettelkasten|Zettelkasten]] and the [[Zettelkasten Atomic Note Template]]).*
 
 ---
 
@@ -17,7 +17,14 @@ tags:
 - **Dynamic Programming:** Subproblems, DAG of subproblems, optimal substructure
 - **Complexity Theory:** Reductions, Turing machines, P vs NP, NP-Completeness, Rice's theorem
 
-## Reference Courses
-- [[B13 - Algorithms I|Algorithms I]] (MIT 6.006)
-- [[B20 - Algorithms II|Algorithms II]] (MIT 6.046J)
-- [[B24 - Theory of Computation|Theory of Computation]] (MIT 18.404J; optional since DR-005)
+## Where this is taught in the curriculum
+- **Proof, induction, invariants, counting, graphs:** [03 Discrete Math](<../03-discrete-math/overview.md>)
+- **Asymptotics, data structures, graph algorithms, dynamic programming:** [05 Data Structures and Algorithms](<../05-data-structures-and-algorithms/overview.md>)
+- Complexity theory (Turing machines, NP-completeness): not part of the core curriculum.
+
+## Reference courses *(historical)*
+*From the superseded v1 plan (see [DR-010](<../04 - System/DR-010 - Project-First Original Curriculum.md>)); listed as outside courses only. They are not part of this curriculum.*
+
+- Algorithms I (MIT 6.006)
+- Algorithms II (MIT 6.046J)
+- Theory of Computation (MIT 18.404J; optional since DR-005)

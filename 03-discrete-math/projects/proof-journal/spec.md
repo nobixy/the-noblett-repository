@@ -1,7 +1,11 @@
 ---
 title: "Project: Proof Journal"
+id: "MOD03-PRJ-proof-journal"
+type: "project"
 module: "03-discrete-math"
-hours: "inside unit hours (about 25)"
+phase: "B"
+order: 560
+prerequisites: []
 artifact: "A journal of 25+ carefully written, reviewed, and revised proofs, with a one-page style guide"
 deliverable: "The journal itself; two proofs explained out loud (recorded); a before/after reflection"
 ---
@@ -11,7 +15,6 @@ deliverable: "The journal itself; two proofs explained out loud (recorded); a be
 | | |
 | :-- | :-- |
 | **Module** | 03 Discrete Math (runs through Units 2–8) |
-| **Time** | About 25 hours, counted inside the unit hours |
 | **You build** | A journal of proofs: each one written carefully, reviewed against a checklist, revised after a cooling-off period, and some explained out loud. By the end you have a personal reference of 25+ results you truly understand, and a style you've developed yourself |
 | **Deliverable** | The journal, two recorded explanations, and a reflection |
 
@@ -41,7 +44,7 @@ Each entry:
 
 **Scratch** (how I found it — keep this messy and honest):
 - tried examples (1071, 462) …
-- stuck on why the remainder keeps common divisors; wrote stuck note; next day: "anything dividing a and b divides a − qb" …
+- stuck on why the remainder keeps common divisors; wrote stuck note; next session: "anything dividing a and b divides a − qb" …
 
 **Proof.** …  ∎
 
@@ -90,32 +93,32 @@ Plus at least five of your own choosing: from MCS or BoP exercises, from Lab 02,
 2. **Explore:** try examples. Try to break it. Draw pictures. (Scratch section.)
 3. **Choose a method:** direct, contrapositive, contradiction, cases, induction, bijection. Say why [W].
 4. **Draft the proof** in full sentences following the [Lab 01 style rules](../../labs/lab-01-proof-writing-workshop.md).
-5. **Cool off [D]:** at least one day.
+5. **Cool off [D]:** until a later session.
 6. **Review with the checklist.** Is every step justified? Is every case covered? Is every variable introduced?
 7. **Revise.** Keep the old version (git keeps it anyway); write one sentence on what you changed.
-8. **Recall later [R]:** one week later, close the journal and rewrite the proof from a blank page. Compare. Mark P-entries you could reproduce with ★.
+8. **Recall later [R]:** at least one section later, close the journal and rewrite the proof from a blank page. Compare. Mark P-entries you could reproduce with ★.
 
-**Stuck [D]:** write the stuck note in the scratch section, walk away, return. If stuck after three sessions, read *only the first line* of a published proof (the method), and try again. Read the whole published proof only after a fourth attempt — then close it and write your own version the next day.
+**Stuck [D]:** write the stuck note in the scratch section, walk away, return. If stuck after three sessions, read *only the first line* of a published proof (the method), and try again. Read the whole published proof only after a fourth attempt — then close it and write your own version in the next session.
 
 ---
 
 ## Milestones
 
-| Milestone | When | Done when |
+| Milestone | After | Done when |
 | :-- | :-- | :-- |
 | **1** | end of U2 | P01–P05 written, reviewed, revised; your first **style guide** draft (one page: the rules you've found matter most) |
-| **2** | end of U3 | P06–P09 done; P04 rewritten from memory one week later |
+| **2** | end of U3 | P06–P09 done; P04 rewritten from memory at least one section later |
 | **3** | end of U5 | P10–P15 done (P13–P15 shared with [Toy Cipher](../toy-cipher/spec.md)) |
 | **4** | end of U7 | P16–P20 and your five extra proofs done |
 | **5** | module close | ★ recall test on 10 random proofs; two recordings; reflection |
 
 ### Recordings [F] [T]
 
-Choose two proofs (one short, one long). Record yourself explaining each **from a blank page or whiteboard**, as if teaching a friend: what the claim says, why it's believable, the key idea, then the steps. 3–5 minutes each. Listen back. Note one improvement.
+Choose two proofs (one short, one long). Record yourself explaining each **from a blank page or whiteboard**, as if teaching a friend: what the claim says, why it's believable, the key idea, then the steps. Keep each one short. Listen back. Note one improvement.
 
 ### Getting feedback
 
-- A study partner who's also learning proofs is ideal: swap two proofs a week and review each other with the checklist.
+- A study partner who's also learning proofs is ideal: swap two proofs per section and review each other with the checklist.
 - Online communities that check proofs are helpful (for example, Math StackExchange's "proof-verification" tag). Post **your** proof and ask a specific question ("Is my induction step justified?"). Follow the community's rules.
 - An AI assistant can review a *finished* proof for gaps (README rules: treat comments as questions; don't let it write proofs for you).
 
@@ -140,7 +143,7 @@ Choose two proofs (one short, one long). Record yourself explaining each **from 
 
 | Protocol | Where |
 | :-- | :-- |
-| **R** | Week-later rewrites from a blank page; ★ recall test |
+| **R** | Section-later rewrites from a blank page; ★ recall test |
 | **F** | Recorded explanations |
 | **W** | Choosing a method and saying why; every definition questioned |
 | **S** | Templates from Lab 01 as subgoal labels |

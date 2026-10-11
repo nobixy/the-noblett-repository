@@ -1,8 +1,13 @@
 ---
 title: "Project: Growth and Halving Lab"
-track: math
+id: "FND-MA-PRJ-growth-and-halving-lab"
+type: "project"
+module: "00-foundations"
+track: "math"
+phase: "C"
+order: 750
+prerequisites: [M10, MOD01-LAB01]
 stages: "M11"
-hours: 14
 artifact: "Paper experiments; search.py and growth.py with measured tables and log-scale plots"
 deliverable: "Lab report: how fast do different algorithms grow, and does log₂ n really describe binary search?"
 ---
@@ -11,8 +16,6 @@ deliverable: "Lab report: how fast do different algorithms grow, and does log₂
 
 | | |
 | :-- | :-- |
-| **When** | M11, week 5 |
-| **Time** | About 14 hours |
 | **You build** | Experiments — on paper, with coins, and in code — that test the growth laws of M11 against reality: binary search vs linear search, n² vs 2ⁿ, halving processes |
 | **Deliverable** | A lab report with log-scale plots |
 

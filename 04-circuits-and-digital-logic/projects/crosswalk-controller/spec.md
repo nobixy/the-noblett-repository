@@ -1,9 +1,13 @@
 ---
 title: "Project: Crosswalk Controller"
+id: "MOD04-PRJ-crosswalk-controller"
+type: "project"
 module: "04-circuits-and-digital-logic"
-hours: 26
+phase: "B"
+order: 640
+prerequisites: [MOD04-LAB04, MOD04-PRJ-gatesmith, MOD03-U1]
 artifact: "One finite-state machine, three implementations that must agree: a Python model with property tests, a Gatesmith gate-level design, and a running Pico with real LEDs and a button"
-deliverable: "Design note with state diagram and safety invariants + 4-minute demo with the real hardware + short verification report"
+deliverable: "Design note with state diagram and safety invariants + short demo with the real hardware + short verification report"
 ---
 
 # Project: Crosswalk Controller
@@ -11,7 +15,6 @@ deliverable: "Design note with state diagram and safety invariants + 4-minute de
 | | |
 | :-- | :-- |
 | **Module** | 04 Circuits and Digital Logic |
-| **Time** | About 26 hours |
 | **Prerequisites** | Lab 04 (Pico); [Gatesmith](../gatesmith/spec.md) Milestone 4 (flip-flops); Module 03 Unit 1 (logic) |
 | **You build** | The controller for a pedestrian crossing: car lights, a WALK signal, and a request button. You design it as a **finite-state machine**, state its **safety rules**, and implement it three ways — as a Python model that is tested against thousands of random event sequences, as a gate-level circuit in Gatesmith, and on a real Pico with LEDs — and show all three behave identically |
 | **Deliverable** | Design note, demo, and a short verification report |
@@ -130,7 +133,7 @@ Now build it as hardware.
 
 1. **Design note** (2 pages) with the state diagram (Mermaid), the transition table, the invariants, and the encoding comparison.
 2. **Verification report** (1 page, E10 level): how you checked the design (scenarios, 10,000 random runs, planted bugs caught, equivalence with Gatesmith, real-log checking) — and what you'd still worry about if this controlled a real road.
-3. **Demo (4 minutes):** the Pico running a full cycle with the button, the GTKWave trace, and the random tester catching a planted bug.
+3. **Demo:** the Pico running a full cycle with the button, the GTKWave trace, and the random tester catching a planted bug.
 
 ## Study-method integration
 

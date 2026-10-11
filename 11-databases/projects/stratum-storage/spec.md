@@ -1,9 +1,13 @@
 ---
 title: "Project: Stratum Storage"
+id: "MOD11-PRJ-stratum-storage"
+type: "project"
 module: "11-databases"
-hours: 70
+phase: "D"
+order: 1340
+prerequisites: [MOD11-LAB02, MOD07-PRJ-crate, MOD06-PRJ-cache-sim]
 artifact: "The storage half of Stratum: a page file format, slotted pages with variable-length records, a buffer pool with LRU and CLOCK, heap files, a catalog, and a B+tree index with search, inserts with splits, deletes, range scans, and an invariant checker — benchmarked against SQLite"
-deliverable: "STRATUM_FORMAT.md (on-disk spec) + design doc + benchmark report + 4-minute demo with a B+tree visualisation"
+deliverable: "STRATUM_FORMAT.md (on-disk spec) + design doc + benchmark report + short demo with a B+tree visualisation"
 ---
 
 # Project: Stratum Storage
@@ -11,7 +15,6 @@ deliverable: "STRATUM_FORMAT.md (on-disk spec) + design doc + benchmark report +
 | | |
 | :-- | :-- |
 | **Module** | 11 Databases |
-| **Time** | About 70 hours |
 | **Prerequisites** | Labs 01–02 of this module; Crate (binary formats); Cache Simulator (replacement policies); Module 05 (trees, hash maps) |
 | **Language** | Python recommended (C allowed) |
 | **You build** | The storage engine of **Stratum**, your database: a single file divided into fixed-size **pages**; **slotted pages** that pack variable-length rows; a **buffer pool** that keeps hot pages in memory and decides which to evict; **heap files** for tables; a **catalog** describing tables and indexes; and a **B+tree** index — the data structure inside nearly every database — with an invariant checker and a visualiser |
@@ -113,7 +116,7 @@ Against SQLite (via Python's `sqlite3`, with a matching table and index, `journa
 1. **`STRATUM_FORMAT.md`** — the on-disk specification.
 2. **Design doc** v1 → v2.
 3. **Benchmark report** (2 pages): results vs SQLite, profiles, buffer-pool hit rates, the flooding experiment.
-4. **Demo (4 minutes):** insert a million keys while the visualiser shows the tree's height growing; a range scan; reopen and query.
+4. **Demo:** insert a million keys while the visualiser shows the tree's height growing; a range scan; reopen and query.
 
 ## Study-method integration
 

@@ -3,8 +3,6 @@ title: "LM01: Feynman Technique"
 type: learning-method
 method_id: LM01
 evidence: "Not tested directly; built on stronger effects (moderate)"
-project_hours: 2
-counts_toward: "B0"
 ---
 
 # LM01 — Feynman Technique
@@ -30,11 +28,11 @@ Nobody has run a controlled study of "the Feynman Technique" by name. It is a bu
 - Keeping the jargon and calling it "simple".
 - Stopping at a nice analogy that is wrong. Check it against the textbook or the code.
 
-## 🔨 Project: Explain-It: a video or post about your Week 1 build
-Record a 3–5 minute screen video (OBS Studio, free) or write a 600-word post explaining how your Scratch quiz game keeps score, for a 12-year-old. Keep a "jargon jail" list of every technical word you had to replace and what you replaced it with.
+## 🔨 Project: Explain-It: a video or post about one of your builds
+Record a short screen video (OBS Studio, free) or write a 600-word post explaining how one of your projects works (for example, how Nib runs a program), for a 12-year-old. Keep a "jargon jail" list of every technical word you had to replace and what you replaced it with.
 - **Done when:** someone who doesn't program watches or reads it and explains it back correctly, and the jargon jail has at least 5 words.
-- **Time:** about 2 h, counted inside [[B0 - The Deep Learner's Toolkit|B0]]'s existing hours (replaces reading the long *8 Core Cognitive Study Systems* section front to back; the deep dives are that reading, done project-first).
-- **Level / when:** No code. Week 1 (it grows the Day 5 Feynman note).
+- **Level:** No code.
+- **Fits with:** Protocol **F** (Feynman pass) in [study-protocols](<../study-protocols.md>); part of every Milestone Checkpoint (R + F + W).
 
 ## Sources
 - Feynman, *Surely You're Joking, Mr. Feynman!* (1985), for the spirit of it.

@@ -1,18 +1,22 @@
 ---
 title: "Lab 03 — Pipelines and Hazards on Paper"
+id: "MOD06-LAB03"
+type: "lab"
 module: "06-computer-architecture"
-hours: 8
+phase: "C"
+order: 930
+prerequisites: [MOD06-LAB02]
 ---
 
 # Lab 03 — Pipelines and Hazards on Paper
 
 **Goal:** understand how real processors overlap instructions (**pipelining**), what goes wrong (**hazards**), and how hardware fixes it (**forwarding, stalls, branch prediction**) — on paper, then with a branch-predictor simulator driven by your own Kestrel traces.
 
-**Time:** about 8 hours, in three sessions.
+**Sessions:** three.
 
 ---
 
-## Session 1 — The idea of a pipeline (2 hours)
+## Session 1 — The idea of a pipeline
 
 **Laundry analogy:** washing takes 30 min, drying 40, folding 20. One load at a time: 90 minutes per load. But you can start washing load 2 while load 1 dries. Once the pipeline is full, a load finishes every 40 minutes (the slowest stage). Each load still takes 90 minutes — **latency** is the same — but **throughput** is much higher.
 
@@ -41,7 +45,7 @@ Ideally, CPI → 1, and the clock period is the slowest **stage**, not the whole
 
 ---
 
-## Session 2 — Hazards (3 hours)
+## Session 2 — Hazards
 
 ### Data hazards
 
@@ -89,7 +93,7 @@ A branch isn't resolved until EX. By then, the next two instructions are already
 
 ---
 
-## Session 3 — Simulate branch prediction on your traces (3 hours)
+## Session 3 — Simulate branch prediction on your traces
 
 Add to your Kestrel emulator a **branch trace**: for every BR, its address, whether it was taken, and its target.
 
@@ -115,5 +119,5 @@ $$CPI \approx 1 + (\text{branches per instruction}) \times (\text{misprediction 
 ## Retrieval and reflection
 
 1. **[R]:** the five stages; data hazard, load-use hazard, control hazard; forwarding vs stalling; the 2-bit predictor FSM.
-2. **[F] (spoken, 2 min):** "What is pipelining, and why does a load followed by its use still cost a cycle?"
+2. **[F] (spoken):** "What is pipelining, and why does a load followed by its use still cost a cycle?"
 3. Add a paragraph on pipelining to your [Kestrel Datapath](../projects/kestrel-datapath/spec.md) performance report.

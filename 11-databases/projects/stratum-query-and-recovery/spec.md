@@ -1,9 +1,13 @@
 ---
 title: "Project: Stratum Query and Recovery"
+id: "MOD11-PRJ-stratum-query-and-recovery"
+type: "project"
 module: "11-databases"
-hours: 80
+phase: "D"
+order: 1350
+prerequisites: [MOD11-PRJ-stratum-storage, MOD06-PRJ-ember-compiler]
 artifact: "The upper half of Stratum: a write-ahead log with transactions and crash recovery proven under thousands of injected crashes; StratumQL (a SQL subset) with a parser, a planner that chooses index scans and join methods, an iterator executor, EXPLAIN, and a REPL — differentially tested against SQLite"
-deliverable: "Design doc + recovery testing report + StratumQL reference + query-engine test report + 5-minute demo"
+deliverable: "Design doc + recovery testing report + StratumQL reference + query-engine test report + short demo"
 ---
 
 # Project: Stratum Query and Recovery
@@ -11,7 +15,6 @@ deliverable: "Design doc + recovery testing report + StratumQL reference + query
 | | |
 | :-- | :-- |
 | **Module** | 11 Databases |
-| **Time** | About 80 hours |
 | **Prerequisites** | [Stratum Storage](../stratum-storage/spec.md); Lab 02 (fault injection); Ember (parsers and interpreters); Lab 01 (SQL and operator trees) |
 | **You build** | The two things that make storage a database. **Recovery:** transactions that are all-or-nothing and durable, using a write-ahead log, tested by crashing the engine thousands of times at random moments. **Queries:** StratumQL, a small SQL, with a parser, a planner that decides how to run each query (and uses your B+tree when it helps), an executor that streams rows through a tree of operators, and `EXPLAIN` to show the plan — checked against SQLite on thousands of random queries |
 | **Deliverable** | Design doc, two test reports, a language reference, and a demo |
@@ -147,7 +150,7 @@ Each operator has `open()`, `next() → row or None`, `close()`. Operators:
 2. **Recovery testing report** (2 pages): the harness, crash counts, failures found and fixed, the steal/undo results if done.
 3. **`STRATUMQL.md`** — the language reference, including NULL semantics and differences from SQLite.
 4. **Query-engine test report** (2 pages): differential testing, planner choices vs measurements, your-data comparison.
-5. **Demo (5 minutes):** the REPL on your study data, EXPLAIN showing an index plan, then a crash-and-recover run with a live count of verified crashes.
+5. **Demo:** the REPL on your study data, EXPLAIN showing an index plan, then a crash-and-recover run with a live count of verified crashes.
 
 ## Study-method integration
 

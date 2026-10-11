@@ -1,9 +1,13 @@
 ---
 title: "Capstone: The Whole Stack"
+id: "MOD13-PRJ-the-whole-stack"
+type: "project"
 module: "13-capstone"
-hours: 250
+phase: "E"
+order: 1380
+prerequisites: []
 artifact: "An integrated system built from at least three of your earlier projects (Path A, B, or C), with end-to-end tests, failure injection, a performance evaluation, and a security review"
-deliverable: "Proposal (design doc) + review notes + final report (5,000–8,000 words) + 15-minute recorded talk + outside review and response"
+deliverable: "Proposal (design doc) + review notes + final report (5,000–8,000 words) + recorded talk + outside review and response"
 ---
 
 # Capstone: The Whole Stack
@@ -11,7 +15,6 @@ deliverable: "Proposal (design doc) + review notes + final report (5,000–8,000
 | | |
 | :-- | :-- |
 | **Module** | 13 Capstone |
-| **Time** | About 250 hours (~20 weeks) |
 | **You build** | One of the three integrated systems in the [capstone overview](../../overview.md#choose-one-path) — or a system of your own design that meets every requirement below (write a Decision Record to choose it) |
 | **Deliverable** | Proposal, review notes, final report, recorded talk, outside review with your response |
 
@@ -35,24 +38,24 @@ Real engineering is rarely "build a component from a spec." It's making componen
 
 ---
 
-## Phase 1 — Proposal and design review (weeks 1–3)
+## Phase 1 — Proposal and design review (sections 1–3)
 
 **The proposal** is a design doc (6–10 pages, [template](<../../../04 - System/Design Doc Template.md>)) plus:
 - **Goals and non-goals**, with the measurable success criteria.
 - **Architecture:** a diagram of every component and every interface; for each interface, its format or protocol and which document specifies it.
 - **What changes in each earlier project**, and why.
 - **Alternatives considered** (at least three decisions).
-- **Risk register:** at least eight risks (technical, time, knowledge), each with likelihood, impact, an early warning sign, and a mitigation. ("Courier too slow for page loads" — sign: < 1 MB/s in week 2 — mitigation: fall back to TCP for images.)
-- **Milestone plan:** 2-week increments, each ending with something demonstrably working and an end-to-end test proving it.
+- **Risk register:** at least eight risks (technical, time, knowledge), each with likelihood, impact, an early warning sign, and a mitigation. ("Courier too slow for page loads" — sign: < 1 MB/s in section 2 — mitigation: fall back to TCP for images.)
+- **Milestone plan:** increments of about two sections each, each ending with something demonstrably working and an end-to-end test proving it.
 - **Test, failure, performance, and security plans.**
 
 **Design review:** get at least one reviewer (study partner, mentor, online community — E10 Part 6). Ask specific questions. Record every comment and your decision (accept / clarify / decline with reason). Revise to v2.
 
 **Done when:** v2 is committed with review notes.
 
-## Phase 2 — Integration milestones (weeks 4–17)
+## Phase 2 — Integration milestones (sections 4–17)
 
-Every two weeks:
+Every two sections:
 1. A **working increment** (something more works end to end than before).
 2. The **end-to-end test** for it, added to the one-command suite.
 3. A **Milestone Checkpoint** ([template](<../../../04 - System/Milestone Checkpoint Template.md>)) plus a one-paragraph **status note**: done, not done, risks that changed, scope decisions.
@@ -85,14 +88,14 @@ Every two weeks:
 4. Time synchronisation and clock drift handling (the Pico has no battery clock — how do readings get correct timestamps?).
 5. A week-long field run with planned failures (unplug the router for an hour; pull power at random), with Chance Lab statistics on data completeness and latency.
 
-## Phase 3 — Hardening (weeks 18–20)
+## Phase 3 — Hardening (sections 18–20)
 
 1. **Failure injection campaign** for every failure type in your plan; results tabulated.
 2. **Performance evaluation** against the success criteria and the baseline, with intervals.
 3. **Security review:** threat model; tests of defences (e.g. path traversal against Lantern; malformed CP/1 packets; hostile Ember programs against Seedling's syscalls); known gaps listed honestly.
 4. **Usability test** of your README with one person.
 
-## Phase 4 — Communication (weeks 21–23)
+## Phase 4 — Communication (sections 21–23)
 
 ### Final report (5,000–8,000 words)
 
@@ -110,7 +113,7 @@ Structure (E10):
 
 Revise it at least twice, with a cooling-off period before each revision [D]. Use the E08 checklist. Run spell checking last; log every caught word in your spelling log one final time.
 
-### The talk (15 minutes, recorded)
+### The talk (short, recorded)
 
 Slides (simple ones: diagrams and plots, few words) and a script (E10 Part 5): the problem, a live demo, the architecture in one diagram, the hardest problem, the evaluation, what you learned. Rehearse three times. Record. Watch it once and note three improvements; re-record if you want — or don't; one good take is enough.
 
@@ -131,7 +134,7 @@ Send the report (or the talk) to at least one outside reviewer: a working engine
 | Evaluation | Goals vs results with intervals and a baseline | Results only | Missing |
 | Security | Threat model, tested defences, honest gaps | Model only | Missing |
 | Report | 5,000–8,000 words, structured, revised twice | Complete | Draft |
-| Talk | 15 minutes, live demo, clear | Recorded | Missing |
+| Talk | Focused, live demo, clear | Recorded | Missing |
 | Outside review | Reviewed, response written | Reviewed | None |
 
 **Done when:** every area at least 2; Testing, Report, and Outside review at 3.

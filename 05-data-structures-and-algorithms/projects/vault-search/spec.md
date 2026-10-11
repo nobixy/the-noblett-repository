@@ -1,9 +1,13 @@
 ---
 title: "Project: Vault Search"
+id: "MOD05-PRJ-vault-search"
+type: "project"
 module: "05-data-structures-and-algorithms"
-hours: 45
+phase: "C"
+order: 810
+prerequisites: [MOD05-LAB03]
 artifact: "vs: a full-text search engine for your own notes — your own hash table, an on-disk inverted index with positions, Boolean and phrase queries, TF-IDF ranking, trie autocomplete with spelling correction, and an evaluation with relevance judgements"
-deliverable: "Design doc + evaluation report (precision@5, timings) + 5-minute demo"
+deliverable: "Design doc + evaluation report (precision@5, timings) + short demo"
 ---
 
 # Project: Vault Search
@@ -11,7 +15,6 @@ deliverable: "Design doc + evaluation report (precision@5, timings) + 5-minute d
 | | |
 | :-- | :-- |
 | **Module** | 05 Data Structures and Algorithms |
-| **Time** | About 45 hours |
 | **Prerequisites** | Labs 01–03; Module 03's [Counting Verifier](../../../03-discrete-math/projects/counting-verifier/spec.md) (birthday bound) helpful |
 | **You build** | `vs`, a search engine for this vault and your workbench: thousands of Markdown notes, specs, and journal entries. You write the tokenizer, your own hash table (no `dict` for the index), an inverted index stored on disk, queries with AND/OR/NOT and exact phrases, relevance ranking, autocomplete with a trie, "did you mean…?" spelling suggestions, and an evaluation that measures how good your results are |
 | **Deliverable** | Design doc, evaluation report, and demo |
@@ -118,7 +121,7 @@ How good is your search? Measure it the way search engineers do.
 
 1. **Design doc** v1 → v2 with section 8 completed.
 2. **Evaluation report** (2 pages, E10): goals vs results, precision@5 per configuration, timings, the index-vs-grep comparison, and the probe-length experiment.
-3. **Demo (5 minutes):** Boolean, phrase, ranked, and misspelled queries on your real vault; autocomplete; the evaluation table.
+3. **Demo:** Boolean, phrase, ranked, and misspelled queries on your real vault; autocomplete; the evaluation table.
 
 ## Study-method integration
 

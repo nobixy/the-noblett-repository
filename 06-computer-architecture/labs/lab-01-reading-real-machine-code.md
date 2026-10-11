@@ -1,18 +1,22 @@
 ---
 title: "Lab 01 — Reading Real Machine Code"
+id: "MOD06-LAB01"
+type: "lab"
 module: "06-computer-architecture"
-hours: 6
+phase: "C"
+order: 910
+prerequisites: []
 ---
 
 # Lab 01 — Reading Real Machine Code
 
 **Goal:** see what a real compiler produces for a real processor (x86-64, the one in most laptops — or ARM64 if that's your machine), and recognise the ideas you'll design into Kestrel: registers, loads and stores, compares and branches, calls, returns, and stack frames.
 
-**Time:** about 6 hours, in two sessions. You don't need to know C yet; the examples are small and explained.
+**Sessions:** two. You don't need to know C yet; the examples are small and explained.
 
 ---
 
-## Session 1 — Compiler Explorer (3 hours)
+## Session 1 — Compiler Explorer
 
 **Compiler Explorer** (godbolt.org) shows source code on the left and the compiler's assembly on the right, colour-matched line by line. Choose **C** and the compiler **x86-64 gcc** (latest).
 
@@ -61,7 +65,7 @@ At `-O1`, find: the comparison and early return, the **`push`** instructions sav
 
 ---
 
-## Session 2 — On your own machine (3 hours)
+## Session 2 — On your own machine
 
 ### Compile and disassemble locally
 
@@ -99,7 +103,7 @@ gdb ./fib
 (gdb) continue
 ```
 
-Watch `rsp` (the stack pointer) go down as calls nest and up as they return. `bt` shows the frames — Module 07 uses gdb daily.
+Watch `rsp` (the stack pointer) go down as calls nest and up as they return. `bt` shows the frames — Module 07 uses gdb constantly.
 
 ---
 
@@ -112,7 +116,7 @@ Watch `rsp` (the stack pointer) go down as calls nest and up as they return. `bt
 ## Retrieval and reflection
 
 1. **[R]:** the x86-64 argument and return registers; what `call` and `ret` do with the stack; what callee-saved means.
-2. **[F] (spoken, 2 min):** "What does a compiler turn a function call into?"
+2. **[F] (spoken):** "What does a compiler turn a function call into?"
 3. **[W]:** list three design decisions in x86-64 you'd copy for Kestrel, and three you wouldn't — with reasons. Use them in your ISA manual's rationale section.
 
 **Next:** [Kestrel ISA](../projects/kestrel-isa/spec.md).

@@ -1,7 +1,12 @@
 ---
 title: "10 — Browser Engine"
+id: "MOD10"
+type: "overview"
 module: "10-browser-engine"
-hours: 160
+phase: "D"
+order: 1250
+prerequisites: [MOD09, MOD05, MOD02, MOD06-PRJ-ember-compiler, M10, FND-MA-PRJ-floor-plan-and-turtle, E10]
+checkpoints: [MOD10-CLOSE]
 tags: [module, browser, parsing, layout]
 ---
 
@@ -33,15 +38,12 @@ By the end you will be able to:
 
 ## Sequence and time
 
-| Order | Item | Hours | Concepts |
-| :-- | :-- | --: | :-- |
-| 1 | [Lab 01 — Reading a Web Standard](labs/lab-01-reading-a-web-standard.md) | 8 | three-pass reading of specs; tokenization; the box model; specificity by hand |
-| 2 | [Lab 02 — Text, Unicode, and Fonts](labs/lab-02-text-unicode-and-fonts.md) | 8 | code points, UTF-8, font metrics, line breaking |
-| 3 | [Lab 03 — Drawing Surfaces](labs/lab-03-drawing-surfaces.md) | 6 | Tk canvas, SVG, coordinates, display lists, scrolling |
-| 4 | **[Glimpse](projects/glimpse/spec.md)** | 140 | the whole engine, in eight milestones |
-| | **Total** | **~162** | |
-
-About 12 hours a week → 13–14 weeks.
+| Order | Item | Concepts |
+| :-- | :-- | :-- |
+| 1 | [Lab 01 — Reading a Web Standard](labs/lab-01-reading-a-web-standard.md) | three-pass reading of specs; tokenization; the box model; specificity by hand |
+| 2 | [Lab 02 — Text, Unicode, and Fonts](labs/lab-02-text-unicode-and-fonts.md) | code points, UTF-8, font metrics, line breaking |
+| 3 | [Lab 03 — Drawing Surfaces](labs/lab-03-drawing-surfaces.md) | Tk canvas, SVG, coordinates, display lists, scrolling |
+| 4 | **[Glimpse](projects/glimpse/spec.md)** | the whole engine, in eight milestones |
 
 ## The engine's pipeline
 
@@ -77,9 +79,11 @@ Every arrow is a separately testable stage — the parse/render split from Pagel
 
 ## Module close
 
-1. **Cumulative retrieval [R] (60 min):** the whole pipeline, with one example traced through every stage on paper.
+1. **Cumulative retrieval [R]:** the whole pipeline, with one example traced through every stage on paper.
 2. **Rewrite [Explain-a-System](../00-foundations/english/projects/explain-a-system/spec.md) explainer 4** a second time, now from the browser's side.
-3. **Showcase [T]:** a 6-minute demo browsing your vault (served by Lantern as HTML) and two real, simple websites.
+3. **Showcase [T]:** a short demo browsing your vault (served by Lantern as HTML) and two real, simple websites.
 4. Tick the module in [Start Here](<../00 - Start Here.md>).
+
+**Resources:** books, docs, and tools for this module are in [resources.md](resources.md) (pointers only — the projects are the course).
 
 **Next:** [11 Databases](../11-databases/overview.md) (if not already done), then [13 Capstone](../13-capstone/overview.md).

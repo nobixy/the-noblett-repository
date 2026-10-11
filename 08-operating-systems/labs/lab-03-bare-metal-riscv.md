@@ -1,18 +1,25 @@
 ---
 title: "Lab 03 — Bare-Metal RISC-V"
+id: "MOD08-LAB03"
+type: "lab"
 module: "08-operating-systems"
-hours: 10
+phase: "D"
+order: 1110
+prerequisites: [MOD08-LAB02]
 ---
 
 # Lab 03 — Bare-Metal RISC-V
 
 **Goal:** run code with **no operating system at all** on an emulated 64-bit RISC-V machine: cross-compile, write a linker script, boot through OpenSBI, print to the UART, and step through it with GDB. This is the launch pad for Seedling.
 
-**Time:** about 10 hours, in three sessions.
+**Sessions:** three.
+
+> [!warning] Untested: this code has not been run yet
+> The commands, linker script, and code in this lab were written but **have not been run** on a real toolchain/QEMU setup. Expect typos, wrong flags, or wrong addresses. Treat every listing as a draft: if something fails, check the toolchain's and QEMU's own documentation, fix it, and note the fix in your log (and in this file).
 
 ---
 
-## Session 1 — The toolchain and the machine (3 hours)
+## Session 1 — The toolchain and the machine
 
 ### Install
 
@@ -39,7 +46,7 @@ Skim the **RISC-V Instruction Set Manual, Volume I** chapter "RV32I Base Integer
 
 ---
 
-## Session 2 — Hello from nothing (4 hours)
+## Session 2 — Hello from nothing
 
 ### The entry point (assembly)
 
@@ -119,7 +126,7 @@ Put the commands in a `Makefile` with `make run`.
 
 ---
 
-## Session 3 — GDB on bare metal (3 hours)
+## Session 3 — GDB on bare metal
 
 Start QEMU paused, waiting for a debugger:
 
@@ -152,7 +159,7 @@ riscv64-elf-gdb kernel.elf -ex "target remote :1234"
 ## Retrieval and reflection
 
 1. **[R]:** the `virt` memory map (RAM base, UART, kernel load address); what OpenSBI does; what the linker script and `entry.S` each do; the UART polling loop.
-2. **[F] (spoken, 2 min):** "What happens between pressing Enter on the QEMU command and seeing your message?"
+2. **[F] (spoken):** "What happens between pressing Enter on the QEMU command and seeing your message?"
 3. **[W]:** compare with Kestrel: where does each keep its I/O devices, and how does each start running a program?
 
 **Next:** [Seedling Kernel](../projects/seedling-kernel/spec.md).

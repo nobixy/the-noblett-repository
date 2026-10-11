@@ -1,9 +1,13 @@
 ---
 title: "Project: Courier"
+id: "MOD09-PRJ-courier"
+type: "project"
 module: "09-networking"
-hours: 90
+phase: "D"
+order: 1210
+prerequisites: [MOD09-LAB03, MOD01-PRJ-relay-chat, MOD07-PRJ-crate]
 artifact: "Courier (CP/1): a message-oriented reliable transport protocol over UDP — your RFC-style specification, a library implementation with cookie handshake, sliding windows, selective acknowledgments, adaptive retransmission timeouts, flow control, AIMD congestion control, keepalive and teardown — plus Gremlin 2 (an impairment proxy), a file-transfer tool, and a measurement campaign"
-deliverable: "CP/1 specification (RFC style) + design doc + evaluation report (correctness, throughput, fairness, vs TCP) + 6-minute demo"
+deliverable: "CP/1 specification (RFC style) + design doc + evaluation report (correctness, throughput, fairness, vs TCP) + short demo"
 ---
 
 # Project: Courier
@@ -11,7 +15,6 @@ deliverable: "CP/1 specification (RFC style) + design doc + evaluation report (c
 | | |
 | :-- | :-- |
 | **Module** | 09 Networking |
-| **Time** | About 90 hours (8–10 weeks) |
 | **Prerequisites** | [Relay](../../../01-intro-cs-taste/projects/relay-chat/spec.md) (stop-and-wait, the gremlin); Labs 01–03 of this module (the namespace test bench); Crate (CRC32); Module 05 (ring buffers, heaps) |
 | **Language** | Python is recommended (clarity; performance targets are set accordingly). C is allowed if you want the challenge — targets then double. |
 | **You build** | **Courier**, your own reliable transport protocol, specified like an internet standard and implemented as a library with a socket-like API. It delivers **messages** (not a byte stream) reliably and in order over UDP — through loss, duplication, reordering, corruption, and limited bandwidth — while sharing the network fairly. You also build **Gremlin 2**, the hostile network it must survive, a file-transfer tool on top, and a campaign of measurements comparing it with TCP |
@@ -204,7 +207,7 @@ Measure, in the namespace bench (3 runs each, medians):
 1. **`CP1.md`** — the RFC-style specification (v1 before code; final with a change log). This is the most demanding document in the curriculum so far; revise it at least twice.
 2. **Design doc** (implementation architecture: event loop, buffers, timers, the simulation mode).
 3. **Evaluation report** (4 pages, E10): the correctness matrix, throughput plots vs TCP and the model, cwnd/RTO traces, fairness — with honest explanations.
-4. **Demo (6 minutes):** a file crossing a hostile Gremlin 2 with live stats (cwnd, RTO, retransmissions), a Packet Telescope view of CP/1 packets, and the fairness experiment.
+4. **Demo:** a file crossing a hostile Gremlin 2 with live stats (cwnd, RTO, retransmissions), a Packet Telescope view of CP/1 packets, and the fairness experiment.
 
 ## Study-method integration
 

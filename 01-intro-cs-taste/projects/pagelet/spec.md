@@ -1,9 +1,13 @@
 ---
 title: "Project 4: Pagelet, a Page Viewer"
+id: "MOD01-PRJ-pagelet"
+type: "project"
 module: "01-intro-cs-taste"
-hours: 14
+phase: "A"
+order: 290
+prerequisites: [MOD01-LAB02, M02, E03]
 artifact: "pagelet.py: a terminal document viewer with its own markup language, word wrapping, numbered links, history, and a hand-written HTTP client; a 5-page site you wrote"
-deliverable: "README + Pagelet markup reference + 4-minute demo browsing your own site"
+deliverable: "README + Pagelet markup reference + short demo browsing your own site"
 ---
 
 # Project 4: Pagelet, a Page Viewer
@@ -11,7 +15,6 @@ deliverable: "README + Pagelet markup reference + 4-minute demo browsing your ow
 | | |
 | :-- | :-- |
 | **Module** | 01 Intro CS Taste |
-| **Time** | About 14 hours |
 | **Prerequisites** | Labs 00–02; Math M01–M02; English E03+ (you write a small website) |
 | **You build** | A text-mode browser for a small markup language of your own. It fetches pages over HTTP using a request you write by hand, parses the markup into blocks, wraps text to fit the terminal, numbers the links, and lets you follow them and go back. You also write a small website to browse with it |
 | **Deliverable** | README, a one-page reference for your markup language, and a demo |
@@ -20,7 +23,7 @@ deliverable: "README + Pagelet markup reference + 4-minute demo browsing your ow
 
 ## Why this matters
 
-A web browser does four things: it **fetches** a document over the network, **parses** the text into a structure, **lays out** that structure to fit the screen, and **renders** it — then repeats when you click a link. Real browsers are some of the most complex programs ever written. But the four steps are simple at their core, and you can build all four in a weekend or two.
+A web browser does four things: it **fetches** a document over the network, **parses** the text into a structure, **lays out** that structure to fit the screen, and **renders** it — then repeats when you click a link. Real browsers are some of the most complex programs ever written. But the four steps are simple at their core, and you can build all four in a handful of build sessions.
 
 That's Pagelet. In [Module 10](../../../10-browser-engine/overview.md), you'll build a real document browser with an HTML-subset parser, a style system, and box layout. You'll recognise every stage, because you'll have built the small, real version first.
 
@@ -41,7 +44,18 @@ Files end in `.pml`. A page is a list of **blocks**, separated by blank lines or
 | ordinary lines | paragraph (consecutive lines join into one) | wrapped to the screen width |
 | `- item` | list item (consecutive items form one list) | `•` with a hanging indent when wrapped |
 | `> text` | quote | indented by 4 with `│ ` in front, wrapped |
-| a line with only ` ``` `, then lines, then ` ``` ` | preformatted block | shown exactly, never wrapped (long lines cut with `→`) |
+| a line with only ` ```
+= Nib Notes
+
+My tiny computer has {16 instructions|isa.pml} and 256 bytes of memory.
+This page explains how I tested it.
+
+== What I learned
+- The PC moves before the instruction runs.
+- {Pointers|pointers.pml} are just addresses stored in memory.
+
+> Write the trace on paper first.
+``` ` | preformatted block | shown exactly, never wrapped (long lines cut with `→`) |
 
 **Inline links**, anywhere in a paragraph, list item, or quote: `{label|target}`.
 - `{the next page|next.pml}` renders as `the next page[3]` if it's the third link on the page.
@@ -197,7 +211,7 @@ Write a small website in PML: **at least 5 pages**, linked to each other, about 
 Sized for E03–E06:
 1. **README.md:** how to run Pagelet (local files and HTTP), all the commands, and how to run the tests.
 2. **`PML.md`:** the markup reference: every block kind and the link syntax, each with an example. (This is your first *language specification*. Precise and complete beats long.)
-3. **Demo (4 minutes):** browse your own site over HTTP: follow links, go back and forward, hit a 404, show the netcat experiment.
+3. **Demo:** browse your own site over HTTP: follow links, go back and forward, hit a 404, show the netcat experiment.
 
 ## Study-method integration
 
@@ -208,7 +222,7 @@ Sized for E03–E06:
 | **W** | Separate parse and render; two stacks for history; first `\r\n\r\n` only |
 | **S** | Word-wrap and HTTP subgoal comments |
 | **I** | Parsing, layout, and networking interleaved across milestones |
-| **C** | Your site's pages are writing practice; copywork passages this month can come from good documentation pages |
+| **C** | Your site's pages are writing practice; copywork passages during this project can come from good documentation pages |
 | **T** | README, `PML.md`, demo, and the site itself |
 
 ## Stretch goals

@@ -1,20 +1,24 @@
 ---
 title: "Lab 03 — Classes and Data Modelling"
+id: "MOD02-LAB03"
+type: "lab"
 module: "02-programming-fundamentals"
-hours: 10
+phase: "B"
+order: 450
+prerequisites: [MOD02-LAB02]
 ---
 
 # Lab 03 — Classes and Data Modelling
 
 **Goal:** model the things your program is about as **classes** with clear **invariants** — rules that must always be true — so that whole categories of bugs become impossible.
 
-**Time:** about 10 hours, in three sessions.
+**Sessions:** three.
 
 **You'll finish with:** a `Ratio` class (an exact fraction type, built from M04–M05) whose invariant guarantees it's always in simplest form, and a small `Library` model with loans and due dates.
 
 ---
 
-## Session 1 — Classes (3 hours)
+## Session 1 — Classes
 
 ### Why classes?
 
@@ -104,7 +108,7 @@ Better than strings like `"good"`, where a typo silently becomes a new value.
 
 ---
 
-## Session 2 — Build: the `Ratio` class (4 hours)
+## Session 2 — Build: the `Ratio` class
 
 Build your own exact fraction type, using M04 (GCD) and M05 (fractions). Python already has `fractions.Fraction` — you'll use it as a second witness in your tests.
 
@@ -138,7 +142,7 @@ Build your own exact fraction type, using M04 (GCD) and M05 (fractions). Python 
 
 ---
 
-## Session 3 — Modelling a small domain (3 hours)
+## Session 3 — Modelling a small domain
 
 ### Model a lending library
 
@@ -175,8 +179,8 @@ Prefer composition. Use inheritance only for a true "is a" relationship where th
 
 ## Retrieval and reflection
 
-1. **[R] Blank sheet (10 min):** what a class is; what an invariant is and the three rules for keeping one; dataclass vs class; frozen and why; composition vs inheritance.
-2. **[F] (spoken, 2 min):** "What is an invariant? Use your `Ratio` class."
+1. **[R] Blank sheet:** what a class is; what an invariant is and the three rules for keeping one; dataclass vs class; frozen and why; composition vs inheritance.
+2. **[F] (spoken):** "What is an invariant? Use your `Ratio` class."
 3. **[W]:** pick one invariant from the library. Which *method* would break it if you forgot one line? What test catches that?
 
 **Next:** the projects, starting with [Study Deck](../projects/study-deck/spec.md).

@@ -1,18 +1,22 @@
 ---
 title: "Lab 03 — Stacks, Queues, and Lists"
+id: "MOD05-LAB03"
+type: "lab"
 module: "05-data-structures-and-algorithms"
-hours: 10
+phase: "C"
+order: 790
+prerequisites: [MOD05-LAB02]
 ---
 
 # Lab 03 — Stacks, Queues, and Lists
 
 **Goal:** build linked lists, stacks, queues, and a circular buffer; use a stack to check brackets and to replace recursion; and use BFS and DFS to solve mazes.
 
-**Time:** about 10 hours, in three sessions.
+**Sessions:** three.
 
 ---
 
-## Session 1 — Linked lists (3 hours)
+## Session 1 — Linked lists
 
 A **linked list** stores each item in a **node** that points to the next node. Unlike an array, items aren't side by side in memory.
 
@@ -38,7 +42,7 @@ Build `LinkedList` with `push_front`, `pop_front`, `push_back` (keep a `tail` po
 
 ---
 
-## Session 2 — Stacks, queues, and the circular buffer (3 hours)
+## Session 2 — Stacks, queues, and the circular buffer
 
 ### Stack (last in, first out)
 
@@ -65,7 +69,7 @@ You'll meet this exact structure again in Module 09 (Courier's send and receive 
 
 ---
 
-## Session 3 — Mazes: BFS vs DFS (4 hours)
+## Session 3 — Mazes: BFS vs DFS
 
 Text mazes:
 
@@ -98,6 +102,6 @@ Build `maze.py`:
 ## Retrieval and reflection
 
 1. **[R]:** linked list vs array costs with reasons; stack and queue uses; circular buffer index math; BFS vs DFS behaviour.
-2. **[F] (spoken, 2 min):** "Why does BFS find the shortest path in a maze?"
+2. **[F] (spoken):** "Why does BFS find the shortest path in a maze?"
 
 **Next:** [Copydiff](../projects/copydiff/spec.md).

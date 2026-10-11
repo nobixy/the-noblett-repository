@@ -1,8 +1,13 @@
 ---
 title: "Project: Terminal Field Notes"
-track: english
+id: "FND-EN-PRJ-terminal-field-notes"
+type: "project"
+module: "00-foundations"
+track: "english"
+phase: "B"
+order: 340
+prerequisites: [E06]
 stages: "E07–E08"
-hours: 16
 artifact: "A field notebook of 15+ observations of your Linux machine, revised into a 1,200–1,800 word guide"
 deliverable: "The guide + before/after revision statistics"
 ---
@@ -11,9 +16,7 @@ deliverable: "The guide + before/after revision statistics"
 
 | | |
 | :-- | :-- |
-| **When** | Milestone 1 in E07, Milestones 2–3 in E08 |
-| **Time** | About 16 hours over 6–7 weeks (15–20 minutes most days) |
-| **You build** | A field notebook: short daily observations of what your computer is doing, written like a naturalist's notes. Then you revise them into a clear guide: *What My Computer Is Doing Right Now* |
+| **You build** | A field notebook: short observations, one or more per session, of what your computer is doing, written like a naturalist's notes. Then you revise them into a clear guide: *What My Computer Is Doing Right Now* |
 | **Deliverable** | The guide, and a short note with before/after revision numbers |
 
 ---
@@ -79,7 +82,7 @@ One or two per entry. Run them; don't just read about them. Use `man <command>` 
 
 ### Milestone 1 — Fifteen entries (E07)
 
-**Do:** write at least **15 entries** over about 3 weeks, covering at least **6 of the 10 areas**. At least 3 entries should answer a question from an earlier entry.
+**Do:** write at least **15 entries** across several sections, covering at least **6 of the 10 areas**. At least 3 entries should answer a question from an earlier entry.
 
 **Writing focus (E07):** in "What I think it means," use at least one complex sentence (*because, when, although, if*) per entry. Check every entry for run-ons and fragments before moving on.
 
@@ -103,7 +106,7 @@ One or two per entry. Run them; don't just read about them. Use `man <command>` 
 
 **Writing focus (E08):** topic sentences; old-before-new; one idea per paragraph. Define every technical term on first use (*process, cache, kernel, interface*).
 
-**Done when:** draft 1 is complete. Save it as `guide-v1.md` and **don't touch it for at least two days** [D].
+**Done when:** draft 1 is complete. Save it as `guide-v1.md` and **don't touch it until a later section** [D].
 
 ### Milestone 3 — Revise, measure, and get a reader (E08)
 
@@ -142,7 +145,7 @@ One or two per entry. Run them; don't just read about them. Use `man <command>` 
 | **R** | Milestone 1 checkpoint: recall what each command shows |
 | **W** | Every "Question" line; the three-level why on your most surprising observation |
 | **F** | The guide is a long-form Feynman explanation for a curious beginner |
-| **D** | The two-day cooling-off between drafts |
+| **D** | The cooling-off between drafts |
 | **C** | Copywork during this project: Julia Evans' writing on Linux tools (jvns.ca), which is exactly this kind of "here's what I observed and what it means" explanation |
 | **T** | The reader in Milestone 3 |
 

@@ -1,9 +1,13 @@
 ---
 title: "Project: Gatesmith"
+id: "MOD04-PRJ-gatesmith"
+type: "project"
 module: "04-circuits-and-digital-logic"
-hours: 50
+phase: "B"
+order: 630
+prerequisites: [MOD04-LAB03, MOD02]
 artifact: "gatesmith: a gate-level logic simulator with its own netlist language, hierarchy, buses, flip-flops, test vectors, VCD waveforms, and timing analysis — plus a chip library up to an 8-bit ALU and a register file"
-deliverable: "README + netlist language reference + timing lab report + 5-minute demo"
+deliverable: "README + netlist language reference + timing lab report + short demo"
 ---
 
 # Project: Gatesmith
@@ -11,7 +15,6 @@ deliverable: "README + netlist language reference + timing lab report + 5-minute
 | | |
 | :-- | :-- |
 | **Module** | 04 Circuits and Digital Logic |
-| **Time** | About 50 hours |
 | **Prerequisites** | Lab 03 (gates, adders, flip-flops on real chips); Module 02 (parsers, recursion, testing); [Truth Engine](../../../03-discrete-math/projects/truth-engine/spec.md) helpful |
 | **You build** | `gatesmith`, a simulator for digital circuits described in a text **netlist** language you implement. It checks circuits against test vectors, writes waveforms you can view in GTKWave, and measures how long signals take to settle. With it you design a library of chips, from multiplexers to an 8-bit ALU with flags and a register file — the parts of the CPU you'll design in Module 06 |
 | **Deliverable** | README, a language reference, a lab report on timing, and a demo |
@@ -173,7 +176,7 @@ Design `ALU8`, an 8-bit arithmetic logic unit. **This ALU is the one your Kestre
 1. **README:** commands, the chip library, how to run all tests.
 2. **`NETLIST.md`:** the complete language reference.
 3. **Lab report** (E10 level): *"How does adder design affect speed and size?"* — ripple vs carry-lookahead, widths 8–32, settling times and gate counts, the glitch observation, and your conclusion.
-4. **Demo (5 minutes):** a netlist, a failing vector and its fix, the ALU passing all tests, a counter in GTKWave, and the timing plot.
+4. **Demo:** a netlist, a failing vector and its fix, the ALU passing all tests, a counter in GTKWave, and the timing plot.
 
 ## Study-method integration
 

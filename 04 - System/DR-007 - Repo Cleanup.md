@@ -1,7 +1,8 @@
 ---
 title: "DR-007: Repo Cleanup"
 type: decision-record
-status: accepted
+status: superseded
+superseded_by: [DR-010, DR-011]
 date: 2026-10-10
 accepted: 2026-10-10
 tags:
@@ -10,6 +11,9 @@ tags:
 ---
 
 # DR-007: Repo Cleanup
+
+> [!WARNING] Superseded
+> Superseded by [[DR-010 - Project-First Original Curriculum|DR-010]] and [[DR-011 - Sectioned Curriculum and Frontmatter Schema|DR-011]]. Kept as a historical record: its dates, hours, weeks, phases and links into `99 - Archive/` describe the v1 plan and are not current instructions.
 
 *Uses the [[Decision Record]] template. Follows [[DR-006 - Digital Twin, EW Resilience and Fun Prerequisites|DR-006]]. Accepted and applied 2026-10-10. Checkpoint before this change: git commit `67bd081`.*
 

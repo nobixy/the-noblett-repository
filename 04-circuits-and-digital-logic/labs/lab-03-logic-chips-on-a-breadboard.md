@@ -1,21 +1,25 @@
 ---
 title: "Lab 03 — Logic Chips on a Breadboard"
+id: "MOD04-LAB03"
+type: "lab"
 module: "04-circuits-and-digital-logic"
-hours: 14
-type: maker-lab
+phase: "B"
+order: 610
+prerequisites: [MOD04-LAB02]
+kind: "maker"
 ---
 
 # Lab 03 — Logic Chips on a Breadboard
 
 **Goal:** turn logic into hardware. Verify gate truth tables with switches and LEDs, build a half adder and a full adder that really add, drive a binary counter from your 555 clock, and discover switch bounce.
 
-**Time:** about 14 hours, in four sessions.
+**Sessions:** four.
 
 **Deliverable:** a working 2-bit adder on the breadboard, a counting display, and a short lab report on switch bounce.
 
 ---
 
-## Session 1 — Gates and datasheets (3 hours)
+## Session 1 — Gates and datasheets
 
 ### 74HC chips
 
@@ -45,7 +49,7 @@ For each of AND, OR, XOR, NAND, NOT: wire one gate with two switch inputs (each 
 
 ---
 
-## Session 2 — Adders (4 hours)
+## Session 2 — Adders
 
 ### Half adder
 
@@ -78,7 +82,7 @@ Chain two full adders: the carry out of bit 0 feeds the carry in of bit 1 (for b
 
 ---
 
-## Session 3 — Clocks, flip-flops, counting (4 hours)
+## Session 3 — Clocks, flip-flops, counting
 
 ### The D flip-flop: one bit of memory
 
@@ -102,7 +106,7 @@ Often it jumps by 2, 3, or more. Mechanical switch contacts **bounce**: they mak
 
 ---
 
-## Session 4 — Report and tidy-up (3 hours)
+## Session 4 — Report and tidy-up
 
 **Short lab report:** *"How often does my pushbutton bounce, and does an RC filter fix it?"* — your 20-press table, before and after.
 
@@ -119,8 +123,8 @@ Often it jumps by 2, 3, or more. Mechanical switch contacts **bounce**: they mak
 
 ## Retrieval and reflection
 
-1. **[R] Blank sheet (15 min):** the full adder's equations and schematic; why inputs need pull-downs; what a D flip-flop does; what bounce is.
-2. **[F] (spoken, 2 min):** "How does a pile of switches add two numbers?" Then compare with your [Explain-a-System](../../00-foundations/english/projects/explain-a-system/spec.md) explainer 3.
+1. **[R] Blank sheet:** the full adder's equations and schematic; why inputs need pull-downs; what a D flip-flop does; what bounce is.
+2. **[F] (spoken):** "How does a pile of switches add two numbers?" Then compare with your [Explain-a-System](../../00-foundations/english/projects/explain-a-system/spec.md) explainer 3.
 3. **Flashcards:** pin 7/14 rule; the half- and full-adder equations; HC logic levels.
 
 **Next:** [Lab 04 — Pico and MicroPython](lab-04-pico-and-micropython.md).

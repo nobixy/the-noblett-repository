@@ -3,8 +3,6 @@ title: "LM07: Self-Explanation"
 type: learning-method
 method_id: LM07
 evidence: "Moderate to strong"
-project_hours: 2
-counts_toward: "BW"
 ---
 
 # LM07 — Self-Explanation
@@ -29,10 +27,10 @@ Dunlosky et al. (2013): **moderate utility** (it costs time).
 - Paraphrasing what a line does ("increments i") instead of why it's there ("move past the element we just placed").
 
 ## 🔨 Project: Narrated Solutions
-For 5 easy NeetCode problems in your daily streak, write a why-comment on every line before running the code. Record one solve talking aloud (phone audio).
+For 5 easy practice problems (NeetCode, or Module 05's problem practice), write a why-comment on every line before running the code. Record one solve talking aloud (phone audio).
 - **Done when:** 5 commented solutions are in your repo, plus a short note on which bugs the explanations caught before running.
-- **Time:** about 2 h, counted inside [[BW - Bedrock English and Grammar|BW]]'s existing hours (replaces 5 of the 10 parsing sentences and 5 of the 10 de-nominalization drills; the diff tool does copywork's comparison step).
-- **Level / when:** Beginner Python. Week 7 (it rides on the streak, so no extra time).
+- **Level:** Beginner Python.
+- **Fits with:** No separate protocol code; it overlaps with **S** (subgoal labels) and **W** (why-ladders).
 
 ## Sources
 - Chi, Bassok, Lewis, Reimann & Glaser (1989), "Self-explanations: how students study and use examples in learning to solve problems", *Cognitive Science* 13(2).

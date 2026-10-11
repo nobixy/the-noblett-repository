@@ -1,6 +1,11 @@
 ---
 title: "03 — Resources"
+id: "MOD03-RES"
+type: "reference"
 module: "03-discrete-math"
+phase: "B"
+order: 570
+prerequisites: []
 ---
 
 # 03 — Resources

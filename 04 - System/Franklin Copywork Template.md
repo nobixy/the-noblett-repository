@@ -2,7 +2,7 @@
 author: ""
 work_title: ""
 date_analyzed: "{{date}}"
-date_reconstructed: ""
+reconstructed: false
 diff_completed: false
 ---
 
@@ -11,7 +11,7 @@ diff_completed: false
 > [!INFO] Method
 > 1. Read and dissect the master text.
 > 2. Summarize each sentence in short hint notes.
-> 3. Hide the original for 3 days.
+> 3. Hide the original until a later session (a few sessions later is better).
 > 4. Reconstruct the prose from only your hints.
 > 5. Diff your version against the master.
 
@@ -31,7 +31,7 @@ diff_completed: false
 
 ---
 
-## 3. Reconstructed Version (Written 3 Days Later)
+## 3. Reconstructed Version (Written in a Later Session)
 *(Write your version here using only the outline above)*
 
 

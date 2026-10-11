@@ -1,9 +1,13 @@
 ---
 title: "Project 3: Burrow Jr., a Mini Shell"
+id: "MOD01-PRJ-shell-sketch"
+type: "project"
 module: "01-intro-cs-taste"
-hours: 12
+phase: "A"
+order: 280
+prerequisites: [MOD01-LAB02]
 artifact: "burrow_jr.py: a shell that runs programs as real processes, with built-ins, redirection, one pipe, and a trace mode"
-deliverable: "README + 6–8 sentence explanation of fork/exec/wait + 3-minute demo"
+deliverable: "README + 6–8 sentence explanation of fork/exec/wait + short demo"
 ---
 
 # Project 3: Burrow Jr., a Mini Shell
@@ -11,8 +15,7 @@ deliverable: "README + 6–8 sentence explanation of fork/exec/wait + 3-minute d
 | | |
 | :-- | :-- |
 | **Module** | 01 Intro CS Taste |
-| **Time** | About 12 hours |
-| **Prerequisites** | Labs 00–02; you've used a terminal daily for a few weeks |
+| **Prerequisites** | Labs 00–02; you've used the terminal regularly across your first sections |
 | **Platform** | Linux, macOS, or WSL2 (it uses `fork`, which native Windows doesn't have) |
 | **You build** | A small shell — the program that reads your commands and runs them — using the same operating-system calls real shells use: `fork`, `exec`, `wait`, `pipe`, and `dup2`. Plus a trace mode that shows every process being born and dying |
 | **Deliverable** | README, a short explanation, and a demo |
@@ -175,7 +178,7 @@ Test: plain commands, quoting, exit statuses, not-found (127), `cd`, `history` a
 Sized for E04–E06:
 1. **README.md:** what Burrow Jr. supports, how to run it and the tests, and the two why-ladders (`cd` as a built-in; the pipe hang).
 2. **"How a shell runs a command" (6–8 sentences):** fork, exec, wait, in simple sentences.
-3. **Demo (3 minutes):** run commands, a redirect, a pipe; show the trace for `yes | head -3`; show your shell and its child in `pstree`.
+3. **Demo:** run commands, a redirect, a pipe; show the trace for `yes | head -3`; show your shell and its child in `pstree`.
 
 ## Study-method integration
 

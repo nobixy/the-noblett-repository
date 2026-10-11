@@ -1,18 +1,22 @@
 ---
 title: "Lab 01 — Proof Writing Workshop"
+id: "MOD03-LAB01"
+type: "lab"
 module: "03-discrete-math"
-hours: 6
+phase: "B"
+order: 510
+prerequisites: []
 ---
 
 # Lab 01 — Proof Writing Workshop
 
 **Goal:** learn the five basic proof methods as templates with labelled steps, the style rules that make a proof readable, and the common errors that make one wrong.
 
-**Time:** about 6 hours, in three sessions. Do it during Unit 2.
+**Sessions:** three. Do it during Unit 2.
 
 ---
 
-## Session 1 — What a proof is (2 hours)
+## Session 1 — What a proof is
 
 A **proof** is an argument that a statement is true in **every** case, where each step follows from definitions, earlier results, or previous steps. Checking examples is not a proof (examples show *some* cases; a proof covers *all*). But examples are how you *find* a proof — always try several first.
 
@@ -46,7 +50,7 @@ To prove **"if P, then Q"**: assume P; derive Q.
 
 ---
 
-## Session 2 — Contrapositive, contradiction, cases (2 hours)
+## Session 2 — Contrapositive, contradiction, cases
 
 ### Template 2 — Proof by contrapositive
 
@@ -87,7 +91,7 @@ To show "for all x, P(x)" is **false**, one example where P fails is enough.
 
 ---
 
-## Session 3 — Finding errors, and review (2 hours)
+## Session 3 — Finding errors, and review
 
 ### Broken proofs
 
@@ -109,7 +113,7 @@ Each "proof" below is wrong. Find the error and explain it in one or two sentenc
 5. Dividing by (a − b), which is 0 since a = b. Division by zero (M03) hides inside algebra.
 </details>
 
-### Peer review (or self-review after a day)
+### Peer review (or self-review in a later session)
 
 Review a proof using these questions (your future Proof Journal rubric):
 - Is the claim stated exactly?
@@ -130,7 +134,7 @@ Review a proof using these questions (your future Proof Journal rubric):
 ## Retrieval and reflection
 
 1. **[R]:** the five templates' labels, the six style rules, and the difference between contrapositive and converse.
-2. **[F] (spoken, 2 min):** "What is proof by contradiction?" using √2.
+2. **[F] (spoken):** "What is proof by contradiction?" using √2.
 3. **[W]:** why is "if P then Q" true when P is false? (Hint: "If you score 90%, I'll buy you dinner." You scored 70% and I didn't buy dinner. Did I break my promise?)
 
 **Next:** start the [Proof Journal](../projects/proof-journal/spec.md).

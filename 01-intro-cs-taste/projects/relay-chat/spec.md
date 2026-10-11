@@ -1,9 +1,13 @@
 ---
 title: "Project 2: Relay, Talking Programs"
+id: "MOD01-PRJ-relay-chat"
+type: "project"
 module: "01-intro-cs-taste"
-hours: 16
+phase: "A"
+order: 270
+prerequisites: [MOD01-LAB02, M03, E03]
 artifact: "relay_server.py, relay_client.py (TCP chat); gremlin.py (lossy link); a reliable UDP messenger"
-deliverable: "One-page protocol spec + 4-minute demo + small results table"
+deliverable: "One-page protocol spec + short demo + small results table"
 ---
 
 # Project 2: Relay, Talking Programs
@@ -11,7 +15,6 @@ deliverable: "One-page protocol spec + 4-minute demo + small results table"
 | | |
 | :-- | :-- |
 | **Module** | 01 Intro CS Taste |
-| **Time** | About 16 hours |
 | **Prerequisites** | Labs 00–02; Math M01–M03 (you'll use `%` and timing); English E03+ |
 | **You build** | A chat system: a server and clients that talk over TCP using a protocol **you** define. Then you break the network on purpose with a "gremlin" that drops, duplicates, and delays messages — and make your messages arrive anyway, using sequence numbers, acknowledgments, and timeouts |
 | **Deliverable** | A one-page protocol specification, a recorded demo, and a small table of measurements |
@@ -183,7 +186,7 @@ Fill a table. Then answer:
 
 Sized for E03–E07:
 1. **`PROTOCOL.md`** (Relay v1) and **`RELIABLE.md`** (Relay-R) — the protocol specs, including the three why-ladder answers.
-2. **Demo (4 minutes, recorded):** three-client chat; the gremlin wrecking the naive UDP sender; Relay-R delivering 100/100 through the same gremlin. Explain the ACK-for-duplicates idea in one sentence.
+2. **Demo (short, recorded):** three-client chat; the gremlin wrecking the naive UDP sender; Relay-R delivering 100/100 through the same gremlin. Explain the ACK-for-duplicates idea in one sentence.
 3. **Results table** from Milestone 5, with two or three sentences on what it shows.
 
 ## Study-method integration

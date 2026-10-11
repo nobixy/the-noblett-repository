@@ -1,6 +1,11 @@
 ---
 title: "13 — Resources"
+id: "MOD13-RES"
+type: "reference"
 module: "13-capstone"
+phase: "E"
+order: 1390
+prerequisites: []
 ---
 
 # 13 — Resources

@@ -1,8 +1,13 @@
 ---
 title: "Project: Ratio Workshop"
-track: math
+id: "FND-MA-PRJ-ratio-workshop"
+type: "project"
+module: "00-foundations"
+track: "math"
+phase: "B"
+order: 390
+prerequisites: [M04, MOD01-LAB01]
 stages: "M05–M06"
-hours: 14
 artifact: "A scaled recipe; measured screen data; ratio_tools.py with three commands and tests; a measured download-time prediction"
 deliverable: "Short lab report: how good is my download-time estimate?"
 ---
@@ -11,8 +16,6 @@ deliverable: "Short lab report: how good is my download-time estimate?"
 
 | | |
 | :-- | :-- |
-| **When** | Milestone 1 in M05; Milestones 2–4 in M06 |
-| **Time** | About 14 hours |
 | **You build** | Three small, genuinely useful tools — a recipe scaler that uses exact fractions, an image "fit-to-box" calculator, and a download-time estimator that gets bits, bytes, and units right — then you test the estimator against a real download |
 | **Deliverable** | A short lab report |
 

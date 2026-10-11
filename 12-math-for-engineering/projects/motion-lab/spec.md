@@ -1,7 +1,11 @@
 ---
 title: "Project: Motion Lab"
+id: "MOD12-PRJ-motion-lab"
+type: "project"
 module: "12-math-for-engineering"
-hours: 18
+phase: "C"
+order: 870
+prerequisites: [MOD12-C1, MOD12-C2, MOD12-C3]
 units: "C1, C2, C3"
 artifact: "Numerical calculus tools tested against exact answers; your phone's accelerometer data integrated into velocity and position; ODE solvers (Euler, RK4) compared on a spring, a pendulum, and your RC circuit"
 deliverable: "Lab report: what numerical calculus gets right, gets wrong, and why (with error plots)"
@@ -12,7 +16,6 @@ deliverable: "Lab report: what numerical calculus gets right, gets wrong, and wh
 | | |
 | :-- | :-- |
 | **Module** | 12 Math for Engineering (Units C1–C3) |
-| **Time** | About 18 hours |
 | **You build** | A small numerical-calculus toolkit — derivatives, integrals, root finding, and differential-equation solvers — tested against exact answers, and then pointed at real data: your phone's motion sensors, and your own Module 04 circuit measurements |
 | **Deliverable** | A lab report with error plots |
 

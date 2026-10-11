@@ -1,9 +1,13 @@
 ---
 title: "Project 1: Nib, a Tiny Computer"
+id: "MOD01-PRJ-nib-machine"
+type: "project"
 module: "01-intro-cs-taste"
-hours: 18
+phase: "A"
+order: 260
+prerequisites: [MOD01-LAB02, M02]
 artifact: "nib.py (emulator), nasm.py (assembler), six Nib programs, a live memory viewer"
-deliverable: "README + 8–10 sentence explanation of fetch–decode–execute + 4-minute recorded demo"
+deliverable: "README + 8–10 sentence explanation of fetch–decode–execute + short recorded demo"
 ---
 
 # Project 1: Nib, a Tiny Computer
@@ -11,7 +15,6 @@ deliverable: "README + 8–10 sentence explanation of fetch–decode–execute +
 | | |
 | :-- | :-- |
 | **Module** | 01 Intro CS Taste |
-| **Time** | About 18 hours (3–4 Saturdays) |
 | **Prerequisites** | Labs 00–02; Math M01–M02 (bases, binary addition); English E01+ |
 | **You build** | An emulator for **Nib**, an 8-bit computer with 256 bytes of memory and 16 instructions; six programs for it, first in raw hex and then with a tiny assembler you write; and a live viewer that shows the machine's memory changing as it runs |
 | **Deliverable** | README, a short written explanation, and a recorded demo |
@@ -105,8 +108,7 @@ A plain text file of hex bytes:
 
 ## Milestones
 
-### Milestone 0 — Be the computer (paper, 1–2 hours)
-
+### Milestone 0 — Be the computer (paper)
 Before writing any code, run a program **by hand**. Draw a table with columns: step, PC, instruction, A, Z, C, mem[0x20], output.
 
 Trace this program completely:
@@ -283,7 +285,7 @@ Watch `hello.nasm` run. Assembled, `done` is at 0x12, `ptr` at 0x14, and the str
 Sized for E02–E05:
 1. **README.md:** what Nib is, how to run the emulator, trace, watch, and the assembler, with one example of each command.
 2. **"How Nib runs a program" (8–10 sentences):** the fetch–decode–execute cycle, in simple, correct sentences, using `countdown.nib` as the example. Short and correct beats long.
-3. **Demo (4 minutes, recorded):** show `hello.nasm`, assemble it, run it in the viewer, and explain what the pointer is doing. End with the bug that took you longest.
+3. **Demo (short, recorded):** show `hello.nasm`, assemble it, run it in the viewer, and explain what the pointer is doing. End with the bug that took you longest.
 
 ## Study-method integration
 

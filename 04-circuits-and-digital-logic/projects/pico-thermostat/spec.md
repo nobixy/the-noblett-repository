@@ -1,9 +1,13 @@
 ---
 title: "Project: Pico Thermostat"
+id: "MOD04-PRJ-pico-thermostat"
+type: "project"
 module: "04-circuits-and-digital-logic"
-hours: 28
+phase: "B"
+order: 650
+prerequisites: [MOD04-LAB04]
 artifact: "A working temperature controller: a TMP36 sensor and a small resistor heater switched by a transistor from a Pico, with on/off, hysteresis, and proportional control — all logged and compared"
-deliverable: "Lab report comparing control strategies with plots + 4-minute demo + updated thermostat explainer"
+deliverable: "Lab report comparing control strategies with plots + short demo + updated thermostat explainer"
 ---
 
 # Project: Pico Thermostat
@@ -11,7 +15,6 @@ deliverable: "Lab report comparing control strategies with plots + 4-minute demo
 | | |
 | :-- | :-- |
 | **Module** | 04 Circuits and Digital Logic |
-| **Time** | About 28 hours |
 | **Prerequisites** | Labs 01–04; [Explain-a-System](../../../00-foundations/english/projects/explain-a-system/spec.md) explainer 1 (reread it now) |
 | **You build** | A real feedback controller. A Pico reads a temperature sensor taped to a small resistor "heater," switches the heater with a transistor, and tries to hold a target temperature. You measure how the system heats and cools, then compare three control strategies with logged data |
 | **Deliverable** | A lab report, a demo, and a rewritten thermostat explainer |
@@ -133,7 +136,7 @@ Use PWM at a low frequency (e.g. 2 Hz is fine for a heater — [W] why can a hea
 ## Communication deliverable
 
 1. **Lab report** (2–3 pages, [template](<../../../04 - System/Lab Report Template.md>), E10 level): *"How do on/off, hysteresis, and proportional control compare for a small heater?"* With the plant model, the tables, the plots, and a recommendation.
-2. **Demo (4 minutes):** the hardware, a live run, a plot, and a safety cut-off.
+2. **Demo:** the hardware, a live run, a plot, and a safety cut-off.
 3. **Rewrite your [thermostat explainer](../../../00-foundations/english/projects/explain-a-system/spec.md)** from scratch, without looking at the old one. Then compare: what does the new one say that the old one couldn't?
 
 ## Study-method integration

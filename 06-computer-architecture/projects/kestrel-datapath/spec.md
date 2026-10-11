@@ -1,9 +1,13 @@
 ---
 title: "Project: Kestrel Datapath"
+id: "MOD06-PRJ-kestrel-datapath"
+type: "project"
 module: "06-computer-architecture"
-hours: 55
+phase: "C"
+order: 950
+prerequisites: [MOD06-PRJ-kestrel-isa, MOD04-PRJ-gatesmith, MOD06-LAB02]
 artifact: "The Kestrel-16 CPU built from gates in Digital (or Gatesmith): ALU16, register file, single-cycle datapath and control unit, then a multi-cycle version — running the same machine code as your emulator, verified against it"
-deliverable: "Design doc with datapath diagram and control table + performance report (single- vs multi-cycle) + 5-minute demo"
+deliverable: "Design doc with datapath diagram and control table + performance report (single- vs multi-cycle) + short demo"
 ---
 
 # Project: Kestrel Datapath
@@ -11,7 +15,6 @@ deliverable: "Design doc with datapath diagram and control table + performance r
 | | |
 | :-- | :-- |
 | **Module** | 06 Computer Architecture |
-| **Time** | About 55 hours |
 | **Prerequisites** | [Kestrel ISA](../kestrel-isa/spec.md) (manual and emulator done); [Gatesmith](../../../04-circuits-and-digital-logic/projects/gatesmith/spec.md); [Lab 02](../../labs/lab-02-digital-simulator-tour.md) |
 | **You build** | The Kestrel processor as a circuit: a 16-bit ALU, an 8-register file, the datapath connecting them to memory, and a control unit that decodes instructions into control signals. First a **single-cycle** version (every instruction in one clock tick), then a **multi-cycle** version (one memory, a control state machine). Both run your real Kestrel programs, and both are checked against your emulator |
 | **Deliverable** | Design doc, performance report, and demo |
@@ -117,7 +120,7 @@ Your emulator is the reference. Make the comparison systematic:
 
 1. **Design doc** v1 → v2: datapath diagrams for both designs, the control table, the multi-cycle FSM diagram, and the verification method.
 2. **Performance report** (2 pages, E10): critical-path estimates, CPI per instruction class, the performance equation applied to two of your programs, and a recommendation. Include one paragraph on what pipelining (Lab 03) would change.
-3. **Demo (5 minutes):** the CPU running `fib` with the terminal printing, a trace comparison catching a planted bug, and the performance table.
+3. **Demo:** the CPU running `fib` with the terminal printing, a trace comparison catching a planted bug, and the performance table.
 
 ## Study-method integration
 

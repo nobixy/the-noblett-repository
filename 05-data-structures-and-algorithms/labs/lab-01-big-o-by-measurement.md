@@ -1,20 +1,24 @@
 ---
 title: "Lab 01 — Big-O by Measurement"
+id: "MOD05-LAB01"
+type: "lab"
 module: "05-data-structures-and-algorithms"
-hours: 10
+phase: "C"
+order: 770
+prerequisites: []
 ---
 
 # Lab 01 — Big-O by Measurement
 
 **Goal:** understand big-O notation as a precise statement about growth — and never trust one without measuring it. You'll also build a dynamic array and *prove* (and measure) why appending to it is cheap on average.
 
-**Time:** about 10 hours, in three sessions.
+**Sessions:** three.
 
 **Deliverable:** a short lab report: *"Growth strategies for dynamic arrays."*
 
 ---
 
-## Session 1 — The notation (3 hours)
+## Session 1 — The notation
 
 ### Counting steps, then ignoring the details
 
@@ -80,7 +84,7 @@ f1: O(1). f2: O(n). f3: n(n − 1)/2 comparisons (M11's Gauss sum) → O(n²). f
 
 ---
 
-## Session 2 — Measure it (3 hours)
+## Session 2 — Measure it
 
 ### Log-log plots reveal the exponent
 
@@ -109,7 +113,7 @@ Plus `loglog_slope(table)` and `doubling_ratios(table)`. You'll reuse this in ev
 
 ---
 
-## Session 3 — The dynamic array and amortised cost (4 hours)
+## Session 3 — The dynamic array and amortised cost
 
 A Python `list` is a **dynamic array**: elements sit side by side in one block of memory, so `xs[i]` is instant (O(1): jump straight to position i). But the block has a fixed **capacity**. When it's full, the list must allocate a bigger block and **copy everything over**.
 
@@ -147,7 +151,7 @@ Two growth strategies:
 ## Retrieval and reflection
 
 1. **[R]:** O, Ω, Θ definitions; why drop constants and when they still matter; the log-log slope method; amortised cost of doubling with its proof.
-2. **[F] (spoken, 2 min):** "Why is appending to a Python list fast, even though it sometimes copies everything?"
+2. **[F] (spoken):** "Why is appending to a Python list fast, even though it sometimes copies everything?"
 3. **Flashcards:** each Python operation's cost **with its reason**.
 
 **Next:** [Lab 02 — Sorting Workshop](lab-02-sorting-workshop.md).

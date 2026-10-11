@@ -1,6 +1,11 @@
 ---
 title: "07 — Resources"
+id: "MOD07-RES"
+type: "reference"
 module: "07-systems-programming"
+phase: "C"
+order: 1070
+prerequisites: []
 ---
 
 # 07 — Resources

@@ -1,16 +1,18 @@
 ---
 title: "M10 — Geometry and Measurement"
-stage: M10
-track: math
-hours: 30
-weeks: 4
+id: "M10"
+type: "lesson"
+module: "00-foundations"
+track: "math"
+stage: "M10"
+phase: "C"
+order: 720
+prerequisites: [M09]
 ---
 
 # M10 — Geometry and Measurement
 
 **In this stage you will:** measure and compute perimeter, area, and volume (and see why the formulas are true); work with angles and know why a triangle's angles add to 180°; prove and use the Pythagorean theorem; use similar shapes and scale drawings; meet trigonometry (sine and cosine) as the coordinates of a point on a circle; and move, scale, and rotate points on a grid — the basis of all computer graphics.
-
-**Time:** about 30 hours over 4 weeks.
 
 **Before you start:** M09 done. You're comfortable with coordinates and square roots (M07).
 
@@ -18,7 +20,7 @@ weeks: 4
 
 ---
 
-## Diagnostic (cold, 25 minutes)
+## Diagnostic (cold)
 
 1. Area and perimeter of a 7 × 4 rectangle.
 2. Area of a triangle with base 10 and height 6.
@@ -231,16 +233,16 @@ You don't need to memorise the general rotation formula now. In [Module 12](../.
 
 ---
 
-## Practice routine (4 weeks)
+## Practice routine (4 sections)
 
-| Week | Focus |
+| Section | Focus |
 | :-- | :-- |
-| 1 | Mon: units, area/volume unit conversion · Tue: perimeter and area with the "why" for each · Wed: circles (measure π yourself) · Thu: volume and scaling · Fri: Practice Set 1, items 1–7 |
-| 2 | Mon: angle facts · Tue: triangle 180° (tear the corners; write the proof) · Wed: polygons and the turtle walk · Thu–Fri: Pythagoras (draw the proof twice, from memory the second time) |
-| 3 | Mon: distance formula · Tue: similar shapes and scale · Wed–Thu: trig: SOH-CAH-TOA, then the circle picture · Fri: transformations |
-| 4 | Mon–Wed: [Floor Plan and Turtle](projects/floor-plan-and-turtle/spec.md) · Thu: Practice Set 1 rest + Set 2, Feynman · Fri: self-check |
+| 1 | Session 1: units, area/volume unit conversion · Session 2: perimeter and area with the "why" for each · Session 3: circles (measure π yourself) · Session 4: volume and scaling · Session 5: Practice Set 1, items 1–7 |
+| 2 | Session 1: angle facts · Session 2: triangle 180° (tear the corners; write the proof) · Session 3: polygons and the turtle walk · Sessions 4–5: Pythagoras (draw the proof twice, from memory the second time) |
+| 3 | Session 1: distance formula · Session 2: similar shapes and scale · Sessions 3–4: trig: SOH-CAH-TOA, then the circle picture · Session 5: transformations |
+| 4 | Sessions 1–3: [Floor Plan and Turtle](projects/floor-plan-and-turtle/spec.md) · Session 4: Practice Set 1 rest + Set 2, Feynman · Session 5: self-check |
 
-**Daily warm-up [R]:** draw the Pythagoras rearrangement proof from memory. (By week 3, under 3 minutes.)
+**Warm-up [R] (every session):** draw the Pythagoras rearrangement proof from memory. (By section 3, fluently and without looking.)
 
 **Key why-questions [W]:**
 1. Why is a triangle's area half of base × height?
@@ -248,7 +250,7 @@ You don't need to memorise the general rotation formula now. In [Module 12](../.
 3. Why do a polygon's exterior turns add to 360°?
 4. Why does a² + b² = c²? (Proof by rearrangement.)
 
-**Feynman target [F]:** *"What do sine and cosine actually tell you?"* Use the circle picture. 2 minutes, with a sketch.
+**Feynman target [F]:** *"What do sine and cosine actually tell you?"* Use the circle picture. Briefly, with a sketch.
 
 ---
 
@@ -311,7 +313,7 @@ You don't need to memorise the general rotation formula now. In [Module 12](../.
 
 ---
 
-## Self-check (cold, 35 minutes; calculator for π, roots, trig)
+## Self-check (cold; calculator for π, roots, trig)
 
 1. Area of the triangle with corners (0, 0), (6, 0), and (0, 4).
 2. Area of a circle with radius 2.5.
@@ -322,7 +324,7 @@ You don't need to memorise the general rotation formula now. In [Module 12](../.
 7. A turtle draws a regular hexagon. By how many degrees does it turn at each corner?
 8. A ramp rises 1 m over 4 m of horizontal distance. How long is the ramp? What angle does it make with the ground? (Use tan⁻¹ on your calculator.)
 9. Where is the point at angle 30° on a circle of radius 10 centred at the origin?
-10. **[R] Blank sheet (10 min):** area formulas with their reasons; the scaling law; the triangle-sum proof; the turtle-walk 360° fact; the Pythagoras proof (drawn); SOH-CAH-TOA; the circle picture of sin and cos.
+10. **[R] Blank sheet:** area formulas with their reasons; the scaling law; the triangle-sum proof; the turtle-walk 360° fact; the Pythagoras proof (drawn); SOH-CAH-TOA; the circle picture of sin and cos.
 
 <details>
 <summary>Answers (self-check)</summary>

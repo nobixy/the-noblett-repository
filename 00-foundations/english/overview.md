@@ -1,11 +1,19 @@
 ---
 title: "Foundations: English"
-module: "00-foundations/english"
-hours: 220
+id: "FND-EN"
+type: "overview"
+module: "00-foundations"
+track: "english"
+phase: "A"
+order: 30
+prerequisites: []
+checkpoints: [FND-EN-ASSESS]
 tags: [module, foundations, english]
 ---
 
 # Foundations: English
+
+*Part of [00 — Foundations](../overview.md).*
 
 **From spelling to design documents.** This track rebuilds English from the bottom: how words are spelled, what each kind of word does, how a sentence is put together, how punctuation works, how sentences become paragraphs, and finally how to describe a system, write instructions, report a bug, argue for a design, and give a demo out loud.
 
@@ -25,7 +33,7 @@ And the skills transfer directly:
 - **Sentence structure** → knowing *who does what to what*. "The kernel sends the process a signal." Precise subjects and verbs are how you describe systems without confusion.
 - **Punctuation** → code is punctuation-heavy, and so are command lines and file paths. Exactness transfers.
 - **Paragraphs** → one idea per paragraph is like one job per function.
-- **Technical writing** → bug reports, docs, design reviews. The daily work.
+- **Technical writing** → bug reports, docs, design reviews. The everyday work.
 
 ---
 
@@ -39,57 +47,50 @@ And the skills transfer directly:
 6. Write instructions that a stranger can follow without asking you a question.
 7. Write a bug report that someone else can use to reproduce the bug.
 8. Write a design document that explains a plan, compares alternatives, and argues for a choice.
-9. Give a 3–8 minute spoken demo of something you built.
+9. Give a short, structured spoken demo of something you built.
 
 ---
 
 ## The ten stages
 
-Each stage is one file. Do them in order. Each has teaching, daily practice, a self-check with answers, and a "done when" line.
+Each stage is one file. Do them in order. Each has teaching, practice for every session, a self-check with answers, and a "done when" line.
 
-| Stage | Title | Core content | Hours | Project hook |
-| :-- | :-- | :-- | --: | :-- |
-| [E01](E01-spelling-baseline-and-high-frequency-words.md) | Spelling baseline and high-frequency words | Measure where you are; the words that make up most text; how to learn a spelling | 15 | [Spelling Engine](projects/spelling-engine/spec.md) starts |
-| [E02](E02-sound-patterns-and-spelling-rules.md) | Sound patterns and spelling rules | Vowel and consonant patterns; the big six spelling rules | 20 | Spelling Engine: rule tags |
-| [E03](E03-word-parts-and-confusable-words.md) | Word parts and confusable words | Prefixes, suffixes, roots; their/there/they're and 40 more pairs; technical vocabulary | 20 | Spelling Engine: v1 complete |
-| [E04](E04-parts-of-speech.md) | Parts of speech | What each kind of word does; naming in code | 15 | [Machine Manual](projects/machine-manual/spec.md) starts |
-| [E05](E05-the-simple-sentence-and-verbs.md) | The simple sentence and verbs | Subject–verb–object; the five sentence patterns; tense; agreement; irregular verbs | 25 | Machine Manual |
-| [E06](E06-punctuation.md) | Punctuation | Capitals, end marks, commas, apostrophes, colons, semicolons, quotes, dashes, code formatting | 20 | Machine Manual: complete |
-| [E07](E07-joining-ideas.md) | Joining ideas | Compound and complex sentences; run-ons and fragments; parallel lists | 20 | [Terminal Field Notes](projects/terminal-field-notes/spec.md) |
-| [E08](E08-paragraphs-and-clarity.md) | Paragraphs and clarity | Topic sentences; old-before-new; the clarity rules; cutting words | 25 | Field Notes; [Explain-a-System](projects/explain-a-system/spec.md) starts |
-| [E09](E09-technical-description-and-instructions.md) | Technical description and instructions | Describing systems; instructions; bug reports; READMEs; speaking clearly | 30 | [Bug Report Gauntlet](projects/bug-report-gauntlet/spec.md); Explain-a-System |
-| [E10](E10-argument-and-design-documents.md) | Argument and design documents | Claim–reason–evidence; trade-offs; design docs; editing; demos | 30 | [First Design Doc](projects/first-design-doc/spec.md) |
-| | **Total** | | **~220** | |
+| Stage | Title | Core content | Project hook |
+| :-- | :-- | :-- | :-- |
+| [E01](E01-spelling-baseline-and-high-frequency-words.md) | Spelling baseline and high-frequency words | Measure where you are; the words that make up most text; how to learn a spelling | [Spelling Engine](projects/spelling-engine/spec.md) starts |
+| [E02](E02-sound-patterns-and-spelling-rules.md) | Sound patterns and spelling rules | Vowel and consonant patterns; the big six spelling rules | Spelling Engine: rule tags |
+| [E03](E03-word-parts-and-confusable-words.md) | Word parts and confusable words | Prefixes, suffixes, roots; their/there/they're and 40 more pairs; technical vocabulary | Spelling Engine: v1 complete |
+| [E04](E04-parts-of-speech.md) | Parts of speech | What each kind of word does; naming in code | [Machine Manual](projects/machine-manual/spec.md) starts |
+| [E05](E05-the-simple-sentence-and-verbs.md) | The simple sentence and verbs | Subject–verb–object; the five sentence patterns; tense; agreement; irregular verbs | Machine Manual |
+| [E06](E06-punctuation.md) | Punctuation | Capitals, end marks, commas, apostrophes, colons, semicolons, quotes, dashes, code formatting | Machine Manual: complete |
+| [E07](E07-joining-ideas.md) | Joining ideas | Compound and complex sentences; run-ons and fragments; parallel lists | [Terminal Field Notes](projects/terminal-field-notes/spec.md) |
+| [E08](E08-paragraphs-and-clarity.md) | Paragraphs and clarity | Topic sentences; old-before-new; the clarity rules; cutting words | Field Notes; [Explain-a-System](projects/explain-a-system/spec.md) starts |
+| [E09](E09-technical-description-and-instructions.md) | Technical description and instructions | Describing systems; instructions; bug reports; READMEs; speaking clearly | [Bug Report Gauntlet](projects/bug-report-gauntlet/spec.md); Explain-a-System |
+| [E10](E10-argument-and-design-documents.md) | Argument and design documents | Claim–reason–evidence; trade-offs; design docs; editing; demos | [First Design Doc](projects/first-design-doc/spec.md) |
 
 ### Pace
 
-About 45–60 minutes every weekday evening, plus part of the Sunday review. At that pace:
-- E01–E03 (spelling): about 8 weeks
-- E04–E06 (words, sentences, punctuation): about 9 weeks
-- E07–E08 (joining ideas, paragraphs): about 7 weeks
-- E09–E10 (technical writing): about 10 weeks
+There is no schedule. Each stage's practice routine is written as numbered **sections** of five **English sessions** each (see [study-protocols § The session loop](../../study-protocols.md#the-session-loop)), and a stage is done when its "Done when" list is true. Spelling practice and copywork continue after E10 as a short part of every English session.
 
-So roughly 8 months to E10, running underneath the build modules. Spelling practice and copywork continue after that as a 10–15 minute daily habit.
-
-**Go faster** if a stage's self-check is easy on the first try: do the self-check, fix misses, and move on. **Go slower** if the self-check score is under 80%: repeat the practice week with new examples. There is no prize for speed.
+**Start in the right place:** take the [placement diagnostic](placement.md) first. **Go faster** if a stage's self-check is easy on the first try: do the self-check, fix misses, and move on. **Go slower** if the self-check score is under 80%: repeat the practice section with new examples. There is no prize for speed.
 
 ---
 
-## The daily routine (45–60 minutes)
+## The English session
 
-| Minutes | What | Protocol |
+| Step | What | Protocol |
 | :-- | :-- | :-- |
-| 5 | **Warm-up recall:** write yesterday's rule from memory, with one example | [R] |
-| 10–15 | **Spelling:** today's word set using Look–Say–Cover–Write–Check (E01) | [R] [I] |
-| 15–20 | **Stage lesson or practice set** from the current stage file | [S] [W] |
-| 15–20 | **Copywork** at your current level (below) | [C] |
+| 1 | **Warm-up recall:** write the last session's rule from memory, with one example | [R] |
+| 2 | **Spelling:** the session's word set using Look–Say–Cover–Write–Check (E01) | [R] [I] |
+| 3 | **Stage lesson or practice set** from the current stage file | [S] [W] |
+| 4 | **Copywork** at your current level (below) | [C] |
 | 5 | **Log:** misspelled words go in your error log; one line in the journal | — |
-| +10 | **Fun write** (at least 4 days a week): a prompt from the [writing prompt bank](writing-prompts.md) for your stage — fast, no spell checker, then 3 minutes checking this stage's skill | [C] [T] |
-| +10 | **Touch typing** on keybr.com (weeks 1–12), then Monkeytype's English 1k list | [I] |
+| + | **Fun write** (most sessions): a prompt from the [writing prompt bank](writing-prompts.md) for your stage — fast, no spell checker, then check it for this stage's skill | [C] [T] |
+| + | **Touch typing** on keybr.com (Sections 1–12), then Monkeytype's English 1k list | [I] |
 
-Flashcard review (10–20 minutes) can go here or in the morning. Spelling cards and grammar-rule cards share the same deck as everything else.
+Flashcard review can go here or in a math session. Spelling cards and grammar-rule cards share the same deck as everything else.
 
-**On a bad day:** one copywork sentence (fast version) and your flashcards. That counts.
+**Minimum session:** one copywork sentence (fast version) and your flashcards. That counts.
 
 ---
 
@@ -106,35 +107,36 @@ Franklin copywork [C] is the backbone of this track. You rebuild good sentences 
 
 **Rules for copywork:**
 - No spell checker during copywork. The point is to catch your own errors in the diff.
-- Count your differences. Write the count in the log. Watch it fall over weeks: that is your progress graph.
+- Count your differences. Write the count in the log. Watch it fall over the sections: that is your progress graph.
 - Move up a level when you can rebuild a passage at your level with fewer than 3 spelling errors and the meaning intact, three times in a row.
 
 ---
 
 ## Fun, videos, and courses
 
-- **[Writing prompts](writing-prompts.md):** 150+ fun prompts sorted by stage, plus constraint games, project-tied prompts, and speaking prompts for your weekly recording.
+- **[Writing prompts](writing-prompts.md):** 150+ fun prompts sorted by stage, plus constraint games, project-tied prompts, and speaking prompts for your section recording.
 - **[Courses and videos](../../courses-and-videos.md#foundations-english):** Khan Academy Grammar, Google's free Technical Writing courses, *Writing in the Sciences* and *Grammar and Punctuation* on Coursera, and YouTube channels — mapped stage by stage. Every stage file also has a short **Watch, practise, and write** section.
-- **[The first twelve weeks](../first-twelve-weeks.md):** week-by-week targets, companions, and badges for the start.
+- **[The first sections](../first-sections.md):** Sections 1–12 with targets, companions, and badges for the start.
+- **[Placement diagnostic](placement.md):** where to start, and which stages you can test out of.
 
 ## How the study methods run through this track
 
 | Protocol | How it shows up in English |
 | :-- | :-- |
-| **R** Blank-sheet retrieval | Spelling tests from memory (dictation, not recognition). Rule recall: write the rule and two examples from memory. Weekly: rewrite the stage's rules on a blank page. |
+| **R** Blank-sheet retrieval | Spelling tests from memory (dictation, not recognition). Rule recall: write the rule and two examples from memory. Each section: rewrite the stage's rules on a blank page. |
 | **F** Feynman pass | Explain each grammar idea in plain words: "What does a comma before *and* do?" You also teach-back each stage's main rule out loud once (record it). |
 | **W** Why-ladder | Every rule gets a "why does this rule exist?" Most English rules exist to stop a reader from misreading. You will find the misreading each rule prevents. |
 | **S** Subgoal labels | Sentence analysis and editing are procedures. Each has labelled steps (e.g. "find the verb → find who does it → find what it is done to"). |
-| **I** Interleave and space | Mixed practice sets in every stage, plus review sets with old stages' rules. Spelling words return on the 1-3-7-21-60 day schedule. |
-| **C** Copywork | Every weekday, climbing the ladder above. |
-| **D** Diffuse break | When a sentence will not come right, write the stuck note and leave it. Writing especially benefits from a night's sleep. |
+| **I** Interleave and space | Mixed practice sets in every stage, plus review sets with old stages' rules. Spelling words return on the flashcard spacing schedule ([I], part of the technique). |
+| **C** Copywork | Every English session, climbing the ladder above. |
+| **D** Diffuse break | When a sentence will not come right, write the stuck note and leave it. Writing especially benefits from coming back in a later session. |
 | **T** Teach-back and write-up | Every project ends with a piece of writing someone else reads or uses, and from E08 on, a spoken version. |
 
 ---
 
 ## Projects in this track
 
-Each project grows with you across several stages. They are small in time per week but real.
+Each project grows with you across several stages. Each one is a small part of each session, but real.
 
 | Project | Stages | What you make |
 | :-- | :-- | :-- |
@@ -150,7 +152,7 @@ Each project grows with you across several stages. They are small in time per we
 ## Connections
 
 - **Before:** nothing. This is the start.
-- **Alongside:** [Math foundations](../math/overview.md) every morning. [01 Intro CS Taste](../../01-intro-cs-taste/overview.md) starts after E01. Its write-ups are sized for where you are.
+- **Alongside:** [Math foundations](../math/overview.md) in math sessions. [01 Intro CS Taste](../../01-intro-cs-taste/overview.md) starts after E01. Its write-ups are sized for where you are.
 - **After:** every module's deliverables. Module 05's first project, Copydiff (a tool that automates step 6 of copywork for the rest of your life), is built from the design doc you write in E10.
 - **Deliverables grow with you.** Modules 01–02 ask for short written notes and spoken demos sized for E02–E07. Modules 03–04 add lab reports (E08). From Module 05 on, every major project starts with a full design doc (E10).
 
@@ -168,12 +170,12 @@ Each project grows with you across several stages. They are small in time per we
 
 ## Track assessment
 
-When you finish E10, take this cold, in one sitting (about 2 hours), and file it in your journal:
+When you finish E10, take this cold, in one sitting (checkpoint id `FND-EN-ASSESS`), and file it in your journal:
 
 1. **Dictation:** 50 words chosen at random from your E01–E03 lists (use your Spelling Engine to read them aloud). Target: 48/50.
-2. **Editing:** take a 300-word paragraph you wrote in your first month (from your journal). Fix every error and rewrite it clearly. Count the changes.
+2. **Editing:** take a 300-word paragraph you wrote early on (from your journal). Fix every error and rewrite it clearly. Count the changes.
 3. **Description:** in 400 words, explain how something you built in Module 01 works, for a beginner.
 4. **Instructions:** write instructions for installing and running that project. Give them to someone who has never seen it. They must succeed without asking you a question.
-5. **Spoken:** a 3-minute recorded explanation of the same project, no script, from notes only.
+5. **Spoken:** a short recorded explanation of the same project, no script, from notes only.
 
-**Done when:** all five are finished and the dictation is ≥ 46/50. If not, note the weakest area, spend two weeks on its stage, and retake that part.
+**Done when:** all five are finished and the dictation is ≥ 46/50. If not, note the weakest area, work through its stage's practice sections again, and retake that part.

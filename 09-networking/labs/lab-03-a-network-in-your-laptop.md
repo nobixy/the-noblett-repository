@@ -1,20 +1,24 @@
 ---
 title: "Lab 03 — A Network in Your Laptop"
+id: "MOD09-LAB03"
+type: "lab"
 module: "09-networking"
-hours: 10
+phase: "D"
+order: 1190
+prerequisites: [MOD09-LAB02]
 ---
 
 # Lab 03 — A Network in Your Laptop
 
 **Goal:** build a two-host (then three-host) network inside your Linux machine with **network namespaces**, impose real delay, loss, and bandwidth limits with **netem** and **tbf**, measure TCP with `iperf3`, and test a simple model of TCP throughput. This becomes Courier's test bench.
 
-**Time:** about 10 hours, in three sessions.
+**Sessions:** three.
 
 **Needs:** Linux, `sudo` (on your own machine), `iproute2`, `iperf3`. Everything here is undone by deleting the namespaces (Session 1 shows how) or by rebooting.
 
 ---
 
-## Session 1 — Two hosts and a cable (3 hours)
+## Session 1 — Two hosts and a cable
 
 A **network namespace** is a separate copy of the network stack: its own interfaces, addresses, and routing table. A **veth pair** is a virtual cable: two interfaces connected end to end.
 
@@ -41,7 +45,7 @@ Run programs "on" each host with `sudo ip netns exec alice <command>`. (To avoid
 
 ---
 
-## Session 2 — Delay, loss, bandwidth (4 hours)
+## Session 2 — Delay, loss, bandwidth
 
 **netem** adds impairments to an interface's outgoing traffic; **tbf** limits rate.
 
@@ -63,7 +67,7 @@ netem can also **duplicate**, **reorder**, and **corrupt** packets, and add **ji
 
 ---
 
-## Session 3 — Test a model (3 hours)
+## Session 3 — Test a model
 
 A well-known approximation for steady-state TCP throughput with random loss (Mathis et al., 1997):
 

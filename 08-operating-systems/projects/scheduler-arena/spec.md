@@ -1,9 +1,13 @@
 ---
 title: "Project: Scheduler Arena"
+id: "MOD08-PRJ-scheduler-arena"
+type: "project"
 module: "08-operating-systems"
-hours: 30
+phase: "D"
+order: 1120
+prerequisites: [MOD08-LAB01]
 artifact: "arena: a discrete-event CPU scheduling simulator with workload files, seven policies (including one you design), metrics, Gantt charts, property tests, and a reality check against Linux"
-deliverable: "Lab report: which scheduler for which workload? (with your own policy argued for) + 4-minute demo"
+deliverable: "Lab report: which scheduler for which workload? (with your own policy argued for) + short demo"
 ---
 
 # Project: Scheduler Arena
@@ -11,7 +15,6 @@ deliverable: "Lab report: which scheduler for which workload? (with your own pol
 | | |
 | :-- | :-- |
 | **Module** | 08 Operating Systems |
-| **Time** | About 30 hours |
 | **Prerequisites** | Module 05 (queues, heaps, measurement); Module 03 (probability helps); Lab 01 of this module |
 | **You build** | A simulator that plays out how an operating system shares one CPU among many jobs, under different scheduling rules. You feed it workloads, it produces timelines and metrics, and you run a tournament between policies — including one of your own design. Then you check one idea against the real Linux scheduler |
 | **Deliverable** | A lab report and a demo |
@@ -124,7 +127,7 @@ Linux's scheduler gives CPU shares by **weight** (set with `nice`). Test it:
 
 1. **Design doc** v1 → v2.
 2. **Lab report** (3 pages, E10): the tournament results, the MLFQ starvation story with Gantt charts, your policy's argument and verdict, and the Linux reality check.
-3. **Demo (4 minutes):** the same workload under four policies, side by side as Gantt charts.
+3. **Demo:** the same workload under four policies, side by side as Gantt charts.
 
 ## Study-method integration
 

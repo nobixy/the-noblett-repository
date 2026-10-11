@@ -1,18 +1,22 @@
 ---
 title: "Lab 02 — Text, Unicode, and Fonts"
+id: "MOD10-LAB02"
+type: "lab"
 module: "10-browser-engine"
-hours: 8
+phase: "D"
+order: 1270
+prerequisites: [MOD10-LAB01]
 ---
 
 # Lab 02 — Text, Unicode, and Fonts
 
 **Goal:** understand text the way a rendering engine must: characters vs bytes, UTF-8 encoding by hand, what a font's metrics are, and how to measure and break lines of proportional text.
 
-**Time:** about 8 hours, in three sessions.
+**Sessions:** three.
 
 ---
 
-## Session 1 — Unicode and UTF-8 (3 hours)
+## Session 1 — Unicode and UTF-8
 
 - **Unicode** assigns every character a number, its **code point**: `A` = U+0041, `é` = U+00E9, `€` = U+20AC, `😀` = U+1F600.
 - **UTF-8** encodes code points as 1 to 4 bytes:
@@ -35,7 +39,7 @@ hours: 8
 
 ---
 
-## Session 2 — Font metrics (3 hours)
+## Session 2 — Font metrics
 
 A font gives each character (glyph) an **advance width** (how far to move after drawing it), and the font has an **ascent** (height above the baseline) and **descent** (below). Line height is usually ascent + descent + some gap.
 
@@ -54,7 +58,7 @@ print(f.measure("Hello"), f.metrics())            # width in pixels; ascent, des
 
 ---
 
-## Session 3 — Lines by hand, on a canvas (2 hours)
+## Session 3 — Lines by hand, on a canvas
 
 Draw a paragraph on a Tk `Canvas`, wrapped to a width of 400 px, in a proportional font:
 1. Split into words; measure each word and the width of a space.
@@ -75,4 +79,4 @@ This is exactly the core of Glimpse's inline layout.
 ## Retrieval and reflection
 
 1. **[R]:** the UTF-8 table; code point vs byte vs grapheme; ascent, descent, advance; baseline alignment.
-2. **[F] (spoken, 2 min):** "Why can't a browser just count characters to know how wide a line is?"
+2. **[F] (spoken):** "Why can't a browser just count characters to know how wide a line is?"

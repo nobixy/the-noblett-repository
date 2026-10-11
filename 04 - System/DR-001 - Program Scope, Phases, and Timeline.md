@@ -1,7 +1,8 @@
 ---
 title: "DR-001: Program Scope, Phases, and Timeline"
 type: decision-record
-status: accepted
+status: superseded
+superseded_by: [DR-010, DR-011]
 date: 2026-10-09
 accepted: 2026-10-09
 tags:
@@ -10,6 +11,9 @@ tags:
 ---
 
 # DR-001: Program Scope, Phases, and Timeline
+
+> [!WARNING] Superseded
+> Superseded by [[DR-010 - Project-First Original Curriculum|DR-010]] and [[DR-011 - Sectioned Curriculum and Frontmatter Schema|DR-011]]. Kept as a historical record: its dates, hours, weeks, phases and links into `99 - Archive/` describe the v1 plan and are not current instructions.
 
 *Uses the [[Decision Record]] template. Written under Operating Rule 10 in [[00 - Start Here]]. Accepted 2026-10-09; the edits listed under Consequences were applied the same day.*
 
@@ -61,7 +65,7 @@ Four statements in the vault disagree about how big the program is, how long it 
 4. **Gate = Phase 5 courses done, i.e. Checklist Block 26 (C4).** Specialization A starts at Checklist Block 26, which by construction comes after all Phase 5 courses, so Start Here and the Checklist agree once that's stated. The Employability Portfolio is **not** a gate for the specializations. It's due by the end of Year 4, before the Capstone proposal, so it can't block the curriculum. "When professionally required" stays as an exception, but using it needs its own decision record. "One primary branch at a time" stays: two tracks, run one after the other.
 
 ## Status
-**Accepted**: 2026-10-09 (proposed 2026-10-09).
+**Accepted**: 2026-10-09 (proposed 2026-10-09). **Superseded** by DR-010 and DR-011.
 
 ## Consequences
 **Easier:** one answer to "how big, how long, what order." The Dashboard totals become a real planning number. Phase talk uses one vocabulary: stages for the full program, spine phases for the employability path. Electives stop inflating the plan.

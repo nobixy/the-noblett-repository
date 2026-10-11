@@ -1,3 +1,9 @@
+---
+title: "Appendix F — Curated Course & Resource URLs"
+type: reference
+tags: [reference, links]
+---
+
 # Appendix F — Curated Course & Resource URLs
 
 | Resource | URL |
@@ -10,8 +16,9 @@
 | **Harvard CS50x** | [cs50.harvard.edu/x](https://cs50.harvard.edu/x) |
 | **Berkeley CS61A** | [cs61a.org](https://cs61a.org) |
 | **Nand2Tetris** | [nand2tetris.org](https://www.nand2tetris.org) |
-| **SICP (MIT Press Full Text)** | [mitpress.mit.edu/sicp](https://mitpress.mit.edu/sicp) |
-| **CS:APP Labs (CMU 15-213)** | [csapp.cs.cmu.edu/3e/labs.html](http://csapp.cs.cmu.edu/3e/labs.html) |
+| **SICP (official free full text, MIT Press, HTML, CC BY-SA 4.0)** | [mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html) |
+| **SICP (MIT Press book page)** | [mitpress.mit.edu/sicp](https://mitpress.mit.edu/sicp) |
+| **CS:APP Labs (CMU 15-213)** | [csapp.cs.cmu.edu/3e/labs.html](https://csapp.cs.cmu.edu/3e/labs.html) |
 | **Axler LADR 4e (Open Access)** | [linear.axler.net](https://linear.axler.net) |
 | **Crafting Interpreters (Full Text)** | [craftinginterpreters.com](https://craftinginterpreters.com) |
 | **ETH Zürich DDCA (Onur Mutlu)** | [safari.ethz.ch](https://safari.ethz.ch) · [YouTube](https://www.youtube.com/onurmutlulectures) |

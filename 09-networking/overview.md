@@ -1,7 +1,12 @@
 ---
 title: "09 — Networking"
+id: "MOD09"
+type: "overview"
 module: "09-networking"
-hours: 200
+phase: "D"
+order: 1160
+prerequisites: [MOD01-PRJ-relay-chat, MOD07, MOD08, MOD05, M11, MOD03-U8]
+checkpoints: [MOD09-CLOSE]
 tags: [module, networking, protocols]
 ---
 
@@ -31,17 +36,16 @@ By the end you will be able to:
 
 ## Sequence and time
 
-| Order | Item | Hours | Concepts |
-| :-- | :-- | --: | :-- |
-| 1 | [Lab 01 — Wireshark Field Trip](labs/lab-01-wireshark-field-trip.md) | 8 | layers, encapsulation, ARP, DNS, TCP handshake, TLS, traceroute |
-| 2 | [Lab 02 — DNS by Hand](labs/lab-02-dns-by-hand.md) | 8 | binary formats in network byte order, UDP, name compression, iterative resolution |
-| 3 | **[Packet Telescope](projects/packet-telescope/spec.md)** | 30 | pcap format, header parsing, checksums, flows, TCP analysis |
-| 4 | [Lab 03 — A Network in Your Laptop](labs/lab-03-a-network-in-your-laptop.md) | 10 | namespaces, veth, netem, iperf3, the Mathis model |
-| 5 | **[Courier](projects/courier/spec.md)** | 90 | protocol design, handshakes, sliding windows, SACK, RTO estimation, flow and congestion control, fairness |
-| 6 | **[Lantern](projects/lantern/spec.md)** | 55 | HTTP/1.1 framing, keep-alive, caching headers, ranges, concurrency models, robustness |
-| | **Total** | **~200** | |
+| Order | Item | Concepts |
+| :-- | :-- | :-- |
+| 1 | [Lab 01 — Wireshark Field Trip](labs/lab-01-wireshark-field-trip.md) | layers, encapsulation, ARP, DNS, TCP handshake, TLS, traceroute |
+| 2 | [Lab 02 — DNS by Hand](labs/lab-02-dns-by-hand.md) | binary formats in network byte order, UDP, name compression, iterative resolution |
+| 3 | **[Packet Telescope](projects/packet-telescope/spec.md)** | pcap format, header parsing, checksums, flows, TCP analysis |
+| 4 | [Lab 03 — A Network in Your Laptop](labs/lab-03-a-network-in-your-laptop.md) | namespaces, veth, netem, iperf3, the Mathis model |
+| 5 | **[Courier](projects/courier/spec.md)** | protocol design, handshakes, sliding windows, SACK, RTO estimation, flow and congestion control, fairness |
+| 6 | **[Lantern](projects/lantern/spec.md)** | HTTP/1.1 framing, keep-alive, caching headers, ranges, concurrency models, robustness |
 
-At about 12 hours a week, about 17 weeks. Courier is the heart of the module; give it time.
+Courier is the heart of the module; give it as many sessions as it needs.
 
 ## How the projects map to the layers
 
@@ -77,9 +81,11 @@ At about 12 hours a week, about 17 weeks. Courier is the heart of the module; gi
 
 ## Module close
 
-1. **Cumulative retrieval [R] (60 min):** the four layers with an example protocol each; IPv4, UDP, TCP, and Courier header layouts; the RTO formulas; HTTP request and response framing.
+1. **Cumulative retrieval [R]:** the four layers with an example protocol each; IPv4, UDP, TCP, and Courier header layouts; the RTO formulas; HTTP request and response framing.
 2. **Rewrite [Explain-a-System](../00-foundations/english/projects/explain-a-system/spec.md) explainer 4** ("loading a web page") from scratch, with a packet capture as evidence.
-3. **Showcase [T]:** a 6-minute recording: Packet Telescope on a capture of Courier transferring a file through the gremlin, then Lantern serving a page.
+3. **Showcase [T]:** a short recording: Packet Telescope on a capture of Courier transferring a file through the gremlin, then Lantern serving a page.
 4. Tick the module in [Start Here](<../00 - Start Here.md>).
+
+**Resources:** books, docs, and tools for this module are in [resources.md](resources.md) (pointers only — the projects are the course).
 
 **Next:** [10 Browser Engine](../10-browser-engine/overview.md) and [11 Databases](../11-databases/overview.md).

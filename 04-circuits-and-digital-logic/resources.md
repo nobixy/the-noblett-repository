@@ -1,6 +1,11 @@
 ---
 title: "04 — Resources"
+id: "MOD04-RES"
+type: "reference"
 module: "04-circuits-and-digital-logic"
+phase: "B"
+order: 660
+prerequisites: []
 ---
 
 # 04 — Resources

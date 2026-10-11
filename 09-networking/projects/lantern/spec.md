@@ -1,9 +1,13 @@
 ---
 title: "Project: Lantern"
+id: "MOD09-PRJ-lantern"
+type: "project"
 module: "09-networking"
-hours: 55
+phase: "D"
+order: 1220
+prerequisites: [MOD09-LAB03, MOD01-PRJ-pagelet, MOD08-LAB01, MOD07-PRJ-crate]
 artifact: "lantern: an HTTP/1.1 server written from sockets up — request parsing with strict limits, static files with MIME types and directory listings, keep-alive, conditional and range requests, chunked responses, three concurrency models compared, logging, slow-client defences, a fuzzed parser, and a small dynamic endpoint"
-deliverable: "Design doc + conformance and robustness report + benchmark report (concurrency models) + 5-minute demo"
+deliverable: "Design doc + conformance and robustness report + benchmark report (concurrency models) + short demo"
 ---
 
 # Project: Lantern
@@ -11,7 +15,6 @@ deliverable: "Design doc + conformance and robustness report + benchmark report 
 | | |
 | :-- | :-- |
 | **Module** | 09 Networking |
-| **Time** | About 55 hours |
 | **Prerequisites** | Pagelet (the client side of HTTP/1.0); Module 08 Lab 01 (threads); Lab 03 of this module (bench); Crate (fuzzing) |
 | **Language** | C (recommended — real systems practice) or Python. Targets below are for C; halve throughput targets for Python. |
 | **You build** | **Lantern**, a web server. It accepts connections, parses HTTP/1.1 requests defensively, serves files with the right headers, keeps connections open for many requests, answers "not modified" and "here's just the part you asked for," streams generated content, logs every request, survives slow or malicious clients — and you build it three different ways for concurrency and measure which is best |
@@ -115,7 +118,7 @@ Add one dynamic endpoint, e.g. `/search?q=…` that calls your **Vault Search** 
 1. **Design doc** v1 → v2.
 2. **Conformance and robustness report** (2 pages): the test suite, traversal tests, slowloris and fuzzing results.
 3. **Benchmark report** (2 pages): the three models across scenarios, keep-alive effect, comparison with other servers, and a recommendation.
-4. **Demo (5 minutes):** Pagelet browsing your site from Lantern, `curl -v` showing 304 and 206, a traversal attempt refused, and the benchmark plots.
+4. **Demo:** Pagelet browsing your site from Lantern, `curl -v` showing 304 and 206, a traversal attempt refused, and the benchmark plots.
 
 ## Study-method integration
 

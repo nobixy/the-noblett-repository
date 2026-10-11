@@ -1,9 +1,13 @@
 ---
 title: "Project: Tone Loom"
+id: "MOD02-PRJ-tone-loom"
+type: "project"
 module: "02-programming-fundamentals"
-hours: 40
+phase: "B"
+order: 470
+prerequisites: [MOD02-LAB03, M07, FND-MA-PRJ-base-workshop]
 artifact: "loom: a synthesizer that writes WAV files byte by byte, with waveforms, envelopes, mixing, and a text song format; two songs; an aliasing experiment"
-deliverable: "Design note, README, a song-format reference, 4-minute demo with audio, 1-page aliasing lab report"
+deliverable: "Design note, README, a song-format reference, short demo with audio, 1-page aliasing lab report"
 ---
 
 # Project: Tone Loom
@@ -11,7 +15,6 @@ deliverable: "Design note, README, a song-format reference, 4-minute demo with a
 | | |
 | :-- | :-- |
 | **Module** | 02 Programming Fundamentals |
-| **Time** | About 40 hours |
 | **Prerequisites** | Labs 01–03 of this module; Math M05–M07 (fractions, ratios, exponents; the pitch formula is explained below); [Base Workshop](../../../00-foundations/math/projects/base-workshop/spec.md)'s `minihex.py` |
 | **You build** | `loom`, a music synthesizer with no audio libraries: it computes every sample of a sound wave itself and writes the WAV file's bytes by hand. Waveforms, notes, envelopes, mixing, a song language, and an experiment that makes a famous sampling effect audible |
 | **Deliverable** | Design note, README, song-format reference, recorded demo, and a lab report |
@@ -191,7 +194,7 @@ Sampling can only capture frequencies up to **half the sample rate** (the **Nyqu
 1. **Design note** v1 and v2.
 2. **`SONG_FORMAT.md`:** the song language reference, every keyword with an example (your second language specification after PML).
 3. **README** with how to render and play, and how to run tests.
-4. **Demo (4 minutes):** play your two songs, show the WAV header in `minihex.py`, and play the aliasing tones while showing their spectra.
+4. **Demo:** play your two songs, show the WAV header in `minihex.py`, and play the aliasing tones while showing their spectra.
 5. **Lab report** on aliasing ([template](<../../../04 - System/Lab Report Template.md>)).
 
 ## Study-method integration

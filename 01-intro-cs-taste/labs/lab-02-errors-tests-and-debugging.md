@@ -1,20 +1,24 @@
 ---
 title: "Lab 02 — Errors, Tests, and Debugging"
+id: "MOD01-LAB02"
+type: "lab"
 module: "01-intro-cs-taste"
-hours: 4
+phase: "A"
+order: 250
+prerequisites: [MOD01-LAB01]
 ---
 
 # Lab 02 — Errors, Tests, and Debugging
 
 **Goal:** stop fearing error messages; write tests that prove your code works; and have a calm, step-by-step method for finding bugs.
 
-**Time:** about 4 hours, in two sessions.
+**Sessions:** two.
 
 **Before you start:** [Lab 01](lab-01-python-first-steps.md) done.
 
 ---
 
-## Session 1 — Reading errors (2 hours)
+## Session 1 — Reading errors
 
 ### An error message is a bug report written by the computer
 
@@ -57,7 +61,7 @@ Write a tiny program and cause **each** error in the table above on purpose. For
 
 ---
 
-## Session 2 — Tests and debugging (2 hours)
+## Session 2 — Tests and debugging
 
 ### Tests: code that checks code
 
@@ -123,7 +127,7 @@ When something's wrong, don't randomly change things. Follow these subgoals [S]:
 5. **Fix, then test:** add a regression test, fix the code, run all tests.
 6. **Write it down:** a two-line note in your log: the symptom, and the cause. You'll start to see your own patterns.
 
-**The 90-minute rule [D]:** if you're still stuck after 90 minutes in one sitting, write a **stuck note** (what you're trying to do; what you tried; what you think is wrong), and stop. Walk. Sleep. Tomorrow, read only the stuck note and start from step 2.
+**The stuck rule [D]:** if you're still stuck after three honest attempts (different ideas, not the same one three times), write a **stuck note** (what you're trying to do; what you tried; what you think is wrong), and stop. Walk. Sleep. Next session, read only the stuck note and start from step 2.
 
 ### Practice
 
@@ -140,7 +144,7 @@ def median(numbers):
 ```
 
 <details>
-<summary>Hints (open only after trying for 25 minutes)</summary>
+<summary>Hints (open only after three honest attempts)</summary>
 
 1. What type is `len(numbers) / 2`? Can you use it as a list index? (`/` vs `//`.)
 2. For an even-length list like `[1, 2, 3, 4]`, which two indexes are the middle ones? (1 and 2, not 2 and 3.)
@@ -159,7 +163,7 @@ def median(numbers):
 
 ## Retrieval and reflection
 
-1. **Blank sheet (10 min):** how to read a traceback; five kinds of tests; the six debugging steps.
-2. **Feynman (spoken, 1 min):** "Why write a test before fixing a bug?"
+1. **Blank sheet:** how to read a traceback; five kinds of tests; the six debugging steps.
+2. **Feynman (spoken):** "Why write a test before fixing a bug?"
 
 **Next:** the projects. Start with [Nib, a tiny computer](../projects/nib-machine/spec.md).

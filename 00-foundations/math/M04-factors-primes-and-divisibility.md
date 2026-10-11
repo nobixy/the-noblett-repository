@@ -1,22 +1,24 @@
 ---
 title: "M04 — Factors, Primes, and Divisibility"
-stage: M04
-track: math
-hours: 20
-weeks: 3
+id: "M04"
+type: "lesson"
+module: "00-foundations"
+track: "math"
+stage: "M04"
+phase: "A"
+order: 170
+prerequisites: [M03]
 ---
 
 # M04 — Factors, Primes, and Divisibility
 
 **In this stage you will:** find factors and multiples, use quick divisibility tests (and know why they work), understand prime numbers as the "atoms" of all whole numbers, factor any number into primes, prove there are infinitely many primes (your first real proof), and find greatest common divisors and least common multiples, including with Euclid's 2,300-year-old algorithm.
 
-**Time:** about 20 hours over 3 weeks.
-
 **Before you start:** M03 done. Times-table facts are fast. You know what `mod` means.
 
 ---
 
-## Diagnostic (cold, 20 minutes, no calculator)
+## Diagnostic (cold, no calculator)
 
 1. List all the factors of 36.
 2. Is 91 prime?
@@ -267,15 +269,15 @@ The **LCM** of two numbers is the smallest number that is a multiple of both. LC
 
 ---
 
-## Practice routine (3 weeks)
+## Practice routine (3 sections)
 
-| Week | Focus |
+| Section | Focus |
 | :-- | :-- |
-| 1 | Mon: factors and the √n stop · Tue: divisibility tests (and why) · Wed: primes and testing · Thu: sieve 1–100 by hand · Fri: Practice Set 1, items 1–9 |
-| 2 | Mon–Tue: factor trees and ladders · Wed: the infinitely-many-primes proof (read, then rewrite from memory [R]) · Thu: GCD both methods · Fri: Prime Factory Milestone 2 |
-| 3 | Mon: LCM · Tue: applications · Wed: Practice Set 1 rest + Set 2 · Thu: Feynman (the proof, out loud) · Fri: self-check |
+| 1 | Session 1: factors and the √n stop · Session 2: divisibility tests (and why) · Session 3: primes and testing · Session 4: sieve 1–100 by hand · Session 5: Practice Set 1, items 1–9 |
+| 2 | Sessions 1–2: factor trees and ladders · Session 3: the infinitely-many-primes proof (read, then rewrite from memory [R]) · Session 4: GCD both methods · Session 5: Prime Factory Milestone 2 |
+| 3 | Session 1: LCM · Session 2: applications · Session 3: Practice Set 1 rest + Set 2 · Session 4: Feynman (the proof, out loud) · Session 5: self-check |
 
-**Daily warm-up [R]:** Euclid's algorithm subgoal labels from memory, then one GCD.
+**Warm-up [R] (every session):** Euclid's algorithm subgoal labels from memory, then one GCD.
 **Flashcards:** primes below 50; divisibility tests with their reasons.
 
 **Key why-questions [W]:**
@@ -345,7 +347,7 @@ The **LCM** of two numbers is the smallest number that is a multiple of both. LC
 
 ---
 
-## Self-check (cold, 30 minutes, no calculator)
+## Self-check (cold, no calculator)
 
 1. List all factors of 60.
 2. Prime factorisation of 1,260.
@@ -355,7 +357,7 @@ The **LCM** of two numbers is the smallest number that is a multiple of both. LC
 6. LCM(14, 21)
 7. In two sentences, explain why 1 is not prime.
 8. In three sentences, explain why the digit-sum test for 9 works.
-9. **[R] Blank sheet (10 min):** write Euclid's proof that there are infinitely many primes, from memory. Then compare with Part 5.
+9. **[R] Blank sheet:** write Euclid's proof that there are infinitely many primes, from memory. Then compare with Part 5.
 
 <details>
 <summary>Answers (self-check)</summary>

@@ -19,7 +19,7 @@ tags: [paper, research]
 
 ---
 
-## 🔍 Pass 1: The Bird's-Eye View (5–10 min)
+## 🔍 Pass 1: The Bird's-Eye View
 *Skim title, abstract, introduction, section headings, and conclusions.*
 - **Category:** What type of paper is this? (Measurement, system description, theory, analysis?)
 - **Context:** Which other papers is it related to? Which theoretical bases were used to analyze the problem?
@@ -30,7 +30,7 @@ tags: [paper, research]
 
 ---
 
-## 📖 Pass 2: Grasp the Content (1 hr)
+## 📖 Pass 2: Grasp the Content
 *Read with care, but ignore details like proofs.*
 - **Key Points:**
   - 
@@ -41,7 +41,7 @@ tags: [paper, research]
 
 ---
 
-## 🔬 Pass 3: Virtual Re-Implementation (2–5 hrs)
+## 🔬 Pass 3: Virtual Re-Implementation
 *Virtually re-implement the paper: make the same assumptions, re-create the work, uncover hidden assumptions.*
 - **Hidden Assumptions & Omissions:**
   - 

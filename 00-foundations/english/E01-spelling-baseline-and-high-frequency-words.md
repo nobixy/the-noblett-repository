@@ -1,16 +1,20 @@
 ---
 title: "E01 — Spelling Baseline and High-Frequency Words"
-stage: E01
-track: english
-hours: 15
-weeks: 3
+id: "E01"
+type: "lesson"
+module: "00-foundations"
+track: "english"
+stage: "E01"
+phase: "A"
+order: 50
+prerequisites: []
 ---
 
 # E01 — Spelling Baseline and High-Frequency Words
 
 **In this stage you will:** measure exactly where your spelling is today, learn a method for fixing any word for good, start your personal error log, and learn the 200 words that matter most.
 
-**Time:** about 15 hours over 3 weeks (45–60 minutes on weekday evenings).
+**Sessions:** this stage runs over three sections (Sections 1–3), alongside copywork.
 
 ---
 
@@ -22,12 +26,12 @@ There is also good news about English itself. English spelling looks random, but
 
 **Connection to later work:** your error log is your first dataset. In [01 Intro CS Taste](../../01-intro-cs-taste/overview.md) and the [Spelling Engine](projects/spelling-engine/spec.md) project, you turn it into a program that reads words aloud and tests you. In Module 02 it becomes part of your own spaced-repetition app. You are building the tool you will learn with.
 
-> **Why is English spelling so messy?** (a two-minute story, worth knowing)
+> **Why is English spelling so messy?** (a short story, worth knowing)
 > English spelling was mostly fixed in the 1400s–1600s, when printing spread. But English pronunciation kept changing, especially the long vowels (this is called the Great Vowel Shift). So "knight" was once said with the *k* and a throaty *gh*. The letters stayed; the sounds moved. English also borrowed words from French ("restaurant"), Latin ("receive"), and Greek ("rhythm", "psychology"), often keeping their original spelling. So English spelling is often a record of *where a word came from* and *how it used to sound*. When a spelling seems crazy, its history usually explains it, and the explanation makes it easier to remember. That is a why-ladder [W] you can use on any strange word.
 
 ---
 
-## Part 1 — Measure your baseline (week 1, days 1–3)
+## Part 1 — Measure your baseline (section 1, sessions 1–3)
 
 Do all three tests before learning anything. Save the results in your workbench as `english/baseline-YYYY-MM-DD.md`. You will repeat these tests at the end of E03 and E10 and compare.
 
@@ -36,7 +40,7 @@ Do all three tests before learning anything. Save the results in your workbench 
 You need someone or something to read words aloud, so you cannot see them.
 
 1. Take your phone's voice recorder. Read the 60 words in the **Dictation list** below aloud, slowly, with a 5-second pause between words. Say each word, then a short sentence using it, then the word again. ("Separate. Keep the files separate. Separate.")
-2. Do **not** study the list. Record it, then wait at least one day so you forget the visual memory of it.
+2. Do **not** study the list. Record it, then wait until a later session so you forget the visual memory of it.
 3. Play the recording and write each word on paper or in a plain text file with spell check **off**.
 4. Mark it against the list. Count your score out of 60.
 
@@ -59,7 +63,7 @@ You need someone or something to read words aloud, so you cannot see them.
 
 ### Test B: Free-writing error rate
 
-1. Set a timer for 15 minutes. Write about anything you know well: your job, a machine you use, a game you play. Spell check off. Do not stop to fix things.
+1. Write about 300 words, in one sitting, about anything you know well: your job, a machine you use, a game you play. Spell check off. Do not stop to fix things.
 2. Count the words you wrote. (On Linux: save as `freewrite.txt` and run `wc -w freewrite.txt`.)
 3. Now find the misspellings. Run a spell checker *after* writing (`hunspell -l freewrite.txt` lists unknown words; or paste into any editor with spell check). Also read it once yourself: spell checkers miss real words used wrongly (*there* for *their*).
 4. Calculate your **error rate**: misspellings ÷ words × 100. Example: 9 errors in 300 words = 3 errors per 100 words.
@@ -68,7 +72,7 @@ This number is the one that matters most, because it is about your *real* writin
 
 ### Test C: Proofreading
 
-The passage below has **15 spelling errors**. Find as many as you can in 10 minutes. Write each wrong word and its correction. Then check the answers.
+The passage below has **15 spelling errors**. Find as many as you can in one pass, without help. Write each wrong word and its correction. Then check the answers.
 
 > Yesterday I tryed to set up my new computer. The instructions where not very clear, and I definately did not have enough time. First I had to seperate the cables, wich took a long time becuase they were tangled. Then the screen would'nt turn on. I beleive the problem was the power cable, but I wasnt sure. I went threw every step again untill it worked. Finaly the screen came on, and I was realy suprised how fast the computer was. Next time I will read the hole manual first.
 
@@ -91,7 +95,7 @@ In `baseline-YYYY-MM-DD.md`, record:
 
 ---
 
-## Part 2 — Start your error log (week 1, day 4)
+## Part 2 — Start your error log (section 1, session 4)
 
 Your **error log** is the most important file in this track. Every misspelled word you notice, from any source, goes in it. Keep it as a plain text file in your workbench: `english/spelling-log.tsv`. ("TSV" means tab-separated values: one row per line, columns separated by a Tab key press. It is a simple data format that programs can read. You will write such a program in the Spelling Engine project.)
 
@@ -115,7 +119,7 @@ date	wrong	right	tag	note
   - `sound-spelling` — written the way it sounds, but English spells it differently (tryed, wich)
 - **note:** your memory hook (see Part 3).
 
-**Rule:** a word leaves the log only after you have spelled it right in dictation on 4 different days spread over at least 3 weeks (the spacing schedule: 1, 3, 7, 21 days). Mark it `learned` in the note column then; do not delete it. Your learned list is a record of progress.
+**Rule:** a word leaves the log only after you have spelled it right in dictation on 4 separate reviews, spaced out by the spacing schedule (1, 3, 7, 21 days; these intervals are part of the spacing technique, not a curriculum schedule). Mark it `learned` in the note column then; do not delete it. Your learned list is a record of progress.
 
 ---
 
@@ -138,15 +142,15 @@ Use this method for every word in your log and every word in the lists below. It
 6. **Write** it from memory, saying the spelling voice.
 7. **Check** letter by letter. If wrong, go back to step 3. If right, write it twice more, then write it in a sentence of your own.
 
-This takes about one minute per word. That is the right speed. Ten words a day, done this way, beats fifty words copied quickly.
+Go slowly; that is the right speed. Ten words per session, done this way, beats fifty words copied quickly.
 
 > **Why this works [W]:** Step 6 is retrieval [R]: pulling the spelling from memory is what makes it stick, not looking at it. Step 3 focuses your effort on the only part that is actually hard. Step 4 gives your memory something meaningful to hold, which is easier than holding a random letter string. Step 7 gives instant feedback so you don't practise a mistake.
 
 ---
 
-## Part 4 — The two core lists (weeks 1–3)
+## Part 4 — The two core lists (sections 1–3)
 
-Learn these lists over three weeks using the daily routine in Part 5. Many of the words you already know. Test each word first (dictation); only study the ones you miss. That is efficient, and the testing itself strengthens the ones you know.
+Learn these lists over Sections 1–3 using the session routine in Part 5. Many of the words you already know. Test each word first (dictation); only study the ones you miss. That is efficient, and the testing itself strengthens the ones you know.
 
 ### Core List A — 100 words that make up about half of everything you read
 
@@ -162,35 +166,35 @@ These short words are everywhere. Most you know. The bolded ones are the ones ad
 
 ### Core List C — your error log
 
-The words in your own error log from Part 1 come first, every day, before the lists above. Your own mistakes are the most valuable words to study.
+The words in your own error log from Part 1 come first, every session, before the lists above. Your own mistakes are the most valuable words to study.
 
 ---
 
-## Part 5 — The three-week routine
+## Part 5 — The three-section routine
 
-Each weekday (45–60 minutes total, alongside copywork):
+Each session (alongside copywork):
 
-| Step | Time | What |
-| :-- | :-- | :-- |
-| 1 | 3 min | **Warm-up recall [R]:** write yesterday's 10 words from memory. Check. Misses go back to today's list. |
-| 2 | 12 min | **10 words** with Look–Say–Cover–Write–Check: 4 from your error log, 3 from List A or B (new), 3 due for review (spacing). |
-| 3 | 15–20 min | **Copywork [C], Level 1:** one 2–3 sentence passage from Simple English Wikipedia (e.g. the article "Computer"). Use the fast version from [study-protocols](../../study-protocols.md#c--franklin-copywork) on Monday–Thursday; the full version (hide for a day) on Friday. |
-| 4 | 5 min | **Sentence use:** write 3 sentences, each using one of today's words, about something you did today. |
-| 5 | 2 min | **Log:** new misspellings from any source go in `spelling-log.tsv`. |
+| Step | What |
+| :-- | :-- |
+| 1 | **Warm-up recall [R]:** write the last session's 10 words from memory. Check. Misses go back to this session's list. |
+| 2 | **10 words** with Look–Say–Cover–Write–Check: 4 from your error log, 3 from List A or B (new), 3 due for review (spacing). |
+| 3 | **Copywork [C], Level 1:** one 2–3 sentence passage from Simple English Wikipedia (e.g. the article "Computer"). Use the fast version from [study-protocols](../../study-protocols.md#c--franklin-copywork) in Sessions 1–4; the full version (hide it until a later session) in Session 5. |
+| 4 | **Sentence use:** write 3 sentences, each using one of this session's words, about something you did recently. |
+| 5 | **Log:** new misspellings from any source go in `spelling-log.tsv`. |
 
-**Fridays:** 20-word dictation test from the week's words plus 5 from earlier weeks (mixed, [I]). Record the score.
+**Session 5 of each section:** 20-word dictation test from the section's words plus 5 from earlier sections (mixed, [I]). Record the score.
 
-**Spacing by hand (until you build the tool):** use a paper box with five sections, or five envelopes, labelled *1 day, 3 days, 7 days, 21 days, 60 days*. Each word is a card. Right → move it one section to the right. Wrong → back to *1 day*. Each day, study the cards whose time has come. (This is called a Leitner box. You will program one in Module 02.)
+**Spacing by hand (until you build the tool):** use a paper box with five sections, or five envelopes, labelled *1 day, 3 days, 7 days, 21 days, 60 days*. Each word is a card. Right → move it one section to the right. Wrong → back to *1 day*. Each session, study the cards whose time has come. (This is called a Leitner box. You will program one in Module 02.)
 
 ---
 
 ## Part 6 — Study protocols in this stage
 
 - **[R] Retrieval:** every spelling test is dictation, never "look at the list and see if it looks right." Recognising a word is much easier than producing it, and producing it is the skill you need.
-- **[W] Why-ladder:** each day, pick one word from your log and ask "why is it spelled like that?" Look it up on etymonline.com (the Online Etymology Dictionary, free). Example: *because* → "by cause" in Middle English → that's why it has *cause* inside it. Write the answer as the word's hook.
-- **[F] Feynman:** at the end of week 2, write half a page explaining to a friend *how you learn a spelling* and *why it works*. Mark any step you cannot justify. (The "Why this works" box above is the answer to check against, after you write yours.)
-- **[I] Interleaving:** Friday tests mix this week's words with older ones. Never test one week's words alone.
-- **[D] Diffuse:** some words will not stick. After three failed days, stop studying that word for a week. Put it on a sticky note somewhere you'll see it without trying (the bathroom mirror). Then go back to it.
+- **[W] Why-ladder:** each session, pick one word from your log and ask "why is it spelled like that?" Look it up on etymonline.com (the Online Etymology Dictionary, free). Example: *because* → "by cause" in Middle English → that's why it has *cause* inside it. Write the answer as the word's hook.
+- **[F] Feynman:** at the end of section 2, write half a page explaining to a friend *how you learn a spelling* and *why it works*. Mark any step you cannot justify. (The "Why this works" box above is the answer to check against, after you write yours.)
+- **[I] Interleaving:** Session-5 tests mix this section's words with older ones. Never test one section's words alone.
+- **[D] Diffuse:** some words will not stick. After three failed sessions, stop studying that word for the rest of the section. Put it on a sticky note somewhere you'll see it without trying (the bathroom mirror). Then go back to it.
 
 ---
 
@@ -199,12 +203,12 @@ Each weekday (45–60 minutes total, alongside copywork):
 *Companions, not replacements: the lessons above come first. Full list: [courses-and-videos.md](../../courses-and-videos.md#foundations-english).*
 
 - **Watch:** English with Lucy and BBC Learning English (YouTube): short videos on commonly misspelled words. Use the [V protocol](../../study-protocols.md#v--watch-actively): after each video, spell its words from memory.
-- **Practise:** keybr.com typing, 10 minutes a day (your fingers learn spellings too). Learning How to Learn (Coursera), weeks 1–3.
+- **Practise:** keybr.com typing, a short warm-up each session (your fingers learn spellings too). Learning How to Learn (Coursera), parts 1–3.
 - **Fun writes this stage** ([prompt bank](writing-prompts.md)): #1 word smuggler · #4 name acrostic · #13 ten-word headlines · #17 the 100-word challenge
 
 ---
 
-## Self-check (end of week 3)
+## Self-check (end of section 3)
 
 Do this cold, without studying first.
 
@@ -213,7 +217,7 @@ Do this cold, without studying first.
    > I recieved you're message on Wendsday. Their is a problem with the adress you gave me, and I am not shure which biulding it is. Could you tell me wether it is the one acros from the libary?
 
 3. **Explain:** in 3–5 sentences, explain the Look–Say–Cover–Write–Check method and why the *Write from memory* step matters.
-4. **Free-write again:** 15 minutes, any topic. Compute your new error rate. Compare with your baseline.
+4. **Free-write again:** about 300 words, any topic. Compute your new error rate. Compare with your baseline.
 
 <details>
 <summary>Answers (self-check 2)</summary>

@@ -3,8 +3,6 @@ title: "LM11: Focused and Diffuse Thinking"
 type: learning-method
 method_id: LM11
 evidence: "Useful metaphor; incubation evidence moderate"
-project_hours: 2
-counts_toward: "P5"
 ---
 
 # LM11 — Focused and Diffuse Thinking
@@ -24,14 +22,14 @@ So: only take the break after a real attempt.
 - Use it for stuck bugs, proofs and design questions: write down exactly where you're stuck, walk, then come back and reread that note first.
 
 ## Common mistakes
-- Using "diffuse mode" as permission to quit after 5 minutes.
+- Using "diffuse mode" as permission to quit after one attempt.
 - Taking the break on something demanding, like social media or another hard problem.
 
 ## 🔨 Project: Stuck-Log experiment
-For two weeks, whenever you're stuck for more than 25 minutes (a Bandit level, a proof, a bug), log it. On odd days keep pushing; on even days take a 20-minute walk first. Record whether you solved it within 30 minutes of going back.
+Across two sections, whenever you're still stuck after three honest attempts (a Bandit level, a proof, a bug), log it. Alternate: on odd-numbered episodes keep pushing; on even-numbered ones take a walk first. Record whether you solved it soon after going back.
 - **Done when:** at least 8 stuck episodes are logged, with a 3-sentence conclusion that admits how small the sample is.
-- **Time:** about 2 h, counted inside [[P5 - Tooling|P5]]'s existing hours (counts as the Missing Semester exercises for lecture 2 (shell tools and scripting), 4 (data wrangling) and 6 (version control): the exercises are your own tools).
-- **Level / when:** No code (optional chart). Week 8, with Bandit.
+- **Level:** No code (optional chart).
+- **Fits with:** Protocol **D** (diffuse break) and the stuck rule: three honest attempts, then a stuck note and a break.
 
 ## Sources
 - Oakley, *A Mind for Numbers* (2014), ch. 2.

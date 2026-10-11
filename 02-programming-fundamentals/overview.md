@@ -1,7 +1,12 @@
 ---
 title: "02 — Programming Fundamentals"
+id: "MOD02"
+type: "overview"
 module: "02-programming-fundamentals"
-hours: 160
+phase: "B"
+order: 420
+prerequisites: [MOD01, E05, M05]
+checkpoints: [MOD02-CLOSE]
 tags: [module, programming]
 ---
 
@@ -30,17 +35,16 @@ By the end you will be able to:
 
 ## Sequence and time
 
-| Order | Item | Hours | Concepts |
-| :-- | :-- | --: | :-- |
-| 1 | [Lab 01 — Recursion and Decomposition](labs/lab-01-recursion-and-decomposition.md) | 10 | breaking problems down; recursion; Pólya |
-| 2 | [Lab 02 — Testing and Git Workflow](labs/lab-02-testing-and-git-workflow.md) | 8 | pytest fixtures, parametrised tests, branches, merges |
-| 3 | [Lab 03 — Classes and Data Modelling](labs/lab-03-classes-and-data-modelling.md) | 10 | classes, dataclasses, invariants, `__repr__`, enums |
-| 4 | **[Project: Study Deck](projects/study-deck/spec.md)** | 45 | data model, plain-text formats, scheduling algorithms, fake clocks, a CLI you use daily |
-| 5 | **[Project: Tone Loom](projects/tone-loom/spec.md)** | 40 | binary file formats, bytes and endianness, sampling, ratios and exponents in pitch, a song text format |
-| 6 | **[Project: Worldfile](projects/worldfile/spec.md)** | 45 | parsing a format you design, state machines, a tiny condition language (recursion), save/load, golden-file testing |
-| | **Total** | **~160** | |
+| Order | Item | Concepts |
+| :-- | :-- | :-- |
+| 1 | [Lab 01 — Recursion and Decomposition](labs/lab-01-recursion-and-decomposition.md) | breaking problems down; recursion; Pólya |
+| 2 | [Lab 02 — Testing and Git Workflow](labs/lab-02-testing-and-git-workflow.md) | pytest fixtures, parametrised tests, branches, merges |
+| 3 | [Lab 03 — Classes and Data Modelling](labs/lab-03-classes-and-data-modelling.md) | classes, dataclasses, invariants, `__repr__`, enums |
+| 4 | **[Project: Study Deck](projects/study-deck/spec.md)** | data model, plain-text formats, scheduling algorithms, fake clocks, a CLI you use every session |
+| 5 | **[Project: Tone Loom](projects/tone-loom/spec.md)** | binary file formats, bytes and endianness, sampling, ratios and exponents in pitch, a song text format |
+| 6 | **[Project: Worldfile](projects/worldfile/spec.md)** | parsing a format you design, state machines, a tiny condition language (recursion), save/load, golden-file testing |
 
-At about 12 hours a week on this module (with foundations continuing), roughly 13–14 weeks. Do the labs first; then the projects in any order (Study Deck first is recommended: you'll use it for the rest of the curriculum).
+Do the labs first; then the projects in any order (Study Deck first is recommended: you'll use it for the rest of the curriculum).
 
 ## How the projects map to concepts
 
@@ -67,8 +71,8 @@ At about 12 hours a week on this module (with foundations continuing), roughly 1
 | **F** | Each project has one core idea to explain plainly: spacing algorithms; how a WAV file stores sound; how a recursive evaluator works. |
 | **W** | Every spec lists design choices to justify ("Why plain text and not a database?", "Why little-endian?", "Why golden files?"). Answers go in your design notes. |
 | **S** | Subgoal comments before every non-trivial function, as in Module 01. Lab 01 teaches subgoals for recursion specifically. |
-| **I** | Lab exercises mix recursion, iteration, and data modelling. Weekly Study Deck reviews interleave every subject you've studied. |
-| **D** | Recursion and parsers produce confusing bugs. Stuck notes; the 90-minute rule. |
+| **I** | Lab exercises mix recursion, iteration, and data modelling. Study Deck reviews, every session, interleave every subject you've studied. |
+| **D** | Recursion and parsers produce confusing bugs. Stuck notes; the stuck rule (three honest attempts). |
 | **T** | Each project: README, a short design note written **before** building (E06–E08 level), and a recorded demo. |
 
 ### Communication deliverables, sized for you
@@ -76,7 +80,7 @@ At about 12 hours a week on this module (with foundations continuing), roughly 1
 You're likely around E05–E08 during this module. Each project asks for:
 - a **design note** (1–2 pages) written *before* the main build: what it does, the data, the file formats, two choices with reasons. Update it after.
 - a **README** that passes the five-minute stranger test (E09 preview).
-- a **recorded demo** (4–6 minutes).
+- a **recorded demo**.
 
 ## Environment
 
@@ -84,9 +88,11 @@ Python 3.12+, pytest, git. For Tone Loom: any audio player (`aplay` on Linux, `a
 
 ## Module close
 
-1. **Cumulative retrieval [R] (45 min):** on a blank page, draw the module structure of all three projects and list each one's file formats and invariants.
+1. **Cumulative retrieval [R]:** on a blank page, draw the module structure of all three projects and list each one's file formats and invariants.
 2. **Refactor review [W]:** pick your messiest function from any project. Rewrite it with better decomposition and names. Write three sentences: what was wrong, what you changed, why it's better.
-3. **Showcase [T]:** a 6-minute recording: all three projects, two minutes each.
+3. **Showcase [T]:** a short recording: all three projects, a short part on each.
 4. Tick the module in [Start Here](<../00 - Start Here.md>).
+
+**Resources:** books, docs, and tools for this module are in [resources.md](resources.md) (pointers only — the projects are the course).
 
 **Next:** [03 Discrete Math](../03-discrete-math/overview.md) and [04 Circuits and Digital Logic](../04-circuits-and-digital-logic/overview.md) (these two can run side by side).

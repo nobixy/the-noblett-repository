@@ -1,9 +1,13 @@
 ---
 title: "Project: Ember Compiler"
+id: "MOD06-PRJ-ember-compiler"
+type: "project"
 module: "06-computer-architecture"
-hours: 70
+phase: "C"
+order: 960
+prerequisites: [MOD06-PRJ-kestrel-isa, MOD02-PRJ-worldfile, MOD03-PRJ-truth-engine]
 artifact: "ember: a small programming language with a lexer, parser, checker, tree-walking interpreter, and a compiler to Kestrel assembly; a differential tester; Game of Life written in Ember running on Kestrel"
-deliverable: "EMBER.md language reference + design doc + differential-testing report + 5-minute 'whole stack' demo"
+deliverable: "EMBER.md language reference + design doc + differential-testing report + short 'whole stack' demo"
 ---
 
 # Project: Ember Compiler
@@ -11,7 +15,6 @@ deliverable: "EMBER.md language reference + design doc + differential-testing re
 | | |
 | :-- | :-- |
 | **Module** | 06 Computer Architecture |
-| **Time** | About 70 hours |
 | **Prerequisites** | [Kestrel ISA](../kestrel-isa/spec.md) (emulator, assembler, library, calling convention); Module 02's parsers (Worldfile) and Module 03's [Truth Engine](../../../03-discrete-math/projects/truth-engine/spec.md); Module 05 (hash tables, trees) |
 | **You build** | **Ember**, a small language with 16-bit integers, global arrays, functions, recursion, `if`/`while`, and direct memory access for devices. You write its lexer, parser, semantic checker, an **interpreter** (the reference meaning of every program), and a **compiler** that emits Kestrel assembly. A tester runs every program both ways and demands identical output. Finally you write Game of Life in Ember and run it on your CPU |
 | **Deliverable** | Language reference, design doc, testing report, and the "whole stack" demo |
@@ -189,7 +192,7 @@ Draw a stack frame for `count_neighbours` before writing code [R]. Update `KESTR
 1. **`EMBER.md`** — the language reference.
 2. **Design doc** (v1 before Milestone 4, final after Milestone 7): code-generation strategy, stack frame layout (diagram), runtime library, optimisations considered and measured.
 3. **Testing report** (1–2 pages): the oracle strategy, the random generator, bugs found (with the layer each was in), and the minimal regression tests.
-4. **The whole-stack demo** (5 minutes — this doubles as the module's showcase): Ember source → compiler → assembly listing → emulator running Life → (if available) the same on your datapath.
+4. **The whole-stack demo** (short — this doubles as the module's showcase): Ember source → compiler → assembly listing → emulator running Life → (if available) the same on your datapath.
 
 ## Study-method integration
 

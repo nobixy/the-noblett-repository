@@ -1,20 +1,24 @@
 ---
 title: "Lab 01 — Recursion and Decomposition"
+id: "MOD02-LAB01"
+type: "lab"
 module: "02-programming-fundamentals"
-hours: 10
+phase: "B"
+order: 430
+prerequisites: []
 ---
 
 # Lab 01 — Recursion and Decomposition
 
 **Goal:** two ways of making big problems small. **Decomposition**: split a problem into named pieces, each a function with one job. **Recursion**: solve a problem by solving a smaller copy of the same problem.
 
-**Time:** about 10 hours, in four sessions.
+**Sessions:** four.
 
 **You'll finish with:** `calendar_print.py` (a decomposed program), a set of recursive functions with tests, and `treesize.py` — a tool that walks a real folder tree and reports sizes, like `du` and `tree` combined.
 
 ---
 
-## Session 1 — Decomposition (2 hours)
+## Session 1 — Decomposition
 
 ### The idea
 
@@ -69,7 +73,7 @@ For `weekday_of`, count days from a date whose weekday you know (January 1, 2001
 
 ---
 
-## Session 2 — Recursion: the idea (3 hours)
+## Session 2 — Recursion: the idea
 
 ### A smaller copy of the same problem
 
@@ -124,7 +128,7 @@ Draw this for every function in Session 3's exercises until it feels natural [R]
 
 ---
 
-## Session 3 — Recursion: exercises (3 hours)
+## Session 3 — Recursion: exercises
 
 Write each function recursively (no loops), with a docstring and tests. Predict the result for small inputs on paper first.
 
@@ -147,7 +151,7 @@ Write each function recursively (no loops), with a docstring and tests. Predict 
 
 ---
 
-## Session 4 — Build: `treesize.py` (2 hours)
+## Session 4 — Build: `treesize.py`
 
 A real tool for a truly recursive problem: **folders contain folders**.
 
@@ -184,8 +188,8 @@ A real tool for a truly recursive problem: **folders contain folders**.
 
 ## Retrieval and reflection
 
-1. **[R] Blank sheet (15 min):** top-down design steps; a function contract's three parts; the three rules of recursion; the four recursion subgoals; a traced call stack for `reverse("abc")`.
-2. **[F] (spoken, 2 min):** "What is recursion, and why does trusting the smaller call work?"
+1. **[R] Blank sheet:** top-down design steps; a function contract's three parts; the three rules of recursion; the four recursion subgoals; a traced call stack for `reverse("abc")`.
+2. **[F] (spoken):** "What is recursion, and why does trusting the smaller call work?"
 3. **[W]:** why did memoization make `paths` so much faster? (Draw the tree of calls for `paths(3, 3)` and circle the repeats.)
 4. Flashcards: the three rules; fast exponentiation; memoization.
 

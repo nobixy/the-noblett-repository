@@ -1,22 +1,28 @@
 ---
 title: "Math Puzzles and Games"
-track: math
+id: "FND-MA-PUZZLES"
+type: "reference"
+module: "00-foundations"
+track: "math"
+phase: "A"
+order: 210
+prerequisites: []
 tags: [math, puzzles, games, fun]
 ---
 
 # Math Puzzles and Games
 
 **Number games, tricks, puzzles, and challenges for each math stage — fun, but always with a reason.** Every trick has a "why does it work?" question [W]; answering it uses exactly the stage's idea. Use them as:
-- **Warm-ups** (5 minutes before the morning lesson),
-- **Fun Friday** (replace one practice set a week with two games from your stage — the [I] mixing still counts),
+- **Warm-ups** (a short game before the lesson part of a session),
+- **Fun Session** (once per section, replace one practice set with two games from your stage — the [I] mixing still counts),
 - **Social math** (most of these are better with a friend, a partner, or a kid),
-- **Rewards** after a hard week.
+- **Rewards** after a hard section.
 
 Answers and explanations are in collapsible blocks. Try first.
 
 ---
 
-## Daily-ish games (any stage)
+## Games for any session (any stage)
 
 ### The 24 game
 Draw four cards (A = 1, J/Q/K = 11/12/13, or just remove picture cards). Use each card's number exactly once with + − × ÷ and brackets to make **24**. Example: 4, 7, 8, 8 → (7 − 8 ÷ 8) × 4 = 24. Some sets are impossible. Hard one: **3, 3, 8, 8**.
@@ -30,7 +36,7 @@ Draw four cards (A = 1, J/Q/K = 11/12/13, or just remove picture cards). Use eac
 Pick six numbers (from 1–10 plus some of 25, 50, 75, 100) and a random target from 101 to 999 (`shuf -i 101-999 -n 1`). In 3 minutes, get as close as you can using + − × ÷ with each number at most once. It's great for order of operations (M07) and mental math (M02–M03).
 
 ### Estimation first
-Before *every* calculation this week, write a rough estimate. Score a point when your exact answer is within 10% of the estimate. Track your score. (This habit catches more errors than anything else.)
+Before *every* calculation this section, write a rough estimate. Score a point when your exact answer is within 10% of the estimate. Track your score. (This habit catches more errors than anything else.)
 
 ### Fermi questions (from M06 on)
 Estimate with rough numbers and reasoning, not research. Then check online.
@@ -200,6 +206,6 @@ Compound interest at 7% a year: how many years to double your money? Try the "ru
 
 ---
 
-## Math in the wild (a weekly challenge)
+## Math in the wild (a once-per-section challenge)
 
-Once a week, find one real thing that uses this stage's math. Photograph it and write three sentences: what it is, what math it uses, and one calculation with it. Examples: a "30% off" sign (M06), a ratio on a bag of fertiliser (M05), a slope sign on a hill (M09), a phone screen's resolution (M06/M10), a population growth headline (M11). Keep them in `~/workbench/math/in-the-wild/`. By the end of the track, you'll have 40 examples of math you *use*.
+Once per section, find one real thing that uses this stage's math. Photograph it and write three sentences: what it is, what math it uses, and one calculation with it. Examples: a "30% off" sign (M06), a ratio on a bag of fertiliser (M05), a slope sign on a hill (M09), a phone screen's resolution (M06/M10), a population growth headline (M11). Keep them in `~/workbench/math/in-the-wild/`. By the end of the track, you'll have 40 examples of math you *use*.

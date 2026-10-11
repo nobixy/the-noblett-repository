@@ -1,8 +1,13 @@
 ---
 title: "Project: Machine Manual"
-track: english
+id: "FND-EN-PRJ-machine-manual"
+type: "project"
+module: "00-foundations"
+track: "english"
+phase: "A"
+order: 110
+prerequisites: [E03]
 stages: "E04–E06"
-hours: 14
 artifact: "A tested user manual for a real household machine, plus a beginner's manual for five terminal commands"
 deliverable: "The manuals themselves + usability-test log"
 ---
@@ -11,8 +16,6 @@ deliverable: "The manuals themselves + usability-test log"
 
 | | |
 | :-- | :-- |
-| **When** | Milestone 1 in E04, Milestone 2 in E05, Milestones 3–4 in E06 |
-| **Time** | About 14 hours over 7–8 weeks |
 | **You build** | A user manual for a real machine in your home, tested by a real person; then a beginner's manual for five Linux terminal commands |
 | **Deliverable** | Both manuals (Markdown) and a usability-test log |
 
@@ -136,7 +139,7 @@ The manuals *are* the deliverable:
 | :-- | :-- |
 | **R** | Before Milestone 2, write the parts list from memory (no machine in front of you), then check it |
 | **W** | Why parts before steps; why conditions first; the curse-of-knowledge question |
-| **S** | Each procedure is a set of subgoals; the step structure is a template you will reuse for years |
+| **S** | Each procedure is a set of subgoals; the step structure is a template you will reuse for the rest of the curriculum and beyond |
 | **C** | During this project, choose copywork passages from a well-written manual (e.g. a good appliance manual's first page, or the "DESCRIPTION" of `man cp`) |
 | **T** | The usability test is teach-back with a strict pass/fail |
 

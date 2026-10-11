@@ -1,7 +1,11 @@
 ---
 title: "Project: Counting Verifier"
+id: "MOD03-PRJ-counting-verifier"
+type: "project"
 module: "03-discrete-math"
-hours: 12
+phase: "B"
+order: 550
+prerequisites: [MOD03-U4, MOD03-U6, MOD03-U8, M05, MOD02-LAB01]
 artifact: "count: a tool that checks counting formulas and probabilities three ways — brute-force enumeration, exact formula, and Monte Carlo simulation — plus a hash-collision experiment"
 deliverable: "Lab report: the birthday paradox, predicted and measured + 3 bijective proofs in the Proof Journal"
 ---
@@ -11,7 +15,6 @@ deliverable: "Lab report: the birthday paradox, predicted and measured + 3 bijec
 | | |
 | :-- | :-- |
 | **Module** | 03 Discrete Math |
-| **Time** | About 12 hours |
 | **Prerequisites** | Units 4, 6, 8; M05 (fractions); Lab 01 of Module 02 (permutations by recursion) |
 | **You build** | `count`, a test bench for counting and probability. Every formula you learn gets checked against a brute-force count of the actual objects, and every probability against both an exact fraction and a simulation. Then a real experiment: how soon do hash values collide? |
 | **Deliverable** | A lab report and three proofs |
@@ -118,7 +121,7 @@ A **hash function** maps data to a number in a fixed range. Hash tables (Module 
 
 1. **Lab report** ([template](<../../../04 - System/Lab Report Template.md>), E10 level): *"How many items before a hash collides?"* — prediction from the birthday bound, measurements for five sizes, the 2^(bits/2) rule, and one paragraph on what it means for hash tables and for security.
 2. **Three bijective proofs** in the Proof Journal (Milestone 2).
-3. Optional: a 3-minute spoken Monty Hall explanation (great Feynman practice).
+3. Optional: a short spoken Monty Hall explanation (great Feynman practice).
 
 ## Study-method integration
 

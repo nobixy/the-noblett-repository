@@ -1,7 +1,12 @@
 ---
 title: "06 — Computer Architecture"
+id: "MOD06"
+type: "overview"
 module: "06-computer-architecture"
-hours: 240
+phase: "C"
+order: 900
+prerequisites: [MOD04, MOD05, MOD01-PRJ-nib-machine, E10]
+checkpoints: [MOD06-CLOSE]
 tags: [module, architecture, hardware, compilers]
 ---
 
@@ -34,18 +39,17 @@ By the end you will be able to:
 
 ## Sequence and time
 
-| Order | Item | Hours | Concepts |
-| :-- | :-- | --: | :-- |
-| 1 | [Lab 01 — Reading Real Machine Code](labs/lab-01-reading-real-machine-code.md) | 6 | compilers' output; registers; calls; Compiler Explorer |
-| 2 | **[Kestrel ISA](projects/kestrel-isa/spec.md)** — ISA, emulator, assembler, conventions, I/O | 60 | instruction sets, encoding, addressing, flags, stacks, calls, memory-mapped I/O |
-| 3 | [Lab 02 — A Tour of the Digital Simulator](labs/lab-02-digital-simulator-tour.md) | 6 | graphical simulation, RAM/ROM, splitters, loading hex |
-| 4 | **[Kestrel Datapath](projects/kestrel-datapath/spec.md)** — the CPU in gates | 55 | datapath, control unit, single- vs multi-cycle, CPI, clock period |
-| 5 | [Lab 03 — Pipelines and Hazards on Paper](labs/lab-03-pipelines-and-hazards.md) | 8 | pipelining, data and control hazards, forwarding, stalls, branch prediction |
-| 6 | **[Ember Compiler](projects/ember-compiler/spec.md)** — a language for your CPU | 70 | lexing, parsing, ASTs, scopes, interpretation, code generation, calling conventions |
-| 7 | **[Cache Simulator](projects/cache-sim/spec.md)** — memory performance | 30 | locality, cache organisation, replacement, traces, measurement |
-| | **Total** | **~235** | |
+| Order | Item | Concepts |
+| :-- | :-- | :-- |
+| 1 | [Lab 01 — Reading Real Machine Code](labs/lab-01-reading-real-machine-code.md) | compilers' output; registers; calls; Compiler Explorer |
+| 2 | **[Kestrel ISA](projects/kestrel-isa/spec.md)** — ISA, emulator, assembler, conventions, I/O | instruction sets, encoding, addressing, flags, stacks, calls, memory-mapped I/O |
+| 3 | [Lab 02 — A Tour of the Digital Simulator](labs/lab-02-digital-simulator-tour.md) | graphical simulation, RAM/ROM, splitters, loading hex |
+| 4 | **[Kestrel Datapath](projects/kestrel-datapath/spec.md)** — the CPU in gates | datapath, control unit, single- vs multi-cycle, CPI, clock period |
+| 5 | [Lab 03 — Pipelines and Hazards on Paper](labs/lab-03-pipelines-and-hazards.md) | pipelining, data and control hazards, forwarding, stalls, branch prediction |
+| 6 | **[Ember Compiler](projects/ember-compiler/spec.md)** — a language for your CPU | lexing, parsing, ASTs, scopes, interpretation, code generation, calling conventions |
+| 7 | **[Cache Simulator](projects/cache-sim/spec.md)** — memory performance | locality, cache organisation, replacement, traces, measurement |
 
-At about 12 hours a week, about 20 weeks. Kestrel ISA must come first; Datapath and Ember can be done in either order (or interleaved: hardware on Saturdays, compiler on weekday evenings); the Cache Simulator last.
+Kestrel ISA must come first; Datapath and Ember can be done in either order (or interleaved, alternating hardware and compiler build sessions — but only one counts as your open build project at a time; see rule 2 in [Start Here](<../00 - Start Here.md>)); the Cache Simulator last.
 
 ## How the projects connect
 
@@ -85,9 +89,11 @@ The **emulator is the reference**. The datapath must produce the same results, c
 
 ## Module close
 
-1. **Cumulative retrieval [R] (60 min):** draw the Kestrel datapath; write the ISA table; walk a function call through the stack; draw the compiler pipeline; explain hits and misses with a diagram.
-2. **The whole-stack demo [T]:** a 5-minute recording: an Ember program → compiled → assembled → running on the emulator **and** on the gate-level datapath, with the same output; then its cache behaviour.
+1. **Cumulative retrieval [R]:** draw the Kestrel datapath; write the ISA table; walk a function call through the stack; draw the compiler pipeline; explain hits and misses with a diagram.
+2. **The whole-stack demo [T]:** a short recording: an Ember program → compiled → assembled → running on the emulator **and** on the gate-level datapath, with the same output; then its cache behaviour.
 3. **Reflection:** reread your Nib spec and code. Write half a page: what Nib taught you, and what Kestrel changed.
 4. Tick the module in [Start Here](<../00 - Start Here.md>).
+
+**Resources:** books, docs, and tools for this module are in [resources.md](resources.md) (pointers only — the projects are the course).
 
 **Next:** [07 Systems Programming](../07-systems-programming/overview.md).

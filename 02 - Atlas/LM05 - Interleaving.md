@@ -3,8 +3,6 @@ title: "LM05: Interleaving"
 type: learning-method
 method_id: LM05
 evidence: "Moderate"
-project_hours: 3
-counts_toward: "BM"
 ---
 
 # LM05 — Interleaving
@@ -27,13 +25,13 @@ Dunlosky et al. (2013): **moderate utility**. It helps most when the problem typ
 
 ## Common mistakes
 - Interleaving topics you haven't learned yet. Learn each type once, then mix.
-- Judging it by how practice feels. Judge it by the test a week later.
+- Judging it by how practice feels. Judge it by a cold test in a later section.
 
 ## 🔨 Project: Shuffle Drill: mixed-problem generator
 In Scratch, or in Python with `random` and `input`, build a generator for 5 problem types: fraction addition, fraction division, negative multiplication, base conversion and prime factors. It mixes them in random order, checks your answers and reports accuracy per type.
-- **Done when:** a 50-problem mixed session runs, it reports accuracy by type, and you did 3 sessions on different days.
-- **Time:** about 3 h, counted inside [[BM - Bedrock Mathematics|BM]]'s existing hours (the Shuffle Drill replaces the Khan practice sets beyond the unit tests (the unit tests stay); the why-ladders for invert-and-multiply and negative × negative count as Build Requirement 2's Feynman explanations).
-- **Level / when:** Beginner Python or Scratch. Week 4 (it extends the base-converter build); the Python version can wait until Week 10.
+- **Done when:** a 50-problem mixed session runs, it reports accuracy by type, and you did 3 separate sessions.
+- **Level:** Beginner Python or Scratch.
+- **Fits with:** Protocol **I** (interleave and space): mixed practice sets and the cumulative Session 5 of each section.
 
 ## Sources
 - Rohrer & Taylor (2007), "The shuffling of mathematics problems improves learning", *Instructional Science* 35(6), 481–498.

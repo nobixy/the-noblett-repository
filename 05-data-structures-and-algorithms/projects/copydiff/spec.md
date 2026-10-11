@@ -1,9 +1,13 @@
 ---
 title: "Project: Copydiff"
+id: "MOD05-PRJ-copydiff"
+type: "project"
 module: "05-data-structures-and-algorithms"
-hours: 35
+phase: "C"
+order: 800
+prerequisites: [MOD05-LAB03, FND-EN-PRJ-first-design-doc]
 artifact: "copydiff: a word-level diff tool for Franklin copywork — LCS by dynamic programming, Myers' diff, edit-distance classification of spelling vs word changes, reports, and integration with your spelling log"
-deliverable: "Design doc (v2 from E10, updated after build) + accuracy report against your hand diffs + 4-minute demo"
+deliverable: "Design doc (v2 from E10, updated after build) + accuracy report against your hand diffs + short demo"
 ---
 
 # Project: Copydiff
@@ -11,7 +15,6 @@ deliverable: "Design doc (v2 from E10, updated after build) + accuracy report ag
 | | |
 | :-- | :-- |
 | **Module** | 05 Data Structures and Algorithms |
-| **Time** | About 35 hours |
 | **Prerequisites** | Labs 01–03 of this module; your [First Design Doc](../../../00-foundations/english/projects/first-design-doc/spec.md) v2 for Copydiff (if you skipped it, write a design doc now, using that spec's Milestones 1–2) |
 | **You build** | The tool that automates step 6 of Franklin copywork: given the original passage and your rebuild, it lines them up word by word, shows what you dropped, added, or changed, separates **spelling** mistakes from **word-choice** differences, counts punctuation differences, logs the numbers over time, and feeds new misspellings into your spelling log |
 | **Deliverable** | Your design doc (updated after building), an accuracy report, and a demo |
@@ -20,7 +23,7 @@ deliverable: "Design doc (v2 from E10, updated after build) + accuracy report ag
 
 ## Why this matters
 
-You've done copywork diffs by hand for months; you know exactly what a good comparison looks like. Now you build it, and in doing so you meet **dynamic programming** — one of the most powerful ideas in algorithms — in its most famous form: finding the **longest common subsequence** of two sequences. The same algorithm family powers `diff`, `git`, spell checkers ("did you mean…?"), DNA sequence alignment, and plagiarism detectors.
+You've done copywork diffs by hand since the start of the English track; you know exactly what a good comparison looks like. Now you build it, and in doing so you meet **dynamic programming** — one of the most powerful ideas in algorithms — in its most famous form: finding the **longest common subsequence** of two sequences. The same algorithm family powers `diff`, `git`, spell checkers ("did you mean…?"), DNA sequence alignment, and plagiarism detectors.
 
 You also experience the full engineering loop for the first time: design doc *before* (written in E10), build, measure against goals, and update the doc with what you learned.
 
@@ -102,7 +105,7 @@ A DELETE followed by an INSERT at the same place is a **substitution**: you wrot
 3. **Copywork log:** append a row per run to `copywork-log.tsv` (date, passage name, level, each count). `copydiff trend` shows a 30-day chart of spelling errors and word changes per 100 words.
 4. **Spelling Engine integration:** offer to append new spelling errors to `spelling-log.tsv` (with tag `copywork`), skipping words already there.
 
-**Done when:** you've used Copydiff for every copywork session for two weeks.
+**Done when:** you've used Copydiff for every copywork session across two sections.
 
 ### Milestone 6 — Accuracy against your goals
 
@@ -132,7 +135,7 @@ Your design doc listed testable goals (e.g. "spelling-error count matches my han
 
 1. **Design doc:** v2 from E10 + "Changes after reading the build spec" + section 8 "After the build" (what changed, what surprised you, what you'd do differently).
 2. **Accuracy report** (1–2 pages): goals vs results, the confusion table, the threshold decision, the LCS vs Myers measurements.
-3. **Demo (4 minutes):** a real copywork session from rebuild to diff to logged trend.
+3. **Demo:** a real copywork session from rebuild to diff to logged trend.
 
 ## Study-method integration
 
@@ -160,7 +163,7 @@ Your design doc listed testable goals (e.g. "spelling-error count matches my han
 | LCS | Hand table; brute-force and round-trip tests; measured | Works | Wrong scripts |
 | Myers | Agrees with LCS on 1,000 pairs; comparison plotted | Works | Missing |
 | Classification | Levenshtein yours; threshold justified; held-out test | Works | Guesswork |
-| Integration | Two weeks of real use; logs and trend; spelling log fed | Some use | None |
+| Integration | Two sections of real use; logs and trend; spelling log fed | Some use | None |
 | Communication | Doc lifecycle complete; accuracy report; demo | Most | Few |
 
 **Done when:** every area at least 2; LCS and Integration at 3.

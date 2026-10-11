@@ -1,9 +1,13 @@
 ---
 title: "Project: Worldfile"
+id: "MOD02-PRJ-worldfile"
+type: "project"
 module: "02-programming-fundamentals"
-hours: 45
+phase: "B"
+order: 480
+prerequisites: [MOD02-LAB03]
 artifact: "wf: a text-adventure engine whose worlds are data files — a parser with precise errors, a recursive condition language, events, save/load, a linter, golden playthrough tests — plus one full world you wrote"
-deliverable: "Design note, WORLD_FORMAT.md reference, README, a playtested world, 5-minute demo"
+deliverable: "Design note, WORLD_FORMAT.md reference, README, a playtested world, short demo"
 ---
 
 # Project: Worldfile
@@ -11,7 +15,6 @@ deliverable: "Design note, WORLD_FORMAT.md reference, README, a playtested world
 | | |
 | :-- | :-- |
 | **Module** | 02 Programming Fundamentals |
-| **Time** | About 45 hours |
 | **Prerequisites** | Labs 01–03 of this module (recursion especially); Lab 01's adventure from Module 01 |
 | **You build** | `wf`, an engine that plays text adventures described entirely in data files. You design the file format, write its parser with precise error messages, build a small **condition language** with a recursive parser and evaluator, add events, puzzles, save and load, a **linter** that finds broken worlds, and a test runner that replays scripted playthroughs. Then you write a real world and have someone play it |
 | **Deliverable** | Design note, a format reference, README, your world (playtested), and a demo |
@@ -111,7 +114,7 @@ Each line of the grammar becomes one **function** in a **recursive-descent parse
 1. **Design note v1** (2 pages): engine vs content; the data model (classes for World, Room, Exit, Item, Action, Event, GameState, and their **invariants** — e.g. "every exit points to a room that exists", "an item is in exactly one place: a room, the inventory, or nowhere yet"); the parse → validate → play pipeline; two design choices with reasons.
 2. Write `WORLD_FORMAT.md` v1 and a tiny 3-room test world.
 
-**Done when:** both documents exist and you can explain the pipeline in one minute.
+**Done when:** both documents exist and you can explain the pipeline briefly.
 
 ### Milestone 2 — The world parser, with precise errors
 
@@ -216,7 +219,7 @@ Then **write a real world**: at least **12 rooms**, **3 puzzles** that use condi
 2. **`WORLD_FORMAT.md`** — the complete language reference, including the condition grammar.
 3. **README:** play, lint, explain, test.
 4. **Your world** and its **playtest log**.
-5. **Demo (5 minutes):** play a few minutes of your world, show a parser error, `wf explain` on a condition, and the linter catching a planted problem.
+5. **Demo:** play a short stretch of your world, show a parser error, `wf explain` on a condition, and the linter catching a planted problem.
 
 ## Study-method integration
 
@@ -227,7 +230,7 @@ Then **write a real world**: at least **12 rooms**, **3 puzzles** that use condi
 | **W** | Two-pass validation; operator precedence; version numbers in saves; message choice when two actions match |
 | **S** | One subgoal per grammar rule; the parse → validate → play pipeline |
 | **I** | Parsing, recursion, graph search, and writing interleaved |
-| **C** | This month's copywork: descriptive passages (Level 3 essays with strong description) — then apply it to your room text |
+| **C** | Copywork during this project: descriptive passages (Level 3 essays with strong description) — then apply it to your room text |
 | **T** | Note, format reference, README, world, playtest, demo |
 
 ## Stretch goals

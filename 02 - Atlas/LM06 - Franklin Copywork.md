@@ -3,8 +3,6 @@ title: "LM06: Franklin Copywork"
 type: learning-method
 method_id: LM06
 evidence: "Anecdotal; no controlled studies"
-project_hours: 3
-counts_toward: "BW"
 ---
 
 # LM06 — Franklin Copywork
@@ -30,9 +28,9 @@ Use it, but measure whether your writing improves (e.g. editor feedback, clarity
 
 ## 🔨 Project: Copywork Diff tool
 A Python script using `difflib` that compares your rewrite with the original word by word. It prints added and removed words, plus average sentence length and the longest sentence in each version. No-code option: compare on paper with two highlighter colours.
-- **Done when:** you used it on 3 copywork days and pasted the stats into [[Writing Hub]].
-- **Time:** about 3 h, counted inside [[BW - Bedrock English and Grammar|BW]]'s existing hours (replaces 5 of the 10 parsing sentences and 5 of the 10 de-nominalization drills; the diff tool does copywork's comparison step).
-- **Level / when:** Beginner Python (one standard-library module). Week 6, with the Twine story.
+- **Done when:** you used it in 3 copywork sessions and pasted the stats into [[Writing Hub]].
+- **Level:** Beginner Python (one standard-library module).
+- **Fits with:** Protocol **C** (Franklin copywork) in every English session; [Copydiff](<../05-data-structures-and-algorithms/projects/copydiff/spec.md>) (Module 05) automates the diff.
 
 ## Sources
 - Benjamin Franklin, *Autobiography* (1791; free at Project Gutenberg).

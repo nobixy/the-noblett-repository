@@ -3,8 +3,6 @@ title: "LM03: Elaborative Interrogation"
 type: learning-method
 method_id: LM03
 evidence: "Moderate"
-project_hours: 2
-counts_toward: "BM"
 ---
 
 # LM03 — Elaborative Interrogation
@@ -27,10 +25,10 @@ Pressley et al. (1987) found that asking learners why each fact made sense impro
 - Using it on topics where you have zero background yet. Learn the basics first, then ask why.
 
 ## 🔨 Project: Why-Ladders for 10 math rules (+ optional why-bot)
-For 10 rules from Bedrock Math (invert-and-multiply, negative × negative, carrying, place value, distributive law …), write three levels of "why?", each answering the one above. Optional, once you know a little Python: a why-bot that picks a random rule from a text file, asks "why?", and saves your answer with the date.
+For 10 rules from the math foundations, M01–M11 (invert-and-multiply, negative × negative, carrying, place value, distributive law …), write three levels of "why?", each answering the one above. Optional, once you know a little Python: a why-bot that picks a random rule from a text file, asks "why?", and saves your answer with the date.
 - **Done when:** 10 ladders, each ending in a picture or a counterexample you can show.
-- **Time:** about 2 h, counted inside [[BM - Bedrock Mathematics|BM]]'s existing hours (the Shuffle Drill replaces the Khan practice sets beyond the unit tests (the unit tests stay); the why-ladders for invert-and-multiply and negative × negative count as Build Requirement 2's Feynman explanations).
-- **Level / when:** No code (optional Python). Week 3, with the Desmos art.
+- **Level:** No code (optional Python).
+- **Fits with:** Protocol **W** (why-ladder): every rule in the math stages M01–M11 and every design choice in the projects.
 
 ## Sources
 - Dunlosky et al. (2013), section 1.

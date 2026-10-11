@@ -1,22 +1,24 @@
 ---
 title: "M06 — Decimals, Percents, and Ratios"
-stage: M06
-track: math
-hours: 30
-weeks: 4
+id: "M06"
+type: "lesson"
+module: "00-foundations"
+track: "math"
+stage: "M06"
+phase: "B"
+order: 350
+prerequisites: [M05]
 ---
 
 # M06 — Decimals, Percents, and Ratios
 
 **In this stage you will:** extend place value to the right of the decimal point, compute with decimals and know where the point goes and why, convert between fractions, decimals, and percents, handle percent change correctly (including the traps), work with ratios and rates, convert units like an engineer, and finally understand why computers say `0.1 + 0.2` is not `0.3`.
 
-**Time:** about 30 hours over 4 weeks.
-
 **Before you start:** M05 done. You can do all four fraction operations and explain invert-and-multiply.
 
 ---
 
-## Diagnostic (cold, 25 minutes, no calculator)
+## Diagnostic (cold, no calculator)
 
 1. Which is bigger: 0.45 or 0.5?
 2. 3.07 + 12.6
@@ -264,16 +266,16 @@ Open Python and type `0.1 + 0.2`. You'll get `0.30000000000000004`. This is not 
 
 ---
 
-## Practice routine (4 weeks)
+## Practice routine (4 sections)
 
-| Week | Focus |
+| Section | Focus |
 | :-- | :-- |
-| 1 | Mon: decimal place value and comparing · Tue: rounding · Wed–Thu: decimal ↔ fraction, benchmarks · Fri: add/subtract decimals |
-| 2 | Mon–Tue: multiply and divide decimals (with the why) · Wed–Thu: percents, the three questions · Fri: Practice Set 1, items 1–15 |
-| 3 | Mon: percent change · Tue: the four traps · Wed: ratios and proportions · Thu: units and conversion factors · Fri: Practice Set 1 rest + Set 2 |
-| 4 | Mon–Tue: [Ratio Workshop](projects/ratio-workshop/spec.md) Milestones 2–3 · Wed: the `0.1 + 0.2` why-ladder, written · Thu: Feynman · Fri: self-check |
+| 1 | Session 1: decimal place value and comparing · Session 2: rounding · Sessions 3–4: decimal ↔ fraction, benchmarks · Session 5: add/subtract decimals |
+| 2 | Sessions 1–2: multiply and divide decimals (with the why) · Sessions 3–4: percents, the three questions · Session 5: Practice Set 1, items 1–15 |
+| 3 | Session 1: percent change · Session 2: the four traps · Session 3: ratios and proportions · Session 4: units and conversion factors · Session 5: Practice Set 1 rest + Set 2 |
+| 4 | Sessions 1–2: [Ratio Workshop](projects/ratio-workshop/spec.md) Milestones 2–3 · Session 3: the `0.1 + 0.2` why-ladder, written · Session 4: Feynman · Session 5: self-check |
 
-**Daily warm-up [R]:** the benchmark table from memory, and one unit conversion with full unit cancellation.
+**Warm-up [R] (every session):** the benchmark table from memory, and one unit conversion with full unit cancellation.
 
 **Key why-questions [W]:**
 1. Why do you count decimal places when multiplying?
@@ -281,7 +283,7 @@ Open Python and type `0.1 + 0.2`. You'll get `0.30000000000000004`. This is not 
 3. Why does percent change divide by the old value?
 4. Why can 1/8 be stored exactly in binary but 1/10 can't?
 
-**Feynman target [F]:** *"Why is a 50% off sale followed by a 50% price rise not back to the original price?"* Plain words, one example, 90 seconds out loud. Then: *"Why does Python say 0.1 + 0.2 isn't 0.3?"*
+**Feynman target [F]:** *"Why is a 50% off sale followed by a 50% price rise not back to the original price?"* Plain words, one example, briefly, out loud. Then: *"Why does Python say 0.1 + 0.2 isn't 0.3?"*
 
 ---
 
@@ -348,7 +350,7 @@ Open Python and type `0.1 + 0.2`. You'll get `0.30000000000000004`. This is not 
 
 ---
 
-## Self-check (cold, 35 minutes; no calculator for 1–8)
+## Self-check (cold; no calculator for 1–8)
 
 1. 6.08 − 2.9
 2. 0.25 × 0.8
@@ -359,7 +361,7 @@ Open Python and type `0.1 + 0.2`. You'll get `0.30000000000000004`. This is not 
 7. A total including 15% tax is $69. What was the price before tax?
 8. Split 64 in the ratio 3 : 5.
 9. A 4K video frame is 3,840 × 2,160 pixels, with 3 bytes per pixel. How many bytes is one uncompressed frame? At 60 frames per second, about how many MB per second? (Calculator allowed.)
-10. **[R] Blank sheet (10 min):** decimal place value; the multiply and divide rules with their reasons; the three percent questions; the four percent traps; unit conversion with fractions equal to 1; the `0.1 + 0.2` why-ladder.
+10. **[R] Blank sheet:** decimal place value; the multiply and divide rules with their reasons; the three percent questions; the four percent traps; unit conversion with fractions equal to 1; the `0.1 + 0.2` why-ladder.
 
 <details>
 <summary>Answers (self-check)</summary>

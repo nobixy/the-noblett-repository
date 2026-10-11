@@ -1,9 +1,13 @@
 ---
 title: "Project: Heapsmith"
+id: "MOD07-PRJ-heapsmith"
+type: "project"
 module: "07-systems-programming"
-hours: 50
+phase: "C"
+order: 1040
+prerequisites: [MOD07-LAB03]
 artifact: "libheapsmith: a malloc/free/realloc/calloc implementation in C that evolves from a bump allocator to segregated free lists with coalescing, mmap for large blocks, a heap checker, debug features, a heap visualiser, a real-program trace recorder, and LD_PRELOAD support"
-deliverable: "Design doc + evaluation report (throughput and utilisation vs glibc, per version) + 5-minute demo with heap animations"
+deliverable: "Design doc + evaluation report (throughput and utilisation vs glibc, per version) + short demo with heap animations"
 ---
 
 # Project: Heapsmith
@@ -11,7 +15,6 @@ deliverable: "Design doc + evaluation report (throughput and utilisation vs glib
 | | |
 | :-- | :-- |
 | **Module** | 07 Systems Programming |
-| **Time** | About 50 hours |
 | **Prerequisites** | Labs 01–03 of this module; Module 05 (lists, size classes are like hash buckets, measurement) |
 | **You build** | Your own memory allocator. It hands out and takes back blocks of memory from a region you get from the kernel, keeps track of free space with lists inside the free memory itself, merges neighbours, sorts requests into size classes, and grows by asking the kernel for more. You also build the tools to trust it: a trace format, a recorder that captures real programs' `malloc` calls, a heap checker, debug canaries, a picture of the heap, and finally the ability to run **real Linux programs on your allocator** |
 | **Deliverable** | Design doc, evaluation report, and demo |
@@ -170,7 +173,7 @@ Run every version (v0–v3, plus v2's variants) and **glibc's malloc** (through 
 
 1. **Design doc** v1 → v2 (with block diagrams to the byte and every policy decision justified by measurements).
 2. **Evaluation report** (2–3 pages): the tables and scatter plot, the fragmentation animation's story in words, the real-program results, and your recommendation.
-3. **Demo (5 minutes):** the heap animation on the phase trace, `ls` running on your allocator, and the scatter plot.
+3. **Demo:** the heap animation on the phase trace, `ls` running on your allocator, and the scatter plot.
 
 ## Study-method integration
 

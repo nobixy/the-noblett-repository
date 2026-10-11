@@ -1,26 +1,32 @@
 ---
 title: "Writing Prompts"
-track: english
+id: "FND-EN-PROMPTS"
+type: "reference"
+module: "00-foundations"
+track: "english"
+phase: "A"
+order: 120
+prerequisites: []
 tags: [english, writing, prompts, fun]
 ---
 
 # Writing Prompts
 
-**Over 150 prompts for daily writing that's actually fun.** They're grouped by English stage, so each one practises the skill you're learning right now. There are also "any stage" prompts, constraint games, prompts tied to your projects, and speaking prompts.
+**Over 150 prompts for regular writing that's actually fun.** They're grouped by English stage, so each one practises the skill you're learning right now. There are also "any stage" prompts, constraint games, prompts tied to your projects, and speaking prompts.
 
 ---
 
 ## How to use this
 
-**The daily fun write (10–15 minutes, at least 4 days a week).** This is your "500 words" habit, made easier: quantity first, fun first.
+**The fun write (a short part of most English sessions).** Quantity first, fun first.
 
 1. Pick a prompt from **your stage** or from **Any stage**. (Roll a die or use `shuf -n 1` on a list if choosing is hard.)
-2. **Write fast** for 10 minutes. No stopping, no spell checker, no deleting. Messy is fine.
-3. **Then 3 minutes of checking** — only for *this stage's skill*. In E02, check suffix spellings. In E06, check commas. In E08, check that each paragraph has one point.
+2. **Write fast**, without stopping, for one page or so. No stopping, no spell checker, no deleting. Messy is fine.
+3. **Then a short check** — only for *this stage's skill*. In E02, check suffix spellings. In E06, check commas. In E08, check that each paragraph has one point.
 4. Put every misspelling you find into your spelling log.
-5. Once a week, pick your favourite piece and **revise it** properly (E08 checklist from E08 on). Keep the best ones in `~/workbench/english/fun-writes/` — in six months you'll see a clear change.
+5. Once per section, pick your favourite piece and **revise it** properly (E08 checklist from E08 on). Keep the best ones in `~/workbench/english/fun-writes/` — across many sections you'll see a clear change.
 
-**Log it:** in your daily journal, mark `words_500: true` on days you do it, and note the word count.
+**Log it:** in your session log entry, note the prompt number and the word count.
 
 **Sizes by stage:** E01–E03: 3–8 sentences · E04–E06: 8–15 sentences · E07–E08: 1–3 paragraphs · E09–E10: up to a page. Bigger is fine, but never required.
 
@@ -119,7 +125,7 @@ tags: [english, writing, prompts, fun]
 64. **One-paragraph movie review** of a film you love: point first, then three reasons.
 65. **The skim test.** Write a five-paragraph piece about your neighbourhood. Then read only the first sentences: do they tell the whole story?
 66. **Explain a sound.** One clear paragraph describing a sound to someone who can't hear it (a dial-up modem, a coffee machine, rain on a tin roof).
-67. **Before and after.** Take a paragraph you wrote in your first month (from your journal). Revise it with the E08 checklist. Put both side by side.
+67. **Before and after.** Take a paragraph you wrote in your first sections (from your journal). Revise it with the E08 checklist. Put both side by side.
 68. **Teach a trick.** Explain one math trick from your math stages (×9 with ×10, the digit-sum test) in one clear paragraph.
 69. **Postcard from a byte.** A short postcard from a byte travelling through your computer. Clear enough for a child to follow.
 
@@ -189,7 +195,7 @@ tags: [english, writing, prompts, fun]
 
 ---
 
-## Constraint games (great once a week)
+## Constraint games (great once per section)
 
 Constraints make writing a puzzle, and puzzles are fun.
 
@@ -230,19 +236,19 @@ Constraints make writing a puzzle, and puzzles are fun.
 
 ---
 
-## Speaking prompts (for your weekly recording [F])
+## Speaking prompts (for your section recording [F])
 
-Talk for 60–120 seconds without notes, then listen back and count fillers.
+Talk briefly without notes, then listen back and count fillers.
 
 1. Explain your current stage's main rule to a 12-year-old.
-2. What did you build this week? Show it while you talk.
+2. What did you build this section? Show it while you talk.
 3. Describe the most stubborn bug you've had, as a story.
 4. Teach one math trick with a pen and paper on camera.
 5. Explain how something in your kitchen works.
 6. Argue for or against: "Everyone should learn to program."
 7. Explain why you're doing this curriculum, as if to a job interviewer.
-8. Give a 60-second "elevator pitch" for one of your projects.
+8. Give a short "elevator pitch" for one of your projects.
 9. Explain a word's history (from etymonline).
 10. Describe your study routine and one thing you'd change.
 11. Review a video from [courses-and-videos.md](../../courses-and-videos.md): what was clear, what wasn't?
-12. Retell a short news story in plain English, in under a minute.
+12. Retell a short news story in plain English, briefly.

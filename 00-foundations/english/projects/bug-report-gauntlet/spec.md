@@ -1,8 +1,13 @@
 ---
 title: "Project: Bug Report Gauntlet"
-track: english
+id: "FND-EN-PRJ-bug-report-gauntlet"
+type: "project"
+module: "00-foundations"
+track: "english"
+phase: "C"
+order: 700
+prerequisites: [E08]
 stages: "E09"
-hours: 12
 artifact: "A graded review of 5 real bug reports, 10 bug reports of your own, and reproduction-test results"
 deliverable: "The reports, the reproduction log, and a one-page reflection"
 ---
@@ -11,8 +16,6 @@ deliverable: "The reports, the reproduction log, and a one-page reflection"
 
 | | |
 | :-- | :-- |
-| **When** | E09, week 4 (and a little after) |
-| **Time** | About 12 hours |
 | **You build** | Ten bug reports that pass a strict test: someone else can reproduce the bug using only your report |
 | **Deliverable** | The ten reports, the reproduction log, the review of five public reports, and a reflection |
 
@@ -86,7 +89,7 @@ Find **five** real bugs or annoyances in software you use: a website that misbeh
 
 For at least **six** of your ten reports, run a reproduction test:
 - **With a person:** give them the report and the software. Watch silently. Log every question and stumble. Pass = they see the bug without asking you anything.
-- **Without a person:** wait at least 7 days (so you forget the details), then follow your own report *exactly as written* in a **clean environment**: a fresh user account, a fresh virtual machine, or a fresh container (`docker run -it --rm python:3.12 bash`, if you have Docker). Pass = the bug appears, following only the written steps.
+- **Without a person:** wait until a later section (long enough that you forget the details), then follow your own report *exactly as written* in a **clean environment**: a fresh user account, a fresh virtual machine, or a fresh container (`docker run -it --rm python:3.12 bash`, if you have Docker). Pass = the bug appears, following only the written steps.
 
 For each failure, fix the report and test again.
 
@@ -120,14 +123,14 @@ In `~/workbench/english/bug-gauntlet/`:
 | **R** | Before Milestone 2, write the bug-report structure from memory |
 | **W** | Why each rubric row matters; the failed-reproduction why-ladder |
 | **S** | The report structure is a set of subgoal labels; minimising steps is a procedure |
-| **D** | The 7-day wait before self-reproduction |
+| **D** | The wait (until a later section) before self-reproduction |
 | **T** | The gauntlet itself |
 
 ## Stretch goals
 
 - **Bisect a bug:** for one of your own bugs, use `git bisect` to find the exact commit that introduced it. Add the commit to the report.
 - **Write a regression test** for each of your own five bugs: a test that fails when the bug is present. Link it in the report. (This becomes standard practice in Module 02.)
-- **Triage practice:** spend 30 minutes on a project's "needs reproduction" or "needs info" issues. Try to reproduce one and add your results.
+- **Triage practice:** spend one session on a project's "needs reproduction" or "needs info" issues. Try to reproduce one and add your results.
 
 ## Self-grading rubric
 

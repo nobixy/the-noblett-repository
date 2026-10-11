@@ -1,20 +1,23 @@
 ---
 title: "Project: Floor Plan and Turtle"
-track: math
+id: "FND-MA-PRJ-floor-plan-and-turtle"
+type: "project"
+module: "00-foundations"
+track: "math"
+phase: "C"
+order: 740
+prerequisites: [M09, MOD01-LAB01]
 stages: "M10"
-hours: 16
 artifact: "A measured scale drawing of a room; turtle/SVG programs that draw it from data, draw geometric art, and lay out boxes in rows like a browser"
-deliverable: "3-minute demo + half-page explanation of the closure check and the row-layout algorithm"
+deliverable: "short demo + half-page explanation of the closure check and the row-layout algorithm"
 ---
 
 # Project: Floor Plan and Turtle
 
 | | |
 | :-- | :-- |
-| **When** | M10, weeks 3–4 |
-| **Time** | About 16 hours |
 | **You build** | A measured floor plan of a real room (paper), then programs that draw it from a data file and check it closes up, geometric art from angles, and a tiny layout engine that places boxes in rows — the core idea of a browser's layout |
-| **Deliverable** | A 3-minute demo and a half-page explanation |
+| **Deliverable** | A short demo and a half-page explanation |
 
 ---
 
@@ -128,7 +131,7 @@ This is the core of how a browser lays out text and inline images.
 
 ## Communication deliverable
 
-1. **3-minute demo:** show the paper plan, then `plan.py` drawing it and reporting closure error, then the star art, then the layout engine with alignment.
+1. **short demo:** show the paper plan, then `plan.py` drawing it and reporting closure error, then the star art, then the layout engine with alignment.
 2. **Half-page explanation** (E08–E09 level): how the closure check works, and how the row-layout algorithm decides when to wrap. Include one small diagram.
 
 ## Study-method integration

@@ -7,7 +7,7 @@ tags:
 ---
 
 # Systems Topic Notes
-*Per Appendix B.5: One atomic note per systems mechanism or architectural principle.*
+*One atomic note per systems mechanism or architectural principle (see [[LM16 - Zettelkasten|Zettelkasten]] and the [[Zettelkasten Atomic Note Template]]).*
 
 ---
 
@@ -18,12 +18,23 @@ tags:
 - **Storage & Databases:** Buffer pool management, B+ trees, WAL/ARIES recovery, MVCC
 - **Distributed Systems:** Consensus (Raft/Paxos), replication, vector clocks, sharding
 
-## Reference Courses
-- [[B09 - Computer Systems|Computer Systems]] (CS:APP)
-- [[B16 - Operating Systems|Operating Systems]] (MIT 6.1810)
-- [[B19 - Networking|Networking]] (Stanford CS144)
-- [[B19a - Wireless, Mesh and Network Science|Wireless, Mesh and Network Science]] (Bullo, Barabási, batman-adv)
-- [[B21 - Databases|Databases]] (CMU 15-445; optional since DR-005)
-- [[B23 - Distributed Systems|Distributed Systems]] (MIT 6.5840)
-- [[B24a - Applied Cryptography and Protocol Security|Applied Cryptography and Protocol Security]] (Boneh Crypto I, Boneh–Shoup)
-- [[B27 - Intensive Cryptopals|Intensive Cryptopals]] (Cryptopals)
+## Where this is taught in the curriculum
+- **Caches and memory hierarchy:** [06 Computer Architecture](<../06-computer-architecture/overview.md>)
+- **Systems programming in C, processes, the shell:** [07 Systems Programming](<../07-systems-programming/overview.md>)
+- **Operating systems, concurrency:** [08 Operating Systems](<../08-operating-systems/overview.md>)
+- **Networking:** [09 Networking](<../09-networking/overview.md>)
+- **Storage and databases, recovery:** [11 Databases](<../11-databases/overview.md>)
+- **Cryptography basics (RSA):** [03 Discrete Math](<../03-discrete-math/overview.md>) (Toy Cipher)
+- Distributed consensus and advanced cryptography: not part of the core curriculum.
+
+## Reference courses *(historical)*
+*From the superseded v1 plan (see [DR-010](<../04 - System/DR-010 - Project-First Original Curriculum.md>)); listed as outside courses only. They are not part of this curriculum.*
+
+- Computer Systems (CS:APP)
+- Operating Systems (MIT 6.1810)
+- Networking (Stanford CS144)
+- Wireless, Mesh and Network Science (Bullo, Barabási, batman-adv)
+- Databases (CMU 15-445; optional since DR-005)
+- Distributed Systems (MIT 6.5840)
+- Applied Cryptography and Protocol Security (Boneh Crypto I, Boneh–Shoup)
+- Intensive Cryptopals (Cryptopals)

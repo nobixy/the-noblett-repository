@@ -3,8 +3,6 @@ title: "LM04: Dual Coding"
 type: learning-method
 method_id: LM04
 evidence: "Moderate"
-project_hours: 2
-counts_toward: "BM"
 ---
 
 # LM04 — Dual Coding
@@ -30,10 +28,10 @@ This is not "learning styles": everyone benefits from a good diagram ([[Learning
 - Pretty diagrams with no labels or captions.
 
 ## 🔨 Project: Draw-It set in Excalidraw
-With the Excalidraw plugin already in your vault, draw three diagrams: place value as columns, fraction division on a number line, and your nandgame half adder. Give each a 3-sentence caption.
+With the Excalidraw plugin already in your vault, draw three diagrams: place value as columns, fraction division on a number line, and a half adder (from Module 04's [Lab 03](<../04-circuits-and-digital-logic/labs/lab-03-logic-chips-on-a-breadboard.md>) or Gatesmith). Give each a 3-sentence caption.
 - **Done when:** the three diagrams are in a note linked from [[Math Index]], and you can redraw one from memory.
-- **Time:** about 2 h, counted inside [[BM - Bedrock Mathematics|BM]]'s existing hours (the Shuffle Drill replaces the Khan practice sets beyond the unit tests (the unit tests stay); the why-ladders for invert-and-multiply and negative × negative count as Build Requirement 2's Feynman explanations).
-- **Level / when:** No code. Week 5, with nandgame.
+- **Level:** No code.
+- **Fits with:** No separate protocol code; the sketches asked for in Feynman passes and the diagrams in design docs (E10) are dual coding.
 
 ## Sources
 - Paivio, *Mental Representations: A Dual Coding Approach* (1986).

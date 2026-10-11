@@ -1,9 +1,13 @@
 ---
 title: "Project: Cache Simulator"
+id: "MOD06-PRJ-cache-sim"
+type: "project"
 module: "06-computer-architecture"
-hours: 30
+phase: "C"
+order: 970
+prerequisites: [MOD06-PRJ-kestrel-isa, FND-MA-PRJ-magnitudes-field-guide, MOD05-LAB01]
 artifact: "cachesim: a trace-driven cache simulator (direct-mapped to fully associative, LRU/FIFO/random, write policies, miss classification), trace generators, and a set of experiments on your own programs and real Linux programs"
-deliverable: "Lab report: what makes memory access fast? (with plots) + 4-minute demo"
+deliverable: "Lab report: what makes memory access fast? (with plots) + short demo"
 ---
 
 # Project: Cache Simulator
@@ -11,7 +15,6 @@ deliverable: "Lab report: what makes memory access fast? (with plots) + 4-minute
 | | |
 | :-- | :-- |
 | **Module** | 06 Computer Architecture |
-| **Time** | About 30 hours |
 | **Prerequisites** | [Kestrel ISA](../kestrel-isa/spec.md) emulator; [Magnitudes Field Guide](../../../00-foundations/math/projects/magnitudes-field-guide/spec.md); Module 05 Lab 01 (measurement) |
 | **You build** | A simulator that replays a list of memory addresses (a **trace**) through a model of a CPU cache and reports hits, misses, and why each miss happened. You generate traces from your Kestrel programs and from real programs on your Linux machine, and run experiments that explain why some code is ten times faster than other code that does the same work |
 | **Deliverable** | A lab report with plots, and a demo |
@@ -119,7 +122,7 @@ Add an L2 cache behind L1. Report global and local miss rates and the combined A
 ## Communication deliverable
 
 1. **Lab report** (3 pages, E10): *"What makes memory access fast?"* — the seven experiments with predictions, plots (log scales where appropriate), the 3C breakdowns, and five practical rules for writing cache-friendly code.
-2. **Demo (4 minutes):** the hand-traced example animated (print the cache after each access), then the matrix experiment.
+2. **Demo:** the hand-traced example animated (print the cache after each access), then the matrix experiment.
 
 ## Study-method integration
 

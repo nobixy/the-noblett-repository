@@ -1,10 +1,14 @@
 ---
 title: "Project: Chance Lab"
+id: "MOD12-PRJ-chance-lab"
+type: "project"
 module: "12-math-for-engineering"
-hours: 16
+phase: "D"
+order: 1240
+prerequisites: [MOD12-P1, MOD12-P2, MOD12-P3, MOD12-L4, MOD09-PRJ-courier]
 units: "P1, P2, P3, L4"
 artifact: "A simulation toolkit for distributions, the law of large numbers, and the central limit theorem; a Markov-chain model of your Leitner boxes; a fitted packet-loss model; and an honest, pre-registered self-experiment comparing two study methods"
-deliverable: "Lab report + a pre-registration document + a 3-minute explainer on confidence intervals"
+deliverable: "Lab report + a pre-registration document + a short explainer on confidence intervals"
 ---
 
 # Project: Chance Lab
@@ -12,7 +16,7 @@ deliverable: "Lab report + a pre-registration document + a 3-minute explainer on
 | | |
 | :-- | :-- |
 | **Module** | 12 Math for Engineering (Units P1–P3, with L4) |
-| **Time** | About 16 hours |
+| **Prerequisites** | Units P1–P3 and L4; [Courier](../../../09-networking/projects/courier/spec.md) (Module 09) done — this project models Courier's packet loss and reuses its throughput measurements |
 | **You build** | Simulations that make probability's big theorems visible; models of two systems you built (your Leitner boxes as a Markov chain, Courier's packet loss as a two-state model); and a small, honest experiment on yourself: does one study method beat another *for you*? |
 | **Deliverable** | A lab report, a pre-registration, and a recorded explainer |
 
@@ -31,7 +35,7 @@ Engineering is full of uncertainty: noisy sensors, random packet loss, variable 
 1. **Sampling from distributions** using only `random.random()` (uniform on [0, 1)): Bernoulli, binomial, geometric, exponential (by the inverse-CDF method: −ln(U)/λ — derive why it works [W]), and normal (Box–Muller). Check each against its known mean and variance with 100,000 samples, and against `numpy.random` histograms.
 2. **Law of large numbers:** plot the running average of die rolls over 10,000 rolls, for 20 independent runs on one chart. Watch them squeeze together.
 3. **Central limit theorem:** take averages of n samples from a very non-normal distribution (exponential, or a lopsided die) for n = 1, 2, 5, 30; histogram 10,000 such averages each. Watch them become bell-shaped, with spread shrinking like 1/√n. (Your Pico Thermostat averaging result from Module 04 — now explained.)
-4. **[F]** record a 2-minute explanation of why averages are more predictable than single measurements.
+4. **[F]** record a short explanation of why averages are more predictable than single measurements.
 
 ### Milestone 2 — Model your systems (Units P1, L4)
 
@@ -60,7 +64,7 @@ Does one study method work better for **you**? Example: learning 60 new technica
 
 1. **Pre-registration document** (1 page), committed before the experiment.
 2. **Lab report** (4 pages, E10): the theorem simulations, the two system models, the confidence-interval experiments, and the self-experiment with an honest discussion.
-3. **Explainer (3 minutes, recorded):** "What a 95% confidence interval means," for a beginner, using your simulation.
+3. **Explainer (short, recorded):** "What a 95% confidence interval means," for a beginner, using your simulation.
 
 ## Study-method integration
 

@@ -1,18 +1,22 @@
 ---
 title: "Lab 03 — System Calls and strace"
+id: "MOD07-LAB03"
+type: "lab"
 module: "07-systems-programming"
-hours: 8
+phase: "C"
+order: 1020
+prerequisites: [MOD07-LAB02]
 ---
 
 # Lab 03 — System Calls and strace
 
 **Goal:** talk to the operating system directly — files, processes, pipes, and signals — handle errors properly, and watch any program's system calls with `strace`.
 
-**Time:** about 8 hours, in three sessions.
+**Sessions:** three.
 
 ---
 
-## Session 1 — Files and file descriptors (3 hours)
+## Session 1 — Files and file descriptors
 
 A **system call** asks the kernel to do something a program can't do alone (Module 08 shows the inside). `stdio` (`fopen`, `printf`) is a library *on top of* system calls; here you use the calls themselves.
 
@@ -52,7 +56,7 @@ ssize_t write_all(int fd, const void *buf, size_t len) {
 
 ---
 
-## Session 2 — strace (2 hours)
+## Session 2 — strace
 
 `strace` shows every system call a program makes, with arguments and results.
 
@@ -71,7 +75,7 @@ strace -e trace=openat,read,write cat /etc/hostname
 
 ---
 
-## Session 3 — Processes, pipes, signals in C (3 hours)
+## Session 3 — Processes, pipes, signals in C
 
 Re-do Burrow Jr.'s core in C (this is the warm-up for Burrow):
 
@@ -105,4 +109,4 @@ if (WIFSIGNALED(status)) printf("killed by signal %d\n", WTERMSIG(status));
 ## Retrieval and reflection
 
 1. **[R]:** open flags; short reads/writes and the loop; errno; the atomic-replace recipe; fork/exec/wait in C; why signal handlers should only set flags.
-2. **[F] (spoken, 2 min):** "What is a system call, and how is it different from a library function?"
+2. **[F] (spoken):** "What is a system call, and how is it different from a library function?"

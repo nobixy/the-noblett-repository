@@ -1,7 +1,8 @@
 ---
 title: "DR-002: Vault Refactor and Canonical Numbering"
 type: decision-record
-status: accepted
+status: superseded
+superseded_by: [DR-010, DR-011]
 date: 2026-10-09
 accepted: 2026-10-09
 tags:
@@ -10,6 +11,9 @@ tags:
 ---
 
 # DR-002: Vault Refactor and Canonical Numbering
+
+> [!WARNING] Superseded
+> Superseded by [[DR-010 - Project-First Original Curriculum|DR-010]] and [[DR-011 - Sectioned Curriculum and Frontmatter Schema|DR-011]]. Kept as a historical record: its dates, hours, weeks, phases and links into `99 - Archive/` describe the v1 plan and are not current instructions.
 
 *Uses the [[Decision Record]] template. Follows [[DR-001 - Program Scope, Phases, and Timeline|DR-001]]. Accepted and applied 2026-10-09. Checkpoint before the refactor: git commit `46f92ca`.*
 
@@ -37,7 +41,7 @@ Also, 16 one-off scripts in the vault root could silently undo fixes if re-run.
 6. **One-off scripts move to `99 - Archive/Scripts/`** with a do-not-run warning. `verify_curriculum.py` is rewritten as the single read-only checker (links, numbering, schema, prerequisites, headings, Sequential Flow chain, planned hours).
 
 ## Status
-**Accepted**: 2026-10-09.
+**Accepted**: 2026-10-09. **Superseded** by DR-010 and DR-011.
 
 ## Consequences
 **Easier:** a block number now means the same thing everywhere (Checklist, notes, Projects Hub, how-i-study, DRs). `python3 verify_curriculum.py` gives a pass/fail for the whole curriculum. The Dashboard total is a real budget.

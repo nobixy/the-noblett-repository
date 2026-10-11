@@ -1,9 +1,13 @@
 ---
 title: "Project: Kestrel ISA"
+id: "MOD06-PRJ-kestrel-isa"
+type: "project"
 module: "06-computer-architecture"
-hours: 60
+phase: "C"
+order: 940
+prerequisites: [MOD01-PRJ-nib-machine, MOD04-PRJ-gatesmith, MOD06-LAB01]
 artifact: "The Kestrel-16 instruction set reference manual; kestrel.py (cycle-counting emulator with devices); kasm.py (two-pass assembler with pseudo-instructions); a runtime library in assembly; a game running on the framebuffer"
-deliverable: "ISA Reference Manual (your most important document so far) + test report + 5-minute demo of the game"
+deliverable: "ISA Reference Manual (your most important document so far) + test report + short demo of the game"
 ---
 
 # Project: Kestrel ISA
@@ -11,7 +15,6 @@ deliverable: "ISA Reference Manual (your most important document so far) + test 
 | | |
 | :-- | :-- |
 | **Module** | 06 Computer Architecture |
-| **Time** | About 60 hours |
 | **Prerequisites** | [Nib](../../../01-intro-cs-taste/projects/nib-machine/spec.md); [Gatesmith](../../../04-circuits-and-digital-logic/projects/gatesmith/spec.md)'s ALU8; Lab 01 of this module |
 | **You build** | **Kestrel-16**, a 16-bit computer you design. You write its instruction set reference manual, a cycle-counting emulator with a terminal, keyboard, timer, and a small pixel screen, an assembler with labels and pseudo-instructions, a calling convention with a stack, a runtime library (printing, multiplication, division) in assembly — and finally a game that runs on it |
 | **Deliverable** | The ISA Reference Manual, a test report, and a demo |
@@ -222,7 +225,7 @@ Measure instructions per frame (using the cycle counter). Find the hottest loop 
 
 1. **`KESTREL.md` — the ISA Reference Manual** (v1 at Milestone 1, final at the end with a change history). This is graded as a technical document: complete, precise, consistent, and readable. Aim for the quality of the real manuals you sampled in copywork Level 4.
 2. **Test report** (1 page): what is tested, how, and coverage per instruction.
-3. **Demo (5 minutes):** the manual's structure, the assembler's listing, `fib` in the trace, and the game running.
+3. **Demo:** the manual's structure, the assembler's listing, `fib` in the trace, and the game running.
 
 ## Study-method integration
 
@@ -233,7 +236,7 @@ Measure instructions per frame (using the cycle counter). Find the hottest loop 
 | **W** | Eight design rationales in the manual; packed strings; two-pass sizing; power-of-two wrap-around |
 | **S** | Fetch–decode–execute; assembler passes; shift-and-add/subtract |
 | **I** | Hardware thinking, assembly programming, and tooling alternate |
-| **C** | Copywork this month: passages from a real ISA manual (the RISC-V unprivileged spec's introduction is excellent prose) |
+| **C** | Copywork during this project: passages from a real ISA manual (the RISC-V unprivileged spec's introduction is excellent prose) |
 | **T** | The manual, test report, demo |
 
 ## Stretch goals

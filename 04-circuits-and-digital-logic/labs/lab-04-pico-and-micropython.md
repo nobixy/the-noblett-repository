@@ -1,19 +1,23 @@
 ---
 title: "Lab 04 — Pico and MicroPython"
+id: "MOD04-LAB04"
+type: "lab"
 module: "04-circuits-and-digital-logic"
-hours: 12
-type: maker-lab
+phase: "B"
+order: 620
+prerequisites: [MOD04-LAB03]
+kind: "maker"
 ---
 
 # Lab 04 — Pico and MicroPython
 
 **Goal:** program a real microcontroller: blink and read pins, debounce a button in software, read an analog value, make sound with PWM (your Tone Loom songs on a buzzer), and stream measurements to your computer.
 
-**Time:** about 12 hours, in four sessions. Start in the **Wokwi** simulator (wokwi.com/pi-pico) if your board hasn't arrived.
+**Sessions:** four. Start in the **Wokwi** simulator (wokwi.com/pi-pico) if your board hasn't arrived.
 
 ---
 
-## Session 1 — Setup and blink (3 hours)
+## Session 1 — Setup and blink
 
 ### What a microcontroller is
 
@@ -48,7 +52,7 @@ Run a file with `mpremote run blink.py`. Save it as `main.py` on the Pico (`mpre
 
 ---
 
-## Session 2 — Inputs and software debouncing (3 hours)
+## Session 2 — Inputs and software debouncing
 
 ### Reading a button
 
@@ -91,7 +95,7 @@ Bounces trigger it repeatedly too. Interrupts come back in a big way in Module 0
 
 ---
 
-## Session 3 — Analog in, PWM out (3 hours)
+## Session 3 — Analog in, PWM out
 
 ### Analog input (ADC)
 
@@ -124,7 +128,7 @@ Fade an LED smoothly up and down.
 
 ---
 
-## Session 4 — Logging to your computer (3 hours)
+## Session 4 — Logging to your computer
 
 The Pico's `print()` output travels over USB as a **serial** stream. Your computer can read it as a file-like device.
 
@@ -144,7 +148,7 @@ The Pico's `print()` output travels over USB as a **serial** stream. Your comput
 ## Retrieval and reflection
 
 1. **[R]:** setting a pin as output/input with pull-down; the debounce state machine's steps; ADC scaling; the internal temperature formula; what PWM duty means; 3.3 V and current limits.
-2. **[F] (spoken, 2 min):** "What is PWM, and how can a digital pin dim an LED?"
+2. **[F] (spoken):** "What is PWM, and how can a digital pin dim an LED?"
 3. **[W]:** polling vs interrupts — when would each be better?
 
 **Next:** the projects — [Gatesmith](../projects/gatesmith/spec.md) (if not started), then [Crosswalk Controller](../projects/crosswalk-controller/spec.md) and [Pico Thermostat](../projects/pico-thermostat/spec.md).

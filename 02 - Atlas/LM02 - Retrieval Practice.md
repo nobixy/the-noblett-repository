@@ -3,8 +3,6 @@ title: "LM02: Retrieval Practice"
 type: learning-method
 method_id: LM02
 evidence: "Strong"
-project_hours: 3
-counts_toward: "B0"
 ---
 
 # LM02 — Retrieval Practice
@@ -31,10 +29,10 @@ It feels worse than rereading while you do it. That feeling is the point, not a 
 - Not turning misses into cards ([[LM09 - Spacing and Spaced Repetition|LM09]]).
 
 ## 🔨 Project: Blank-Sheet Timer (Scratch first, Python later)
-A Scratch app: a 15-minute countdown, then it asks how many items you recalled and how many you missed after checking. It shows your % and keeps your last 10 scores. Optional later in P4: the same tool in Python, saving to a CSV.
-- **Done when:** you used it after 5 study sessions, the scores are in your daily log, and every miss became a flashcard.
-- **Time:** about 3 h, counted inside [[B0 - The Deep Learner's Toolkit|B0]]'s existing hours (replaces reading the long *8 Core Cognitive Study Systems* section front to back; the deep dives are that reading, done project-first).
-- **Level / when:** Beginner (Scratch). Week 2.
+A Scratch app: a countdown (you choose the length), then it asks how many items you recalled and how many you missed after checking. It shows your % and keeps your last 10 scores. Optional later: the same tool in Python, saving to a CSV.
+- **Done when:** you used it after 5 study sessions, the scores are in your session log, and every miss became a flashcard.
+- **Level:** Beginner (Scratch).
+- **Fits with:** Protocol **R** (blank-sheet retrieval): the warm-up recall that opens every session, and every Milestone Checkpoint.
 
 ## Sources
 - Roediger & Karpicke (2006), "Test-enhanced learning", *Psychological Science* 17(3), 249–255.

@@ -2,7 +2,6 @@
 subject: ""
 source_chapter: ""
 date: "{{date}}"
-retrieval_duration_min: 15
 recalled_percentage_estimate: 0
 ---
 
@@ -10,7 +9,7 @@ recalled_percentage_estimate: 0
 
 > [!INFO] Protocol
 > 1. Close all books, browser tabs, and previous notes.
-> 2. Set a timer for 10–15 minutes.
+> 2. No timer: keep going until you have run dry twice.
 > 3. Write down everything you can remember from pure memory: central thesis, definitions, diagrams, equations, steps, counter-examples.
 > 4. Only when completely dry, open the book in a different colored ink or font and annotate what you missed.
 

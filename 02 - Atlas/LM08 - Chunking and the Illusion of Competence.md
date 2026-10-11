@@ -3,8 +3,6 @@ title: "LM08: Chunking and the Illusion of Competence"
 type: learning-method
 method_id: LM08
 evidence: "Strong (chunking); strong (illusions of competence)"
-project_hours: 3
-counts_toward: "BM"
 ---
 
 # LM08 — Chunking and the Illusion of Competence
@@ -20,7 +18,7 @@ counts_toward: "BM"
 ## The evidence, honestly
 Chunking is one of the best-established findings about expertise: Chase & Simon (1973) on chess masters, building on Miller (1956).
 Koriat & Bjork (2005): learners overrate how well they will remember material whose answer is visible while they study it.
-Oakley's *Learning How to Learn* (Week 2) teaches both; the research behind them is solid.
+Oakley's *Learning How to Learn* (part 2) teaches both; the research behind them is solid.
 
 ## Using it in EECS
 - "Swap two variables", "two-pointer scan", "voltage divider" and "read–modify–write" are chunks.
@@ -34,8 +32,8 @@ Oakley's *Learning How to Learn* (Week 2) teaches both; the research behind them
 ## 🔨 Project: Calibration Tracker
 Before each Khan quiz or NeetCode problem, write your predicted score or "will I solve it: yes/no". Afterwards, log predicted vs actual in a CSV. Plot it with a few lines of Python (matplotlib), or use a spreadsheet chart.
 - **Done when:** 20 predictions are logged, the chart shows whether you are over- or under-confident, and you wrote one sentence on what you'll change.
-- **Time:** about 3 h, counted inside [[BM - Bedrock Mathematics|BM]]'s existing hours (the Shuffle Drill replaces the Khan practice sets beyond the unit tests (the unit tests stay); the why-ladders for invert-and-multiply and negative × negative count as Build Requirement 2's Feynman explanations).
-- **Level / when:** Beginner Python or a spreadsheet. Week 10, with the prime sieve.
+- **Level:** Beginner Python or a spreadsheet.
+- **Fits with:** Protocol **V** (watch actively) and the cold self-checks at the end of every stage.
 
 ## Sources
 - Miller (1956), "The magical number seven, plus or minus two", *Psychological Review* 63(2).

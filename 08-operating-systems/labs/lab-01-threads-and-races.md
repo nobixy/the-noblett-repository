@@ -1,18 +1,22 @@
 ---
 title: "Lab 01 — Threads and Races"
+id: "MOD08-LAB01"
+type: "lab"
 module: "08-operating-systems"
-hours: 10
+phase: "D"
+order: 1090
+prerequisites: []
 ---
 
 # Lab 01 — Threads and Races
 
 **Goal:** write multithreaded C correctly — see a race condition happen, fix it with a mutex, coordinate threads with condition variables, cause and fix a deadlock, and let ThreadSanitizer find bugs for you.
 
-**Time:** about 10 hours, in four sessions.
+**Sessions:** four.
 
 ---
 
-## Session 1 — Threads and the first race (2 hours)
+## Session 1 — Threads and the first race
 
 A **thread** is a separate flow of execution inside a process. Threads share the process's memory (globals, heap) but each has its own stack and registers. (Compare: `fork` creates a separate process with its own copy of memory.)
 
@@ -48,7 +52,7 @@ Compile with `-pthread`. Run it 10 times. Record the results. They're less than 
 
 ---
 
-## Session 2 — Mutexes and atomics (3 hours)
+## Session 2 — Mutexes and atomics
 
 A **mutex** (mutual exclusion lock) makes a block of code run by one thread at a time:
 
@@ -68,7 +72,7 @@ Now it's always 2,000,000. Time it: how much slower is it than the racy version?
 
 ---
 
-## Session 3 — Condition variables: the bounded buffer (3 hours)
+## Session 3 — Condition variables: the bounded buffer
 
 Threads often need to **wait** for something: a producer waits for space; a consumer waits for data. Spinning in a loop (`while (empty) {}`) burns the CPU. A **condition variable** lets a thread sleep until another thread signals.
 
@@ -88,7 +92,7 @@ Threads often need to **wait** for something: a producer waits for space; a cons
 
 ---
 
-## Session 4 — Deadlock (2 hours)
+## Session 4 — Deadlock
 
 **Cause one:** two locks A and B; thread 1 locks A then B; thread 2 locks B then A. Add a short `usleep` between the two lock calls. Run it: it hangs. Attach `gdb -p <pid>` and `thread apply all bt` to see each thread waiting for the other's lock.
 
@@ -110,4 +114,4 @@ Threads often need to **wait** for something: a producer waits for space; a cons
 ## Retrieval and reflection
 
 1. **[R]:** why `counter++` races; what a mutex and a condition variable each do; why `while` around `wait`; the four deadlock conditions.
-2. **[F] (spoken, 2 min):** "What is a race condition?" — with your drawn interleaving.
+2. **[F] (spoken):** "What is a race condition?" — with your drawn interleaving.

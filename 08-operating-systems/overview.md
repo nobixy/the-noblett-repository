@@ -1,7 +1,12 @@
 ---
 title: "08 — Operating Systems"
+id: "MOD08"
+type: "overview"
 module: "08-operating-systems"
-hours: 230
+phase: "D"
+order: 1080
+prerequisites: [MOD07, MOD06, MOD05, E10]
+checkpoints: [MOD08-CLOSE]
 tags: [module, os, kernel]
 ---
 
@@ -32,17 +37,16 @@ By the end you will be able to:
 
 ## Sequence and time
 
-| Order | Item | Hours | Concepts |
-| :-- | :-- | --: | :-- |
-| 1 | [Lab 01 — Threads and Races](labs/lab-01-threads-and-races.md) | 10 | pthreads, races, mutexes, condition variables, deadlock, TSan |
-| 2 | **[Scheduler Arena](projects/scheduler-arena/spec.md)** | 30 | scheduling policies, metrics, fairness, Linux CFS reality check |
-| 3 | [Lab 02 — Virtual Memory Explorer](labs/lab-02-virtual-memory-explorer.md) | 8 | address spaces, /proc maps, page faults, mmap, copy-on-write |
-| 4 | **[Tagfs](projects/tagfs/spec.md)** — a FUSE file system | 50 | inodes and directories, FUSE operations, journaling, crash safety |
-| 5 | [Lab 03 — Bare-Metal RISC-V](labs/lab-03-bare-metal-riscv.md) | 10 | cross-compiling, linker scripts, QEMU virt, OpenSBI, UART, GDB |
-| 6 | **[Seedling Kernel](projects/seedling-kernel/spec.md)** | 120 | boot, traps, timer, page allocator, threads, context switch, Sv39, user mode, syscalls, ramdisk FS, a shell |
-| | **Total** | **~230** | |
+| Order | Item | Concepts |
+| :-- | :-- | :-- |
+| 1 | [Lab 01 — Threads and Races](labs/lab-01-threads-and-races.md) | pthreads, races, mutexes, condition variables, deadlock, TSan |
+| 2 | **[Scheduler Arena](projects/scheduler-arena/spec.md)** | scheduling policies, metrics, fairness, Linux CFS reality check |
+| 3 | [Lab 02 — Virtual Memory Explorer](labs/lab-02-virtual-memory-explorer.md) | address spaces, /proc maps, page faults, mmap, copy-on-write |
+| 4 | **[Tagfs](projects/tagfs/spec.md)** — a FUSE file system | inodes and directories, FUSE operations, journaling, crash safety |
+| 5 | [Lab 03 — Bare-Metal RISC-V](labs/lab-03-bare-metal-riscv.md) | cross-compiling, linker scripts, QEMU virt, OpenSBI, UART, GDB |
+| 6 | **[Seedling Kernel](projects/seedling-kernel/spec.md)** | boot, traps, timer, page allocator, threads, context switch, Sv39, user mode, syscalls, ramdisk FS, a shell |
 
-At about 12 hours a week, about 19 weeks. Seedling is long; its milestones are designed so that each one ends with a kernel that boots and does something new. Expect to hit at least one week-long bug. That's normal for kernels — the [D] protocol is your friend.
+Seedling is long; its milestones are designed so that each one ends with a kernel that boots and does something new. Expect to hit at least one bug that lasts several sections. That's normal for kernels — the [D] protocol is your friend.
 
 ## How the projects map to concepts
 
@@ -63,7 +67,7 @@ At about 12 hours a week, about 19 weeks. Seedling is long; its milestones are d
 | **F** | Recorded explanations: what happens on a timer interrupt; how a page table turns a virtual address into a physical one; how a crash-safe file system stays consistent. |
 | **W** | Every kernel design choice in the Seedling design doc, defended; every scheduler policy's trade-off measured. |
 | **S** | Subgoal labels for trap entry/exit, context switch, page-table walk, syscall dispatch. |
-| **D** | Kernel bugs freeze everything with no error message. The flight recorder (Seedling M2), GDB, and the stuck-note habit are essential; never debug a kernel for more than 90 minutes straight. |
+| **D** | Kernel bugs freeze everything with no error message. The flight recorder (Seedling M2), GDB, and the stuck-note habit are essential; never debug a kernel past three honest attempts without writing a stuck note and stepping away. |
 | **I** | Labs and projects alternate between user-level Linux experiments and kernel code. |
 | **T** | Design docs, a lab report for the Scheduler Arena, a file-system specification, and a kernel walkthrough demo. |
 
@@ -80,9 +84,11 @@ At about 12 hours a week, about 19 weeks. Seedling is long; its milestones are d
 
 ## Module close
 
-1. **Cumulative retrieval [R] (60 min):** from a timer interrupt firing to a different user process running, every step, on one page.
-2. **Kernel walkthrough [T]:** a 10-minute recorded tour of Seedling's source, file by file, for a programmer who has never seen it.
+1. **Cumulative retrieval [R]:** from a timer interrupt firing to a different user process running, every step, on one page.
+2. **Kernel walkthrough [T]:** a short recorded tour of Seedling's source, file by file, for a programmer who has never seen it.
 3. **Update your [Explain-a-System](../00-foundations/english/projects/explain-a-system/spec.md) explainer 2** (a key press) from scratch. You now know what an interrupt, a driver, and a kernel actually are.
 4. Tick the module in [Start Here](<../00 - Start Here.md>).
+
+**Resources:** books, docs, and tools for this module are in [resources.md](resources.md) (pointers only — the projects are the course).
 
 **Next:** [09 Networking](../09-networking/overview.md).

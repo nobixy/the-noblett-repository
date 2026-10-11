@@ -1,7 +1,12 @@
 ---
 title: "11 — Databases"
+id: "MOD11"
+type: "overview"
 module: "11-databases"
-hours: 170
+phase: "D"
+order: 1310
+prerequisites: [MOD05, MOD07, MOD08, MOD06-PRJ-cache-sim, MOD03-U4]
+checkpoints: [MOD11-CLOSE]
 tags: [module, databases, storage]
 ---
 
@@ -31,15 +36,14 @@ By the end you will be able to:
 
 ## Sequence and time
 
-| Order | Item | Hours | Concepts |
-| :-- | :-- | --: | :-- |
-| 1 | [Lab 01 — SQL on Your Own Data](labs/lab-01-sql-on-your-own-data.md) | 12 | schemas, keys, joins, aggregates, indexes, EXPLAIN |
-| 2 | [Lab 02 — What Disks Promise](labs/lab-02-what-disks-promise.md) | 8 | write vs fsync, atomic rename, torn writes, SQLite's journals |
-| 3 | **[Stratum Storage](projects/stratum-storage/spec.md)** | 70 | pages, slotted pages, records, buffer pool, B+tree, catalog |
-| 4 | **[Stratum Query and Recovery](projects/stratum-query-and-recovery/spec.md)** | 80 | WAL, recovery, fault injection, StratumQL, planner, executor, differential testing |
-| | **Total** | **~170** | |
+| Order | Item | Concepts |
+| :-- | :-- | :-- |
+| 1 | [Lab 01 — SQL on Your Own Data](labs/lab-01-sql-on-your-own-data.md) | schemas, keys, joins, aggregates, indexes, EXPLAIN |
+| 2 | [Lab 02 — What Disks Promise](labs/lab-02-what-disks-promise.md) | write vs fsync, atomic rename, torn writes, SQLite's journals |
+| 3 | **[Stratum Storage](projects/stratum-storage/spec.md)** | pages, slotted pages, records, buffer pool, B+tree, catalog |
+| 4 | **[Stratum Query and Recovery](projects/stratum-query-and-recovery/spec.md)** | WAL, recovery, fault injection, StratumQL, planner, executor, differential testing |
 
-About 12 hours a week → 14 weeks. Language: **Python** is recommended (clarity — the ideas are the point; performance targets are set for Python) or C (for the brave; Crate and Heapsmith prepared you).
+Language: **Python** is recommended (clarity — the ideas are the point; performance targets are set for Python) or C (for the brave; Crate and Heapsmith prepared you).
 
 ## How the study methods run through this module
 
@@ -60,9 +64,11 @@ About 12 hours a week → 14 weeks. Language: **Python** is recommended (clarity
 
 ## Module close
 
-1. **Cumulative retrieval [R] (60 min):** from `INSERT` in the REPL to bytes on disk and back after a crash — every layer on one page.
+1. **Cumulative retrieval [R]:** from `INSERT` in the REPL to bytes on disk and back after a crash — every layer on one page.
 2. **Rewrite [Explain-a-System](../00-foundations/english/projects/explain-a-system/spec.md) explainer 5** (the bank account and the power cut) from scratch, using your own engine's design as the example.
-3. **Showcase [T]:** a 5-minute demo: your study data in Stratum, a query plan using an index, and a crash-and-recover run.
+3. **Showcase [T]:** a short demo: your study data in Stratum, a query plan using an index, and a crash-and-recover run.
 4. Tick the module in [Start Here](<../00 - Start Here.md>).
+
+**Resources:** books, docs, and tools for this module are in [resources.md](resources.md) (pointers only — the projects are the course).
 
 **Next:** [12 Math for Engineering](../12-math-for-engineering/overview.md) (if not running already) and [13 Capstone](../13-capstone/overview.md).

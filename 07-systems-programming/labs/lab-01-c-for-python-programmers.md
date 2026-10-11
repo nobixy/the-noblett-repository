@@ -1,7 +1,11 @@
 ---
 title: "Lab 01 — C for Python Programmers"
+id: "MOD07-LAB01"
+type: "lab"
 module: "07-systems-programming"
-hours: 20
+phase: "C"
+order: 1000
+prerequisites: []
 sessions: 8
 ---
 
@@ -9,13 +13,13 @@ sessions: 8
 
 **Goal:** enough C to build an allocator, a shell, and an archiver — with a clear picture of what every line does to memory.
 
-**Time:** about 20 hours, in eight sessions. Each session: learn, type the examples (copywork for code), do the exercises, recall from a blank page [R], commit.
+**Sessions:** eight. Each session: learn, type the examples (copywork for code), do the exercises, recall from a blank page [R], commit.
 
 **Rule for the whole module:** compile with `-std=c17 -Wall -Wextra -Wpedantic -Werror -g`. A warning is a bug report from the compiler. Don't silence it; understand it.
 
 ---
 
-## Session 1 — Compile, run, types (2 hours)
+## Session 1 — Compile, run, types
 
 ```c
 // hello.c
@@ -43,7 +47,7 @@ gcc -std=c17 -Wall -Wextra -Wpedantic -Werror -g hello.c -o hello
 
 ---
 
-## Session 2 — Functions, control flow, header files (2 hours)
+## Session 2 — Functions, control flow, header files
 
 ```c
 // mathx.h
@@ -89,7 +93,7 @@ clean:
 
 ---
 
-## Session 3 — Pointers (3 hours)
+## Session 3 — Pointers
 
 **A pointer is an address** — the number of a memory location (Nib's LOADX, Kestrel's LD with a register base). Everything else follows from that.
 
@@ -118,7 +122,7 @@ swap(&x, &y);
 
 ---
 
-## Session 4 — Arrays and pointer arithmetic (2 hours)
+## Session 4 — Arrays and pointer arithmetic
 
 ```c
 int a[5] = {10, 20, 30, 40, 50};
@@ -135,7 +139,7 @@ printf("%d\n", p[2]);       // same thing: p[i] is *(p + i)
 
 ---
 
-## Session 5 — Strings (2 hours)
+## Session 5 — Strings
 
 A C **string** is an array of `char` ending with a **0 byte** (`'\0'`) — exactly Nib's `.string` and Kestrel's: you've built this.
 
@@ -152,7 +156,7 @@ size_t n = strlen(name);    // 3 — counts until the 0
 
 ---
 
-## Session 6 — Dynamic memory (3 hours)
+## Session 6 — Dynamic memory
 
 The **stack** holds local variables; they vanish when the function returns. For data that must outlive a function, or whose size is known only at run time, use the **heap**:
 
@@ -175,7 +179,7 @@ a = NULL;                          // defensive: avoid using it after free
 
 ---
 
-## Session 7 — Structs and linked structures (3 hours)
+## Session 7 — Structs and linked structures
 
 ```c
 typedef struct Node {
@@ -199,7 +203,7 @@ Node *push_front(Node *head, int v) {
 
 ---
 
-## Session 8 — Bits, files, and putting it together (3 hours)
+## Session 8 — Bits, files, and putting it together
 
 **Bit operations:** `&`, `|`, `^`, `~`, `<<`, `>>`. Use **unsigned** types for bit work (shifting signed negative numbers right is implementation-defined). Idioms: test bit k `(x >> k) & 1`; set `x |= 1u << k`; clear `x &= ~(1u << k)`; toggle `x ^= 1u << k`.
 
@@ -217,8 +221,8 @@ Node *push_front(Node *head, int v) {
 
 ## Retrieval and reflection
 
-1. **[R] Blank sheet (20 min):** pointer syntax and meaning; arrays vs pointers; strings and the 0 byte; malloc/free rules and the four bugs; struct padding; bit idioms; why not `fwrite` a struct.
-2. **[F] (spoken, 3 min):** "What is a pointer?" — draw memory as you talk.
+1. **[R] Blank sheet:** pointer syntax and meaning; arrays vs pointers; strings and the 0 byte; malloc/free rules and the four bugs; struct padding; bit idioms; why not `fwrite` a struct.
+2. **[F] (spoken):** "What is a pointer?" — draw memory as you talk.
 3. **Flashcards:** printf formats; string functions and their dangers; the four heap bugs.
 
 **Next:** [Lab 02 — Debugging Tools](lab-02-debugging-tools.md).

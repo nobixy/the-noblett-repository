@@ -1,8 +1,13 @@
 ---
 title: "Project: Fare Detective"
-track: math
+id: "FND-MA-PRJ-fare-detective"
+type: "project"
+module: "00-foundations"
+track: "math"
+phase: "B"
+order: 410
+prerequisites: [M07]
 stages: "M08–M09"
-hours: 16
 artifact: "A notebook of real pricing formulas and solved questions; fitted linear models from collected data; fare.py"
 deliverable: "A one-page recommendation: which plan should I choose, and when does that change?"
 ---
@@ -11,8 +16,6 @@ deliverable: "A one-page recommendation: which plan should I choose, and when do
 
 | | |
 | :-- | :-- |
-| **When** | Milestones 1–2 in M08; Milestones 3–5 in M09 |
-| **Time** | About 16 hours |
 | **You build** | You investigate real prices — taxi fares, phone plans, electricity, cloud storage, shipping — write them as algebra, uncover hidden pricing rules from data, and build a tool that fits models and finds break-even points |
 | **Deliverable** | A one-page recommendation with a trade-off table and a graph |
 

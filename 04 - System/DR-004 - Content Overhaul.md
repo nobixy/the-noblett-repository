@@ -1,7 +1,8 @@
 ---
 title: "DR-004: Content Overhaul"
 type: decision-record
-status: accepted
+status: superseded
+superseded_by: [DR-010, DR-011]
 date: 2026-10-09
 accepted: 2026-10-09
 tags:
@@ -10,6 +11,9 @@ tags:
 ---
 
 # DR-004: Content Overhaul
+
+> [!WARNING] Superseded
+> Superseded by [[DR-010 - Project-First Original Curriculum|DR-010]] and [[DR-011 - Sectioned Curriculum and Frontmatter Schema|DR-011]]. Kept as a historical record: its dates, hours, weeks, phases and links into `99 - Archive/` describe the v1 plan and are not current instructions.
 
 *Uses the [[Decision Record]] template. Follows [[DR-003 - One Path Restructure|DR-003]]. Accepted and applied 2026-10-09. Checkpoint before the overhaul: git commit `c0451b3`.*
 
@@ -46,7 +50,7 @@ What the review found:
 **Renumbering:** E3 → E2 (Security); E4 → Block 23a; Track 10 → 8 (Quantum), 11 → 9 (Robotics), 15 → 10 (Full-Stack); new Track 11. Every link, prerequisite and Sequential Flow was rewritten; cut and merged notes keep their full text in `99 - Archive/Cut Content/` (named `Cut - …`).
 
 ## Status
-**Accepted**: 2026-10-09.
+**Accepted**: 2026-10-09. **Superseded** by DR-010 and DR-011.
 
 ## Consequences
 **Hours (planned, non-optional, Start Here query):** 5,125 → **5,805** (+150 4a, +160 8a, +160 15a, +150 22a, +160 25a, +140 23a, +60 physics; −120 SICP, −180 Real Analysis). Plus two tracks (800) = 6,605; plus habits (≈1,000–1,500, DR-001) = **≈7,600–8,100 h**, inside the ~8-year cap at 20 h/wk (≈8,320 h). The DR-001 cut order still applies if hours drop (Physics → Statistics → second track).

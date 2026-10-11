@@ -1,9 +1,13 @@
 ---
 title: "Project: Seedling Kernel"
+id: "MOD08-PRJ-seedling-kernel"
+type: "project"
 module: "08-operating-systems"
-hours: 120
+phase: "D"
+order: 1140
+prerequisites: [MOD08-LAB03, MOD07-PRJ-heapsmith, MOD07-PRJ-burrow, MOD06-PRJ-kestrel-isa]
 artifact: "Seedling: a small RISC-V (RV64) kernel for QEMU virt — console, trap handling, timer interrupts, a flight recorder, physical page allocator and kernel heap, kernel threads with preemptive scheduling, Sv39 virtual memory, user mode with system calls, a ramdisk file system (SeedFS), user programs and a tiny shell, and an automated test runner"
-deliverable: "Design doc (grown milestone by milestone) + SEEDFS.md + syscall reference + automated test report + 10-minute recorded kernel walkthrough"
+deliverable: "Design doc (grown milestone by milestone) + SEEDFS.md + syscall reference + automated test report + recorded kernel walkthrough"
 ---
 
 # Project: Seedling Kernel
@@ -11,7 +15,6 @@ deliverable: "Design doc (grown milestone by milestone) + SEEDFS.md + syscall re
 | | |
 | :-- | :-- |
 | **Module** | 08 Operating Systems |
-| **Time** | About 120 hours (8–12 weeks) |
 | **Prerequisites** | Labs 01–03 of this module; Heapsmith; Burrow; Kestrel ISA (the ideas of traps and privilege) |
 | **You build** | **Seedling**, an operating-system kernel for 64-bit RISC-V, running on QEMU's `virt` machine. It grows in eight milestones, and boots at every step: it prints, handles exceptions and timer interrupts, records its own recent history, allocates memory, runs several threads with preemptive scheduling, gives each program its own address space, runs programs in user mode with system calls, reads files from a ramdisk, and finally runs **Sprout**, a tiny shell that launches programs |
 | **Deliverable** | A growing design doc, a file-system spec, a syscall reference, a test report, and a recorded walkthrough |
@@ -154,7 +157,7 @@ Start from Lab 03's kernel.
 1. **Design doc** — grows one section per milestone (with diagrams: trap frame, thread states, context switch, page-table walk, address-space layout, SeedFS layout) and a final "What I would do next" section.
 2. **`SEEDFS.md`** and **`SYSCALLS.md`** — reference documents.
 3. **Test report** — what the automated suite covers, and three bug stories (symptom, how you found it, cause, fix).
-4. **Kernel walkthrough (10 minutes, recorded):** boot to Sprout, then a source tour following one syscall and one timer interrupt.
+4. **Kernel walkthrough (short, recorded):** boot to Sprout, then a source tour following one syscall and one timer interrupt.
 
 ## Study-method integration
 
@@ -164,7 +167,7 @@ Start from Lab 03's kernel.
 | **F** | Trap entry; context switch; U-bit protection; one syscall end to end |
 | **W** | A design-doc decision per milestone: cheap recorder; callee-saved context; spinlocks disabling interrupts; sepc + 4; user pointers; direct vs indirect blocks |
 | **S** | Subgoals for trap entry/exit, switch, walk, syscall dispatch, path lookup |
-| **D** | Kernel bugs: QEMU logs, GDB, the recorder, a stuck note — and never more than 90 minutes in one sitting |
+| **D** | Kernel bugs: QEMU logs, GDB, the recorder, a stuck note — and never more than three honest attempts before a break |
 | **I** | Each milestone mixes hardware detail, data structures, and testing |
 | **T** | Growing design doc, references, test report, walkthrough |
 

@@ -1,18 +1,22 @@
 ---
 title: "Lab 02 — Debugging Tools"
+id: "MOD07-LAB02"
+type: "lab"
 module: "07-systems-programming"
-hours: 8
+phase: "C"
+order: 1010
+prerequisites: [MOD07-LAB01]
 ---
 
 # Lab 02 — Debugging Tools
 
 **Goal:** catch C's silent bugs loudly: `gdb` for stepping and inspecting, Valgrind and AddressSanitizer for memory errors, UndefinedBehaviorSanitizer for undefined behaviour.
 
-**Time:** about 8 hours, in three sessions.
+**Sessions:** three.
 
 ---
 
-## Session 1 — gdb (3 hours)
+## Session 1 — gdb
 
 Compile with `-g -O0` so the debugger can map machine code back to your lines.
 
@@ -37,7 +41,7 @@ Compile with `-g -O0` so the debugger can map machine code back to your lines.
 
 ---
 
-## Session 2 — Memory error detectors (3 hours)
+## Session 2 — Memory error detectors
 
 Create a file `bugs.c` with five deliberate bugs, each in its own function selected by a command-line argument:
 1. a **leak** (malloc, never free);
@@ -71,7 +75,7 @@ ASan is compiled into the program; it's much faster than Valgrind (about 2× slo
 
 ---
 
-## Session 3 — Habits (2 hours)
+## Session 3 — Habits
 
 1. **Two builds for every project:** a debug build (`-g -O0`) and a sanitizer build (`-fsanitize=address,undefined`). Your test suite runs under the sanitizer build. Add both to every Makefile as targets (`make debug`, `make asan`).
 2. **Valgrind in tests:** `valgrind --error-exitcode=1 --leak-check=full ./tests` fails the test run on any memory error.
@@ -91,4 +95,4 @@ ASan is compiled into the program; it's much faster than Valgrind (about 2× slo
 ## Retrieval and reflection
 
 1. **[R]:** the ten gdb commands; what Valgrind, ASan, and UBSan each catch; why undefined behaviour is dangerous.
-2. **[F] (spoken, 2 min):** "How does a tool know I used memory after freeing it?" (Guess first; then look up "shadow memory" and "redzones.")
+2. **[F] (spoken):** "How does a tool know I used memory after freeing it?" (Guess first; then look up "shadow memory" and "redzones.")

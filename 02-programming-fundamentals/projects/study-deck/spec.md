@@ -1,9 +1,13 @@
 ---
 title: "Project: Study Deck"
+id: "MOD02-PRJ-study-deck"
+type: "project"
 module: "02-programming-fundamentals"
-hours: 45
+phase: "B"
+order: 460
+prerequisites: [MOD02-LAB03]
 artifact: "deck: a command-line spaced-repetition app with plain-text cards, an append-only review log, two schedulers, importers, stats, and a forgetting-curve simulator"
-deliverable: "Design note (before + after), README, 5-minute demo, short simulation report"
+deliverable: "Design note (before + after), README, short demo, short simulation report"
 ---
 
 # Project: Study Deck
@@ -11,7 +15,6 @@ deliverable: "Design note (before + after), README, 5-minute demo, short simulat
 | | |
 | :-- | :-- |
 | **Module** | 02 Programming Fundamentals |
-| **Time** | About 45 hours |
 | **Prerequisites** | Labs 01–03 of this module; [Spelling Engine](../../../00-foundations/english/projects/spelling-engine/spec.md) Milestone 3 (helpful, not required) |
 | **You build** | `deck`, your own spaced-repetition flashcard app. Cards live in plain Markdown files you edit in any editor. Every review is appended to a log. Two scheduling algorithms you can switch between. Importers for your spelling log and your blank-sheet misses. A stats screen. And a simulator that compares schedulers on a model of human forgetting |
 | **Deliverable** | A design note (written before, updated after), README, recorded demo, and a short simulation report |
@@ -20,7 +23,7 @@ deliverable: "Design note (before + after), README, 5-minute demo, short simulat
 
 ## Why this matters
 
-You've been using spacing and retrieval since week 1 [I] [R]. Now you build the machine that runs them — and **you'll use it every day for the rest of this curriculum.** Every flashcard from every module goes into Study Deck. A tool you use daily gets tested harder than any homework.
+You've been using spacing and retrieval since section 1 [I] [R]. Now you build the machine that runs them — and **you'll use it every session for the rest of this curriculum.** Every flashcard from every module goes into Study Deck. A tool you use every session gets tested harder than any homework.
 
 The project also teaches core programming craft: a data model with invariants, a text format people edit by hand (which means parsing messy input carefully and never destroying it), an append-only log, algorithms you can swap, testing with a fake clock, and an experiment that answers a real question with a simulation.
 
@@ -131,7 +134,7 @@ deck simulate ...                  # Milestone 6
 - replaying the same log twice gives the same states (determinism);
 - appending to the log, then replaying, gives the same result as updating in memory.
 
-**Done when:** you review your real cards with it for 3 days.
+**Done when:** you review your real cards with it in 3 separate sessions.
 
 ### Milestone 3 — SM-2, and switching schedulers
 
@@ -166,7 +169,7 @@ deck simulate ...                  # Milestone 6
 
 ### Milestone 6 — The forgetting-curve simulator
 
-Which scheduler works better for you — and what does "better" mean? Real data takes months. A **simulation** gives a first answer in seconds.
+Which scheduler works better for you — and what does "better" mean? Real data takes many sessions to collect. A **simulation** gives a first answer in seconds.
 
 **The model** (a simplified version of a well-known memory model): each simulated card has a **stability** S (in days). The probability you recall it after t days is
 
@@ -208,7 +211,7 @@ Then vary one model parameter (the stability growth factor) and see whether the 
 
 1. **Design note** v1 (before Milestone 1) and **v2** (after Milestone 6) with a short "what changed and why" section.
 2. **README** that passes the five-minute stranger test: install, card format, every command, how to run tests.
-3. **Demo (5 minutes):** a real review session, a scheduler switch, stats, and the simulation results.
+3. **Demo:** a real review session, a scheduler switch, stats, and the simulation results.
 4. **Simulation report** (1 page, [Lab Report Template](<../../../04 - System/Lab Report Template.md>)): question, model, results table, conclusion, limits.
 
 ## Study-method integration
@@ -238,10 +241,10 @@ Then vary one model parameter (the stability growth factor) and see whether the 
 | Schedulers | Both, hand-computed tests, switching recomputes | One | Buggy |
 | Stats and importers | Correct on fixtures; idempotent imports | Partial | Missing |
 | Simulation | Results table, parameter sweep, honest limits | Runs | Missing |
-| Daily use | Used 14+ days | 7+ days | Barely |
+| Regular use | Used in 14+ sessions | 7+ sessions | Barely |
 | Communication | Notes v1/v2, README, demo, report | Most | Few |
 
-**Done when:** every area at least 2; Core design and Daily use at 3.
+**Done when:** every area at least 2; Core design and Regular use at 3.
 
 ## Connections
 

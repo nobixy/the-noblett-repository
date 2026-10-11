@@ -7,11 +7,10 @@ tags:
   - portfolio
 status: not-started
 license_upstream: "GPL-3.0"
-counts_toward: "Employability Portfolio items 2–3 / T10 capstone"
 ---
 
 # OSS Project — Embeddable Typing Test (Monkeytype)
-*Open-source portfolio project. On the [[Projects Ladder]]; feeds the [[Employability Portfolio and Review|Employability Portfolio]]. Facts checked 2026-10-10.*
+*Optional open-source project, outside the core curriculum: nothing depends on it and it is not scheduled. If you take it on, it counts as your one open build project while you work on it (rule 2 in [[00 - Start Here|Start Here]]). Facts checked 2026-10-10.*
 
 **Goal:** a typing test any website can drop in with one tag: job-skill tests (data entry, support, transcription), class warm-ups, onboarding. Learn from Monkeytype, contribute to it, then build the embeddable version with results an employer can trust.
 
@@ -94,7 +93,7 @@ None of them offers trusted, signed results for hiring. **That gap is the projec
 ## 🛠️ Stages (each has a done-when)
 
 ### S1 — Learn the codebase, first upstream PR
-*When:* the basic PR after [[P4 - Programming On-Ramp|P4]]'s CS50 Week 8 (HTML, CSS, JS); the local run after CS50 Week 9 or Full Stack Open Part 0–1. *Hours:* ~8 h, from weekly mini-build slots ([[how-i-study#2b. Weekly Mini-Build|§2b]]).
+*After:* [Module 02](<../02-programming-fundamentals/overview.md>) (git workflow) and some HTML, CSS and JS (CS50's web lectures, or Full Stack Open Parts 0–1, both outside this curriculum).
 - [ ] Fork, then make one **basic contribution** (a theme, quotes or a word list) following the PR naming rule.
 - [ ] Run the frontend locally (Node 24 + pnpm; Firebase skipped) and trace one test run: input → WPM → result screen. Write a one-page map of the code.
 - [ ] Pick a `help wanted` issue or a small bug you found, and ask on Discord before you start.
@@ -102,7 +101,7 @@ None of them offers trusted, signed results for hiring. **That gap is the projec
 **Done when:** one PR merged upstream (any type), and the frontend runs locally with your one-page map in the repo's notes.
 
 ### S2 — Minimal embeddable widget
-*When:* after Full Stack Open Parts 0–2 + 9 (TypeScript). *Hours:* ~20 h.
+*After:* S1, and Full Stack Open Parts 0–2 + 9 (TypeScript).
 - [ ] Choose the license path in your design doc: GPL fork, or clean-room MIT.
 - [ ] `<typing-test mode="time" duration="60" lang="english">` web component. It creates a sandboxed iframe you host (e.g. GitHub Pages or Cloudflare Pages, free).
 - [ ] `postMessage` API: `ready`, `start`, `progress`, `finish {wpm, acc, raw}`. Check `event.origin` on both sides.
@@ -111,7 +110,7 @@ None of them offers trusted, signed results for hiring. **That gap is the projec
 **Done when:** a page on another origin embeds the test with one script tag + one element, gets a `finish` event with the score, and the origin checks reject a message from an unknown site.
 
 ### S3 — Results API, signed results, employer dashboard
-*When:* after [[B19 - Networking|B19]] (HTTP, CORS, TLS) and during [[B24a - Applied Cryptography and Protocol Security|B24a]] (signatures, replay). Use Full Stack Open Parts 4–5 + 13 for auth and Postgres. *Hours:* ~35 h.
+*After:* S2 and [Module 09](<../09-networking/overview.md>) (networking, HTTP). Signatures and replay protection are beyond the core curriculum: learn them from the JWS/EdDSA library docs as you go. Use Full Stack Open Parts 4–5 + 13 for auth and Postgres.
 - [ ] Backend: an employer creates a test (config + single-use tokens), the widget submits the keystroke log, and the server replays it and scores it.
 - [ ] Signed result: JWS (EdDSA), a published public key, and a tiny `verify` CLI or page.
 - [ ] Simple dashboard: log in, create a test, copy the embed snippet, see the results table with flags.
@@ -119,14 +118,14 @@ None of them offers trusted, signed results for hiring. **That gap is the projec
 **Done when:** a result changed by one character fails verification, a replayed result for another test ID fails, and a friend can create a test and see your score on the dashboard.
 
 ### S4 — Anti-cheat and accessibility audit
-*When:* with [[B17 - Software Construction|B17]]'s HCI and accessibility material and [[B24a - Applied Cryptography and Protocol Security|B24a]]'s threat modeling. *Hours:* ~15 h.
-- [ ] STRIDE threat model of the widget + API (same method as B24a), then attack it yourself: paste, a synthetic-event bot, editing the request, replay, token reuse.
+*After:* S3.
+- [ ] STRIDE threat model of the widget + API, then attack it yourself: paste, a synthetic-event bot, editing the request, replay, token reuse.
 - [ ] Accessibility: `axe-core` or `pa11y` in CI with zero serious violations, a keyboard-only run, a screen-reader pass (Orca on Linux, free), and accommodation settings (time multiplier, untimed mode, reduced motion).
 
 **Done when:** the threat model is written and every attack you tried is either blocked or reported as a flag. The audit is in CI and green, and an untimed accessible run works from start to signed result without a mouse.
 
 ### S5 — Publish
-*When:* before the [[Employability Portfolio and Review|Employability Portfolio]] review (end of Year 4). *Hours:* ~15 h.
+*After:* S4.
 - [ ] npm package for the loader, a docs site with a live demo, and CI/CD (Full Stack Open Part 11).
 - [ ] License compliance: LICENSE file, source link in the widget footer, and attribution to Monkeytype if you forked.
 - [ ] Privacy note and an accessibility statement.
@@ -136,21 +135,15 @@ None of them offers trusted, signed results for hiring. **That gap is the projec
 
 ---
 
-## 🔗 Prerequisites → blocks
+## 🔗 Prerequisites
 | Stage | Uses |
 | :--- | :--- |
-| S1 | [[P4 - Programming On-Ramp\|P4]] (CS50 Weeks 8–9), Git basics from [[Engineering Practice]] |
-| S2 | [[T10 - Full-Stack and Product Engineering\|T10]] Full Stack Open Parts 0–2, 9 |
-| S3 | [[B19 - Networking\|B19]], [[B24a - Applied Cryptography and Protocol Security\|B24a]], T10 Parts 4–5, 13 |
-| S4 | [[B17 - Software Construction\|B17]] (HCI, accessibility), B24a (STRIDE) |
-| S5 | T10 Part 11 (CI/CD), [[Employability Portfolio and Review\|Employability Portfolio]] |
+| S1 | [Module 02](<../02-programming-fundamentals/overview.md>) (git workflow), Git basics from [[Engineering Practice]], CS50 web lectures (outside the curriculum) |
+| S2 | Full Stack Open Parts 0–2, 9 (outside the curriculum) |
+| S3 | [Module 09](<../09-networking/overview.md>), Full Stack Open Parts 4–5, 13 |
+| S4 | S3; WCAG 2.2 and the accessibility tools named above |
+| S5 | Full Stack Open Part 11 (CI/CD) |
 
-## ⏱️ Hours (no hours added)
-About 93 h total, all swapped for existing hours:
-- **S1:** ~8 h from weekly mini-build slots.
-- **S2, S3, S5:** ~70 h. These *are* the Employability Portfolio's item 2 (full-stack app with auth + database) and item 3 (an API with CI/CD and tests). If Track 10 is one of your two tracks, they also count toward its capstone.
-- **S4:** ~15 h, taken from Track 10 build time, or from the portfolio items' polish if Track 10 isn't chosen.
+*Historical note: the v1 version of this note placed the stages in v1 blocks (P4, B17, B19, B24a, Track 10), gave them hour budgets, and counted them toward the v1 Employability Portfolio. Those links were removed by [DR-011](<../04 - System/DR-011 - Sectioned Curriculum and Frontmatter Schema.md>), which also records the decision not to add a job track.*
 
-The core stays at 6,005 h.
-
-*Back to [[Projects Ladder]] · [[Projects Hub]] · [[00 - Start Here|Start Here]]*
+*Back to [[00 - Start Here|Start Here]] · [[Engineering Practice]]*

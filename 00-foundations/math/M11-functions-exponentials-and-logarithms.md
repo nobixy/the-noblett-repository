@@ -1,22 +1,24 @@
 ---
 title: "M11 — Functions, Exponentials, and Logarithms"
-stage: M11
-track: math
-hours: 35
-weeks: 5
+id: "M11"
+type: "lesson"
+module: "00-foundations"
+track: "math"
+stage: "M11"
+phase: "C"
+order: 730
+prerequisites: [M10]
 ---
 
 # M11 — Functions, Exponentials, and Logarithms
 
 **In this stage you will:** work with quadratic functions (and derive the quadratic formula yourself), understand exponential growth and decay, learn what a logarithm *means* (it's a question, not a mystery), add up long sequences with two famous tricks, and compare how fast different functions grow — which is exactly how programmers judge whether an algorithm is fast.
 
-**Time:** about 35 hours over 5 weeks.
-
 **Before you start:** M10 done. Exponent laws (M07) and equations (M08) are solid.
 
 ---
 
-## Diagnostic (cold, 25 minutes; calculator allowed for 3)
+## Diagnostic (cold; calculator allowed for 3)
 
 1. Solve x² − 5x + 6 = 0.
 2. Expand (x + 3)(x − 2).
@@ -265,17 +267,17 @@ At a billion simple steps per second: n² at n = 1,000,000 takes about 17 minute
 
 ---
 
-## Practice routine (5 weeks)
+## Practice routine (5 sections)
 
-| Week | Focus |
+| Section | Focus |
 | :-- | :-- |
-| 1 | Mon: expanding (area model) · Tue: factoring · Wed: solving by factoring (and why) · Thu: derive the quadratic formula, slowly, twice · Fri: Practice Set 1, items 1–10 |
-| 2 | Mon–Tue: exponential growth and decay · Wed: compound interest and the successive-percent trap · Thu: exponential vs polynomial (make the table yourself) · Fri: Practice Set 1, items 11–12 |
-| 3 | Mon–Tue: logarithms as questions; the two readings · Wed: log laws from exponent laws · Thu: decibels and bits · Fri: Practice Set 1, items 13–19 |
-| 4 | Mon: sequences · Tue: Gauss's pairing · Wed: the binary sum, both proofs · Thu: summation notation as loops · Fri: Practice Set 1 rest + Set 2 |
-| 5 | Mon–Wed: [Growth and Halving Lab](projects/growth-and-halving-lab/spec.md) · Thu: Feynman · Fri: self-check, then the [track assessment](overview.md#track-assessment) next week |
+| 1 | Session 1: expanding (area model) · Session 2: factoring · Session 3: solving by factoring (and why) · Session 4: derive the quadratic formula, slowly, twice · Session 5: Practice Set 1, items 1–10 |
+| 2 | Sessions 1–2: exponential growth and decay · Session 3: compound interest and the successive-percent trap · Session 4: exponential vs polynomial (make the table yourself) · Session 5: Practice Set 1, items 11–12 |
+| 3 | Sessions 1–2: logarithms as questions; the two readings · Session 3: log laws from exponent laws · Session 4: decibels and bits · Session 5: Practice Set 1, items 13–19 |
+| 4 | Session 1: sequences · Session 2: Gauss's pairing · Session 3: the binary sum, both proofs · Session 4: summation notation as loops · Session 5: Practice Set 1 rest + Set 2 |
+| 5 | Sessions 1–3: [Growth and Halving Lab](projects/growth-and-halving-lab/spec.md) · Session 4: Feynman · Session 5: self-check, then the [track assessment](overview.md#track-assessment) in the next section |
 
-**Daily warm-up [R]:** write the definition of a logarithm, three log facts, and one growth comparison from memory.
+**Warm-up [R] (every session):** write the definition of a logarithm, three log facts, and one growth comparison from memory.
 
 **Key why-questions [W]:**
 1. Why does "product = 0" let you split a factored equation?
@@ -283,7 +285,7 @@ At a billion simple steps per second: n² at n = 1,000,000 takes about 17 minute
 3. Why does log(xy) = log x + log y?
 4. Why does 1 + 2 + 4 + … + 2ⁿ⁻¹ = 2ⁿ − 1? (Both proofs.)
 
-**Feynman target [F]:** *"What is a logarithm?"* No formulas allowed for the first minute. Use halving and the guessing game. Then explain why binary search is fast.
+**Feynman target [F]:** *"What is a logarithm?"* No formulas allowed at first. Use halving and the guessing game. Then explain why binary search is fast.
 
 ---
 
@@ -348,7 +350,7 @@ At a billion simple steps per second: n² at n = 1,000,000 takes about 17 minute
 
 ---
 
-## Self-check (cold, 35 minutes; calculator for 2 and 5)
+## Self-check (cold; calculator for 2 and 5)
 
 1. Factor and solve x² − x − 12 = 0.
 2. Solve 3x² − 2x − 1 = 0 with the quadratic formula.
@@ -359,7 +361,7 @@ At a billion simple steps per second: n² at n = 1,000,000 takes about 17 minute
 7. 1 + 2 + … + 1,000
 8. 1 + 2 + 4 + … + 2¹⁵
 9. Compare n² and 2ⁿ at n = 10 and at n = 20.
-10. **[R] Blank sheet (15 min):** expanding and factoring; the quadratic formula derivation; exponential vs linear growth; the definition of a logarithm with both readings; the log laws with reasons; Gauss's pairing; the binary sum with both proofs; the growth table.
+10. **[R] Blank sheet:** expanding and factoring; the quadratic formula derivation; exponential vs linear growth; the definition of a logarithm with both readings; the log laws with reasons; Gauss's pairing; the binary sum with both proofs; the growth table.
 
 <details>
 <summary>Answers (self-check)</summary>
@@ -375,4 +377,4 @@ At a billion simple steps per second: n² at n = 1,000,000 takes about 17 minute
 - [ ] [Growth and Halving Lab](projects/growth-and-halving-lab/spec.md) complete.
 - [ ] The math [track assessment](overview.md#track-assessment) passed.
 
-**Next:** [12 Math for Engineering](../../12-math-for-engineering/overview.md) (calculus, linear algebra, probability) when the build modules call for it, and [03 Discrete Math](../../03-discrete-math/overview.md) if you haven't finished it. Math stays a daily habit: 20–30 minutes of mixed review from your error log and old practice sets on weekday mornings.
+**Next:** [12 Math for Engineering](../../12-math-for-engineering/overview.md) (calculus, linear algebra, probability) when the build modules call for it, and [03 Discrete Math](../../03-discrete-math/overview.md) if you haven't finished it. Math stays a habit: open math sessions with a short mixed review from your error log and old practice sets.

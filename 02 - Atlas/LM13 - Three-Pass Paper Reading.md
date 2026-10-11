@@ -3,8 +3,6 @@ title: "LM13: Three-Pass Paper Reading"
 type: learning-method
 method_id: LM13
 evidence: "Practitioner advice; not tested"
-project_hours: 3
-counts_toward: "P2"
 ---
 
 # LM13 — Three-Pass Paper Reading
@@ -34,8 +32,8 @@ It is the standard in CS graduate programs, and it pairs well with retrieval: af
 ## 🔨 Project: One paper, three passes (twice)
 Use the [[Paper Summary (3-Pass) Template]] on Keshav's own 3-page paper, then on Ritchie & Thompson's *The UNIX Time-Sharing System*. Track the time and the open questions after each pass.
 - **Done when:** both notes are in [[Paper Reading Hub]], and each pass-1 summary (the five Cs) took 10 minutes or less.
-- **Time:** about 3 h, counted inside [[P2 - Reading, Thinking, and Writing|P2]]'s existing hours (no new time: these are P2's existing build 2 and Week 11 puzzles).
-- **Level / when:** No code. In P2 (this is P2 build 2, so no new hours).
+- **Level:** No code.
+- **Fits with:** The [[Paper Reading Hub]].
 
 ## Sources
 - Keshav (2007), "How to read a paper", *ACM SIGCOMM Computer Communication Review* 37(3).

@@ -2,6 +2,7 @@
 title: "DR-010: Project-First Original Curriculum"
 type: decision-record
 status: accepted
+amended_by: [DR-011]
 date: 2026-10-10
 accepted: 2026-10-10
 tags:
@@ -10,6 +11,9 @@ tags:
 ---
 
 # DR-010: Project-First Original Curriculum
+
+> [!NOTE] Amended by [[DR-011 - Sectioned Curriculum and Frontmatter Schema|DR-011]]
+> DR-011 removed all time estimates (the hours, "Week 1" and pace figures below are historical), added the frontmatter schema, and settled the ordering rules. The rest of this record still stands.
 
 *Uses the [[Decision Record]] template. Follows [[DR-009 - Learning Method Deep Dives|DR-009]]. Accepted and applied 2026-10-10. Checkpoint before this change: git commit `bf48336` (the Obsidian auto-backup commits after it already contain parts of this change).*
 

@@ -1,15 +1,19 @@
 ---
 title: "Lab 01 — Meter, Ohm's Law, and LEDs"
+id: "MOD04-LAB01"
+type: "lab"
 module: "04-circuits-and-digital-logic"
-hours: 10
-type: maker-lab
+phase: "B"
+order: 590
+prerequisites: []
+kind: "maker"
 ---
 
 # Lab 01 — Meter, Ohm's Law, and LEDs
 
 **Goal:** understand voltage, current, and resistance well enough to predict a circuit's behaviour *before* you build it — then measure it and explain the difference.
 
-**Time:** about 10 hours, in four sessions (two in the simulator, two on the bench).
+**Sessions:** four (two in the simulator, two on the bench).
 
 **Deliverable:** a lab report: *"How well does Ohm's law predict my real circuits?"*
 
@@ -17,8 +21,7 @@ type: maker-lab
 
 ---
 
-## Session 1 — The three quantities (simulator, 2 hours)
-
+## Session 1 — The three quantities (simulator)
 ### What they are
 
 - **Voltage (V, volts)** is the "push": the difference in electrical energy per unit of charge between two points. Voltage is always *between* two points. "The voltage at this pin" means "between this pin and ground (0 V)."
@@ -60,8 +63,7 @@ Build each circuit, and **predict every number before you look** [R]:
 
 ---
 
-## Session 2 — The voltage divider and the LED (simulator, 2 hours)
-
+## Session 2 — The voltage divider and the LED (simulator)
 ### Voltage divider
 
 Two resistors in series between a supply and ground. The voltage at the middle is
@@ -91,7 +93,7 @@ Simulate an LED circuit in Falstad. Then try it *without* the resistor and watch
 
 ---
 
-## Session 3 — On the bench (3 hours)
+## Session 3 — On the bench
 
 ### Know your breadboard and meter
 
@@ -121,7 +123,7 @@ Loading puts 4.7 kΩ ∥ 4.7 kΩ = 2.35 kΩ at the bottom. V_out = 5 × 2.35/(10
 
 ---
 
-## Session 4 — Analysis and report (3 hours)
+## Session 4 — Analysis and report
 
 ### Sources of error
 
@@ -148,8 +150,8 @@ Use the [Lab Report Template](<../../04 - System/Lab Report Template.md>). **Que
 
 ## Retrieval and reflection
 
-1. **[R] Blank sheet (10 min):** Ohm's law in three forms; power; series and parallel rules; the divider formula and its derivation; LED resistor subgoals; how to measure V, I, and R safely.
-2. **[F] (spoken, 2 min):** "What is voltage?" — first without any analogy, then with water, then where water fails.
+1. **[R] Blank sheet:** Ohm's law in three forms; power; series and parallel rules; the divider formula and its derivation; LED resistor subgoals; how to measure V, I, and R safely.
+2. **[F] (spoken):** "What is voltage?" — first without any analogy, then with water, then where water fails.
 3. **Flashcards:** E12 values; the formulas; the meter safety rule.
 
 **Next:** [Lab 02 — Capacitors and the 555 Clock](lab-02-capacitors-and-the-555-clock.md).

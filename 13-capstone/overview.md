@@ -1,7 +1,12 @@
 ---
 title: "13 — Capstone"
+id: "MOD13"
+type: "overview"
 module: "13-capstone"
-hours: 250
+phase: "E"
+order: 1370
+prerequisites: [MOD01, MOD02, MOD03, MOD04, MOD05, MOD06, MOD07, MOD08, MOD09, MOD10, MOD11, E10]
+checkpoints: [MOD13-CLOSE]
 tags: [module, capstone, integration]
 ---
 
@@ -19,7 +24,7 @@ Modules 01–11 complete (Module 12 may still be finishing). English: the full E
 
 1. Integrate independently built components through clear interfaces, and handle the mismatches.
 2. Define success with measurable goals and test the whole system end to end, including under failures.
-3. Manage a multi-month project with milestones, risks, and scope decisions.
+3. Manage a long project with milestones, risks, and scope decisions.
 4. Write a long technical report and give a technical talk that a stranger can follow.
 5. Seek, receive, and act on outside review.
 
@@ -33,17 +38,16 @@ Modules 01–11 complete (Module 12 may still be finishing). English: the full E
 
 All three are full-stack integrations of your own work. Pick the one that excites you most — your [Module 01 reflection](../01-intro-cs-taste/overview.md#module-close) and your logs will tell you which kind of work gives you energy.
 
-> **Beyond this curriculum:** the [archived v1 plan](<../99 - Archive/v1 - Course-Based Curriculum/>) contains an ambitious drone-swarm capstone and advanced tracks (machine learning, robotics, security, signals). They're excellent next steps after this core, when you choose them deliberately — write a [Decision Record](<../04 - System/Decision Record.md>) if you do.
+> **Beyond this curriculum** *(historical reference; the v1 plan was superseded by DR-010)*: the [archived v1 plan](<../99 - Archive/v1 - Course-Based Curriculum/>) contains an ambitious drone-swarm capstone and advanced tracks (machine learning, robotics, security, signals). They're excellent next steps after this core, when you choose them deliberately — write a [Decision Record](<../04 - System/Decision Record.md>) if you do.
 
-## Sequence and time
+## Sequence
 
-| Phase | Weeks | Output |
-| :-- | :-- | :-- |
-| Proposal and design review | 3 | Proposal (design doc, 6–10 pages); review notes; v2 |
-| Integration milestones | 10–14 | Working increments every 2 weeks, each with end-to-end tests |
-| Hardening | 3 | Failure injection, performance evaluation, security review |
-| Communication | 3 | Final report, talk, outside review, revisions |
-| **Total** | **~20** | **~250 hours** |
+| Phase | Output |
+| :-- | :-- |
+| Proposal and design review | Proposal (design doc, 6–10 pages); review notes; v2 |
+| Integration milestones | Working increments every two sections, each with end-to-end tests |
+| Hardening | Failure injection, performance evaluation, security review |
+| Communication | Final report, talk, outside review, revisions |
 
 The full requirements are in **[the capstone spec](projects/the-whole-stack/spec.md)**.
 
@@ -52,7 +56,7 @@ The full requirements are in **[the capstone spec](projects/the-whole-stack/spec
 | Protocol | In the capstone |
 | :-- | :-- |
 | **R** | At each milestone, a one-page blank-sheet architecture drawing — then compare with the code. Where they differ, something is undocumented or misunderstood. |
-| **F** | The recorded talk is a 15-minute Feynman pass on your whole system. |
+| **F** | The recorded talk is a Feynman pass on your whole system. |
 | **W** | The proposal's alternatives section, the risk register, and every scope cut — defended in writing. |
 | **S** | Integration milestones as subgoals; each with a test that proves it. |
 | **I** | Every skill you have, used together. |
@@ -65,3 +69,5 @@ The full requirements are in **[the capstone spec](projects/the-whole-stack/spec
 2. **Then-vs-now [T]:** reread your E01 baseline note, your first journal entries, your first Feynman recording, and your Nib README. Write two pages about who you were as a learner then and who you are now. ([LM15](<../02 - Atlas/LM15 - Growth Mindset and Grit.md>)'s "then vs now" project, at full scale.)
 3. **Plan what's next** with a Decision Record: an advanced track, open-source contribution, a job search, a research direction.
 4. Tick it in [Start Here](<../00 - Start Here.md>). Then celebrate properly.
+
+**Resources:** books, docs, and tools for this module are in [resources.md](resources.md) (pointers only — the projects are the course).

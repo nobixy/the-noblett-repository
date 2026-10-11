@@ -3,7 +3,7 @@ title: ""
 date: "{{date}}"
 word_count: 0
 topic: ""
-deliverable_type: daily-500 # daily-500 | technical-blog | design-doc | paper-summary
+deliverable_type: essay # essay | technical-blog | design-doc | paper-summary
 published_url: ""
 tags: [writing]
 ---

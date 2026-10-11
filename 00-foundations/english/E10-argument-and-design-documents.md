@@ -1,16 +1,18 @@
 ---
 title: "E10 — Argument and Design Documents"
-stage: E10
-track: english
-hours: 30
-weeks: 5
+id: "E10"
+type: "lesson"
+module: "00-foundations"
+track: "english"
+stage: "E10"
+phase: "C"
+order: 680
+prerequisites: [E09]
 ---
 
 # E10 — Argument and Design Documents
 
 **In this stage you will:** learn to make a case: state a claim, support it with reasons and evidence, deal honestly with the other side, and compare options with a trade-off table. You will write a full design document, get it reviewed, and revise it. You will also learn the lab report and the recorded demo, the other two deliverables used in every later project. Project: [First Design Doc](projects/first-design-doc/spec.md).
-
-**Time:** about 30 hours over 5 weeks.
 
 **Before you start:** E09 done. You can describe a system and write instructions that pass a usability test.
 
@@ -22,7 +24,7 @@ Descriptions and instructions explain what *is*. Engineering is mostly about wha
 
 A **design document** is an argument for a plan: "*Here is the problem. Here are the options. Here is what I propose, and why.*" Writing one before you build:
 - forces you to find the holes in your plan while they are cheap to fix;
-- lets other people improve your plan before you spend weeks on it;
+- lets other people improve your plan before you spend many sessions on it;
 - leaves a record of *why* things are the way they are (the most-asked question in any codebase).
 
 From here on, every major project in this curriculum starts with a design doc.
@@ -128,11 +130,11 @@ Use the [Lab Report Template](<../../04 - System/Lab Report Template.md>). A lab
 
 ### The recorded demo
 
-Use the [Demo Script Template](<../../04 - System/Demo Script Template.md>): *Hook → Show it working → How it works (one diagram, one flow) → Hardest part → Limits and next steps.* 3–8 minutes.
+Use the [Demo Script Template](<../../04 - System/Demo Script Template.md>): *Hook → Show it working → How it works (one diagram, one flow) → Hardest part → Limits and next steps.* Keep it short.
 
 **Delivery tips:**
 - Write the script in short lines you can say in one breath. Read it aloud twice before recording.
-- Show, then explain. Never explain for two minutes before anything happens on screen.
+- Show, then explain. Never explain at length before anything happens on screen.
 - Prepare your terminal: large font, clean prompt, commands ready.
 - One take is fine. Mistakes recovered calmly look professional.
 
@@ -153,29 +155,29 @@ Professional engineering writing goes through **review**. You will practise both
 3. Describe your *experience as a reader* ("*I got lost here; I didn't know what 'it' meant*") rather than issuing orders.
 4. Separate **must-fix** (wrong, confusing) from **nice-to-have** (style).
 
-**No reviewer available?** Use the cooling-off method: put the doc away for three days, then review it yourself as a stranger, with the checklist. Online communities (a study Discord, r/learnprogramming, a project's issue tracker) are also good places to ask for a doc review. An AI assistant can review a *finished* draft (see the README's rules); treat its comments as questions, not orders.
+**No reviewer available?** Use the cooling-off method: put the doc away until a later session (a few sessions later is better), then review it yourself as a stranger, with the checklist. Online communities (a study Discord, r/learnprogramming, a project's issue tracker) are also good places to ask for a doc review. An AI assistant can review a *finished* draft (see the README's rules); treat its comments as questions, not orders.
 
 ---
 
-## Part 7 — Practice routine (5 weeks)
+## Part 7 — Practice routine (5 sections)
 
-| Week | Focus |
+| Section | Focus |
 | :-- | :-- |
-| 1 | Mon–Tue: argument shape; write a 400-word argument on a technical choice you've made (Practice Set 1) · Wed–Thu: trade-off tables (Practice Set 2) · Fri: reader and BLUF |
-| 2 | Mon–Fri: First Design Doc Milestones 1–2 (draft v1) |
-| 3 | Mon–Wed: review cycle (Milestone 3) · Thu–Fri: revise |
-| 4 | Mon–Tue: lab report on a small experiment (Practice Set 3) · Wed–Thu: demo script and recording of a Module 01 project · Fri: weekly recording |
-| 5 | Mon–Thu: track assessment (see the [English overview](overview.md#track-assessment)) · Fri: write your "then vs now" note |
+| 1 | Sessions 1–2: argument shape; write a 400-word argument on a technical choice you've made (Practice Set 1) · Sessions 3–4: trade-off tables (Practice Set 2) · Session 5: reader and BLUF |
+| 2 | Sessions 1–5: First Design Doc Milestones 1–2 (draft v1) |
+| 3 | Sessions 1–3: review cycle (Milestone 3) · Sessions 4–5: revise |
+| 4 | Sessions 1–2: lab report on a small experiment (Practice Set 3) · Sessions 3–4: demo script and recording of a Module 01 project · Session 5: section recording |
+| 5 | Sessions 1–4: track assessment (see the [English overview](overview.md#track-assessment)) · Session 5: write your "then vs now" note |
 
-**Daily:**
-- **Warm-up [R]:** from memory, write the argument shape or the design doc sections (alternate days).
-- **Spelling (10 min)** + **copywork [C]** at **Level 4** (RFC 768, Pike's notes, Go proposals, AOSA chapters). In the diff, notice how expert writers state a claim and handle objections.
+**Every session:**
+- **Warm-up [R]:** from memory, write the argument shape or the design doc sections (alternate sessions).
+- **Spelling** + **copywork [C]** at **Level 4** (RFC 768, Pike's notes, Go proposals, AOSA chapters). In the diff, notice how expert writers state a claim and handle objections.
 
 **Study protocols:**
 - **[W]** Every design choice gets a contrast why-ladder, written into section 5 of the design doc.
 - **[S]** The design doc headings are the subgoal labels. Write all headings first; fill them in any order.
-- **[F]** Before writing section 4, explain your design out loud for 2 minutes with a diagram. Where you hesitate is where the doc needs the most care.
-- **[D]** Three-day cooling-off before self-review.
+- **[F]** Before writing section 4, explain your design out loud, briefly, with a diagram. Where you hesitate is where the doc needs the most care.
+- **[D]** Cooling-off until a later session before self-review.
 - **[T]** The review cycle and the demo.
 
 ---
@@ -189,7 +191,7 @@ Pick one real choice you made in Module 01 or 02 (a data format, a language, a l
 ### Practice Set 2 — Trade-off tables (3 short ones)
 
 Make a trade-off table (at least 4 criteria) and a decision with a trigger for each:
-1. Paper notebook vs a notes app for your daily study log.
+1. Paper notebook vs a notes app for your study log.
 2. Python vs C for a program that converts 1,000 images.
 3. Storing your flashcards in one big file vs one file per card.
 
@@ -212,7 +214,7 @@ Write a prediction with a reason. Write a 3-line Python loop and time it with `t
 
 ## Self-check
 
-1. **[R] Blank sheet (15 min):** the six parts of an argument; the rules for trade-off tables; McEnerney's two ideas; the eight design-doc sections and each one's job; the lab report sections; the demo shape; how to receive a review.
+1. **[R] Blank sheet:** the six parts of an argument; the rules for trade-off tables; McEnerney's two ideas; the eight design-doc sections and each one's job; the lab report sections; the demo shape; how to receive a review.
 2. **Your design doc** has passed one review cycle and been revised.
 3. **Your demo** is recorded and watched back, with three notes for improvement.
 4. **Track assessment** completed (see the overview).
@@ -224,4 +226,4 @@ Write a prediction with a reason. Write a 3-line Python loop and time it with `t
 - [ ] One lab report and one recorded demo done.
 - [ ] Track assessment done and filed in your journal, with your E01 baseline numbers next to the new ones.
 
-**After E10:** The English track becomes a daily habit: 10 minutes of spelling review, 15–20 minutes of copywork at Level 4 on weekdays, and the weekly recording. Every project's deliverable is now your main writing practice. Return to any stage's practice sets whenever your project writing shows a weak spot (your reviewers and your error log will tell you where).
+**After E10:** The English track becomes a short part of every English session: spelling review, copywork at Level 4, and the section recording. Every project's deliverable is now your main writing practice. Return to any stage's practice sets whenever your project writing shows a weak spot (your reviewers and your error log will tell you where).

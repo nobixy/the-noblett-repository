@@ -1,9 +1,13 @@
 ---
 title: "Project: Edit Buffer"
+id: "MOD05-PRJ-edit-buffer"
+type: "project"
 module: "05-data-structures-and-algorithms"
-hours: 38
+phase: "C"
+order: 830
+prerequisites: [MOD05-LAB03]
 artifact: "Four interchangeable text-buffer implementations (naive, list of lines, gap buffer, piece table) behind one API, with undo/redo, a line index, a benchmark suite driven by edit traces, and a small terminal editor that uses the fastest one"
-deliverable: "Design doc + benchmark report + 4-minute demo of editing your journal in your own editor"
+deliverable: "Design doc + benchmark report + short demo of editing your journal in your own editor"
 ---
 
 # Project: Edit Buffer
@@ -11,7 +15,6 @@ deliverable: "Design doc + benchmark report + 4-minute demo of editing your jour
 | | |
 | :-- | :-- |
 | **Module** | 05 Data Structures and Algorithms |
-| **Time** | About 38 hours |
 | **Prerequisites** | Labs 01–03 |
 | **You build** | The data structure at the heart of every text editor: a buffer that supports fast insertion and deletion anywhere, undo and redo, and finding lines quickly. You build four versions behind one interface, test them all with the same suite, race them on realistic editing traces, and then put the winner inside a small terminal editor — which you use to write a journal entry |
 | **Deliverable** | Design doc, benchmark report, and demo |
@@ -145,7 +148,7 @@ Build `ed5.py` (name it what you like), a terminal editor using Python's `curses
 
 1. **Design doc** v1 → v2 (with section 8: which predictions were wrong, and why).
 2. **Benchmark report** (2 pages): predictions vs results per trace, worst-case pauses, memory, and your recommendation for a real editor.
-3. **Demo (4 minutes):** your editor opening a large file, editing, undoing, and saving; then the results table.
+3. **Demo:** your editor opening a large file, editing, undoing, and saving; then the results table.
 
 ## Study-method integration
 

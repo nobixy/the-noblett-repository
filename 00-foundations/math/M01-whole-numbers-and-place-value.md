@@ -1,20 +1,22 @@
 ---
 title: "M01 — Whole Numbers and Place Value"
-stage: M01
-track: math
-hours: 20
-weeks: 3
+id: "M01"
+type: "lesson"
+module: "00-foundations"
+track: "math"
+stage: "M01"
+phase: "A"
+order: 140
+prerequisites: []
 ---
 
 # M01 — Whole Numbers and Place Value
 
 **In this stage you will:** understand exactly how our number system works — digits, places, and zero — read and write large numbers, compare and round them, and then use the same idea to count in base 2 (binary), base 5, and base 16 (hexadecimal), the number systems computers use.
 
-**Time:** about 20 hours over 3 weeks.
-
 ---
 
-## Diagnostic (cold, 15 minutes)
+## Diagnostic (cold)
 
 Do these on paper before reading anything. Check with the answers. If you get 9 or 10 right, skim Parts 1–4 and go straight to Part 5 (bases).
 
@@ -244,15 +246,15 @@ This "nowhere to go" is called **overflow**, and it is a real source of computer
 
 ---
 
-## Practice routine (3 weeks)
+## Practice routine (3 sections)
 
-| Week | Focus |
+| Section | Focus |
 | :-- | :-- |
-| 1 | Mon: places and expanded form · Tue: zero and big numbers · Wed: comparing · Thu: rounding · Fri: Practice Set 1 (items 1–5) + cumulative |
-| 2 | Mon: base 5 by hand (use coins: 5 pennies = a nickel, 5 nickels = a "quarter-plus") · Tue: binary counting 0–32 out loud · Wed: binary ↔ decimal · Thu: hex and the binary-hex table · Fri: Practice Set 1 (all) |
-| 3 | Mon–Tue: [Base Workshop](projects/base-workshop/spec.md) Milestones 1–2 · Wed: Practice Set 2 · Thu: Feynman pass · Fri: self-check |
+| 1 | Session 1: places and expanded form · Session 2: zero and big numbers · Session 3: comparing · Session 4: rounding · Session 5: Practice Set 1 (items 1–5) + cumulative |
+| 2 | Session 1: base 5 by hand (use coins: 5 pennies = a nickel, 5 nickels = a "quarter-plus") · Session 2: binary counting 0–32 out loud · Session 3: binary ↔ decimal · Session 4: hex and the binary-hex table · Session 5: Practice Set 1 (all) |
+| 3 | Sessions 1–2: [Base Workshop](projects/base-workshop/spec.md) Milestones 1–2 · Session 3: Practice Set 2 · Session 4: Feynman pass · Session 5: self-check |
 
-**Daily warm-up [R]:** write the place values for bases 10, 2, and 16 from memory (up to five places), and convert one random number.
+**Warm-up [R] (every session):** write the place values for bases 10, 2, and 16 from memory (up to five places), and convert one random number.
 **Flashcards:** the 16-row binary/hex table, powers of 2 up to 2¹⁰ = 1,024.
 
 **Key why-questions [W]** (answer each in writing during the stage):
@@ -261,7 +263,7 @@ This "nowhere to go" is called **overflow**, and it is a real source of computer
 3. Why is the biggest 8-bit number 255 and not 256?
 4. Why does adding 1 to 0111₂ give 1000₂? (Answer it the same way you'd explain 0999 + 1 = 1000.)
 
-**Feynman target [F]:** *"What does the position of a digit mean, and why do we need zero?"* Explain it in plain words in under 200 words, then out loud in under 2 minutes, without using the words "place value." Then explain how binary is the same idea.
+**Feynman target [F]:** *"What does the position of a digit mean, and why do we need zero?"* Explain it in plain words in under 200 words, then out loud, briefly, without using the words "place value." Then explain how binary is the same idea.
 
 ---
 
@@ -326,7 +328,7 @@ This "nowhere to go" is called **overflow**, and it is a real source of computer
 
 ---
 
-## Self-check (end of week 3, cold, 30 minutes)
+## Self-check (end of section 3, cold)
 
 1. Write 5,020,301 in words and in expanded form.
 2. Round 649,999 to the nearest thousand.
@@ -338,7 +340,7 @@ This "nowhere to go" is called **overflow**, and it is a real source of computer
 8. What is 01111111₂ + 1? Answer in binary and decimal.
 9. How many bits are in two hex digits? What is that amount called?
 10. Explain in two sentences why `0x10` equals 16.
-11. **[R] Blank sheet (10 min):** write everything you know about place value and bases. Then check against this file.
+11. **[R] Blank sheet:** write everything you know about place value and bases. Then check against this file.
 
 <details>
 <summary>Answers (self-check)</summary>
