@@ -1,0 +1,340 @@
+- generic [active] [ref=f3e1]:
+  - table [ref=f3e3]:
+    - rowgroup [ref=f3e4]:
+      - row [ref=f3e5]:
+        - cell [ref=f3e6]:
+          - link "Find vendors of our publications." [ref=f3e7] [cursor=pointer]:
+            - /url: https://www.basicbooks.com/contributor/richard-p-feynman/
+        - cell [ref=f3e9]:
+          - link "Find out more about The Feynman Lectures." [ref=f3e10] [cursor=pointer]:
+            - /url: https://www.feynmanlectures.caltech.edu/info/
+        - cell [ref=f3e12]:
+          - link "Like this? See a problem? Let us know!" [ref=f3e13] [cursor=pointer]:
+            - /url: mailto:feynmanlectures@caltech.edu?subject=FLP-NM HTML Edition Comment
+      - row [ref=f3e15]:
+        - cell [ref=f3e16]:
+          - link "Tweet this!" [ref=f3e17] [cursor=pointer]:
+            - /url: https://twitter.com/home?status=Check out the HTML edition of The Feynman Lectures on Physics, free for all to view at https://www.feynmanlectures.caltech.edu.
+        - cell [ref=f3e19]:
+          - link "Share on Facebook." [ref=f3e20] [cursor=pointer]:
+            - /url: https://www.facebook.com/share.php?u=https://www.feynmanlectures.caltech.edu
+        - cell [ref=f3e22]:
+          - link "Email this page." [ref=f3e23] [cursor=pointer]:
+            - /url: javascript:emailCurrentPage()
+      - row [ref=f3e25]:
+        - cell [ref=f3e26]:
+          - link "◄" [ref=f3e27] [cursor=pointer]:
+            - /url: javascript:openChapter(-1)
+        - cell [ref=f3e28]:
+          - link "▲" [ref=f3e29] [cursor=pointer]:
+            - /url: javascript:openChapter(0)
+        - cell [ref=f3e30]:
+          - link "►" [ref=f3e31] [cursor=pointer]:
+            - /url: javascript:openChapter(+1)
+      - row [ref=f3e32]:
+        - cell [ref=f3e33]:
+          - link "A" [ref=f3e34] [cursor=pointer]:
+            - /url: javascript:theStylePreference.changeSafe(1)
+        - cell [ref=f3e35]:
+          - link "A" [ref=f3e36] [cursor=pointer]:
+            - /url: javascript:theStylePreference.changeSafe(2)
+        - cell [ref=f3e37]:
+          - link "A" [ref=f3e38] [cursor=pointer]:
+            - /url: javascript:theStylePreference.changeSafe(3)
+      - row [ref=f3e39]:
+        - cell [ref=f3e40]:
+          - link [ref=f3e41] [cursor=pointer]:
+            - /url: javascript:thePlatformPreference.changeSafe()
+            - img "use sliding nav panel" [ref=f3e42]
+        - cell [ref=f3e43]:
+          - link [ref=f3e44] [cursor=pointer]:
+            - /url: javascript:theDarkModePreference.changeSafe()
+            - img "dark mode" [ref=f3e45]
+        - cell [ref=f3e46]:
+          - img "narrow text" [ref=f3e48]
+      - row [ref=f3e49]:
+        - cell "Original lecture recording" [ref=f3e50]
+        - cell "Table of Contents for this lecture" [ref=f3e51]
+        - cell [ref=f3e52]:
+          - link "Nav panel help" [ref=f3e53] [cursor=pointer]:
+            - /url: NavPanel-help
+      - row [ref=f3e55]:
+        - cell "Feynman’s Summary of the most important points in this lecture." [ref=f3e56]
+  - generic [ref=f3e58]:
+    - generic [ref=f3e59]:
+      - generic [ref=f3e60]:
+        - generic [ref=f3e61]: The Feynman Lectures on Physics, Volume II
+        - generic [ref=f3e62]: mainly electromagnetism and matter
+        - generic [ref=f3e63]: Feynman • Leighton • Sands
+      - generic [ref=f3e64]:
+        - text: (Multi-column Table of Contents)
+        - generic [ref=f3e65]: (Expand all) (Collapse all)
+      - generic [ref=f3e66]:
+        - generic [ref=f3e67]:
+          - generic [ref=f3e68]:
+            - link "About the Authors" [ref=f3e69] [cursor=pointer]:
+              - /url: javascript:Goto(2,89)
+            - link "Preface to the New Millennium Edition" [ref=f3e70] [cursor=pointer]:
+              - /url: javascript:Goto(2,90)
+            - link "Feynman’s Preface" [ref=f3e71] [cursor=pointer]:
+              - /url: javascript:Goto(2,91)
+            - link "Foreword" [ref=f3e72] [cursor=pointer]:
+              - /url: javascript:Goto(2,92)
+          - generic [ref=f3e73]:
+            - generic [ref=f3e74]: ▶
+            - link "Chapter 1. Electromagnetism" [ref=f3e75] [cursor=pointer]:
+              - /url: javascript:Goto(2,1)
+              - generic [ref=f3e76]: Chapter 1.
+              - text: Electromagnetism
+          - generic [ref=f3e77]:
+            - generic [ref=f3e78]: ▶
+            - link "Chapter 2. Differential Calculus of Vector Fields" [ref=f3e79] [cursor=pointer]:
+              - /url: javascript:Goto(2,2)
+              - generic [ref=f3e80]: Chapter 2.
+              - text: Differential Calculus of Vector Fields
+          - generic [ref=f3e81]:
+            - generic [ref=f3e82]: ▶
+            - link "Chapter 3. Vector Integral Calculus" [ref=f3e83] [cursor=pointer]:
+              - /url: javascript:Goto(2,3)
+              - generic [ref=f3e84]: Chapter 3.
+              - text: Vector Integral Calculus
+          - generic [ref=f3e85]:
+            - generic [ref=f3e86]: ▶
+            - link "Chapter 4. Electrostatics" [ref=f3e87] [cursor=pointer]:
+              - /url: javascript:Goto(2,4)
+              - generic [ref=f3e88]: Chapter 4.
+              - text: Electrostatics
+          - generic [ref=f3e89]:
+            - generic [ref=f3e90]: ▶
+            - link "Chapter 5. Application of Gauss’ Law" [ref=f3e91] [cursor=pointer]:
+              - /url: javascript:Goto(2,5)
+              - generic [ref=f3e92]: Chapter 5.
+              - text: Application of Gauss’ Law
+          - generic [ref=f3e93]:
+            - generic [ref=f3e94]: ▶
+            - link "Chapter 6. The Electric Field in Various Circumstances" [ref=f3e95] [cursor=pointer]:
+              - /url: javascript:Goto(2,6)
+              - generic [ref=f3e96]: Chapter 6.
+              - text: The Electric Field in Various Circumstances
+          - generic [ref=f3e97]:
+            - generic [ref=f3e98]: ▶
+            - link "Chapter 7. The Electric Field in Various Circumstances (Continued)" [ref=f3e99] [cursor=pointer]:
+              - /url: javascript:Goto(2,7)
+              - generic [ref=f3e100]: Chapter 7.
+              - text: The Electric Field in Various Circumstances (Continued)
+          - generic [ref=f3e101]:
+            - generic [ref=f3e102]: ▶
+            - link "Chapter 8. Electrostatic Energy" [ref=f3e103] [cursor=pointer]:
+              - /url: javascript:Goto(2,8)
+              - generic [ref=f3e104]: Chapter 8.
+              - text: Electrostatic Energy
+          - generic [ref=f3e105]:
+            - generic [ref=f3e106]: ▶
+            - link "Chapter 9. Electricity in the Atmosphere" [ref=f3e107] [cursor=pointer]:
+              - /url: javascript:Goto(2,9)
+              - generic [ref=f3e108]: Chapter 9.
+              - text: Electricity in the Atmosphere
+          - generic [ref=f3e109]:
+            - generic [ref=f3e110]: ▶
+            - link "Chapter 10. Dielectrics" [ref=f3e111] [cursor=pointer]:
+              - /url: javascript:Goto(2,10)
+              - generic [ref=f3e112]: Chapter 10.
+              - text: Dielectrics
+          - generic [ref=f3e113]:
+            - generic [ref=f3e114]: ▶
+            - link "Chapter 11. Inside Dielectrics" [ref=f3e115] [cursor=pointer]:
+              - /url: javascript:Goto(2,11)
+              - generic [ref=f3e116]: Chapter 11.
+              - text: Inside Dielectrics
+          - generic [ref=f3e117]:
+            - generic [ref=f3e118]: ▶
+            - link "Chapter 12. Electrostatic Analogs" [ref=f3e119] [cursor=pointer]:
+              - /url: javascript:Goto(2,12)
+              - generic [ref=f3e120]: Chapter 12.
+              - text: Electrostatic Analogs
+          - generic [ref=f3e121]:
+            - generic [ref=f3e122]: ▶
+            - link "Chapter 13. Magnetostatics" [ref=f3e123] [cursor=pointer]:
+              - /url: javascript:Goto(2,13)
+              - generic [ref=f3e124]: Chapter 13.
+              - text: Magnetostatics
+        - generic [ref=f3e125]:
+          - generic [ref=f3e126]:
+            - generic [ref=f3e127]: ▶
+            - link "Chapter 14. The Magnetic Field in Various Situations" [ref=f3e128] [cursor=pointer]:
+              - /url: javascript:Goto(2,14)
+              - generic [ref=f3e129]: Chapter 14.
+              - text: The Magnetic Field in Various Situations
+          - generic [ref=f3e130]:
+            - generic [ref=f3e131]: ▶
+            - link "Chapter 15. The Vector Potential" [ref=f3e132] [cursor=pointer]:
+              - /url: javascript:Goto(2,15)
+              - generic [ref=f3e133]: Chapter 15.
+              - text: The Vector Potential
+          - generic [ref=f3e134]:
+            - generic [ref=f3e135]: ▶
+            - link "Chapter 16. Induced Currents" [ref=f3e136] [cursor=pointer]:
+              - /url: javascript:Goto(2,16)
+              - generic [ref=f3e137]: Chapter 16.
+              - text: Induced Currents
+          - generic [ref=f3e138]:
+            - generic [ref=f3e139]: ▶
+            - link "Chapter 17. The Laws of Induction" [ref=f3e140] [cursor=pointer]:
+              - /url: javascript:Goto(2,17)
+              - generic [ref=f3e141]: Chapter 17.
+              - text: The Laws of Induction
+          - generic [ref=f3e142]:
+            - generic [ref=f3e143]: ▶
+            - link "Chapter 18. The Maxwell Equations" [ref=f3e144] [cursor=pointer]:
+              - /url: javascript:Goto(2,18)
+              - generic [ref=f3e145]: Chapter 18.
+              - text: The Maxwell Equations
+          - generic [ref=f3e146]:
+            - generic [ref=f3e147]: ▶
+            - link "Chapter 19. The Principle of Least Action" [ref=f3e148] [cursor=pointer]:
+              - /url: javascript:Goto(2,19)
+              - generic [ref=f3e149]: Chapter 19.
+              - text: The Principle of Least Action
+          - generic [ref=f3e150]:
+            - generic [ref=f3e151]: ▶
+            - link "Chapter 20. Solutions of Maxwell’s Equations in Free Space" [ref=f3e152] [cursor=pointer]:
+              - /url: javascript:Goto(2,20)
+              - generic [ref=f3e153]: Chapter 20.
+              - text: Solutions of Maxwell’s Equations in Free Space
+          - generic [ref=f3e154]:
+            - generic [ref=f3e155]: ▶
+            - link "Chapter 21. Solutions of Maxwell’s Equations with Currents and Charges" [ref=f3e156] [cursor=pointer]:
+              - /url: javascript:Goto(2,21)
+              - generic [ref=f3e157]: Chapter 21.
+              - text: Solutions of Maxwell’s Equations with Currents and Charges
+          - generic [ref=f3e158]:
+            - generic [ref=f3e159]: ▶
+            - link "Chapter 22. AC Circuits" [ref=f3e160] [cursor=pointer]:
+              - /url: javascript:Goto(2,22)
+              - generic [ref=f3e161]: Chapter 22.
+              - text: AC Circuits
+          - generic [ref=f3e162]:
+            - generic [ref=f3e163]: ▶
+            - link "Chapter 23. Cavity Resonators" [ref=f3e164] [cursor=pointer]:
+              - /url: javascript:Goto(2,23)
+              - generic [ref=f3e165]: Chapter 23.
+              - text: Cavity Resonators
+          - generic [ref=f3e166]:
+            - generic [ref=f3e167]: ▶
+            - link "Chapter 24. Waveguides" [ref=f3e168] [cursor=pointer]:
+              - /url: javascript:Goto(2,24)
+              - generic [ref=f3e169]: Chapter 24.
+              - text: Waveguides
+          - generic [ref=f3e170]:
+            - generic [ref=f3e171]: ▶
+            - link "Chapter 25. Electrodynamics in Relativistic Notation" [ref=f3e172] [cursor=pointer]:
+              - /url: javascript:Goto(2,25)
+              - generic [ref=f3e173]: Chapter 25.
+              - text: Electrodynamics in Relativistic Notation
+          - generic [ref=f3e174]:
+            - generic [ref=f3e175]: ▶
+            - link "Chapter 26. Lorentz Transformations of the Fields" [ref=f3e176] [cursor=pointer]:
+              - /url: javascript:Goto(2,26)
+              - generic [ref=f3e177]: Chapter 26.
+              - text: Lorentz Transformations of the Fields
+          - generic [ref=f3e178]:
+            - generic [ref=f3e179]: ▶
+            - link "Chapter 27. Field Energy and Field Momentum" [ref=f3e180] [cursor=pointer]:
+              - /url: javascript:Goto(2,27)
+              - generic [ref=f3e181]: Chapter 27.
+              - text: Field Energy and Field Momentum
+          - generic [ref=f3e182]:
+            - generic [ref=f3e183]: ▶
+            - link "Chapter 28. Electromagnetic Mass" [ref=f3e184] [cursor=pointer]:
+              - /url: javascript:Goto(2,28)
+              - generic [ref=f3e185]: Chapter 28.
+              - text: Electromagnetic Mass
+          - generic [ref=f3e186]:
+            - generic [ref=f3e187]: ▶
+            - link "Chapter 29. The Motion of Charges in Electric and Magnetic Fields" [ref=f3e188] [cursor=pointer]:
+              - /url: javascript:Goto(2,29)
+              - generic [ref=f3e189]: Chapter 29.
+              - text: The Motion of Charges in Electric and Magnetic Fields
+        - generic [ref=f3e190]:
+          - generic [ref=f3e191]:
+            - generic [ref=f3e192]: ▶
+            - link "Chapter 30. The Internal Geometry of Crystals" [ref=f3e193] [cursor=pointer]:
+              - /url: javascript:Goto(2,30)
+              - generic [ref=f3e194]: Chapter 30.
+              - text: The Internal Geometry of Crystals
+          - generic [ref=f3e195]:
+            - generic [ref=f3e196]: ▶
+            - link "Chapter 31. Tensors" [ref=f3e197] [cursor=pointer]:
+              - /url: javascript:Goto(2,31)
+              - generic [ref=f3e198]: Chapter 31.
+              - text: Tensors
+          - generic [ref=f3e199]:
+            - generic [ref=f3e200]: ▶
+            - link "Chapter 32. Refractive Index of Dense Materials" [ref=f3e201] [cursor=pointer]:
+              - /url: javascript:Goto(2,32)
+              - generic [ref=f3e202]: Chapter 32.
+              - text: Refractive Index of Dense Materials
+          - generic [ref=f3e203]:
+            - generic [ref=f3e204]: ▶
+            - link "Chapter 33. Reflection from Surfaces" [ref=f3e205] [cursor=pointer]:
+              - /url: javascript:Goto(2,33)
+              - generic [ref=f3e206]: Chapter 33.
+              - text: Reflection from Surfaces
+          - generic [ref=f3e207]:
+            - generic [ref=f3e208]: ▶
+            - link "Chapter 34. The Magnetism of Matter" [ref=f3e209] [cursor=pointer]:
+              - /url: javascript:Goto(2,34)
+              - generic [ref=f3e210]: Chapter 34.
+              - text: The Magnetism of Matter
+          - generic [ref=f3e211]:
+            - generic [ref=f3e212]: ▶
+            - link "Chapter 35. Paramagnetism and Magnetic Resonance" [ref=f3e213] [cursor=pointer]:
+              - /url: javascript:Goto(2,35)
+              - generic [ref=f3e214]: Chapter 35.
+              - text: Paramagnetism and Magnetic Resonance
+          - generic [ref=f3e215]:
+            - generic [ref=f3e216]: ▶
+            - link "Chapter 36. Ferromagnetism" [ref=f3e217] [cursor=pointer]:
+              - /url: javascript:Goto(2,36)
+              - generic [ref=f3e218]: Chapter 36.
+              - text: Ferromagnetism
+          - generic [ref=f3e219]:
+            - generic [ref=f3e220]: ▶
+            - link "Chapter 37. Magnetic Materials" [ref=f3e221] [cursor=pointer]:
+              - /url: javascript:Goto(2,37)
+              - generic [ref=f3e222]: Chapter 37.
+              - text: Magnetic Materials
+          - generic [ref=f3e223]:
+            - generic [ref=f3e224]: ▶
+            - link "Chapter 38. Elasticity" [ref=f3e225] [cursor=pointer]:
+              - /url: javascript:Goto(2,38)
+              - generic [ref=f3e226]: Chapter 38.
+              - text: Elasticity
+          - generic [ref=f3e227]:
+            - generic [ref=f3e228]: ▶
+            - link "Chapter 39. Elastic Materials" [ref=f3e229] [cursor=pointer]:
+              - /url: javascript:Goto(2,39)
+              - generic [ref=f3e230]: Chapter 39.
+              - text: Elastic Materials
+          - generic [ref=f3e231]:
+            - generic [ref=f3e232]: ▶
+            - link "Chapter 40. The Flow of Dry Water" [ref=f3e233] [cursor=pointer]:
+              - /url: javascript:Goto(2,40)
+              - generic [ref=f3e234]: Chapter 40.
+              - text: The Flow of Dry Water
+          - generic [ref=f3e235]:
+            - generic [ref=f3e236]: ▶
+            - link "Chapter 41. The Flow of Wet Water" [ref=f3e237] [cursor=pointer]:
+              - /url: javascript:Goto(2,41)
+              - generic [ref=f3e238]: Chapter 41.
+              - text: The Flow of Wet Water
+          - generic [ref=f3e239]:
+            - generic [ref=f3e240]: ▶
+            - link "Chapter 42. Curved Space" [ref=f3e241] [cursor=pointer]:
+              - /url: javascript:Goto(2,42)
+              - generic [ref=f3e242]: Chapter 42.
+              - text: Curved Space
+    - contentinfo [ref=f3e243]:
+      - link "Copyright © 1963, 2006, 2013 by the California Institute of Technology, Michael A. Gottlieb and Rudolf Pfeiffer" [ref=f3e244] [cursor=pointer]:
+        - /url: I_copyright.html
+      - generic [ref=f3e245]: Persistent Folding Table of Contents by Lars Næsheim

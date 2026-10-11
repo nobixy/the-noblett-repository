@@ -1,0 +1,417 @@
+- generic [active] [ref=e1]:
+  - table [ref=e3]:
+    - rowgroup [ref=e4]:
+      - row [ref=e5]:
+        - cell [ref=e6]:
+          - link "Find vendors of our publications." [ref=e7] [cursor=pointer]:
+            - /url: https://www.basicbooks.com/contributor/richard-p-feynman/
+        - cell [ref=e9]:
+          - link "Find out more about The Feynman Lectures." [ref=e10] [cursor=pointer]:
+            - /url: https://www.feynmanlectures.caltech.edu/info/
+        - cell [ref=e12]:
+          - link "Like this? See a problem? Let us know!" [ref=e13] [cursor=pointer]:
+            - /url: mailto:feynmanlectures@caltech.edu?subject=FLP-NM HTML Edition Comment
+      - row [ref=e15]:
+        - cell [ref=e16]:
+          - link "Tweet this!" [ref=e17] [cursor=pointer]:
+            - /url: https://twitter.com/home?status=Check out the HTML edition of The Feynman Lectures on Physics, free for all to view at https://www.feynmanlectures.caltech.edu.
+        - cell [ref=e19]:
+          - link "Share on Facebook." [ref=e20] [cursor=pointer]:
+            - /url: https://www.facebook.com/share.php?u=https://www.feynmanlectures.caltech.edu
+        - cell [ref=e22]:
+          - link "Email this page." [ref=e23] [cursor=pointer]:
+            - /url: javascript:emailCurrentPage()
+      - row [ref=e25]:
+        - cell [ref=e26]:
+          - link "◄" [ref=e27] [cursor=pointer]:
+            - /url: javascript:openChapter(-1)
+        - cell [ref=e28]:
+          - link "▲" [ref=e29] [cursor=pointer]:
+            - /url: javascript:openChapter(0)
+        - cell [ref=e30]:
+          - link "►" [ref=e31] [cursor=pointer]:
+            - /url: javascript:openChapter(+1)
+      - row [ref=e32]:
+        - cell [ref=e33]:
+          - link "A" [ref=e34] [cursor=pointer]:
+            - /url: javascript:theStylePreference.changeSafe(1)
+        - cell [ref=e35]:
+          - link "A" [ref=e36] [cursor=pointer]:
+            - /url: javascript:theStylePreference.changeSafe(2)
+        - cell [ref=e37]:
+          - link "A" [ref=e38] [cursor=pointer]:
+            - /url: javascript:theStylePreference.changeSafe(3)
+      - row [ref=e39]:
+        - cell [ref=e40]:
+          - link [ref=e41] [cursor=pointer]:
+            - /url: javascript:thePlatformPreference.changeSafe()
+            - img "use sliding nav panel" [ref=e42]
+        - cell [ref=e43]:
+          - link [ref=e44] [cursor=pointer]:
+            - /url: javascript:theDarkModePreference.changeSafe()
+            - img "dark mode" [ref=e45]
+        - cell [ref=e46]:
+          - img "narrow text" [ref=e48]
+      - row [ref=e49]:
+        - cell "Original lecture recording" [ref=e50]
+        - cell "Table of Contents for this lecture" [ref=e51]
+        - cell [ref=e52]:
+          - link "Nav panel help" [ref=e53] [cursor=pointer]:
+            - /url: NavPanel-help
+      - row [ref=e55]:
+        - cell "Feynman’s Summary of the most important points in this lecture." [ref=e56]
+  - generic [ref=e58]:
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - generic [ref=e61]: The Feynman Lectures on Physics, Volume I
+        - generic [ref=e62]: mainly mechanics, radiation, and heat
+        - generic [ref=e63]: Feynman • Leighton • Sands
+      - generic [ref=e64]:
+        - text: (Multi-column Table of Contents)
+        - generic [ref=e65]: (Expand all) (Collapse all)
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - link "About the Authors" [ref=e69] [cursor=pointer]:
+              - /url: javascript:Goto(1,89)
+            - link "Preface to the New Millennium Edition" [ref=e70] [cursor=pointer]:
+              - /url: javascript:Goto(1,90)
+            - link "Feynman’s Preface" [ref=e71] [cursor=pointer]:
+              - /url: javascript:Goto(1,91)
+            - link "Foreword" [ref=e72] [cursor=pointer]:
+              - /url: javascript:Goto(1,92)
+          - generic [ref=e73]:
+            - generic [ref=e74]: ▼
+            - link "Chapter 1. Atoms in Motion" [ref=e75] [cursor=pointer]:
+              - /url: javascript:Goto(1,1)
+              - generic [ref=e76]: Chapter 1.
+              - text: Atoms in Motion
+            - generic [ref=e77]:
+              - link "1-1 Introduction" [ref=e78] [cursor=pointer]:
+                - /url: javascript:Goto(1,1,1)
+                - generic [ref=e79]: 1-1
+                - text: Introduction
+              - link "1-2 Matter is made of atoms" [ref=e80] [cursor=pointer]:
+                - /url: javascript:Goto(1,1,2)
+                - generic [ref=e81]: 1-2
+                - text: Matter is made of atoms
+              - link "1-3 Atomic processes" [ref=e82] [cursor=pointer]:
+                - /url: javascript:Goto(1,1,3)
+                - generic [ref=e83]: 1-3
+                - text: Atomic processes
+              - link "1-4 Chemical reactions" [ref=e84] [cursor=pointer]:
+                - /url: javascript:Goto(1,1,4)
+                - generic [ref=e85]: 1-4
+                - text: Chemical reactions
+          - generic [ref=e86]:
+            - generic [ref=e87]: ▶
+            - link "Chapter 2. Basic Physics" [ref=e88] [cursor=pointer]:
+              - /url: javascript:Goto(1,2)
+              - generic [ref=e89]: Chapter 2.
+              - text: Basic Physics
+          - generic [ref=e90]:
+            - generic [ref=e91]: ▶
+            - link "Chapter 3. The Relation of Physics to Other Sciences" [ref=e92] [cursor=pointer]:
+              - /url: javascript:Goto(1,3)
+              - generic [ref=e93]: Chapter 3.
+              - text: The Relation of Physics to Other Sciences
+          - generic [ref=e94]:
+            - generic [ref=e95]: ▶
+            - link "Chapter 4. Conservation of Energy" [ref=e96] [cursor=pointer]:
+              - /url: javascript:Goto(1,4)
+              - generic [ref=e97]: Chapter 4.
+              - text: Conservation of Energy
+          - generic [ref=e98]:
+            - generic [ref=e99]: ▶
+            - link "Chapter 5. Time and Distance" [ref=e100] [cursor=pointer]:
+              - /url: javascript:Goto(1,5)
+              - generic [ref=e101]: Chapter 5.
+              - text: Time and Distance
+          - generic [ref=e102]:
+            - generic [ref=e103]: ▶
+            - link "Chapter 6. Probability" [ref=e104] [cursor=pointer]:
+              - /url: javascript:Goto(1,6)
+              - generic [ref=e105]: Chapter 6.
+              - text: Probability
+          - generic [ref=e106]:
+            - generic [ref=e107]: ▶
+            - link "Chapter 7. The Theory of Gravitation" [ref=e108] [cursor=pointer]:
+              - /url: javascript:Goto(1,7)
+              - generic [ref=e109]: Chapter 7.
+              - text: The Theory of Gravitation
+          - generic [ref=e110]:
+            - generic [ref=e111]: ▶
+            - link "Chapter 8. Motion" [ref=e112] [cursor=pointer]:
+              - /url: javascript:Goto(1,8)
+              - generic [ref=e113]: Chapter 8.
+              - text: Motion
+          - generic [ref=e114]:
+            - generic [ref=e115]: ▶
+            - link "Chapter 9. Newton’s Laws of Dynamics" [ref=e116] [cursor=pointer]:
+              - /url: javascript:Goto(1,9)
+              - generic [ref=e117]: Chapter 9.
+              - text: Newton’s Laws of Dynamics
+          - generic [ref=e118]:
+            - generic [ref=e119]: ▶
+            - link "Chapter 10. Conservation of Momentum" [ref=e120] [cursor=pointer]:
+              - /url: javascript:Goto(1,10)
+              - generic [ref=e121]: Chapter 10.
+              - text: Conservation of Momentum
+          - generic [ref=e122]:
+            - generic [ref=e123]: ▶
+            - link "Chapter 11. Vectors" [ref=e124] [cursor=pointer]:
+              - /url: javascript:Goto(1,11)
+              - generic [ref=e125]: Chapter 11.
+              - text: Vectors
+          - generic [ref=e126]:
+            - generic [ref=e127]: ▶
+            - link "Chapter 12. Characteristics of Force" [ref=e128] [cursor=pointer]:
+              - /url: javascript:Goto(1,12)
+              - generic [ref=e129]: Chapter 12.
+              - text: Characteristics of Force
+          - generic [ref=e130]:
+            - generic [ref=e131]: ▶
+            - link "Chapter 13. Work and Potential Energy (A)" [ref=e132] [cursor=pointer]:
+              - /url: javascript:Goto(1,13)
+              - generic [ref=e133]: Chapter 13.
+              - text: Work and Potential Energy (A)
+          - generic [ref=e134]:
+            - generic [ref=e135]: ▶
+            - link "Chapter 14. Work and Potential Energy (conclusion)" [ref=e136] [cursor=pointer]:
+              - /url: javascript:Goto(1,14)
+              - generic [ref=e137]: Chapter 14.
+              - text: Work and Potential Energy (conclusion)
+          - generic [ref=e138]:
+            - generic [ref=e139]: ▶
+            - link "Chapter 15. The Special Theory of Relativity" [ref=e140] [cursor=pointer]:
+              - /url: javascript:Goto(1,15)
+              - generic [ref=e141]: Chapter 15.
+              - text: The Special Theory of Relativity
+          - generic [ref=e142]:
+            - generic [ref=e143]: ▶
+            - link "Chapter 16. Relativistic Energy and Momentum" [ref=e144] [cursor=pointer]:
+              - /url: javascript:Goto(1,16)
+              - generic [ref=e145]: Chapter 16.
+              - text: Relativistic Energy and Momentum
+          - generic [ref=e146]:
+            - generic [ref=e147]: ▶
+            - link "Chapter 17. Space-Time" [ref=e148] [cursor=pointer]:
+              - /url: javascript:Goto(1,17)
+              - generic [ref=e149]: Chapter 17.
+              - text: Space-Time
+        - generic [ref=e150]:
+          - generic [ref=e151]:
+            - generic [ref=e152]: ▶
+            - link "Chapter 18. Rotation in Two Dimensions" [ref=e153] [cursor=pointer]:
+              - /url: javascript:Goto(1,18)
+              - generic [ref=e154]: Chapter 18.
+              - text: Rotation in Two Dimensions
+          - generic [ref=e155]:
+            - generic [ref=e156]: ▶
+            - link "Chapter 19. Center of Mass; Moment of Inertia" [ref=e157] [cursor=pointer]:
+              - /url: javascript:Goto(1,19)
+              - generic [ref=e158]: Chapter 19.
+              - text: Center of Mass; Moment of Inertia
+          - generic [ref=e159]:
+            - generic [ref=e160]: ▶
+            - link "Chapter 20. Rotation in space" [ref=e161] [cursor=pointer]:
+              - /url: javascript:Goto(1,20)
+              - generic [ref=e162]: Chapter 20.
+              - text: Rotation in space
+          - generic [ref=e163]:
+            - generic [ref=e164]: ▶
+            - link "Chapter 21. The Harmonic Oscillator" [ref=e165] [cursor=pointer]:
+              - /url: javascript:Goto(1,21)
+              - generic [ref=e166]: Chapter 21.
+              - text: The Harmonic Oscillator
+          - generic [ref=e167]:
+            - generic [ref=e168]: ▶
+            - link "Chapter 22. Algebra" [ref=e169] [cursor=pointer]:
+              - /url: javascript:Goto(1,22)
+              - generic [ref=e170]: Chapter 22.
+              - text: Algebra
+          - generic [ref=e171]:
+            - generic [ref=e172]: ▶
+            - link "Chapter 23. Resonance" [ref=e173] [cursor=pointer]:
+              - /url: javascript:Goto(1,23)
+              - generic [ref=e174]: Chapter 23.
+              - text: Resonance
+          - generic [ref=e175]:
+            - generic [ref=e176]: ▶
+            - link "Chapter 24. Transients" [ref=e177] [cursor=pointer]:
+              - /url: javascript:Goto(1,24)
+              - generic [ref=e178]: Chapter 24.
+              - text: Transients
+          - generic [ref=e179]:
+            - generic [ref=e180]: ▶
+            - link "Chapter 25. Linear Systems and Review" [ref=e181] [cursor=pointer]:
+              - /url: javascript:Goto(1,25)
+              - generic [ref=e182]: Chapter 25.
+              - text: Linear Systems and Review
+          - generic [ref=e183]:
+            - generic [ref=e184]: ▶
+            - 'link "Chapter 26. Optics: The Principle of Least Time" [ref=e185] [cursor=pointer]':
+              - /url: javascript:Goto(1,26)
+              - generic [ref=e186]: Chapter 26.
+              - text: "Optics: The Principle of Least Time"
+          - generic [ref=e187]:
+            - generic [ref=e188]: ▶
+            - link "Chapter 27. Geometrical Optics" [ref=e189] [cursor=pointer]:
+              - /url: javascript:Goto(1,27)
+              - generic [ref=e190]: Chapter 27.
+              - text: Geometrical Optics
+          - generic [ref=e191]:
+            - generic [ref=e192]: ▶
+            - link "Chapter 28. Electromagnetic Radiation" [ref=e193] [cursor=pointer]:
+              - /url: javascript:Goto(1,28)
+              - generic [ref=e194]: Chapter 28.
+              - text: Electromagnetic Radiation
+          - generic [ref=e195]:
+            - generic [ref=e196]: ▶
+            - link "Chapter 29. Interference" [ref=e197] [cursor=pointer]:
+              - /url: javascript:Goto(1,29)
+              - generic [ref=e198]: Chapter 29.
+              - text: Interference
+          - generic [ref=e199]:
+            - generic [ref=e200]: ▶
+            - link "Chapter 30. Diffraction" [ref=e201] [cursor=pointer]:
+              - /url: javascript:Goto(1,30)
+              - generic [ref=e202]: Chapter 30.
+              - text: Diffraction
+          - generic [ref=e203]:
+            - generic [ref=e204]: ▶
+            - link "Chapter 31. The Origin of the Refractive Index" [ref=e205] [cursor=pointer]:
+              - /url: javascript:Goto(1,31)
+              - generic [ref=e206]: Chapter 31.
+              - text: The Origin of the Refractive Index
+          - generic [ref=e207]:
+            - generic [ref=e208]: ▶
+            - link "Chapter 32. Radiation Damping. Light Scattering" [ref=e209] [cursor=pointer]:
+              - /url: javascript:Goto(1,32)
+              - generic [ref=e210]: Chapter 32.
+              - text: Radiation Damping. Light Scattering
+          - generic [ref=e211]:
+            - generic [ref=e212]: ▶
+            - link "Chapter 33. Polarization" [ref=e213] [cursor=pointer]:
+              - /url: javascript:Goto(1,33)
+              - generic [ref=e214]: Chapter 33.
+              - text: Polarization
+          - generic [ref=e215]:
+            - generic [ref=e216]: ▶
+            - link "Chapter 34. Relativistic Effects in Radiation" [ref=e217] [cursor=pointer]:
+              - /url: javascript:Goto(1,34)
+              - generic [ref=e218]: Chapter 34.
+              - text: Relativistic Effects in Radiation
+          - generic [ref=e219]:
+            - generic [ref=e220]: ▶
+            - link "Chapter 35. Color Vision" [ref=e221] [cursor=pointer]:
+              - /url: javascript:Goto(1,35)
+              - generic [ref=e222]: Chapter 35.
+              - text: Color Vision
+        - generic [ref=e223]:
+          - generic [ref=e224]:
+            - generic [ref=e225]: ▶
+            - link "Chapter 36. Mechanisms of Seeing" [ref=e226] [cursor=pointer]:
+              - /url: javascript:Goto(1,36)
+              - generic [ref=e227]: Chapter 36.
+              - text: Mechanisms of Seeing
+          - generic [ref=e228]:
+            - generic [ref=e229]: ▶
+            - link "Chapter 37. Quantum Behavior" [ref=e230] [cursor=pointer]:
+              - /url: javascript:Goto(1,37)
+              - generic [ref=e231]: Chapter 37.
+              - text: Quantum Behavior
+          - generic [ref=e232]:
+            - generic [ref=e233]: ▶
+            - link "Chapter 38. The Relation of Wave and Particle Viewpoints" [ref=e234] [cursor=pointer]:
+              - /url: javascript:Goto(1,38)
+              - generic [ref=e235]: Chapter 38.
+              - text: The Relation of Wave and Particle Viewpoints
+          - generic [ref=e236]:
+            - generic [ref=e237]: ▶
+            - link "Chapter 39. The Kinetic Theory of Gases" [ref=e238] [cursor=pointer]:
+              - /url: javascript:Goto(1,39)
+              - generic [ref=e239]: Chapter 39.
+              - text: The Kinetic Theory of Gases
+          - generic [ref=e240]:
+            - generic [ref=e241]: ▶
+            - link "Chapter 40. The Principles of Statistical Mechanics" [ref=e242] [cursor=pointer]:
+              - /url: javascript:Goto(1,40)
+              - generic [ref=e243]: Chapter 40.
+              - text: The Principles of Statistical Mechanics
+          - generic [ref=e244]:
+            - generic [ref=e245]: ▶
+            - link "Chapter 41. The Brownian Movement" [ref=e246] [cursor=pointer]:
+              - /url: javascript:Goto(1,41)
+              - generic [ref=e247]: Chapter 41.
+              - text: The Brownian Movement
+          - generic [ref=e248]:
+            - generic [ref=e249]: ▶
+            - link "Chapter 42. Applications of Kinetic Theory" [ref=e250] [cursor=pointer]:
+              - /url: javascript:Goto(1,42)
+              - generic [ref=e251]: Chapter 42.
+              - text: Applications of Kinetic Theory
+          - generic [ref=e252]:
+            - generic [ref=e253]: ▶
+            - link "Chapter 43. Diffusion" [ref=e254] [cursor=pointer]:
+              - /url: javascript:Goto(1,43)
+              - generic [ref=e255]: Chapter 43.
+              - text: Diffusion
+          - generic [ref=e256]:
+            - generic [ref=e257]: ▶
+            - link "Chapter 44. The Laws of Thermodynamics" [ref=e258] [cursor=pointer]:
+              - /url: javascript:Goto(1,44)
+              - generic [ref=e259]: Chapter 44.
+              - text: The Laws of Thermodynamics
+          - generic [ref=e260]:
+            - generic [ref=e261]: ▶
+            - link "Chapter 45. Illustrations of Thermodynamics" [ref=e262] [cursor=pointer]:
+              - /url: javascript:Goto(1,45)
+              - generic [ref=e263]: Chapter 45.
+              - text: Illustrations of Thermodynamics
+          - generic [ref=e264]:
+            - generic [ref=e265]: ▶
+            - link "Chapter 46. Ratchet and pawl" [ref=e266] [cursor=pointer]:
+              - /url: javascript:Goto(1,46)
+              - generic [ref=e267]: Chapter 46.
+              - text: Ratchet and pawl
+          - generic [ref=e268]:
+            - generic [ref=e269]: ▶
+            - link "Chapter 47. Sound. The wave equation" [ref=e270] [cursor=pointer]:
+              - /url: javascript:Goto(1,47)
+              - generic [ref=e271]: Chapter 47.
+              - text: Sound. The wave equation
+          - generic [ref=e272]:
+            - generic [ref=e273]: ▶
+            - link "Chapter 48. Beats" [ref=e274] [cursor=pointer]:
+              - /url: javascript:Goto(1,48)
+              - generic [ref=e275]: Chapter 48.
+              - text: Beats
+          - generic [ref=e276]:
+            - generic [ref=e277]: ▶
+            - link "Chapter 49. Modes" [ref=e278] [cursor=pointer]:
+              - /url: javascript:Goto(1,49)
+              - generic [ref=e279]: Chapter 49.
+              - text: Modes
+          - generic [ref=e280]:
+            - generic [ref=e281]: ▶
+            - link "Chapter 50. Harmonics" [ref=e282] [cursor=pointer]:
+              - /url: javascript:Goto(1,50)
+              - generic [ref=e283]: Chapter 50.
+              - text: Harmonics
+          - generic [ref=e284]:
+            - generic [ref=e285]: ▶
+            - link "Chapter 51. Waves" [ref=e286] [cursor=pointer]:
+              - /url: javascript:Goto(1,51)
+              - generic [ref=e287]: Chapter 51.
+              - text: Waves
+          - generic [ref=e288]:
+            - generic [ref=e289]: ▶
+            - link "Chapter 52. Symmetry in Physical Laws" [ref=e290] [cursor=pointer]:
+              - /url: javascript:Goto(1,52)
+              - generic [ref=e291]: Chapter 52.
+              - text: Symmetry in Physical Laws
+    - contentinfo [ref=e292]:
+      - link "Copyright © 1963, 2006, 2013 by the California Institute of Technology, Michael A. Gottlieb and Rudolf Pfeiffer" [ref=e293] [cursor=pointer]:
+        - /url: I_copyright.html
+      - generic [ref=e294]: Persistent Folding Table of Contents by Lars Næsheim

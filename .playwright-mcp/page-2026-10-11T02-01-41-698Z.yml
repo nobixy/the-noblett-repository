@@ -1,0 +1,365 @@
+- generic [ref=f56e1]:
+  - link "Skip to Main Content (Press Enter)" [ref=f56e2] [cursor=pointer]:
+    - /url: "#mainblock"
+  - 'link "📝 Quiz: What Book Should You Read Next?" [ref=f56e3] [cursor=pointer]':
+    - /url: https://www.penguinrandomhouse.com/articles/quiz-what-book-should-you-read-next/
+  - generic [aria-hidden] [ref=f56e7]:
+    - img [ref=f56e10] [cursor=pointer]
+    - navigation [ref=f56e17]:
+      - generic [ref=f56e18]:
+        - generic [ref=f56e19]:
+          - list [ref=f56e20]:
+            - button [ref=f56e21] [cursor=pointer]:
+              - paragraph [ref=f56e22]: Books
+            - button [ref=f56e27] [cursor=pointer]:
+              - paragraph [ref=f56e28]: Kids
+            - button [ref=f56e33] [cursor=pointer]:
+              - paragraph [ref=f56e34]: Popular
+            - button [ref=f56e39] [cursor=pointer]:
+              - paragraph [ref=f56e40]: Authors & Events
+            - button [ref=f56e45] [cursor=pointer]:
+              - paragraph [ref=f56e46]: Recommendations
+            - button [ref=f56e51] [cursor=pointer]:
+              - paragraph [ref=f56e52]: Audio
+          - list [ref=f56e58]:
+            - listitem [ref=f56e59]:
+              - link [ref=f56e60] [cursor=pointer]:
+                - /url: https://www.penguinrandomhouse.com/articles/how-to-read-more/
+                - generic [ref=f56e62]: How To Read More This Year
+                - generic [ref=f56e63]: Learn More >
+            - separator [ref=f56e64]
+            - listitem [ref=f56e65]:
+              - link [ref=f56e66] [cursor=pointer]:
+                - /url: https://www.penguinrandomhouse.com/banned-books/
+                - generic [ref=f56e68]: Books Bans Are on the Rise in America
+                - generic [ref=f56e69]: Learn More >
+            - separator [ref=f56e70]
+            - listitem [ref=f56e71]:
+              - link [ref=f56e72] [cursor=pointer]:
+                - /url: https://www.penguinrandomhouse.com/the-read-down/new-book-releases-october
+                - generic [ref=f56e74]: New Releases
+                - generic [ref=f56e75]: Learn More >
+        - generic [ref=f56e76] [cursor=pointer]: <
+        - menuitem [ref=f56e77] [cursor=pointer]:
+          - generic [ref=f56e78]: Books
+          - generic [ref=f56e79]: ">"
+        - generic [ref=f56e80] [cursor=pointer]: <
+        - menuitem [ref=f56e81] [cursor=pointer]:
+          - generic [ref=f56e82]: View All
+          - generic [ref=f56e83]: ">"
+        - generic [ref=f56e84] [cursor=pointer]: <
+        - menuitem [ref=f56e85] [cursor=pointer]:
+          - generic [ref=f56e86]: Kids
+          - generic [ref=f56e87]: ">"
+        - generic [ref=f56e88] [cursor=pointer]: <
+        - menuitem [ref=f56e89] [cursor=pointer]:
+          - generic [ref=f56e90]: View All
+          - generic [ref=f56e91]: ">"
+        - generic [ref=f56e92] [cursor=pointer]: <
+        - emphasis [ref=f56e93] [cursor=pointer]: Tell Me Everything
+        - emphasis [ref=f56e94] [cursor=pointer]: James
+        - generic [ref=f56e95] [cursor=pointer]: <
+        - generic [ref=f56e96] [cursor=pointer]: <
+        - menuitem [ref=f56e97] [cursor=pointer]:
+          - generic [ref=f56e98]: Authors & Events
+          - generic [ref=f56e99]: ">"
+        - generic [ref=f56e100] [cursor=pointer]: <
+        - menuitem [ref=f56e101] [cursor=pointer]:
+          - generic [ref=f56e102]: View All
+          - generic [ref=f56e103]: ">"
+        - generic [ref=f56e104] [cursor=pointer]: <
+        - menuitem [ref=f56e105] [cursor=pointer]:
+          - generic [ref=f56e106]: Recommendations
+          - generic [ref=f56e107]: ">"
+        - text: Happy Place
+        - generic [ref=f56e108] [cursor=pointer]: <
+        - menuitem [ref=f56e109] [cursor=pointer]:
+          - generic [ref=f56e110]: View All
+          - generic [ref=f56e111]: ">"
+        - generic [ref=f56e112] [cursor=pointer]: <
+        - menuitem [ref=f56e113] [cursor=pointer]:
+          - generic [ref=f56e114]: Audio
+          - generic [ref=f56e115]: ">"
+        - generic [ref=f56e116] [cursor=pointer]: <
+        - menuitem [ref=f56e117] [cursor=pointer]:
+          - generic [ref=f56e118]: View All
+          - generic [ref=f56e119]: ">"
+  - banner [ref=f56e122]:
+    - generic [ref=f56e124]:
+      - button "Open Menu" [ref=f56e126] [cursor=pointer]
+      - link [ref=f56e132] [cursor=pointer]:
+        - /url: /
+        - img "Penguin Random House" [ref=f56e133]
+      - generic [ref=f56e134]:
+        - button "My Accoount" [ref=f56e136] [cursor=pointer]:
+          - img "Sign In" [ref=f56e137]
+        - link "Shopping Cart" [ref=f56e139] [cursor=pointer]:
+          - /url: https://cart.penguinrandomhouse.com/prhcart/prhcart.php
+          - img "cart" [ref=f56e140]:
+            - generic [ref=f56e142]: "0"
+  - main [ref=f56e146]:
+    - generic [ref=f56e151]:
+      - heading "All Results for thank you for arguing" [level=1] [ref=f56e152]
+      - 'heading "Humor Us Greeting Cards: Thank You – Thank you for everything you (Pack of 6) This cool, laid-back thank you card features a sunglasses-wearing dog—perfect for recognizing someone…" [level=1] [ref=f56e156]':
+        - 'link "Humor Us Greeting Cards: Thank You – Thank you for everything you (Pack of 6)" [ref=f56e157] [cursor=pointer]':
+          - /url: /books/835510/humor-us-greeting-cards-thank-you---thank-you-for-everything-you-pack-of-6-by-compendium/
+        - generic [ref=f56e158]: This cool, laid-back thank you card features a sunglasses-wearing dog—perfect for recognizing someone…
+      - 'heading "Positively Green Greeting Cards: Thank You – Thank goodness for you as you are (Pack of 6) This gentle, affirming thank you celebrates someone just as they are, highlighted by a delicate…" [level=1] [ref=f56e162]':
+        - 'link "Positively Green Greeting Cards: Thank You – Thank goodness for you as you are (Pack of 6)" [ref=f56e163] [cursor=pointer]':
+          - /url: /books/835420/positively-green-greeting-cards-thank-you---thank-goodness-for-you-as-you-are-pack-of-6-by-compendium/
+        - generic [ref=f56e164]: This gentle, affirming thank you celebrates someone just as they are, highlighted by a delicate…
+      - generic [ref=f56e165]:
+        - link [ref=f56e167] [cursor=pointer]:
+          - /url: /books/646966/thank-you-for-arguing-fourth-edition-revised-and-updated-by-jay-heinrichs/
+          - img "Thank You for Arguing, Fourth Edition (Revised and Updated)" [ref=f56e168]
+        - generic [ref=f56e169]:
+          - heading "Thank You for Arguing, Fourth Edition (Revised and Updated) What Aristotle, Lincoln, and Homer Simpson Can Teach Us About the Art of Persuasion" [level=1] [ref=f56e170]:
+            - link "Thank You for Arguing, Fourth Edition (Revised and Updated)" [ref=f56e171] [cursor=pointer]:
+              - /url: /books/646966/thank-you-for-arguing-fourth-edition-revised-and-updated-by-jay-heinrichs/
+            - generic [ref=f56e172]: What Aristotle, Lincoln, and Homer Simpson Can Teach Us About the Art of Persuasion
+          - heading [level=2] [ref=f56e173]:
+            - link "Jay Heinrichs" [ref=f56e174] [cursor=pointer]:
+              - /url: /authors/70457/jay-heinrichs
+          - generic [ref=f56e175]: The definitive guide to getting your way, revised and updated with new material on writing, speaking,…
+      - generic [ref=f56e176]:
+        - link [ref=f56e178] [cursor=pointer]:
+          - /url: /books/555278/thank-you-for-arguing-third-edition-by-jay-heinrichs/
+          - img "Thank You for Arguing, Third Edition" [ref=f56e179]
+        - generic [ref=f56e180]:
+          - heading "Thank You for Arguing, Third Edition What Aristotle, Lincoln, and Homer Simpson Can Teach Us About the Art of Persuasion" [level=1] [ref=f56e181]:
+            - link "Thank You for Arguing, Third Edition" [ref=f56e182] [cursor=pointer]:
+              - /url: /books/555278/thank-you-for-arguing-third-edition-by-jay-heinrichs/
+            - generic [ref=f56e183]: What Aristotle, Lincoln, and Homer Simpson Can Teach Us About the Art of Persuasion
+          - heading [level=2] [ref=f56e184]:
+            - link "Jay Heinrichs" [ref=f56e185] [cursor=pointer]:
+              - /url: /authors/70457/jay-heinrichs
+          - generic [ref=f56e186]: A master class in the art of persuasion, as taught by professors ranging from Bart Simpson to Winston…
+      - 'heading "Humor Us Greeting Cards: Thank You – Thank you for everything! (Pack of 6) This heartfelt thank you card features a happy pup, perfect for expressing simple, sincere gratitude for…" [level=1] [ref=f56e190]':
+        - 'link "Humor Us Greeting Cards: Thank You – Thank you for everything! (Pack of 6)" [ref=f56e191] [cursor=pointer]':
+          - /url: /books/835509/humor-us-greeting-cards-thank-you---thank-you-for-everything-pack-of-6-by-compendium/
+        - generic [ref=f56e192]: This heartfelt thank you card features a happy pup, perfect for expressing simple, sincere gratitude for…
+      - 'heading "Love Muchly Greeting Cards: Thank You – Thank Goodness for you (Pack of 6) A bright, cheerful bloom on this thank you card reflects appreciation for someone who brings light and…" [level=1] [ref=f56e196]':
+        - 'link "Love Muchly Greeting Cards: Thank You – Thank Goodness for you (Pack of 6)" [ref=f56e197] [cursor=pointer]':
+          - /url: /books/835355/love-muchly-greeting-cards-thank-you---thank-goodness-for-you-pack-of-6-by-compendium/
+        - generic [ref=f56e198]: A bright, cheerful bloom on this thank you card reflects appreciation for someone who brings light and…
+      - heading [level=1] [ref=f56e202]:
+        - 'link "Humor Us Greeting Cards: Thank You – How Will I Ever Be Able to Pay You Back for All That You’ve Done for Me? (Pack of 6)" [ref=f56e203] [cursor=pointer]':
+          - /url: /books/836127/humor-us-greeting-cards-thank-you---how-will-i-ever-be-able-to-pay-you-back-for-all-that-youve-done-for-me-pack-of-6-by-compendium/
+        - generic [ref=f56e204]: "Let this piggy bank offer sincere thanks for someone who you are indebted to.Occasion: Thank YouFront:…"
+      - generic [ref=f56e205]:
+        - link [ref=f56e207] [cursor=pointer]:
+          - /url: /books/611331/dr-seusss-thank-you-for-being-green-and-speaking-for-the-trees-by-dr-seuss/
+          - 'img "Dr. Seuss''s Thank You for Being Green: And Speaking for the Trees" [ref=f56e208]'
+        - generic [ref=f56e209]:
+          - heading [level=1] [ref=f56e210]:
+            - 'link "Dr. Seuss’s Thank You for Being Green: And Speaking for the Trees" [ref=f56e211] [cursor=pointer]':
+              - /url: /books/611331/dr-seusss-thank-you-for-being-green-and-speaking-for-the-trees-by-dr-seuss/
+          - heading [level=2] [ref=f56e212]:
+            - link "Dr. Seuss" [ref=f56e213] [cursor=pointer]:
+              - /url: /authors/2000585/dr-seuss
+          - generic [ref=f56e214]: Celebrate the 50th Anniversary of The Lorax and thank someone who cares for the Earth with this small…
+      - generic [ref=f56e216]:
+        - link [ref=f56e218] [cursor=pointer]:
+          - /url: /books/744585/thank-you-for-the-trauma-by-rashema-melson/
+          - img "Thank You for the Trauma" [ref=f56e219]
+        - generic [ref=f56e220]:
+          - heading "Thank You for the Trauma Not Another Poor Black Girl Story" [level=1] [ref=f56e221]:
+            - link "Thank You for the Trauma" [ref=f56e222] [cursor=pointer]:
+              - /url: /books/744585/thank-you-for-the-trauma-by-rashema-melson/
+            - generic [ref=f56e223]: Not Another Poor Black Girl Story
+          - heading [level=2] [ref=f56e224]:
+            - link "Rashema Melson" [ref=f56e225] [cursor=pointer]:
+              - /url: /authors/2296442/rashema-melson
+          - generic [ref=f56e226]: An upcoming book to be published by Penguin Random House.
+      - generic [ref=f56e227]:
+        - link [ref=f56e229] [cursor=pointer]:
+          - /url: /books/726165/thank-you-for-your-suffering-by-michelle-zauner/
+          - img "Thank You for Your Suffering" [ref=f56e230]
+        - generic [ref=f56e231]:
+          - heading "Thank You for Your Suffering A Memoir" [level=1] [ref=f56e232]:
+            - link "Thank You for Your Suffering" [ref=f56e233] [cursor=pointer]:
+              - /url: /books/726165/thank-you-for-your-suffering-by-michelle-zauner/
+            - generic [ref=f56e234]: A Memoir
+          - heading [level=2] [ref=f56e235]:
+            - link "Michelle Zauner" [ref=f56e236] [cursor=pointer]:
+              - /url: /authors/2200429/michelle-zauner
+          - generic [ref=f56e237]: From the bestselling author of Crying in H Mart, a moving, funny, unforgettable new memoir about Michelle…
+    - generic [ref=f56e245]:
+      - generic [ref=f56e246]:
+        - paragraph [ref=f56e247]: Connect
+        - paragraph [ref=f56e248]: Sign up for news about books, authors, and more from Penguin Random House
+        - generic [ref=f56e249]:
+          - text: 
+          - button " Stay in touch" [ref=f56e250] [cursor=pointer]:
+            - generic [ref=f56e251]: 
+            - text: Stay in touch
+        - list [ref=f56e252]:
+          - listitem [ref=f56e253]:
+            - link "visit us on facebook" [ref=f56e254] [cursor=pointer]:
+              - /url: https://www.facebook.com/PenguinRandomHouse
+              - generic [ref=f56e255]: 
+          - listitem [ref=f56e256]:
+            - link "visit us on x.com" [ref=f56e257] [cursor=pointer]:
+              - /url: https://twitter.com/penguinrandom
+              - generic [ref=f56e258]: 𝕏
+          - listitem [ref=f56e259]:
+            - link "visit us on youtube" [ref=f56e260] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UC4OnzY1OgwUE0XPAHpqlcvQ
+              - generic [ref=f56e261]: 
+          - listitem [ref=f56e262]:
+            - link "visit us on linkedin" [ref=f56e263] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/penguin-random-house-publishing
+              - generic [ref=f56e264]: 
+          - listitem [ref=f56e265]:
+            - link "visit us on pinterest" [ref=f56e266] [cursor=pointer]:
+              - /url: http://pinterest.com/penguinrandom/
+              - generic [ref=f56e267]: 
+          - listitem [ref=f56e268]:
+            - link "visit us on instagram" [ref=f56e269] [cursor=pointer]:
+              - /url: http://instagram.com/penguinrandomhouse
+              - generic [ref=f56e270]: 
+        - link "global.penguinrandomhouse.com" [ref=f56e271] [cursor=pointer]:
+          - /url: https://global.penguinrandomhouse.com
+        - paragraph [ref=f56e272]: © 2026 Penguin Random House
+      - list [ref=f56e274]:
+        - listitem [ref=f56e275]:
+          - link "About Us" [ref=f56e276] [cursor=pointer]:
+            - /url: /about-us/
+        - listitem [ref=f56e277]:
+          - link "Our Story" [ref=f56e278] [cursor=pointer]:
+            - /url: /about-us/our-story/
+        - listitem [ref=f56e279]:
+          - link "Our People" [ref=f56e280] [cursor=pointer]:
+            - /url: https://www.penguinrandomhouse.com/about-us/our-people/
+        - listitem [ref=f56e281]:
+          - link "Locations" [ref=f56e282] [cursor=pointer]:
+            - /url: https://global.penguinrandomhouse.com/offices/
+        - listitem [ref=f56e283]:
+          - link "Management" [ref=f56e284] [cursor=pointer]:
+            - /url: /about-us/management/
+        - listitem [ref=f56e285]:
+          - link "Social Impact" [ref=f56e286] [cursor=pointer]:
+            - /url: https://social-impact.penguinrandomhouse.com/
+        - listitem [ref=f56e287]:
+          - link "Accessibility Statement" [ref=f56e288] [cursor=pointer]:
+            - /url: /accessibility
+        - listitem [ref=f56e289]:
+          - link "Careers" [ref=f56e290] [cursor=pointer]:
+            - /url: https://careers.penguinrandomhouse.com
+        - listitem [ref=f56e291]:
+          - link "Imprints" [ref=f56e292] [cursor=pointer]:
+            - /url: /imprints/
+      - list [ref=f56e294]:
+        - listitem [ref=f56e295]: Quick Links
+        - listitem [ref=f56e296]:
+          - link "Partnerships" [ref=f56e297] [cursor=pointer]:
+            - /url: https://www.penguinrandomhouse.com/partnerships/
+        - listitem [ref=f56e298]:
+          - link "Media Queries" [ref=f56e299] [cursor=pointer]:
+            - /url: /media-queries/
+        - listitem [ref=f56e300]:
+          - link "Influencers" [ref=f56e301] [cursor=pointer]:
+            - /url: https://www.penguinrandomhouse.com/influencers/
+        - listitem [ref=f56e302]:
+          - link "PRH Speakers Bureau" [ref=f56e303] [cursor=pointer]:
+            - /url: https://www.prhspeakers.com/
+        - listitem [ref=f56e304]:
+          - link "PenguinRandomHouse.biz" [ref=f56e305] [cursor=pointer]:
+            - /url: https://selfservice.penguinrandomhouse.biz/
+        - listitem [ref=f56e306]:
+          - link "Email Preferences" [ref=f56e307] [cursor=pointer]:
+            - /url: /preferences
+        - listitem [ref=f56e308]:
+          - link "Terms of Use" [ref=f56e309] [cursor=pointer]:
+            - /url: /terms
+        - listitem [ref=f56e310]:
+          - link "Privacy Policy" [ref=f56e311] [cursor=pointer]:
+            - /url: /privacy/
+        - listitem [ref=f56e312]:
+          - link "CA Privacy Policy" [ref=f56e313] [cursor=pointer]:
+            - /url: /privacy/#additional-information-regarding-california
+        - listitem [ref=f56e314]:
+          - link "Do Not Sell My Personal Info" [ref=f56e315] [cursor=pointer]:
+            - /url: /privacy/right-to-opt-out-of-sale-form/
+        - listitem [ref=f56e316]:
+          - link "Affiliate Program Disclosure" [ref=f56e317] [cursor=pointer]:
+            - /url: https://www.penguinrandomhouse.com/affiliate-program-disclosure/
+        - listitem [ref=f56e318]:
+          - link "Avoid Publishing Scams" [ref=f56e319] [cursor=pointer]:
+            - /url: https://www.penguinrandomhouse.com/prh-fraud/
+        - listitem [ref=f56e320]:
+          - link "Anthropic FAQ" [ref=f56e321] [cursor=pointer]:
+            - /url: https://www.penguinrandomhouse.com/bartz-v-anthropic-copyright-settlement-faq-for-authors/
+      - list [ref=f56e323]:
+        - listitem [ref=f56e324]: Help
+        - listitem [ref=f56e325]:
+          - link "Publishing Process" [ref=f56e326] [cursor=pointer]:
+            - /url: https://www.penguinrandomhouse.com/articles/how-can-i-get-published/
+        - listitem [ref=f56e327]:
+          - link "FAQ" [ref=f56e328] [cursor=pointer]:
+            - /url: /faqs/
+        - listitem [ref=f56e329]:
+          - link "Shopping & Shipping FAQ" [ref=f56e330] [cursor=pointer]:
+            - /url: /faqs/#shopping
+        - listitem [ref=f56e331]:
+          - link "For Educators" [ref=f56e332] [cursor=pointer]:
+            - /url: https://penguinrandomhouseeducation.com/
+        - listitem [ref=f56e333]:
+          - link "Subrights" [ref=f56e334] [cursor=pointer]:
+            - /url: http://www.penguinrandomhouse.biz/rights/
+        - listitem [ref=f56e335]:
+          - link "Permissions" [ref=f56e336] [cursor=pointer]:
+            - /url: https://permissions.penguinrandomhouse.com/
+        - listitem [ref=f56e337]:
+          - link "Estate Information" [ref=f56e338] [cursor=pointer]:
+            - /url: https://sites.prh.com/estates
+      - text:    𝕏    
+    - generic [ref=f56e339]:
+      - paragraph [ref=f56e340]: Visit other sites in the Penguin Random House Network
+      - generic [ref=f56e341]:
+        - link [ref=f56e342] [cursor=pointer]:
+          - /url: http://www.readbrightly.com/?ref=822975591A1E
+          - img "Raise kids who love to read" [ref=f56e343]
+          - generic [ref=f56e344]:
+            - paragraph [ref=f56e345]: Brightly
+            - paragraph [ref=f56e346]: Raise kids who love to read
+        - link [ref=f56e347] [cursor=pointer]:
+          - /url: https://outofprint.com/?ref=PRH1921E2841619
+          - img "Out of Print" [ref=f56e348]
+          - generic [ref=f56e349]:
+            - paragraph [ref=f56e350]: Out of Print
+            - paragraph [ref=f56e351]: Shirts, totes, socks, and more for book lovers
+        - link [ref=f56e352] [cursor=pointer]:
+          - /url: http://www.tastecooking.com/?ref=E8C77968C21F
+          - img "An online magazine for today’s home cook" [ref=f56e353]
+          - generic [ref=f56e354]:
+            - paragraph [ref=f56e355]: TASTE
+            - paragraph [ref=f56e356]: An online magazine for today’s home cook
+        - link [ref=f56e357] [cursor=pointer]:
+          - /url: https://www.penguinrandomhouse.com/interactive/todays-top-books/?ref=PRHC64566FB69&aid=14950&linkid=PRHC64566FB69
+          - img "Today's Top Books" [ref=f56e358]
+          - generic [ref=f56e359]:
+            - paragraph [ref=f56e360]: Today's Top Books
+            - paragraph [ref=f56e361]: Want to know what people are actually reading right now?
+        - link [ref=f56e362] [cursor=pointer]:
+          - /url: https://www.wonderbly.com/?ref=PRHFDDFBBCB8600
+          - img "Wonderbly" [ref=f56e363]
+          - generic [ref=f56e364]:
+            - paragraph [ref=f56e365]: Wonderbly
+            - paragraph [ref=f56e366]: Personalized books for kids and adults
+  - dialog [active] [ref=f56e367]:
+    - generic [ref=f56e368]:
+      - heading "Cookies and Similar Technologies" [level=1] [ref=f56e369]
+      - paragraph [ref=f56e370]:
+        - text: We, our affiliates, and providers working on our behalf use cookies to analyze our websites, provide social sharing features, deliver content, and communicate with you to provide support. We also use cookies to deliver personalized ads and disclose information about your use of our site with our advertising providers for this purpose. View our
+        - link "Privacy Policy" [ref=f56e371] [cursor=pointer]:
+          - /url: https://www.penguinrandomhouse.com/privacy
+        - text: to learn more and manage your
+        - link "privacy choices" [ref=f56e372] [cursor=pointer]:
+          - /url: https://www.penguinrandomhouse.com/privacy/#choice-and-control-of-personal-information
+        - text: .
+    - generic [ref=f56e373]:
+      - button "Manage Preferences" [ref=f56e374] [cursor=pointer]
+      - button "Accept All" [ref=f56e375] [cursor=pointer]
+    - button "Close" [ref=f56e376] [cursor=pointer]: ✕
+  - text: ✖

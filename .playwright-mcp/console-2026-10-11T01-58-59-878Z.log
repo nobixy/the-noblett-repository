@@ -1,0 +1,7 @@
+[     684ms] [WARNING] Attempted to access server-side environment variable "LOG_LEVEL" on the client @ :1
+[     685ms] [WARNING] Attempted to access server-side environment variable "PRETTY_PRINT_LOGS" on the client @ :1
+[     855ms] [INFO] {version: 48897869a34d380b4350c6c327a3d10affe62a93} Client Ready @ :1
+[    1000ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://courses.edx.org/login_refresh:0
+[    1058ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://courses.edx.org/login_refresh:0
+[    1082ms] [LOG] [fetchCart Debug] No cart data in response @ :1
+[    5460ms] [WARNING] The resource https://www.edx.org/favicon.ico was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.edx.org/learn/computer-science/stanford-university-compilers:0

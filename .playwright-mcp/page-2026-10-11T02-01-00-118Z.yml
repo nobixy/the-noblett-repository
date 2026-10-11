@@ -1,0 +1,238 @@
+- generic [active] [ref=f41e1]:
+  - banner [ref=f41e2]:
+    - link "Skip to main content" [ref=f41e3] [cursor=pointer]:
+      - /url: "#maincontent"
+    - link "Accessibility help" [ref=f41e4] [cursor=pointer]:
+      - /url: /core/accessibility
+    - generic [ref=f41e13]:
+      - paragraph [ref=f41e14]: Temporary Disruption
+      - generic [ref=f41e15]:
+        - paragraph [ref=f41e16]: We have implemented additional assurance measures to protect our systems.
+        - paragraph [ref=f41e17]: As a result, we have suspended some of our systems and services. We apologise for any temporary disruption some customers may experience.
+    - navigation [ref=f41e24]:
+      - generic [ref=f41e26]:
+        - link [ref=f41e28] [cursor=pointer]:
+          - /url: https://www.cambridge.org/academic
+          - img "Homepage Cambridge University Press" [ref=f41e29]
+        - generic [ref=f41e90]:
+          - button "Login or register" [ref=f41e92] [cursor=pointer]:
+            - generic "Login and registration" [ref=f41e93]
+          - button "Additional menu options" [ref=f41e97] [cursor=pointer]
+  - generic [ref=f41e106]:
+    - link [ref=f41e108] [cursor=pointer]:
+      - /url: /core/
+      - img "Logo for Cambridge Core from Cambridge University Press. Click to return to homepage." [ref=f41e110]
+    - generic [ref=f41e112]:
+      - link "Log in by institution" [ref=f41e114] [cursor=pointer]:
+        - /url: https://shibboleth.cambridge.org/CJOShibb2/index?app=https%3A%2F%2Fwww.cambridge.org%2Fcore%2Fshibboleth%3Fref%3D%2Fcore%2Fsearch%3Fq%3D%2522Learning%2520the%2520Art%2520of%2520Electronics%2522
+      - button "Search" [ref=f41e117] [cursor=pointer]
+      - button "Menu options" [ref=f41e119] [cursor=pointer]
+  - list [ref=f41e123]:
+    - listitem [ref=f41e124]:
+      - link "Home" [ref=f41e125] [cursor=pointer]:
+        - /url: /core/
+    - listitem [ref=f41e126]: Search
+  - alert
+  - heading "Search Results" [level=1] [ref=f41e132]
+  - generic [ref=f41e134]:
+    - generic:
+      - generic:
+        - generic [ref=f41e136]:
+          - heading "Refine search" [level=2] [ref=f41e138]
+          - list [ref=f41e140]:
+            - listitem [ref=f41e141] [cursor=pointer]:
+              - button "Show refine search options" [ref=f41e142]
+        - generic [ref=f41e149]:
+          - generic [ref=f41e150]:
+            - generic [ref=f41e151]:
+              - heading "1 results for \"Learning the Art of Electronics\"" [level=2] [ref=f41e153]:
+                - text: 1 results
+                - generic [ref=f41e154]: for "Learning the Art of Electronics"
+              - generic [ref=f41e157]:
+                - combobox "Sort" [ref=f41e159]:
+                  - option "Sorted by Relevance" [selected]
+                  - option "Title"
+                  - option "Publication date"
+                - button "Save search" [ref=f41e161] [cursor=pointer]
+            - separator [ref=f41e162]
+          - generic [ref=f41e163]:
+            - generic [ref=f41e165]:
+              - generic [ref=f41e167] [cursor=pointer]:
+                - checkbox "Select" [ref=f41e168]
+                - generic [ref=f41e170]: Select
+              - generic [ref=f41e172]:
+                - generic:
+                  - generic [ref=f41e173]:
+                    - link "Learning the Art of Electronics":
+                      - /url: /core/books/learning-the-art-of-electronics/9B9FA2FE6B1802BD4627B1F9825E8F0A
+                      - heading "Learning the Art of Electronics" [level=3] [ref=f41e175] [cursor=pointer]
+                    - list [ref=f41e177]:
+                      - listitem [ref=f41e178]: A Hands-On Lab Course
+                      - listitem [ref=f41e179]: 2nd edition
+                      - listitem [ref=f41e180]:
+                        - link "Thomas C. Hayes" [ref=f41e181] [cursor=pointer]:
+                          - /url: /core/search?filters%5BauthorTerms%5D=Thomas C. Hayes&eventCode=SE-AU
+                        - text: ","
+                        - link "David Abrams" [ref=f41e182] [cursor=pointer]:
+                          - /url: /core/search?filters%5BauthorTerms%5D=David Abrams&eventCode=SE-AU
+                        - text: ","
+                        - link "Paul Horowitz" [ref=f41e183] [cursor=pointer]:
+                          - /url: /core/search?filters%5BauthorTerms%5D=Paul Horowitz&eventCode=SE-AU
+                      - listitem [ref=f41e184]:
+                        - generic [ref=f41e185]:
+                          - term [ref=f41e186]: "Published online:"
+                          - definition [ref=f41e187]: 18 March 2025
+                          - term [ref=f41e188]: "Print publication:"
+                          - definition [ref=f41e189]: 03 April 2025
+                      - listitem [ref=f41e190]:
+                        - list [ref=f41e191]:
+                          - listitem [ref=f41e192]: Book
+                          - listitem [ref=f41e193]:
+                            - link "Export citation for Learning the Art of Electronics" [ref=f41e194] [cursor=pointer]:
+                              - /url: "#"
+                              - text: Export citation
+                      - listitem [ref=f41e195]:
+                        - button "View description for Learning the Art of Electronics" [ref=f41e197] [cursor=pointer]:
+                          - generic [ref=f41e198]: View description
+                  - link "Altmetric score 1; more details for Learning the Art of Electronics in a new tab" [ref=f41e205] [cursor=pointer]:
+                    - /url: https://www.altmetric.com/details.php?domain=www.cambridge.org&citation_id=177145143
+            - separator [ref=f41e207]
+  - contentinfo [ref=f41e210]:
+    - generic [ref=f41e212]:
+      - link [ref=f41e213] [cursor=pointer]:
+        - /url: /
+        - img "Cambridge University Press" [ref=f41e214]
+      - generic [ref=f41e215]:
+        - generic [ref=f41e216]:
+          - navigation [ref=f41e217]:
+            - heading "Our Site" [level=2] [ref=f41e218]
+            - list [ref=f41e219]:
+              - listitem [ref=f41e220]:
+                - link "Cambridge Core accessibility page" [ref=f41e221] [cursor=pointer]:
+                  - /url: /core/services/accessibility
+                  - generic [ref=f41e222]: Accessibility
+              - listitem [ref=f41e223]:
+                - link "Cambridge Core contact & help page" [ref=f41e224] [cursor=pointer]:
+                  - /url: /core/help/FAQs
+                  - generic [ref=f41e225]: Contact & Help
+              - listitem [ref=f41e226]:
+                - link "Cambridge Core legal notices page" [ref=f41e227] [cursor=pointer]:
+                  - /url: /core/legal-notices/terms
+                  - generic [ref=f41e228]: Legal Notices
+              - listitem [ref=f41e229]:
+                - button "Change your cookie settings" [ref=f41e230] [cursor=pointer]:
+                  - generic [ref=f41e231]: Cookie Settings
+              - listitem [ref=f41e232]:
+                - link "Cancel your order. Opens in a new window." [ref=f41e233] [cursor=pointer]:
+                  - /url: https://withdraw.cambridge.org/hc/en-gb/requests/new
+                  - generic [ref=f41e234]: Cancel your order
+          - navigation [ref=f41e235]:
+            - heading "Quick Links" [level=2] [ref=f41e236]
+            - list [ref=f41e237]:
+              - listitem [ref=f41e238]:
+                - link "Cambridge Core. Opens in a new window." [ref=f41e239] [cursor=pointer]:
+                  - /url: https://www.cambridge.org/core/
+                  - generic [ref=f41e240]: Cambridge Core
+              - listitem [ref=f41e241]:
+                - link "Cambridge Open Engage. Opens in a new window." [ref=f41e242] [cursor=pointer]:
+                  - /url: https://www.cambridge.org/engage/coe/public-dashboard
+                  - generic [ref=f41e243]: Cambridge Open Engage
+              - listitem [ref=f41e244]:
+                - link "Cambridge Aspire website. Opens in a new window." [ref=f41e245] [cursor=pointer]:
+                  - /url: https://www.cambridge.org/highereducation/
+                  - generic [ref=f41e246]: Cambridge Aspire website
+          - navigation [ref=f41e247]:
+            - heading "Our Products" [level=2] [ref=f41e248]
+            - list [ref=f41e249]:
+              - listitem [ref=f41e250]:
+                - link "Journals. Opens in a new window." [ref=f41e251] [cursor=pointer]:
+                  - /url: https://www.cambridge.org/core/publications/journals
+                  - generic [ref=f41e252]: Journals
+              - listitem [ref=f41e253]:
+                - link "Books. Opens in a new window." [ref=f41e254] [cursor=pointer]:
+                  - /url: https://www.cambridge.org/core/search?aggs%5BproductTypes%5D%5Bfilters%5D=BOOK
+                  - generic [ref=f41e255]: Books
+              - listitem [ref=f41e256]:
+                - link "Elements. Opens in a new window." [ref=f41e257] [cursor=pointer]:
+                  - /url: https://www.cambridge.org/core/publications/elements
+                  - generic [ref=f41e258]: Elements
+              - listitem [ref=f41e259]:
+                - link "Textbooks. Opens in a new window." [ref=f41e260] [cursor=pointer]:
+                  - /url: https://www.cambridge.org/highereducation/search?aggs=%24productTypes%24BOOK%3Atrue%3B%3B
+                  - generic [ref=f41e261]: Textbooks
+              - listitem [ref=f41e262]:
+                - link "Courseware. Opens in a new window." [ref=f41e263] [cursor=pointer]:
+                  - /url: https://www.cambridge.org/highereducation/search?aggs=%24productTypes%24COURSEWARE%3Atrue%3B%3B
+                  - generic [ref=f41e264]: Courseware
+        - generic [ref=f41e265]:
+          - generic [ref=f41e266]:
+            - heading "Join us online" [level=2] [ref=f41e267]
+            - list [ref=f41e268]:
+              - listitem [ref=f41e269]:
+                - link "Visit Cambridge University Press Youtube account. Opens in a new tab." [ref=f41e270] [cursor=pointer]:
+                  - /url: https://www.youtube.com/playlist?list=PLTK8KRW19hUVucVRHbIx73oLKUro8HXt0
+              - listitem [ref=f41e272]:
+                - link "Visit Cambridge University Press X account. Opens in a new tab." [ref=f41e273] [cursor=pointer]:
+                  - /url: https://twitter.com/CambridgeCore
+              - listitem [ref=f41e275]:
+                - link "Visit Cambridge University Press Facebook account. Opens in a new tab." [ref=f41e276] [cursor=pointer]:
+                  - /url: https://www.facebook.com/CambridgeCore
+              - listitem [ref=f41e278]:
+                - link "Visit Cambridge University Press Instagram account. Opens in a new tab." [ref=f41e279] [cursor=pointer]:
+                  - /url: https://www.instagram.com/cambridgeuniversitypress/
+              - listitem [ref=f41e281]:
+                - link "Visit Cambridge University Press Linkedin account. Opens in a new tab." [ref=f41e282] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/showcase/11096649
+          - generic [ref=f41e287]:
+            - generic [ref=f41e288]:
+              - text: Location
+              - generic [ref=f41e289]:
+                - combobox "Select your location" [ref=f41e290]: USA
+                - button "open location list" [ref=f41e294] [cursor=pointer]
+            - button "Submit to update location preference" [disabled] [ref=f41e296]:
+              - generic [ref=f41e297]: Update
+    - generic [ref=f41e299]:
+      - button "Click to open legal information links list" [ref=f41e300] [cursor=pointer]:
+        - generic [ref=f41e301]: Legal Information
+      - generic [ref=f41e303]: Cambridge University Press 2026
+  - generic [ref=f41e308] [cursor=pointer]:
+    - button "Cookie Settings" [ref=f41e310]
+    - text: Cookie Settings
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - button "Feedback - Show survey" [ref=f41e312] [cursor=pointer]:
+                - generic [ref=f41e316]: Feedback
+              - region [aria-hidden]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - button
+                    - generic:
+                      - generic:
+                        - generic:
+                          - group:
+                            - generic:
+                              - heading: How satisfied are you with your experience today?
+                              - generic: Select an option from 1 to 5, with 1 being Not at all satisfied and 5 being Extremely satisfied
+                              - radiogroup:
+                                - generic:
+                                  - generic:
+                                    - radio
+                                  - generic:
+                                    - radio
+                                  - generic:
+                                    - radio
+                                  - generic:
+                                    - radio
+                                  - generic:
+                                    - radio
+                                - generic:
+                                  - generic [aria-hidden]: Not at all satisfied
+                                  - generic [aria-hidden]: Extremely satisfied
+                            - generic:
+                              - generic:
+                                - button [disabled]: Next

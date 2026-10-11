@@ -1,0 +1,64 @@
+- generic [active] [ref=f8e1]:
+  - generic [ref=f8e3]:
+    - generic [ref=f8e4]:
+      - heading "The Scientist and Engineer's Guide to Digital Signal Processing By Steven W. Smith, Ph.D." [level=1] [ref=f8e5]: The Scientist and Engineer's Guide toDigital Signal ProcessingBy Steven W. Smith, Ph.D.
+      - list [ref=f8e7]:
+        - listitem [ref=f8e8]:
+          - link "Home" [ref=f8e9] [cursor=pointer]:
+            - /url: http://www.dspguide.com
+        - listitem [ref=f8e10]:
+          - link "The Book by Chapters" [ref=f8e11] [cursor=pointer]:
+            - /url: http://www.dspguide.com/pdfbook.htm
+        - listitem [ref=f8e12]:
+          - link "About the Book" [ref=f8e13] [cursor=pointer]:
+            - /url: http://www.dspguide.com/about.htm
+        - listitem [ref=f8e14]:
+          - link "Steven W. Smith" [ref=f8e15] [cursor=pointer]:
+            - /url: http://www.dspguide.com/swsmith.htm
+        - listitem [ref=f8e16]:
+          - link "Blog" [ref=f8e17] [cursor=pointer]:
+            - /url: http://www.dsprelated.com/blogs-1/nf/Steve_Smith.php
+        - listitem [ref=f8e18]:
+          - link "Contact" [ref=f8e19] [cursor=pointer]:
+            - /url: http://www.dspguide.com/contact.htm
+    - generic [ref=f8e20]:
+      - generic [ref=f8e21]:
+        - heading "Book Search" [level=2] [ref=f8e22]
+        - generic [ref=f8e24]:
+          - textbox [ref=f8e25] [cursor=pointer]
+          - button "Submit" [ref=f8e26] [cursor=pointer]
+      - generic [ref=f8e27]:
+        - heading "Download this chapter in PDF format" [level=2] [ref=f8e28]
+        - link "Chapter28.pdf" [ref=f8e30] [cursor=pointer]:
+          - /url: http://www.dspguide.com/CH28.PDF
+      - generic [ref=f8e31]:
+        - heading "Table of contents" [level=2] [ref=f8e32]
+        - list [ref=f8e33]:
+          - list [ref=f8e34]
+      - generic [ref=f8e35]:
+        - heading "How to order your own hardcover copy" [level=2] [ref=f8e36]
+        - text: Wouldn't you rather have a bound book instead of 640 loose pages? Your laser printer will thank you!
+        - generic [ref=f8e37]:
+          - text: Order from
+          - link "Amazon.com" [ref=f8e38] [cursor=pointer]:
+            - /url: http://www.amazon.com/Scientist-Engineers-Digital-Signal-Processing/dp/0966017633/ref=pd_bxgy_b_img_a
+          - text: .
+  - generic [ref=f8e41]:
+    - link "Home" [ref=f8e42] [cursor=pointer]:
+      - /url: http://www.dspguide.com
+    - text: "|"
+    - link "The Book by Chapters" [ref=f8e43] [cursor=pointer]:
+      - /url: http://www.dspguide.com/pdfbook.htm
+    - text: "|"
+    - link "About the Book" [ref=f8e44] [cursor=pointer]:
+      - /url: http://www.dspguide.com/about.htm
+    - text: "|"
+    - link "Steven W. Smith" [ref=f8e45] [cursor=pointer]:
+      - /url: http://www.dspguide.com/swsmith.htm
+    - text: "|"
+    - link "Blog" [ref=f8e46] [cursor=pointer]:
+      - /url: http://www.dsprelated.com/blogs-1/nf/Steve_Smith.php
+    - text: "|"
+    - link "Contact" [ref=f8e47] [cursor=pointer]:
+      - /url: http://www.dspguide.com/contact.htm
+    - text: Copyright © 1997-2011 by California Technical Publishing

@@ -1,0 +1,439 @@
+- generic [ref=f10e1]:
+  - banner [ref=f10e3]:
+    - generic [ref=f10e4]:
+      - button "Navigation menu" [ref=f10e6] [cursor=pointer]
+      - link [ref=f10e10] [cursor=pointer]:
+        - /url: /
+      - button "Search courses" [ref=f10e12] [cursor=pointer]
+      - alert [ref=f10e16]:
+        - paragraph [ref=f10e17]:
+          - text: Build skills that create new career opportunities. Save up to 20% with code SUCCESS2026.
+          - link "Learn more" [ref=f10e18] [cursor=pointer]:
+            - /url: https://www.edx.org/offers
+          - text: .
+        - button "Close site banner." [ref=f10e19] [cursor=pointer]
+  - generic [ref=f10e23]:
+    - generic [ref=f10e25]:
+      - navigation "breadcrumb" [ref=f10e27]:
+        - list [ref=f10e28]:
+          - listitem [aria-hidden] [ref=f10e29]
+          - listitem [ref=f10e32]:
+            - link "computer science" [ref=f10e33] [cursor=pointer]:
+              - /url: /learn/computer-science
+      - generic [ref=f10e37]:
+        - generic [ref=f10e38]:
+          - generic [ref=f10e39]:
+            - img "Program Logo" [ref=f10e41]
+            - paragraph [ref=f10e42]: Earn a certificate
+          - paragraph [ref=f10e43]: "StanfordOnline: Compilers"
+          - generic [ref=f10e44]:
+            - paragraph [ref=f10e46]: This self-paced course will discuss the major ideas used today in the implementation of programming language compilers, including lexical analysis, parsing, syntax-directed translation, abstract syntax trees, types and type checking, intermediate languages, dataflow analysis, program optimization, code generation, and runtime systems. As a result, you will learn how a program written in a high-level language designed for humans is systematically translated into a program written in low-level assembly more suited to machines. Along the way we will also touch on how programming languages are designed, programming language semantics, and why there are so many different kinds of programming languages.
+            - button "Show More" [ref=f10e47] [cursor=pointer]
+          - generic [ref=f10e48]:
+            - generic [ref=f10e50]:
+              - generic [ref=f10e51]: "4.5"
+              - generic [ref=f10e52]:
+                - generic [ref=f10e53]: ☆☆☆☆☆
+                - status "Rating of this course is 4.5 out of 5." [ref=f10e55]: ★★★★★
+              - generic [ref=f10e56]: 34 reviews
+            - generic [ref=f10e57]:
+              - generic [ref=f10e58]: 49,737
+              - generic [ref=f10e59]: learners enrolled
+        - generic [ref=f10e60]:
+          - status [ref=f10e64]
+          - generic [ref=f10e66]:
+            - paragraph
+    - generic [ref=f10e68]:
+      - generic [ref=f10e70]:
+        - generic [ref=f10e71]:
+          - generic [ref=f10e72]:
+            - heading "Ready for your next move?" [level=2] [ref=f10e73]
+            - paragraph [ref=f10e74]:
+              - text: Save 15% on select courses and programs using the code SUCCESS2026. Offer ends October 21, 2026.
+              - button "More information" [ref=f10e76] [cursor=pointer]
+          - button "Advance your career" [ref=f10e81] [cursor=pointer]
+        - generic [ref=f10e82]:
+          - heading "What you'll learn" [level=2] [ref=f10e83]
+          - paragraph [ref=f10e85]: Everything that computers do is the result of some program, and all of the millions of programs in the world are written in one of the many thousands of programming languages that have been developed since the 1950’s. Designing and implementing a programming language turns out to be difficult; some of the best minds in computer science have thought about the problems involved and contributed beautiful and deep results. Learning something about compilers will show you the interplay of theory and practice in computer science, especially how powerful general ideas combined with engineering insight can lead to practical solutions to very hard problems. Knowing how a compiler works will also make you a better programmer and increase your ability to learn new programming languages quickly.
+        - generic [ref=f10e87]:
+          - heading "Earn a school-verified certificate" [level=2] [ref=f10e88]
+          - list [ref=f10e91]:
+            - listitem [ref=f10e92]:
+              - generic [ref=f10e98]:
+                - generic [ref=f10e99]: Increase your career opportunities
+                - generic [ref=f10e100]: 84% of learners report more opportunities after earning their certificate.
+            - listitem [ref=f10e101]:
+              - generic [ref=f10e106]:
+                - generic [ref=f10e107]: Show off your hard work and dedication
+                - generic [ref=f10e108]:
+                  - text: You’re learning from
+                  - strong [ref=f10e109]: StanfordOnline
+                  - text: "! That’s a big deal. Let others know about your achievements."
+        - generic [ref=f10e111]:
+          - heading "About this course" [level=2] [ref=f10e112]
+          - generic [ref=f10e113]:
+            - generic [ref=f10e116]:
+              - paragraph [ref=f10e117]: "The course lectures will be presented in short videos. To help you master the material, there will be in-lecture questions to answer, quizzes, and two exams: a midterm and a final. There will also be homework in the form of exercises that ask you to show a sequence of logical steps needed to derive a specific result, such as the sequence of steps a type checker would perform to type check a piece of code, or the sequence of steps a parser would perform to parse an input string. This checking technology is the result of ongoing research at Stanford into developing innovative tools for education, and we're excited to be the first course ever to make it available to students."
+              - paragraph [ref=f10e118]: An optional course project is to write a complete compiler for COOL, the Classroom Object Oriented Language. COOL has the essential features of a realistic programming language, but is small and simple enough that it can be implemented in a few thousand lines of code. Students who choose to do the project can implement it in either C++ or Java.
+              - paragraph [ref=f10e119]: I hope you enjoy the course!
+            - button "Show More" [ref=f10e120] [cursor=pointer]
+        - generic [ref=f10e121]:
+          - heading "Curriculum" [level=2] [ref=f10e122]
+          - generic [ref=f10e124]:
+            - heading "10 Weeks, 5-10 hours per week" [level=3] [ref=f10e125]
+            - generic [ref=f10e126]:
+              - generic [ref=f10e127]:
+                - paragraph [ref=f10e128]: Language
+                - paragraph [ref=f10e129]: English
+              - generic [ref=f10e130]:
+                - paragraph [ref=f10e131]: Transcripts
+                - paragraph [ref=f10e132]: English
+              - generic [ref=f10e133]:
+                - paragraph [ref=f10e134]: Prerequisites
+                - paragraph [ref=f10e135]:
+                  - paragraph [ref=f10e136]: No prerequisites are needed for this course.
+        - generic [ref=f10e138]:
+          - heading "Meet your instructors" [level=2] [ref=f10e140]
+          - link [ref=f10e142] [cursor=pointer]:
+            - /url: /bio/alex-aiken
+            - generic [ref=f10e144]:
+              - paragraph [ref=f10e145]: Alex Aiken
+              - paragraph [ref=f10e146]: Professor of Computer Science at Stanford University
+        - generic [ref=f10e147]:
+          - heading "Hear what other learners have to say" [level=2] [ref=f10e148]
+          - region "Social proof carousel" [ref=f10e149]:
+            - generic [ref=f10e150]:
+              - generic [ref=f10e152]:
+                - paragraph [ref=f10e158]: I'm a fan of edX's new way of learning. Thousands of people can study from anywhere in the world. It's a wonderful idea.
+                - generic [ref=f10e164]:
+                  - generic [ref=f10e165]: Sarah Riggot
+                  - generic [ref=f10e166]: Guatemala
+              - generic [ref=f10e168]:
+                - paragraph [ref=f10e174]: The edX experience is the most valuable experience I have ever had. It gives me the opportunity to learn from universities across continents and languages.
+                - generic [ref=f10e180]:
+                  - generic [ref=f10e181]: Nader Haddad
+                  - generic [ref=f10e182]: Tunisia
+              - generic [ref=f10e184]:
+                - paragraph [ref=f10e190]: I’m hard of hearing, which makes it difficult and exhausting to follow regular courses. Thanks to edX lectures have captions, I can follow the courses without any problems.
+                - generic [ref=f10e196]:
+                  - generic [ref=f10e197]: Sandy Van den Borne
+                  - generic [ref=f10e198]: Belgium
+              - generic [ref=f10e200]:
+                - paragraph [ref=f10e206]: Living in this explosion of information — it's hugely rewarding to see it ‘democratized’ in this way.
+                - generic [ref=f10e212]:
+                  - generic [ref=f10e213]: Kathleen B.
+                  - generic [ref=f10e214]: New Hampshire
+              - generic [ref=f10e216]:
+                - paragraph [ref=f10e222]: edX has enriched my life. I have truly found my passion, and now I am determined to pursue my career as an electrical engineer after I go to college.
+                - generic [ref=f10e228]:
+                  - generic [ref=f10e229]: Kyung B.
+                  - generic [ref=f10e230]: Maryland
+              - generic [ref=f10e232]:
+                - paragraph [ref=f10e238]: Even though I have a formal and practical education and have working experience in electronics, the course was challenging sometimes, but always rewarding.
+                - generic [ref=f10e244]:
+                  - generic [ref=f10e245]: Francisco R.
+                  - generic [ref=f10e246]: Spain
+          - generic [ref=f10e248]:
+            - button "Previous slide" [disabled]
+            - generic [ref=f10e249]:
+              - button "Go to slide 1" [ref=f10e250] [cursor=pointer]
+              - button "Go to slide 2" [ref=f10e253] [cursor=pointer]
+              - button "Go to slide 3" [ref=f10e256] [cursor=pointer]
+              - button "Go to slide 4" [ref=f10e259] [cursor=pointer]
+              - button "Go to slide 5" [ref=f10e262] [cursor=pointer]
+              - button "Go to slide 6" [ref=f10e265] [cursor=pointer]
+            - button "Next slide" [ref=f10e268] [cursor=pointer]
+          - link "Read more from other learners" [ref=f10e271] [cursor=pointer]:
+            - /url: /about-us/testimonials
+        - generic [ref=f10e273]:
+          - heading "Ways to take this course" [level=2] [ref=f10e274]
+          - generic [ref=f10e275]:
+            - generic [ref=f10e276]:
+              - generic [ref=f10e277]:
+                - generic [ref=f10e278]:
+                  - heading "Certificate" [level=3] [ref=f10e279]
+                  - generic [ref=f10e280]: Premium
+                - heading "$249 USD" [level=3] [ref=f10e281]
+              - generic [ref=f10e282]:
+                - list [ref=f10e283]:
+                  - listitem [ref=f10e284]:
+                    - text: Unlimited access
+                    - button "More information about Unlimited access" [ref=f10e285] [cursor=pointer]
+                  - listitem [ref=f10e288]: World class institutions
+                  - listitem [ref=f10e289]: edX support
+                  - listitem [ref=f10e290]: Graded assessments
+                  - listitem [ref=f10e291]: Earn a certificate
+                - button "Advance your career" [ref=f10e292] [cursor=pointer]
+            - generic [ref=f10e293]:
+              - heading "Audit" [level=3] [ref=f10e295]
+              - generic [ref=f10e296]:
+                - list [ref=f10e297]:
+                  - listitem [ref=f10e298]:
+                    - text: Access Expires Dec 20
+                    - button "More information about Limited access" [ref=f10e299] [cursor=pointer]
+                  - listitem [ref=f10e302]: World class institutions
+                  - listitem [ref=f10e303]: edX support
+                - button "Audit course" [ref=f10e304] [cursor=pointer]
+        - generic [ref=f10e305]:
+          - generic [ref=f10e306]:
+            - heading "Next course starts Oct 11" [level=2] [ref=f10e307]
+            - generic [ref=f10e308]: Ends Aug 31, 2030
+          - generic [ref=f10e309]:
+            - text: 49,737
+            - generic [ref=f10e310]: learners enrolled
+        - generic [ref=f10e313]:
+          - heading "Share this course" [level=2] [ref=f10e314]
+          - generic [ref=f10e315]:
+            - button "Share this course on facebook" [ref=f10e317] [cursor=pointer]
+            - button "Share this course on X" [ref=f10e323] [cursor=pointer]
+            - button "Share this course on linkedin" [ref=f10e329] [cursor=pointer]
+            - button "Share this course via email" [ref=f10e335] [cursor=pointer]
+      - generic [ref=f10e342]:
+        - generic [ref=f10e343]:
+          - heading "Interested in this course for your business or team?" [level=2] [ref=f10e344]
+          - paragraph [ref=f10e345]: Train your employees in the most in-demand topics, with edX for business
+        - link "Request more info" [ref=f10e347] [cursor=pointer]:
+          - /url: https://business.edx.org/business/book-demo?utm_medium=WebReferral&utm_source=edX&utm_campaign=edXCoursePage
+  - contentinfo [ref=f10e350]:
+    - generic [ref=f10e351]:
+      - generic [ref=f10e352]:
+        - link [ref=f10e353] [cursor=pointer]:
+          - /url: /
+          - img "edX homepage" [ref=f10e354]
+        - generic [ref=f10e356]:
+          - button "Visit our Facebook page" [ref=f10e358] [cursor=pointer]
+          - button "Visit our X page" [ref=f10e363] [cursor=pointer]
+          - button "Visit our LinkedIn page" [ref=f10e368] [cursor=pointer]
+          - button "Visit our Reddit page" [ref=f10e373] [cursor=pointer]
+      - generic [ref=f10e378]:
+        - generic [ref=f10e379]:
+          - text: Skills
+          - list [ref=f10e380]:
+            - listitem [ref=f10e381]:
+              - link "Python" [ref=f10e382] [cursor=pointer]:
+                - /url: https://www.edx.org/learn/python
+            - listitem [ref=f10e383]:
+              - link "Artificial Intelligence (AI)" [ref=f10e384] [cursor=pointer]:
+                - /url: https://www.edx.org/learn/artificial-intelligence
+            - listitem [ref=f10e385]:
+              - link "Trading" [ref=f10e386] [cursor=pointer]:
+                - /url: https://www.edx.org/learn/trading
+            - listitem [ref=f10e387]:
+              - link "Data Analysis" [ref=f10e388] [cursor=pointer]:
+                - /url: https://www.edx.org/learn/data-analysis
+            - listitem [ref=f10e389]:
+              - link "Finance" [ref=f10e390] [cursor=pointer]:
+                - /url: https://www.edx.org/learn/finance
+            - listitem [ref=f10e391]:
+              - link "Excel" [ref=f10e392] [cursor=pointer]:
+                - /url: https://www.edx.org/learn/excel
+            - listitem [ref=f10e393]:
+              - link "Data Science" [ref=f10e394] [cursor=pointer]:
+                - /url: https://www.edx.org/learn/data-science
+            - listitem [ref=f10e395]:
+              - link "Software Engineering" [ref=f10e396] [cursor=pointer]:
+                - /url: https://www.edx.org/learn/software-engineering
+            - listitem [ref=f10e397]:
+              - link "Project Management" [ref=f10e398] [cursor=pointer]:
+                - /url: https://www.edx.org/learn/project-management
+            - listitem [ref=f10e399]:
+              - link "Machine Learning" [ref=f10e400] [cursor=pointer]:
+                - /url: https://www.edx.org/learn/machine-learning
+          - link "see more Topics" [ref=f10e402] [cursor=pointer]:
+            - /url: https://www.edx.org/learn
+        - generic [ref=f10e403]:
+          - text: Professional Certificates
+          - list [ref=f10e404]:
+            - listitem [ref=f10e405]:
+              - link "Harvard University's CS50" [ref=f10e406] [cursor=pointer]:
+                - /url: https://www.edx.org/cs50
+            - listitem [ref=f10e407]:
+              - link "Professional Certificate Programs" [ref=f10e408] [cursor=pointer]:
+                - /url: https://www.edx.org/certificates/professional-certificate
+            - listitem [ref=f10e409]:
+              - link "XSeries Programs" [ref=f10e410] [cursor=pointer]:
+                - /url: https://www.edx.org/xseries
+            - listitem [ref=f10e411]:
+              - link "Certificates in AI" [ref=f10e412] [cursor=pointer]:
+                - /url: https://www.edx.org/certificates/ai-certificates
+            - listitem [ref=f10e413]:
+              - link "Certificates in Project Management" [ref=f10e414] [cursor=pointer]:
+                - /url: https://www.edx.org/certificates/project-management-certificate
+            - listitem [ref=f10e415]:
+              - link "Certificates in Management" [ref=f10e416] [cursor=pointer]:
+                - /url: https://www.edx.org/certificates/business-certificate
+            - listitem [ref=f10e417]:
+              - link "Certificates in Data Analytics" [ref=f10e418] [cursor=pointer]:
+                - /url: https://www.edx.org/certificates/data-analytics-certificate
+            - listitem [ref=f10e419]:
+              - link "Certificates in IT" [ref=f10e420] [cursor=pointer]:
+                - /url: https://www.edx.org/certificates/it-certificates
+            - listitem [ref=f10e421]:
+              - link "Certificates in Python" [ref=f10e422] [cursor=pointer]:
+                - /url: https://www.edx.org/certificates/python-certificate
+          - link "see more Certificates" [ref=f10e424] [cursor=pointer]:
+            - /url: https://www.edx.org/certificates
+        - generic [ref=f10e425]:
+          - text: Online Degrees
+          - list [ref=f10e426]:
+            - listitem [ref=f10e427]:
+              - link "MicroMasters Programs" [ref=f10e428] [cursor=pointer]:
+                - /url: https://www.edx.org/masters/micromasters
+            - listitem [ref=f10e429]:
+              - link "MicroBachelors Programs" [ref=f10e430] [cursor=pointer]:
+                - /url: https://www.edx.org/bachelors/microbachelors
+            - listitem [ref=f10e431]:
+              - link "Earn University Credit" [ref=f10e432] [cursor=pointer]:
+                - /url: https://www.edx.org/about-us/credit
+            - listitem [ref=f10e433]:
+              - link "Bachelor's in Computer Science / Data Science" [ref=f10e434] [cursor=pointer]:
+                - /url: https://www.edx.org/bachelors/computer-data-sciences
+            - listitem [ref=f10e435]:
+              - link "Bachelor's in Finance" [ref=f10e436] [cursor=pointer]:
+                - /url: https://www.edx.org/bachelors/online-bachelors-degree-finance
+            - listitem [ref=f10e437]:
+              - link "Bachelor's in Business" [ref=f10e438] [cursor=pointer]:
+                - /url: https://www.edx.org/bachelors/business
+            - listitem [ref=f10e439]:
+              - link "Master's in Business Administration" [ref=f10e440] [cursor=pointer]:
+                - /url: https://www.edx.org/masters/online-mba
+            - listitem [ref=f10e441]:
+              - link "Master's in AI" [ref=f10e442] [cursor=pointer]:
+                - /url: https://www.edx.org/masters/online-masters-in-artificial-intelligence
+            - listitem [ref=f10e443]:
+              - link "Master's in Data Science" [ref=f10e444] [cursor=pointer]:
+                - /url: https://www.edx.org/masters/online-masters-in-data-science
+          - generic [ref=f10e445]:
+            - link "see more Undergraduate Degrees" [ref=f10e446] [cursor=pointer]:
+              - /url: https://www.edx.org/bachelors
+            - link "see more Graduate Degrees" [ref=f10e447] [cursor=pointer]:
+              - /url: https://www.edx.org/masters
+            - link "see more Doctorate Degrees" [ref=f10e448] [cursor=pointer]:
+              - /url: https://www.edx.org/doctorate
+        - generic [ref=f10e449]:
+          - text: Helpful Resources
+          - list [ref=f10e450]:
+            - listitem [ref=f10e451]:
+              - link "Benefits of a Verified Certificate" [ref=f10e452] [cursor=pointer]:
+                - /url: https://www.edx.org/verified-certificate
+            - listitem [ref=f10e453]:
+              - link "How to Get Financial Assistance" [ref=f10e454] [cursor=pointer]:
+                - /url: https://www.edx.org/resources/how-to-get-financial-assistance-for-edx-courses
+            - listitem [ref=f10e455]:
+              - link "How to Audit a Course" [ref=f10e456] [cursor=pointer]:
+                - /url: https://www.edx.org/resources/how-to-audit-an-edx-class
+            - listitem [ref=f10e457]:
+              - link "Become a Social Media Manager" [ref=f10e458] [cursor=pointer]:
+                - /url: https://www.edx.org/become/how-to-become-a-social-media-manager
+            - listitem [ref=f10e459]:
+              - link "Become a Cybersecurity Analyst" [ref=f10e460] [cursor=pointer]:
+                - /url: https://www.edx.org/become/how-to-become-a-cybersecurity-analyst
+            - listitem [ref=f10e461]:
+              - link "Become a Data Scientist" [ref=f10e462] [cursor=pointer]:
+                - /url: https://www.edx.org/become/how-to-become-a-data-scientist
+            - listitem [ref=f10e463]:
+              - link "Become a Software Developer" [ref=f10e464] [cursor=pointer]:
+                - /url: https://www.edx.org/become/how-to-become-a-software-developer
+            - listitem [ref=f10e465]:
+              - link "Become an AI Engineer" [ref=f10e466] [cursor=pointer]:
+                - /url: https://www.edx.org/become/how-to-become-an-ai-engineer
+            - listitem [ref=f10e467]:
+              - link "Career Resource Network" [ref=f10e468] [cursor=pointer]:
+                - /url: http://careers.edx.org/
+          - link "see more Resources" [ref=f10e470] [cursor=pointer]:
+            - /url: https://www.edx.org/resources
+      - generic [ref=f10e472]:
+        - generic [ref=f10e473]:
+          - text: edx
+          - list [ref=f10e474]:
+            - listitem [ref=f10e475]:
+              - link "Partner With Us" [ref=f10e476] [cursor=pointer]:
+                - /url: https://business.edx.org/partner?_gl=1*4owngl*_gcl_au*Nzc1ODIwNTQ0LjE3NDY4MjI5NTY.*_ga*OTc4NDQxMDIzLjE3NTEzMTAxOTY.*_ga_D3KS4KMDT0*czE3NTI1MDM2NjEkbzUyJGcxJHQxNzUyNTAzODY5JGoyOSRsMCRoMA..
+            - listitem [ref=f10e477]:
+              - link "About" [ref=f10e478] [cursor=pointer]:
+                - /url: https://www.edx.org/about-us
+            - listitem [ref=f10e479]:
+              - link "edX For Business" [ref=f10e480] [cursor=pointer]:
+                - /url: https://business.edx.org/?_gl=1*z6vab9*_gcl_au*Nzc1ODIwNTQ0LjE3NDY4MjI5NTY.*_ga*OTc4NDQxMDIzLjE3NTEzMTAxOTY.*_ga_D3KS4KMDT0*czE3NTI1MDM2NjEkbzUyJGcxJHQxNzUyNTAzODY5JGoyOSRsMCRoMA..
+            - listitem [ref=f10e481]:
+              - link "Affiliates" [ref=f10e482] [cursor=pointer]:
+                - /url: https://www.edx.org/affiliate-program
+            - listitem [ref=f10e483]:
+              - link "Open edX" [ref=f10e484] [cursor=pointer]:
+                - /url: https://open.edx.org/?_gl=1*z6vab9*_gcl_au*Nzc1ODIwNTQ0LjE3NDY4MjI5NTY.*_ga*OTc4NDQxMDIzLjE3NTEzMTAxOTY.*_ga_D3KS4KMDT0*czE3NTI1MDM2NjEkbzUyJGcxJHQxNzUyNTAzODY5JGoyOSRsMCRoMA..
+            - listitem [ref=f10e485]:
+              - link "2U Advisory Council" [ref=f10e486] [cursor=pointer]:
+                - /url: https://www.edx.org/advisory-groups
+            - listitem [ref=f10e487]:
+              - link "Careers" [ref=f10e488] [cursor=pointer]:
+                - /url: https://www.edx.org/careers
+            - listitem [ref=f10e489]:
+              - link "News" [ref=f10e490] [cursor=pointer]:
+                - /url: https://press.edx.org/?_gl=1*ldiou9*_gcl_au*Nzc1ODIwNTQ0LjE3NDY4MjI5NTY.*_ga*OTc4NDQxMDIzLjE3NTEzMTAxOTY.*_ga_D3KS4KMDT0*czE3NTI1MDM2NjEkbzUyJGcxJHQxNzUyNTAzODY5JGoyOSRsMCRoMA..
+        - generic [ref=f10e491]:
+          - text: Connect
+          - list [ref=f10e492]:
+            - listitem [ref=f10e493]:
+              - link "Idea Hub" [ref=f10e494] [cursor=pointer]:
+                - /url: https://www.edx.org/resources
+            - listitem [ref=f10e495]:
+              - link "Contact Us" [ref=f10e496] [cursor=pointer]:
+                - /url: https://courses.edx.org/support/contact_us?_gl=1*9roxgx*_gcl_au*Nzc1ODIwNTQ0LjE3NDY4MjI5NTY.*_ga*OTc4NDQxMDIzLjE3NTEzMTAxOTY.*_ga_D3KS4KMDT0*czE3NTI1MDM2NjEkbzUyJGcxJHQxNzUyNTAzODY5JGoyOSRsMCRoMA..
+            - listitem [ref=f10e497]:
+              - link "Help Center" [ref=f10e498] [cursor=pointer]:
+                - /url: https://support.edx.org/?_gl=1*9roxgx*_gcl_au*Nzc1ODIwNTQ0LjE3NDY4MjI5NTY.*_ga*OTc4NDQxMDIzLjE3NTEzMTAxOTY.*_ga_D3KS4KMDT0*czE3NTI1MDM2NjEkbzUyJGcxJHQxNzUyNTAzODY5JGoyOSRsMCRoMA..
+            - listitem [ref=f10e499]:
+              - link "Security" [ref=f10e500] [cursor=pointer]:
+                - /url: https://www.edx.org/policy/security
+            - listitem [ref=f10e501]:
+              - link "Media Kit" [ref=f10e502] [cursor=pointer]:
+                - /url: https://www.edx.org/media-kit
+        - generic [ref=f10e503]:
+          - text: Legal
+          - list [ref=f10e504]:
+            - listitem [ref=f10e505]:
+              - link "Terms of Service & Honor Code" [ref=f10e506] [cursor=pointer]:
+                - /url: https://www.edx.org/edx-terms-service
+            - listitem [ref=f10e507]:
+              - link "Privacy Policy" [ref=f10e508] [cursor=pointer]:
+                - /url: https://www.edx.org/edx-privacy-policy
+            - listitem [ref=f10e509]:
+              - link "Cookie Policy" [ref=f10e510] [cursor=pointer]:
+                - /url: https://www.edx.org/edx-privacy-policy/cookies
+            - listitem [ref=f10e511]:
+              - link "Accessibility Policy" [ref=f10e512] [cursor=pointer]:
+                - /url: https://www.edx.org/accessibility
+            - listitem [ref=f10e513]:
+              - link "Trademark Policy" [ref=f10e514] [cursor=pointer]:
+                - /url: https://www.edx.org/trademarks
+            - listitem [ref=f10e515]:
+              - link "Modern Slavery Statement" [ref=f10e516] [cursor=pointer]:
+                - /url: https://www.edx.org/modern-slavery-statement
+            - listitem [ref=f10e517]:
+              - link "Sitemap" [ref=f10e518] [cursor=pointer]:
+                - /url: https://www.edx.org/sitemap
+            - listitem [ref=f10e519]:
+              - link "Your Privacy Choices" [ref=f10e520] [cursor=pointer]:
+                - /url: https://www.edx.org/#
+      - generic [ref=f10e521]:
+        - paragraph [ref=f10e522]: © 2026 edX LLC. All rights reserved.| 深圳市恒宇博科技有限公司
+        - generic [ref=f10e523]:
+          - link [ref=f10e524] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/edx/id945480667?mt=8&external_link=true
+            - img "Download on the App Store" [ref=f10e525]
+          - link [ref=f10e526] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=org.edx.mobile&external_link=true
+            - img "Get it on Google Play" [ref=f10e527]
+  - alert [ref=f10e528]
+  - region "Cookie banner" [active] [ref=f10e529]:
+    - dialog "Privacy" [ref=f10e530]:
+      - generic [ref=f10e532]:
+        - generic [ref=f10e535]:
+          - text: We use cookies to enhance your experience on our site, analyze site usage, personalize ads, and provide social media features. We also share information about your use of our site with our social media, advertising and analytics partners. You can opt-out of our use of cookies and personal information sharing by clicking on "Your Privacy Choices".
+          - link "More information about your privacy, opens in a new tab" [ref=f10e536] [cursor=pointer]:
+            - /url: https://www.edx.org/edx-privacy-policy/cookies
+            - text: Cookie Policy
+        - generic [ref=f10e538]:
+          - button "Your Privacy Choices" [ref=f10e539] [cursor=pointer]
+          - button "Accept Cookies" [ref=f10e540] [cursor=pointer]
+      - button "Close" [ref=f10e542] [cursor=pointer]

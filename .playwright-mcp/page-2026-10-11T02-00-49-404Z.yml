@@ -1,0 +1,494 @@
+- generic [active] [ref=f21e1]:
+  - generic [ref=f21e3]:
+    - generic [ref=f21e7]:
+      - paragraph [ref=f21e8]:
+        - text: We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see our
+        - link "Cookie Policy" [ref=f21e9] [cursor=pointer]:
+          - /url: https://www.elsevier.com/legal/cookienotice
+        - text: .
+      - generic [ref=f21e10]:
+        - button "Accept all cookies" [ref=f21e11] [cursor=pointer]
+        - button "Cookie settings" [ref=f21e16] [cursor=pointer]
+    - generic [ref=f21e21]:
+      - generic [ref=f21e24]:
+        - text: "Shipping delays: Print book orders placed on September 30th through October 15th will ship only after this period. eBooks are available immediately."
+        - link [ref=f21e26] [cursor=pointer]:
+          - /url: https://www.elsevier.support/ecommerce/contact
+          - generic [ref=f21e27]:
+            - text: Learn
+            - generic [ref=f21e28]: more
+      - banner [ref=f21e31]:
+        - generic [ref=f21e33]:
+          - link "Elsevier Global Shop" [ref=f21e34] [cursor=pointer]:
+            - /url: /
+            - img "Elsevier" [ref=f21e36]
+          - generic [ref=f21e37]:
+            - generic [ref=f21e38]:
+              - navigation "Main site navigation"
+              - generic [ref=f21e39]:
+                - button "Open search" [ref=f21e41] [cursor=pointer]
+                - button "0 items in shopping cart. View Cart" [ref=f21e49] [cursor=pointer]
+                - button "US, Country/Region" [ref=f21e53] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f21e56]: US
+            - button "Open main site navigation" [ref=f21e58] [cursor=pointer]
+    - main [ref=f21e64]:
+      - generic [ref=f21e65]: Save up to 30% off all research eBooks
+      - navigation "Breadcrumbs" [ref=f21e70]:
+        - list [ref=f21e71]:
+          - listitem [ref=f21e72]:
+            - link "Computer science" [ref=f21e77] [cursor=pointer]:
+              - /url: /books/subjects/physical-sciences-and-engineering/computer-science
+      - article [ref=f21e80]:
+        - generic [ref=f21e81]:
+          - generic [ref=f21e83]:
+            - generic [ref=f21e84]:
+              - heading "Digital Design and Computer Architecture, RISC-V Edition" [level=1] [ref=f21e86]
+              - list [ref=f21e87]:
+                - listitem [ref=f21e88]:
+                  - generic [ref=f21e89]:
+                    - text: •
+                    - generic [ref=f21e90]: 1st Edition - July 12, 2021
+                - listitem [ref=f21e91]:
+                  - generic [ref=f21e92]:
+                    - text: •
+                    - generic [ref=f21e93]: Latest edition
+                - listitem [ref=f21e94]:
+                  - generic [ref=f21e95]:
+                    - text: •
+                    - generic [ref=f21e96]:
+                      - text: "Imprint:"
+                      - link "Morgan Kaufmann" [ref=f21e97] [cursor=pointer]:
+                        - /url: /book-imprints/morgan-kaufmann
+                - listitem [ref=f21e99]:
+                  - generic [ref=f21e100]:
+                    - text: •
+                    - generic [ref=f21e101]: "Authors: Sarah Harris, David Harris"
+                - listitem [ref=f21e102]:
+                  - generic [ref=f21e103]:
+                    - text: •
+                    - generic [ref=f21e104]: "Language: English"
+                - listitem [ref=f21e105]:
+                  - generic [ref=f21e106]:
+                    - text: •
+                    - generic [ref=f21e107]:
+                      - text: "Paperback ISBN: 9780128200643"
+                      - generic [ref=f21e108]: 9 7 8 - 0 - 1 2 - 8 2 0 0 6 4 - 3
+                - listitem [ref=f21e110]:
+                  - generic [ref=f21e111]:
+                    - text: •
+                    - generic [ref=f21e112]:
+                      - text: "eBook ISBN: 9780128200650"
+                      - generic [ref=f21e113]: 9 7 8 - 0 - 1 2 - 8 2 0 0 6 5 - 0
+              - paragraph [ref=f21e116]:
+                - generic [ref=f21e117]: The newest addition to the Harris and Harris family of Digital Design and Computer Architecture books, this RISC-V Edition covers the fundamentals of digital logic design and reinf…
+                - link "Read more" [ref=f21e118] [cursor=pointer]:
+                  - /url: "#full-description"
+            - generic [ref=f21e124]:
+              - img "Digital Design and Computer Architecture, RISC-V Edition" [ref=f21e125]
+              - generic [ref=f21e129]:
+                - paragraph [ref=f21e130]: From
+                - paragraph [ref=f21e131]:
+                  - generic [ref=f21e132]: US $55.29
+                  - text: US $55.29
+                - paragraph [ref=f21e133]: excl. sales tax
+                - link [ref=f21e134] [cursor=pointer]:
+                  - /url: "#purchase-options"
+                  - generic [ref=f21e135]:
+                    - text: Purchase
+                    - generic [ref=f21e136]: options
+          - generic [ref=f21e140]:
+            - heading "Purchase options" [level=2] [ref=f21e141]
+            - generic [ref=f21e145]:
+              - group [ref=f21e147]:
+                - radio "Bundle" [checked]
+                - generic "Bundle (Paperback + eBook) 40% off was US $178.94 US $178.94 now US $107.36 US $107.36" [ref=f21e148] [cursor=pointer]:
+                  - generic [ref=f21e149]:
+                    - paragraph [ref=f21e150]: Bundle
+                    - paragraph [ref=f21e151]: (Paperback + eBook)
+                  - generic [ref=f21e155]:
+                    - paragraph [ref=f21e156]: 40% off
+                    - paragraph [ref=f21e157]:
+                      - generic [ref=f21e158]: was US $178.94
+                      - text: US $178.94
+                    - paragraph [ref=f21e159]:
+                      - generic [ref=f21e160]: now US $107.36
+                      - text: US $107.36
+                - radio "Paperback"
+                - generic "Paperback More about In Stock now US $99.95 US $99.95" [ref=f21e161] [cursor=pointer]:
+                  - generic [ref=f21e165]:
+                    - generic [ref=f21e166]: Paperback
+                    - button "More about In Stock" [ref=f21e168]
+                  - paragraph [ref=f21e175]:
+                    - generic [ref=f21e176]: now US $99.95
+                    - text: US $99.95
+                - radio "eBook"
+                - generic "eBook (EPUB3, PDF, VitalSource) 30% off was US $78.99 US $78.99 now US $55.29 US $55.29" [ref=f21e177] [cursor=pointer]:
+                  - generic [ref=f21e178]:
+                    - generic [ref=f21e179]: eBook
+                    - button "(EPUB3, PDF, VitalSource)" [ref=f21e182]
+                  - generic [ref=f21e186]:
+                    - paragraph [ref=f21e187]: 30% off
+                    - paragraph [ref=f21e188]:
+                      - generic [ref=f21e189]: was US $78.99
+                      - text: US $78.99
+                    - paragraph [ref=f21e190]:
+                      - generic [ref=f21e191]: now US $55.29
+                      - text: US $55.29
+              - generic [ref=f21e192]:
+                - button "Add to cart, Digital Design and Computer Architecture, RISC-V Edition" [ref=f21e193] [cursor=pointer]
+                - paragraph [ref=f21e204]: Applicable taxes will be calculated at checkout.
+                - paragraph [ref=f21e208]: Free global shipping. No minimum order.
+          - generic [ref=f21e210]:
+            - generic [ref=f21e215]:
+              - heading "Institutional subscription on ScienceDirect" [level=2] [ref=f21e216]
+              - link "Request a sales quote" [ref=f21e217] [cursor=pointer]:
+                - /url: https://www.elsevier.com/contact-sales-books?issn_isbn=9780128200643&product=Digital%20Design%20and%20Computer%20Architecture%2C%20RISC-V%20Edition
+            - generic [ref=f21e226]:
+              - heading "Resources" [level=2] [ref=f21e227]
+              - generic [ref=f21e228]:
+                - link "Companion materials (opens in new tab/window)" [ref=f21e229] [cursor=pointer]:
+                  - /url: https://www.elsevier.com/books-and-journals/book-companion/9780128200643
+                  - generic [ref=f21e230]:
+                    - text: Companion materials
+                    - generic [ref=f21e231]: (opens in new tab/window)
+                - link "Textbook support for instructors (opens in new tab/window)" [ref=f21e235] [cursor=pointer]:
+                  - /url: https://educate.elsevier.com/book/details/9780128200643
+                  - generic [ref=f21e236]:
+                    - text: Textbook support for instructors
+                    - generic [ref=f21e237]: (opens in new tab/window)
+          - generic [ref=f21e241]:
+            - generic [ref=f21e242]:
+              - group [ref=f21e243]:
+                - heading "Description" [level=2] [ref=f21e246] [cursor=pointer]
+                - generic [ref=f21e251]:
+                  - paragraph [ref=f21e252]: The newest addition to the Harris and Harris family of Digital Design and Computer Architecture books, this RISC-V Edition covers the fundamentals of digital logic design and reinforces logic concepts through the design of a RISC-V microprocessor. Combining an engaging and humorous writing style with an updated and hands-on approach to digital design, this book takes the reader from the fundamentals of digital logic to the actual design of a processor. By the end of this book, readers will be able to build their own RISC-V microprocessor and will have a top-to-bottom understanding of how it works.
+                  - paragraph [ref=f21e253]: Beginning with digital logic gates and progressing to the design of combinational and sequential circuits, this book uses these fundamental building blocks as the basis for designing a RISC-V processor. SystemVerilog and VHDL are integrated throughout the text in examples illustrating the methods and techniques for CAD-based circuit design. The companion website includes a chapter on I/O systems with practical examples that show how to use SparkFun’s RED-V RedBoard to communicate with peripheral devices such as LCDs, Bluetooth radios, and motors.
+                  - paragraph [ref=f21e254]: This book will be a valuable resource for students taking a course that combines digital logic and computer architecture or students taking a two-quarter sequence in digital logic and computer organization/architecture.
+              - group [ref=f21e255]:
+                - heading "Key features" [level=2] [ref=f21e258] [cursor=pointer]
+                - text: • • • • • •
+              - group [ref=f21e261]:
+                - heading "Readership" [level=2] [ref=f21e264] [cursor=pointer]
+              - group [ref=f21e267]:
+                - heading "Table of contents" [level=2] [ref=f21e270] [cursor=pointer]
+              - group [ref=f21e273]:
+                - heading "Product details" [level=2] [ref=f21e276] [cursor=pointer]
+              - group [ref=f21e279]:
+                - heading "About the authors" [level=2] [ref=f21e282] [cursor=pointer]
+              - group [ref=f21e285]:
+                - heading "Accessibility metadata" [level=2] [ref=f21e288] [cursor=pointer]
+                - text: • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+              - group [ref=f21e291]:
+                - heading "View book on ScienceDirect" [level=2] [ref=f21e294] [cursor=pointer]
+            - generic [ref=f21e297]:
+              - heading "Related books" [level=2] [ref=f21e299]
+              - generic [ref=f21e302]:
+                - generic [ref=f21e305]:
+                  - generic [ref=f21e306] [cursor=pointer]
+                  - generic [ref=f21e307]:
+                    - link "Title Confidential Computing" [ref=f21e309] [cursor=pointer]:
+                      - /url: /books/confidential-computing/yao/978-0-443-54067-7
+                      - text: Confidential Computing
+                    - paragraph [ref=f21e310]: 1st Edition - September 9, 2026
+                    - paragraph [ref=f21e311]: Jiewen Yao
+                    - paragraph [ref=f21e313]: Paperback
+                - generic [ref=f21e316]:
+                  - generic [ref=f21e317] [cursor=pointer]
+                  - generic [ref=f21e318]:
+                    - link "Title Computational Intelligence in Mechatronics" [ref=f21e320] [cursor=pointer]:
+                      - /url: /books/computational-intelligence-in-mechatronics/mellal/978-0-443-27580-7
+                      - text: Computational Intelligence in Mechatronics
+                    - paragraph [ref=f21e321]: 1st Edition - September 1, 2026
+                    - paragraph [ref=f21e322]: Mohamed Arezki Mellal
+                    - paragraph [ref=f21e324]: Paperback
+                - generic [ref=f21e327]:
+                  - generic [ref=f21e328] [cursor=pointer]
+                  - generic [ref=f21e329]:
+                    - link "Title RISC-V System-on-Chip Design" [ref=f21e331] [cursor=pointer]:
+                      - /url: /books/risc-v-system-on-chip-design/harris/978-0-323-99498-9
+                      - text: RISC-V System-on-Chip Design
+                    - paragraph [ref=f21e332]: 1st Edition - July 1, 2026
+                    - paragraph [ref=f21e333]: David Harris + 3 more
+                    - paragraph [ref=f21e335]: Paperback
+                - generic [ref=f21e338]:
+                  - generic [ref=f21e339] [cursor=pointer]
+                  - generic [ref=f21e340]:
+                    - link "Title Advances in Fog Computing and the Internet of Things for Smart Healthcare" [ref=f21e342] [cursor=pointer]:
+                      - /url: /books/advances-in-fog-computing-and-the-internet-of-things-for-smart-healthcare/awotunde/978-0-443-33441-2
+                      - text: Advances in Fog Computing and the Internet of Things for Smart Healthcare
+                    - paragraph [ref=f21e343]: 1st Edition - November 18, 2025
+                    - paragraph [ref=f21e344]: Joseph Bamidele Awotunde + 3 more
+                    - paragraph [ref=f21e346]: Paperback
+                - generic [ref=f21e349]:
+                  - generic [ref=f21e350] [cursor=pointer]
+                  - generic [ref=f21e351]:
+                    - link "Title Fundamentals of Fog Computing and the Internet of Things for Smart Healthcare" [ref=f21e353] [cursor=pointer]:
+                      - /url: /books/fundamentals-of-fog-computing-and-the-internet-of-things-for-smart-healthcare/awotunde/978-0-443-33439-9
+                      - text: Fundamentals of Fog Computing and the Internet of Things for Smart Healthcare
+                    - paragraph [ref=f21e354]: 1st Edition - November 13, 2025
+                    - paragraph [ref=f21e355]: Joseph Bamidele Awotunde + 3 more
+                    - paragraph [ref=f21e357]: Paperback
+                - generic [ref=f21e360]:
+                  - generic [ref=f21e361] [cursor=pointer]
+                  - generic [ref=f21e362]:
+                    - link "Title Energy-Efficient Devices and Circuits for Neuromorphic Computing" [ref=f21e364] [cursor=pointer]:
+                      - /url: /books/energy-efficient-devices-and-circuits-for-neuromorphic-computing/khanday/978-0-443-29981-0
+                      - text: Energy-Efficient Devices and Circuits for Neuromorphic Computing
+                    - paragraph [ref=f21e365]: 1st Edition - November 12, 2025
+                    - paragraph [ref=f21e366]: Farooq Ahmad Khanday
+                    - paragraph [ref=f21e368]: Paperback
+                - generic [ref=f21e371]:
+                  - generic [ref=f21e372] [cursor=pointer]
+                  - generic [ref=f21e373]:
+                    - link "Title Computer Architecture" [ref=f21e375] [cursor=pointer]:
+                      - /url: /books/computer-architecture/hennessy/978-0-443-15406-5
+                      - text: Computer Architecture
+                    - paragraph [ref=f21e376]: 7th Edition - December 2, 2025
+                    - paragraph [ref=f21e377]: John L. Hennessy + 2 more
+                    - paragraph [ref=f21e379]: Paperback
+                - generic [ref=f21e382]:
+                  - generic [ref=f21e383] [cursor=pointer]
+                  - generic [ref=f21e384]:
+                    - link "Title Iris and Periocular Recognition using Deep Learning" [ref=f21e386] [cursor=pointer]:
+                      - /url: /books/iris-and-periocular-recognition-using-deep-learning/kumar/978-0-443-27318-6
+                      - text: Iris and Periocular Recognition using Deep Learning
+                    - paragraph [ref=f21e387]: 1st Edition - June 19, 2024
+                    - paragraph [ref=f21e388]: Ajay Kumar
+                    - paragraph [ref=f21e390]: Paperback
+                - generic [ref=f21e393]:
+                  - generic [ref=f21e394] [cursor=pointer]
+                  - generic [ref=f21e395]:
+                    - link "Title Thinking Machines" [ref=f21e397] [cursor=pointer]:
+                      - /url: /books/thinking-machines/takano/978-0-12-818279-6
+                      - text: Thinking Machines
+                    - paragraph [ref=f21e398]: 1st Edition - April 7, 2021
+                    - paragraph [ref=f21e399]: Shigeyuki Takano
+                    - paragraph [ref=f21e401]: Paperback
+    - contentinfo [ref=f21e402]:
+      - generic [ref=f21e407]:
+        - navigation [ref=f21e409]:
+          - generic [ref=f21e410]:
+            - heading "Useful links" [level=2] [ref=f21e411]
+            - list [ref=f21e412]:
+              - listitem [ref=f21e413]:
+                - link "Book awards" [ref=f21e414] [cursor=pointer]:
+                  - /url: /books/award-books
+              - listitem [ref=f21e419]:
+                - link "Book bestsellers" [ref=f21e420] [cursor=pointer]:
+                  - /url: /books/book-bestsellers
+              - listitem [ref=f21e425]:
+                - link "Book imprints" [ref=f21e426] [cursor=pointer]:
+                  - /url: /book-imprints
+              - listitem [ref=f21e431]:
+                - link "Book pre-order" [ref=f21e432] [cursor=pointer]:
+                  - /url: /books/upcoming-book-releases
+              - listitem [ref=f21e437]:
+                - link "Book series (opens in new tab/window)" [ref=f21e438] [cursor=pointer]:
+                  - /url: https://www.elsevier.com/books-and-journals/book-series
+                  - generic [ref=f21e440]:
+                    - text: Book series
+                    - generic [ref=f21e441]: (opens in new tab/window)
+              - listitem [ref=f21e444]:
+                - link "Flexible eBook solutions" [ref=f21e445] [cursor=pointer]:
+                  - /url: /books/flexible-ebook-solutions
+              - listitem [ref=f21e450]:
+                - link "Journal bestsellers" [ref=f21e451] [cursor=pointer]:
+                  - /url: /journals/journal-bestsellers
+              - listitem [ref=f21e456]:
+                - link "New book releases" [ref=f21e457] [cursor=pointer]:
+                  - /url: /books/new-book-releases
+              - listitem [ref=f21e462]:
+                - link "Student corner (opens in new tab/window)" [ref=f21e463] [cursor=pointer]:
+                  - /url: /special-offers/student-corner
+                  - generic [ref=f21e465]:
+                    - text: Student corner
+                    - generic [ref=f21e466]: (opens in new tab/window)
+        - navigation [ref=f21e470]:
+          - generic [ref=f21e471]:
+            - heading "Quick help" [level=2] [ref=f21e472]
+            - list [ref=f21e473]:
+              - listitem [ref=f21e474]:
+                - link "eBook formats (opens in new tab/window)" [ref=f21e475] [cursor=pointer]:
+                  - /url: https://www.elsevier.support/ecommerce/answer/what-ebook-formats-are-available
+                  - generic [ref=f21e477]:
+                    - text: eBook formats
+                    - generic [ref=f21e478]: (opens in new tab/window)
+              - listitem [ref=f21e481]:
+                - link "My account (opens in new tab/window)" [ref=f21e482] [cursor=pointer]:
+                  - /url: https://secure.elsevier.com/customer/account
+                  - generic [ref=f21e484]:
+                    - text: My account
+                    - generic [ref=f21e485]: (opens in new tab/window)
+              - listitem [ref=f21e488]:
+                - link "Returns & refunds (opens in new tab/window)" [ref=f21e489] [cursor=pointer]:
+                  - /url: https://service.elsevier.com/app/answers/list/c/10539/supporthub/ecommerce/
+                  - generic [ref=f21e491]:
+                    - text: Returns & refunds
+                    - generic [ref=f21e492]: (opens in new tab/window)
+              - listitem [ref=f21e495]:
+                - link "Shipping & delivery (opens in new tab/window)" [ref=f21e496] [cursor=pointer]:
+                  - /url: https://service.elsevier.com/app/answers/list/c/10538/supporthub/ecommerce/
+                  - generic [ref=f21e498]:
+                    - text: Shipping & delivery
+                    - generic [ref=f21e499]: (opens in new tab/window)
+              - listitem [ref=f21e502]:
+                - link "Subscriptions & renewals (opens in new tab/window)" [ref=f21e503] [cursor=pointer]:
+                  - /url: https://service.elsevier.com/app/answers/list/c/10537/supporthub/ecommerce/
+                  - generic [ref=f21e505]:
+                    - text: Subscriptions & renewals
+                    - generic [ref=f21e506]: (opens in new tab/window)
+              - listitem [ref=f21e509]:
+                - link "Support & contact (opens in new tab/window)" [ref=f21e510] [cursor=pointer]:
+                  - /url: https://service.elsevier.com/app/home/supporthub/ecommerce/
+                  - generic [ref=f21e512]:
+                    - text: Support & contact
+                    - generic [ref=f21e513]: (opens in new tab/window)
+              - listitem [ref=f21e516]:
+                - link "Tax exempt orders (opens in new tab/window)" [ref=f21e517] [cursor=pointer]:
+                  - /url: https://www.elsevier.support/ecommerce/answer/can-i-place-a-taxexempt-order-online
+                  - generic [ref=f21e519]:
+                    - text: Tax exempt orders
+                    - generic [ref=f21e520]: (opens in new tab/window)
+              - listitem [ref=f21e523]:
+                - link "Withdrawal order" [ref=f21e524] [cursor=pointer]:
+                  - /url: https://www.elsevier.support/ecommerce-withdraw-order/contact
+        - navigation [ref=f21e530]:
+          - generic [ref=f21e531]:
+            - heading "Solutions" [level=2] [ref=f21e532]
+            - list [ref=f21e533]:
+              - listitem [ref=f21e534]:
+                - link "ClinicalKey (opens in new tab/window)" [ref=f21e535] [cursor=pointer]:
+                  - /url: https://www.clinicalkey.com/
+                  - generic [ref=f21e537]:
+                    - text: ClinicalKey
+                    - generic [ref=f21e538]: (opens in new tab/window)
+              - listitem [ref=f21e541]:
+                - link "ClinicalKey AI (opens in new tab/window)" [ref=f21e542] [cursor=pointer]:
+                  - /url: https://subscriptions.elsevier.com/clinicalkey-ai?utm_campaign=D2C+CKAI+Product+Launch2227NA240023NA&utm_source=ECOM_NA&utm_medium=DG&utm_content=&campid=2227NA240023&dgcid=HS_NA_D2C+CKAI+Product+Launch_2227NA240023_ECOM_DG_CS
+                  - generic [ref=f21e544]:
+                    - text: ClinicalKey AI
+                    - generic [ref=f21e545]: (opens in new tab/window)
+              - listitem [ref=f21e548]:
+                - link "Embase (opens in new tab/window)" [ref=f21e549] [cursor=pointer]:
+                  - /url: /embase
+                  - generic [ref=f21e551]:
+                    - text: Embase
+                    - generic [ref=f21e552]: (opens in new tab/window)
+              - listitem [ref=f21e555]:
+                - link "Evolve (opens in new tab/window)" [ref=f21e556] [cursor=pointer]:
+                  - /url: https://www.elsevier.com/solutions/evolve
+                  - generic [ref=f21e558]:
+                    - text: Evolve
+                    - generic [ref=f21e559]: (opens in new tab/window)
+              - listitem [ref=f21e562]:
+                - link "Mendeley (opens in new tab/window)" [ref=f21e563] [cursor=pointer]:
+                  - /url: https://www.elsevier.com/solutions/mendeley
+                  - generic [ref=f21e565]:
+                    - text: Mendeley
+                    - generic [ref=f21e566]: (opens in new tab/window)
+              - listitem [ref=f21e569]:
+                - link "Knovel (opens in new tab/window)" [ref=f21e570] [cursor=pointer]:
+                  - /url: https://www.elsevier.com/solutions/knovel-engineering-information
+                  - generic [ref=f21e572]:
+                    - text: Knovel
+                    - generic [ref=f21e573]: (opens in new tab/window)
+              - listitem [ref=f21e576]:
+                - link "Reaxys (opens in new tab/window)" [ref=f21e577] [cursor=pointer]:
+                  - /url: https://www.elsevier.com/solutions/reaxys
+                  - generic [ref=f21e579]:
+                    - text: Reaxys
+                    - generic [ref=f21e580]: (opens in new tab/window)
+              - listitem [ref=f21e583]:
+                - link "ScienceDirect (opens in new tab/window)" [ref=f21e584] [cursor=pointer]:
+                  - /url: https://www.elsevier.com/solutions/sciencedirect
+                  - generic [ref=f21e586]:
+                    - text: ScienceDirect
+                    - generic [ref=f21e587]: (opens in new tab/window)
+        - navigation [ref=f21e591]:
+          - generic [ref=f21e592]:
+            - heading "About" [level=2] [ref=f21e593]
+            - list [ref=f21e594]:
+              - listitem [ref=f21e595]:
+                - link "About Elsevier (opens in new tab/window)" [ref=f21e596] [cursor=pointer]:
+                  - /url: https://www.elsevier.com/about
+                  - generic [ref=f21e598]:
+                    - text: About Elsevier
+                    - generic [ref=f21e599]: (opens in new tab/window)
+              - listitem [ref=f21e602]:
+                - link "Careers (opens in new tab/window)" [ref=f21e603] [cursor=pointer]:
+                  - /url: https://www.elsevier.com/about/careers
+                  - generic [ref=f21e605]:
+                    - text: Careers
+                    - generic [ref=f21e606]: (opens in new tab/window)
+              - listitem [ref=f21e609]:
+                - link "Newsroom (opens in new tab/window)" [ref=f21e610] [cursor=pointer]:
+                  - /url: https://www.elsevier.com/about/newsroom
+                  - generic [ref=f21e612]:
+                    - text: Newsroom
+                    - generic [ref=f21e613]: (opens in new tab/window)
+              - listitem [ref=f21e616]:
+                - link "Your legal guarantee rights (EU) (opens in new tab/window)" [ref=f21e617] [cursor=pointer]:
+                  - /url: https://assets.ctfassets.net/ahaoy9whsr8a/361zzYWGjrkjcqmYw9qHxT/06f64ef91657ad5d8d704ce06659d7de/Legal_guarantee_notice_ENN.pdf
+                  - generic [ref=f21e619]:
+                    - text: Your legal guarantee rights (EU)
+                    - generic [ref=f21e620]: (opens in new tab/window)
+      - navigation "Social media accounts" [ref=f21e624]:
+        - generic [ref=f21e626]:
+          - link "LinkedIn (opens in new tab/window)" [ref=f21e627] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/elsevier
+            - generic [ref=f21e628]:
+              - img "LinkedIn" [ref=f21e630]
+              - generic [ref=f21e632]: (opens in new tab/window)
+          - link "Twitter (opens in new tab/window)" [ref=f21e633] [cursor=pointer]:
+            - /url: https://twitter.com/ElsevierConnect
+            - generic [ref=f21e634]:
+              - img "Twitter" [ref=f21e636]
+              - generic [ref=f21e638]: (opens in new tab/window)
+          - link "Facebook (opens in new tab/window)" [ref=f21e639] [cursor=pointer]:
+            - /url: https://www.facebook.com/ElsevierConnect
+            - generic [ref=f21e640]:
+              - img "Facebook" [ref=f21e642]
+              - generic [ref=f21e644]: (opens in new tab/window)
+          - link "YouTube (opens in new tab/window)" [ref=f21e645] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/elsevier/
+            - generic [ref=f21e646]:
+              - img "YouTube" [ref=f21e648]
+              - generic [ref=f21e650]: (opens in new tab/window)
+      - generic [ref=f21e651]:
+        - link [ref=f21e652] [cursor=pointer]:
+          - /url: https://www.elsevier.com
+          - img "Elsevier" [ref=f21e654]
+        - link [ref=f21e655] [cursor=pointer]:
+          - /url: https://www.relx.com
+          - img "Relx" [ref=f21e657]
+      - generic [ref=f21e658]:
+        - paragraph [ref=f21e659]: Copyright © 2026 Elsevier, its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+        - navigation "Privacy and compliance" [ref=f21e660]:
+          - list [ref=f21e662]:
+            - listitem [ref=f21e663]:
+              - link "Terms & conditions (opens in new tab/window)" [ref=f21e664] [cursor=pointer]:
+                - /url: https://www.elsevier.com/legal/elsevier-website-terms-and-conditions
+                - generic [ref=f21e665]:
+                  - text: Terms & conditions
+                  - generic [ref=f21e666]: (opens in new tab/window)
+            - listitem [ref=f21e670]:
+              - link "Privacy policy (opens in new tab/window)" [ref=f21e671] [cursor=pointer]:
+                - /url: https://www.elsevier.com/legal/privacy-policy
+                - generic [ref=f21e672]:
+                  - text: Privacy policy
+                  - generic [ref=f21e673]: (opens in new tab/window)
+            - listitem [ref=f21e677]:
+              - link "Accessibility statement (opens in new tab/window)" [ref=f21e678] [cursor=pointer]:
+                - /url: https://www.elsevier.support/ecommerce/answer/-elsevier-ecommerce-accessibility-statement
+                - generic [ref=f21e679]:
+                  - text: Accessibility statement
+                  - generic [ref=f21e680]: (opens in new tab/window)
+            - listitem [ref=f21e684]:
+              - button "Cookie Settings" [ref=f21e685] [cursor=pointer]
+            - listitem [ref=f21e687]:
+              - link "Support & contact (opens in new tab/window)" [ref=f21e688] [cursor=pointer]:
+                - /url: https://service.elsevier.com/app/home/supporthub/ecommerce/
+                - generic [ref=f21e689]:
+                  - text: Support & contact
+                  - generic [ref=f21e690]: (opens in new tab/window)
+  - alert [ref=f21e694]

@@ -1,0 +1,93 @@
+- generic [active] [ref=f68e1]:
+  - generic [ref=f68e2]:
+    - alert [ref=f68e4]: Website and digital products system maintenance - Sunday, October 18 Details
+    - generic [ref=f68e5]:
+      - banner [ref=f68e7]:
+        - generic [ref=f68e8]:
+          - navigation [ref=f68e9]:
+            - generic [ref=f68e11]:
+              - link "Menu" [ref=f68e13] [cursor=pointer]:
+                - /url: "#"
+              - generic [ref=f68e17] [cursor=pointer]
+          - link "Home Page" [ref=f68e21] [cursor=pointer]:
+            - /url: /
+            - img "Home" [ref=f68e22]
+          - generic [ref=f68e24]:
+            - button "LOG IN" [ref=f68e25] [cursor=pointer]
+            - button "0 ITEMS in cart; view cart" [ref=f68e28] [cursor=pointer]
+      - contentinfo [ref=f68e32]:
+        - generic [ref=f68e34]:
+          - generic [ref=f68e37]:
+            - heading "SIGN UP FOR OUR NEWSLETTER" [level=3] [ref=f68e42]
+            - generic [ref=f68e43]:
+              - generic [ref=f68e44]: "Email Address:"
+              - textbox "Email Address:" [ref=f68e45]
+              - button "Sign Up" [disabled] [ref=f68e46]
+            - generic [ref=f68e48]:
+              - text: By signing up you agree to W. W. Norton's
+              - link "privacy policy" [ref=f68e49] [cursor=pointer]:
+                - /url: /privacy-policy
+              - text: and
+              - link "terms of use" [ref=f68e50] [cursor=pointer]:
+                - /url: /terms-of-use
+              - text: .
+          - list [ref=f68e52]:
+            - listitem [ref=f68e53]:
+              - link [ref=f68e55] [cursor=pointer]:
+                - /url: https://bsky.app/profile/wwnorton.com
+                - img "Bluesky" [ref=f68e56]
+            - listitem [ref=f68e57]:
+              - link [ref=f68e59] [cursor=pointer]:
+                - /url: https://www.facebook.com/wwnorton/
+                - img "Facebook" [ref=f68e60]
+            - listitem [ref=f68e61]:
+              - link [ref=f68e63] [cursor=pointer]:
+                - /url: https://www.instagram.com/w.w.norton
+                - img "Instagram" [ref=f68e65]
+            - listitem [ref=f68e66]:
+              - link [ref=f68e68] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@w.w.norton?lang=en
+                - img "TikTok" [ref=f68e69]
+            - listitem [ref=f68e70]:
+              - link [ref=f68e72] [cursor=pointer]:
+                - /url: https://www.threads.com/@w.w.norton
+                - img "Threads" [ref=f68e73]
+            - listitem [ref=f68e74]:
+              - link [ref=f68e76] [cursor=pointer]:
+                - /url: https://x.com/wwnorton
+                - img "X" [ref=f68e77]
+            - listitem [ref=f68e78]:
+              - link [ref=f68e80] [cursor=pointer]:
+                - /url: https://www.youtube.com/@WWNorton/featured
+                - img "YouTube" [ref=f68e81]
+        - list [ref=f68e82]:
+          - listitem [ref=f68e83]:
+            - link "WHO WE ARE" [ref=f68e84] [cursor=pointer]:
+              - /url: /who-we-are
+          - listitem [ref=f68e88]:
+            - link "CAREERS" [ref=f68e89] [cursor=pointer]:
+              - /url: /careers
+          - listitem [ref=f68e93]:
+            - link "HELP" [ref=f68e94] [cursor=pointer]:
+              - /url: /help
+          - listitem [ref=f68e98]:
+            - link "ACCESSIBILITY" [ref=f68e99] [cursor=pointer]:
+              - /url: /accessibility
+          - listitem [ref=f68e103]:
+            - link "PRIVACY POLICY" [ref=f68e104] [cursor=pointer]:
+              - /url: /privacy-policy
+          - listitem [ref=f68e108]:
+            - link "TERMS OF USE" [ref=f68e109] [cursor=pointer]:
+              - /url: /terms-of-use
+          - listitem [ref=f68e113]:
+            - link "CONTACT US" [ref=f68e114] [cursor=pointer]:
+              - /url: /contact-us
+        - link "California Notice at Collection & Privacy Notice" [ref=f68e119] [cursor=pointer]:
+          - /url: /california-notice-at-collection-and-privacy-notice
+        - link "AVOID PUBLISHING SCAMS" [ref=f68e121] [cursor=pointer]:
+          - /url: /contact-us/publishing-scam-alert
+        - generic [ref=f68e122]: Copyright © W. W. Norton & Company, Inc. 2026
+  - iframe [ref=f68e125]:
+    - generic [ref=f69e6]:
+      - text: protected by
+      - strong [ref=f69e7]: reCAPTCHA

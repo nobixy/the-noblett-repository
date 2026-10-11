@@ -1,0 +1,51 @@
+- generic [active] [ref=f78e1]:
+  - banner [ref=f78e2]:
+    - button "Skip to content" [ref=f78e3] [cursor=pointer]
+    - button "Accessibility Feedback" [ref=f78e6] [cursor=pointer]
+    - generic [ref=f78e9]:
+      - link [ref=f78e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=f78e11]
+      - search [ref=f78e12]:
+        - generic [ref=f78e14] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=f78e17]: site:wwnorton.com "They Say / I Say"
+        - button "Search using an image" [ref=f78e20] [cursor=pointer]
+        - button "Search" [ref=f78e22] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=f78e24]:
+      - button "Microsoft Rewards" [ref=f78e25] [cursor=pointer]
+      - link "Sign in" [ref=f78e26] [cursor=pointer]:
+        - /url: javascript:void(0)
+    - navigation "Search Filter" [ref=f78e28]:
+      - list [ref=f78e29]:
+        - listitem [ref=f78e30]:
+          - link "All" [ref=f78e31] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=f78e32]:
+          - link "Web" [ref=f78e33] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=3ec09c053af09486bcd855c4bc594280610a57c967e074864ce008db85c7acf3JmltdHM9MTc5MTU5MDQwMA&ptn=3&ver=2&hsh=4&fclid=070f3a69-1bcd-637c-2839-2d861a1062b6&u=a1L3NlYXJjaD9xPXNpdGUlM2F3d25vcnRvbi5jb20rJTIyVGhleStTYXkrJTJmK0krU2F5JTIyJndlYnNjcD0xJkZPUk09SERSV1ND&ntb=1
+        - listitem [ref=f78e34]:
+          - link "AI Mode" [ref=f78e35] [cursor=pointer]:
+            - /url: /copilotsearch?q=site%3awwnorton.com+%22They+Say+%2f+I+Say%22&FORM=CSSCOP
+        - listitem [ref=f78e38]:
+          - link "Images" [ref=f78e39] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=777730ccacc97ccd1ec3a171f6f1a3d4fbd38b565129e1d4da85367800ce4d6eJmltdHM9MTc5MTU5MDQwMA&ptn=3&ver=2&hsh=4&fclid=070f3a69-1bcd-637c-2839-2d861a1062b6&u=a1L2ltYWdlcy9zZWFyY2g_cT1zaXRlJTNhd3dub3J0b24uY29tKyUyMlRoZXkrU2F5KyUyZitJK1NheSUyMiZGT1JNPUhEUlNDMg&ntb=1
+        - listitem [ref=f78e40]:
+          - link "Videos" [ref=f78e41] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=f825a014d75bfaa7dde72c427b8b1c3be83c1e4538ab925fbb81a49584e693ecJmltdHM9MTc5MTU5MDQwMA&ptn=3&ver=2&hsh=4&fclid=070f3a69-1bcd-637c-2839-2d861a1062b6&u=a1L3ZpZGVvcy9zZWFyY2g_cT1zaXRlJTNhd3dub3J0b24uY29tKyUyMlRoZXkrU2F5KyUyZitJK1NheSUyMiZGT1JNPUhEUlNDMw&ntb=1
+        - listitem [ref=f78e42]:
+          - link "Maps" [ref=f78e43] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=25c62eef63148a82f578b7aeaf63cd8ed3c5c471fdfcf65b7dc67ff9e7d19096JmltdHM9MTc5MTU5MDQwMA&ptn=3&ver=2&hsh=4&fclid=070f3a69-1bcd-637c-2839-2d861a1062b6&u=a1L21hcHM_cT1zaXRlJTNhd3dub3J0b24uY29tKyUyMlRoZXkrU2F5KyUyZitJK1NheSUyMiZGT1JNPUhEUlNDNA&ntb=1
+        - listitem [ref=f78e44]:
+          - link "News" [ref=f78e45] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=e4983c0cb20027eee38dfe8ceecea98ce6ae3d2b605d1d3463a8aef1a41e7343JmltdHM9MTc5MTU5MDQwMA&ptn=3&ver=2&hsh=4&fclid=070f3a69-1bcd-637c-2839-2d861a1062b6&u=a1L25ld3Mvc2VhcmNoP3E9c2l0ZSUzYXd3bm9ydG9uLmNvbSslMjJUaGV5K1NheSslMmYrSStTYXklMjImRk9STT1IRFJTQzY&ntb=1
+        - listitem [ref=f78e46]:
+          - button [ref=f78e47] [cursor=pointer]
+  - contentinfo [ref=f78e51]:
+    - generic [ref=f78e52]:
+      - list:
+        - listitem [ref=f78e53]:
+          - link "Privacy" [ref=f78e54] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=b3d4e8cc3aaaac95f755328aa68493a7ecc22b9ed4fa9df3f6b12a1f023ad056JmltdHM9MTc5MTU5MDQwMA&ptn=3&ver=2&hsh=4&fclid=070f3a69-1bcd-637c-2839-2d861a1062b6&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=f78e55]:
+          - link "Terms" [ref=f78e56] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=76abd213f119d5809d80d2bd68149d9da6056de73afe361ecb67dd317c2f8a1bJmltdHM9MTc5MTU5MDQwMA&ptn=3&ver=2&hsh=4&fclid=070f3a69-1bcd-637c-2839-2d861a1062b6&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1
